@@ -1,0 +1,189 @@
+\documentclass[oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{tikz,pgfplots}
+\usepackage{geometry}
+\geometry{
+  bottom=15mm
+}
+\usepackage{textcomp, gensymb}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!25,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
+\usepackage{background}
+\backgroundsetup{
+scale=1,
+color=black,
+opacity=1,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{Volcano.jpg}
+  }%
+}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{plain}
+
+\begin{document}
+
+\begin{tikzpicture}[font=\sffamily,remember picture,overlay]
+    \path (current page.north west) node[below right,fill={rgb:white,0.55;green,2.5;pink,1.5},minimum 
+    width=\paperwidth,minimum height=3cm](box){};
+    
+    \path (box.west) node[right=7cm,align=center] %<distance can be changed to suit
+    {{\fontsize{45pt}{65pt}\color{white}\textbf{Checklist Summary}}\\[2mm]
+    {\fontsize{30pt}{20pt}\color{white}Shao Hong}\\[2mm]
+    {\fontsize{10pt}{10pt}\color{white}August 2022}};
+    
+\end{tikzpicture}
+
+\vspace{15mm}
+
+\color{white}
+
+\begingroup
+\let\clearpage\relax
+\tableofcontents
+
+\mainmatter
+\endgroup
+\newpage
+
+\chapter{Weather and Climate}
+\begin{minipage}{0.5\textwidth}
+    \section{Factors Influencing\\ Temperature}
+\begin{enumerate}
+    \item Latitude
+    \item Altitude
+    \item Distance from The Sea
+    \begin{enumerate}
+        \item Maritime Effect
+        \item Continental Effect
+    \end{enumerate}
+    \item Cloud Cover
+    \begin{enumerate}
+        \item Presence of Clouds
+        \item Absence of Clouds
+    \end{enumerate}
+\end{enumerate}
+\section{Rainfall}
+\begin{enumerate}
+    \item Convectional Rain
+    \item Relief Rain
+\end{enumerate}
+\section{Pressure and Winds}
+\begin{enumerate}
+    \item Air Pressure
+    \item \normalsize \subsection*{\normalsize Wind}
+    \begin{enumerate}
+        \item Wind Systems
+        \begin{itemize}
+            \item Land Breeze
+            \item Sea Breeze
+        \end{itemize}
+        \item Monsoon Winds
+        \begin{itemize}
+            \item Southwest Monsoon
+            \item Norhteast Monsoon
+        \end{itemize}
+    \end{enumerate}
+\end{enumerate}
+\section{Climatic Types}
+\begin{enumerate}
+    \item Equatorial Climate
+    \item Monsoon Climate
+    \item Cool Temperate Climate \footnotesize (Marine West Coast Climate) \normalsize
+\end{enumerate}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \vspace{4mm}
+    \section{Causes of\\ Climate Change}
+    \begin{enumerate}
+        \item \subsection*{Natural Causes}
+        \begin{itemize}
+            \item Variations in Solar Output
+            \item Volcanic Eruptions
+        \end{itemize}
+        \item \subsection*{Antroprogenic Factors / Human Activity}
+        \begin{itemize}
+            \item Deforestation
+            \begin{enumerate}
+                \item Fewer trees to absorb carbon dioxide
+                \item Carbon oxidation of the soil
+            \end{enumerate}
+            \item Changing Land Use
+            \begin{enumerate}
+                \item Agriculture
+                \item Industries
+                \item Urbanisation
+            \end{enumerate}
+        \end{itemize}
+    \end{enumerate}
+    \section{Greenhouse Effect / Enhanced GE}
+    \section{Impacts of Climate Change}
+    \begin{enumerate}
+        \item Sea Level Rise
+        \item More Frequent Extreme Weather Events 
+        \item Spread of Some Infectious Inset-Borne Diseases
+        \item Lengthening The Growing Season In Certain Regions
+    \end{enumerate}
+    \section{Responses To Climate Change}
+    \begin{enumerate}
+        \item \subsection*{International Level}
+        \begin{itemize}
+            \item Kyoto Protocol
+        \end{itemize}
+    \end{enumerate}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \subsection*{National Level}
+        \begin{itemize}
+            \item Singapore Green Plan 2012
+            \item Green Mark Scheme 
+            \item Plant-A-Tree programme
+        \end{itemize} \vspace{10mm}
+    \chapter{Living With Tectonic Hazards}
+    \section{Internal Stucture of The Earth}
+    \begin{enumerate}
+        \item Core
+        \begin{itemize}
+            \item Intenal Core
+            \item External Core
+        \end{itemize}
+        \item Mantle
+        \item Crust
+    \end{enumerate}
+    \section{Why do Tectonic Plates Move}
+    \begin{enumerate}
+        \item Convection Currents
+        \item Slab-Pull Force
+    \end{enumerate}
+    \section{Types of Plate Boundaries}
+    \begin{enumerate}
+        \item Divergent Plate Boundaries
+        \begin{itemize}
+            \item 
+        \end{itemize}
+    \end{enumerate}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+
+\end{minipage}
+
+\newpage
+
+\end{document}

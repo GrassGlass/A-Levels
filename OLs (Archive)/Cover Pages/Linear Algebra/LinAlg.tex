@@ -1,0 +1,318 @@
+\documentclass[oneside]{book}
+\usepackage[utf8]{inputenc}
+\makeatletter
+\DeclareRobustCommand{\rvdots}{%
+  \vbox{
+    \baselineskip4\p@\lineskiplimit\z@
+    \kern-\p@
+    \hbox{.}\hbox{.}\hbox{.}
+  }}
+\makeatother
+\usepackage[outline]{contour}
+\usepackage{environ}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta}
+\usetikzlibrary{cd}
+\NewEnviron{elaboration}{
+\par
+\begin{tikzpicture}
+\node[rectangle,minimum width=\linewidth] (m) {\begin{minipage}{\linewidth}\BODY\end{minipage}};
+\draw[dashed] (m.south west) rectangle (m.north east);
+\end{tikzpicture}
+}
+\usepackage{cancel}
+\usepackage{stackengine}
+\newcommand\lbr{%
+  \ensurestackMath{\stackengine{0pt}{\lfloor}{\lceil}{O}{c}{F}{F}{L}}}
+\newcommand\rbr{%
+  \ensurestackMath{\stackengine{0pt}{\rfloor}{\rceil}{O}{c}{F}{F}{L}}}
+\usepackage[normalem]{ulem}
+\newcommand\hlg{\bgroup\markoverwith
+  {\textcolor{green}{\rule[-.5ex]{2pt}{2.5ex}}}\ULon}
+\usepackage{mathrsfs}  
+\usepackage{amsmath}
+\makeatletter
+\newcommand{\leqnomode}{\tagsleft@true}
+\newcommand{\reqnomode}{\tagsleft@false}
+\makeatother
+\makeatletter
+\newcommand{\ineq}{\mathrel{\text{\in@eq}}}
+\newcommand{\in@eq}{%
+  \oalign{%
+    \hidewidth$\m@th\in$\hidewidth\cr
+    \noalign{\nointerlineskip\kern1ex}%
+    $\m@th\smash{-}$\cr
+    \noalign{\nointerlineskip\kern-.5ex}%
+  }%
+}
+\newcommand{\notineq}{\mathrel{\text{\notin@eq}}}
+\newcommand{\notin@eq}{%
+  \oalign{%
+    \hidewidth$\m@th\notin$\hidewidth\cr
+    \noalign{\nointerlineskip\kern1ex}%
+    $\m@th\smash{-}$\cr
+    \noalign{\nointerlineskip\kern-.5ex}%
+  }%
+}
+\makeatother
+\usepackage[many]{tcolorbox}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\tcolorboxenvironment{theorem}{
+  colback=orange!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=blue!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\renewcommand{\thetheorem}{\arabic{section}\Alph{theorem}}
+\newtheorem{corollary}[theorem]{Corollary}
+\tcolorboxenvironment{corollary}{
+  colback=pink!25,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\newtheorem{lemma}[theorem]{Lemma}
+\tcolorboxenvironment{lemma}{
+  colback=yellow!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition}
+\tcolorboxenvironment{definition}{
+  colback=black!5,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=white!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\theoremstyle{plain}
+\newtheorem{STheorem}{STheorem}
+\tcolorboxenvironment{STheorem}{
+  colback=green!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=blue!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\renewcommand{\theSTheorem}{\Roman{STheorem}}
+\theoremstyle{remark}
+\newtheorem*{fact}{Fact}
+\tcolorboxenvironment{fact}{
+  colback=white,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=white!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\newtheorem*{note}{Note}
+\tcolorboxenvironment{note}{
+  colback=white,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=white!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+
+\theoremstyle{plain}
+\newtheorem{ZTheorem}{Theorem}[section]
+\tcolorboxenvironment{ZTheorem}{
+  colback=orange!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=blue!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\renewcommand{\theZTheorem}{\arabic{section}Z\Alph{ZTheorem}}
+\newtheorem{ZLemma}[ZTheorem]{Lemma}
+\tcolorboxenvironment{ZLemma}{
+  colback=yellow!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\newtheorem{ZCorollary}[ZTheorem]{Corollary}
+\tcolorboxenvironment{ZCorollary}{
+  colback=pink!25,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+
+\newtheorem{QTheorem}{Theorem}[section]
+\tcolorboxenvironment{QTheorem}{
+  colback=orange!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=blue!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\renewcommand{\theQTheorem}{\arabic{section}Q\Alph{QTheorem}}
+\newtheorem{QLemma}[QTheorem]{Lemma}
+\tcolorboxenvironment{QLemma}{
+  colback=yellow!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\newtheorem{QCorollary}[QTheorem]{Corollary}
+\tcolorboxenvironment{QCorollary}{
+  colback=pink!25,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+
+\newtheorem{RTheorem}{Theorem}[section]
+\tcolorboxenvironment{RTheorem}{
+  colback=orange!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=blue!75!black,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\renewcommand{\theRTheorem}{\arabic{section}R\Alph{RTheorem}}
+\newtheorem{RLemma}[RTheorem]{Lemma}
+\tcolorboxenvironment{RLemma}{
+  colback=yellow!15,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+\newtheorem{RCorollary}[RTheorem]{Corollary}
+\tcolorboxenvironment{RCorollary}{
+  colback=pink!25,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=orange!15,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+
+\newtheorem{innerPLemma}{PLemma}
+\newenvironment{PLemma}[1]
+  {\renewcommand\theinnerPLemma{#1}\innerPLemma}
+  {\endinnerPLemma}
+\tcolorboxenvironment{PLemma}{
+  colback=white,
+  boxrule=1pt,
+  boxsep=1pt,
+  left=2pt,right=2pt,top=2pt,bottom=2pt,
+  oversize=2pt,
+  colframe=black!50,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+
+\usepackage{ stmaryrd }
+\usepackage{ mathrsfs }
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{enumitem}
+
+\usepackage{fullpage}
+
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{plain}
+
+\renewcommand\thesection{\thechapter.\arabic{section}}
+\renewcommand\thechapter{\arabic{chapter}}
+\setcounter{chapter}{-1}
+
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    bottom=15mm
+}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
+\usepackage{miama}
+\usepackage[T1]{fontenc}
+
+
+\begin{document}
+\fmmfamily
+\begin{center}
+    \fontsize{35}{41}\selectfont The Quest To Read Lee
+\end{center}
+\begin{center}
+    \vspace*{\fill}
+\includegraphics[scale=0.5]{Lee Vector Spaces.png}
+\vspace*{\fill}
+\end{center}
+
+\end{document}

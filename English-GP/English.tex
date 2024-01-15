@@ -1,0 +1,742 @@
+\documentclass[oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{soul}
+\usepackage{tikz,pgfplots}
+\usepackage{geometry}
+\geometry{
+  bottom=15mm
+}
+\usepackage{textcomp, gensymb}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
+\usepackage{background}
+\backgroundsetup{
+scale=1,
+color=black,
+opacity=0.13,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg}
+  }%
+}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{plain}
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\usepackage[bottom]{footmisc}
+
+\begin{document}
+
+    \begin{tikzpicture}[font=\sffamily,remember picture,overlay]
+    \path (current page.north west) node[below right,fill=black!70,minimum 
+    width=\paperwidth,minimum height=3cm](box){};
+    
+    \path (box.west) node[right=7.5cm,align=center] %<distance can be changed to suit
+    {{\fontsize{45pt}{65pt}\color{rgb:blue,1.5;white,2.5;black,0}\textbf{English-GP Notes}}\\[2mm]
+    {\fontsize{30pt}{20pt}\color{rgb:blue,0.75;white,3.5;black,0}Grass}\\[2mm]
+    {\fontsize{10pt}{10pt}\color{rgb:blue,0.75;white,3.5;black,0}July 2022}};
+    
+\end{tikzpicture}
+
+\vspace{25mm}
+
+\begingroup
+\let\clearpage\relax
+\tableofcontents
+
+\mainmatter
+\endgroup
+
+
+
+\newpage
+\chapter{Composition}
+\section{Good Vocabulary}
+\subsection{'Advanced' Words}
+\begin{enumerate}
+    \item Crème de la crème / Cream of the crop --- The best\\
+    \footnotesize She was hoping to attract the crème de la crème of the art world to her exhibition. \normalsize
+    \item Blasé --- Bored / Gotten used to / unimpressed / indifferent\\
+    \footnotesize He flies first class so often, he's become blasé about it.\normalsize
+    \item Tour de force --- A feat or display of strength, skill, or ingenuity\\
+    \footnotesize His novel is a tour de force. \normalsize
+    \item Prima facie --- Based on the first impression; accepted as correct until proved otherwise. \footnotesize
+    \begin{itemize}
+        \item There is prima facie evidence that he was involved in the fraud.
+        \item For millions of Americans witnessing the event, it was a prima facie case of police brutality.
+        \item The original lessee (person who lease/rent property) prima facie remains liable for the payment of the rent
+    \end{itemize} \normalsize
+    \item Sine qua non --- A necessary condition without which something is not possible.\footnotesize
+    \begin{itemize}
+        \item An interest in children is a sine qua non of teaching.
+        \item Grammar and usage are the sine qua non of language teaching and learning
+    \end{itemize} \normalsize
+    \item C'est la vie --- used to say that situations of that type happen in life, and you cannot do anything about them.
+    \footnotesize
+    \begin{itemize}
+        \item I can't go to the game on Saturday - I've got to work. Oh well, c'est la vie. 
+    \end{itemize} \normalsize
+    \item Sanctity --- The quality of being very important and deserving respect\\
+    \footnotesize  The sanctity of human life, marriage, etc. \normalsize
+    \item Delineate ---
+    \begin{enumerate}
+        \item Describe or portray (something) precisely.\\
+        \footnotesize The main characters are clearly delineated in the first chapter. \normalsize 
+        \item Indicate the exact position of (a border or boundary).\\ \footnotesize The boundary of the car park is delineated by a low brick wall. \normalsize
+    \end{enumerate}
+    \item Picturesque --- (especially of a place) attractive in appearance, \small particularly so in (but not limited to) an old-fashioned way
+    \footnotesize 
+    \begin{itemize}
+        \item The picturesque narrow streets of the old city
+        \item The salad has no regional or picturesque name
+    \end{itemize} \normalsize
+    \item Nascent --- (especially of a process or organization) just coming into existence and beginning to display signs of future potential.\\
+    \footnotesize The nascent space industry \normalsize
+    \item Subversive --- Trying to destroy or damage something, especially an established political system.
+    \footnotesize \begin{itemize}
+        \item subversive elements/groups in society
+        \item subversive ideas/influences
+    \end{itemize} \normalsize
+    \item Concerted --- Jointly arranged or carried out; Coordinated.\\
+    \footnotesize a concerted attempt to preserve religious unity \normalsize
+    \item Ascribe --- To believe or say that something is caused by something else.
+    \footnotesize \begin{itemize}
+        \item To what do you ascribe your phenomenal success?
+        \item A quotation ascribed to Thomas Cooper
+    \end{itemize} \normalsize
+    \item Scholastic --- of or concerning schools and education.\\
+    \footnotesize Scholastic achievements. \normalsize
+    \item Scaremonger / Fearmonger 
+    \item Luxe --- Luxurious\\
+    \footnotesize the luxe 65-room Four Seasons hotel \normalsize
+    \item Eqivocal --- Open to more than one interpretation; ambiguous.\\
+    \begin{itemize}
+        \item the equivocal nature of her remarks
+        \item the results of the investigation were equivocal
+    \end{itemize}
+    \item Unequivocal --- Unparalleled; leaving no doubt; unambiguous.
+    \item Elucidate --- Show
+    \item Sundry --- \begin{enumerate}
+        \item (Adjective) Several different; various; an \textbf{assortment} of:
+        \begin{itemize}
+            \item \footnotesize Prawn and garlic vol-au-vents and sundry other delicacies
+            \item Sundry distant relatives, most of whom I hardly recognized, turned up for my brother's wedding. \normalsize
+        \end{itemize}
+        \item (Noun) Various items not important enough to be mentioned individually.\\
+        \footnotesize A drugstore selling magazines, newspapers, and sundries \normalsize 
+    \end{enumerate}
+    \item Parcel --- A collection of things, bought and sold together (for finances), or representing an area of land that is made up of smaller parts (in property). \footnotesize
+    \begin{itemize}
+        \item \(\ldots\) it means to parcel and measure responsibilities "equally".
+        \item The parcel of shares is worth between €2,000 and €3,000.
+        \item A 100-acre parcel in Texas was one of five sites selected for development.
+    \end{itemize} \normalsize
+    \item Momentous --- Of great importance / significance
+    \item Multifarious --- Of many different types
+    \begin{itemize}
+        \item The newspaper report detailed the fraudster's multifarious business activities.
+    \end{itemize}
+    \item Onus --- the responsibility or duty to do something\\
+    \footnotesize We are trying to shift the onus for passenger safety onto the government. \normalsize
+    \item Pertinent --- Relating directly to the subject being considered.\\
+    \footnotesize Chapter One is pertinent to the post-war period. \normalsize
+    \item Apposite --- Approperiate; Suitable and right for the occasion\\
+    \footnotesize The film starts in a graveyard, an apposite image for the decaying society which is the theme of the film. \normalsize 
+    \item Profuse --- Produced or given in large amounts
+    \footnotesize \begin{itemize}
+        \item The company accepted blame and sent us profuse apologies.
+        \item The book is profusely illustrated with period photos.
+    \end{itemize} \normalsize
+    \item Cogent --- (of an argument or case) clear, logical, and convincing.
+        \footnotesize They put forward cogent arguments for British membership \normalsize
+    \item Commensurate --- Corresponding in size or degree; in proportion.\\
+    \begin{itemize}
+        \item A salary that is commensurate with skills and experience.
+        \item Bear commensurate weight.
+    \end{itemize}
+    \item Manifold --- Nuanced
+    \item Antithesis / Antithetical --- Exactly the opposite of someone or something or of each other 
+    \footnotesize \begin{itemize}
+        \item Birth and death are antithetical.
+        \item The idea that science is antithetical \textbf{to} the arts is wrong.
+        \end{itemize} \normalsize
+        \item Commodification --- The action or process of treating something as a mere commodity\\
+        \footnotesize The commodification of knowledge \normalsize
+        \item Kitsch / Kitschy --- 
+        \begin{enumerate} \normalsize
+            \item (Noun) Art, decorative objects, or design considered by many people to be ugly, without style, or false but enjoyed by other people in an ironic or knowing way\\
+            \footnotesize \begin{itemize}
+                \item His home's full of 1950s kitsch.
+                \item The room was decorated in a cheerfully kitschy style.
+            \end{itemize} \normalsize
+            \item Considered to be in poor taste but appreciated in an ironic or knowing way.\\
+            \footnotesize The front room is stuffed with kitsch knick-knacks \footnote{small worthless objects, especially household ornaments} , little glass and gilt ornaments \normalsize
+        \end{enumerate}
+        \item Pragmatic / Hard-nosed --- being \emph{realistic/practical/sensible way}, rather than obeying fixed theories, ideas, or rules.\\
+        \footnotesize In business, the pragmatic approach to problems is often more successful than an idealistic one. \normalsize 
+        \item Tawdry / Meretricious / Gimcrack --- Showy / Attractive on the surface but cheap or badly made.
+        \footnotesize \begin{itemize}
+            \item Plastic gimcrack cookware
+            \item He claims that a lot of journalism is meretricious and superficial.
+        \end{itemize} \normalsize
+        \item Nondescript --- Very ordinary, \footnotesize or having no interesting or exciting features or qualities. \normalsize
+        \item Austere --- Very simple, with only the things that are absolutely necessary, \footnotesize especially because of severe limits on money or goods. \normalsize \\
+        \footnotesize An austere childhood during the war \normalsize
+        \item Posey --- Expensive and fashionable, \small in a way that is intended to make other people feel admiration. \normalsize \\
+        \footnotesize I resent paying extra for my drink just because it's in a posey bottle! \normalsize
+        \item Glib --- (of words or a speaker) fluent but insincere and shallow.
+        \item Myopic --- Short-sighted\\
+        \footnotesize Their myopic refusal to act now will undoubtedly cause problems in the future.\\ (Can also be used literally: Myopic children \( \iff \) Short-sighted children ) \normalsize 
+        \item Tokenistic --- Symbolic effort not meant to bring about long-lasting, significant, or effective change. 
+        \begin{itemize} \footnotesize
+            \item The advertising industry has moved on from the times when ethnic minorities were only used in a patronising, tokenist way.
+            \item He is keen to attract ethnic minority listeners by broadening content rather than by making tokenistic appointments.
+        \end{itemize} \normalsize
+        \item Insidious --- Proceeding in a gradual, subtle way, but with very harmful effects.\\
+        \footnotesize High blood pressure is an insidious condition which has few symptoms. \normalsize
+        \item Purport --- \begin{enumerate}
+            \item (Verb) Allegedly; appear to be or do something, especially falsely.\\
+            \footnotesize She is not the person she purports to be \normalsize
+            \item (Noun) The general meaning of someone's words or actions.\\ \footnotesize I didn't read it all but I think the purport of the letter was that he will not be returning for at least a year. \normalsize
+            \item (Verb) To claim something is true, but without proof.\\
+            \footnotesize The story purports to explain the origin of the game of chess. \normalsize
+        \end{enumerate}
+        \item Innocuously --- In a way that is completely harmless (= causing no harm).
+        \item Connoisseurs --- Expert judges in matters of taste 
+        \item Avid --- Having or showing a keen interest\\
+        \footnotesize Tourists today are the more avid audience for cultral handicrafts than the locals themselves. \normalsize
+        \item Back-breaking (labour or work)
+        \item Strenuous --- Requiring or using great effort or exertion.\\
+        \footnotesize Strenuous labour / work \normalsize
+        \item Industrious --- Diligent and hard-working.\\
+        \footnotesize An industrious people striving to make their country prosperous. \normalsize
+        \item Sedulous / Assiduous --- Showing hard work, care, and attention to detail.
+        \footnotesize \begin{itemize}
+            \item An assiduous student
+            \item The government has been assiduous in the fight against inflation.
+        \end{itemize} \normalsize
+        \item Imperative --- importance\\
+        \footnotesize There is far less imperative for Singaporeans today to toil as their predecessors did. \normalsize
+        \item Toil --- Work extremely hard or incessantly
+        \item Unflagging --- Tireless, persistent\\
+        \footnotesize Unflagging work ethic \normalsize
+        \item Renumerative --- Finanically rewarding / lucrative. Providing payment for work.
+        \footnotesize \begin{itemize}
+            \item A highly remunerative (= well paid) job
+            \item Since June 2003 he has not had any remunerative employment (No paid employment)
+        \end{itemize} \normalsize
+        \item Ethos --- The characteristic spirit / beliefs / ideas of a culture, era, or community as manifested in its attitudes and aspirations.\\
+        \footnotesize Its ethos was one of careful reflection and of enjoying ideas and communicating them. \normalsize
+        \item Ethic --- A system of accepted beliefs that control behaviour, especially such a system based on morals.\\
+        \footnotesize Stong work ethic \normalsize
+        \item Percolate --- (of a liquid or gas) filter gradually through a porous surface or substance.\\
+        \footnotesize This ethos has percolated into every aspect of our lives and instilled in us a stong work ethic. \normalsize
+        \item {[Looked]} Askance --- To look at or think about someone or something with \emph{doubt, disapproval, or no trust}.\\
+        \footnotesize They looked askance at our scruffy clothes. \normalsize
+        \item Stint ---
+        \begin{enumerate}
+            \item (Noun) A fixed or limited period of time spent doing a particular job or activity.\\
+            \footnotesize He has just finished a stint of compulsory military service. \normalsize
+            \item (Verb) To provide, take or use \emph{only a small amount} of something\\
+            \footnotesize Don't stint yourself - take another slice of cake. \normalsize
+        \end{enumerate}
+        \item Sagely / Sagaciously --- In a way that has or shows understanding and the ability to make good judgments\\
+        \footnotesize The author has sagaciously not revealed his name. \normalsize
+        \item Flippant --- Not showing serious or respectful attitude\\
+        \footnotesize It's easy to be flippant, but we have a serious problem to deal with here. \normalsize
+        %Children%
+        \item Precocious --- (especially of children) showing mental development or achievement much earlier than usual.
+        \begin{itemize} \footnotesize
+            \item A precocious child, she went to university at the age of 15.
+            \item She recorded her first CD at the precocious age of twelve.
+        \end{itemize} \normalsize
+        \item Sophomoric --- Silly and behaving like a child.\\
+        \footnotesize A sophomoric sense of humour. \normalsize
+        \item Petulant / Fractious --- Easily annoyed and complaining in a rude way like a child
+        \item Infantile --- Childish (behavior)
+        \item Emancipate --- To give people social or political freedom and rights
+        \item Root and branch --- Completely
+        \begin{itemize} \footnotesize
+            \item Racism must be eliminated, root and branch.
+        \end{itemize} \normalsize
+        \item Underwrites --- If an organization underwrites an activity, it gives it financial support and takes responsibility for paying any costs if it fails.
+        \item Not in Kansas anymore --- stepped outside of what is considered normal, we have entered a place or circumstance that is unfamiliar and uncomfortable, we have found ourselves in a strange situation.
+        \item Chicanery --- Deception by artful subterfuge or sophistry (trickery)\\
+    \footnotesize He wasn't above using chicanery to win votes. \normalsize    
+    \item Subterfuge --- A trick or a dishonest way of achieving something\\
+    \footnotesize It was clear that they must have obtained the information by subterfuge. \normalsize
+    \item Artifice --- Stresses creative skill or intelligence, but it also implies a sense of falseness and trickery
+    \footnotesize
+    \begin{itemize}
+        \item \ldots believing that characters had to be created from within rather than with artifice.
+        \item \ldots revising the state's constitution through a series of legal stratagems and artifices. \ldots
+        \item Amazingly for Hollywood, she seems almost entirely without artifice.
+    \end{itemize} \normalsize
+    \item Unflappable --- Marked by assurance and self-control\\
+    \footnotesize The unflappable teacher never even blinked when the wall map came crashing down. \normalsize
+    \item Incisive --- Impressively direct and decisive (as in manner or presentation) \footnotesize
+    \begin{itemize}
+        \item an incisive analysis
+        \item an incisive unsentimental writer
+    \end{itemize} \normalsize
+    \item Acclimate/Acclimatize --- To adapt (someone) to a new temperature, altitude, climate, environment, or situation\\
+    \footnotesize They had to acclimate themselves to an urban lifestyle. \normalsize
+    \item Affable --- Friendly and easy to talk to\\  
+    \footnotesize She was quite affable at the meeting. \normalsize
+    \item Pragmatic --- relating to matters of fact or practical affairs often to the exclusion of intellectual or artistic matters : \emph{practical} as opposed to idealistic
+    \item Conglomerate --- A company that owns several smaller businesses whose products or services are usually very different. OR made up of parts from various sources or of various kinds. (e.g. a conglomerate empire)
+    \item Savant --- a person with a high level of knowledge or skill, especially someone who is less able in other ways.
+    \item Ostensibly --- in a way that appears or claims to be one thing when it is really something else / shows a discrepancy between a declared or implied aim or reason and the true one
+    \footnotesize
+    \begin{enumerate}
+        \item He has spent the past three months in Florida, ostensibly for medical treatment, but in actual fact to avoid prosecution.
+        \item The e-mail requested account information, ostensibly to help clear up a "billing error".
+    \end{enumerate}
+    \normalsize
+    \item Lofty ambition/mountains/etc
+    \item Incredulous/Incredulity --- unwilling to admit or accept what is offered as true (skeptical)
+    \item Credulous --- ready to believe especially on slight or uncertain evidence\\
+    \footnotesize accused of swindling credulous investors \normalsize
+    \item Debacle --- a great disaster / a complete failure. 
+    \item Ignominious --- (especially of events or behaviour) embarrassing because of being a complete failure.
+    \item Fiasco --- A complete failure.
+    \item Ad infinitum --- without end or limit
+    \footnotesize
+    \begin{enumerate}
+        \item Depending on the initial placement of the constituent cells, their clusters can showcase surprisingly complex behaviors such as self-replication \emph{ad infinitum}.
+        \item The story has been analyzed and argued over \emph{ad infinitum}, especially in the midst of the 30th anniversary.
+        Naturally, some object to the notion of artificially extending life \emph{ad infinitum}, wherein the story begins to get complicated.
+    \end{enumerate}
+    \normalsize
+    \item Priori --- relating to or derived by reasoning from self-evident proposition/presupposed by experience.
+    \footnotesize
+    \begin{itemize}
+        \item A priori assumption is one that is presumed to be true without any assessment of the facts or without further proof.
+        \item A priori usually describes lines of reasoning or arguments that proceed from the general to the particular, or from causes to effects.
+    \end{itemize}
+    \normalsize
+    \item Fecundity --- The fact of producing or creating a lot of new things, ideas, etc. 
+    \footnotesize
+    \begin{enumerate}
+        \item The play is yet another representation of his creative fecundity.
+        \item The work combines a fecundity of imagination and a richness of poetical expression.
+    \end{enumerate}
+    \normalsize
+\end{enumerate}
+\section{Idioms}
+\begin{enumerate}
+    \item Talk the talk \ldots walk the walk --- They do not act in a way that agrees with the things they say
+    \footnotesize When it comes to recycling he talks the talk but he doesn't walk the walk. \normalsize
+    \item Bring home the bacon --- To earn money for a family to live on \footnotesize I can't sit around all day - someone's got to bring home the bacon. \normalsize
+    \item An old/a wise head on young shoulders --- a child or young person who thinks and talks like an older person who has more experience of life.
+    \item Be a victory for common sense --- To be a very reasonable result in a particular situation\\
+    \footnotesize There is no doubt that the court's decision is a victory for common sense. \normalsize
+    \item The tragedy of the commons --- refers to a situation in which individuals with access to a public resource (also called a common) act in their own interest and, in doing so, ultimately deplete the resource.
+\end{enumerate}
+\begin{tabularx}{\textwidth}{XX}
+    \subsection{Words/Phrases to not forget}
+    \begin{enumerate}
+        \item Looming
+        \item Don \st{wear}
+        \item Leveraging 
+        \item Precondition --- Prerequisite 
+        \item Exorbitant
+        \item Concede --- Admit/Agree after Denial /Resistance
+        \item Sobering (e.g.: The facts are sobering)
+        \item Underpin --- Support, justify, or form the basis for.
+        \item Plethora
+        \item Purists 
+        \item Paradoxically
+        \item Global culture of Interdependency 
+        \item Age of global crime and terror flows
+        \item Spurt (e.g.: of growth from \(x\) to \(y\) )
+        \item Unfathomable
+        \item Bolster 
+        \item Sufficient
+        \item Mainstream
+    \end{enumerate}  & 
+    \subsection{List Of Synonyms / Words with Similiar Purpose }
+    \begin{enumerate}
+        \item \begin{enumerate}
+            \item So
+            \item Thus
+            \item Therefore
+            \item Hence
+            \item Thence 
+            \item In this way 
+            \item Consequently
+            \item Accordingly 
+            \item As a result
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item Significant
+            \item Considerable
+            \item Momentous
+            \item Important
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item In addition 
+            \item Additionally
+            \item Supplementary
+            \item Furthermore
+            \item Moreover
+            \item Not to Mention 
+            \item Besides
+            \item By the same token --- In the same way or for the same reason.
+            \item In contrast to / Contrary to (e.g.: popular belief)
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item Numerous
+            \item Multitude
+            \item Innumerable 
+            \item Countless
+            \item A lot
+            \item Many
+            \item Copious
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item Delineated
+            \item Picturesque
+            \item Exquisite
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item  Important
+            \item Essential 
+            \item necessary
+            \item Sine qua non 
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item An assortment of 
+            \item Plethora
+            \item Variety
+        \end{enumerate}
+        \item \begin{enumerate}
+            \item Elucidate
+            \item Show
+        \end{enumerate}
+    \end{enumerate}
+  \end{tabularx}
+
+  \section{Colorful \& Picturesque Delineations}
+\subsection{Word Play}
+You can try to change the words or phrases used a little, to convey what you mean --- but in a way that showcases a greater depth of English writing skills and techniques:
+\begin{enumerate}
+    \item "mere"-chandise --- is a play on the word 'merchandise'
+\end{enumerate}
+\subsection{Simile \& Metaphors}
+Try to incoporate some S\&M into your essay to make it a more interesting read.
+\begin{enumerate}
+    \item Steel engines \( \implies \) Machines
+\end{enumerate}
+\subsection{Adding 'Quality' Descriptive Adjectives}
+\begin{enumerate}
+    \item \emph{Tropical backwater economy} [of Singapore (before it's spurt of growth)]
+    \item \emph{Iconic} sporting idols
+    \item \emph{Gruelling} artistry
+    \item \emph{Incomparable} beauty
+    \item \small [Japanese Sushi Masters who] \normalsize \emph{honed} their craft for a lifetime \emph{effortlessly} draw in customers
+    \item \emph{Tailored} to their needs
+    \item \emph{Tirelessly Churned out} by machinery
+    \item \emph{Profoundly} transformed their appreciation for the \emph{pinnacle} of craftsmanship
+    \item \emph{Spirit} of handicraft
+    \item \emph{Sobering} facts
+    \item \st{wear} \emph{Don} new clothing
+    \item \emph{Tangiblt and pragmatically} enhanced the living coniditions
+    \item \emph{Wave} of machine-produced \emph{mass-manufactured goods} \emph{flooding} the market
+    \item \emph{Prize} \st{value} functionality and affordability over aesthetics and quality.
+    \item \emph{Tedious} handcrafting
+    \item \emph{Arthritic} knees and \emph{Misshapen} fingers of our forefathers / pioneers \emph{tell the stories} of their \emph{toil} [in building up modern Singapore]
+    \item \emph{Unflagging} work \emph{ethic}
+    \item \emph{Fresh, innovative} solutions
+    \item \emph{Wealth of} knowledge / diverse experiences
+    \item 
+\end{enumerate}
+\section{Examples}
+\subsection{Environment}
+\begin{enumerate}
+    \item Air Pollution
+    \begin{enumerate}
+        \item WHO \begin{itemize}
+            \item Associated with 6.7 million premature deaths every year, which is 70\% as that of all caners combined.\\
+            Other organizations estimate the death toll to be even higher
+           \item 99\% of the world's population is breathing unsafe air.
+           \item In 2016, 58\% of outdoor air pollution related premature deaths were caused by fine particulate matter resulting in stroke or heart disease 
+        \end{itemize} 
+        \item Our World in Data
+        \begin{itemize}
+            \item Fortunately, indoor air pollution \footnote{Like from burning coal and wood for warmth} declined rapidly from 100 000 deaths per year in 1990 to 30 000 per annum in 2019
+            \item Unfortunatelty, in the same period, the death rate from outdoor air pollution has largely remained the same.
+        \end{itemize}
+        \item (Article from) Nature Communtications \begin{itemize}
+            \item Even in low concentrations, small particulate pollution has been shown to 
+            \begin{itemize}
+                \item Take years off people's lives
+                \item Huge negative impact on QOL while living \footnotesize (e.g.: Lung cancer and diseases) \normalsize
+                \item Described as "the world's leading environmental health risk factor" 
+            \end{itemize} 
+        \end{itemize}
+        \item Results from course and fine particulate matter in the air we breathe:
+        \begin{itemize}
+            \item Course particulate matter --- Largely formed from natural processes: \small Dust from deserts, and seafoam. \normalsize Though also caused by some man-made processes: \small Dust kicked up from roads \normalsize\\[2mm]
+            Can get deep inside your lungs and cause problems
+            \item Fine particulate matter \footnotesize (Even more deadlier, the real killed) \normalsize --- Mostly from burning of fossil fuels to boost the economy \footnotesize (E.g. Coal) \normalsize
+        \end{itemize}
+        \item Burning of fossil fuels \begin{itemize}
+            \item \footnotesize (Article published on Nature) \normalsize Responsible for between 30-40\% of the direct disease burden of outdoor air pollution
+            \item Estimated 3.6 million deaths a year can be prevented by the direct and indirect phaseout of fossil fuels
+        \end{itemize}
+        \item Ironically helping us fight climate change
+        \begin{itemize}
+            \item Reflect sunlight away, \footnotesize (more specically, infared thermal radiation) \normalsize  which would otherwise reach the Earth
+            \item IPCC estimates reflective sulfates cool the planet by around 0.8\( \text{\degree} C \)
+        \end{itemize}
+    \end{enumerate}
+    \item Renewable Energy
+    \begin{enumerate}
+        \item Solar Panels: (Our World In Data)
+        \begin{itemize}
+            \item 10 years ago: much cheaper to build a new power plant that burns fossil fuels than to build a new solar photovoltaic (PV) or wind plant.\\
+            Wind was 22\%, and solar 223\% more expensive than coal.
+            \item  Decreased drastically from \$106.09/W in 1976 to \$0.38/W in 2019
+            \item Dropped by a whopping 80\% from 2009 to 2019
+            \item Now, renewables are actually cheaper than fossil fuels per unit energy
+        \end{itemize} 
+        \item Energy Storage
+        \begin{itemize}
+            \item Price of batteries declined by 97\% in the last three decades.
+            \item Prices of lithium-ion batteries \footnotesize (the most pervastive type of batteries) \normalsize declined by a factor of 40, while capacity increased by a factor of 50 000.\\[2mm]
+            Prices declined at an average of 18.9\% for every doubling in cumulative capacity
+        \end{itemize}
+    \end{enumerate}
+    \item Nuclear Energy 
+    \begin{enumerate}
+        \item NE saved 1.8 mil lives from air pollution related deaths (NASA, Kharecha \& Hansen 2013
+        )
+        \item Extremely low death toll \begin{itemize}
+            \item 31 people died, with no increased cancer rates generally in any considerable scale, in the Chernobyl accident (OECD Nuclear Energy Agency) \begin{itemize}
+                \item Poor and unsafe RBMK reactor design
+                \item Improper, unstable operation of the reactor 
+            \end{itemize}
+            \item 0 people died directly as a result of a Fukushima accident, but 573 died during evacuation (United States Nuclear Regulatory Commission)
+            \item Our World in Data: NE has the lowest greenhouse gas emission, beating even wind and solar.
+        \end{itemize}
+        \item Nuclear Waste Disposal is done Responsibilly (U.S. Nuclear Regulatory Commission) \begin{itemize}
+            \item Stored in spent fuel pools and dry casks.
+            \item Both provide good protection for safety of the public and the environment \( \Rightarrow \) Can even survive unharmed from a head on impact from a train collision
+            \item Transportation of N.W. in the U.S. \( \Rightarrow \) No waste released / harm caused to ppl or environment in past 40 yrs
+        \end{itemize}
+        \item Other forms of energy can be suprisingly cause a higher death toll \begin{itemize}
+            \item Dam accidents: \begin{itemize}
+                \item Malpasset Dam collapse killed 423
+                \item Vaiont / Vajont dam killed 2000 
+                \item Vale dam killed 270
+            \end{itemize}
+            \item According to Harvard University, nuclear energy has the least impact on human life amongst coal, natural gas, wind, and nuclear energy
+        \end{itemize}
+        \item Actual Problems with Nuclear Energy Use: \begin{itemize}
+            \item Lack of public awareness on actual safety of nuclear energy
+            \item Expensive and Multi-billion dollar cost \( \Rightarrow \) Not suitable for all countries
+            \item Risks of nuclear weapons construction through nuclear energy generation\\
+            E.g.: Iran tried on a number of ocassions to create nuclear weapons hidden behind the veil of nuclear energy. Used this as a bargaining chip.
+        \end{itemize}
+        \item Biofuels
+        \begin{enumerate}
+            \item Advantages (Theoretically) \begin{itemize}
+                \item Produced from renewable food sources 
+                \item Fossil fuels are non-renewable while CO2 emitted is reabsorbed by the plants \( \Rightarrow \) Renewable and sustainable
+            \end{itemize}
+            \item Disadvantages \begin{itemize}
+                \item Highly Energy Intesive Production Process\\[2mm] In the U.S. (World's largest producer of bioethanol), biofuels took up 28.9 times more energy than the whole of Singapore in 2020
+                \item Takes up a ginormous land area (Unsustainable Land Use)\\[2mm]
+                \begin{itemize}
+                    \item Provides 2.25\% of total energy generation
+                    \item But uses a stupendous 18.5\% of land in the U.S.
+                    \item Land has a wide assortment of essential uses\\[2mm]
+                    E.g.: Direct human consumption, animal food
+                    \item Impact: Significantly increased food prices\\[2mm]
+                    NCEE Study – 4.5 bil litre increase in bioeth causes a 2-3\% increase in food price
+                    \item Impact: Encourage destruction of natural habitats\\[2mm]
+                    4050 \(\text{km}^2\) of croplands expanded per year.
+                \end{itemize}
+                \item Financially unsustainable \begin{itemize}
+                    \item Bioethanol with corn grain requires 29\% more fossil fuel energy input than energy content of bioethanol produced, i.e. net negative in energy.
+                    \item Energy Policy Act of 2005 and Energy Independenc and Security Act are necessary financial incentives for biofuel production to be viable
+                \end{itemize}
+                \item Unsustainable Water Usage \begin{itemize}
+                    \item Biofules use 70-400x more water than other primary energy sources (excluding hydro)
+                    \item increased competition for water
+                \end{itemize}
+            \end{itemize}
+        \end{enumerate}
+    \end{enumerate}
+    \item Climate Change
+    \begin{enumerate}
+        \item NOAA (National Oceanic and Atmospheric Administration) \begin{itemize}
+            \item June 2022 was Earth’s 6th-warmest on record
+            \item Antarctic sea ice shrank to a record low for the month in June 2022
+            \item Polar ice coverage hit near-record low globally; June 2022 saw the second-lowest June sea ice coverage (extent) on record. Only June 2019 had a smaller sea ice extent. 
+        \end{itemize}
+        \item N.A.S.A. (National Aeronautrics and Space Administration) \begin{itemize}
+            \item \footnotesize While Earth’s climate has changed throughout its history, \normalsize the current warming is happening at a rate not seen in the past 10,000 years.
+            \item Current warming is occurring roughly 10 times faster than the average rate of warming after an ice age. Carbon dioxide from human activities is increasing about 250 times faster than it did from natural sources after the last Ice Age.
+            \item The planet's average surface temperature has risen about 1.1\(\text{\degree} C\) since the late 19th century
+            \item Most of the warming occurred in the past 40 years, with the seven most recent years being the warmest.
+            \item Ocean absorbed 90\% of excess thermal energy \( \Rightarrow \) Thermal Expansion of sea water
+            \item Shrinking Ice Sheets --- Data from NASA's Gravity Recovery and Climate Experiment show Greenland lost an average of 279 billion tons of ice per year between 1993 and 2019, while Antarctica lost about 148 billion tons of ice per year
+            \item Retreating Glaciers --- Almost everywhere around the world — including in the Alps, Himalayas, et cetera
+            \item Snow Cover Is Decreasing --- Satellite observations reveal that the amount of spring snow cover in the Northern Hemisphere has decreased over the past five decades and the snow is melting earlier.
+            \item Global sea level rose about 20 centimeters in the last century. The rate in the last two decades, however, is nearly double that of the last century and accelerating slightly every year.\\[2mm]
+            Threatens Singapore, with our status as a low-lying island nation
+            \item Extreme Events Are Increasing in Frequency --- 
+            The number of record high temperature events in the United States has been increasing, while the number of record low temperature events has been decreasing, since 1950.\\[2mm]
+            E.g.: The state of Texas suffered a major power crisis as a result of three severe winter storms
+        \end{itemize}
+        \item IPCC 
+        \begin{itemize}
+            \item Scientific evidence for warming of the climate system is unequivocal. 
+            \small    - Intergovernmental Panel on Climate Change \normalsize
+        \end{itemize}
+        \item BBC \begin{itemize}
+            \item The U.K. reached a new record temperature of over 40 degrees celsius in July 2022
+            \item On the same day, hundreds of firefighters have been tackling fires throughout the U.K. And the London Fire Brigade declared a major incident
+            \item E.g.: Fire swept through east London in the village of Wellington, destroying many homes (possibly started from a compost heap)
+        \end{itemize}
+    \end{enumerate}
+    \item Increasing Ocean Acidfication \begin{itemize}
+        \item Since the beginning of the Industrial Revolution, the acidity of surface ocean waters has increased by about 30\%.
+        \item Since the beginning of the Industrial Revolution, the acidity of surface ocean waters has increased by about 30\%.
+        \item The ocean has absorbed between 20\% and 30\% of total anthropogenic carbon dioxide emissions in recent decades (7.2 to 10.8 billion metric tons per year).
+    \end{itemize} 
+\end{enumerate}
+\section{GP/2023+ Addons}
+    \begin{enumerate}
+        \item Global
+        \begin{itemize}
+            \item In 2022, the Canadian government published the Single-use Plastics Prohibition Regulations (SUPPR). Which banned the manufacture, import, and use of many common single-use plastic products\\ 
+            \footnotesize(Checkout bags, cutlery, foodservice ware, stir sticks, straws, ring carriers)\normalsize.  
+            \item According to the UNEP\footnote{United Nations Environment Programme
+            },
+            \begin{itemize}
+                \item Only a \emph{45\% emissions reduction} will limit global warming to \emph{1.5C}, almost impossible. 30\% to keep to increase to 2.0C by 2030.
+                \item Even in the best case scenario which is not considered credible, there is expected to be 1.8C increase by 2050.
+                \item Implementation of \emph{all} current conditional and unconditional pledges only reduces this to 2.4C and 2.6C by the end of this century.
+                \item Policies \emph{currently} in place point to a \emph{2.8C} increase by the end of the century.
+            \end{itemize}
+            \item Criticism about official environmental agencies.
+            \begin{itemize}
+                \item IPCC. In the IPCC's third report in 2022, role of the fossil fuel industry is highlighted throughout the report's nearly 3,000 pages, but mysteriously absent from the ``Summary for Policymakers'' --- traditionally the first part of the report that's released and often attracts the most media attention.
+            \end{itemize}
+            \item Big Oil's PR war to delay action on climate change:
+            \begin{itemize}
+                \item \textit{Quote:} ``Victory will be achieved when average citizens “understand”
+                (recognize) uncertainties in climate science.'' --- American Petroleum Institute
+                \item ``information laundering'':
+                projecting the company's desired message through
+                ostensibly independent nonprofit organizations. 
+                \item ExxonMobil underwrites well-established
+                groups such as the American Enterprise Institute \footnotesize(It's often the single largest corporate donor to many of these nonprofit organizations, frequently accounting for more than 10 percent of their annual budgets. Most of these organizations also include
+                these same individuals as board members or
+                scientific advisers.)\normalsize
+                \item Behind closed doors and in academic circles, Exxon has known that its products would likely cause dangerous global warming since at least the 1970s. The oil industry as a whole has been on notice even longer --- since the 1950s.
+                \item Uncomfortable realization is how subtle and systematic and increasingly sophisticated their propaganda has become --- had to rely on statistical techniques from computational linguistics to uncover patterns of speech hiding in plain sight.
+        \end{itemize} 
+        \item Economy
+        \begin{itemize}
+            \item ``Green transition is not a cost, but a substantial \emph{opportunity}.'' --- Oxford Economics
+            \item The transition to a net zero emissions environment by 2050 will create new industries worth 
+            \$10.3 trillion to the global economy by that same year.\\
+            \footnotesize E.g. This includes the direct contribution to GDP of electric 
+            vehicles manufacturing, renewable power generation, 
+            clean energy equipment manufacturing, renewable fuels 
+            and green finance; plus the activity supported across 
+            global supply chains. \normalsize
+            \item 
+        \end{itemize}
+        \item Local
+        \item Outline: We started long ago in pursuing environmental sustainability, and have achieved success in our old goals (Plant-A-Tree, 1971). Our plans continue succeeding even today (SGP 2012). Day by day, our goals grow loftier, while being bounded to reality still (SGP 2030).  
+        \item Outline too: We started long ago in pursuing environmental sustainability, and have achieved success in our past pursuits of environmental sustainability (Plant-A-Tree, 1971). Unrelenting, we continue working towards new horizons even today (SGP 2030). These plans are not just for show/grand exhibits either / We are not just talking the talk, but also walking the walk, (SGP 2012). 
+        \begin{itemize}
+            \item Singaporean, Associate Professor Winston Chow from SMU\footnote{Singapore Management University}, was elected as the co-chair of the IPCC\footnote{Intergovernmental Panel on Climate Change
+            } Working Group II --- beating four other candidates through hard work and determination \footnotesize(countless nights of ploughing through thousands of research papers, and writing chapters for its report --- all of it unpaid labour)\normalsize.
+            \item Challenge: Reduce dependency on fossil fuels to meet climate target obligations, while ensuring energy security.
+            \item Has large nature reserves and a third of our island is covered by trees already.
+            \item Singapore Green Plan 2012, launched by Ministy of the Environment in 2002. 
+            \begin{itemize}
+                \item Aim: To produce 60\% of Singapore's energy needs using natural gas by 2012. 
+                \item Success: As early as 2010, 79\% of Singapore's electricity was being generated from natural gas. (Exceeded the Ministry of Environment ahead of schedule)
+                \item Benefit: Reduced air pollution: Natural gas is a cleaner form of energy compared to coal as it doesn't produce smoke.
+                \item Limitations: High costs: Natural gas requires complex treatment plants to process and pipelines to transport. These pipelines have high maintenance costs as they need to be laid underground and checked regularly for leakage. 
+            \end{itemize}
+            \item Green Mark Scheme launched by Building Construction Authority in 2005. This scheme aims to encourage more new `green' buildings, which are more energy efficient. `Green' buildings like National Library building have reported energy savings of 15\% to 35\% compared to normal buildings
+            \item Plant-A-Tree programme started in 1971 aims to maintain Singapore's status as a Garden City by planting trees. The programme has planted an estimated 60,000 trees yearly
+        \end{itemize}
+        \item Companies\footnote{The Godly Reference: \url{https://hbr.org/2022/10/what-happens-when-a-company-like-patagonia-becomes-a-nonprofit?registration=success}}
+        \item Rando passage/paragraph as an exercise: In light of the capitalistic world we live in, we scoff at the thought of companies --- whose mission is to maximise profits for shareholders --- bringing more environmental benefit than harm in their existence. Indeed, many companies, especially the big players in big oil, are notorious for their environmental coverups and globally successful greenwashing. In fact, the American Petroleum Institute famously said that victory will be achieved when average citizens ``understand'' uncertainties in climate science. Underlying the not-so-subtle euphemism is the blatant intent to create unwarranted (and societally detrimental) distrust in climate science, just to gain short term corporate benefits. These disgusting practices by the biggest corporations often take the spotlight and leave people rightfully incredulous towards even the idea of large scale corporate good, even though there are exceptions. However, it would be distasteful to blindly believe in the impossibility of large scale corporate good just because the bad apples happen to be the shiniest ones. In fact, there is a whole blossoming collection of companies that benefit the environment substantially. \emph{Not all, or even the majority, corporations are bound to irrevocably tarnish our environment.} The whole class of companies, known as ``benefit corporations'' make it their life's purpose to do good to society, in this case, the environment\ldots
+        \begin{itemize}
+            \item Yvon Chouinard, the owner of Patagonia, publicly donated all his voting stock to the Patagonia Purpose Trust, and all his nonvoting stock to the Holdfast Collective, a nonprofit organization “dedicated to fighting the environmental crisis and defending nature.” (2022)
+            \item The family-owned, Pennsylvania-based construction firm High Industries, which had revenues of \$570 million in 2021, announced in 2022 that their eponymous High Foundation would assume control and ownership, to ensure the company benefits the community, even in the long run
+            \begin{enumerate}
+                \item E.g. Immediately after, workers were offered the opportunity to direct \$100 each in foundation money to a local organization of their choice
+                \item E.g. Months prior, the High Foundation made a \$65 million donation to Lancaster County Community Foundation
+            \end{enumerate}
+            \item ``Shareholder foundations'' have quietly prospered for decades in continental Europe, particularly in Denmark, where a quarter of the largest 100 firms are foundation-owned, including the three largest firms in the country: Carlsberg, Maersk, and Novo Nordisk.
+            \begin{itemize}
+                \item Despite claims that firms will flounder without human owners and “market discipline,” foundation-owned firms have similar (and in some cases superior) financial performance compared with their investor-owned counterparts. 
+                \item Danish researchers: Foundation-owned firms have more stable growth, are less volatile during crises, invest more in R\&D, and have a longer lifespan compared with conventionally owned firms.  
+            \end{itemize}
+            \item Integrating philanthropy with corporate activities: the Novo Nordisk foundation funds basic science at Danish universities, and in doing so develops research (and researchers) that may benefit their pharmaceutical firms. (May appear \emph{self-serving})
+            \item For firms listed on the stock market, corporate philanthropy is ``nice to have,'' but is often secondary to profit maximization. Often, the two are in conflict.
+            \begin{itemize}
+                \item E.g. Out of thousands of companies accorded B-Corp (Benefit Corporation) certification, only four have managed to go public in the U.S., one of which surrendered its status shortly after being listed in order to become more profit-oriented.
+            \end{itemize}
+            \item The shareholder foundation model pragmatically overcomes this tradeoff: Because the shareholder is a philanthropic foundation, maximizing shareholder returns (via dividends) also maximizes potential donations. (Which is often indeed huge)
+            \item Benefit Corporations
+            \begin{itemize}
+                \item Benefit corporation status allows corporations to opt-out of shareholder primacy and opt-into stakeholder governance. (With stakeholder governance, a company is required to take into consideration anyone that is materially affected by that company's decision-making, like workers, customers, local communities, wider society and the environment.)
+                \item Purpose: To create public benefit. 
+                \item Accountability: Benefit corporations expand the obligations of boards. A board must consider the environmental and social factors. (as well as the financial interests of shareholders. This gives directors and officers the legal protection to pursue a mission and consider the impact their business has on society and the environment)
+                \item Transparency: Benefit corporations must report on their progress to achieve general public benefit.
+            \end{itemize}
+            \item Foundation-owned companies that establish a successful balance go on to outperform their competition on multiple dimensions: 
+            \begin{itemize}
+                \item Robert Bosch Group --- 94\% owned by the Robert Bosch Foundation and 5\% by the family
+                \item Siemens Group --- 88\% owned by investors\footnote{65\% owned by institutional investors like BlackRock, 23\% by private investors}, 6\% by the Siemens family 
+                \item Both are two leading German conglomerates --- major competitors in several markets --- with similar economic performance and immense economic performance.\footnote{80 billion euros in sales and 5 billion euros in net income}
+                \item[\(\blacksquare\)] Greater impact on society. Annually, Bosch Foundation spends 10 times the amount distributed by the Siemens Foundation --- a traditional corporate foundation.
+                \item[\(\blacksquare\)] Greater stability. In contrast to Siemens, Bosch avoided massive layoffs during the Great Recession while increasing sales and remaining profitable over the subsequent decade. 
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
