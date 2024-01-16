@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  16 JAN 2024 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  16 JAN 2024 22:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1330,122 +1330,122 @@ Overfull \hbox (40.45389pt too wide) in alignment at lines 363--405
  [] [] [] 
  []
 
-<../images/StationaryWavesPhase.jpg, id=160, 1094.0875pt x 816.04875pt>
+[12
+
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/npxsups_T1.enc}]
+<../images/StationaryWavesPhase.jpg, id=177, 1094.0875pt x 816.04875pt>
 File: ../images/StationaryWavesPhase.jpg Graphic file (type jpg)
 <use ../images/StationaryWavesPhase.jpg>
-Package pdftex.def Info: ../images/StationaryWavesPhase.jpg  used on input line 407.
-(pdftex.def)             Requested size: 164.10603pt x 122.40202pt.
+Package pdftex.def Info: ../images/StationaryWavesPhase.jpg  used on input line 408.
+(pdftex.def)             Requested size: 218.81361pt x 163.20685pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 408.
+(caption)                particular \caption on input line 409.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 408.
+(Font)              scaled to size 9.0pt on input line 409.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 408.
-[12
-
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/npxsups_T1.enc} <../images/StationaryWavesPhase.jpg>]
+(Font)              scaled to size 9.0pt on input line 409.
 <../images/StringStatWaves.jpg, id=182, 1606.0pt x 517.935pt>
 File: ../images/StringStatWaves.jpg Graphic file (type jpg)
 <use ../images/StringStatWaves.jpg>
-Package pdftex.def Info: ../images/StringStatWaves.jpg  used on input line 425.
+Package pdftex.def Info: ../images/StringStatWaves.jpg  used on input line 426.
 (pdftex.def)             Requested size: 160.6094pt x 51.79652pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 426.
+(caption)                particular \caption on input line 427.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (31.60672pt too wide) in paragraph at lines 425--426
+Overfull \hbox (31.60672pt too wide) in paragraph at lines 426--427
  [] 
  []
 
 <../images/Open Pipe.jpg, id=183, 1606.0pt x 459.7175pt>
 File: ../images/Open Pipe.jpg Graphic file (type jpg)
 <use ../images/Open Pipe.jpg>
-Package pdftex.def Info: ../images/Open Pipe.jpg  used on input line 432.
+Package pdftex.def Info: ../images/Open Pipe.jpg  used on input line 433.
 (pdftex.def)             Requested size: 160.6094pt x 45.97444pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 433.
+(caption)                particular \caption on input line 434.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (31.60672pt too wide) in paragraph at lines 432--433
+Overfull \hbox (31.60672pt too wide) in paragraph at lines 433--434
  [] 
  []
 
 <../images/Pipe Closed at One End.jpg, id=184, 1606.0pt x 575.14874pt>
 File: ../images/Pipe Closed at One End.jpg Graphic file (type jpg)
 <use ../images/Pipe Closed at One End.jpg>
-Package pdftex.def Info: ../images/Pipe Closed at One End.jpg  used on input line 440.
+Package pdftex.def Info: ../images/Pipe Closed at One End.jpg  used on input line 441.
 (pdftex.def)             Requested size: 160.6094pt x 57.51823pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 441.
+(caption)                particular \caption on input line 442.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (31.60672pt too wide) in paragraph at lines 440--441
+Overfull \hbox (31.60672pt too wide) in paragraph at lines 441--442
  [] 
  []
 
 
-Overfull \hbox (25.00183pt too wide) in paragraph at lines 410--444
+Overfull \hbox (25.00183pt too wide) in paragraph at lines 411--445
 [] 
  []
 
 <../images/Pipe Closed At One End Movement.jpg, id=185, 1606.0pt x 397.485pt>
 File: ../images/Pipe Closed At One End Movement.jpg Graphic file (type jpg)
 <use ../images/Pipe Closed At One End Movement.jpg>
-Package pdftex.def Info: ../images/Pipe Closed At One End Movement.jpg  used on input line 446.
+Package pdftex.def Info: ../images/Pipe Closed At One End Movement.jpg  used on input line 447.
 (pdftex.def)             Requested size: 401.49902pt x 99.371pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 447.
+(caption)                particular \caption on input line 448.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
+(Font)              scaled to size 6.2pt on input line 451.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.0pt on input line 450.
+(Font)              scaled to size 8.0pt on input line 451.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.2pt on input line 450.
-[13 <../images/StringStatWaves.jpg> <../images/Open Pipe.jpg> <../images/Pipe Closed at One End.jpg> <../images/Pipe Closed At One End Movement.jpg>]
-Overfull \hbox (51.89497pt too wide) in paragraph at lines 473--485
+(Font)              scaled to size 6.2pt on input line 451.
+[13 <../images/StationaryWavesPhase.jpg> <../images/StringStatWaves.jpg> <../images/Open Pipe.jpg> <../images/Pipe Closed at One End.jpg> <../images/Pipe Closed At One End Movement.jpg>]
+Overfull \hbox (51.89497pt too wide) in paragraph at lines 474--486
 []  
  []
 
@@ -1453,208 +1453,208 @@ Overfull \hbox (51.89497pt too wide) in paragraph at lines 473--485
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.494 \chapter
+l.495 \chapter
               {Currents of Electricity}]
 Chapter 13.
 [15
 
 ]
-Underfull \hbox (badness 4001) in paragraph at lines 523--524
+Underfull \hbox (badness 4001) in paragraph at lines 524--525
 []\T1/zplTLF/m/n/10 Metallic con-duc-tor at
  []
 
 <../images/MetallicConductor I-V.jpg, id=223, 1606.0pt x 1007.765pt>
 File: ../images/MetallicConductor I-V.jpg Graphic file (type jpg)
 <use ../images/MetallicConductor I-V.jpg>
-Package pdftex.def Info: ../images/MetallicConductor I-V.jpg  used on input line 530.
+Package pdftex.def Info: ../images/MetallicConductor I-V.jpg  used on input line 531.
 (pdftex.def)             Requested size: 129.00269pt x 80.94577pt.
 
-Underfull \hbox (badness 1515) in paragraph at lines 534--535
+Underfull \hbox (badness 1515) in paragraph at lines 535--536
 \T1/zplTLF/m/it/10 trons \T1/zplTLF/m/n/10 and the \T1/zplTLF/m/it/10 rate of
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 535--536
+Underfull \hbox (badness 1082) in paragraph at lines 536--537
 \T1/zplTLF/m/n/10 ture will have a dif-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
 
  []
 
 <../images/ForwardReverseBias.jpg, id=224, 844.15375pt x 1606.0pt>
 File: ../images/ForwardReverseBias.jpg Graphic file (type jpg)
 <use ../images/ForwardReverseBias.jpg>
-Package pdftex.def Info: ../images/ForwardReverseBias.jpg  used on input line 542.
+Package pdftex.def Info: ../images/ForwardReverseBias.jpg  used on input line 543.
 (pdftex.def)             Requested size: 67.53368pt x 128.48262pt.
 
-Underfull \hbox (badness 1048) in paragraph at lines 547--548
+Underfull \hbox (badness 1048) in paragraph at lines 548--549
 \T1/zplTLF/m/it/10 in-creases\T1/zplTLF/m/n/10 . In fact, if
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 547--548
+Underfull \hbox (badness 3612) in paragraph at lines 548--549
 \T1/zplTLF/m/n/10 goes past its \T1/zplTLF/m/it/10 thresh-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 548--549
+Underfull \hbox (badness 3148) in paragraph at lines 549--550
 []\T1/zplTLF/m/n/10 Reverse-biased: \T1/zplTLF/m/it/10 Very
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 548--549
+Underfull \hbox (badness 1721) in paragraph at lines 549--550
 \T1/zplTLF/m/it/10 high re-sis-tance\T1/zplTLF/m/n/10 . But,
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 549--550
+Underfull \hbox (badness 4967) in paragraph at lines 550--551
 []\T1/zplTLF/m/n/10 If the reverse-biased
  []
 
 <../images/Diode I-V characteristics.jpg, id=225, 1606.0pt x 1376.14125pt>
 File: ../images/Diode I-V characteristics.jpg Graphic file (type jpg)
 <use ../images/Diode I-V characteristics.jpg>
-Package pdftex.def Info: ../images/Diode I-V characteristics.jpg  used on input line 551.
+Package pdftex.def Info: ../images/Diode I-V characteristics.jpg  used on input line 552.
 (pdftex.def)             Requested size: 129.00269pt x 110.5345pt.
 <../images/Filament Lamp I-V Characteristics.jpg, id=226, 1606.0pt x 1009.7725pt>
 File: ../images/Filament Lamp I-V Characteristics.jpg Graphic file (type jpg)
 <use ../images/Filament Lamp I-V Characteristics.jpg>
-Package pdftex.def Info: ../images/Filament Lamp I-V Characteristics.jpg  used on input line 567.
+Package pdftex.def Info: ../images/Filament Lamp I-V Characteristics.jpg  used on input line 568.
 (pdftex.def)             Requested size: 129.00269pt x 81.10701pt.
 <../images/Filament Lamp Resistance.jpg, id=227, 1604.99625pt x 864.22874pt>
 File: ../images/Filament Lamp Resistance.jpg Graphic file (type jpg)
 <use ../images/Filament Lamp Resistance.jpg>
-Package pdftex.def Info: ../images/Filament Lamp Resistance.jpg  used on input line 568.
+Package pdftex.def Info: ../images/Filament Lamp Resistance.jpg  used on input line 569.
 (pdftex.def)             Requested size: 129.00269pt x 69.45619pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--573
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 []\T1/zplTLF/m/n/10 As \T1/zplTLF/m/it/10 cur-rent in-creases,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--573
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 \T1/zplTLF/m/it/10 power dis-si-pated in-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 572--573
+Underfull \hbox (badness 1424) in paragraph at lines 573--574
 \T1/zplTLF/m/n/10 Heat is gen-er-ated so
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 572--573
+Underfull \hbox (badness 3514) in paragraph at lines 573--574
 \T1/zplTLF/m/it/10 equi-lib-rium tem-per-a-ture
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 572--573
+Underfull \hbox (badness 7963) in paragraph at lines 573--574
 \T1/zplTLF/m/n/10 lat-tice and trans-fers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
 []\T1/zplTLF/m/n/10 The \T1/zplTLF/m/it/10 lat-tice ions vi-
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 573--574
+Underfull \hbox (badness 4940) in paragraph at lines 574--575
 \T1/zplTLF/m/it/10 brate more vig-or-ously\T1/zplTLF/m/n/10 .
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 573--574
+Underfull \hbox (badness 2884) in paragraph at lines 574--575
 \T1/zplTLF/m/n/10 This \T1/zplTLF/m/it/10 hin-ders the flow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
 \T1/zplTLF/m/n/10 of `charge car-ri-ers'.
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 574--575
+Underfull \hbox (badness 1478) in paragraph at lines 575--576
 \T1/zplTLF/m/it/10 high \T1/zplTLF/m/n/10 volt-ages/currents
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--580
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 []\T1/zplTLF/m/n/10 Negative Tem-per-a-ture
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 583--584
+Underfull \hbox (badness 4699) in paragraph at lines 584--585
 \T1/zplTLF/m/n/10 mis-tor also \T1/zplTLF/m/it/10 in-creases\T1/zplTLF/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 584--585
+Underfull \hbox (badness 1590) in paragraph at lines 585--586
 \T1/zplTLF/m/it/10 in-crease \T1/zplTLF/m/n/10 in \T1/zplTLF/m/it/10 tem-per-a-ture
  []
 
 <../images/NTC I-V.jpg, id=228, 1606.0pt x 953.5625pt>
 File: ../images/NTC I-V.jpg Graphic file (type jpg)
 <use ../images/NTC I-V.jpg>
-Package pdftex.def Info: ../images/NTC I-V.jpg  used on input line 586.
+Package pdftex.def Info: ../images/NTC I-V.jpg  used on input line 587.
 (pdftex.def)             Requested size: 129.00269pt x 76.5921pt.
 <../images/NTC Resistance.jpg, id=229, 1606.0pt x 921.4425pt>
 File: ../images/NTC Resistance.jpg Graphic file (type jpg)
 <use ../images/NTC Resistance.jpg>
-Package pdftex.def Info: ../images/NTC Resistance.jpg  used on input line 587.
+Package pdftex.def Info: ../images/NTC Resistance.jpg  used on input line 588.
 (pdftex.def)             Requested size: 129.00269pt x 74.01216pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--592
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 []\T1/zplTLF/m/n/10 As \T1/zplTLF/m/it/10 cur-rent in-creases\T1/zplTLF/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--592
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 \T1/zplTLF/m/it/10 power dis-si-pated in-
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 591--592
+Underfull \hbox (badness 1484) in paragraph at lines 592--593
 \T1/zplTLF/m/n/10 gen-er-ated, lead-ing to
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 591--592
+Underfull \hbox (badness 4531) in paragraph at lines 592--593
 \T1/zplTLF/m/n/10 a \T1/zplTLF/m/it/10 rise \T1/zplTLF/m/n/10 in \T1/zplTLF/m/it/10 equi-lib-rium
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 592--593
+Underfull \hbox (badness 5548) in paragraph at lines 593--594
 \T1/zplTLF/m/n/10 and lat-tice ions \T1/zplTLF/m/it/10 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
 []\T1/zplTLF/m/n/10 The \T1/zplTLF/m/it/10 bonded elec-trons
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 595--596
+Underfull \hbox (badness 8094) in paragraph at lines 596--597
 \T1/zplTLF/m/n/10 in-creas-ing the \T1/zplTLF/m/it/10 num-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 595--596
+Underfull \hbox (badness 2401) in paragraph at lines 596--597
 \T1/zplTLF/m/n/10 car-ri-ers'. There-fore,
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 596--597
+Underfull \hbox (badness 2189) in paragraph at lines 597--598
 \T1/zplTLF/m/it/10 ing the flow \T1/zplTLF/m/n/10 of `mo-
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 596--597
+Underfull \hbox (badness 6268) in paragraph at lines 597--598
 \T1/zplTLF/m/n/10 bile charge car-ri-ers'.
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 599--600
+Underfull \hbox (badness 1521) in paragraph at lines 600--601
 \T1/zplTLF/m/n/10 more sig-nif-i-cant than
  []
 
@@ -1686,7 +1686,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (19 pages, 1336283 bytes).
+Output written on ALPhys.pdf (19 pages, 1336309 bytes).
 PDF statistics:
  344 PDF objects out of 1000 (max. 8388607)
  275 compressed objects within 3 object streams
