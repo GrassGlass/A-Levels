@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  12 JAN 2024 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  16 JAN 2024 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1456,49 +1456,209 @@ pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.4}) 
 l.494 \chapter
               {Currents of Electricity}]
 Chapter 13.
+[15
 
-Underfull \hbox (badness 4001) in paragraph at lines 522--523
+]
+Underfull \hbox (badness 4001) in paragraph at lines 523--524
 []\T1/zplTLF/m/n/10 Metallic con-duc-tor at
  []
 
+<../images/MetallicConductor I-V.jpg, id=223, 1606.0pt x 1007.765pt>
+File: ../images/MetallicConductor I-V.jpg Graphic file (type jpg)
+<use ../images/MetallicConductor I-V.jpg>
+Package pdftex.def Info: ../images/MetallicConductor I-V.jpg  used on input line 530.
+(pdftex.def)             Requested size: 129.00269pt x 80.94577pt.
 
-Underfull \hbox (badness 1515) in paragraph at lines 532--533
+Underfull \hbox (badness 1515) in paragraph at lines 534--535
 \T1/zplTLF/m/it/10 trons \T1/zplTLF/m/n/10 and the \T1/zplTLF/m/it/10 rate of
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 533--534
+Underfull \hbox (badness 1082) in paragraph at lines 535--536
 \T1/zplTLF/m/n/10 ture will have a dif-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
+
+ []
+
+<../images/ForwardReverseBias.jpg, id=224, 844.15375pt x 1606.0pt>
+File: ../images/ForwardReverseBias.jpg Graphic file (type jpg)
+<use ../images/ForwardReverseBias.jpg>
+Package pdftex.def Info: ../images/ForwardReverseBias.jpg  used on input line 542.
+(pdftex.def)             Requested size: 67.53368pt x 128.48262pt.
+
+Underfull \hbox (badness 1048) in paragraph at lines 547--548
 \T1/zplTLF/m/it/10 in-creases\T1/zplTLF/m/n/10 . In fact, if
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 542--543
+Underfull \hbox (badness 3612) in paragraph at lines 547--548
 \T1/zplTLF/m/n/10 goes past its \T1/zplTLF/m/it/10 thresh-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 543--544
+Underfull \hbox (badness 3148) in paragraph at lines 548--549
 []\T1/zplTLF/m/n/10 Reverse-biased: \T1/zplTLF/m/it/10 Very
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 543--544
+Underfull \hbox (badness 1721) in paragraph at lines 548--549
 \T1/zplTLF/m/it/10 high re-sis-tance\T1/zplTLF/m/n/10 . But,
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 544--545
+Underfull \hbox (badness 4967) in paragraph at lines 549--550
 []\T1/zplTLF/m/n/10 If the reverse-biased
  []
 
-[15
+<../images/Diode I-V characteristics.jpg, id=225, 1606.0pt x 1376.14125pt>
+File: ../images/Diode I-V characteristics.jpg Graphic file (type jpg)
+<use ../images/Diode I-V characteristics.jpg>
+Package pdftex.def Info: ../images/Diode I-V characteristics.jpg  used on input line 551.
+(pdftex.def)             Requested size: 129.00269pt x 110.5345pt.
+<../images/Filament Lamp I-V Characteristics.jpg, id=226, 1606.0pt x 1009.7725pt>
+File: ../images/Filament Lamp I-V Characteristics.jpg Graphic file (type jpg)
+<use ../images/Filament Lamp I-V Characteristics.jpg>
+Package pdftex.def Info: ../images/Filament Lamp I-V Characteristics.jpg  used on input line 567.
+(pdftex.def)             Requested size: 129.00269pt x 81.10701pt.
+<../images/Filament Lamp Resistance.jpg, id=227, 1604.99625pt x 864.22874pt>
+File: ../images/Filament Lamp Resistance.jpg Graphic file (type jpg)
+<use ../images/Filament Lamp Resistance.jpg>
+Package pdftex.def Info: ../images/Filament Lamp Resistance.jpg  used on input line 568.
+(pdftex.def)             Requested size: 129.00269pt x 69.45619pt.
 
-] [16] (./ALPhys.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
+[]\T1/zplTLF/m/n/10 As \T1/zplTLF/m/it/10 cur-rent in-creases,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
+\T1/zplTLF/m/it/10 power dis-si-pated in-
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 572--573
+\T1/zplTLF/m/n/10 Heat is gen-er-ated so
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 572--573
+\T1/zplTLF/m/it/10 equi-lib-rium tem-per-a-ture
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 572--573
+\T1/zplTLF/m/n/10 lat-tice and trans-fers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
+[]\T1/zplTLF/m/n/10 The \T1/zplTLF/m/it/10 lat-tice ions vi-
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 573--574
+\T1/zplTLF/m/it/10 brate more vig-or-ously\T1/zplTLF/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 573--574
+\T1/zplTLF/m/n/10 This \T1/zplTLF/m/it/10 hin-ders the flow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
+\T1/zplTLF/m/n/10 of `charge car-ri-ers'.
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 574--575
+\T1/zplTLF/m/it/10 high \T1/zplTLF/m/n/10 volt-ages/currents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
+[]\T1/zplTLF/m/n/10 Negative Tem-per-a-ture
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 583--584
+\T1/zplTLF/m/n/10 mis-tor also \T1/zplTLF/m/it/10 in-creases\T1/zplTLF/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 584--585
+\T1/zplTLF/m/it/10 in-crease \T1/zplTLF/m/n/10 in \T1/zplTLF/m/it/10 tem-per-a-ture
+ []
+
+<../images/NTC I-V.jpg, id=228, 1606.0pt x 953.5625pt>
+File: ../images/NTC I-V.jpg Graphic file (type jpg)
+<use ../images/NTC I-V.jpg>
+Package pdftex.def Info: ../images/NTC I-V.jpg  used on input line 586.
+(pdftex.def)             Requested size: 129.00269pt x 76.5921pt.
+<../images/NTC Resistance.jpg, id=229, 1606.0pt x 921.4425pt>
+File: ../images/NTC Resistance.jpg Graphic file (type jpg)
+<use ../images/NTC Resistance.jpg>
+Package pdftex.def Info: ../images/NTC Resistance.jpg  used on input line 587.
+(pdftex.def)             Requested size: 129.00269pt x 74.01216pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+[]\T1/zplTLF/m/n/10 As \T1/zplTLF/m/it/10 cur-rent in-creases\T1/zplTLF/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+\T1/zplTLF/m/it/10 power dis-si-pated in-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 591--592
+\T1/zplTLF/m/n/10 gen-er-ated, lead-ing to
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 591--592
+\T1/zplTLF/m/n/10 a \T1/zplTLF/m/it/10 rise \T1/zplTLF/m/n/10 in \T1/zplTLF/m/it/10 equi-lib-rium
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 592--593
+\T1/zplTLF/m/n/10 and lat-tice ions \T1/zplTLF/m/it/10 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
+[]\T1/zplTLF/m/n/10 The \T1/zplTLF/m/it/10 bonded elec-trons
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 595--596
+\T1/zplTLF/m/n/10 in-creas-ing the \T1/zplTLF/m/it/10 num-
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 595--596
+\T1/zplTLF/m/n/10 car-ri-ers'. There-fore,
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 596--597
+\T1/zplTLF/m/it/10 ing the flow \T1/zplTLF/m/n/10 of `mo-
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 596--597
+\T1/zplTLF/m/n/10 bile charge car-ri-ers'.
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 599--600
+\T1/zplTLF/m/n/10 more sig-nif-i-cant than
+ []
+
+[16 <../images/MetallicConductor I-V.jpg> <../images/ForwardReverseBias.jpg> <../images/Diode I-V characteristics.jpg>] [17 <../images/Filament Lamp I-V Characteristics.jpg> <../images/Filament Lamp Resistance.jpg> <../images/NTC I-V.jpg> <../images/NTC Resistance.jpg>] [18] (./ALPhys.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1512,10 +1672,10 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: B89FE543FF61785B653FA05B606599D8;1540.
  ) 
 Here is how much of TeX's memory you used:
- 33798 strings out of 475237
- 653704 string characters out of 5768555
- 1937238 words of memory out of 5000000
- 54255 multiletter control sequences out of 15000+600000
+ 33853 strings out of 475237
+ 655763 string characters out of 5768555
+ 1938238 words of memory out of 5000000
+ 54305 multiletter control sequences out of 15000+600000
  656747 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,17n,131p,539b,1094s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1526,10 +1686,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (17 pages, 470291 bytes).
+Output written on ALPhys.pdf (19 pages, 1336283 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 86 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

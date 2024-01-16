@@ -513,8 +513,9 @@ such that both stars have the same angular velocity \(\omega\).
     \item \emph{Resistance} is defined as the \emph{ratio} of the \emph{potential difference across} the conductor to the \emph{current} flowing through it.
     \item \emph{Resistivity} \(\rho\) is the \emph{proportionality constant} between the \emph{dimensions of a specimen of a material} and its \emph{resistance} such that 
     \[R=\frac{\rho L}{A}.\]
+    \newpage
     \item Electrical Components
-    \begin{tabular}{|Sc|Sc|Sc|}
+    \begin{longtable}{|Sc|Sc|Sc|}
         \hline
         Types of Conductors & Changes to Resistance & Reason\\
         \hline
@@ -526,6 +527,7 @@ such that both stars have the same angular velocity \(\omega\).
                 \item At \emph{ constant temperature} this is an Ohmic conductor.
                 \item Has \emph{constant resistance}. Ratios of \(V/I\) is constant.
             \end{itemize} 
+            \includegraphics[width=\textwidth]{../images/MetallicConductor I-V.jpg}
         \end{minipage} &
         \begin{minipage}{0.3\textwidth}
             \begin{itemize}
@@ -535,7 +537,10 @@ such that both stars have the same angular velocity \(\omega\).
         \end{minipage}\\
         \hline
         \begin{minipage}{0.25\textwidth}
-            Semiconductor Diode
+            Semiconductor Diode\\[5mm]
+            \begin{center}
+                \includegraphics[scale=0.08]{../images/ForwardReverseBias.jpg}
+            \end{center}
         \end{minipage} &
         \begin{minipage}{0.3\textwidth}
             \begin{itemize}
@@ -543,6 +548,7 @@ such that both stars have the same angular velocity \(\omega\).
                     \item Reverse-biased: \emph{Very high resistance}. But, there will be a \emph{small leakage current}.
                     \item If the reverse-biased p.d. is so high that it exceeds the \emph{breakdown voltage}, the diode will \emph{break down} and \emph{conduct electricity}.
             \end{itemize} 
+            \includegraphics[width=\textwidth]{../images/Diode I-V characteristics.jpg}
         \end{minipage} &
         \begin{minipage}{0.3\textwidth}
             \begin{itemize}
@@ -551,20 +557,63 @@ such that both stars have the same angular velocity \(\omega\).
         \end{minipage}\\
         \hline
         \begin{minipage}{0.25\textwidth}
-            
+            Filament Lamp
         \end{minipage} &  
         \begin{minipage}{0.3\textwidth}
             \begin{itemize}
-                \item 
+                \item When \emph{p.d. increases, current increases}, with \emph{decreasing \(I-V\) ratio}.
+                \item The \emph{resistance} of a metallic conductor \emph{increases} with an increase in \emph{temperature}.
             \end{itemize} 
+            \includegraphics[width=\textwidth]{../images/Filament Lamp I-V Characteristics.jpg}\\[-1mm]
+            \includegraphics[width=\textwidth]{../images/Filament Lamp Resistance.jpg}
         \end{minipage} &
         \begin{minipage}{0.3\textwidth}
             \begin{itemize}
-                \item  
+                \item As \emph{current increases, power dissipated increases} since \(P=I^2R\). Heat is generated so \emph{equilibrium temperature rises} --- as electrons drift through the metal, they collide with the metal lattice and transfers energy to it. 
+                \item The \emph{lattice ions vibrate more vigorously}. This \emph{hinders the flow} of `charge carriers'. Therefore, \emph{resistance is increased}.
+                \item Ohmic conductors do \emph{not} obey Ohm's Law at \emph{high} voltages/currents for this reason.
             \end{itemize}
         \end{minipage}\\
         \hline
-    \end{tabular}
+        \begin{minipage}{0.25\textwidth}
+            Negative Temperature Coefficient (NTC) Thermistor
+        \end{minipage} &  
+        \begin{minipage}{0.3\textwidth}
+            \begin{itemize}
+                \item When \emph{p.d. increases}, \emph{current} through the thermistor also \emph{increases}, with \emph{increasing \(I-V\) ratio}.
+                \item The \emph{resistance} of a thermistor \emph{decreases} with an \emph{increase} in \emph{temperature} (This is the meaning of NTC).
+            \end{itemize} 
+            \includegraphics[width=\textwidth]{../images/NTC I-V.jpg}\\[-1mm]
+            \includegraphics[width=\textwidth]{../images/NTC Resistance.jpg}
+        \end{minipage} &
+        \begin{minipage}{0.3\textwidth}
+            \begin{itemize}
+                \item  As \emph{current increases}, \emph{power dissipated increases}. \emph{More heat} is generated, leading to a \emph{rise} in \emph{equilibrium temperature}.
+                \item Thus, the \emph{mean kinetic energy} of the electrons and lattice ions \emph{increases}. So,
+            \end{itemize}
+            \begin{enumerate}
+                \item The \emph{bonded electrons break free} from bonds, increasing the \emph{number} of `mobile charge carriers'. Therefore, \emph{resistance decreases}.
+                \item The \emph{lattice ions vibrate more vigorously}, \emph{hindering the flow} of `mobile charge carriers'. Thence, resistance increases.  
+            \end{enumerate} 
+            \begin{itemize}
+                \item The first effect is much more significant than the second. So, there is a net \emph{decrease in resistance}.
+            \end{itemize}
+        \end{minipage}\\
+        \hline
+    \end{longtable}
+    \newpage
+    \item The \emph{electromotive force} (e.m.f) of a \emph{source} is defined as the amount of \emph{energy converted} from \emph{non-electrical} forms of energy to \emph{electrical} energy \emph{per unit charge} as the \emph{charge passes through a complete circuit}.
+    \item Internal resistance: the p.d. across a component is given by \(V=E-Ir\).
+    \item Power dissipated \(P=IV\).
+    \item Power delivered is \emph{maximum } when \(R=r\), such that 
+    \[P_{\text{max}}=\frac{E^2}{4r}.\]
+    \item Efficiency of the source
+    \begin{itemize}
+        \item \emph{Increases} when external load/\emph{resistance increases}.
+        \item Is halved when \(R=r\).
+
+        \emph{Note:} Maximum power \(\neq\) maximum efficiency.
+    \end{itemize}
 \end{itemize}
 
 \end{document}
