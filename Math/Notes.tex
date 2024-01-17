@@ -479,6 +479,21 @@
 \begin{stbox}{}
   \begin{enumerate}
     \item All \(n\)th roots of any complex number are the same distance \(r\) from the origin and have the same angular separation, \(\pi/n\).
+    \item Loci (Use a \emph{compass})
+    \begin{enumerate}
+      \item The locus represented by \(\lvert z-a \rvert =r\) (or \(z=a+re^{i\theta}\)) is a \emph{circle} of radius \(r\) centered at \(A(\operatorname{Re}(a),\operatorname{Im}(a))\).
+      \begin{center}
+        \includegraphics[scale=0.1]{../images/ComplexCircleLocus}
+      \end{center}
+      \item The locus represented by \(\lvert z-a \rvert =\lvert z-b \rvert\) is the \emph{perpendicular bisector} of the line segment joining \(A\) and \(B\).
+      \begin{center}
+        \includegraphics[scale=0.1]{../images/ComplexPerpendicularBisectorLocus}
+      \end{center}
+      \item The locus represented by \(\arg(z-a)=\theta\) is the \emph{half-line} from \(A\) (excluding \(A\)) that makes an angle \(\theta\) with the \emph{positive} real axis.
+      \begin{center}
+        \includegraphics[scale=0.1]{../images/ComplexRotationByAngleTheta}
+      \end{center}
+    \end{enumerate}
   \end{enumerate}
 \end{stbox}
 
@@ -1470,13 +1485,13 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \multicolumn{2}{|Sc|}{
     \begin{tabular}{Sc|Sc|Sc}
       \begin{minipage}{0.333\textwidth}
-        \[\theta=\cos^{-1}\norm{\frac{\mathbf{m_1}\cdot \mathbf{m_2}}{\norm{\mathbf{m_1}\norm{\mathbf{m_2}}}}}.\]
+        \[\theta=\cos^{-1}\left\lvert\frac{\mathbf{m_1}\cdot \mathbf{m_2}}{\norm{\mathbf{m_1}}\norm{\mathbf{m_2}}}\right\rvert.\]
+      \end{minipage} &
+      \begin{minipage}{0.333\textwidth} 
+        \[\theta=\sin^{-1}\left\lvert \frac{\mathbf{m}\cdot \mathbf{n}}{\norm{\mathbf{m}}\norm{\mathbf{n}}} \right\rvert .\]
       \end{minipage} &
       \begin{minipage}{0.333\textwidth}
-        \[\theta=\sin^{-1}\norm{\frac{\mathbf{m}\cdot \mathbf{n}}{\norm{\mathbf{m}\norm{\mathbf{n}}}}}.\]
-      \end{minipage} &
-      \begin{minipage}{0.333\textwidth}
-        \[\theta=\cos^{-1}\norm{\frac{\mathbf{n_1}\cdot \mathbf{n_2}}{\norm{\mathbf{n_1}\norm{\mathbf{n_2}}}}}.\]
+        \[\theta=\cos^{-1}\left\lvert \frac{\mathbf{n_1}\cdot \mathbf{n_2}}{\norm{\mathbf{n_1}}\norm{\mathbf{n_2}}} \right\rvert.\]
       \end{minipage}\\
     \end{tabular}
   }\\

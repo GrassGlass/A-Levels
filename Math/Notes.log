@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 JAN 2024 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  17 JAN 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1096,170 +1096,186 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--425
 Chapter 7.
 [14
 
-] [15]
+]
+<./images/../images/ComplexCircleLocus.jpg, id=484, 1603.9925pt x 925.4575pt>
+File: ./images/../images/ComplexCircleLocus.jpg Graphic file (type jpg)
+<use ./images/../images/ComplexCircleLocus.jpg>
+Package pdftex.def Info: ./images/../images/ComplexCircleLocus.jpg  used on input line 486.
+(pdftex.def)             Requested size: 160.40865pt x 92.55116pt.
+<./images/../images/ComplexPerpendicularBisectorLocus.jpg, id=485, 1604.99625pt x 949.5475pt>
+File: ./images/../images/ComplexPerpendicularBisectorLocus.jpg Graphic file (type jpg)
+<use ./images/../images/ComplexPerpendicularBisectorLocus.jpg>
+Package pdftex.def Info: ./images/../images/ComplexPerpendicularBisectorLocus.jpg  used on input line 490.
+(pdftex.def)             Requested size: 160.50902pt x 94.96031pt.
+<./images/../images/ComplexRotationByAngleTheta.jpg, id=486, 1604.99625pt x 1100.11pt>
+File: ./images/../images/ComplexRotationByAngleTheta.jpg Graphic file (type jpg)
+<use ./images/../images/ComplexRotationByAngleTheta.jpg>
+Package pdftex.def Info: ./images/../images/ComplexRotationByAngleTheta.jpg  used on input line 494.
+(pdftex.def)             Requested size: 160.50902pt x 110.01744pt.
+ [15 <./images/../images/ComplexCircleLocus.jpg> <./images/../images/ComplexPerpendicularBisectorLocus.jpg>] [16 <./images/../images/ComplexRotationByAngleTheta.jpg>]
 Chapter 8.
-[16
+[17
 
-] [17] [18] [19]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 800.
-
+] [18] [19] [20]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lvert' on input line 800.
+(hyperref)                removing `math shift' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rvert' on input line 800.
+(hyperref)                removing `\lvert' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 800.
+(hyperref)                removing `\rvert' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathopen' on input line 800.
+(hyperref)                removing `math shift' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\left' on input line 800.
+(hyperref)                removing `\mathopen' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lvert' on input line 800.
+(hyperref)                removing `\left' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rvert' on input line 800.
+(hyperref)                removing `\lvert' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\right' on input line 800.
+(hyperref)                removing `\rvert' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 806.
+(hyperref)                removing `\right' on input line 815.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 806.
+(hyperref)                removing `math shift' on input line 821.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 806.
+(hyperref)                removing `\begingroup' on input line 821.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 806.
+(hyperref)                removing `\endgroup' on input line 821.
 
-[20]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@over' on input line 821.
+
+[21]
 Chapter 9.
-[21
+[22
 
-] [22] [23] [24]
+] [23] [24] [25]
 Chapter 10.
 
-Underfull \hbox (badness 1281) in paragraph at lines 1154--1154
+Underfull \hbox (badness 1281) in paragraph at lines 1169--1169
 []\OT1/cmr/m/n/9 When light par-al-lel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1154
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1169
 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 1160--1164
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 1175--1179
 []|[]| 
  []
 
 
-Overfull \hbox (12.4pt too wide) in paragraph at lines 1165--1169
+Overfull \hbox (12.4pt too wide) in paragraph at lines 1180--1184
 []|[]| 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 1170--1174
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 1185--1189
 []|[]| 
  []
 
 
-Overfull \hbox (12.4pt too wide) in paragraph at lines 1175--1180
+Overfull \hbox (12.4pt too wide) in paragraph at lines 1190--1195
 []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1180--1184
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1195--1199
 []|[]| 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 1185--1190
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 1200--1205
 []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1191--1196
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1206--1211
 []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1196--1198
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1211--1213
 []|[]| 
  []
 
-[25
+[26
 
-] [26]
+] [27]
 Chapter 11.
-[27
+[28
 
 ]
 Chapter 12.
-[28
+[29
 
 ]
 Chapter 13.
 
-Underfull \hbox (badness 1418) in paragraph at lines 1430--1431
+Underfull \hbox (badness 1418) in paragraph at lines 1445--1446
 []\OT1/cmr/m/n/10 Solving sys-tem of lin-ear equa-tions,
  []
 
 
-Overfull \hbox (49.16032pt too wide) in alignment at lines 1270--1484
+Overfull \hbox (49.16032pt too wide) in alignment at lines 1285--1499
  [] [] 
  []
 
-[29
+[30
 
-] [30] [31]
+] [31] [32]
 Chapter 14.
-[32
+[33
 
 ]
 Chapter 15.
-[33
+[34
 
-] [34] [35]
-<./images/Logistics Curve.jpg, id=766, 1284.8pt x 642.4pt>
+] [35] [36]
+<./images/Logistics Curve.jpg, id=777, 1284.8pt x 642.4pt>
 File: ./images/Logistics Curve.jpg Graphic file (type jpg)
 <use ./images/Logistics Curve.jpg>
-Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1646.
+Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1661.
 (pdftex.def)             Requested size: 430.00462pt x 215.00194pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1647.
+(caption)                particular \caption on input line 1662.
 See the caption package documentation for explanation.
 
-[36 <./images/Logistics Curve.jpg>]
+[37 <./images/Logistics Curve.jpg>]
 runsystem(pdflatex -interaction=batchmode -shell-escape -jobname '../Diagrams/Oscils' ../Diagrams/Oscils)...disabled (restricted).
 
 
 
 Package standalone Warning: Graphic '../Diagrams/Oscils.pdf' could not be build.
-Shell escape activated? on input line 1690.
+Shell escape activated? on input line 1705.
 
 (./images/../Diagrams/Oscils.tex
 contour: Using real outline for `(c)' on input line 60.
@@ -1269,42 +1285,42 @@ File: ./images/../Diagrams/Oscils.tex Graphic file (type tex)
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1691.
+(caption)                particular \caption on input line 1706.
 See the caption package documentation for explanation.
 
-[37] [38]
+[38] [39]
 Chapter 16.
-[39
-
-]
-Chapter 17.
 [40
 
 ]
-<./images/BinomDist.png, id=822, 354.57469pt x 185.19188pt>
+Chapter 17.
+[41
+
+]
+<./images/BinomDist.png, id=834, 354.57469pt x 185.19188pt>
 File: ./images/BinomDist.png Graphic file (type png)
 <use ./images/BinomDist.png>
-Package pdftex.def Info: ./images/BinomDist.png  used on input line 1765.
+Package pdftex.def Info: ./images/BinomDist.png  used on input line 1780.
 (pdftex.def)             Requested size: 354.57382pt x 185.1914pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1766.
+(caption)                particular \caption on input line 1781.
 See the caption package documentation for explanation.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.43}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1766 ...u/site/math117/normalApproxToBinomial/}}
-                                                   [41 <./images/BinomDist.png>]
+l.1781 ...u/site/math117/normalApproxToBinomial/}}
+                                                   [42 <./images/BinomDist.png>]
 Chapter 18.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1787--1789
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1804
 
  []
 
-[42
+[43
 
 ] (./Notes.aux)
  ***********
@@ -1315,10 +1331,10 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: E6BD32417B0E4F65CA56428D7DCD48E6;7396.
  ) 
 Here is how much of TeX's memory you used:
- 45874 strings out of 475237
- 1061564 string characters out of 5768555
+ 45922 strings out of 475237
+ 1063753 string characters out of 5768555
  1976238 words of memory out of 5000000
- 65875 multiletter control sequences out of 15000+600000
+ 65918 multiletter control sequences out of 15000+600000
  585126 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,27n,131p,743b,3015s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1326,10 +1342,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Notes.pdf (44 pages, 730890 bytes).
+Output written on Notes.pdf (45 pages, 950834 bytes).
 PDF statistics:
- 1094 PDF objects out of 1200 (max. 8388607)
- 955 compressed objects within 10 object streams
- 394 named destinations out of 1000 (max. 500000)
- 431 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1107 PDF objects out of 1200 (max. 8388607)
+ 964 compressed objects within 10 object streams
+ 399 named destinations out of 1000 (max. 500000)
+ 446 words of extra memory for PDF output out of 10000 (max. 10000000)
 

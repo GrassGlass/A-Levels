@@ -1,0 +1,66 @@
+\documentclass[margin=10pt]{standalone}
+\usepackage{tikz}
+\usepackage{bm}
+%\usepackage{pgfmath}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc,fadings,decorations.pathreplacing, arrows.meta,bending}
+\usetikzlibrary{decorations.pathmorphing,patterns}
+\usetikzlibrary{decorations.markings}
+\begin{document}
+% from https://tex.stackexchange.com/a/430239/121799
+\tikzset{% inspired by https://tex.stackexchange.com/a/316050/121799
+    arc arrow/.style args={%
+    to pos #1 with length #2}{
+    decoration={
+        markings,
+         mark=at position 0 with {\pgfextra{%
+         \pgfmathsetmacro{\tmpArrowTime}{#2/(\pgfdecoratedpathlength)}
+         \xdef\tmpArrowTime{\tmpArrowTime}}},
+        mark=at position {#1-\tmpArrowTime} with {\coordinate(@1);},
+        mark=at position {#1-2*\tmpArrowTime/3} with {\coordinate(@2);},
+        mark=at position {#1-\tmpArrowTime/3} with {\coordinate(@3);},
+        mark=at position {#1} with {\coordinate(@4);
+        \draw[-{Latex[length=#2,bend]}]       
+        (@1) .. controls (@2) and (@3) .. (@4);},
+        },
+     }
+}
+
+\begin{tikzpicture}[thick, scale=0.9, every node/.style={transform
+shape}, arc arrow=to pos 0.525 with length 2mm]
+\def\Lx{5.0}
+\def\xi{0.25}
+\def\dx{0.5}
+\def\dy{0.35}
+\def\hh{2.0}
+% top plate
+\filldraw[opacity=0.2] (0, 0) -- (\Lx, 0) -- (\Lx, \dy) -- (0, \dy);
+\draw (\Lx/2, \hh+2.*\dy) node[] {$\bm -Q$};
+% bottom plate
+\filldraw[opacity=0.2] (0, \hh) -- (\Lx, \hh) -- (\Lx, \hh+\dy) -- (0, \hh+\dy);
+\draw (\Lx/2, -\dy) node[] {$\bm +Q$};
+% left curved lines
+% \draw[postaction={decorate}] (\xi, \dy) node[below= -0.14, red] {$\bm +$} to
+% [bend left=15]  (\xi, \hh) node[above=-0.24, blue] {$\bm -$};
+\draw[postaction={decorate}] (0, \dy) .. controls (-\dx, {0.35*(\hh+\dy)}) and (-\dx,{0.65*(\hh+\dy)}) ..  (0, \hh);
+% \draw[postaction={decorate}] (0, 0.7*\dy) .. controls (-3*\dx, {0.1*(\hh+\dy)})
+% and (-3*\dx,{0.9*(\hh+\dy)}) .. (0, \hh+0.3*\dy);
+% \draw[postaction={decorate}] (0, 0.2*\dy) .. controls (-6*\dx, {0.0*(\hh+\dy)})
+% and (-6*\dx,{(\hh+\dy)}) ..  (0, \hh+0.8*\dy);
+% Middle lines
+\foreach \nL in {1, 2, ..., 8}{
+    \draw[red] (\xi+\nL*\dx, 0.65*\dy) node[] {$\bm +$};
+    \draw[blue] (\xi+\nL*\dx, \hh+0.1*\dy) node[] {$\bm -$};
+    \draw[postaction={decorate}] (\xi+\nL*\dx, \dy) --++ (0, \hh-\dy);
+}
+% right curved lines
+% \draw[postaction={decorate}] (\xi+9*\dx, \dy) node[below= -0.14, red] {$\bm +$}
+% to [bend right=15]  (\xi+9*\dx, \hh) node[above=-0.24, blue] {$\bm -$};
+\draw[postaction={decorate}] (\Lx, \dy) .. controls (\Lx+\dx, {0.35*(\hh+\dy)}) and (\Lx+\dx,{0.65*(\hh+\dy)}) .. (\Lx, \hh);
+% \draw[postaction={decorate}] (\Lx, 0.7*\dy) .. controls (\Lx+3*\dx,
+% {0.1*(\hh+\dy)}) and (\Lx+3*\dx,{0.90*(\hh+\dy)}) ..  (\Lx, \hh+0.3*\dy);
+% \draw[postaction={decorate}] (\Lx, 0.2*\dy) .. controls (\Lx+6*\dx,
+% {0.0*(\hh+\dy)}) and (\Lx+6*\dx,{(\hh+\dy)}) .. (\Lx, \hh+0.8*\dy);
+
+\end{tikzpicture}
+\end{document}
