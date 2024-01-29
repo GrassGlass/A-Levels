@@ -28,31 +28,15 @@
 
 \chapter{Inequalities and Equations}
 \section{Solving Inequalities}
-\subsection{Rational Inequalities}
 \begin{stbox}{General Methods}
   \begin{enumerate}
     \item Quadratic formula for factorisation / finding roots (of polynomial).
     \item Completing the square.
-    \item Discriminant/Completing the Sq to eliminate{\hyperlink{INEQGM3}{*}} factors which are \emph{always} positive or negative (e.g. removing \(x^2-3x+4\)). \emph{Note to include coefficient of \(x^2\) in argument.}
+    \item Discriminant/Completing the square to eliminate factors which are \emph{always} positive or negative (e.g. removing \(x^2-3x+4\)). \emph{Note to include coefficient of \(x^2\) in the argument.}
     \item GC (include sketch).
-    \item \emph{Rational Functions}\footnote{Fractions of Polynomials}: Move everything to one side (\(+\),\(-\)), then use number line.
-    \item Number line (more complicated functions).
+    \item \emph{Rational Functions}: Move everything to one side by adding or subtracting, then use a number line.
 \end{enumerate}
 \end{stbox}
-\begin{IN}
-    \begin{itemize}[label=\footnotesize \(\square\) \normalsize]
-        \item \hypertarget{INEQGM3}{Eliminating Factors --- \emph{only}\footnote{Counterexample: \(P(x)=x(3x^2-9x+10) \leq 2\) iff \(x \leq 2\) is false. E.g.: \(P(1.8)=6.336 \not\leq 2\).} works for \(c=0\) in \(f(x) \geq c\) or \(f(x) \leq c\).}
-        \item Discriminant --- include coefficient of \(x^2\) in argument.
-        \item When using factor elimination to remove some \(f(x)\), we only need to say that ``\(f(x)\) is negative''\footnote{Source: Comment on Assignment A1}.
-        \item Rational functions --- exclude the values that causes division by zero to occur.
-        \item With inequalities, be really careful about multiplication! If \(x>y\) \emph{and} \hly{\(z>0\)}, then \(xz>yz\). 
-        \item Cross multiplication preserves/reverses order for \(\frac{x}{y}<\frac{x'}{y'}\) iff \(y\) and \(y'\) are \emph{both} positive or negative.\footnote{Otherwise, note the counterexample \(\frac{1}{2}<\frac{1}{-3}\).}
-        \item Squaring preserves/reverses the order of \(x<y\) iff \(x\) and \(y\) are \emph{both} positive or negative.
-        \item Can't necessarily use differentiation to solve if qns asks for algebraic method.
-        \item Safer to graph out the two functions separately!
-        \item Be careful about whether to include equality! Don't forget to account for it!
-    \end{itemize}
-\end{IN}
 \section{Modulus Inequalities}
 \begin{fact}
     Given \(x \in \mathbb{R}\), we have that 
@@ -69,27 +53,15 @@
 \begin{stbox}{Useful Properties}
   For every \(x,k \in \mathbb{R}\):
   \begin{enumerate}[label=(\alph*)]
-      \item \(\lvert x \rvert < k\) iff\footnote{Notice that \(k>0\) here since \(0 \leq \lvert x \rvert < k\).} \(-k<x<k\).
+      \item \(\lvert x \rvert < k\) iff \(-k<x<k\).
       \item \(\lvert x \rvert > k\) iff \(x<-k\) or \(x>k\).
   \end{enumerate}
-  \footnotesize (of course, similarly applies for the non-strict ordering \(\leq\)) \normalsize
 \end{stbox}
-\begin{IN}
-    \begin{itemize}[label=\(\circ\)]
-        \item Note that when solving for \(\lvert x \rvert=y\), \(\lvert x \rvert < y\), etc, \(y\) must be greater than or equal to 0. In other words, there may be solutions we will need to reject.\\ \footnotesize(For \(<\), equality is of course not allowed.)\normalsize  
-    \end{itemize}
-\end{IN}
-\begin{IN}
-\begin{itemize}[label=\scriptsize\(\triangle\)\normalsize]
-  \item Carelessness: Look at the question carefully! If they ask for a \emph{set} of values, then rmb to give it as a \emph{set}!
-  \item Exponentiation and Logarithms: Simply use \(\ln\) and avoid \(\log_c\) for \(c<1\).\footnote{Order is \emph{Preserved} under exponentiation/logarithms if the base is \emph{larger than} one. Otherwise, when it is \emph{less than} one, the order is \emph{reversed}. \url{https://www.desmos.com/calculator/gd8z5fa0bg}}
-\end{itemize}
-\end{IN}
 
 \section{System of Linear Equations}
-\begin{stbox}{Things}
-  \begin{itemize}[label=\(\chi\)]
-    \item  For more complicated real-world-context qns, try playing around with the values (e.g. use simult eqns) first. It may work out nicer than expected.
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item  For more complicated real-world-context qns, try playing around with the values (e.g. use simultaneous equations) first. It may work out nicer than expected.
   \end{itemize}
 \end{stbox}
 \section{Summary}
@@ -101,21 +73,27 @@
   \end{enumerate}
 \end{lbox}
 \begin{IN}
-  \begin{itemize}[label=\footnotesize \(\qed\) \normalsize]
-    \item \hypertarget{INEQGM3}{Eliminating Factors --- \emph{only}\footnote{Counterexample: \(P(x)=x(3x^2-9x+10) \leq 2\) iff \(x \leq 2\) is false. E.g.: \(P(1.8)=6.336 \not\leq 2\).} works for \(c=0\) in \(f(x) \geq c\) or \(f(x) \leq c\).}
+  \begin{itemize}
+    \item Eliminating Factors --- \emph{only} works for \(c=0\) in \(f(x) \geq c\) or \(f(x) \leq c\).
+
+    Counterexample: It is false that \(P(x)=x(3x^2-9x+10) \leq 2\) iff \(x \leq 2\). Notice that \(P(1.8)=6.336 \not\leq 2\). 
     \item Discriminant --- include coefficient of \(x^2\) in argument.
-    \item When using factor elimination to remove some \(f(x)\), we only need to say that ``\(f(x)\) is negative''\footnote{Source: Comment on Assignment A1}.
+    \item When using factor elimination to remove some \(f(x)\), we only need to say that ``\(f(x)\) is negative''.
     \item Rational functions --- exclude the values that causes division by zero to occur.
     \item With inequalities, be really careful about multiplication! If \(x>y\) \emph{and} \hly{\(z>0\)}, then \(xz>yz\). 
-    \item Cross multiplication preserves order for \(\frac{x}{y}<\frac{x'}{y'}\) iff \(y\) and \(y'\) are \emph{both} positive or negative.\footnote{Otherwise, note the counterexample \(\frac{1}{2}<\frac{1}{-3}\).}
+    \item Cross multiplication preserves order for \(\frac{x}{y}<\frac{x'}{y'}\) iff \(y\) and \(y'\) are \emph{both} positive or negative.
+    
+    Note the counterexample \(\frac{1}{2}<\frac{1}{-3}\).
     \item Squaring preserves/reverses order for \(x<y\) iff \(x\) and \(y\) are \emph{both} positive or negative.
     \item Can't necessarily use differentiation to solve if qns asks for algebraic method.
     \item Safer to graph out the two functions separately!
     \item Be careful about whether to include equality! Don't forget to account for it!
-    \item  Note that when solving for \(\lvert x \rvert=y\), \(\lvert x \rvert < y\), etc, \(y\) must be greater than or equal to 0. In other words, there may be solutions we will need to reject.\\ \footnotesize(For \(<\), equality is of course not allowed.) \normalsize
+    \item  Note that when solving for \(\lvert x \rvert=y\), \(\lvert x \rvert < y\), etc, \(y\) must be greater than or equal to 0. In other words, there may be solutions we will need to reject.
     \item Carelessness: Look at the question carefully! If they ask for a \emph{set} of values, then rmb to give it as a \emph{set}!
-    \item Exponentiation and Logarithms: Simply use \(\ln\) and avoid \(\log_c\) for \(c<1\).\footnote{Order is \emph{Preserved} under exponentiation/logarithms if the base is \emph{larger than} one. Otherwise, when it is \emph{less than} one, the order is \emph{reversed}. \url{https://www.desmos.com/calculator/gd8z5fa0bg}}
-    \item  For more complicated real-world-context qns, try playing around with the values (e.g. use simult eqns) first. It may work out nicer than expected.
+    \item Exponentiation and Logarithms: Simply use \(\ln\) and avoid \(\log_c\) for \(c<1\).
+    
+    Order is \emph{Preserved} under exponentiation/logarithms if the base is \emph{larger than} one. Otherwise, when it is \emph{less than} one, the order is \emph{reversed}. \url{https://www.desmos.com/calculator/gd8z5fa0bg}
+    \item  For more complicated real-world-context qns, try playing around with the values (e.g. use simultaneous equations) first. It may work out nicer than expected.
 \end{itemize}
 \end{IN}
 
@@ -139,7 +117,7 @@
   We can expand \((a+x)^p\) in descending powers of \(x\) by using \((a+x)^p=x^p\left(1+\frac{a}{x}\right)^p\).
 \end{fact}
 \begin{note}
-  Sometimes computing a couple terms can be useful in finding a pattern \footnotesize(e.g. to get the coefficient of \(x^k\) explicitly)\normalsize.
+  Sometimes computing a couple terms can be useful in finding a pattern. For example, to get the coefficient of \(x^k\) explicitly.
 \end{note}
 \newpage
 \section{APGP}
@@ -194,10 +172,10 @@
   \end{center}
 \end{stbox}
 \begin{IN}
-  Applications: Write out a few terms in a table and observe the trend.\footnote{You can literally say ``By observing a trend, \ldots''}
+  Applications: Write out a few terms in a table and observe the trend. (You can literally say ``By observing a trend, \ldots'')
 \end{IN}
 \begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
-  Table function\footnote{E.g.: By G.C., \(n \geq 182\).}
+  Table function
   \footnotesize \begin{enumerate}
     \item Enter eqn into GC.
     \item 2nd graph to show table
@@ -224,7 +202,7 @@
   \end{itemize}
 \end{note}
 \section{Method of Differences}
-\begin{stbox}{General Info}{}
+\begin{stbox}{General Information}{}
   \[\sum_{i=1}^{n}{u_i}=\sum_{r=1}^{n}{f(r)-f(r-1)}=f(n)-f(0).\]
   \begin{itemize}
     \item Explain convergence of a function \(h(x)=f(x)+g(x)\): As \(n \to \infty\), \(f(x) \to 0\) and \(g(x) \to 0\). Hence, \(h(x)\) converges to...
@@ -249,14 +227,14 @@
 
 
 \chapter{Recurrence Relations}
-\begin{stbox}{Necessities}{}
+\begin{stbox}{General Information}{}
   \begin{enumerate}
     \item Recurrence relation is \emph{homogenous} if constant (\(b\) below) is zero.
     \item First order linear recurrence relation: \(u_n=au_{n-1}+b\), with \(a \neq 0\).
     \item Second order \emph{homogenous} linear recurrence relation: \(u_n=a_1u_{n-1}+a_2u_{n-2}\), \(a_2 \neq 0\). 
     \item Solving RRs in general:
     \begin{enumerate}
-      \item Continually expand \(u_n\) in terms of \(u_{n-1}\), then in terms of \(u_{n-2}\), \ldots, till explicit formula is obtained (e.g. \(u_1\)).
+      \item Continually expand \(u_n\) in terms of \(u_{n-1}\), then in terms of \(u_{n-2}\), \ldots, till an explicit formula is obtained.
       \item Use \(a_1\) to generate \(a_2\), \(a_3\), \ldots, \(a_n\).
     \end{enumerate}
     \item Solving 1st order RRs, \(u_{n+1}=au_{n}+b\):
@@ -265,11 +243,11 @@
       \item Rewriting RR + Using G.P. Formulas ((c) is better)
       \begin{enumerate}
         \item Write RR as \(u_n-k=a(u_{n-1}-k)\), where \(k=\frac{b}{1-a}\). Let \(v_n=u_n-k\).
-        \item \(\frac{v_n}{v_{n-1}}=a\), a const. and \(\{v_n\}\) is a G.P. with 1st term \(v_1-k\) and common ratio \(a\). 
+        \item \(\frac{v_n}{v_{n-1}}=a\), a constant and \(\{v_n\}\) is a G.P. with first term \(v_1-k\) and common ratio \(a\). 
         \item So, \(v_n=(u_1-k)a^{n-1}\), and accordingly, \(u_n=v_n+k=(u_1-k)a^{n-1}+k\).
 
       \end{enumerate}
-      \item \(\star\) Let \(u_n=Aa^n+\frac{b}{1-a}\). Then solve for the constant \(A\) with info provided.
+      \item \(\bigstar\) Let \(u_n=Aa^n+\frac{b}{1-a}\). Then solve for the constant \(A\) with info provided.
     \end{enumerate}
     \item Solving 2nd order (homogenous) RRs, \(u_{n+2}=au_{n+1}+bu_n\):\\
     Assume \(u_n=m^n\), then \(m^2-am-b=0\) (is the \emph{characteristic/auxillary equation} of the RR). Solve for the roots, say \(m_1\) and \(m_2\). Then, the general solution for \(u_n\) is
@@ -282,7 +260,7 @@
 \end{stbox}
 
 \chapter{Induction}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   Let \(P(x)\) be the statement that ``\ldots''.\\[3mm] 
   When \(n=1\), \ldots\\[3mm]
   \(\implies P(1)\) is true.\\[3mm]
@@ -294,14 +272,14 @@
 
 \chapter{Differentiation}
 \begin{definition*}{}{}
-  \begin{enumerate}[label=(\roman*)]
+  \begin{enumerate}
     \item A function \(f\) is called (strictly) increasing on an interval \(I\) iff \(f'(x)>0\) for all \(x \in I\).
     \item A function \(f\) is called monotonically increasing on an interval \(I\) iff \(f'(x) \geq 0\) for any \(x \in I\).
   \end{enumerate}
 \end{definition*}
-\begin{stbox}{Things To Know}
+\begin{stbox}{General Information}
   \begin{enumerate}
-    \item How to sketch the graph of the integral or\footnote{Of course, provided that \(f\) is integrable/differentiable.} derivative of a function \(f\).
+    \item How to sketch the graph of the integral or derivative of a function \(f\).
     \item Relationship btw. a function \(f\) and its derivative, \(f'\):\\
     \begin{tabular}{|c|c|}
       \hline
@@ -341,7 +319,7 @@
 \end{stbox}
 \chapter{Integration Techniques}
 \section{Basic Integration (IBS, IBP, etc)}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item Factor Formulae \(\bigstar\) (must \emph{rmb}):
     \begin{enumerate}
@@ -374,7 +352,7 @@
 \end{stbox}
 \newpage
 \section{Areas \& Volumes}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item Volume of revolution when rotated about \(x\)-axis: 
   \begin{enumerate}
@@ -400,11 +378,11 @@
 \newpage
 \section{Numerical Methods}
 \subsection{Trapezium Rule}
-\begin{stbox}{}
+\begin{stbox}{General Information}
     \begin{enumerate}
-      \item Formula\footnote{For \(n\) intervals (i.e. (n+1)ordinates) of width \(h:=(b-a)/n\)}: 
+      \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h:=(b-a)/n\): 
       \[\int_{a}^{b}y\,dx=\frac{h}{2}(y_0+2y_1+2y_2+\cdots+2y_{n-1}+y_n).\]
-      \item Illustration\footnote{Trapezium rule tikzpicture credit: \url{https://tex.stackexchange.com/a/110618}}\\
+      \item Illustration\\
       \includestandalone{../Diagrams/Trapezium}
     \item Error: 
     \begin{enumerate}
@@ -415,18 +393,22 @@
     \end{stbox}
     \newpage
     \subsection{Simpson's Rule}
-    \begin{stbox}{}
+    \begin{stbox}{General Information}
       \begin{enumerate}
-        \item Formula\footnote{For \(n\) intervals (i.e. (n+1)ordinates) of width \(h:=(b-a)/n\)}\footnote{Number of intervals \(n\) should be \emph{even}, that of ordinates \emph{odd}.}:
-        \[\int_{a}^{b}y\,dx=\frac{h}{3}(y_0+4y_1+2y_2+4y_3+\cdots+2y_{n-2}+4y_{n-1}+y_n)\]
-        \item Illustration\footnote{Simpson's rule tikzpicture credit: \url{https://tex.stackexchange.com/a/439119}}\\
-        \includestandalone{../Diagrams/Simpson}
-        Accuracy of the Trapezium rule vs Simpson's Rule: ``Simpson's Rule uses \emph{quadratic curves} to interpolate the points on the curve so it usually \emph{gives a better approximation} to the actual curve than the trapezium rule which uses \emph{straight lines} to interpolate the ordinates.''
+        \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h:=(b-a)/n\):
+        \[\int_{a}^{b}y\,dx=\frac{h}{3}(y_0+4y_1+2y_2+4y_3+\cdots+2y_{n-2}+4y_{n-1}+y_n).\]
+        Note that the number of intervals \(n\) should be \emph{even}, that of ordinates \emph{odd}.
+        \item Illustration\\
+        \includestandalone{../Diagrams/Simpson}\\
       \end{enumerate}
     \end{stbox}
+      \begin{note}
+        Accuracy of the Trapezium rule vs Simpson's Rule:
+        ``Simpson's Rule uses \emph{quadratic curves} to interpolate the points on the curve so it usually \emph{gives a better approximation} to the actual curve than the trapezium rule which uses \emph{straight lines} to interpolate the ordinates.''
+      \end{note}
   \chapter{Complex Numbers}
   \section{Complex Number I}
-  \begin{stbox}{}
+  \begin{stbox}{General Information}
     \begin{enumerate}
       \item Find the square root of \(x+iy\): Let \(\sqrt{x+iy}=a+bi\). Then square both sides \& solve.
       \item Simplifying fractions: multiply by the denominator's conjugate
@@ -436,6 +418,9 @@
         \item Fundamental Theorem of Algebra: If \(p(z):=\sum_{i=0}^{n}a_iz^i\) is a polynomial of degree \(n \geq 1\) with complex coefficients, then there exists complex numbers \(c_i\) for each \(1 \leq i \leq n\) such that 
         \[p(z)=a_n \prod_{i=1}^{n}(z-c_i).\]
         \item If a polynomial in real coefficients only has root \(a+bi\), then \(a-bi\) is another root.
+      \end{enumerate}
+    \end{enumerate}
+    \end{stbox}
         \begin{example}{}{}
           Find the roots of \(iz^2+2z+3i=0\).
           \begin{align*}
@@ -456,27 +441,32 @@
           \emph{Since all the coefficients of the polynomial are real} (\textbf{explain}), \(-2-i\) is another root. Now, \(x^4+4x^3+ax+b=(x-(-2+i))(x-(-2-i))(cx+d)\) for some \(c,d \in \mathbb{R}\).\\[3mm]
           Accordingly, substitute \(x=0\), then \(x=2\), and solve. Alternatively, notice \(x^4+4x^3+ax+b=(x^2-2(-2)x+((-2)^2+1^2))(x^2+cx+d)=(x^2+4x+5)(x^2+4x+5)\). Either ways, we have \(c=0\) and \(d=-4\). As such, the last two roots are \(x=-2 \pm i\) and \(x=\pm 2\). 
         \end{example}
-        \item Simultaneous equations: Solve as usual.
-        \item Properties of modulus: \(\lvert z_1^xz_2^y \rvert=\lvert z_1 \rvert^x \lvert z_2 \rvert^y\), for any \(x,y \in \mathbb{R}\).
-        \item Properties of arguments (same as \(\log\)): \(\arg(z) \in (-\pi,\pi]\) and \(\arg(z_1^xz_2^y)=n\arg(z_1)+m\arg(z_2)\) for any \(x,y \in \mathbb{R}\).
-        \item Polar form: \(z=re^{i\theta}\).
-        \item Polar/Trigonometric form: \(z=r[\cos(\theta)+i\sin(\theta)]\).
-        \begin{note}
-          Show that the value of \(w^n\) is either \(2^n\) or \(2^{-n}\) for integers \(n\).\\[3mm]
-          Then we \textbf{must} show that \(w^n=\cdots=\begin{cases}
-            2^n(1)=2^n&\text{if }n\text{ even},\\
-            2^n(-1)=-2^n&\text{if }n\text{ odd}.
-          \end{cases}\) 
-        \end{note}
-      \end{enumerate}
-    \end{enumerate}
+      \begin{stbox}{}
+        \begin{itemize}[label=\hphantom{1.}]
+          \item
+          \begin{enumerate}[label=(\alph*)]
+            \setcounter{enumi}{2}
+            \item Simultaneous equations: Solve as usual.
+            \item Properties of modulus: \(\lvert z_1^xz_2^y \rvert=\lvert z_1 \rvert^x \lvert z_2 \rvert^y\), for any \(x,y \in \mathbb{R}\).
+            \item Properties of arguments (same as \(\log\)): \(\arg(z) \in (-\pi,\pi]\) and \(\arg(z_1^xz_2^y)=n\arg(z_1)+m\arg(z_2)\) for any \(x,y \in \mathbb{R}\).
+            \item Polar form: \(z=re^{i\theta}\).
+            \item Polar/Trigonometric form: \(z=r[\cos(\theta)+i\sin(\theta)]\).
+          \end{enumerate}
+        \end{itemize}
   \end{stbox}
+  \begin{note}
+    Show that the value of \(w^n\) is either \(2^n\) or \(2^{-n}\) for integers \(n\).\\[3mm]
+    Then we \textbf{must} show that \(w^n=\cdots=\begin{cases}
+      2^n(1)=2^n&\text{if }n\text{ even},\\
+      2^n(-1)=-2^n&\text{if }n\text{ odd}.
+    \end{cases}\) 
+  \end{note}
 \section{Complex Numbers II}
 \begin{theorem}{De Moivre's Theorem}{}
   Let \(z\) be a complex number, \(n\) an integer, and \(\theta\) an angle. Suppose \(z=re^{i\theta}\). Then, 
   \[z^n=e^{i\theta}=r^n[\cos(n\theta)+i\sin{n\theta}].\]
 \end{theorem}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item All \(n\)th roots of any complex number are the same distance \(r\) from the origin and have the same angular separation, \(\pi/n\).
     \item Loci (Use a \emph{compass})
@@ -487,7 +477,7 @@
       \end{center}
       \item The locus represented by \(\lvert z-a \rvert =\lvert z-b \rvert\) is the \emph{perpendicular bisector} of the line segment joining \(A\) and \(B\).
       \begin{center}
-        \includegraphics[scale=0.1]{../images/ComplexPerpendicularBisectorLocus}
+        \includegraphics[scale=0.11]{../images/ComplexPerpendicularBisectorLocus}
       \end{center}
       \item The locus represented by \(\arg(z-a)=\theta\) is the \emph{half-line} from \(A\) (excluding \(A\)) that makes an angle \(\theta\) with the \emph{positive} real axis.
       \begin{center}
@@ -508,7 +498,7 @@
     \item \textbf{Oblique Asymptotes}: A line \(g(x)=mx+c\) --- where \(m \neq 0\) --- is an \emph{oblique asymptote} of the curve \(f(x)\) iff \(\lim_{x \to \infty}[f(x)-g(x)]=0\) (or with \(-\infty\) instead of \(\infty\)).
 \end{enumerate}
 \end{definition*}
-\begin{stbox}{Curve Sketching (Rational Funcs)}
+\begin{stbox}{Curve Sketching of Rational Functions}
   \begin{enumerate}
     \item[\textbf{S}] Stationary points
     \item[\textbf{I}] Intersection with axes
@@ -534,10 +524,10 @@
   \end{enumerate}
 \end{stbox}
 \begin{IN}
-  \begin{itemize}[label=---]
-    \item \emph{Can} explicitly write out the asymptotes and lines of symmetry (or if they are not present) to be safe.
-    \item Using the discriminant intelligently can result in nice answers.
-    \item Know how to use the G.C. Transfrm app.\footnote{Thingy that allows you to vary the value of some parameter \(A\) for a function \(f(Ax)\).}\footnote{E.g.: Solve for the values of \(k\) being a positive \emph{integer}. We can use the app to visually see where the curves intersect.} 
+  \begin{itemize}
+    \item The discriminant can be very useful.
+    \item Know how to use the G.C. Transfrm app.
+    It allows you to vary the value of some parameter \(A\) for a function \(f(Ax)\). Use this to graphically find the values of integer \(k\) satisfying some conditions.
   \end{itemize}
 \end{IN}
 
@@ -730,36 +720,18 @@
   \end{tabular}
   \normalsize
 \end{center}
-\begin{stbox}{General Info}
-  \begin{itemize}[label=\(\mathscr{H}\)]
+\begin{stbox}{General Information}
+  \begin{itemize}
     \item To find asymptote of hyperbolas, just solve  
     \[\frac{(x-h)^2}{a^2}=\frac{(y-k)^2}{b^2}.\]
-    \item Label vertices \emph{or} radii, together with the center and asymptotes.
+    \item Label vertices or radii, together with the center and asymptotes.
   \end{itemize}
 \end{stbox}
 \section{Parametric Equations}
 \begin{IN}
   \begin{itemize}[label=\(\star\)]
     \item Check the qns for any \emph{restrictions} on the parameter! And modify that of the G.C.'s accordingly (Tmin \& Tmax).
-    \item Vary the \(t-step\) or resolution (of cartesian form) as necessary \footnotesize(when the graph is oddly jagged)\normalsize0.
-    \item Think carefully for tricker qns\footnote{E.g.: Simult eqns can be useful in converting frm parametric to cartesian form.}.
-  \end{itemize}
-\end{IN}
-\section{Summary}
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
-  \begin{enumerate}
-    \item Plot conics with the two ways.
-    \item Know G.C. functions like finding axial intercepts.
-  \end{enumerate}
-\end{lbox}
-\begin{IN}
-  \begin{itemize}[label=-\(\square\)-]
-    \item \emph{Can} explicitly write out the asymptotes and lines of symmetry (or if they are not present) to be safe.
-    \item Using the discriminant intelligently can result in nice answers.
-    \item Know how to use the G.C. Transfrm app.\footnote{Thingy that allows you to vary the value of some parameter \(A\) for a function \(f(Ax)\).}\footnote{E.g.: Solve for the values of \(k\) being a positive \emph{integer}. We can use the app to visually see where the curves intersect.} 
-    \item Check the qns for any \emph{restrictions} on the parameter! And modify that of the G.C.'s accordingly (Tmin \& Tmax).
-    \item Vary the \(t-step\) or resolution (of cartesian form) as necessary \footnotesize(when the graph is oddly jagged)\normalsize0.
-    \item Think carefully for tricker qns\footnote{E.g.: Simult eqns can be useful in converting frm parametric to cartesian form.}.
+    \item Vary the \(t\)-step or resolution (when using cartesian coordinates) when the graph is oddly jagged.
   \end{itemize}
 \end{IN}
 \section{Scaling, Translations, and Reflections}
@@ -796,10 +768,6 @@
     \hline
   \end{tabular}
 \end{center}
-
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
-  Transfrm app (allows you to vary a parameter of a function\footnote{E.g.: The variable \(A\) in \(y=Ax+b\)})
-\end{lbox}
 \begin{IN}
 \begin{center}
   \begin{tikzpicture}
@@ -812,17 +780,18 @@
 \end{center}
 \end{IN}
 \newpage
-\section{\(\lvert f(x) \rvert\) and \(f \mathopen{} \left( \lvert x \rvert\right)\)}
-\begin{stbox}{Basics}
-  \begin{itemize}[label=\ding{243}]
-    \item \(f \mathopen{} \left( \lvert x \rvert\right)\) \ding{226} Graph of `negative side' is a reflection of the `positive side' (across the \(y\)-axis).
+\section{\(\lvert f(x) \rvert\) and \(f( \lvert x \rvert)\)}
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item For \(\lvert f(x) \rvert\), simply flip the part of the graph of \(f(x)\) that is below the \(x\)-axis, to above the \(x\)-axis.
+    \item For \(f(\lvert x \rvert)\), its graph is symmetric about the \(x\)-axis
   \end{itemize}
 \end{stbox}
 \section{\(y=\frac{1}{f(x)}\)}
 \begin{center}
   \begin{tabular}{|Sc|Sc|}
     \hline
-    Conditions & Results\\
+    Behavior of \(f(x)\) & Behavior of \(1/f(x)\)\\
     \hline
     \(f(x)>0\) & \(\frac{1}{f(x)}>0\)\\
     \hline 
@@ -903,7 +872,7 @@
     \item The \emph{initial line / polar axis} is the \emph{half line} \(\theta=0\).
   \end{enumerate}
 \end{definition*}
-\begin{stbox}{General Info}{}
+\begin{stbox}{General Information}{}
   \begin{itemize}[label=\(\circ\)]
     \item Coordinate Conversion
     \begin{center}
@@ -1027,14 +996,14 @@
     \item Tangent lines at the pole are obtained by solving \(r=0\).
     \item Know how to find range of \(r\) and \(\theta\) (given a func/eqn).
     \item \(r=f(\theta)\) is symmetrical about the polar (horizontal) axis iff \(f(\theta)=f(-\theta)\).
-    \begin{itemize}[label=\footnotesize\(\triangle\)]
-      \item \(r\) is a function of \(\cos(n\theta)\)\footnote{E.g.: \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\)} \emph{only} \(\implies\) lines of symmetry: \(n\theta=0,\pi,2\pi,\ldots,m\pi,\ldots\)
+    \begin{itemize}
+      \item Suppose \(r\) is a function of \(\cos(n\theta)\)\footnote{E.g.: \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\)} \emph{only}. Then, the lines of symmetry are \(n\theta=0,\pi,2\pi,\ldots\)
     \end{itemize}
     \item \(r=f(\theta)\) is symmetrical about the vertical line \(\theta=\frac{\pi}{2}\) iff the equation \(f(\theta)=f(\pi-\theta)\).
-    \begin{itemize}[label=\footnotesize\(\triangle\)]
-      \item \(r\) is a function of \(\sin(n\theta)\) \emph{only} \(\implies\) lines of symmetry: \(n\theta=\frac{\pi}{2},\frac{3\pi}{2},\ldots,\frac{(2m+1)\pi}{2},\ldots\)
+    \begin{itemize}
+      \item Suppose \(r\) is a function of \(\sin(n\theta)\) \emph{only}. Then, the lines of symmetry are \(n\theta=\frac{\pi}{2},\frac{3\pi}{2},\ldots,\frac{(2m+1)\pi}{2},\ldots\)
     \end{itemize}
-    \item \(r=f(\theta)\) is symmetrical about the pole iff\footnote{In other words, \(r=f(\theta)\) is unchanged when \(r\) is replaced by \(-r\).} \((r,\theta)\) is a point on the curve whenever \((-r,\theta)\) is.
+    \item \(r=f(\theta)\) is symmetrical about the pole iff \((r,\theta)\) is a point on the curve whenever \((-r,\theta)\) is.
     \item \(R\)-formula may be necessary
     \item Area of a sector: \(A=\frac{1}{2}\int_{\alpha}^{\beta}r^2\,\text{d}\theta\), where \(\alpha<\beta\).
     \item Arc length\(=\int_{\theta_1}^{\theta_2} \sqrt{r^2+\left(\frac{dr}{d\theta}\right)^2}\,\text{d}\theta\)
@@ -1042,7 +1011,7 @@
 \end{stbox}
 \begin{IN}
   \begin{enumerate}
-    \item \(r\) is \emph{always}\footnote{in some situations it can be negative} \(\geq 0\) in our syllabus.
+    \item \(r\) is normally \(\geq 0\). But, in some questions, it can be negative.
     \item No need to fully expand; a final answer such as \((x^2+y^2)^2=3y(x^2+y^2)-4y^2\) suffices.
     \item Polar curve sketching essentials:
     \begin{enumerate}
@@ -1076,10 +1045,13 @@
 \end{lbox}
 
 \chapter{Conic Sections}
-
-\begin{stbox}{Essentials}{}
+\begin{definition}{}{}
+  Eccentricity, \(e\), is defined as 
+  \[\frac{\text{distance of \(P\) from focus}}{\text{distance of \(P\) from directrix}}.\]
+\end{definition}
+\begin{stbox}{General Information}{}
   \begin{itemize}[label=\(\circ\)]
-    \item Eccentricity, \(e:=\frac{\text{distance of \(P\) from focus}}{\text{distance of \(P\) from directrix}}\).
+    \item Shapes associated with the value of \(e\)
     \begin{itemize}
       \item \(e=0\): Circle
       \item \(0<e<1\): Ellipse 
@@ -1167,6 +1139,7 @@
     \end{minipage}}\\
     \hline
   \end{tabular}}
+  \newpage
   \begin{itemize}[label=\(\circ\)]
     \item Polar Form: \(x=p\), \(x=-p\), \(y=p\), or \(y=-p\) being the directrix
   \end{itemize}
@@ -1213,6 +1186,7 @@
       \end{tabular} &
     \end{tabular}
   \end{center}
+\end{stbox}
   \begin{definition*}{}{}
     \begin{itemize}[label=\(\circ\)]
       \item Major / minor axes \(\implies\) lengths of longest and shortest diameters respectively.
@@ -1220,8 +1194,8 @@
       \item Focal radius \(\implies\) distance from point on conic section to focus.
     \end{itemize}
   \end{definition*}
-  \begin{itemize}[label=\(\circ\)]
-    \item Examples:
+  \begin{note}
+    Some possible things to try:
     \begin{itemize}
       \item Using the fact that \(PF_1+PF_2=2a\) to do simultaneous equations.
       \item Converting to polar form (when \(e<1\) so \(r \geq 0\)) for distances.
@@ -1230,10 +1204,9 @@
       \item Sum and product of roots: Given any polynomial \(ax^2+bx+c\) with the roots \(\alpha\) and \(\beta\),
       \[\alpha + \beta = - \frac{b}{a} \qquad\text{and}\qquad \alpha\beta=\frac{c}{a}.\]
     \end{itemize}
-  \end{itemize}
-\end{stbox}
+  \end{note}
 \chapter{Functions}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item Horizontal Line Test: 
     \begin{enumerate}
@@ -1257,30 +1230,61 @@
 \end{stbox}
 
 \chapter{Permutations and Combinations}
-\begin{stbox}{General Necessities}
+\begin{definition}{}{}
+  The terms \(n\) \emph{pick} \(r\) and \(n\) \emph{choose} \(r\) respectively denote 
+  \[{^n}P_r := \frac{n!}{(n-r)!} \qquad\text{and}\qquad \binom{n}{r}={^n}C_r:=\frac{n!}{(n-r)!r!}.\]
+\end{definition}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item Addition and multiplication principles
-    \item \({^n}P_k := \frac{n!}{(n-k)!}\quad\)
     \item Know how to `bundle' objects together so as to calculate the total no. of permutations.
-    \item There are \(\frac{n!}{n_1!n_2!\cdots n_r!}\) number of ways to arrange \(n\) objects, of which \(n_1\) are `similar', \(n_2\) are `alike', \ldots, \(n_r\) are `the same'.\footnote{Intuition: If there are \(n_1\) objects are non-distinct out of \(n\) objects, then there are \(n_1!\) ways to arrange these objects that results in `the same' permutation.}
-    \item Case-wise considerations/calculations (then summing tgt the total no of perms)
-    \item Unordered circular permutations:\\
-    There are \(\frac{n!}{n}=(n-1)!\) number of ways of arranging \(n\) distinct objects in a circle.\footnote{For unordered CPs, we do not care if you rotate the seating arrangement, as long as neighbours are preserved for each object. i.e. \((A,B,C,D) \sim (B,C,D,A)\). As a result, each such collection of \(n\) permutations reduces down to one. Thus, explaining the division by \(n\).}
-    \item Complementary Method, i.e. taking no. of arr w/o restriction - no. of arr w/ the opposite of that restriction.\footnote{E.g. No. of ways 2 girls \emph{cnnt} sit nxt to each other = no. of arr w/o restriction - no. of arr with girls sitting \emph{tgt}. \vspace*{0.5mm}}
-    \item Insertion Method, place down some of your objects and then insert the rest in the gaps.\footnote{\vspace{-4.5mm}\begin{enumerate}[label=]
-      \item Boys sit at table first: \(2!\) ways.
-      \item \vspace{-1mm} From the 3 gaps, choose 2 for the 2 girls to sit at: 3 ways.
-      \item \vspace{-1mm} The girls can arrange themselves in \(2!\) ways.
-      \item \vspace{-1mm} So, total no. of ways is \(2! \cdot 3 \cdot 2!=12\).
-    \end{enumerate} \vspace{-4mm}}
-    \item Ordered circular permutations: Add the ordering at the end. Note:
-    \begin{enumerate}
-      \item The number of ways is not necessarily just \((n-1)! \cdot n=n!\).
-      \item Circular arrangements are not the same as row arrangements.\footnote{While \(A\) and \(B\) are not considered to be seating together in the row arrangement of \((A,C,D,E,B)\), they are seating together in a corresponding row arrangement. Does not always mean no. of row arr \(<\) no. of circ arr. It can be \(<\), \(=\), \(>\).}
-    \end{enumerate}
-    \item \(\binom{n}{r}={^n}C_r:=\frac{n!}{(n-r)!r!}\).
+    \item There are \(\frac{n!}{n_1!n_2!\cdots n_r!}\) number of ways to arrange \(n\) objects, of which \(n_1\) are `similar', \(n_2\) are `alike', \ldots, \(n_r\) are `the same'.
   \end{itemize}
 \end{stbox}
+    \begin{fact}
+      Intuition: If there are \(n_1\) objects are non-distinct out of \(n\) objects, then there are \(n_1!\) ways to arrange these objects that results in `the same' permutation.
+    \end{fact}
+  \begin{stbox}{}
+  \begin{itemize}
+    \item Case-wise considerations/calculations (then summing together the total number of permutations)
+    \item Unordered circular permutations:\\
+    There are \(\frac{n!}{n}=(n-1)!\) number of ways of arranging \(n\) distinct objects in a circle.
+  \end{itemize}
+\end{stbox}
+    \begin{fact}
+      For unordered circular permutations, we do not care if you rotate the seating arrangement, as long as neighbours are preserved for each object. i.e. \((A,B,C,D) \sim (B,C,D,A)\). As a result, each such collection of \(n\) permutations reduces down to one. Thus, explaining the division by \(n\).
+    \end{fact}
+\begin{stbox}{}
+\begin{itemize}
+    \item Complementary Method, i.e. taking number of arrangements without restriction - number of arrangements with the opposite of that restriction.
+\end{itemize}
+\end{stbox}
+    \begin{example}{}{}
+      Number of ways two girls \emph{cannot} sit next to each other = number of arrangements \emph{without restriction} \(-\) number of arrangements with girls sitting \emph{together}.
+    \end{example}
+\begin{stbox}{}
+\begin{itemize}
+    \item Insertion Method, place down some of your objects and then insert the rest in the gaps.
+  \end{itemize}
+\end{stbox}
+    \begin{example}{}{}
+      \begin{enumerate}[label={}]
+        \item Boys sit at table first: \(2!\) ways.
+        \item \vspace{-1mm} From the 3 gaps, choose 2 for the 2 girls to sit at: 3 ways.
+        \item \vspace{-1mm} The girls can arrange themselves in \(2!\) ways.
+        \item \vspace{-1mm} So, total no. of ways is \(2! \cdot 3 \cdot 2!=12\).
+      \end{enumerate}
+    \end{example}
+\begin{stbox}{}
+\begin{itemize}
+    \item Ordered circular permutations: First calculate the number of unordered permutations, then add the ordering at the end.
+  \end{itemize}
+\end{stbox}
+    \begin{note}
+      Circular arrangements are not the same as row arrangements.
+      
+      We know that \(A\) and \(B\) are not considered to be seating together in the row arrangement of \((A,C,D,E,B)\). But, they are seating together in a corresponding row arrangement. The number of row arrangements can be less than, equal to, or more than the number of circular arrangements.
+    \end{note}
 \chapter{Vectors}
 \begin{longtable}{|Sc|Sc|}
   \hline
@@ -1498,11 +1502,15 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \hline
 \end{longtable}
 \chapter{Probability}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
-    \item Principle of Inclusion and Exclusion:
-    \[\operatorname{P}(A \cup B)=\operatorname{P}(A)+\operatorname{P}(B)-\operatorname{P}(A \cap B),\]
-    \[\operatorname{P}(A \cup B \cup C)=\operatorname{P}(A)+\operatorname{P}(B)+\operatorname{P}(C)-\operatorname{P}(A\cap B)-\operatorname{P}(A \cap C)-\operatorname{P}(B \cap C)+\operatorname{P}(A \cap B \cap C).\]
+    \item Principle of Inclusion and Exclusion for
+    \begin{enumerate}
+      \item Two events:
+      \[\operatorname{P}(A \cup B)=\operatorname{P}(A)+\operatorname{P}(B)-\operatorname{P}(A \cap B),\]
+      \item Three events:
+      \[\operatorname{P}(A \cup B \cup C)=\operatorname{P}(A)+\operatorname{P}(B)+\operatorname{P}(C)-\operatorname{P}(A\cap B)-\operatorname{P}(A \cap C)-\operatorname{P}(B \cap C)+\operatorname{P}(A \cap B \cap C).\]
+    \end{enumerate}
     \item Mutually Exclusive Events:
     \begin{align*}
       \operatorname{P}(A \cap B)&=0,\\
@@ -1516,19 +1524,19 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     \item Conditional Probability:
     \[\operatorname{P}(A \,\vert\, B)=\frac{\operatorname{P}(A \cap B)}{\operatorname{P}(B)}.\]
     \item Use PnC to help compute stuff faster
-    \begin{example}{}{}
-      There are 6 white balls and 5 black balls. Two are randomly drawn. What is the probability that one is white and the other black?
-      \begin{align*}
-        \left(\frac{5}{11}\right)\left(\frac{6}{10}\right)+\left(\frac{6}{11}\right)\left(\frac{5}{10}\right)=\frac{6}{11} \qquad&\text{vs}\qquad \frac{\binom{6}{1}\binom{5}{1}}{\binom{11}{2}}=\frac{6}{11}.
-      \end{align*}
-    \end{example}
   \end{enumerate}
 \end{stbox}
+\begin{example}{}{}
+  There are 6 white balls and 5 black balls. Two are randomly drawn. What is the probability that one is white and the other black?
+  \begin{align*}
+    \left(\frac{5}{11}\right)\left(\frac{6}{10}\right)+\left(\frac{6}{11}\right)\left(\frac{5}{10}\right)=\frac{6}{11} \qquad&\text{vs}\qquad \frac{\binom{6}{1}\binom{5}{1}}{\binom{11}{2}}=\frac{6}{11}.
+  \end{align*}
+\end{example}
 
 \chapter{Differential Equations}
 \section{First Order D.E.s}
 \subsection{Elementary Solving Techniques}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item Separable Variables:
     \begin{align*}
@@ -1544,10 +1552,12 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \end{enumerate}
 \end{stbox}
 \subsection{Numerical Methods}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item Euler's Method: 
     \[y_{i+1}+hf(x_i,y_i).\]
+  \end{enumerate}
+\end{stbox}
     \begin{example}{}{}
       Let (step size) \(h=0.25\) and \(f(x,y)=\frac{dy}{dx}\):
       \begin{align*}
@@ -1558,6 +1568,9 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
         \text{Therefore, }y(0.5)&\approx 0.670.
       \end{align*}
     \end{example}
+    \begin{stbox}{}
+      \setcounter{enumi}{1}
+    \begin{enumerate}
     \item Improved Euler's Method: 
     \[i_{i+1}=y_i+hf(x_i,y_i)\quad\&\quad y_{i+1}=y_i+\frac{h}{2}[f(x_i,y_i)+f(x_{i+1},u_{i+1})].\]
     \item Error:
@@ -1565,26 +1578,26 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
       \item If \(\frac{dy}{dx}\) can be shown to be \emph{increasing} from the calculations of \(f(x,y)\), then the curve is \emph{concave upwards}, leading to a \emph{underestimate}.
       \item If \(\frac{dy}{dx}\) can be shown to be \emph{decreasing} from the calculations of \(f(x,y)\), then the curve is \emph{concave downwards}, leading to a \emph{overestimate}.
     \end{enumerate}
-    \begin{example}{}{}
-      From the computation, \emph{the values of} \(\frac{dy}{dx}\) \emph{increases}, i.e. \(\frac{d^2y}{dx^2}>0\), and thus implying the solution curve to be \emph{concave upwards}. Therefore, we have an \emph{underestimation}. 
-    \end{example}
-    \begin{example}{Misc}{}
-      It is suggested that the estimation in part (ii)\footnote{Given the point (1,1), we estimated the value of y(2) using the Improved Euler's Method} can be further improved by reducing the step size. Sketch the solution curve and hence comment on this suggestion.\\[3mm]
-      The solution curve has a \emph{stationary point at} \(x=1.47\), which is between 1 and 2 and also the gradient of the curve is close to zero for \(x\) value beyond this stationary point. Thus, when the step size is reduced, \emph{tangent} at point close to this stationary point becomes \emph{almost parallel} to the curve, making \emph{little improvement} to the estimation due to \emph{little difference in} \(y\). 
-    \end{example}
-    \begin{example}{}{}
-      It is found that the approximation obtained in (i) for the \(y\)-coordinate where \(x=0.75\) is an underestimation and has a percentage error of 120.633\%. Explain why there is such a substantial error.\\[3mm]
-      From gradient values calculated above, we suspect sharp charges in gradient values within the interval (from negative to positive). Yet \emph{Euler's Method\footnote{We are explaining what it does} simply uses a straight line segment} with gradient\footnote{Emphasising negative gradient (Show its value)} \(-4.6409\) to estimate the curve for the first iteration, which could have lead to a significant underestimation of the \(y\)-value.
-    \end{example}
-    \begin{example}{}{}
-      Compare the relative merits of Euler's Method and the Improved Euler's Method.
-      \begin{enumerate}[wide=0pt, leftmargin=*]
-        \item[Euler's Method:] It is computationally simpler.
-        \item[Improved Euler's Method] More accurate as it takes the mean of the initial and next gradient. 
-      \end{enumerate}
-    \end{example}
   \end{enumerate}
-\end{stbox}
+\end{stbox} ~
+\begin{example}{}{}
+  From the computation, \emph{the values of} \(\frac{dy}{dx}\) \emph{increases}, i.e. \(\frac{d^2y}{dx^2}>0\), and thus implying the solution curve to be \emph{concave upwards}. Therefore, we have an \emph{underestimation}. 
+\end{example}
+\begin{example}{Misc}{}
+  It is suggested that the estimation in part (ii)\footnote{Given the point (1,1), we estimated the value of y(2) using the Improved Euler's Method} can be further improved by reducing the step size. Sketch the solution curve and hence comment on this suggestion.\\[3mm]
+  The solution curve has a \emph{stationary point at} \(x=1.47\), which is between 1 and 2 and also the gradient of the curve is close to zero for \(x\) value beyond this stationary point. Thus, when the step size is reduced, \emph{tangent} at point close to this stationary point becomes \emph{almost parallel} to the curve, making \emph{little improvement} to the estimation due to \emph{little difference in} \(y\). 
+\end{example}
+\begin{example}{}{}
+  It is found that the approximation obtained in (i) for the \(y\)-coordinate where \(x=0.75\) is an underestimation and has a percentage error of 120.633\%. Explain why there is such a substantial error.\\[3mm]
+  From gradient values calculated above, we suspect sharp charges in gradient values within the interval (from negative to positive). Yet \emph{Euler's Method\footnote{We are explaining what it does} simply uses a straight line segment} with gradient\footnote{Emphasising negative gradient (Show its value)} \(-4.6409\) to estimate the curve for the first iteration, which could have lead to a significant underestimation of the \(y\)-value.
+\end{example}
+\begin{example}{}{}
+  Compare the relative merits of Euler's Method and the Improved Euler's Method.
+  \begin{enumerate}[wide=0pt, leftmargin=*]
+    \item[Euler's Method:] It is computationally simpler.
+    \item[Improved Euler's Method] More accurate as it takes the mean of the initial and next gradient. 
+  \end{enumerate}
+\end{example}
 \section{Second Order D.E.}
 \begin{center}
   \begin{tabular}{|Sc|Sc|}
@@ -1625,14 +1638,14 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{center}
 \section{Applications}
 \subsection{Exponential Growth}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   Let \(k\) be the \emph{per-capita growth rate}\footnote{i.e. after accounting for births and deaths.} and \(P(t)\) be the population at time \(t\). Then we have the model:
   \[\frac{dP}{dt}=kP,\]
   with the solution
   \[P(t)=P_0e^{kt}.\]
 \end{stbox}
 \subsection{Logistics Growth}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   Let \(k\) be the \emph{per-capita growth rate}\footnote{i.e. after accounting for births and deaths.}, \(P(t)\) be the population at time \(t\), and \(N\) be the \emph{carrying capacity} of the system. Then we have the model:
   \[\frac{dP}{dt}=kP\left(1-\frac{P}{N}\right).\]
   \begin{enumerate}
@@ -1663,7 +1676,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{center}
 \newpage
 \subsection{Harvesting}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   Let \(k\) be the \emph{per-capita growth rate}, \(P(t)\) be the population at time \(t\), \(N\) be the \emph{carrying capacity} of the system, and \(H\) the constant \emph{harvesting rate}. Then we have the model:
   \[\frac{dP}{dt}=kP\left(1-\frac{P}{N}\right)-H.\]
 \begin{enumerate}
@@ -1681,7 +1694,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{stbox}
 
 \subsection{Physics}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \textbf{MUST} rmb the forms.
   \begin{enumerate}
     \item Spring System (where \(k>0\) is the spring constant) 
@@ -1707,7 +1720,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{center}
 
 \chapter{Discrete Random Variables}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{enumerate}
     \item Expectation / Mean, 
     \[\operatorname{E}(X):=\sum_{\text{all } x}{x\operatorname{P}(X=x)}.\]
@@ -1738,7 +1751,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \[P(X=x):=\binom{n}{x}p^x(1-p)^{n-x},\]
   for all \(0 \leq x \leq n\), where \(p\) is probability of success.
 \end{definition}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   If \(X \sim \operatorname{B}(n,p)\),
   \begin{enumerate}
     \item Expectation / Mean:
@@ -1778,7 +1791,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{note}
 \begin{center}
   \includegraphics[scale=1]{BinomDist}
-  \captionof{figure}{In this case, \(X=10\) is the mode.} \footnotetext{Source for Fig 17.1: \url{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}}
+  \captionof{figure}{In this case, \(X=10\) is the mode.} 
 \end{center}
 \begin{example}{2018 TPJC JC2 H2 MYE P2 8}{}
   On average, 3.5\% of a certain brand of chocolate turn out misshapen. The chocolates are sold in packets of 25.
@@ -1798,14 +1811,12 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     Misshapen chocolates could be the result of equipment used and as the equipment used would not be the same for the same portion of the chocolate produced, whether a chocolate is misshapen may not be independent of another chocolate being misshapen.
   \end{enumerate}
 \end{example}
-\chapter{Foreword}
-\(>\) Wait isn't the foreword supposed to be\ldots in front?\\
-\(>\) \emph{Y e s}\\[5mm]
-\section{Main Word}
-\begin{center}
-  Latex is pain,\\
-  latex is suffering,\\
-  latex is a must.
-\end{center}
+\chapter{Bibliography}
+\begin{enumerate}
+  \item Trapezium rule tikzpicture credit: \url{https://tex.stackexchange.com/a/110618}
+  \item Simpson's rule tikzpicture credit: \url{https://tex.stackexchange.com/a/439119}
+  \item Fig 15.2 \url{https://tikz.net/dynamics_oscillator/}
+  \item Fig 17.1 \url{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}
+\end{enumerate}
 
 \end{document}
