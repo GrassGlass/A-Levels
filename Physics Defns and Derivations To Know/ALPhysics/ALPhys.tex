@@ -1,6 +1,7 @@
 \documentclass[oneside]{book}
 \usepackage{../Style/Master}
 \usepackage{../Style/boxes}
+\usepackage{../Style/Env}
 \usepackage{../Style/DefNoteFact}
 \usepackage{../Style/QnsProof}
 \usepackage{../Style/Thms}
@@ -458,7 +459,18 @@ So, rearranging, we have
     \setcounter{footnote}{1}
     \item Resonance length\footnote{End correction: Actual length of vibration is \(L+2c\) for open pipes, and \(L+c\) for closed pipes.} with pipes closed at one end 
     \[L=\frac{\lambda}{4}=\frac{v}{4f}.\]
+    \begin{example}{}{}
+        Explain, with reference to resonance, why the loudness of sound changes as the water level changes.
+        \begin{enumerate}
+            \item Natural frequency of vibration depends on length of air column.
+            \item When fork frequency is equal to natural frequency/odd multiple of fundamental frequency, resonance occurs. There is maximum energy transfer and maximum amplitude of vibrations, leading to maximum loudness.
+            \item When fork frequency is not equal to natural frequency, no resonance occurs and loudness drops.
+        \end{enumerate}
+    \end{example}
+    \item If a tube achieves stationary waves at fundamental frequency \(f\), then reducing \(f\)/increasing \(\lambda\) will not result in stationary waves.
     \item \emph{Diffraction} is the \emph{bending or spreading out} of waves when they travel through a \emph{small opening} or when they pass round a \emph{small obstacle}.
+    \item Large amount of diffraction occurs when the width of slit is about the same as the wavelength.
+    \item The wavelength before and after diffraction should be around the same.
     \item Single Slit Diffraction: Let \(b\) be the slit width, and \(L\) the slit-screen distance.
     \begin{enumerate}
         \item For all nonzero integers \(m\), the angular positions \(\theta\) of the \(1 \leq m\)th order minima satisfies 
@@ -466,7 +478,10 @@ So, rearranging, we have
         \item Distance \(y_1\) of the first minima from either side of the central bright fringe is
         \[y_1=\frac{\lambda L}{b}.\]
     \end{enumerate}
-    (figure)
+    \begin{center}
+        \includegraphics[scale=0.1]{../images/Single Slit Diffraction.jpg}
+        \captionof{figure}{Single slit diffraction}
+    \end{center}
     \item \emph{Circular} aperture: \(\theta \approx \frac{\lambda}{b}\).
     \item \emph{Rayleigh's Criterion} is the \emph{minimum separation} between two objects in order to be distinguished as two \emph{distinct} objects:
     \[\theta \approx \frac{\lambda}{b}.\]
@@ -491,13 +506,35 @@ So, rearranging, we have
         Out-of-phase & \(\Delta=(n+1/2)\lambda\) & \(\Delta=n\lambda\)\\
         \hline
     \end{tabular}}
-    \item Double-slits: For\footnote{Typical values: \(a \approx 0.5\)mm, \(D \approx 1\)m, and \(\lambda \approx 600\)nm. In any case, using the equation requires \(a<<D\).} a slit separation \(a\) and slit-screen distance \(D\), the fringe separation
+    \item We always need to take the path difference starting from the actual source itself, even when the source travels through two slits onto a screen, for instance.
+    \item Double-slits: For\footnote{Typical values: \(a \approx 0.5\)mm, \(D \approx 1\)m, and \(\lambda \approx 600\)nm. In any case, using the equation requires \(a<<D\).} a (\emph{centre-to-centre}) slit separation \(a\) and slit-screen distance \(D\), the fringe separation (between two adjacent minima, or two adjacent maxima) is
     \[x=\frac{\lambda D}{a}.\]
+    \begin{center}
+        \includegraphics[scale=0.1]{../images/Double-Slit Diffraction.jpg}
+        \captionof{figure}{Double-slit diffraction}
+    \end{center}
     \setcounter{footnote}{4}
     \footnotetext{The intensity of the double-slit interference pattern is not constant because of single-slit diffraction effects.}
     \item Diffraction grating: For a slit-separation \(d\) and \(n \in \mathbb{Z}^{+}_{0}\), the angular positions for the \(n\)th order maxima satisfies
     \[d \sin(\theta_n)=n\lambda.\]
+    \begin{center}
+        \includegraphics[scale=0.1]{../images/Diffraction Grating.jpg}
+        \captionof{figure}{Diffraction grating}
+    \end{center}
     \item Check answer: For visible light, \(400\text{nm} \leq \lambda \leq 700\text{nm}\).
+    \item Total number of bright regions = 2\(\cdot\)highest order+1.
+    \item When slit width is reduced, intensity is reduced.
+    \item To calculate \emph{resultant intensity}, first take the sum of the amplitudes and use proportionality (\(I \propto A^2\)).  
+    \item Every other line means half of the lines are covered.
+    \begin{example}{}{}
+        Describe and explain the appearance of the central fringe if the light is now replaced with white light.
+    \begin{enumerate}
+        \item The central bright fringe is generally white.
+        \item The zeroth order fringes of all the wavelengths coincide at the centre where the path difference from the two slits is zero for all wavelengths. The combined central fringes remains white.
+        \item The sides of the central fringes are likely more reddish.
+        \item  This is because the wider red fringe extends beyond the narrower blue fringe.
+    \end{enumerate}
+    \end{example}
 \end{itemize}
 
 \chapter{Currents of Electricity}

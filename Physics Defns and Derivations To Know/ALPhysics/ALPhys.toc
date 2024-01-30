@@ -9,6 +9,6 @@
 \contentsline {chapter}{\numberline {10}Oscillations}{10}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Wave Motion}{11}{chapter.11}%
 \contentsline {chapter}{\numberline {12}Superposition}{12}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Currents of Electricity}{15}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Electric Fields}{19}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Bibliography}{22}{chapter.15}%
+\contentsline {chapter}{\numberline {13}Currents of Electricity}{17}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Electric Fields}{21}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Bibliography}{24}{chapter.15}%
