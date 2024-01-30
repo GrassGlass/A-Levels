@@ -46,3 +46,5 @@
 \contentsline {chapter}{\numberline {16}Discrete Random Variables}{41}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Special Discrete Random Variables}{42}{chapter.17}%
 \contentsline {chapter}{\numberline {18}Bibliography}{46}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Continuous Random Variables}{47}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Correlation and Linear Regression}{48}{chapter.20}%
