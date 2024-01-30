@@ -1,0 +1,27 @@
+\documentclass[oneside]{book}
+
+\usepackage{../Style/Diagrams}
+\usepackage{../Style/Master}
+\usepackage{../Style/boxes}
+\usepackage{../Style/DefNoteFact}
+\usepackage{../Style/QnsProof}
+\usepackage{../Style/Thms}
+\usepackage{../Style/Env}
+\usepackage{../Style/NewCommands}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[l]{Shao Hong}
+\fancyhead[c]{FMA Blended Learning}
+\fancyhead[r]{\today}
+\fancyfoot[c]{\thepage}
+\renewcommand{\headrulewidth}{0.2pt} %Creates a horizontal line underneath the header
+\setlength{\headheight}{15pt} %Sets enough space for the header
+\begin{document}
+\begin{Qns}{}{}
+    Let \(P(x)=\sum_{i=0}^{n}{a_ix^i}\) be a polynomial of even degree \(n\), such that \(a_n\) is positive and \(a_0\) is negative. Prove that \(P(x)\) has at least one positive real root and one negative real root.
+\end{Qns}
+\begin{proof}
+    Recall that \(\lim_{x \to \pm \infty}1/x=0\). By limit laws, \(\lim_{x \to \pm \infty}\sum_{i=0}^{n}{a_ix^{i-n}}=0\). Therefore, there exists \(M>0\) so \(a_n>\sum_{i=0}^{n-1}{a_iM^{i-n}}\). That is, \(P(M)>0\). Since \(P(0)<0\) and all polynomials are continuous, there is a positive root of \(P(y)=0\) by the Intermediate Value Theorem. Similarly there is also a negative root.
+\end{proof}
+\end{document}

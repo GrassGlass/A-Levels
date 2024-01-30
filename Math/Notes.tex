@@ -258,6 +258,21 @@
     \end{cases}\]
   \end{enumerate}
 \end{stbox}
+\begin{note}
+  Let \(x_{n+1}=f(x_n)\) and \(L:=\lim{x_n}\). To find the possible values of \(L\), we can compare the graph of \(y=f(x)\) against the identity function \(y=x\). This is done by seeing if \(f(x)<x\), \(f(x)=x\), or \(f(x)>x\).
+\end{note}
+\begin{example}{}{}
+  \begin{center}
+    \includegraphics[scale=0.05]{SpecialRR.jpg}
+    \captionof{figure}{The RR \(x_{n+1}=\sqrt{x_n^2-3x_n+4}+x_n-3\).}
+  \end{center}
+  Let \(f(x)=\sqrt{x^2-3x+4}+x-3\).
+  \begin{enumerate}
+    \item Suppose \(x_1 \leq \frac{3+\sqrt{29}}{2}\). For \(x_1<\frac{3-\sqrt{29}}{2}\), we see that \(f(x)>x\). So \(x_n\) increases till \(\frac{3-\sqrt{29}}{2}\). While for \(\frac{3-\sqrt{29}}{2}<x_1<\frac{3+\sqrt{29}}{2}\), we have \(f(x)<x\). Thus \(x_n\) decreases till \(\frac{3-\sqrt{29}}{2}\). Notice the graphs intersects at \(x=\frac{3-\sqrt{29}}{2}\). So, when \(x_n=\frac{3-\sqrt{29}}{2}\), if ever, then \(x_{n+1}=x_n\). That is, \(L=\frac{3-\sqrt{29}}{2}\).
+    \item Similarly, if \(x_1=\frac{3+\sqrt{29}}{2}\), then \(x_n=\frac{3+\sqrt{29}}{2}\) is a constant function; \(L=\frac{3+\sqrt{29}}{2}\).
+    \item Presume that \(x_n>\frac{3+\sqrt{29}}{2}\). Then, \(f(x)>x\) tells us \(x_n\) is an increasing sequence that is unbounded. In other words, \(L\) does not exist.
+  \end{enumerate}
+\end{example}
 
 \chapter{Induction}
 \begin{stbox}{General Information}
@@ -323,8 +338,8 @@
   \begin{enumerate}
     \item Factor Formulae \(\bigstar\) (must \emph{rmb}):
     \begin{enumerate}
-      \item \(\sin(mx)\cos(nx)=\frac{1}{2}[\sin((m+n)x)+sin((m-n)x)]\),
-      \item \(\cos(mx)\cos(nx)=\frac{1}{2}[\cos((m+n)x)+cos(m-n)x]\),
+      \item \(\sin(mx)\cos(nx)=\frac{1}{2}[\sin((m+n)x)+\sin((m-n)x)]\),
+      \item \(\cos(mx)\cos(nx)=\frac{1}{2}[\cos((m+n)x)+\cos(m-n)x]\),
       \item \(\sin(mx)\sin(nx)=-\frac{1}{2}[\cos((m+n)x)-\cos((m-n)x)]\).
     \end{enumerate}
     \item Common classes of integrals:
@@ -382,8 +397,11 @@
     \begin{enumerate}
       \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h:=(b-a)/n\): 
       \[\int_{a}^{b}y\,dx=\frac{h}{2}(y_0+2y_1+2y_2+\cdots+2y_{n-1}+y_n).\]
-      \item Illustration\\
-      \includestandalone{../Diagrams/Trapezium}
+      \item Illustration
+      \begin{center}
+        \includestandalone{../Diagrams/Trapezium}
+        \captionof{figure}{Trapezium rule}
+      \end{center}
     \item Error: 
     \begin{enumerate}
       \item Concave upwards, i.e. (\(f'(x)\) is increasing / \(f''(x)>0\)) \(\implies\) overestimation.
@@ -398,8 +416,11 @@
         \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h:=(b-a)/n\):
         \[\int_{a}^{b}y\,dx=\frac{h}{3}(y_0+4y_1+2y_2+4y_3+\cdots+2y_{n-2}+4y_{n-1}+y_n).\]
         Note that the number of intervals \(n\) should be \emph{even}, that of ordinates \emph{odd}.
-        \item Illustration\\
-        \includestandalone{../Diagrams/Simpson}\\
+        \item Illustration
+        \begin{center}
+          \includestandalone{../Diagrams/Simpson}
+          \captionof{figure}{Simpson's rule}
+        \end{center}
       \end{enumerate}
     \end{stbox}
       \begin{note}
@@ -469,23 +490,49 @@
 \begin{stbox}{General Information}
   \begin{enumerate}
     \item All \(n\)th roots of any complex number are the same distance \(r\) from the origin and have the same angular separation, \(\pi/n\).
+    \item Note that \(1+e^{i\theta}=e^{i\theta/2}(e^{-i\theta/2}+e^{i\theta/2})\).
+    \item The geometric meaning of multiplying by \(i\) is a anti-clockwise rotation by \(\pi\) radians.
     \item Loci (Use a \emph{compass})
     \begin{enumerate}
       \item The locus represented by \(\lvert z-a \rvert =r\) (or \(z=a+re^{i\theta}\)) is a \emph{circle} of radius \(r\) centered at \(A(\operatorname{Re}(a),\operatorname{Im}(a))\).
       \begin{center}
         \includegraphics[scale=0.1]{../images/ComplexCircleLocus}
+        \captionof{figure}{The locus of \(\lvert z-a \rvert =r\), a circle.}
       \end{center}
+      \begin{enumerate}
+        \item Either label the four points to the direct North, South, East, West of the circle, or the denote radius clearly. 
+        \item The line segment, representing the furthest distance from a point to a circle, always cuts through the circle's centre. So, the distance
+        \[\text{OP}_{\text{max}}-\text{OP}_{\text{min}}=2\cdot\text{radius}.\]
+        \item The line segments, from a point to a circle that produces the largest angle, are tangents to the circle.
+        \begin{center}
+          \includegraphics[scale=0.15]{ComplexLocusCircle-LargestAngleAndDistance.jpg}
+          \captionof{figure}{Maxmium distance and angle of a point from a circle}
+        \end{center}
+      \end{enumerate}
+      \newpage
       \item The locus represented by \(\lvert z-a \rvert =\lvert z-b \rvert\) is the \emph{perpendicular bisector} of the line segment joining \(A\) and \(B\).
       \begin{center}
-        \includegraphics[scale=0.11]{../images/ComplexPerpendicularBisectorLocus}
+        \includegraphics[scale=0.12]{../images/ComplexPerpendicularBisectorLocus}
+        \captionof{figure}{The locus of \(\lvert z-a \rvert =\lvert z-b \rvert\), a perpendicular bisector}
       \end{center}
       \item The locus represented by \(\arg(z-a)=\theta\) is the \emph{half-line} from \(A\) (excluding \(A\)) that makes an angle \(\theta\) with the \emph{positive} real axis.
       \begin{center}
         \includegraphics[scale=0.1]{../images/ComplexRotationByAngleTheta}
+        \captionof{figure}{The locus of \(\arg(z-a)=\theta\), a half-line.}
       \end{center}
     \end{enumerate}
+    \item There is no need to find the points of intersection between two loci, unless the questions states so. 
   \end{enumerate}
 \end{stbox}
+\begin{example}{TQ 10(b)}{}
+  Show that \(\cot^2(2\pi/5)\) is a root of the equation \(px^2+qx+r=0\), where we are given 
+  \[\cot(4\theta)=\frac{\cot^4(\theta)-6\cot^2(\theta)+1}{4\cot^3(\theta)-4\cot(\theta)}.\]
+  First notice that \(\cot(8\pi/5)=-\cot(2\pi/5)\). So, 
+  \[-\cot(2\pi/5)=\frac{\cot^4(2\pi/5)-6\cot^2(2\pi/5)+1}{4\cot^3(2\pi/5)-4\cot(2\pi/5)}.\]
+  Simplifying gives 
+  \[5[\cot^2(2\pi/5)]^2-10[\cot^2(2\pi/5)]+1=0.\]
+  Thus, \(x=cot^2(2\pi/5)\) is a root of the equation \(5x^2-10x+1=0\). 
+\end{example}
 
 \chapter{Graphing Techniques}
 \section{Graphing `Familiar' Functions and Asymptotic bois}
@@ -1672,7 +1719,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{example}
 \begin{center}
   \includegraphics[width=\textwidth]{Logistics Curve}
-\captionof{figure}{Logistics Curve}
+\captionof{figure}{Logistics curve}
 \end{center}
 \newpage
 \subsection{Harvesting}
@@ -1716,7 +1763,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{stbox}
 \begin{center}
   \includestandalone[width=\textwidth]{../Diagrams/Oscils}
-\captionof{figure}{Oscillatory Behaviors}
+\captionof{figure}{Oscillatory behaviors}
 \end{center}
 
 \chapter{Discrete Random Variables}
@@ -1747,19 +1794,15 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{stbox}
 \chapter{Special Discrete Random Variables}
 \begin{definition}{}{}
-  A probability distribution function of \(X\) is a binomial distribution, i.e. \(X \sim B(n,p)\) iff 
-  \[P(X=x):=\binom{n}{x}p^x(1-p)^{n-x},\]
-  for all \(0 \leq x \leq n\), where \(p\) is probability of success.
+  A discrete random variable \(X\) which takes all integer values from \(1\) to \(n\) (inclusive) is a \emph{binomial distribution} with probability of success \(p\), denoted by \(X \sim \operatorname{B}(n,p)\), iff
+  \[\Prob(X=x)=\binom{n}{x}p^x(1-p)^{n-x}.\]
 \end{definition}
-\begin{stbox}{General Information}
-  If \(X \sim \operatorname{B}(n,p)\),
-  \begin{enumerate}
-    \item Expectation / Mean:
-    \[\operatorname{E}(X)=np \qquad\text{and}\qquad \operatorname{Var}(X)=np(1-p).\]
-  \end{enumerate}
-\end{stbox}
+\begin{definition}{}{}
+  A discrete random variable \(X\) which takes all values in \(\mathbb{Z}^{+}\) has a \emph{geometric distribution} with probability of success \(p\), denoted by \(X \sim \operatorname{Geo}(p)\), iff
+  \[\Prob(X=x)=(1-p)^{x-1}p.\]
+\end{definition}
 \begin{note}
-  We can assume \(X \sim \operatorname{B}(n,p)\) whenever
+  We can assume \(X \sim \operatorname{B}(n,p)\) or \(W \sim \operatorname{Geo}(n,p)\) iff the following three conditions hold
   \begin{enumerate}
     \item The event of a [trial in context] is independent of that of another [trial in context].
     \item The probability of each [trial in context] is constant.
@@ -1767,13 +1810,69 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \end{enumerate}
 \end{note}
 \begin{note}
-  Defining random variables: Let \(X\) be the number of [event in context], out of [number of trials \(n\) in context].  
+  Defining random variables:
+  \begin{enumerate}
+    \item Binomial distribution: Let \(X\) be the number of [trial in context], out of [number of trials \(n\) in context]. 
+    \item Geometric distribution: Let \(W\) be the number of [trial in context], up to and including the first [successful trial in context].
+  \end{enumerate}
 \end{note}
+\begin{note}
+  Let \(W \sim \operatorname{Geo}(p)\), and \(q:=1-p\). Then, 
+  \[\Prob(W>m)=q^m \qquad\text{and}\qquad \Prob(X>m+n \,\vert\, X>n)=\Prob(X>m)=q^m.\]
+\end{note}
+\begin{definition}{}{}
+  A discrete random variable \(X\) which takes all values in \(\mathbb{Z}_{0}^{+}\) has a \emph{Poisson Distribution} with parameter \(\lambda>0\), denoted by \(X \sim \operatorname{Po}(\lambda)\), iff 
+  \[\Prob(X=x)=\frac{e^{-\lambda}\lambda^x}{x!}.\]
+\end{definition}
+\begin{note}
+  We can assume \(Y \sim \operatorname{Po}(\lambda)\) iff the following 5 conditions hold
+  \begin{enumerate}
+    \item The event of a [trial in context] is \emph{independent} of that of another [trial in context].
+    \item The \emph{mean number of occurrences} of [trial in context] is \emph{constant}.
+    \item The \emph{mean number of occurrences} of [trial in context] is \emph{proportional} to the length of the space/time interval.
+    \item The \emph{probability} of [trial in context] occurring at \emph{any point} in space/time within a small fixed interval of space/time is \emph{the same}.
+    \item The \emph{probability} of \emph{more than one} occurrence in any infinitesimally small interval is \emph{negligible}.  
+  \end{enumerate}
+  The first three assumptions are the most important.
+\end{note}
+\begin{note}
+  Additive property of the Poisson distribution: If \(U \sim \operatorname{Po}(\mu)\) and \(V \sim \operatorname{Po}(\lambda)\) are \emph{independent} variables, then 
+  \[W \sim \operatorname{Po}(\mu+\lambda).\]
+\end{note}
+\begin{note}
+  Defining random variables: Let \(Y\) be the number of [event in context], in [space/time interval in context].  
+\end{note}
+\begin{stbox}{General Information}
+  \begin{enumerate}
+    \item Expectation and Mean:
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        Distribution & Expectation & Mean\\
+        \hline
+        \(X \sim \operatorname{B}(n,p)\) & \(np\) & \(np(1-p)\)\\
+        \hline
+        \(Y \sim \operatorname{Po}(\lambda)\) & \multicolumn{2}{Sc|}{\(\lambda\)}\\
+        \hline
+        \(W \sim \operatorname{Geo}(p)\) & \(p^{-1}\) & \((1-p)p^{-2}\)\\
+        \hline
+      \end{tabular}
+    \end{center}
+    \item Use graphing or a table to deal with questions involving inequalities
+    \item It is helpful to remember the following formulas for when you're asked to derive a formula for mean/mode:
+    \[\sum_{r=1}^{\infty}{rx^{r-1}}=(1-x)^{-2} \qquad\text{and}\qquad \sum_{r=1}^{\infty}{r^2x^{r-1}}=\frac{1+x}{(1-x)^3}.\]
+    \item Why is the probability for (b) is smaller than that for (a).
+    The case of (b) is a proper subset of (a).
+    \item When faced with atypical probability distributions, sometimes defining a variable \(W\) having a Binomial/Poisson/Geometric distribution and then paraphrasing may help.
+
+    For example, some such relationships include \(M=W-1\), or \(M=W_1+W_2\).
+  \end{enumerate}
+\end{stbox}
 \begin{note}
   When the question asks for the \emph{most likely} number of [event], it is asking for the \emph{mode}.
   \end{note}
 \begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
-  Finding \emph{mode}:
+  Finding \emph{mode} (e.g. for binomial distributions):
   \begin{enumerate}
     \item Set \(Y_1=\texttt{binompdf}(n,p,X)\).
     \item Go to table.
@@ -1787,7 +1886,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \end{enumerate}
 \end{lbox}
 \begin{note}
-  Let \(X\) be the random variable such that \(X \sim \operatorname{B}(n,p)\). If \(P(X=n)\) is the \emph{highest probability} that occurs, \(X=n\) is the modal value. So, we solve the two inequalities \(P(X=5)>P(X=4)\) and \(P(X=5)>P(X=6)\). This gives the \emph{strictest} range of values that \(p\) can take (Fig 17.1).
+  Let \(X\) be the random variable such that \(X \sim \operatorname{B}(n,p)\). If \(\Prob(X=n)\) is the \emph{highest probability} that occurs, \(X=n\) is the modal value. So, we solve the two inequalities \(\Prob(X=5)>\Prob(X=4)\) and \(\Prob(X=5)>\Prob(X=6)\). This gives the \emph{strictest} range of values that \(p\) can take (Fig 17.1).
 \end{note}
 \begin{center}
   \includegraphics[scale=1]{BinomDist}
@@ -1813,10 +1912,10 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{example}
 \chapter{Bibliography}
 \begin{enumerate}
-  \item Trapezium rule tikzpicture credit: \url{https://tex.stackexchange.com/a/110618}
-  \item Simpson's rule tikzpicture credit: \url{https://tex.stackexchange.com/a/439119}
-  \item Fig 15.2 \url{https://tikz.net/dynamics_oscillator/}
-  \item Fig 17.1 \url{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}
+  \item Fig 6.1 Trapezium rule: \url{https://tex.stackexchange.com/a/110618}
+  \item Fig 6.2 Simpson's rule: \url{https://tex.stackexchange.com/a/439119}
+  \item Oscillatory behavior of DEs modelling physical phenomena Fig 15.2 \url{https://tikz.net/dynamics_oscillator/}
+  \item Mode of a binomial distribution Fig 17.1 \url{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}
 \end{enumerate}
 
 \end{document}
