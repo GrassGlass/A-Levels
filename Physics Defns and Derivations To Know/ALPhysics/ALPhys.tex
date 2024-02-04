@@ -170,7 +170,7 @@
     \item \textit{Newton's Law of Gravitation} states that the force of attraction between any two point masses is directly proportional to the product of their masses and inversely proportional to the square of their separation.
     \item A \textit{gravitational field} is a region in space where mass experiences a gravitational force acting on it.
     \item Gravitational field strength at a point is defined as the gravitational force per unit mass acting on a small mass placed at that point
-    \item The \textit{gravitational potential energy} of a mass at a point is defined as the work done by an \emph{external agent} in bringing the mass \emph{from infinity} to that point (without any change in kinetic energy).
+    \item The \textit{gravitational potential energy} of a mass at a point is defined as the work done by an \emph{external agent} in bringing the mass \emph{from infinity} to that point (without any net change in kinetic energy).
     \item \textit{Gravitational potential} at a point is defined as the work done per unit mass by an \emph{external agent} in bringing a mass \emph{from infinity} to that point (without a change in kinetic energy).
     \item Escape velocity is the \emph{minimum} velocity a mass needs to be projected from the \emph{surface} of the moon in order to have sufficient kinetic energy to overcome the gravitational field it experiences and \emph{move to infinity}.
     \item Escape velocity \(v_\text{min}=\sqrt{\frac{2GM}{r}}\) (where Min \(E_k\) needed is the gain in \(E_p\) to reach infinity).
@@ -665,8 +665,6 @@ So, rearranging, we have
 \chapter{Electric Fields}
 \begin{itemize}
     \item \emph{Coulomb's Law} states that the \emph{magnitude} of the \emph{electric force} between two \emph{point charges} is directly proportional to the product of the charges, and inversely proportional to the square of their separation.
-    \item The formula is 
-    \[F_E=\frac{Q_1Q_2}{4\pi\varepsilon_0r^2}\]
     where \(\varepsilon_0\) is the permittivity of \emph{free space} (\(\varepsilon_0\) is applicable for vacuum and air only).
     \item Sign of \(F_E\):
     \begin{center}
@@ -680,6 +678,8 @@ So, rearranging, we have
             \hline
         \end{tabular}  
     \end{center}
+    
+  \item The sign of the electric force does \emph{not} represent the \emph{direction} of the electric force. It only informs us whether the force is attractive or repulsive. So, when calculating the \emph{resultant} electric force, we need to account for the direction ourselves. 
     \item Comparison between E-fields and G-fields: 
     \begin{center}
         \resizebox{0.942\textwidth}{!}{\begin{tabular}{|Sc|Sc|Sc|}
@@ -735,8 +735,6 @@ So, rearranging, we have
     \includegraphics[width=0.5\textwidth]{../images/E-fieldPlate.png}
   \end{center}
   \item The \emph{electric field strength} at a point is defined as the \emph{electric force} per \emph{unit positive charge} placed at that point.
-  \item The formula is, for a small stationary test charge \(q\),
-  \[E=\frac{F_E}{q}.\]
   \item Electric field strength of a positive point charge:
   \begin{center}
     \includegraphics[width=0.5\textwidth]{../images/ElectricFieldStrengthPlot.png}
@@ -760,6 +758,21 @@ So, rearranging, we have
   \end{center}
   \item Magnitude of electric field strength between the plates:
   \[E=\frac{dV}{dr}=\frac{\Delta V}{d}.\]
+  \item The \emph{eleatic potential energy} of a point charge in an electric field is defined as the \emph{work done by an external agent} in bringing the point charge from infinity to that point (without any net change in kinetic energy). 
+  \item The \emph{electric potential} at a point in an electric field is defined as the \emph{work done} per unit \emph{positive} charge, by an external agent, in bringing a \emph{small} test charge from infinity to that point (without any net change in kinetic energy). 
+  \item Let \(U\) be the electric potential energy, and \(V\) the electric potential. Then,
+  \[U=qV \qquad\text{and}\qquad \Delta U=q\Delta V.\]
+  \item ~
+  \begin{center}
+    \begin{tikzcd}[row sep=large, column sep=large]
+        U=\frac{Qq}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} \arrow[swap]{d}{\frac{1}{q}} & F_E=\frac{Q_1Q_2}{4\pi\varepsilon_0r^2} \arrow[swap]{d}{\frac{1}{q}} \\
+        V=\frac{Q}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & E=\frac{Q}{4\pi\varepsilon_0r^2}\\
+    \end{tikzcd}
+  \end{center}
+  \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
+  \[V=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
+  \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 
+  \[U=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
 \end{itemize}
 
 \chapter{Bibliography}

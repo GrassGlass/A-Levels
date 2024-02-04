@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  30 JAN 2024 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  4 FEB 2024 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1790,21 +1790,34 @@ Package pdftex.def Info: ../images/E-fieldPlate.png  used on input line 735.
 <../images/ElectricFieldStrengthPlot.png, id=318, 599.74063pt x 357.335pt>
 File: ../images/ElectricFieldStrengthPlot.png Graphic file (type png)
 <use ../images/ElectricFieldStrengthPlot.png>
-Package pdftex.def Info: ../images/ElectricFieldStrengthPlot.png  used on input line 742.
+Package pdftex.def Info: ../images/ElectricFieldStrengthPlot.png  used on input line 740.
 (pdftex.def)             Requested size: 215.0023pt x 128.1007pt.
 <../ParallelPlates/testing.pdf, id=319, 177.77718pt x 112.00143pt>
 File: ../ParallelPlates/testing.pdf Graphic file (type pdf)
 <use ../ParallelPlates/testing.pdf>
-Package pdftex.def Info: ../ParallelPlates/testing.pdf  used on input line 759.
+Package pdftex.def Info: ../ParallelPlates/testing.pdf  used on input line 757.
 (pdftex.def)             Requested size: 177.77673pt x 112.00114pt.
- [22 <../images/E-fieldPlate.png> <../images/ElectricFieldStrengthPlot.png>] [23 <../ParallelPlates/testing.pdf>]
+ [22 <../images/E-fieldPlate.png> <../images/ElectricFieldStrengthPlot.png>]
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 773.
+ (c:/texlive/2023/texmf-dist/tex/latex/eulervm/uzeuex.fd
+File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 10.0pt on input line 773.
+LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 773.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 7.0pt on input line 773.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 5.0pt on input line 773.
+ [23 <../ParallelPlates/testing.pdf>]
 Chapter 15.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 767.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 780.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 767.
+(Font)              scaled to size 10.0pt on input line 780.
  [24
 
 ] (./ALPhys.aux)
@@ -1821,11 +1834,11 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: D0CCFD019E8037EB7DDD263F3383C855;1768.
  ) 
 Here is how much of TeX's memory you used:
- 36593 strings out of 475237
- 720911 string characters out of 5768555
- 1938238 words of memory out of 5000000
- 56919 multiletter control sequences out of 15000+600000
- 661367 words of font info for 216 fonts, out of 8000000 for 9000
+ 36656 strings out of 475237
+ 722293 string characters out of 5768555
+ 1939238 words of memory out of 5000000
+ 56974 multiletter control sequences out of 15000+600000
+ 666197 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,17n,131p,539b,1560s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1834,11 +1847,11 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-<c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (25 pages, 1957686 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on ALPhys.pdf (25 pages, 1964009 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 361 compressed objects within 4 object streams
+ 480 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
  116 named destinations out of 1000 (max. 500000)
  333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
