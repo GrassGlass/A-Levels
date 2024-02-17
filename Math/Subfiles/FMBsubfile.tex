@@ -1,0 +1,46 @@
+\documentclass[../Notes.tex]{subfiles}
+\usepackage{../Style/Diagrams}
+\usepackage{../Style/Master}
+\usepackage{../Style/boxes}
+\usepackage{../Style/DefNoteFact}
+\usepackage{../Style/QnsProof}
+\usepackage{../Style/Thms}
+\usepackage{../Style/Env}
+\usepackage{../Style/NewCommands}
+\begin{document}
+\chapter{Continuous Random Variables}
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item A function \(f \colon \mathbb{R}\to \mathbb{R}\) is a \emph{probability mass function} (pdf) of a continuous random variable \(X\) iff \(f\) is nonnegative and \(\int_{-\infty}^{\infty}f(x)\,dx=1\).
+    \item For any probability mass function \(f\), we have \(\Prob(a\leq X\leq b)=\int_{a}^{b}f(x)\,dx\). Whether the inequality is strict or nonstrict does not affect the above identity. 
+    \item A \emph{mode} of \(X\) is any value \(m\) such that \(f(m)\) is maximum.
+    \item A \emph{cumulative distribution function} (cdf) \(F \colon \mathbb{R}\to [0,1]\) of a random variable \(X\) is defined by
+    \[F(x):=P(X\leq x)=\int_{-\infty}^{x}f(x)\,dx.\]
+    \item When writing out the cdf as a piecewise function, we explicitly write out the range of values for each case. We reserve the use of ``otherwise'' for pdf's.
+    \item Any cdf is continuous and nondecreasing.
+    \item Let \(X\) be a continuous random variable with cdf \(F\). To find the pdf \(g\) of any \(y(X)\), we first find its cdf, then differentiate. We achieve this by reverse engineering \(y(X)\leq y\) to find an inequality that relates \(X\) with \(y\). E.g. \(e^X\leq y\) iff \(X\leq \ln(y)\).
+    \item A \emph{median} of \(X\) is any value \(m\) such that \(\Prob(X\leq m)=F(m)=1/2\).
+    \item Mean/Expectation: 
+    \[\mu=\E(X):=\int_{-\infty}^{\infty}xf(x)\,dx \qquad\text{and}\qquad \E(g(X))=\int_{-\infty}^{\infty}g(x)f(x)\,dx.\]
+    \item Important property: 
+    \[\E(ag(X)\pm bh(x))=a\E(g(X))\pm\E(h(X)).\]
+    \item Variance: 
+    \[\Var(X):=\E(X^2)-[\E(X)]^2.\]
+    \item Important property:
+    \[\Var(aX\pm b)=a^2\Var(X).\]
+  \end{itemize}
+\end{stbox}
+
+\chapter{Correlation and Linear Regression}
+\begin{note}
+  A good scatter diagram should follow the guidelines below.
+  \begin{itemize}
+    \item The relative position of each point on the scatter diagram should be clearly shown.
+    \item The range of values for the set of data should be clearly shown by marking out the extreme \(x\) and \(y\) values on the corresponding axis.
+    \item The axes should be labeled clearly with the variables.
+  \end{itemize}
+\end{note}
+\begin{stbox}{General Information}
+  
+\end{stbox}
+\end{document}

@@ -491,6 +491,7 @@
   \begin{enumerate}
     \item All \(n\)th roots of any complex number are the same distance \(r\) from the origin and have the same angular separation, \(\pi/n\).
     \item Note that \(1+e^{i\theta}=e^{i\theta/2}(e^{-i\theta/2}+e^{i\theta/2})\).
+    \item For \(z=re^{i\theta}\), we have \(z^n+z^{-n}=2\cos(n\theta)\) and \(z^n-z^{-n}=2i\sin(n\theta)\).
     \item The geometric meaning of multiplying by \(i\) is a anti-clockwise rotation by \(\pi\) radians.
     \item Loci (Use a \emph{compass})
     \begin{enumerate}
@@ -533,6 +534,8 @@
   \[5[\cot^2(2\pi/5)]^2-10[\cot^2(2\pi/5)]+1=0.\]
   Thus, \(x=cot^2(2\pi/5)\) is a root of the equation \(5x^2-10x+1=0\). 
 \end{example}
+
+\subfile{Subfiles/FMAsubfile.tex}
 
 \chapter{Graphing Techniques}
 \section{Graphing `Familiar' Functions and Asymptotic bois}
@@ -1536,13 +1539,13 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \multicolumn{2}{|Sc|}{
     \begin{tabular}{Sc|Sc|Sc}
       \begin{minipage}{0.333\textwidth}
-        \[\theta=\cos^{-1}\left\lvert\frac{\mathbf{m_1}\cdot \mathbf{m_2}}{\norm{\mathbf{m_1}}\norm{\mathbf{m_2}}}\right\rvert.\]
+        \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{m}_1}\cdot {\mathbf{\widehat{m}_2}}\right\rvert.\]
       \end{minipage} &
       \begin{minipage}{0.333\textwidth} 
-        \[\theta=\sin^{-1}\left\lvert \frac{\mathbf{m}\cdot \mathbf{n}}{\norm{\mathbf{m}}\norm{\mathbf{n}}} \right\rvert .\]
+        \[\theta=\sin^{-1}\left\lvert \mathbf{\widehat{m}}\cdot \mathbf{\widehat{n}} \right\rvert .\]
       \end{minipage} &
       \begin{minipage}{0.333\textwidth}
-        \[\theta=\cos^{-1}\left\lvert \frac{\mathbf{n_1}\cdot \mathbf{n_2}}{\norm{\mathbf{n_1}}\norm{\mathbf{n_2}}} \right\rvert.\]
+        \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{n}_1}\cdot \mathbf{\widehat{n}_2} \right\rvert.\]
       \end{minipage}\\
     \end{tabular}
   }\\
@@ -1554,23 +1557,24 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     \item Principle of Inclusion and Exclusion for
     \begin{enumerate}
       \item Two events:
-      \[\operatorname{P}(A \cup B)=\operatorname{P}(A)+\operatorname{P}(B)-\operatorname{P}(A \cap B),\]
+      \[\Prob(A \cup B)=\Prob(A)+\Prob(B)-\Prob(A \cap B),\]
       \item Three events:
-      \[\operatorname{P}(A \cup B \cup C)=\operatorname{P}(A)+\operatorname{P}(B)+\operatorname{P}(C)-\operatorname{P}(A\cap B)-\operatorname{P}(A \cap C)-\operatorname{P}(B \cap C)+\operatorname{P}(A \cap B \cap C).\]
+      \[\Prob(A \cup B \cup C)=\Prob(A)+\Prob(B)+\Prob(C)-\Prob(A\cap B)-\Prob(A \cap C)-\Prob(B \cap C)+\Prob(A \cap B \cap C).\]
     \end{enumerate}
     \item Mutually Exclusive Events:
     \begin{align*}
-      \operatorname{P}(A \cap B)&=0,\\
-      \operatorname{P}(A \cup B)&=\operatorname{P}(A)+\operatorname{P}(B).
+      \Prob(A \cap B)&=0,\\
+      \Prob(A \cup B)&=\Prob(A)+\Prob(B).
     \end{align*}
     \item Independent Events:
     \begin{align*}
-      \operatorname{P}(A \,\vert\, B)&=\operatorname{P}(A),\\
-      \operatorname{P}(A \cap B)&=\operatorname{P}(A)\operatorname{P}(B).
+      \Prob(A \,\vert\, B)&=\Prob(A),\\
+      \Prob(A \cap B)&=\Prob(A)\Prob(B).
     \end{align*}
     \item Conditional Probability:
-    \[\operatorname{P}(A \,\vert\, B)=\frac{\operatorname{P}(A \cap B)}{\operatorname{P}(B)}.\]
-    \item Use PnC to help compute stuff faster
+    \[\Prob(A \,\vert\, B)=\frac{\Prob(A \cap B)}{\Prob(B)}.\]
+    \item Use PnC to help compute stuff faster.
+    \item When we want to find the greatest and least possible probability (e.g. of \(\Prob(A^\complement\cap B^\complement\cap C^\complement)\)), it is advisable to draw a Venn diagram and fill in all relevant probabilities. 
   \end{enumerate}
 \end{stbox}
 \begin{example}{}{}
@@ -1770,7 +1774,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \begin{stbox}{General Information}
   \begin{enumerate}
     \item Expectation / Mean, 
-    \[\operatorname{E}(X):=\sum_{\text{all } x}{x\operatorname{P}(X=x)}.\]
+    \[\operatorname{E}(X):=\sum_{\text{all } x}{x\Prob(X=x)}.\]
     \item Variance 
     \[\operatorname{Var}(X):=E\hspace{-0.7mm}\left(X^2\right)-[E(X)]^2.\]
     \item Standard Deviation
@@ -1787,7 +1791,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
       \hline
       \(x\) & 1 & \(\cdots\) & \(n\)\\
       \hline
-      \(\operatorname{P}(X=x)\) & \(\operatorname{P}(X=1)\) & \(\cdots\) & \(\operatorname{P}(X=n)\)\\
+      \(\Prob(X=x)\) & \(\Prob(X=1)\) & \(\cdots\) & \(\Prob(X=n)\)\\
       \hline
     \end{tabular}
   \end{enumerate}
@@ -1881,8 +1885,8 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{lbox}
 \begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
   \begin{enumerate}
-    \item \texttt{2nd + Vars + `A' \(\implies\) binompdf\((n,p,x)=\operatorname{P}(X=x)\)}
-    \item \texttt{2nd + Vars + `B' \(\implies\) binomcdf\((n,p,x)=\operatorname{P}(X\leq x)\)}
+    \item \texttt{2nd + Vars + `A' \(\implies\) binompdf\((n,p,x)=\Prob(X=x)\)}
+    \item \texttt{2nd + Vars + `B' \(\implies\) binomcdf\((n,p,x)=\Prob(X\leq x)\)}
   \end{enumerate}
 \end{lbox}
 \begin{note}
@@ -1910,6 +1914,9 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     Misshapen chocolates could be the result of equipment used and as the equipment used would not be the same for the same portion of the chocolate produced, whether a chocolate is misshapen may not be independent of another chocolate being misshapen.
   \end{enumerate}
 \end{example}
+
+\subfile{Subfiles/FMBsubfile.tex}
+
 \chapter{Bibliography}
 \begin{enumerate}
   \item Fig 6.1 Trapezium rule: \url{https://tex.stackexchange.com/a/110618}
@@ -1917,20 +1924,5 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \item Oscillatory behavior of DEs modelling physical phenomena Fig 15.2 \url{https://tikz.net/dynamics_oscillator/}
   \item Mode of a binomial distribution Fig 17.1 \url{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}
 \end{enumerate}
-
-\chapter{Continuous Random Variables}
-
-\chapter{Correlation and Linear Regression}
-\begin{note}
-  A good scatter diagram should follow the guidelines below.
-  \begin{enumerate}
-    \item The relative position of each point on the scatter diagram should be clearly shown.
-    \item The range of values for the set of data should be clearly shown by marking out the extreme \(x\) and \(y\) values on the corresponding axis.
-    \item The axes should be labeled clearly with the variables.
-  \end{enumerate}
-\end{note}
-\begin{stbox}{General Information}
-  
-\end{stbox}
 
 \end{document}

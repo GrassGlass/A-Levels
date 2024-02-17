@@ -1,0 +1,50 @@
+\documentclass[../Notes.tex]{subfiles}
+\usepackage{../Style/Diagrams}
+\usepackage{../Style/Master}
+\usepackage{../Style/boxes}
+\usepackage{../Style/DefNoteFact}
+\usepackage{../Style/QnsProof}
+\usepackage{../Style/Thms}
+\usepackage{../Style/Env}
+\usepackage{../Style/NewCommands}
+\begin{document}
+\chapter{Vector Spaces 1: System of Linear Equations}
+    \begin{stbox}{General Information}
+        \begin{enumerate}
+            \item For any matrix, its row space, column space, and dimension are identical.
+            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is \emph{homogeneous} iff \(\mathbf{b}=0\); otherwise it is \emph{nonhomogeneous}.
+            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of \(m\) linear equations in \(n\) unknowns has a solution space of dimension \(n-\rank(A)\).
+            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of linear equations is \emph{consistent} iff its solution set is nonempty; otherwise it is \emph{inconsistent}.
+            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is consistent iff \(\rank(\mathbf{A})=\rank(\mathbf{A}\vert \mathbf{b})\).
+            \item A matrix is said to be in \emph{reduced row echelon form} iff
+            \begin{enumerate}
+                \item Any row containing a nonzero entry precedes any row in which all the entries are zero (if any).
+                \item The first nonzero entry in each row is the only nonzero entry in its column.
+                \item The first nonzero entry in each row is 1 and it occurs in a column to the right of the first nonzero entry in the preceding row.
+            \end{enumerate}
+            \item Gaussian elimination. 
+            \begin{enumerate}
+                \item In the forward pass, the augmented matrix is transformed into an upper triangular matrix in which the first nonzero entry of each row is 1 and it occurs in a column to the right of the first nonzero entry
+                of each preceding row.
+                \item  In the backward pass, the upper triangular matrix is transformed into reduced row echelon form by making the first nonzero entry of each row the only nonzero entry of its column.
+            \end{enumerate}
+            \item Let \(\mathbf{A}\) be an \(m\times n\) matrix, and \(\mathbf{a}_j\) its \(j\)th column. For any \(\mathbf{x}=
+            \begin{pmatrix}
+                x_1 & x_2 & \cdots & x_n\\
+            \end{pmatrix}^\top\), 
+            \[\mathbf{A}\mathbf{x}=\sum_{j=1}^{n}{x_j}\mathbf{a}_j.\]
+            \item Let \(\mathbf{A}\) and \(\mathbf{B}\) be matrices having \(n\) rows. For any matrix \(\mathbf{M}\) with \(n\) columns, we have
+            \[\mathbf{M}(\mathbf{A}\vert \mathbf{B})=(\mathbf{MA}\vert \mathbf{MB}).\]
+            \item The determinant of a square matrix can be evaluated by cofactor expansion along any row. That is, if \(\mathbf{A} \in \mathrm{M}_{n\times n}(\mathbb{F})\), then for any integer \(1\leq i\leq n\),
+            \[\det(\mathbf{A})=\sum_{j=1}^{n}{(-1)}^{i+j}\mathbf{A}_{ij}\cdot \det(\widetilde{\mathbf{A}}_{ij}).\] 
+            Here, \(\widetilde{\mathbf{A}}_{ij}\) is the \((n-1)\times(n-1)\) matrix obtained from \(\mathbf{A}\) by deleting its \(i\)th row and \(j\)th column.
+            \item The determinant of a square matrix can also be evaluated by cofactor expansion along any column, since
+            \[\det(\mathbf{A})=\det(\mathbf{A}^\top).\]
+            \item Let \(\mathbf{A}\) be an invertible \(n\times n\) matrix. Then, for some elementary row matrices \(\mathbf{E}_1\) to \(\mathbf{E}_p\),
+            \[\mathbf{E}_p\mathbf{E}_{p-1}\dots \mathbf{E}_1(\mathbf{A} \,\vert\, \mathbf{I}_n)=\mathbf{A}^{-1}(\mathbf{A} \,\vert\, \mathbf{I}_n)=(\mathbf{I}_n \,\vert\, \mathbf{A}^{-1}).\]
+            In other words, we can perform Gaussian elimination, so that \((\mathbf{A} \,\vert\, \mathbf{I}_n)\to (\mathbf{I}_n \,\vert\, \mathbf{A}^{-1})\).
+            \item Alternatively, letting \(\mathbf{C}\) be the cofactor matrix of \(A\), i.e. \(c_{ij}=(-1)^{i+j}\det(\widetilde{\mathbf{A}}_{ij})\), we have
+            \[\mathbf{A}^{-1}=\frac{1}{\det(\mathbf{A})}\mathbf{C}^\top.\]
+        \end{enumerate}
+    \end{stbox}
+\end{document}
