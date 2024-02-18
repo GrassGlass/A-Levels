@@ -775,6 +775,45 @@ So, rearranging, we have
   \[U=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
 \end{itemize}
 
+\chapter{D.C. Circuits}
+\begin{center}
+    \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        Property & Series & Parallel\\
+        \hline
+        Current & \(I_1=I_2=\cdots=I_n\) & \(I_i=\dfrac{E}{R_i}\)\\
+        \hline
+        Resistance & \(R_{\text{effective}}=R_1+R_2+\cdots+R_n\) & \(\dfrac{1}{R_{\text{effective}}}=\dfrac{1}{R_1}+\dfrac{1}{R_2}+\cdots+\dfrac{1}{R_n}\)\\
+        \hline
+        Voltage & \(V_i=\dfrac{R_i}{R_T}\cdot E\) & \(E=V_1=V_2=\cdots=V_n\).\\
+        \hline
+    \end{tabular}
+\end{center}
+\begin{itemize}
+    \item For \(n\) identical resistors in parallel, which are each of resistance \(R\), \(R_{\text{effective}}=R/n\).
+    \item Effective resistance is at most the resistance of the smallest resistor, i.e. \(R_{\text{effective}}\leq R_i\) for each \(i\). In fact, the inequality is strict when the number of resistors in parallel \(n\geq 2\).
+    \item To resolve tricky systems of resistors, use the fact that electric potential is constant along a wire.
+    \begin{center}
+        \includegraphics[width=0.93\columnwidth]{../images/DC-Circuits-Resistors.jpg}
+    \end{center}
+    \item Potentiometer:
+    \begin{itemize}
+        \item E.m.f. of driver cell is more than that of the unknown cell, \(E\).
+        \item The direction of charge flow for the primary and secondary circuits are opposite. i.e. the positive/negative terminals should `point' towards each other.
+        \item The potential difference \(V\) across length \(L\) of a resistance wire is directly proportional to \(L\).
+        \item Consider the following circuit. When the galvanometer reads zero, the e.m.f. of the unknown cell is \(E_{AJ}\), where 
+        \[\frac{E_{\text{AJ}}}{E}=\frac{L_{\text{AJ}}}{L_{\text{AB}}}=\frac{R_{\text{AJ}}}{R_{\text{AB}}}.\]
+        \begin{center}
+            \includegraphics[width=0.3\columnwidth]{../images/DC-Circuits-Potentiometer-1.jpg}
+        \end{center}
+        \item In the circuit below, the internal resistance \(r\) satisfies
+        \[\frac{L_{AJ_2}}{L_{AJ_1}}=\frac{R}{R+r}.\]
+        \begin{center}
+            \includegraphics[width=0.88\columnwidth]{../images/DC-Circuits-Potentiometer-2.jpg}
+        \end{center}
+    \end{itemize}
+\end{itemize}
+
 \chapter{Bibliography}
 \begin{enumerate}
     \item Electric field lines of a point charge \url{https://tikz.net/electric_fieldlines1/}.
