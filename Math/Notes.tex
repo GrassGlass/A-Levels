@@ -1362,7 +1362,7 @@
   where the normal vector\\
   \(\mathbf{n}:=\begin{pmatrix}
     n_1 & n_2 & n_3
-  \end{pmatrix}^t\).
+  \end{pmatrix}^\top\).
 \end{enumerate}
 \end{minipage}\\
 \hline
@@ -1373,7 +1373,7 @@
     \item[M1:] 
     \begin{enumerate}
       \item \(\overrightarrow{ON}=\mathbf{a}+\lambda \mathbf{m}\),
-      \item \(\overrightarrow{QN} \cdot m=0\), solve for \(\lambda\),
+      \item \(\overrightarrow{QN} \cdot \mathbf{m}=0\), solve for \(\lambda\),
       \item Substitute \(\lambda\) into (a).
     \end{enumerate}
     \item[M2:] 
@@ -1798,7 +1798,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \end{stbox}
 \chapter{Special Discrete Random Variables}
 \begin{definition}{}{}
-  A discrete random variable \(X\) which takes all integer values from \(1\) to \(n\) (inclusive) is a \emph{binomial distribution} with probability of success \(p\), denoted by \(X \sim \operatorname{B}(n,p)\), iff
+  A discrete random variable \(X\) which takes in \(\mathbb{Z}^{+}_{0}\) is a \emph{binomial distribution} with probability of success \(p\), denoted by \(X \sim \operatorname{B}(n,p)\), iff
   \[\Prob(X=x)=\binom{n}{x}p^x(1-p)^{n-x}.\]
 \end{definition}
 \begin{definition}{}{}
@@ -1832,7 +1832,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   We can assume \(Y \sim \operatorname{Po}(\lambda)\) iff the following 5 conditions hold
   \begin{enumerate}
     \item The event of a [trial in context] is \emph{independent} of that of another [trial in context].
-    \item The \emph{mean number of occurrences} of [trial in context] is \emph{constant}.
+    \item The \emph{mean number of occurrences} of [trial in context] is \emph{constant} over an fixed interval of time/space.
     \item The \emph{mean number of occurrences} of [trial in context] is \emph{proportional} to the length of the space/time interval.
     \item The \emph{probability} of [trial in context] occurring at \emph{any point} in space/time within a small fixed interval of space/time is \emph{the same}.
     \item The \emph{probability} of \emph{more than one} occurrence in any infinitesimally small interval is \emph{negligible}.  
