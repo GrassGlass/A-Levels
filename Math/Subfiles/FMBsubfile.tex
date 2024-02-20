@@ -36,6 +36,25 @@
   \end{itemize}
 \end{stbox}
 
+\chapter{Special Continuous Random Variables}
+\begin{definition}{}{}
+  A continuous random variable \(X\) has a \emph{normal distribution} with mean \(\mu\) and standard deviation \(\sigma\), denoted by \(X \sim \operatorname{N}(\mu,\sigma^2)\), iff its pdf \(f\) is such that 
+  \[f(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right).\]
+\end{definition}
+\begin{stbox}{General Information}
+  \begin{enumerate}
+    \item A normal distribution is symmetrical about the line \(x=\mu\). That is 
+    \[\Prob(X\leq\mu-\delta)=\Prob(X\geq\mu+\delta)\]
+    for each \(\delta>0\). Note that the mean, median, and mode coincide with \(\mu\).
+    \item Properties of the normal distribution. Let \(X\) and \(Y\) be independent, such that \(X \sim \operatorname{N}(\mu,\sigma^2)\) and \(Y \sim \operatorname{N}(m,s^2)\). Then, for any \(n \in \mathbb{N}\) and \(x\), \(y \in \mathbb{R}\),  
+    \begin{enumerate}
+      \item \(nX \sim \operatorname{N}(n\mu,n^2\sigma^2)\),
+      \item \(X_1+X_2+\cdots+X_n \sim \operatorname{N}(n\mu,n\sigma)\),
+      \item \(aX\pm bY \sim \operatorname{N}(a\mu\pm bm,a^2\sigma^2+b^2s^2)\).
+    \end{enumerate}
+  \end{enumerate}
+\end{stbox}
+
 \chapter{Correlation and Linear Regression}
 \begin{note}
   A good scatter diagram should follow the guidelines below.

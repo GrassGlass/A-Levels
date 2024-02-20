@@ -8,9 +8,33 @@
 \usepackage{../Style/Env}
 \usepackage{../Style/NewCommands}
 \begin{document}
-\chapter{Vector Spaces 1: System of Linear Equations}
+\chapter{Linear Algebra}
+\begin{definition}{}{}
+    A vector space (or linear space) \(V\) over a field \(\mathbb{F}\) consists of a set on which two operations (called addition and multiplication respectively here) are defined so that;
+\begin{itemize}[label=(M1),leftmargin=*]
+    \item[(A)](\(V\) is Closed Under Addition) For all \(\mathbf{x},\mathbf{y} \in V\), there exists a unique element \(\mathbf{x}+\mathbf{y} \in V\).
+    \item[(M)](\(V\) is Closed Under Scalar Multiplication) For all elements \(a \in \mathbb{F}\) and elements \(\mathbf{x} \in V\), there exists a unique element \(a\mathbf{x} \in V\).
+\end{itemize}
+Such that the following properties hold:  
+\begin{enumerate}[label=(VS {{\arabic*}}), leftmargin=*]
+    \item \label{(VS 1)}(Commutativity of Addition) For all \(\mathbf{x},\mathbf{y} \in V\), we have \(\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\).
+    \item \label{(VS 2)}(Associativity of Addition) For all \(\mathbf{x},\mathbf{y},\mathbf{z} \in V\), we have \((\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\).
+    \item \label{(VS 3)}(Existance of The Zero/Null Vector) There exists an element in \(V\) denoted by \({\mathbf{0}}\), such that \(\mathbf{x}+{\mathbf{0}}=\mathbf{x}\) for all \(\mathbf{x} \in V\).
+    \item \label{(VS 4)}(Existance of Additive Inverses) For all elements \(\mathbf{x} \in V\), there exists an element \(\mathbf{y} \in V\) such that \(\mathbf{x}+\mathbf{y}={\mathbf{0}}\).
+    \item \label{(VS 5)}(Multiplicative Identity) For all elements \(x \in V\), we have \(1\mathbf{x}=\mathbf{x}\), where 1 denotes the multiplicative identity in \(\mathbb{F}\).
+    \item \label{(VS 6)}(Compatibility of Scalar Multiplication with Field Multiplication) For all elements \(a,b \in \mathbb{F}\) and elements \(\mathbf{x} \in V\), we have \((ab)\mathbf{x}=a(b\mathbf{x})\).
+    \item \label{(VS 7)}(Distributivity of Scalar Multiplication over Vector Addition) For all elements \(a \in \mathbb{F}\) and elements \(\mathbf{x},\mathbf{y} \in V\), we have \(a(\mathbf{x}+\mathbf{y})=a\mathbf{x}+a\mathbf{y}\).
+    \item \label{(VS 8)}(Distributivity of Scalar Multiplication over Field Addition) For all elements \(a,b \in \mathbb{F}\), and elements \(\mathbf{x} \in V\), we have \((a+b)\mathbf{x}=a\mathbf{x}+b\mathbf{x}\).
+\end{enumerate}
+\end{definition}
     \begin{stbox}{General Information}
         \begin{enumerate}
+            \item  Let \(V\) be a vector space and \(W\) a subset of \(V\). Then \(W\) is a subspace of \(V\) iff the following 3 conditions hold for the operations defined in V.
+            \begin{enumerate}[label=(\alph*)]
+                \item \(\mathbf{0} \in W\) \label{Theorem 1.3(a)}
+                \item \(\mathbf{x}+\mathbf{y} \in W\) whenever \(\mathbf{x} \in W\) and \(\mathbf{y} \in W\). \label{Theorem 1.3(b)}
+                \item \(c\mathbf{x} \in W\) whenever \(c \in \mathbb{F}\) and \(\mathbf{x} \in W\). \label{Theorem 1.3(c)}
+            \end{enumerate}
             \item For any matrix, its row space, column space, and dimension are identical.
             \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is \emph{homogeneous} iff \(\mathbf{b}=0\); otherwise it is \emph{nonhomogeneous}.
             \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of \(m\) linear equations in \(n\) unknowns has a solution space of dimension \(n-\rank(A)\).

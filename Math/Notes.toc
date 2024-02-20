@@ -20,7 +20,7 @@
 \contentsline {chapter}{\numberline {7}Complex Numbers}{14}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Complex Number I}{14}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Complex Numbers II}{15}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Vector Spaces 1: System of Linear Equations}{18}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Linear Algebra}{18}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Graphing Techniques}{20}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Graphing `Familiar' Functions and Asymptotic bois}{20}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Conics}{21}{section.9.2}%
@@ -47,5 +47,6 @@
 \contentsline {chapter}{\numberline {17}Discrete Random Variables}{43}{chapter.17}%
 \contentsline {chapter}{\numberline {18}Special Discrete Random Variables}{44}{chapter.18}%
 \contentsline {chapter}{\numberline {19}Continuous Random Variables}{48}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Correlation and Linear Regression}{49}{chapter.20}%
-\contentsline {chapter}{\numberline {21}Bibliography}{50}{chapter.21}%
+\contentsline {chapter}{\numberline {20}Special Continuous Random Variables}{49}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Correlation and Linear Regression}{50}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Bibliography}{51}{chapter.22}%
