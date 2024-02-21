@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 FEB 2024 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  21 FEB 2024 22:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -759,25 +759,17 @@ Package caption Info: Standard document class detected.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip82
-\enit@outerparindent=\dimen343
-\enit@toks=\toks60
-\enit@inbox=\box97
-\enit@count@id=\count339
-\enitdp@description=\count340
-) (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box98
-\beforetitleunit=\skip83
-\aftertitleunit=\skip84
-\ttl@plus=\dimen344
-\ttl@minus=\dimen345
-\ttl@toksa=\toks61
-\titlewidth=\dimen346
-\titlewidthlast=\dimen347
-\titlewidthfirst=\dimen348
+\ttl@box=\box97
+\beforetitleunit=\skip82
+\aftertitleunit=\skip83
+\ttl@plus=\dimen343
+\ttl@minus=\dimen344
+\ttl@toksa=\toks60
+\titlewidth=\dimen345
+\titlewidthlast=\dimen346
+\titlewidthfirst=\dimen347
  (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titleps.sty)) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
  (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -797,11 +789,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count341
+\c@section@level=\count339
 )
-\@linkdim=\dimen349
-\Hy@linkcounter=\count342
-\Hy@pagecounter=\count343
+\@linkdim=\dimen348
+\Hy@linkcounter=\count340
+\Hy@pagecounter=\count341
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -809,7 +801,7 @@ Now handling font encoding PD1 ...
 ) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count344
+\Hy@SavedSpaceFactor=\count342
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -822,21 +814,21 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count345
+\c@Hy@tempcnt=\count343
  (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4772.
-\XeTeXLinkMargin=\dimen350
+\XeTeXLinkMargin=\dimen349
  (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count346
-\Field@Width=\dimen351
-\Fld@charsize=\dimen352
+\Fld@menulength=\count344
+\Field@Width=\dimen350
+\Fld@charsize=\dimen351
 Package hyperref Info: Hyper figures OFF on input line 6051.
 Package hyperref Info: Link nesting OFF on input line 6056.
 Package hyperref Info: Hyper index ON on input line 6059.
@@ -848,15 +840,15 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count347
-\c@Item=\count348
-\c@Hfootnote=\count349
+\Hy@abspage=\count345
+\c@Item=\count346
+\c@Hfootnote=\count347
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
-\Fld@listcount=\count350
-\c@bookmark@seq@number=\count351
+\Fld@listcount=\count348
+\c@bookmark@seq@number=\count349
  (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -864,9 +856,9 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip85
+\Hy@SectionHShift=\skip84
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 96.
+Package hyperref Info: Option `colorlinks' set `true' on input line 95.
  (c:/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (c:/texlive/2023/texmf-dist/tex/latex/import/import.sty
@@ -875,13 +867,21 @@ Package: import 2020/04/01  v 6.2
 Package: expl3 2023-06-30 L3 programming layer (loader) 
  (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count352
-\l__pdf_internal_box=\box99
+\l__color_backend_stack_int=\count350
+\l__pdf_internal_box=\box98
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
  (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
-)))) (./Style/boxes.sty
+)))) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip85
+\enit@outerparindent=\dimen352
+\enit@toks=\toks61
+\enit@inbox=\box99
+\enit@count@id=\count351
+\enitdp@description=\count352
+) (./Style/boxes.sty
 
 LaTeX Warning: You have requested package `Style/boxes',
                but the package provides `boxes'.
@@ -1273,39 +1273,39 @@ Underfull \hbox (badness 1418) in paragraph at lines 1499--1500
  []
 
 
-Overfull \hbox (49.16032pt too wide) in alignment at lines 1339--1553
+Overfull \hbox (49.16032pt too wide) in alignment at lines 1339--1548
  [] [] 
  []
 
 [33
 
-] [34] [35]
+] [34]
 Chapter 15.
-[36
+[35
 
 ]
 Chapter 16.
-[37
+[36
 
-] [38] [39]
-<./images/Logistics Curve.jpg, id=780, 1284.8pt x 642.4pt>
+] [37] [38]
+<./images/Logistics Curve.jpg, id=774, 1284.8pt x 642.4pt>
 File: ./images/Logistics Curve.jpg Graphic file (type jpg)
 <use ./images/Logistics Curve.jpg>
-Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1725.
+Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1720.
 (pdftex.def)             Requested size: 430.00462pt x 215.00194pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1726.
+(caption)                particular \caption on input line 1721.
 See the caption package documentation for explanation.
 
-[40 <./images/Logistics Curve.jpg>]
+[39 <./images/Logistics Curve.jpg>]
 runsystem(pdflatex -interaction=batchmode -shell-escape -jobname '../Diagrams/Oscils' ../Diagrams/Oscils)...disabled (restricted).
 
 
 
 Package standalone Warning: Graphic '../Diagrams/Oscils.pdf' could not be build.
-Shell escape activated? on input line 1769.
+Shell escape activated? on input line 1764.
 
 (./images/../Diagrams/Oscils.tex
 contour: Using real outline for `(c)' on input line 60.
@@ -1315,44 +1315,44 @@ File: ./images/../Diagrams/Oscils.tex Graphic file (type tex)
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1770.
+(caption)                particular \caption on input line 1765.
 See the caption package documentation for explanation.
 
-[41] [42]
+[40] [41]
 Chapter 17.
-[43
+[42
 
 ]
 Chapter 18.
-[44
+[43
 
-] [45]
-<./images/BinomDist.png, id=849, 354.57469pt x 185.19188pt>
+] [44]
+<./images/BinomDist.png, id=843, 354.57469pt x 185.19188pt>
 File: ./images/BinomDist.png Graphic file (type png)
 <use ./images/BinomDist.png>
-Package pdftex.def Info: ./images/BinomDist.png  used on input line 1896.
+Package pdftex.def Info: ./images/BinomDist.png  used on input line 1891.
 (pdftex.def)             Requested size: 354.57382pt x 185.1914pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1897.
+(caption)                particular \caption on input line 1892.
 See the caption package documentation for explanation.
 
-[46 <./images/BinomDist.png>] (./Subfiles/FMBsubfile.tex [47]
+[45 <./images/BinomDist.png>] (./Subfiles/FMBsubfile.tex [46]
 Chapter 19.
-[48
+[47
 
 ]
 Chapter 20.
-[49
+[48
 
 ]
 Chapter 21.
-) [50
+) [49
 
 ]
 Chapter 22.
-[51
+[50
 
 ] (./Notes.aux)
  ***********
@@ -1363,10 +1363,10 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: DA2DC0902B9D7D0623DDBFDA9521A030;7787.
  ) 
 Here is how much of TeX's memory you used:
- 46084 strings out of 475237
- 1066456 string characters out of 5768555
- 1975238 words of memory out of 5000000
- 66020 multiletter control sequences out of 15000+600000
+ 46095 strings out of 475237
+ 1066678 string characters out of 5768555
+ 1972238 words of memory out of 5000000
+ 66034 multiletter control sequences out of 15000+600000
  584958 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,27n,131p,743b,3102s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1374,10 +1374,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Notes.pdf (53 pages, 1179993 bytes).
+Output written on Notes.pdf (52 pages, 1179491 bytes).
 PDF statistics:
- 1167 PDF objects out of 1200 (max. 8388607)
- 1015 compressed objects within 11 object streams
- 451 named destinations out of 1000 (max. 500000)
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 1009 compressed objects within 11 object streams
+ 448 named destinations out of 1000 (max. 500000)
  464 words of extra memory for PDF output out of 10000 (max. 10000000)
 
