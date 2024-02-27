@@ -507,7 +507,7 @@ So, rearranging, we have
         \hline
     \end{tabular}}
     \item We always need to take the path difference starting from the actual source itself, even when the source travels through two slits onto a screen, for instance.
-    \item Double-slits: For\footnote{Typical values: \(a \approx 0.5\)mm, \(D \approx 1\)m, and \(\lambda \approx 600\)nm. In any case, using the equation requires \(a<<D\).} a (\emph{centre-to-centre}) slit separation \(a\) and slit-screen distance \(D\), the fringe separation (between two adjacent minima, or two adjacent maxima) is
+    \item Double-slits: For\footnote{Typical values: \(a \approx 0.5\)mm, \(D \approx 1\)m, and \(\lambda \approx 600\)nm. In any case, using the equation requires \(a<<D\).} a (\emph{center-to-center}) slit separation \(a\) and slit-screen distance \(D\), the fringe separation (between two adjacent minima, or two adjacent maxima) is
     \[x=\frac{\lambda D}{a}.\]
     \begin{center}
         \includegraphics[scale=0.1]{../images/Double-Slit Diffraction.jpg}
@@ -530,7 +530,7 @@ So, rearranging, we have
         Describe and explain the appearance of the central fringe if the light is now replaced with white light.
     \begin{enumerate}
         \item The central bright fringe is generally white.
-        \item The zeroth order fringes of all the wavelengths coincide at the centre where the path difference from the two slits is zero for all wavelengths. The combined central fringes remains white.
+        \item The zeroth order fringes of all the wavelengths coincide at the center where the path difference from the two slits is zero for all wavelengths. The combined central fringes remains white.
         \item The sides of the central fringes are likely more reddish.
         \item  This is because the wider red fringe extends beyond the narrower blue fringe.
     \end{enumerate}
@@ -814,6 +814,55 @@ So, rearranging, we have
     \end{itemize}
 \end{itemize}
 
+\chapter{Electromagnetism}
+\begin{itemize}
+    \item A \emph{magnetic field} is a \emph{region of space} where a magnetic pole, moving charged particular or current-carrying conductor will \emph{experience a magnetic force}.
+    \item The \emph{magnetic flux density} is defined as the \emph{force per unit current per unit length} acting on an \emph{infinitely long current-carrying conductor} placed \emph{perpendicularly} to the magnetic field.
+    \begin{center}
+        \includegraphics[width=0.5\textwidth]{../Current-Carrying-Wire/Current-Carrying-Wire.pdf}
+    \end{center}
+    \item Crosses \(\times\) represents the direction of going ``into the page'', and dots \(\times\) represents going ``out of the page''.
+    \item Left and right hand rules:
+    \begin{center}
+        \includegraphics[width=0.4\textwidth]{../Left-Right-Hand-Rules/Left-hand-rule.pdf}
+        \hspace{2cm}
+        \includegraphics[width=0.28\textwidth]{../Left-Right-Hand-Rules/Right-hand-rule.pdf}
+    \end{center}
+    \item At any point some perpendicular distance \(d\) from the center of an \emph{infinitely long straight} current-carrying conductor, the magnitude of the magnetic flux is given by
+    \[B=\frac{\mu_0I}{2\pi d}.\]
+    Here, \(\mu_0=4\pi\cdot 10^{-7}\) is the permeability of free space.
+    \item At the center of a flat circular coil with \(N\) turns, radius \(r\), and current \(I\) flowing through it, the magnitude of the magnetic flux density is given by 
+    \[B=\frac{\mu_0NI}{2r}.\]
+    \begin{center}
+        \includegraphics[width=0.5\textwidth]{../Flat-Circular-Coil/Flat-Circular-Coil.pdf}
+    \end{center}
+    \item Suppose we have an ideal (having infinite length) solenoid of \(n=N/L\) number of turns per unit length, which has a current \(I\) flowing through it. Then, the magnitude of the uniform magnetic flux density at its center is given by 
+    \[B=\mu_0nI.\]
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{../images/Solenoid.jpg}
+    \end{center}
+    \item Say we have a straight current-carrying conductor of length \(l\) and current \(I\), which makes an angle \(\theta\) with the magnetic field. For any point on that conductor that experiences a magnetic flux of density \(B\), 
+    \[F_B=BIl\sin(\theta).\]
+    \item ~
+    \begin{center}
+        \begin{tabular}{|Sc|Sc|}
+            \hline
+            Direction of Current in Two Wires & Direction of Net Magnetic Force\\
+            \hline
+            Same & Attractive\\
+            \hline
+            Opposite & Repulsive\\
+            \hline
+        \end{tabular} 
+        \includegraphics[scale=1.5,page=1]{../Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf}
+
+        \includegraphics[scale=1.5,page=2]{../Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf}
+    \end{center}
+    \item A charge \(q\) moving at speed \(v\), which makes an angle \(\theta\) with the magnetic flux density \(B\), experiences a magnetic force of magnitude
+    \[F_B=qvB\sin(\theta).\]
+    \item Notice that the charged particle above travels in circular motion, with radius and period
+    \[r=\frac{mv}{Bq}\qquad\text{and}\qquad T=\frac{2\pi m}{qB}.\]
+\end{itemize}
 \chapter{Bibliography}
 \begin{enumerate}
     \item Electric field lines of a point charge \url{https://tikz.net/electric_fieldlines1/}.
@@ -821,5 +870,9 @@ So, rearranging, we have
     \item Image charge of a plane \url{https://tikz.net/electric_field_image_charge_plane/}
     \item Electric field plots \url{https://tikz.net/electric_field_plots/}
     \item Electric field lines between parallel plates \url{https://tex.stackexchange.com/a/488802}
+    \item Current in a wire\url{https://tikz.net/magnetic_field_wire/}
+    \item Left and right hand rules \url{https://tikz.net/righthand_rule/}
+    \item Flat circular coil \url{https://tex.stackexchange.com/a/523072}
+    \item Two current carrying conductors \url{https://tikz.net/magnetic_field_wire_force/}
 \end{enumerate}
 \end{document}

@@ -12,4 +12,5 @@
 \contentsline {chapter}{\numberline {13}Currents of Electricity}{17}{chapter.13}%
 \contentsline {chapter}{\numberline {14}Electric Fields}{21}{chapter.14}%
 \contentsline {chapter}{\numberline {15}D.C. Circuits}{24}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Bibliography}{26}{chapter.16}%
+\contentsline {chapter}{\numberline {16}Electromagnetism}{26}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Bibliography}{29}{chapter.17}%
