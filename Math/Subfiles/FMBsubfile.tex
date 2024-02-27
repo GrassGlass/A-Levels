@@ -69,6 +69,21 @@
   \end{itemize}
 \end{note}
 \begin{stbox}{General Information}
-  
+  \begin{itemize}
+    \item The Product Moment Correlation Coefficient is a measure of the linear correlation between two variables. It is defined by
+    \[r=\frac{\sum{(x-\bar{x})(y-\bar{y})}}{\sqrt{\sum{(x-\bar{x})^2}\sum{(y-\bar{y})^2}}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sqrt{\left[\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}\right]\left[\sum{y^2}-\dfrac{\left(\sum{y}\right)^2}{n}\right]}},\]
+    which takes on a value from 0 to 1.
+    \item When \(r=0\), there is no linear relationship. But, a nonlinear relationship may be present. Additionally, the regression lines are perpendicular.
+    \item The closer the value of \(r\) is to 1 (or -1), the stronger the positive (or negative) linear correlation. Furthermore, the regression lines coincide.
+    \begin{center}
+      \includegraphics[scale=0.3]{../images/Product Moment Correlation Coefficient 1.png}
+      \includegraphics[scale=0.4]{../images/Product Moment Correlation Coefficient 2.png}
+    \end{center}
+    \item The regression line of \(y\) on \(x\) minimises the sum of squares deviation (error) in the \(y\)-direction. (i.e. we are assuming \(x\) is the independent variable whose values are known exactly.) It is given by
+    \[y=\bar{y}+b(x-\bar{x}),\qquad\text{where}\qquad b=\frac{\sum{(x-\bar{x})(y-\bar{y})}}{\sum{(x-\bar{x})^2}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}}.\] 
+    \item The point \((\bar{x},\bar{y})\) always lies on both the regression lines of \(y\) on \(x\), and \(x\) on \(y\).
+    \item Say we are given the value of one variable, and asked to approximate the the value of the other variable. Then, we should always use the line of the \emph{dependent} variable on the \emph{independent}.
+    \item Estimations should not be taken for data outside the range of the sample provided, even if the value of \(r\) is close to 1.
+  \end{itemize}
 \end{stbox}
 \end{document}
