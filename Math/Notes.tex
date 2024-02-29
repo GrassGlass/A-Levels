@@ -1812,7 +1812,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \[\Prob(X=x)=(1-p)^{x-1}p.\]
 \end{definition}
 \begin{note}
-  We can assume \(X \sim \operatorname{B}(n,p)\) or \(W \sim \operatorname{Geo}(n,p)\) iff the following three conditions hold
+  We can assume \(X \sim \operatorname{B}(n,p)\) (or \(W \sim \operatorname{Geo}(n,p)\)) iff the following three conditions hold
   \begin{enumerate}
     \item The event of a [trial in context] is independent of that of another [trial in context].
     \item The probability of each [trial in context] is constant.
@@ -1835,7 +1835,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \[\Prob(X=x)=\frac{e^{-\lambda}\lambda^x}{x!}.\]
 \end{definition}
 \begin{note}
-  We can assume \(Y \sim \operatorname{Po}(\lambda)\) iff the following 5 conditions hold
+  We can assume \(Y \sim \operatorname{Po}(\lambda)\) iff the following three conditions hold
   \begin{enumerate}
     \item The event of a [trial in context] is \emph{independent} of that of another [trial in context].
     \item The \emph{mean number of occurrences} of [trial in context] is \emph{constant} over an fixed interval of time/space.
@@ -1846,11 +1846,10 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     % \item The \emph{probability} of [trial in context] occurring at \emph{any point} in space/time within a small fixed interval of space/time is \emph{the same}.
     % \item The \emph{probability} of \emph{more than one} occurrence in any infinitesimally small interval is \emph{negligible}.  
   \end{enumerate}
-  The first three assumptions are the most important.
 \end{note}
 \begin{note}
   Additive property of the Poisson distribution: If \(U \sim \operatorname{Po}(\mu)\) and \(V \sim \operatorname{Po}(\lambda)\) are \emph{independent} variables, then 
-  \[W \sim \operatorname{Po}(\mu+\lambda).\]
+  \[U+V \sim \operatorname{Po}(\mu+\lambda).\]
 \end{note}
 \begin{note}
   Defining random variables: Let \(Y\) be the number of [event in context], in [space/time interval in context].  
