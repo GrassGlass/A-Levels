@@ -510,7 +510,6 @@
           \captionof{figure}{Maxmium distance and angle of a point from a circle}
         \end{center}
       \end{enumerate}
-      \newpage
       \item The locus represented by \(\lvert z-a \rvert =\lvert z-b \rvert\) is the \emph{perpendicular bisector} of the line segment joining \(A\) and \(B\).
       \begin{center}
         \includegraphics[scale=0.12]{../images/ComplexPerpendicularBisectorLocus}
@@ -523,6 +522,18 @@
       \end{center}
     \end{enumerate}
     \item There is no need to find the points of intersection between two loci, unless the questions states so. 
+    \item Suppose we have a locus \(z\) represented by the predicate \(P(z)\). Then, for any \(a\in \mathbb{C}\), the locus of \(z+a\) is represented by \(P(z-a)\).
+    \item Say we are given a locus \(z\) represented by \(\lvert z-a \rvert=r\), where \(a=\alpha+\beta i\). 
+    \begin{enumerate}
+      \item The greatest and least value of \(\lvert z \rvert\) are \(\lvert a \rvert \pm r\), respectively. 
+      \item The greatest and least value of \(\arg(z)\) can be obtained by plotting 
+      \[Y_1=\tan^{-1}\left(\frac{\beta\pm\sqrt{r^2-(X-\alpha)^2}}{X}\right)\]
+      and finding the maximum/minimum point, respectively.
+      \begin{center}
+        \includegraphics[width=0.5\textwidth]{../images/Complex-Numbers-My-Funnei-Technique.jpg}
+        \captionof{figure}{Brute Force Technique for Finding Maximum/Minimum angles.}
+      \end{center}
+    \end{enumerate}
   \end{enumerate}
 \end{stbox}
 \begin{example}{TQ 10(b)}{}
