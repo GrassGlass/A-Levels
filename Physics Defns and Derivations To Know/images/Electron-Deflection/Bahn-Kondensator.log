@@ -1,0 +1,641 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.10)  2 MAR 2024 15:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Bahn-Kondensator
+(./Bahn-Kondensator.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+(c:/texlive/2023/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files standalone
+(c:/texlive/2023/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/04/15 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+) (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+ (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count181
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count182
+\c@sapage=\count183
+ (c:/texlive/2023/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalone' class
+) (c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2023/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+ (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+) (c:/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.tex (c:/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count192
+\pstFP@xia=\count193
+\pstFP@xib=\count194
+\pstFP@xfa=\count195
+\pstFP@xfb=\count196
+\pstFP@rega=\count197
+\pstFP@regb=\count198
+\pstFP@regs=\count199
+\pstFP@times=\count266
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen141
+\pgfutil@tempdimb=\dimen142
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))) (c:/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen143
+\pgf@xa=\dimen144
+\pgf@xb=\dimen145
+\pgf@xc=\dimen146
+\pgf@y=\dimen147
+\pgf@ya=\dimen148
+\pgf@yb=\dimen149
+\pgf@yc=\dimen150
+\c@pgf@counta=\count267
+\c@pgf@countb=\count268
+\c@pgf@countc=\count269
+\c@pgf@countd=\count270
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen151
+\pgfmath@count=\count271
+\pgfmath@box=\box52
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count272
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen152
+\pgffor@skip=\dimen153
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+\psLoopIndex=\count273
+
+`PSTricks' v3.19  <2023/04/30> (tvz,hv)
+\pst@dima=\dimen154
+\pst@dimb=\dimen155
+\pst@dimc=\dimen156
+\pst@dimd=\dimen157
+\pst@dimg=\dimen158
+\pst@dimh=\dimen159
+\pst@dimm=\dimen160
+\pst@dimn=\dimen161
+\pst@dimo=\dimen162
+\pst@dimp=\dimen163
+\pst@hbox=\box53
+\pst@ibox=\box54
+\pst@boxg=\box55
+\pst@cnta=\count274
+\pst@cntb=\count275
+\pst@cntc=\count276
+\pst@cntd=\count277
+\pst@cntg=\count278
+\pst@cnth=\count279
+\pst@cntm=\count280
+\pst@cntn=\count281
+\pst@cnto=\count282
+\pst@cntp=\count283
+\@zero=\count284
+\pst@toks=\toks28
+--- We are running latex or xelatex ---
+(c:/texlive/2023/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con (c:/texlive/2023/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg)) (c:/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
+\psunit=\dimen164
+\psxunit=\dimen165
+\psyunit=\dimen166
+\pst@C@@rType=\count285
+\pslinewidth=\dimen167
+\psk@startLW=\dimen168
+\psk@endLW=\dimen169
+ (c:/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
+\pshooklength=\dimen170
+\pshookwidth=\dimen171
+)
+\pst@customdefs=\toks29
+ (c:/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+\pslinearc=\dimen172
+\pst@symbolStep=\dimen173
+\pst@symbolWidth=\dimen174
+\pst@symbolLinewidth=\dimen175
+\everypsbox=\toks30
+\psframesep=\dimen176
+\pslabelsep=\dimen177
+\sh@wgridXunit=\dimen178
+\sh@wgridYunit=\dimen179
+\pst@shift=\dimen180
+\ps@imagectr=\count286
+ (c:/texlive/2023/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con (c:/texlive/2023/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+Using PSTricks configuration for LaTeX+dvipdfmx
+)))
+File: pstricks.tex 2023/04/30 v3.19 `PSTricks' (tvz,hv)
+ (c:/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+
+>>> Loading XeTeX special macros
+(c:/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-xetex.def))
+\sa@box=\box56
+) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen181
+\Gm@wd@mp=\dimen182
+\Gm@odd@mp=\dimen183
+\Gm@even@mp=\dimen184
+\Gm@layoutwidth=\dimen185
+\Gm@layoutheight=\dimen186
+\Gm@layouthoffset=\dimen187
+\Gm@layoutvoffset=\dimen188
+\Gm@dimlist=\toks31
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen189
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen190
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count291
+\leftroot@=\count292
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count293
+\DOTSCASE@=\count294
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen191
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count295
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count296
+\dotsspace@=\muskip16
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks33
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+\andhelp@=\toks34
+\eqnshift@=\dimen192
+\alignsep@=\dimen193
+\tagshift@=\dimen194
+\tagwidth@=\dimen195
+\totwidth@=\dimen196
+\lineht@=\dimen197
+\@envbody=\toks35
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+
+./Bahn-Kondensator.tex:8: LaTeX Error: Option clash for package pstricks.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage
+               {pst-slpe,pst-blur}
+The package pstricks has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvipsnames,pdf]
+Adding the global options:
+  ,dvipsnames,pdf
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(c:/texlive/2023/texmf-dist/tex/latex/pst-slpe/pst-slpe.sty
+Package: pst-slpe 2005/03/05 package wrapper for `pst-slpe.tex'
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex  v1.31, 2011/10/25)
+File: pst-slpe.tex 2011/10/25 v1.31 `pst-slpe' (mg,hv)
+) (c:/texlive/2023/texmf-dist/tex/latex/pst-blur/pst-blur.sty
+Package: pst-blur 2005/09/08 package wrapper for pst-blur.tex (hv)
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-blur/pst-blur.tex  v2.0, 2005/09/08)
+File: pst-blur.tex 2005/09/08 v2.0 `PST-blur' (hv)
+) (c:/texlive/2023/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex  v1.43, 2022/01/31
+\psrow=\count302
+\pscol=\count303
+\psmatrixcnt=\count304
+\psrowsep=\skip53
+\pscolsep=\skip54
+\pst@args=\count305
+\num@pts=\count306
+\pst@argcnt=\count307
+)
+File: pst-node.tex 2022/01/31 1.43 `pst-node' (tvz,hv)
+) (c:/texlive/2023/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+ (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+) (c:/texlive/2023/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+ (c:/texlive/2023/texmf-dist/tex/generic/multido/multido.tex  v1.42, 2010/05/14 <tvz>
+\multido@count=\count308
+\multidocount=\count309
+\multido@stuff=\toks37
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2021/09/23 package wrapper for pst-plot.tex (hv)
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-plot/pst-plot.tex (c:/texlive/2023/texmf-dist/tex/generic/pst-tools/pst-tools.tex `PST-tools' v0.12, 2021/09/23 (hv)
+\randomi=\count310
+\ranval=\count311
+) (c:/texlive/2023/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex (c:/texlive/2023/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex `pst-arrow' v0.05, 2021/11/16 (dr,hv)) (c:/texlive/2023/texmf-dist/tex/generic/pst-3d/pst-3d.tex `PST-3d' v1.11, 2010/02/14 (tvz)) (c:/texlive/2023/texmf-dist/tex/generic/pst-math/pst-math.tex `pst-math' v0.67 , (CJ,hv)) `pstricks-add' v3.94, 2023/04/17 (dr,hv)
+\psparallelogramsep=\dimen198
+\pst@cntC=\count312
+\pst@stepcount=\count313
+\chart@ColorIndex=\dimen199
+\chart@ColorStep=\dimen256
+\pst@chartHeight=\dimen257
+\pst@chartStackDepth=\dimen258
+\pst@chartStackWidth=\dimen259
+\chart@Toggle=\count314
+\psVectorCtr=\count315
+)  v1.94, 2022/11/21 (tvz,hv)
+\pstRadUnit=\dimen260
+\pstRadUnitInv=\dimen261
+\pst@linecnt=\count316
+\RCD@file=\read2
+\psxlabelsep=\dimen262
+\psylabelsep=\dimen263
+\psk@subticksize=\dimen264
+\pst@xticksizeA=\dimen265
+\pst@xticksizeB=\dimen266
+\pst@xticksizeC=\dimen267
+\pst@yticksizeA=\dimen268
+\pst@yticksizeB=\dimen269
+\pst@yticksizeC=\dimen270
+\@digitcounter=\count317
+\psk@llx=\dimen271
+\psk@lly=\dimen272
+\psk@urx=\dimen273
+\psk@ury=\dimen274
+\pst@xunit=\dimen275
+\pst@yunit=\dimen276
+)
+File: pst-plot.tex 2022/11/21 1.94 `pst-plot' (tvz,hv)
+) (c:/texlive/2023/texmf-dist/tex/latex/pst-math/pst-math.sty
+Package: pst-math 2023/07/03 v 0.67 package wrapper for PSTricks pst-math.tex
+ (c:/texlive/2023/texmf-dist/tex/latex/pst-calculate/pst-calculate.sty
+Package: pst-calculate 2019/01/24 v. 0.02(Herbert Voss) Support for caculations with floating point numbers.
+ (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-06-30 L3 programming layer (loader) 
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
+\g__graphics_track_int=\count318
+\l__pdf_internal_box=\box59
+\g__pdf_backend_object_int=\count319
+\g__pdf_backend_annotation_int=\count320
+\g__pdf_backend_link_int=\count321
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+) (c:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-06-12 v3.2.6 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen277
+\l__siunitx_angle_marker_box=\box60
+\l__siunitx_angle_unit_box=\box61
+\l__siunitx_compound_count_int=\count322
+ (c:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count323
+) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+\l__siunitx_number_exponent_fixed_int=\count324
+\l__siunitx_number_min_decimal_int=\count325
+\l__siunitx_number_min_integer_int=\count326
+\l__siunitx_number_round_precision_int=\count327
+\l__siunitx_number_lower_threshold_int=\count328
+\l__siunitx_number_upper_threshold_int=\count329
+\l__siunitx_number_group_first_int=\count330
+\l__siunitx_number_group_size_int=\count331
+\l__siunitx_number_group_minimum_int=\count332
+\l__siunitx_table_tmp_box=\box62
+\l__siunitx_table_tmp_dim=\dimen278
+\l__siunitx_table_column_width_dim=\dimen279
+\l__siunitx_table_integer_box=\box63
+\l__siunitx_table_decimal_box=\box64
+\l__siunitx_table_uncert_box=\box65
+\l__siunitx_table_before_box=\box66
+\l__siunitx_table_after_box=\box67
+\l__siunitx_table_before_dim=\dimen280
+\l__siunitx_table_carry_dim=\dimen281
+\l__siunitx_unit_tmp_int=\count333
+\l__siunitx_unit_position_int=\count334
+\l__siunitx_unit_total_int=\count335
+ (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen282
+\ar@mcellbox=\box68
+\extrarowheight=\dimen283
+\NC@list=\toks38
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box69
+))) (c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count336
+\decimalpart=\count337
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+) (c:/texlive/2023/texmf-dist/tex/generic/pst-math/pst-math.tex)
+File: pst-math.tex 2022/11/21 v1.94 `PST-math' (hv)
+\c@Rand@No=\count338
+\c@Random@Left=\count339
+\c@Random@Right=\count340
+\c@Random@No@max=\count341
+) (c:/texlive/2023/texmf-dist/tex/latex/pst-eucl/pst-eucl.sty (c:/texlive/2023/texmf-dist/tex/latex/pst-tools/pst-tools.sty
+Package: pst-tools 2012/01/01 package wrapper for pst-tools.tex (hv)
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-tools/pst-tools.tex)
+File: pst-tools.tex 2022/11/21 v1.94 `PST-tools' (hv)
+)
+Package: pst-eucl 2020/09/29 package wrapper for PSTricks pst-eucl.tex
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-eucl/pst-eucl.tex (c:/texlive/2023/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex) `PST-Euclide v1.77, 2023/04/15 (dr,hv)
+\psMarkHashLength=\dimen284
+\psMarkHashSep=\dimen285
+)
+File: pst-eucl.tex 2023/04/15 v1.77 `PST-eucl' (dr,hv)
+) (c:/texlive/2023/texmf-dist/tex/latex/pst-solides3d/pst-solides3d.sty
+Package: pst-solides3d 2017/03/03 package wrapper for pst-solides3d
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-solides3d/pst-solides3d.tex `PSTSOLIDESIIID' v4.34a, 2018/12/27
+\test@mode=\count342
+Invalid UTF-8 byte or sequence at line 992 replaced by U+FFFD.
+)
+File: pst-solides3d.tex 2018/12/27 v4.34a `PST-solides3D'
+) (c:/texlive/2023/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty (c:/texlive/2023/texmf-dist/tex/latex/pst-3d/pst-3d.sty
+Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
+ (c:/texlive/2023/texmf-dist/tex/generic/pst-3d/pst-3d.tex)
+File: pst-3d.tex 2018/12/27 v4.34a `PST-3d' (hv)
+)
+Package: pstricks-add 2021/09/10 v. 0.17 package wrapper for pstricks-add.tex (hv)
+ (c:/texlive/2023/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex)
+File: pstricks-add.tex 2018/12/27 v4.34a `PSTricks-add' (hv)
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 18.
+
+No file Bahn-Kondensator.aux.
+\openout1 = `Bahn-Kondensator.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 18.
+(c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=23.12738pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=0.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=-72.27pt
+* \voffset=-72.27pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+] (./Bahn-Kondensator.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+ ***********
+
+
+ *File List*
+standalone.cls    2022/10/10 v1.3b Class to compile TeX sub-files standalone
+shellesc.sty    2023/04/15 v1.0d unified shell escape interface for LaTeX
+ifluatex.sty    2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+   iftex.sty    2022/02/03 v1.0f TeX engine tests
+ xkeyval.sty    2022/06/16 v2.9 package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+standalone.cfg    2022/10/10 v1.3b Default configuration file for 'standalone' class
+ article.cls    2023/05/17 v1.4n Standard LaTeX document class
+  size10.clo    2023/05/17 v1.4n Standard LaTeX file (size option)
+pstricks.sty    2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+  xcolor.sty    2022/06/12 v2.14 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+   xetex.def    2022/09/22 v5.0n Graphics/color driver for xetex
+mathcolor.ltx
+pst-xkey.tex    2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+pst-xkey.tex    2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+pstricks.tex    2023/04/30 v3.19 `PSTricks' (tvz,hv)
+  pgffor.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgfrcs.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfrcs.code.tex
+ pgfkeys.sty    
+pgfkeys.code.tex
+ pgfmath.sty    
+pgfmath.code.tex
+pgffor.code.tex
+pstricks-dots.tex
+  pst-fp.tex    2020/11/20 v0.06 `PST-fp' (hv)
+pstricks-xetex.def
+geometry.sty    2020/01/02 v5.9 Page Geometry
+  ifvtex.sty    2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ amsmath.sty    2023/05/13 v2.17o AMS math features
+ amstext.sty    2021/08/26 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2022/04/08 v2.04 operator names
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+pst-slpe.sty    2005/03/05 package wrapper for `pst-slpe.tex'
+pst-slpe.tex    2011/10/25 v1.31 `pst-slpe' (mg,hv)
+pst-blur.sty    2005/09/08 package wrapper for pst-blur.tex (hv)
+pst-blur.tex    2005/09/08 v2.0 `PST-blur' (hv)
+pst-node.sty    2010/04/22 package wrapper for pst-node.tex
+pst-node.tex    2022/01/31 1.43 `pst-node' (tvz,hv)
+pst-plot.sty    2021/09/23 package wrapper for pst-plot.tex (hv)
+pst-xkey.sty    2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+ multido.sty    2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+ multido.tex    2010/05/14 v1.42 `multido' (tvz,hv)
+pst-plot.tex    2022/11/21 1.94 `pst-plot' (tvz,hv)
+pst-math.sty    2023/07/03 v 0.67 package wrapper for PSTricks pst-math.tex
+pst-calculate.sty    2019/01/24 v. 0.02(Herbert Voss) Support for caculations with floating point numbers.
+  xparse.sty    2023-02-02 L3 Experimental document command parser
+   expl3.sty    2023-06-30 L3 programming layer (loader) 
+l3backend-xetex.def    2023-04-19 L3 backend support: XeTeX
+ siunitx.sty    2023-06-12 v3.2.6 A comprehensive (SI) units package
+translations.sty    2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+etoolbox.sty    2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+   array.sty    2022/09/04 v2.5g Tabular extension package (FMi)
+ xstring.sty    2023/01/14 v1.85 String manipulations (CT)
+pst-eucl.sty    2020/09/29 package wrapper for PSTricks pst-eucl.tex
+pst-tools.sty    2012/01/01 package wrapper for pst-tools.tex (hv)
+pst-tools.tex    2022/11/21 v1.94 `PST-tools' (hv)
+pst-eucl.tex    2023/04/15 v1.77 `PST-eucl' (dr,hv)
+pst-solides3d.sty    2017/03/03 package wrapper for pst-solides3d
+pst-solides3d.tex    2018/12/27 v4.34a `PST-solides3D'
+pstricks-add.sty    2021/09/10 v. 0.17 package wrapper for pstricks-add.tex (hv)
+  pst-3d.sty    2009/07/28 package wrapper for pst-3d.tex (hv)
+  pst-3d.tex    2018/12/27 v4.34a `PST-3d' (hv)
+pstricks-add.tex    2018/12/27 v4.34a `PSTricks-add' (hv)
+  ts1cmr.fd    2023/04/13 v2.5m Standard LaTeX font definitions
+translations-basic-dictionary-english.trsl    (english translation file `translations-basic-dictionary')
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+ ***********
+
+ ) 
+Here is how much of TeX's memory you used:
+ 18599 strings out of 475890
+ 383827 string characters out of 5782031
+ 1915869 words of memory out of 5000000
+ 39371 multiletter control sequences out of 15000+600000
+ 559792 words of font info for 47 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 103i,7n,108p,568b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Bahn-Kondensator.pdf (1 page).

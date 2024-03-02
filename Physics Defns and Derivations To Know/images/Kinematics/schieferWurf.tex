@@ -1,0 +1,99 @@
+\documentclass[border=0pt,pstricks]{standalone}% by Jean-Côme Charpentier and Herbert Voss
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=1cm]{geometry}
+\usepackage{lmodern}
+
+\usepackage{pst-slpe,pstricks-add}
+\newpsstyle{magenta40}{fillstyle=solid,fillcolor=magenta!40}
+\newpsstyle{blue40}{fillstyle=solid,fillcolor=blue!60}
+\newpsstyle{Blackball}{fillstyle=ccslope,slopebegin=white,slopeend=black,
+    slopecenter={0.6 0.6}}
+\newpsstyle{Blueball}{fillstyle=ccslope,slopebegin=white,slopeend=blue,
+    slopecenter={0.6 0.6}}
+\newpsstyle{Redball}{fillstyle=ccslope,slopebegin=white,slopeend=red,
+    slopecenter={0.6 0.6}}
+% inclined plane
+
+\newcommand*\VAngle{45 }% starting angle
+\newcommand*\VStart{10 }% starting speed in angle direction
+\newcommand*\VHeight{2 }% starting height
+\def\Vx{\VStart \VAngle cos mul }
+\def\Vy{\VStart \VAngle sin mul }
+\newcommand*\rBall{0.25 }
+\newcommand*\mass{1 }
+
+\def\S#1{   % way as function of time, returns x y
+  \Vx #1 mul	                                            % Sx
+  \Vy #1 mul \VHeight add 0.5 9.81 mul #1 dup mul mul sub } % Sy 
+
+\begin{document}
+
+\begin{pspicture}(-1.75,-1.25)(14.5,8.5)
+  \psaxes{->}(14,8)
+  \psline[linestyle=dashed](0,\VHeight)(14,\VHeight)
+  \rput(0,\VHeight){\psline[arrowscale=2]{->}(\VStart mm;\VAngle)}
+  \multido{\nt=0+0.2}{9}{% Chronophotography (one shot per 1/4 second)
+    \pscircle[style=Blackball](! \S{\nt} ){\rBall}
+  }% end of multido
+  \def\VAngle{60 }
+  \rput(0,\VHeight){\psline[arrowscale=2,linecolor=blue]{->}(\VStart mm;\VAngle)}
+  \multido{\nt=0+0.2}{10}{% Chronophotography (one shot per 1/4 second)
+    \pscircle[style=Blueball](! \S{\nt} ){\rBall}
+  }% end of multido
+  \def\VAngle{75 }
+  \rput(0,\VHeight){\psline[arrowscale=2,linecolor=red]{->}(\VStart mm;\VAngle)}
+  \multido{\nt=0+0.2}{11}{% Chronophotography (one shot per 1/4 second)
+    \pscircle[style=Redball](! \S{\nt} ){\rBall}
+  }% end of multido
+
+
+\iffalse
+  \rput(! \S{2.5} pop 0 ){\pscircle[style=ball](0,\rBall){\rBall}}
+  \psline[arrowscale=2]{->}(! \S{2.5} pop \rBall )(! \S{2.5} pop 1 add \rBall )
+  \rput{-\VAngle}(! \S{2.25} ){%
+    \psline[arrowscale=2]{->}(! 0 90 \VAngle add sin \rBall mul)
+	                     (! 1 90 \VAngle add sin \rBall mul)}
+  \psset{linewidth=0.2pt,tbarsize=5mm,arrowscale=2,arrows=|<->|}
+  \pcline(-0.75,0)(!-0.75 \CVL)  \ncput*[nrot=:U]{length\,$\cdot\sin\alpha$}
+  \pcline(0,-0.75)(! \CHL -0.75) \ncput*{length\,$\cdot\cos\alpha$}
+  \rput{-\VAngle}%
+     (!\rBall 4 mul \VAngle sin mul 
+       \CVL \rBall 4 mul \VAngle cos mul add)%
+       {\pcline(0,0)(\ChronoLength,0)\ncput*{length=15\,m}}
+  \psarcn[arrows=<-](!\CHL 0){3}{180}{!\VAngleN}
+  \uput*{2cm}[165](!\CHL 0){$\alpha=30^\circ$}
+\fi
+\end{pspicture}%}
+
+\end{document}
+
+
+\vspace{1cm}
+\psset{llx=-1.75,lly=-1.75,xAxisLabel={$t\mathrm{[sec]}$},
+  yAxisLabel={$s\mathrm{[m]} \,/\, v\mathrm{[m/sec]}$}}%$
+%
+\begin{psgraph}[Dy=2,Dx=0.25]{->}(0,0)(2.5,16){13.2cm}{8cm}
+  \psline[linecolor=blue!50,linewidth=2pt]%
+    (! 2 \ChronoLength mul \Acceleration div sqrt -0.2)%
+    (! 2 \ChronoLength mul \Acceleration div sqrt 0.2)
+  \psplot[linecolor=blue,linewidth=2pt]{0}{\tEnd}{% S(t)
+       0.5 \Acceleration mul x dup mul mul }
+  \rput[lb](0.5,14){\color{blue}$s(t)=\frac{1}{2}(\,g\cdot\sin\alpha)\cdot  t^2$}
+  \psline[linecolor=blue,linewidth=0.5pt,linestyle=dashed]%
+     (0,\ChronoLength)(! \tEnd \ChronoLength)(!\tEnd 0)
+  \uput*{20pt}[90](! \tEnd 0){\textbf{$t_{End}$}}
+  \psplot[linecolor=red,linewidth=2pt]{0}{\tEnd}{% Sy(t)
+     0.5 \Acceleration mul x dup mul mul \VAngle sin mul neg \CVL add}
+  \rput[lb](0.5,13){\color{red}$h(t)=Height-\frac{1}{2}(\,g\cdot\sin^2\alpha)\cdot  t^2\sim W_{pot}$}
+  \psplot[linecolor=green,linewidth=2pt]{0}{\tEnd}{% Sx(t)
+     0.5 \Acceleration mul x dup mul mul \VAngle cos mul }
+  \rput[lb](0.5,12){\color{green}$w(t)=\frac{1}{2}(\,g\cdot\sin\alpha\cos\alpha)\cdot  t^2$}
+  \psplot[linestyle=dashed,linecolor=magenta,linewidth=2pt]{0}{\tEnd}{ \Acceleration x mul }
+  \rput[lb](0.5,11){\color{magenta}$v(t)=g\cdot\sin\alpha\cdot  t\sim \sqrt{W_{kin}}$}
+  \psline[linecolor=black!60,linestyle=dashed,linewidth=2pt]%
+     (!0 \Acceleration)(!\tEnd \Acceleration)
+  \rput[lb](0.5,10){\color{black!60}$a(t)=g\cdot\sin\alpha$}
+\end{psgraph}
+
+\end{document}
