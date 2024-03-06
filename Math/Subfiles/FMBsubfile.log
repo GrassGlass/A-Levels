@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  27 FEB 2024 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  6 MAR 2024 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -876,7 +876,7 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
  (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
-)))) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+))) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip85
 \enit@outerparindent=\dimen352
@@ -884,6 +884,48 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box99
 \enit@count@id=\count351
 \enitdp@description=\count352
+)) (c:/texlive/2023/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2023/06/18 PDF & SVG animations from files and inline graphics
+ (c:/texlive/2023/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/media9/pdfbase.sty
+Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF features
+\g_pbs_page_int=\count353
+\g_pbs_oc_int=\count354
+) (c:/texlive/2023/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count355
+Package zref Info: New property: abspage on input line 65.
+) (c:/texlive/2023/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count356
+)
+\@anim@box=\box100
+\@anim@measbox=\box101
+\@anim@tmpdima=\dimen353
+\@anim@tmpdimb=\dimen354
+\@anim@num=\count357
+\@anim@curframe=\count358
+\@anim@curframe@zb=\count359
+\@anim@resizeflags=\count360
+\@anim@skipfram=\count361
+\@anim@mulframecnt=\count362
+\@anim@@tmlnfile=\read4
+\@anim@tmpcnt=\count363
+\c@@anim@ltxcnt=\count364
+\@anim@curlayer=\count365
+\@anim@lineno=\count366
+\@anim@curfield=\count367
+\@anim@@resizeflags=\count368
 ) (../Style/boxes.sty
 
 LaTeX Warning: You have requested package `../Style/boxes',
@@ -896,28 +938,28 @@ LaTeX Warning: You have requested package `../Style/DefNoteFact',
                but the package provides `DefNoteFact'.
 
 Package: DefNoteFact 
-\c@tcb@cnt@definition=\count353
+\c@tcb@cnt@definition=\count369
 ) (../Style/QnsProof.sty
 
 LaTeX Warning: You have requested package `../Style/QnsProof',
                but the package provides `QnsProof'.
 
 Package: QnsProof 
-\c@Qns=\count354
+\c@Qns=\count370
 ) (../Style/Thms.sty
 
 LaTeX Warning: You have requested package `../Style/Thms',
                but the package provides `Thms'.
 
 Package: Thms 
-\c@tcb@cnt@theorem=\count355
+\c@tcb@cnt@theorem=\count371
 ) (../Style/Env.sty
 
 LaTeX Warning: You have requested package `../Style/Env',
                but the package provides `Env'.
 
 Package: Env 
-\c@tcb@cnt@example=\count356
+\c@tcb@cnt@example=\count372
 ) (../Style/NewCommands.sty
 
 LaTeX Warning: You have requested package `../Style/NewCommands',
@@ -947,16 +989,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen353
-\scratchbox=\box100
-\nofMPsegments=\count358
-\nofMParguments=\count359
+\scratchcounter=\count373
+\scratchdimen=\dimen355
+\scratchbox=\box102
+\nofMPsegments=\count374
+\nofMParguments=\count375
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen354
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
+\MPscratchCnt=\count376
+\MPscratchDim=\dimen356
+\MPnumerator=\count377
+\makeMPintoPDFobject=\count378
 \everyMPtoPDFconversion=\toks63
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1031,40 +1073,50 @@ Chapter 2.
 [2
 
 ]
+<../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=61, 4047.12pt x 1561.835pt>
+File: ../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
+<use ../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
+Package pdftex.def Info: ../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 103.
+(pdftex.def)             Requested size: 432.00462pt x 166.70241pt.
+ [3 <../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>]
 Chapter 3.
-<../images/Product Moment Correlation Coefficient 1.png, id=48, 876.77562pt x 330.23375pt>
+[4
+
+]
+Chapter 4.
+<../images/Product Moment Correlation Coefficient 1.png, id=79, 876.77562pt x 330.23375pt>
 File: ../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use ../images/Product Moment Correlation Coefficient 1.png>
-Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 1.png  used on input line 79.
+Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 1.png  used on input line 160.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<../images/Product Moment Correlation Coefficient 2.png, id=50, 935.495pt x 259.46938pt>
+<../images/Product Moment Correlation Coefficient 2.png, id=81, 935.495pt x 259.46938pt>
 File: ../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use ../images/Product Moment Correlation Coefficient 2.png>
-Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 2.png  used on input line 80.
+Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 2.png  used on input line 161.
 (pdftex.def)             Requested size: 374.19136pt x 103.7859pt.
-[3
+[5
 
- <../images/Product Moment Correlation Coefficient 1.png> <../images/Product Moment Correlation Coefficient 2.png>] [4] (./FMBsubfile.aux)
+ <../images/Product Moment Correlation Coefficient 1.png> <../images/Product Moment Correlation Coefficient 2.png>] [6] (./FMBsubfile.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `FMBsubfile.out' has not changed.
-(rerunfilecheck)             Checksum: 18D3EB5F5EDB8F36187AAF963B14D445;628.
+(rerunfilecheck)             Checksum: F3FCD5451289853CE402AD64D7669B45;792.
  ) 
 Here is how much of TeX's memory you used:
- 43442 strings out of 475237
- 1013893 string characters out of 5768555
- 1937238 words of memory out of 5000000
- 63863 multiletter control sequences out of 15000+600000
- 565769 words of font info for 66 fonts, out of 8000000 for 9000
+ 44708 strings out of 475237
+ 1041331 string characters out of 5768555
+ 1944238 words of memory out of 5000000
+ 65086 multiletter control sequences out of 15000+600000
+ 566273 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,14n,148p,802b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMBsubfile.pdf (4 pages, 216008 bytes).
+ 130i,14n,148p,802b,1436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on FMBsubfile.pdf (6 pages, 351105 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -28,11 +28,6 @@
     \[\Var(X):=\E(X^2)-[\E(X)]^2.\]
     \item Important property:
     \[\Var(aX\pm b)=a^2\Var(X).\]
-    \item A continuous random variable \(X\) has a \emph{uniform distribution} over the interval \([a,b]\) iff its pdf \(f\) is such that
-    \[f(x)=\begin{cases}
-      \frac{1}{b-a} &\text{if \(a<x<b\),}\\
-      0 &\text{otherwise.}
-    \end{cases}\] 
   \end{itemize}
 \end{stbox}
 
@@ -52,11 +47,100 @@
       \item \(X_1+X_2+\cdots+X_n \sim \operatorname{N}(n\mu,n\sigma^2)\),
       \item \(aX\pm bY \sim \operatorname{N}(a\mu\pm bm,a^2\sigma^2+b^2s^2)\).
     \end{enumerate}
+    \item Question phrasing may be misleading at times. Try to use some inference as to what exactly does the setter mean.
+  \end{enumerate}
+\end{stbox}
+\begin{example}{}{}
+  ``The mass of the padding is \(30\%\) of the mass of a randomly selected light bulb of mass \(L\). Find the probability that a light bulb with padding has mass \(c\).'' 
+    
+  Then for any light bulb of mass \(L_1\), the mass of the padding is \(0.3L_2\) (and \emph{not} \(0.3L_1\)). i.e. we are to find \(\Prob(L_1+0.3L_2)\).
+\end{example}
+\begin{stbox}{}
+  \begin{enumerate}
+    \setcounter{enumi}{3}
     \item A variable \(Z\sim \operatorname{N}(0,1)\) is said to follow the \emph{standard} normal distribution.
 
     \emph{Note}: \(Z\) is reserved for this purpose.
     \item Let \(X \in \operatorname{N}(\mu,\sigma^2)\). Then, \(\frac{X-\mu}{\sigma}\) follows the standard normal distribution. 
+    \item A continuous random variable \(X\) has a \emph{uniform distribution} over the interval \((a,b)\), which is denoted by \(X \sim \operatorname{U}(a,b)\), iff its pdf \(f\) is such that
+    \[f(x)=\begin{cases}
+      \frac{1}{b-a} &\text{if \(a<x<b\),}\\
+      0 &\text{otherwise.}
+    \end{cases}\] 
+    \item What \texttt{Tail} do we select for \texttt{invNorm}?
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        \(\Prob(X<x)=p\) & \texttt{LEFT}\\
+        \hline
+        \(\Prob(-x<X<x)=p\) & \texttt{CENTER}\\
+        \hline
+        \(\Prob(X>x)=p\) & \texttt{RIGHT}\\
+        \hline
+      \end{tabular}
+    \end{center}
+    \item When using \texttt{invNorm} on an inequality, what should the sign be? For simplicity, we write \(\mathscr{L}(p)=\texttt{invNorm}(p,0,1,\texttt{RIGHT})\), and \(\mathscr{R}(p)=\texttt{invNorm}(p,0,1,\texttt{LEFT})\). Then,
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        \(\Prob(Z>z)\geq p\) & \(z\leq \mathscr{L}(p)\)\\
+        \hline
+        \(\Prob(Z>z)\leq p\) & \(z\geq \mathscr{L}(p)\)\\
+        \hline
+        \(\Prob(Z<z)\geq p\) & \(z\geq \mathscr{R}(p)\)\\
+        \hline
+        \(\Prob(Z<z)\leq p\) & \(z\leq \mathscr{R}(p)\)\\
+        \hline
+      \end{tabular}
+    \end{center}
   \end{enumerate}
+\end{stbox}
+\begin{example}{}{}
+  Suppose we want to find the least integer value of \(m\) for which \(\Prob(Z>1-m)\geq 1/2\).
+
+  Then, using \texttt{invNorm (RIGHT)}, we infer that \(z\leq 0\), \emph{not} \(z\geq 0\). An illustration: 
+  \begin{center}
+    \includegraphics[width=\textwidth]{../images/Special-Continuous-Random-Variables-Example-Illustration.jpg}
+  \end{center}
+\end{example}
+\begin{stbox}{}
+  \begin{enumerate}
+    \setcounter{enumi}{7}
+    \item A continuous random variable \(Y\) has an (negative) exponential distribution, which we denote with \(Y\sim \operatorname{Exp}(\lambda)\), iff its pdf \(g\) is such that
+    \[g(Y)=
+    \begin{cases}
+      \lambda e^{-\lambda x} &\text{if \(x\geq 0\)}\\
+      0 &\text{otherwise.}
+    \end{cases}\]
+    \item Expectation and variance:
+
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        Distribution & Expectation & Variance\\
+        \hline
+        \(X\sim \operatorname{U}(a,b)\) & \(\dfrac{a+b}{2}\) & \(\dfrac{(b-a)^2}{12}\)\\
+        \hline
+        \(Y\sim \operatorname{Exp}(\lambda)\) & \(\dfrac{1}{\lambda}\) & \(\dfrac{1}{\lambda^2}\)\\
+        \hline
+      \end{tabular} 
+    \end{center}
+    \emph{Note}: We need to remember the expectation and variance for the uniform distribution, as it is not provided in the MF26 formula sheet (unlike all other distributions).
+    \item \emph{Warning}: The G.C. tends to incorrectly process an integral if its upper and lower bounds contain \(\pm \text{E}99\).
+  \end{enumerate}
+\end{stbox}
+\chapter{Sampling and Estimation}
+\begin{definition}{}{}
+  
+\end{definition}
+\begin{definition}{}{}
+  Any statistic \(T\) derived from a random sample and used to estimated an unknown population \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\).
+\end{definition}
+\begin{stbox}{General Information}
+  \begin{enumerate}
+    \item 
+  \end{enumerate}
+  
 \end{stbox}
 
 \chapter{Correlation and Linear Regression}
