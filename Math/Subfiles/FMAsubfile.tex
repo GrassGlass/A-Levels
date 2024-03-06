@@ -35,7 +35,11 @@ Such that the following properties hold:
                 \item \(\mathbf{x}+\mathbf{y} \in W\) whenever \(\mathbf{x} \in W\) and \(\mathbf{y} \in W\). \label{Theorem 1.3(b)}
                 \item \(c\mathbf{x} \in W\) whenever \(c \in \mathbb{F}\) and \(\mathbf{x} \in W\). \label{Theorem 1.3(c)}
             \end{enumerate}
-            \item For any matrix, its row space, column space, and dimension are identical.
+            \item A subset \(S\) of a vector space \(V\) \emph{generates} (or \emph{spans}) \(V\) iff \(\Span(S)=V\). In this case, we also say that the vectors of \(S\) generate (or span) \(V\).
+            \item A set subset \(S\) of a vector space \(V\) is called \emph{linearly dependent} iff there exists a finite number of distinct vectors \(u_1,u_2,\dots,u_n\)in \(S\) and scalars \(a_1,a_2,\dots,a_n\) not all zero, such that
+            \[a_1u_1+a_2u_2+a_nu_n=\mathbf{0}.\]
+            \item A \emph{basis} \(\beta\) for a vector space \(V\) is a linearly independent subset of \(V\) that generates \(V\). If \(\beta\) is a basis for \(V\), we also say that the vectors of \(\beta\) form a basis for \(V\).
+            \item For any matrix, its row space, column space, and rank are identical.
             \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is \emph{homogeneous} iff \(\mathbf{b}=0\); otherwise it is \emph{nonhomogeneous}.
             \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of \(m\) linear equations in \(n\) unknowns has a solution space of dimension \(n-\rank(A)\).
             \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of linear equations is \emph{consistent} iff its solution set is nonempty; otherwise it is \emph{inconsistent}.
@@ -68,8 +72,9 @@ Such that the following properties hold:
             \item Let \(\mathbf{A}\) be an invertible \(n\times n\) matrix. Then, for some elementary row matrices \(\mathbf{E}_1\) to \(\mathbf{E}_p\),
             \[\mathbf{E}_p\mathbf{E}_{p-1}\dots \mathbf{E}_1(\mathbf{A} \,\vert\, \mathbf{I}_n)=\mathbf{A}^{-1}(\mathbf{A} \,\vert\, \mathbf{I}_n)=(\mathbf{I}_n \,\vert\, \mathbf{A}^{-1}).\]
             In other words, we can perform Gaussian elimination, so that \((\mathbf{A} \,\vert\, \mathbf{I}_n)\to (\mathbf{I}_n \,\vert\, \mathbf{A}^{-1})\).
-            \item Alternatively, letting \(\mathbf{C}\) be the cofactor matrix of \(A\), i.e. \(c_{ij}=(-1)^{i+j}\det(\widetilde{\mathbf{A}}_{ij})\), we have
-            \[\mathbf{A}^{-1}=\frac{1}{\det(\mathbf{A})}\mathbf{C}^\top.\]
+            \item Alternatively,
+            \[\mathbf{A}^{-1}=\frac{1}{\det(\mathbf{A})}\adj(A),\]
+            where \(\adj(\mathbf{A})\) is the adjugate / classical adjoint of \(\mathbf{A}\). That is, the matrix whose \((i,j)\)th entry is the \((j,i)\)th cofactor \((-1)^{j+i}\det(\widetilde{\mathbf{A}}_{ji})\)
         \end{itemize}
     \end{stbox}
     
