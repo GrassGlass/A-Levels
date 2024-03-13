@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  13 MAR 2024 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  13 MAR 2024 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1926,54 +1926,43 @@ File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphi
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 2>
 Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page2 used on input line 873.
 (pdftex.def)             Requested size: 335.52017pt x 123.8012pt.
-<../images/Bar-Magnet/Bar-Magnets2.pdf, id=559, 1200.19388pt x 512.1534pt>
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf  used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf  used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
-<../images/Bar-Magnet/Bar-Magnets2.pdf, id=562, page=1, 1200.19388pt x 512.1534pt>
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
- [29 <../images/Solenoid.jpg> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf>]
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
-File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
-<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
-(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
- [30 <../images/Bar-Magnet/Bar-Magnets2.pdf>]
+<../images/Bar-Magnet/Cropped/1.pdf, id=559, 196.53224pt x 512.1534pt>
+File: ../images/Bar-Magnet/Cropped/1.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Cropped/1.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/1.pdf  used on input line 881.
+(pdftex.def)             Requested size: 196.53175pt x 512.15215pt.
+<../images/Bar-Magnet/Cropped/2.pdf, id=560, 196.53224pt x 512.1534pt>
+File: ../images/Bar-Magnet/Cropped/2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Cropped/2.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/2.pdf  used on input line 882.
+(pdftex.def)             Requested size: 196.53175pt x 512.15215pt.
+<../images/Bar-Magnet/Cropped/3.pdf, id=561, 307.55pt x 290.11787pt>
+File: ../images/Bar-Magnet/Cropped/3.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Cropped/3.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/3.pdf  used on input line 883.
+(pdftex.def)             Requested size: 210.70462pt x 198.76053pt.
+<../images/Bar-Magnet/Cropped/4.pdf, id=562, 307.55pt x 290.11787pt>
+File: ../images/Bar-Magnet/Cropped/4.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Cropped/4.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/4.pdf  used on input line 884.
+(pdftex.def)             Requested size: 210.70462pt x 198.76053pt.
+ [29 <../images/Solenoid.jpg> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf>] [30 <../images/Bar-Magnet/Cropped/1.pdf> <../images/Bar-Magnet/Cropped/2.pdf> <../images/Bar-Magnet/Cropped/3.pdf> <../images/Bar-Magnet/Cropped/4.pdf>]
 Chapter 16.
-<../images/Transformer/TransformerCropped.pdf, id=609, 393.98192pt x 264.97092pt>
+<../images/Transformer/TransformerCropped.pdf, id=678, 393.98192pt x 264.97092pt>
 File: ../images/Transformer/TransformerCropped.pdf Graphic file (type pdf)
 <use ../images/Transformer/TransformerCropped.pdf>
-Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 884.
+Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 887.
 (pdftex.def)             Requested size: 430.00462pt x 289.20474pt.
 [31
 
  <../images/Transformer/TransformerCropped.pdf>]
 Chapter 17.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 889.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 892.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 889.
+(Font)              scaled to size 10.0pt on input line 892.
  [32
 
 ] (./ALPhys.aux)
@@ -1990,13 +1979,13 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 291A885991F632FC617D53A1959DF639;2042.
  ) 
 Here is how much of TeX's memory you used:
- 37517 strings out of 475237
- 741610 string characters out of 5768555
+ 37533 strings out of 475237
+ 742262 string characters out of 5768555
  1939238 words of memory out of 5000000
- 57793 multiletter control sequences out of 15000+600000
+ 57809 multiletter control sequences out of 15000+600000
  666197 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,19n,131p,539b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,17n,131p,539b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
@@ -2004,10 +1993,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (33 pages, 9480084 bytes).
+Output written on ALPhys.pdf (33 pages, 27107355 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
- 599 compressed objects within 6 object streams
+ 892 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
  138 named destinations out of 1000 (max. 500000)
  457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
