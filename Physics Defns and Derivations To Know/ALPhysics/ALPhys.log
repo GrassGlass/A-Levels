@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  2 MAR 2024 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  13 MAR 2024 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -791,13 +791,34 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 144.
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (c:/texlive/2023/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-))) (c:/texlive/2023/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
 Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
  (c:/texlive/2023/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
  (c:/texlive/2023/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-))) (../Style/boxes.sty
+)))) (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (c:/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen339
+\ESO@tempdimb=\dimen340
+)
+\AM@pagewidth=\dimen341
+\AM@pageheight=\dimen342
+\AM@fboxrule=\dimen343
+ (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count343
+\AM@pagebox=\box97
+\AM@global@opts=\toks54
+\AM@pagecnt=\count344
+\AM@toc@title=\toks55
+\AM@lof@heading=\toks56
+\c@AM@survey=\count345
+\AM@templatesizebox=\box98
+) (../Style/boxes.sty
 
 LaTeX Warning: You have requested package `../Style/boxes',
                but the package provides `boxes'.
@@ -809,28 +830,28 @@ LaTeX Warning: You have requested package `../Style/Env',
                but the package provides `Env'.
 
 Package: Env 
-\c@tcb@cnt@example=\count343
+\c@tcb@cnt@example=\count346
 ) (../Style/DefNoteFact.sty
 
 LaTeX Warning: You have requested package `../Style/DefNoteFact',
                but the package provides `DefNoteFact'.
 
 Package: DefNoteFact 
-\c@tcb@cnt@definition=\count344
+\c@tcb@cnt@definition=\count347
 ) (../Style/QnsProof.sty
 
 LaTeX Warning: You have requested package `../Style/QnsProof',
                but the package provides `QnsProof'.
 
 Package: QnsProof 
-\c@Qns=\count345
+\c@Qns=\count348
 ) (../Style/Thms.sty
 
 LaTeX Warning: You have requested package `../Style/Thms',
                but the package provides `Thms'.
 
 Package: Thms 
-\c@tcb@cnt@theorem=\count346
+\c@tcb@cnt@theorem=\count349
 ) (c:/texlive/2023/texmf-dist/tex/latex/newpx/newpxtext.sty
 Package: newpxtext 2022/01/30 v1.504(Michael Sharpe) latex and unicode latex support for TeXGyrePagellaX
  `newpxtext' v1.504, 2022/01/30 Text macros taking advantage of TeXGyre Pagella and its extensions (msharpe) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
@@ -842,8 +863,8 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count347
-\decimalpart=\count348
+\integerpart=\count350
+\decimalpart=\count351
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 ) (c:/texlive/2023/texmf-dist/tex/latex/carlisle/scalefnt.sty)
@@ -851,7 +872,7 @@ LaTeX Font Info:    Setting zplLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting zplTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting zplOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting zplTOsF sub-encoding to TS1/0 on input line 24.
-\zpl@cnt=\count349
+\zpl@cnt=\count352
  (c:/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
@@ -877,10 +898,10 @@ Package: newpxmath 2021/12/04 v1.5
  `newpxmath' v1.5, 2021/12/04 Math macros based on pxfonts (msharpe) (c:/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex) (c:/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\px@tA=\toks54
-\px@tB=\toks55
+\px@tA=\toks57
+\px@tB=\toks58
 \px@su=\read4
-\px@Isdigit=\count350
+\px@Isdigit=\count353
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 211.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/zplTLF/m/n on input line 211.
@@ -956,9 +977,9 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \symlargesymbolsPXA=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
 (Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 334.
-\px@cntz=\count351
-\px@IsAlNum=\count352
-\px@sbptoks=\toks56
+\px@cntz=\count354
+\px@IsAlNum=\count355
+\px@sbptoks=\toks59
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 489.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 490.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 491.
@@ -1123,17 +1144,17 @@ File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 LaTeX Font Info:    ... okay on input line 11.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
-\scratchdimen=\dimen339
-\scratchbox=\box97
-\nofMPsegments=\count354
-\nofMParguments=\count355
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count356
-\MPscratchDim=\dimen340
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count356
+\scratchdimen=\dimen344
+\scratchbox=\box99
+\nofMPsegments=\count357
+\nofMParguments=\count358
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count359
+\MPscratchDim=\dimen345
+\MPnumerator=\count360
+\makeMPintoPDFobject=\count361
+\everyMPtoPDFconversion=\toks61
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1185,8 +1206,17 @@ Package hyperref Info: Link coloring ON on input line 11.
 \@outlinefile=\write4
 \openout4 = `ALPhys.out'.
 
-\c@mv@tabular=\count359
-\c@mv@boldtabular=\count360
+ (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\c@mv@tabular=\count362
+\c@mv@boldtabular=\count363
  (./Titlepage.tex
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
@@ -1852,63 +1882,99 @@ Package pdftex.def Info: ../images/DC-Circuits-Potentiometer-2.jpg  used on inpu
 (pdftex.def)             Requested size: 378.40616pt x 154.10196pt.
  [26 <../images/DC-Circuits-Potentiometer-2.jpg>]
 Chapter 15.
-<../images/Left-Right-Hand-Rules/Left-hand-rule.pdf, id=483, 237.52339pt x 250.4818pt>
+<../images/Bar-Magnet/Bar-Magnet.pdf, id=483, 569.05598pt x 455.24078pt>
+File: ../images/Bar-Magnet/Bar-Magnet.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnet.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnet.pdf  used on input line 830.
+(pdftex.def)             Requested size: 344.005pt x 275.20966pt.
+<../images/Left-Right-Hand-Rules/Left-hand-rule.pdf, id=484, 237.52339pt x 250.4818pt>
 File: ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf Graphic file (type pdf)
 <use ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf>
-Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf  used on input line 835.
+Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf  used on input line 838.
 (pdftex.def)             Requested size: 171.99922pt x 181.38634pt.
-<../images/Left-Right-Hand-Rules/Right-hand-rule.pdf, id=484, 147.31938pt x 212.54205pt>
+<../images/Left-Right-Hand-Rules/Right-hand-rule.pdf, id=485, 147.31938pt x 212.54205pt>
 File: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf Graphic file (type pdf)
 <use ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf>
-Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf  used on input line 837.
+Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf  used on input line 840.
 (pdftex.def)             Requested size: 120.40076pt x 173.71158pt.
-<../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf, id=485, 129.2549pt x 109.23009pt>
-File: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf Graphic file (type pdf)
-<use ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>
-Package pdftex.def Info: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf  used on input line 843.
-(pdftex.def)             Requested size: 215.0023pt x 181.69856pt.
 [27
 
- <../images/Left-Right-Hand-Rules/Left-hand-rule.pdf> <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf> <../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>]
-<../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf, id=533, 210.18324pt x 198.97336pt>
+ <../images/Bar-Magnet/Bar-Magnet.pdf> <../images/Left-Right-Hand-Rules/Left-hand-rule.pdf> <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf>]
+<../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf, id=536, 129.2549pt x 109.23009pt>
+File: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf Graphic file (type pdf)
+<use ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>
+Package pdftex.def Info: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf  used on input line 846.
+(pdftex.def)             Requested size: 215.0023pt x 181.69856pt.
+<../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf, id=537, 210.18324pt x 198.97336pt>
 File: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf Graphic file (type pdf)
 <use ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf>
-Package pdftex.def Info: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf  used on input line 848.
+Package pdftex.def Info: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf  used on input line 851.
 (pdftex.def)             Requested size: 215.0023pt x 203.5452pt.
-<../images/Solenoid.jpg, id=534, 1606.0pt x 698.61pt>
+<../images/Solenoid.jpg, id=538, 1606.0pt x 698.61pt>
 File: ../images/Solenoid.jpg Graphic file (type jpg)
 <use ../images/Solenoid.jpg>
-Package pdftex.def Info: ../images/Solenoid.jpg  used on input line 853.
+Package pdftex.def Info: ../images/Solenoid.jpg  used on input line 856.
 (pdftex.def)             Requested size: 301.00192pt x 130.93575pt.
-<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=535, page=1, 193.28511pt x 70.33377pt>
+ [28 <../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf> <../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf>]
+<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=557, page=1, 193.28511pt x 70.33377pt>
 File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphic file (type pdf)
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 1>
-Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page1 used on input line 868.
+Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page1 used on input line 871.
 (pdftex.def)             Requested size: 289.92696pt x 105.50038pt.
- [28 <../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf> <../images/Solenoid.jpg>]
-<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=543, page=2, 223.68066pt x 82.53435pt>
+<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=558, page=2, 223.68066pt x 82.53435pt>
 File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphic file (type pdf)
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 2>
-Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page2 used on input line 870.
+Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page2 used on input line 873.
 (pdftex.def)             Requested size: 335.52017pt x 123.8012pt.
- [29 <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf>]
+<../images/Bar-Magnet/Bar-Magnets2.pdf, id=559, 1200.19388pt x 512.1534pt>
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf  used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf  used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+<../images/Bar-Magnet/Bar-Magnets2.pdf, id=562, page=1, 1200.19388pt x 512.1534pt>
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+ [29 <../images/Solenoid.jpg> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf>]
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+File: ../images/Bar-Magnet/Bar-Magnets2.pdf Graphic file (type pdf)
+<use ../images/Bar-Magnet/Bar-Magnets2.pdf, page 1>
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnets2.pdf , page1 used on input line 881.
+(pdftex.def)             Requested size: 1200.19095pt x 512.15215pt.
+ [30 <../images/Bar-Magnet/Bar-Magnets2.pdf>]
 Chapter 16.
-<../images/Transformer/TransformerCropped.pdf, id=565, 393.98192pt x 264.97092pt>
+<../images/Transformer/TransformerCropped.pdf, id=609, 393.98192pt x 264.97092pt>
 File: ../images/Transformer/TransformerCropped.pdf Graphic file (type pdf)
 <use ../images/Transformer/TransformerCropped.pdf>
-Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 879.
+Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 884.
 (pdftex.def)             Requested size: 430.00462pt x 289.20474pt.
-[30
+[31
 
  <../images/Transformer/TransformerCropped.pdf>]
 Chapter 17.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 884.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 889.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 884.
- [31
+(Font)              scaled to size 10.0pt on input line 889.
+ [32
 
 ] (./ALPhys.aux)
  ***********
@@ -1924,13 +1990,13 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 291A885991F632FC617D53A1959DF639;2042.
  ) 
 Here is how much of TeX's memory you used:
- 36780 strings out of 475237
- 727941 string characters out of 5768555
+ 37517 strings out of 475237
+ 741610 string characters out of 5768555
  1939238 words of memory out of 5000000
- 57078 multiletter control sequences out of 15000+600000
+ 57793 multiletter control sequences out of 15000+600000
  666197 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,17n,131p,539b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,19n,131p,539b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
@@ -1938,10 +2004,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (32 pages, 3277341 bytes).
+Output written on ALPhys.pdf (33 pages, 9480084 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
- 432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 823 PDF objects out of 1000 (max. 8388607)
+ 599 compressed objects within 6 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 

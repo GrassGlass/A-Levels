@@ -1,0 +1,64 @@
+\documentclass{standalone}
+\usepackage{pst-electricfield}
+
+\begin{document}
+
+\psset{unit=0.5}
+
+\let\oppositeends\empty
+\multido{\rA=-2+0.2}{21}{%
+  \xdef\oppositeends{\oppositeends[1 \rA\space 6][-1 \rA\space -6][-1 \rA\space 10][1 \rA\space 22]}
+}
+\begin{pspicture*}(-6,-10)(6,26)
+  \psElectricfield[Q={\oppositeends},linecolor=black,N=5,points=1000,radius=0]
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](-2,-6)(2,6)
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](-2,10)(2,22)
+  \rput(0,-5.2){\textcolor{white}{S}}
+  \rput(0,5.2){\textcolor{white}{N}}
+  \rput(0,10.8){\textcolor{white}{S}}
+  \rput(0,21.2){\textcolor{white}{N}}
+\end{pspicture*}
+
+\let\sameends\empty
+\multido{\rA=-2+0.2}{21}{%
+  \xdef\sameends{\sameends[1 \rA\space 6][-1 \rA\space -6][1 \rA\space 10][-1 \rA\space 22]}
+}
+\begin{pspicture*}(-6,-10)(6,26)
+  \psElectricfield[Q={\sameends},linecolor=black,N=5,points=1000,radius=0]
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](-2,-6)(2,6)
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](-2,10)(2,22)
+  \rput(0,-5.2){\textcolor{white}{S}}
+  \rput(0,5.2){\textcolor{white}{N}}
+  \rput(0,10.8){\textcolor{white}{N}}
+  \rput(0,21.2){\textcolor{white}{S}}
+\end{pspicture*}
+
+\let\sidebyside\empty
+\multido{\rA=-2+0.2,\rB=6+0.2}{21}{%
+  \xdef\sidebyside{\sidebyside[1 \rA\space 6][-1 \rA\space -6][1 \rB\space 6][-1 \rB\space -6]}
+}
+\begin{pspicture*}(-6,-10)(14,10)
+  \psElectricfield[Q={\sidebyside},linecolor=black,N=5,points=1000,radius=0]
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](-2,-6)(2,6)
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](6,-6)(10,6)
+  \rput(0,-5.2){\textcolor{white}{S}}
+  \rput(0,5.2){\textcolor{white}{N}}
+  \rput(8,-5.2){\textcolor{white}{S}}
+  \rput(8,5.2){\textcolor{white}{N}}
+\end{pspicture*}
+
+\let\reverseside\empty
+\multido{\rA=-2+0.2,\rB=6+0.2}{21}{%
+  \xdef\reverseside{\reverseside[1 \rA\space 6][-1 \rA\space -6][-1 \rB\space 6][1 \rB\space -6]}
+}
+\begin{pspicture*}(-6,-10)(14,10)
+  \psElectricfield[Q={\reverseside},linecolor=black,N=5,points=1000,radius=0]
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](-2,-6)(2,6)
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray=12](6,-6)(10,6)
+  \rput(0,-5.2){\textcolor{white}{S}}
+  \rput(0,5.2){\textcolor{white}{N}}
+  \rput(8,-5.2){\textcolor{white}{N}}
+  \rput(8,5.2){\textcolor{white}{S}}
+\end{pspicture*}
+
+\end{document}

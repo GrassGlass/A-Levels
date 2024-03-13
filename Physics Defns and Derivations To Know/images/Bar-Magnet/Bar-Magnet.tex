@@ -1,0 +1,16 @@
+\documentclass{standalone}
+\usepackage{pst-magneticfield}
+\begin{document}
+
+\psset{unit=0.5}
+\begin{pspicture*}(-20,-16)(20,16)
+  \psframe[linecolor=black, fillstyle=solid,fillcolor=gray](-2,-6)(2,6)
+  \psmagneticfield[N=128,R=2,L=11.95,
+      nL=7,pointsB=4000,
+      nS=1,numSpires=13,pointsS=8000,
+      linecolor=black,drawSelf=false](-20,-16)(20,16)
+  \rput(0,-5.2){\textcolor{white}{S}}
+  \rput(0,5.2){\textcolor{white}{N}}
+\end{pspicture*}
+
+\end{document}
