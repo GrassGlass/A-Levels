@@ -130,11 +130,17 @@
   \end{itemize}
 \end{stbox}
 \chapter{Sampling and Estimation}
+\begin{definition}{}{}
+  A sample is a finite subset of the population.
+\end{definition}
+\begin{definition}{}{}
+  A random sample is a sample selected such that each member of the population has an equal probability of being selected.
+\end{definition}
+\begin{definition}{}{}
+  Any statistic \(T\) derived from a random sample and used to estimated an unknown population parameter \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\). If \(T\) is unbiased we commonly write \(\hat{\theta}\) for \(T\).
+\end{definition}
 \begin{stbox}{General Information}
   \begin{itemize}
-    \item A sample is a finite subset of the population.
-    \item A random sample is a sample selected such that each member of the population has an equal probability of being selected.
-    \item Any statistic \(T\) derived from a random sample and used to estimated an unknown population parameter \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\). If \(T\) is unbiased we commonly write \(\hat{\theta}\) for \(T\).
     \item Either write \(\hat{\mu}\) or write out ``Unbiased estimate of the population mean \(\mu\), \(\widebar{x}=\dots\)'' Same holds for other population parameters \(\theta\).
     \item Estimators you should know:
     \item 
@@ -235,8 +241,28 @@
          \hline
       \end{tabular}
     \end{center}
+    \item Let \(0<\alpha<1\)
   \end{itemize}
-  
+\end{stbox}
+The following definition is found in 
+\href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{Hogg-McKean-Craig}. Similar definitions are also found in 
+\href{https://www.amazon.sg/Mathematical-Statistics-Applications-William-Mendenhall/dp/0495110817#customerReviews}{Wackerly-Mendenhall-Schaefer}
+and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Monographs/dp/0824703790}{Nitis Mukhopadhyay}.
+\begin{definition}{}{}
+  Let \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\), where \(X\) has pdf \(f(x;\theta)\), \(\theta \in \Omega\). Let \(0<\alpha<1\) be specified. Let \(L=L(X_1,X_2,\dots,X_n)\) and \(U=U((X_1,X_2,\dots,X_n))\) be two statistics. We say that the interval \((L,U)\) is a \((1-\alpha)100\%\) \emph{confidence interval} for \(\theta\) iff 
+  \[1-\alpha=P_\theta[\theta \in (L,U)].\]
+  That is, the probability that the interval contains \(\theta\) is \(1-\alpha\), which is called the \emph{confidence coefficient} or \emph{confidence level} of the interval.
+\end{definition}
+\begin{stbox}{}
+  \begin{itemize}
+    \item We cannot write ``a \(\frac{1-\alpha}{100}\) confidence interval''. The \(\frac{1-\alpha}{100}\) must always be expressed as a \emph{percentage}.
+    \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\). Suppose \(n\) is large (\(n\geq 50\)). Then, CLT allows us to obtain the approximation
+    \[\frac{\widebar{X}-\mu}{\frac{S}{\sqrt{n}}}=Z\sim \Normal(0,1).\]
+    Hence, by solving \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\), we obtain a \((1-\alpha)100\%\) confidence interval
+    \[\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}\,,\ \widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}} \right).\]
+    When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\).
+    
+  \end{itemize}
 \end{stbox}
 
 \chapter{Correlation and Linear Regression}
