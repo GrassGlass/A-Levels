@@ -66,12 +66,12 @@
 \end{stbox}
 \section{Summary}
 
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
+\begin{GCSkills}{}
   \begin{enumerate}
     \item Plotting curves \(y=f(x)\) in G.C.
     \item How to use simultaneous equation solver.
   \end{enumerate}
-\end{lbox}
+\end{GCSkills}
 \begin{IN}
   \begin{itemize}
     \item Eliminating Factors --- \emph{only} works for \(c=0\) in \(f(x) \geq c\) or \(f(x) \leq c\).
@@ -133,39 +133,39 @@
     \hline
     \(S_n\) & 
     \begin{tabular}{@{}Sc@{}} 
-      \(S_n=\frac{n}{2}[2a+(n-1)d]\)\\
-      \(=\frac{n}{2}(a+\ell)\hspace{0.7cm}\)
+      \(S_n=\dfrac{n}{2}[2a+(n-1)d]\)\\
+      \(=\dfrac{n}{2}(a+\ell)\hspace{0.7cm}\)
     \end{tabular} & 
     \begin{tabular}{@{}Sc@{}}
-      \(S_n=\frac{a\left(1-r^n\right)}{1-r}\)\\
-      \(\hphantom{S_n}=\frac{a\left(r^n-1\right)}{r-1}\)
+      \(S_n=\dfrac{a\left(1-r^n\right)}{1-r}\)\\
+      \(\hphantom{S_n}=\dfrac{a\left(r^n-1\right)}{r-1}\)
     \end{tabular}\\
     \hline
-    \(S_\infty\) & Divergent & Converges to \(S_\infty=\frac{a}{1-r}\) \footnotesize when \(\lvert r \rvert<1\).\normalsize\\
+    \(S_\infty\) & Always diverges & \(S_\infty=\dfrac{a}{1-r}\) when \(\lvert r \rvert<1\)\\
     \hline
     Prove AP/GP & 
     \begin{minipage}{5.5cm}
       \begin{enumerate}[label=\Roman*]
-        \item Show \(u_n-u_{n-1}\) is a constant/independent of \(n\).
+        \item Show \(u_n-u_{n-1}\) is a constant / independent of \(n\).
         \item Show \(u_n=a+(n-1)d\) explicitly.
       \end{enumerate}
     \end{minipage} &
     \begin{minipage}{5.5cm}
       \begin{enumerate}[label=\Roman*]
-        \item Show \(\frac{u_n}{u_{n-1}}\) is constant/independent of \(n\).
+        \item Show \(\dfrac{u_n}{u_{n-1}}\) is constant / independent of \(n\).
         \item Show \(u_n=ar^{n-1}\) explicitly
       \end{enumerate}
     \end{minipage}\\
     \hline 
     Mean & 
     \begin{tabular}{@{}Sc@{}}
-      \(u_{n+1}=\frac{u_n+u_{n+2}}{2}\).\\
-      \footnotesize (Arithmetic Mean) \normalsize
+      \(u_{n+1}=\dfrac{u_n+u_{n+2}}{2}\).\\
+      (Arithmetic Mean)
     \end{tabular} &
     \begin{tabular}{@{}Sc@{}}
-      \(\frac{u_{n+1}}{u_n}=\frac{u_{n+2}}{u_{n+1}}\)\\
+      \(\dfrac{u_{n+1}}{u_n}=\dfrac{u_{n+2}}{u_{n+1}}\)\\
       \(\hspace{0.7cm}u_{n+1}^2=u_{n} \cdot u_{n+2}\)\\
-      \footnotesize (Geometric Mean) \normalsize
+      (Geometric Mean)
     \end{tabular}\\
     \hline
   \end{tabular}
@@ -174,14 +174,14 @@
 \begin{IN}
   Applications: Write out a few terms in a table and observe the trend. (You can literally say ``By observing a trend, \ldots'')
 \end{IN}
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
+\begin{GCSkills}{}
   Table function
-  \footnotesize \begin{enumerate}
+  \begin{enumerate}
     \item Enter eqn into GC.
     \item 2nd graph to show table
     \item 2nd tblset for setup options
-  \end{enumerate} \normalsize
-\end{lbox}
+  \end{enumerate}
+\end{GCSkills}
 \section{Summation}
 \begin{fact}
   \begin{alignat*}{3}
@@ -195,10 +195,10 @@
   \begin{itemize}
     \item Look out for sums being AP and GPs.
     \item Results to be provided:
-    \begin{itemize}
-      \item \(\sum_{i=1}^{n}{i^2}=\frac{n}{6}(n+1)(2n+1)\)
-      \item \(\sum_{i=1}^{n}{i^3}=\frac{1}{4}n^2(n+1)^2\)
-    \end{itemize}
+    \begin{align*}
+      \sum_{i=1}^{n}{i^2}&=\frac{n}{6}(n+1)(2n+1)\\
+      \sum_{i=1}^{n}{i^3}&=\frac{1}{4}n^2(n+1)^2
+    \end{align*}
   \end{itemize}
 \end{note}
 \section{Method of Differences}
@@ -208,22 +208,24 @@
     \item Explain convergence of a function \(h(x)=f(x)+g(x)\): As \(n \to \infty\), \(f(x) \to 0\) and \(g(x) \to 0\). Hence, \(h(x)\) converges to...
   \end{itemize}
 \end{stbox}
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
+\begin{GCSkills}{}
   Know how to generate sequences using the two methods:
   \begin{enumerate}
-    \item Table method --- Present by showing two consecutive values of \(n\) so that the values of the sequence are of opposite signs. E.g.:\\
-    \begin{tabular}{|Sc|Sc|}
-      \hline
-      \(n\) & \(S_n\)\\
-      \hline
-      182 & \(561.28<0\)\\
-      \hline
-      183 & \(-1935.91<0\)\\
-      \hline
-    \end{tabular}
+    \item Table method --- Present by showing two consecutive values of \(n\) so that the values of the sequence are of opposite signs. E.g.:
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        \(n\) & \(S_n\)\\
+        \hline
+        182 & \(561.28<0\)\\
+        \hline
+        183 & \(-1935.91<0\)\\
+        \hline
+      \end{tabular}
+    \end{center}
     \item 2nd stat seq (\& we can use operations on seq, e.g. sum)
   \end{enumerate}
-\end{lbox}
+\end{GCSkills}
 
 
 \chapter{Recurrence Relations}
@@ -296,40 +298,45 @@
   \begin{enumerate}
     \item How to sketch the graph of the integral or derivative of a function \(f\).
     \item Relationship btw. a function \(f\) and its derivative, \(f'\):\\
-    \begin{tabular}{|c|c|}
-      \hline
-      \(y=f(x)\) & \(y=f'(x)\)\\
-      \hline
-      Vertical asymptote at \(x=a\) & Vertical asymptote at \(x=a\).\\
-      \hline
-      Horizontal asymptote at \(y=a\) & Horizontal asymptote \(y=0\).\\
-      \hline
-    \end{tabular}
+    \begin{center}
+      \begin{tabular}{|c|c|}
+        \hline
+        \(y=f(x)\) & \(y=f'(x)\)\\
+        \hline
+        Vertical asymptote at \(x=a\) & Vertical asymptote at \(x=a\).\\
+        \hline
+        Horizontal asymptote at \(y=a\) & Horizontal asymptote \(y=0\).\\
+        \hline
+      \end{tabular}
+    \end{center}
     \item Recap:\\
-    \begin{tabular}{|Sc|Sc|}
-      \hline
-      \(f(x)\) & \(f'(x)\)\\
-      \hline
-      \(\sin^{-1}\left(\frac{x}{a}\right)\) & \(\frac{1}{\sqrt{a^2-x^2}}\), \(\lvert x \rvert<a\)\\
-      \hline
-      \(\cos^{-1}\left(\frac{x}{a}\right)\) & \(-\frac{1}{\sqrt{a^2-x^2}}\), \(\lvert x \rvert<a\)\\
-      \hline
-      \(\tan^{-1}\left(\frac{x}{a}\right)\) & \(\frac{a}{a+x^2}\), \(x \in \mathbb{R}\)\\
-      \hline
-      \(\log_a(f(x))\) &  \(\frac{1}{x \ln(a)}\)\\
-      \hline
-      \(a^x\) & \(a^x \ln(a)\)\\
-      \hline
-    \end{tabular}
-    \item Implicit differentiation: \(\frac{dz}{dx}=\frac{dz}{dy}\cdot \frac{dy}{dx}\). \(\bigstar\) Makes life much easier (e.g. finding \(f^{(n)}(x)\)). 
-    \item Parametric Differentiation: \(\frac{dy}{dx}=\frac{dy}{dt}\cdot \frac{dt}{dx}\).
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        \(f(x)\) & \(f'(x)\)\\
+        \hline
+        \(\sin^{-1}\left(\dfrac{x}{a}\right)\) & \(\dfrac{1}{\sqrt{a^2-x^2}}\), \(\lvert x \rvert<a\)\\
+        \hline
+        \(\cos^{-1}\left(\dfrac{x}{a}\right)\) & \(-\dfrac{1}{\sqrt{a^2-x^2}}\), \(\lvert x \rvert<a\)\\
+        \hline
+        \(\tan^{-1}\left(\dfrac{x}{a}\right)\) & \(\dfrac{a}{a+x^2}\), \(x \in \mathbb{R}\)\\
+        \hline
+        \(\log_a(f(x))\) &  \(\dfrac{1}{x \ln(a)}\)\\
+        \hline
+        \(a^x\) & \(a^x \ln(a)\)\\
+        \hline
+      \end{tabular}
+    \end{center}
+    \item Implicit differentiation: \(\dfrac{dz}{dx}=\dfrac{dz}{dy}\cdot \dfrac{dy}{dx}\). \(\bigstar\) Makes life much easier (e.g. finding \(f^{(n)}(x)\)). 
+    \item Parametric Differentiation: \(\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}\).
     \item Small angle approximation: 
     \begin{enumerate}
       \item \(\sin(x) \approx x\),
-      \item \(\cos(x) \approx 1-\frac{x^2}{2}\),
+      \item \(\cos(x) \approx 1-\dfrac{x^2}{2}\),
       \item \(\tan(x) \approx x\).
     \end{enumerate}
-    \item Maclaurin Series: \(f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x\).
+    \item Maclaurin Series: 
+    \[f(x)=\sum_{n=0}^{\infty}\dfrac{f^{(n)}(0)}{n!}x.\]
   \end{enumerate}
 \end{stbox}
 \chapter{Integration Techniques}
@@ -351,7 +358,8 @@
     \end{enumerate}
     \item Integration by Substitution: 
     \[\int f(x) \, dx=\int f(x)\frac{dx}{du}\,du.\]
-    \item Use Pythagoras' Theorem / draw a right-angled triangle to help with trig conversions, e.g.: \(\tan(\theta)\) to \(\frac{x+1}{\sqrt{2-(x+1)^2}}\).
+    \item Use Pythagoras' Theorem / draw a right-angled triangle to help with trig conversions, e.g.:
+    \[\tan(\theta) \qquad\text{to}\qquad \frac{x+1}{\sqrt{2-(x+1)^2}}.\]
     \item Integration by Parts:
     \begin{center}
       \begin{tabular}{ScSc}
@@ -530,7 +538,7 @@
     \item Say we are given a locus \(z\) represented by \(\lvert z-a \rvert=r\), where \(a=\alpha+\beta i\). 
     \begin{enumerate}
       \item The greatest and least value of \(\lvert z \rvert\) are \(\lvert a \rvert \pm r\), respectively. 
-      \item The greatest and least value of \(\arg(z)\) can be obtained by plotting 
+      \item The greatest and least value of \(\arg(z)\) can be obtained geometrically, or by plotting 
       \[Y_1=\tan^{-1}\left(\frac{\beta\pm\sqrt{r^2-(X-\alpha)^2}}{X}\right)\]
       and finding the maximum/minimum point, respectively.
       \begin{center}
@@ -570,18 +578,18 @@
     \item[\textbf{A}] Asymptotes   
   \end{enumerate}
   \begin{enumerate}[label=\roman*]
-    \item Know how to sketch the graphs of \(y=\frac{ax+b}{cx+d}\) and \(y=\frac{ax^2+bx+c}{dx+e}\).
-    \item Rectangular Hyperbolas \(\left(\text{of the form \(y=\frac{ax+b}{cx+d}\)}\right)\):
+    \item Know how to sketch the graphs of \(y=\dfrac{ax+b}{cx+d}\) and \(y=\dfrac{ax^2+bx+c}{dx+e}\).
+    \item Rectangular Hyperbolas \(\left(\text{of the form \(y=\dfrac{ax+b}{cx+d}\)}\right)\):
     \begin{itemize}
-      \item \emph{Two} asymptotes, namely \(x=-\frac{d}{c}\) and \(y=\frac{a}{c}\).
+      \item \emph{Two} asymptotes, namely \(x=-\dfrac{d}{c}\) and \(y=\dfrac{a}{c}\).
       \item \emph{Two} lines of symmetry with gradients \(\pm 1\) \emph{and} pass through the intersection point of the aforementioned two asymptotes.
     \end{itemize}
     \item \emph{If} \(n=\operatorname{deg}P=\operatorname{deg}Q\), then
     \begin{itemize}
-      \item \(y=R(x)\) is the \emph{horizontal} asymptote of \(\frac{P(x)}{Q(x)}=R(x)+\frac{S(x)}{Q(x)}\).
-      \item Equivalently, \(y=\frac{\operatorname{coeff}_P(x^n)}{\operatorname{coeff}_Q(x^n)}\) is a \emph{horizontal} asymptote.\footnote{E.g.: \(y=\frac{1}{15}\) is a horizontal asymptote of \(y=\frac{\text{\hly{\(1\)}}x^2+2x-3}{(\text{\hly{\(5\)}}x+1)(\text{\hly{\(3\)}}x+2)}\).}
+      \item \(y=R(x)\) is the \emph{horizontal} asymptote of \(\dfrac{P(x)}{Q(x)}=R(x)+\dfrac{S(x)}{Q(x)}\).
+      \item Equivalently, \(y=\dfrac{\operatorname{coeff}_P(x^n)}{\operatorname{coeff}_Q(x^n)}\) is a \emph{horizontal} asymptote.\footnote{E.g.: \(y=\dfrac{1}{15}\) is a horizontal asymptote of \(y=\dfrac{\text{\hly{\(1\)}}x^2+2x-3}{(\text{\hly{\(5\)}}x+1)(\text{\hly{\(3\)}}x+2)}\).}
     \end{itemize}
-    \item If \(\operatorname{deg}P=\operatorname{deg}Q+1\), then \(R(x)\) is an \emph{oblique} asymptote of \(\frac{P(x)}{Q(x)}=R(x)+\frac{S(x)}{Q(x)}\).
+    \item If \(\operatorname{deg}P=\operatorname{deg}Q+1\), then \(R(x)\) is an \emph{oblique} asymptote of \(\dfrac{P(x)}{Q(x)}=R(x)+\dfrac{S(x)}{Q(x)}\).
     \item Write down asymptotes and lines of symmetry.\footnote{E.g.: \begin{itemize}
       \item[] Asymptotes: \(x=4\), \(y=20\).
       \item[] Lines of Symmetry: \(y=x+16\), \(y=-x+24\).
@@ -604,11 +612,11 @@
     \hline
     & Ellipses & Hyperbolas\\
     \hline
-    Standard Forms & \(\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1\) & 
+    Standard Forms & \(\dfrac{(x-h)^2}{a^2}+\dfrac{(y-k)^2}{b^2}=1\) & 
     \begin{tabular}{@{}c@{}} 
      \\
-    \(\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1\)\\
-    \(\frac{(y-k)^2}{b^2}-\frac{(x-h)^2}{a^2}=1\)\\
+    \(\dfrac{(x-h)^2}{a^2}-\dfrac{(y-k)^2}{b^2}=1\)\\
+    \(\dfrac{(y-k)^2}{b^2}-\dfrac{(x-h)^2}{a^2}=1\)\\
     \\
     \end{tabular}\\
     \hline
@@ -778,7 +786,7 @@
       Asymptotes\\
       (No need to rmb!)
     \end{tabular}
-    & - & \(y=k \pm \frac{b(x-h)}{a}\)\\
+    & - & \(y=k \pm \dfrac{b(x-h)}{a}\)\\
     \hline
     Lines of Symmetry & \multicolumn{2}{c|}{\(x=h\), \(y=k\)}\\
     \hline
@@ -810,21 +818,21 @@
     \hline 
     \(f(x+a)\) & \(x+a\) & 
     \begin{tabular}{@{}c@{}} 
-      Translate \(a\) units in the positive (\(a \leq 1\))\\ 
-      O/R negative \(x\)-direction (\(a \geq 1\)).
+      Translate \(a\) units in the positive (\(a \leq 0\))\\ 
+      O/R negative \(x\)-direction (\(a \geq 0\)).
     \end{tabular}\\
     \hline 
     \(f(-x)\) & \(-x\) & Reflect about the \(y\)-axis\\
     \hline
-    \(f(ax)\) & \(ax\) & Scale parallel to the \(x\)-axis by a scale factor of \(\frac{1}{a}\) if\footnote{otherwise simply reflect first} \(a \geq 1\).\\
+    \(f(ax)\) & \(ax\) & Scale parallel to the \(x\)-axis by a scale factor of \(\dfrac{1}{a}\) if \(a \geq 0\).\\
     \hline
     \multicolumn{3}{|Sc|}{\large \color{red}{Playing With \(f(x)\)}}\\
     \hline
     \multicolumn{2}{|c|}{Function / Change to \(f(x)\)} & (Vertical) Transformation\\
     \hline
     \multicolumn{2}{|c|}{\(f(x)+a\)} & \begin{tabular}{@{}c@{}} 
-      Translate \(a\) units in the positive (\(a \geq 1\))\\ 
-      O/R negative \(y\)-direction (\(a \leq 1\)).
+      Translate \(a\) units in the positive (\(a \geq 0\))\\ 
+      O/R negative \(y\)-direction (\(a \leq 0\)).
     \end{tabular}\\
     \hline
     \multicolumn{2}{|c|}{\(-f(x)\)} & Reflect about the \(x\)-axis.\\
@@ -858,23 +866,23 @@
     \hline
     Behavior of \(f(x)\) & Behavior of \(1/f(x)\)\\
     \hline
-    \(f(x)>0\) & \(\frac{1}{f(x)}>0\)\\
+    \(f(x)>0\) & \(\dfrac{1}{f(x)}>0\)\\
     \hline 
-    \(f(x)<0\) & \(\frac{1}{f(x)}<0\)\\
+    \(f(x)<0\) & \(\dfrac{1}{f(x)}<0\)\\
     \hline
     Vertical Asymptote at \(x=c\) & \begin{tabular}{@{}c@{}} 
-      \(\frac{1}{f(x)}\) \emph{tends} to 0\\
-      \scriptsize \(^{*}\frac{1}{f(x)}\) is undefined at \(x=c\) \normalsize\\
+      \(\dfrac{1}{f(x)}\) \emph{tends} to 0\\
+      \scriptsize \(^{*}\dfrac{1}{f(x)}\) is undefined at \(x=c\) \normalsize\\
     \end{tabular}\\
     \hline
     \multicolumn{2}{|Sc|}{\begin{tabular}{@{}c@{}} 
-      \(\frac{df}{dx}=-\frac{d}{dx}\mathopen{}\left(\frac{1}{f(x)}\right)\)\\
-      \scriptsize i.e. when \(f(x)\) increases, \(\frac{1}{f(x)}\) decreases. \normalsize\\
+      \(\dfrac{df}{dx}=-\dfrac{d}{dx}\mathopen{}\left(\dfrac{1}{f(x)}\right)\)\\
+      \scriptsize i.e. when \(f(x)\) increases, \(\dfrac{1}{f(x)}\) decreases. \normalsize\\
     \end{tabular}}\\
     \hline 
-    \((a,b)\) is a \emph{minimum} pt & \(\left(a,\frac{1}{b}\right)\) is a \emph{maximum} pt\\
+    \((a,b)\) is a \emph{minimum} pt & \(\left(a,\dfrac{1}{b}\right)\) is a \emph{maximum} pt\\
     \hline
-    \((a,b)\) is a \emph{maximum} pt & \(\left(a,\frac{1}{b}\right)\) is a \emph{minimum} pt\\
+    \((a,b)\) is a \emph{maximum} pt & \(\left(a,\dfrac{1}{b}\right)\) is a \emph{minimum} pt\\
     \hline
   \end{tabular}
 \end{center}
@@ -945,7 +953,7 @@
         \hline
         \(\begin{aligned}
           r &= \sqrt{x^2+y^2}\\
-          \theta &= \tan^{-1}\left(\frac{y}{x}\right)
+          \theta &= \tan^{-1}\left(\dfrac{y}{x}\right)
         \end{aligned}\) &
         \(\begin{aligned}
           x &= r \cos(\theta)\\
@@ -969,7 +977,7 @@
     \draw[thick] (0,-2) 
     node [left] {} 
     -- (0,2) 
-    node [left] {\(\theta=\frac{\pi}{2}\)};
+    node [left] {\(\theta=\dfrac{\pi}{2}\)};
 
     \node[anchor=north east] (Origin) at (0,0) {\(0\)};
 
@@ -984,7 +992,7 @@
     \draw[thick] (0,-2) 
     node [left] {} 
     -- (0,2) 
-    node [left] {\(\theta=\frac{\pi}{2}\)};
+    node [left] {\(\theta=\dfrac{\pi}{2}\)};
 
     \node[anchor=north east] (Origin) at (0,0) {\(0\)};
 
@@ -999,7 +1007,7 @@
     \draw[thick] (0,-2) 
     node [left] {} 
     -- (0,2) 
-    node [left] {\(\theta=\frac{\pi}{2}\)};
+    node [left] {\(\theta=\dfrac{\pi}{2}\)};
 
     \node[anchor=north east] (Origin) at (0,0) {\(0\)};
 
@@ -1019,7 +1027,7 @@
     \draw[thick] (0,-3) 
     node [left] {} 
     -- (0,3) 
-    node [left] {\(\theta=\frac{\pi}{2}\)};
+    node [left] {\(\theta=\dfrac{\pi}{2}\)};
 
     \node[anchor=north east] (Origin) at (0,0) {\(0\)};
     \node[above right, blue] (Circle) at (0,2) {\(r=a\)};
@@ -1034,13 +1042,13 @@
   \draw[thick] (0,-3) 
   node [left] {} 
   -- (0,3) 
-  node [left] {\(\theta=\frac{\pi}{2}\)};
+  node [left] {\(\theta=\dfrac{\pi}{2}\)};
 
   \node[anchor=north east] (Origin) at (0,0) {\(0\)};
   \node[above, blue] (Circle) at (2.5,2) {\(r=a \cos(\theta)\)};
   \draw[thick,blue] (2,0) circle [radius=2cm];
 \end{tikzpicture} 
-\end{tabular}& \(\left(x-\frac{a}{2}\right)^2+y^2=\frac{a^2}{4}\)\\
+\end{tabular}& \(\left(x-\dfrac{a}{2}\right)^2+y^2=\dfrac{a^2}{4}\)\\
 \hline
 \begin{tabular}{@{}Sc@{}}
 \begin{tikzpicture}[scale=0.4]
@@ -1049,13 +1057,13 @@
   \draw[thick] (0,-2em) 
   node [left] {} 
   -- (0,5) 
-  node [left] {\(\theta=\frac{\pi}{2}\)};
+  node [left] {\(\theta=\dfrac{\pi}{2}\)};
 
   \node[anchor=north east] (Origin) at (0,0) {\(0\)};
   \node[above right, blue] (Circle) at (0,4) {\(r=a \sin(\theta)\)};
   \draw[thick,blue] (0,2) circle [radius=2cm];
 \end{tikzpicture} 
-\end{tabular}& \(x^2+\left(y-\frac{a}{2}\right)^2=\frac{a^2}{4}\)\\
+\end{tabular}& \(x^2+\left(y-\dfrac{a}{2}\right)^2=\dfrac{a^2}{4}\)\\
 \hline
     \end{longtable}
     \item Tangent lines at the pole are obtained by solving \(r=0\).
@@ -1064,14 +1072,18 @@
     \begin{itemize}
       \item Suppose \(r\) is a function of \(\cos(n\theta)\)\footnote{E.g.: \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\)} \emph{only}. Then, the lines of symmetry are \(n\theta=0,\pi,2\pi,\ldots\)
     \end{itemize}
-    \item \(r=f(\theta)\) is symmetrical about the vertical line \(\theta=\frac{\pi}{2}\) iff the equation \(f(\theta)=f(\pi-\theta)\).
+    \item \(r=f(\theta)\) is symmetrical about the vertical line \(\theta=\pi/2\) iff the equation \(f(\theta)=f(\pi-\theta)\).
     \begin{itemize}
-      \item Suppose \(r\) is a function of \(\sin(n\theta)\) \emph{only}. Then, the lines of symmetry are \(n\theta=\frac{\pi}{2},\frac{3\pi}{2},\ldots,\frac{(2m+1)\pi}{2},\ldots\)
+      \item Suppose \(r\) is a function of \(\sin(n\theta)\) \emph{only}. Then, the lines of symmetry are 
+      \[n\theta=\frac{\pi}{2},\frac{3\pi}{2},\ldots,\frac{(2m+1)\pi}{2},\ldots\]
     \end{itemize}
     \item \(r=f(\theta)\) is symmetrical about the pole iff \((r,\theta)\) is a point on the curve whenever \((-r,\theta)\) is.
     \item \(R\)-formula may be necessary
-    \item Area of a sector: \(A=\frac{1}{2}\int_{\alpha}^{\beta}r^2\,\text{d}\theta\), where \(\alpha<\beta\).
-    \item Arc length\(=\int_{\theta_1}^{\theta_2} \sqrt{r^2+\left(\frac{dr}{d\theta}\right)^2}\,\text{d}\theta\)
+    \item Area of a sector, 
+    \[A=\dfrac{1}{2}\int_{\alpha}^{\beta}r^2\,\text{d}\theta,\] 
+    where \(\alpha<\beta\).
+    \item Arc length, 
+    \[\ell=\int_{\theta_1}^{\theta_2} \sqrt{r^2+\left(\frac{dr}{d\theta}\right)^2}\,\text{d}\theta.\]
   \end{itemize}
 \end{stbox}
 \begin{IN}
@@ -1089,25 +1101,27 @@
       \item Check whether the polar axes are tangents at pole. Use this information to draw accurate graphs.
       \item Best to add a small dotted line to show tangentiality at intercepts.
       \item Careful about constants like \(a\) in \(r=a\sin(\theta)\) for axial intercepts.
-      \item No need to state points at the pole unless they are `axial', i.e. \(\theta=0\), or \(\frac{\pi}{2}\), etc.
+      \item No need to state points at the pole unless they are `axial', i.e. \(\theta=0\), or \(\pi/2\), etc.
     \end{enumerate}
-    \item When finding maximum / minimum \(y\) values \(\left(\frac{dy}{d\theta}=0\right)\), we need to check its nature (1st/2nd deriv test). However, this is unnecessary for max / min \(r\) values.
-    \item For stuff like \(\frac{dy}{dx}\), try to keep it in polar form if possible instead of converting to cartesian form.
+    \item When finding maximum / minimum \(y\) values \(\left(dy/dx=0\right)\), we need to check its nature (1st/2nd deriv test). However, this is unnecessary for max / min \(r\) values.
+    \item For stuff like \(dy/dx\), try to keep it in polar form if possible instead of converting to cartesian form.
     \item As usual, be \emph{careful}! E.g. Which values need to be rejected.
     \item When reflecting/rotating, a diagram may be useful in finding the necessary angle/expression to replace \(\theta\) with. E.g.: \small
     \begin{enumerate}
-      \item In the case of reflecting about \(r=\theta\) or \(y=x\), \((r,\theta) \to (r,\frac{\pi}{2}-\theta)\).
-      \item Reflect about the half-line \(\theta=\frac{\pi}{2}\) \(\implies\) \((r,\theta) \to (r,\pi-\theta)\).
+      \item To reflect about \(r=\theta\) or \(y=x\), we map \((r,\theta) \to (r,\pi/2-\theta)\).
+      \item Reflect about the half-line \(\theta=\pi/2\) is obtained by mapping \((r,\theta) \to (r,\pi-\theta)\).
     \end{enumerate} \normalsize
   \end{enumerate}
 \end{IN}
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
+\begin{GCSkills}{}
   \begin{enumerate}
-    \item Nice polar \(\implies\) Zoom fit + Zoom square
+    \item To display a nicely scaled polar curve, we use \texttt{Zoom fit}, followed by \texttt{Zoom square}
     \item Simply press alpha trace 1 to get \(r_1\). In fact, this works for the other modes available in the GC as well. 
-    \item We can type \(\left. \frac{d}{d\theta}{r_1} \right\rvert_{\theta=\theta}\) info formulas (like the one for arc length) without having to manually differentiate it!
+    \item We can type 
+    \[\left. \frac{d}{d\theta}{r_1} \right\rvert_{\theta=\theta}\] 
+    info formulas (like the one for arc length) without having to manually differentiate it!
   \end{enumerate}
-\end{lbox}
+\end{GCSkills}
 
 \chapter{Conic Sections}
 \begin{definition}{}{}
@@ -1159,7 +1173,7 @@
     y=\pm\frac{b}{e}=\pm\frac{b^2}{c}
     \end{aligned}\)\\
     \hline
-    \multirow{2}{*}{e} & \multicolumn{2}{Sc|}{\(e=1\)} & \multicolumn{2}{Sc|}{\(0<e<1\)} & \multicolumn{2}{Sc|}{\(e>1\)}\\
+    \multirow{2}{*}[-1cm]{e} & \multicolumn{2}{Sc|}{\(e=1\)} & \multicolumn{2}{Sc|}{\(0<e<1\)} & \multicolumn{2}{Sc|}{\(e>1\)}\\
     \cline{2-7}
     & \multicolumn{2}{Sc|}{N.A.} & 
     \(\begin{aligned}
@@ -1303,7 +1317,9 @@
   \begin{itemize}
     \item Addition and multiplication principles
     \item Know how to `bundle' objects together so as to calculate the total no. of permutations.
-    \item There are \(\frac{n!}{n_1!n_2!\cdots n_r!}\) number of ways to arrange \(n\) objects, of which \(n_1\) are `similar', \(n_2\) are `alike', \ldots, \(n_r\) are `the same'.
+    \item There are 
+    \[\frac{n!}{n_1!n_2!\cdots n_r!}\]
+    number of ways to arrange \(n\) objects, of which \(n_i\) are similar, for each \(i\).
   \end{itemize}
 \end{stbox}
     \begin{fact}
@@ -1313,7 +1329,7 @@
   \begin{itemize}
     \item Case-wise considerations/calculations (then summing together the total number of permutations)
     \item Unordered circular permutations:\\
-    There are \(\frac{n!}{n}=(n-1)!\) number of ways of arranging \(n\) distinct objects in a circle.
+    There are \(n!/n=(n-1)!\) number of ways of arranging \(n\) distinct objects in a circle.
   \end{itemize}
 \end{stbox}
     \begin{fact}
@@ -1400,7 +1416,8 @@
 \end{minipage} & 
 \begin{minipage}{0.5\textwidth}
   \begin{enumerate}[label=(\alph*)]
-    \item \(\ell_{NQ} \colon \mathbf{r}=\overrightarrow{OQ}+\lambda n\), where \(\lambda \in \mathbb{R}\), and \(\Pi \colon \mathbf{r}\cdot \mathbf{n}= \mathbf{a}\cdot \mathbf{n}\),
+    \item \(\ell_{NQ} \colon \mathbf{r}=\overrightarrow{OQ}+\lambda n\), where \(\lambda \in \mathbb{R}\), and 
+    \[\Pi \colon \mathbf{r}\cdot \mathbf{n}= \mathbf{a}\cdot \mathbf{n},\]
     \item \(\left(\overrightarrow{OQ}+\lambda \mathbf{n}\right)\cdot \mathbf{n}= \mathbf{a}\cdot \mathbf{n}\), solve for \(\lambda\),
     \item \(\overrightarrow{ON}+\overrightarrow{OQ}+\lambda \mathbf{n}\).
   \end{enumerate}
@@ -1422,10 +1439,14 @@
 \begin{minipage}{0.5\textwidth}
   \begin{enumerate}
     \item[M1:] \(\norm{\overrightarrow{AQ}\cdot \mathbf{\hat{n}}} \).
-    \item[M2:] for distance of plane to \emph{origin}: If \(\Pi \colon \mathbf{r}\cdot \mathbf{n}=p\), \(\frac{p}{\norm{\mathbf{n}}}\) is the shortest distance from the origin to the plane \(\Pi\). \emph{Note:}
+    \item[M2:] Distance of plane to \emph{origin}: 
+    
+    If \(\Pi \colon \mathbf{r}\cdot \mathbf{n}=p\), then \(\dfrac{p}{\norm{\mathbf{n}}}\) is the shortest distance from the origin to the plane \(\Pi\). 
+    
+    \emph{Note:}
     \begin{itemize}
-      \item If \(\frac{p}{\norm{\mathbf{n}}}>0\), then \(\Pi\) `above' \(0\).
-      \item If \(\frac{p}{\norm{\mathbf{n}}}<0\), then \(\Pi\) `below' 0.
+      \item If \(\dfrac{p}{\norm{\mathbf{n}}}>0\), then \(\Pi\) `above' \(0\).
+      \item If \(\dfrac{p}{\norm{\mathbf{n}}}<0\), then \(\Pi\) `below' 0.
     \end{itemize}
     \item[M3:] Using the foot of perpendicular, then find distance \(QN\).
   \end{enumerate}
@@ -1644,7 +1665,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \begin{example}{}{}
   From the computation, \emph{the values of} \(\frac{dy}{dx}\) \emph{increases}, i.e. \(\frac{d^2y}{dx^2}>0\), and thus implying the solution curve to be \emph{concave upwards}. Therefore, we have an \emph{underestimation}. 
 \end{example}
-\begin{example}{Misc}{}
+\begin{example}{}{}
   It is suggested that the estimation in part (ii)\footnote{Given the point (1,1), we estimated the value of y(2) using the Improved Euler's Method} can be further improved by reducing the step size. Sketch the solution curve and hence comment on this suggestion.\\[3mm]
   The solution curve has a \emph{stationary point at} \(x=1.47\), which is between 1 and 2 and also the gradient of the curve is close to zero for \(x\) value beyond this stationary point. Thus, when the step size is reduced, \emph{tangent} at point close to this stationary point becomes \emph{almost parallel} to the curve, making \emph{little improvement} to the estimation due to \emph{little difference in} \(y\). 
 \end{example}
@@ -1673,13 +1694,13 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     \hline
     \(m=\highlight[red!30]{p} \pm qi\) & \(y=e^{\highlight[red!30]{p}x}(A \cos(qx)+B \sin(qx))\)\\
     \hline
-    \multicolumn{2}{|Sc|}{\textbf{Non-Homogenous, }\(c_2 \frac{d^2y}{dx^2}+c_1 \frac{dy}{dx}+c_0y=f(x)\)}\\
+    \multicolumn{2}{|Sc|}{\textbf{Non-Homogenous, }\(c_2 \dfrac{d^2y}{dx^2}+c_1 \dfrac{dy}{dx}+c_0y=f(x)\)}\\
     \hline
     \multicolumn{2}{|Sc|}{\(y=y_c+y_p\) (C.F. + P.I.)}\\
     \hline
     \(f(x)\) & Trial Function for P.I.\\
     \hline
-    Degree \(n\) polynomial & \(y_p=\sum_{i=0}^{n}a_ix^i\)\\
+    Degree \(n\) polynomial & \(y_p=\sum\limits_{i=0}^{n}a_ix^i\)\\
     \hline
     \(ke^{ax}\) & \(y_p=ae^{ax}\).\\
     \hline
@@ -1710,13 +1731,13 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   Let \(k\) be the \emph{per-capita growth rate}\footnote{i.e. after accounting for births and deaths.}, \(P(t)\) be the population at time \(t\), and \(N\) be the \emph{carrying capacity} of the system. Then we have the model:
   \[\frac{dP}{dt}=kP\left(1-\frac{P}{N}\right).\]
   \begin{enumerate}
-    \item Without solving the logistics equation, we can sketch the solution curve by noting the sign of \(\frac{dP}{dt}\):
+    \item Without solving the logistics equation, we can sketch the solution curve by noting the sign of \(dP/dt\):
     \begin{enumerate}
       \item Equilibrium population values occur at \(P=0\) and \(P=N\).
       \item If, for instance \(k>0\),
       \begin{enumerate}[wide=0pt, leftmargin=*]
-        \item[\(0<p<N\):] \(1-\frac{P}{N}>0\) so \(\frac{dP}{dt}>0\),
-        \item[\(P>N\):] \(1-\frac{P}{N}<0\) so \(\frac{dP}{dt}<0\).  
+        \item[\(0<p<N\):] \(1-\frac{P}{N}>0\) so \(dP/dt>0\),
+        \item[\(P>N\):] \(1-\frac{P}{N}<0\) so \(dP/dt<0\).  
       \end{enumerate}
     \end{enumerate}
     ``As \(t\) increases,  the population of \rule{1cm}{0.1mm}  increases to the stable population of \rule{1cm}{0.1mm}.''
@@ -1887,20 +1908,20 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \begin{note}
   When the question asks for the \emph{most likely} number of [event], it is asking for the \emph{mode}.
   \end{note}
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
+\begin{GCSkills}{}
   Finding \emph{mode} (e.g. for binomial distributions):
   \begin{enumerate}
     \item Set \(Y_1=\texttt{binompdf}(n,p,X)\).
     \item Go to table.
     \item Find the value of \(X\) for which the highest value of \(Y_1\) occurs.
   \end{enumerate}
-\end{lbox}
-\begin{lbox}[colbacktitle=white, coltitle=black, colframe=black]{G.C. Skills} 
+\end{GCSkills}
+\begin{GCSkills}{}
   \begin{enumerate}
     \item \texttt{2nd + Vars + `A' \(\implies\) binompdf\((n,p,x)=\Prob(X=x)\)}
     \item \texttt{2nd + Vars + `B' \(\implies\) binomcdf\((n,p,x)=\Prob(X\leq x)\)}
   \end{enumerate}
-\end{lbox}
+\end{GCSkills}
 \begin{note}
   Let \(X\) be the random variable such that \(X \sim \operatorname{B}(n,p)\). If \(\Prob(X=n)\) is the \emph{highest probability} that occurs, \(X=n\) is the modal value. So, we solve the two inequalities \(\Prob(X=5)>\Prob(X=4)\) and \(\Prob(X=5)>\Prob(X=6)\). This gives the \emph{strictest} range of values that \(p\) can take (Fig 17.1).
 \end{note}
@@ -1937,6 +1958,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \item Oscillatory behavior of DEs modelling physical phenomena Fig 15.2 \url{https://tikz.net/dynamics_oscillator/}
   \item Fig 17.1 Mode of a binomial distribution \url{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}
   \item Product moment correlation \url{https://www.ncl.ac.uk/webtemplate/ask-assets/external/maths-resources/images/R_value.png}
+  \item Used some inspiration from the beautiful preamble by tearfox and det.uwu from Discord, to make my environments look better.
 \end{enumerate}
 
 \end{document}

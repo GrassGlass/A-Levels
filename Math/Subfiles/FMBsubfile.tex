@@ -37,18 +37,18 @@
   \[f(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right).\]
 \end{definition}
 \begin{stbox}{General Information}
-  \begin{enumerate}
+  \begin{itemize}
     \item A normal distribution is symmetrical about the line \(x=\mu\). That is 
     \[\Prob(X\leq\mu-\delta)=\Prob(X\geq\mu+\delta)\]
     for each \(\delta>0\). Note that the mean, median, and mode coincide with \(\mu\).
     \item Properties of the normal distribution. Let \(X\) and \(Y\) be independent, such that \(X \sim \operatorname{N}(\mu,\sigma^2)\) and \(Y \sim \operatorname{N}(m,s^2)\). Then, for any \(n \in \mathbb{N}\) and \(x\), \(y \in \mathbb{R}\),  
-    \begin{enumerate}
+    \begin{itemize}
       \item \(nX \sim \operatorname{N}(n\mu,n^2\sigma^2)\),
       \item \(X_1+X_2+\cdots+X_n \sim \operatorname{N}(n\mu,n\sigma^2)\),
       \item \(aX\pm bY \sim \operatorname{N}(a\mu\pm bm,a^2\sigma^2+b^2s^2)\).
-    \end{enumerate}
+    \end{itemize}
     \item Question phrasing may be misleading at times. Try to use some inference as to what exactly does the setter mean.
-  \end{enumerate}
+  \end{itemize}
 \end{stbox}
 \begin{example}{}{}
   ``The mass of the padding is \(30\%\) of the mass of a randomly selected light bulb of mass \(L\). Find the probability that a light bulb with padding has mass \(c\).'' 
@@ -56,7 +56,7 @@
   Then for any light bulb of mass \(L_1\), the mass of the padding is \(0.3L_2\) (and \emph{not} \(0.3L_1\)). i.e. we are to find \(\Prob(L_1+0.3L_2)\).
 \end{example}
 \begin{stbox}{}
-  \begin{enumerate}
+  \begin{itemize}
     \setcounter{enumi}{3}
     \item A variable \(Z\sim \operatorname{N}(0,1)\) is said to follow the \emph{standard} normal distribution.
 
@@ -93,7 +93,7 @@
         \hline
       \end{tabular}
     \end{center}
-  \end{enumerate}
+  \end{itemize}
 \end{stbox}
 \begin{example}{}{}
   Suppose we want to find the least integer value of \(m\) for which \(\Prob(Z>1-m)\geq 1/2\).
@@ -104,7 +104,7 @@
   \end{center}
 \end{example}
 \begin{stbox}{}
-  \begin{enumerate}
+  \begin{itemize}
     \setcounter{enumi}{7}
     \item A continuous random variable \(Y\) has an (negative) exponential distribution, which we denote with \(Y\sim \operatorname{Exp}(\lambda)\), iff its pdf \(g\) is such that
     \[g(Y)=
@@ -127,19 +127,115 @@
     \end{center}
     \emph{Note}: We need to remember the expectation and variance for the uniform distribution, as it is not provided in the MF26 formula sheet (unlike all other distributions).
     \item \emph{Warning}: The G.C. tends to incorrectly process an integral if its upper and lower bounds contain \(\pm \text{E}99\).
-  \end{enumerate}
+  \end{itemize}
 \end{stbox}
 \chapter{Sampling and Estimation}
-\begin{definition}{}{}
-  
-\end{definition}
-\begin{definition}{}{}
-  Any statistic \(T\) derived from a random sample and used to estimated an unknown population \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\).
-\end{definition}
 \begin{stbox}{General Information}
-  \begin{enumerate}
+  \begin{itemize}
+    \item A sample is a finite subset of the population.
+    \item A random sample is a sample selected such that each member of the population has an equal probability of being selected.
+    \item Any statistic \(T\) derived from a random sample and used to estimated an unknown population parameter \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\). If \(T\) is unbiased we commonly write \(\hat{\theta}\) for \(T\).
+    \item Either write \(\hat{\mu}\) or write out ``Unbiased estimate of the population mean \(\mu\), \(\widebar{x}=\dots\)'' Same holds for other population parameters \(\theta\).
+    \item Estimators you should know:
     \item 
-  \end{enumerate}
+    % *A table where Parameter is under another column
+    % \begin{center}
+    %   \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+    %     \hline
+    %     \multicolumn{2}{|Sc|}{Parameter} & Estimator & Unbiased? & Formula\\
+    %     \hline
+    %     Population Mean & \(\mu\) & \(\widebar{X}\) & \checkmark & \(\dfrac{X_1+X_2+\dots+X_n}{n}\)\\
+    %     \hline
+    %     \multirow{2}{*}[-1.2cm]{Population Variance} & \multirow{2}{*}[-1.2cm]{\(\sigma^2\)} & \(\sigma_n^2\) & \(\times\) & 
+    %     \begin{minipage}{3cm}
+    %       \begin{center}
+    %         \(\dfrac{\sum{(X_i-\widebar{X})^2}}{n}\)\\[1mm]
+    %         \(\dfrac{\sum{X_i^2}}{n}-\widebar{X}^2\)
+    %       \end{center}
+    %     \end{minipage}\\
+    %     \cline{3-4}
+    %     & & \(S^2\) & \checkmark & 
+    %     \begin{minipage}{5cm}
+    %       \begin{center}
+    %       \(\dfrac{n}{n-1}\sigma_n^2\)\\[1mm]
+    %       \(\dfrac{\sum(X_i-\widebar{X})^2}{n-1}\)\\[1mm]
+    %       \(\dfrac{1}{n-1}\left[ \sum X_i^2-\dfrac{(\sum X_i)^2}{n} \right]\)
+    %       \end{center}
+    %     \end{minipage}\\
+    %     \hline
+    %     Population Proportion & \(p\) & \(P_s\) & \checkmark & \(\dfrac{X}{n}\)\\
+    %     \hline
+    %   \end{tabular}
+    % \end{center}
+    \begin{center}
+      \resizebox{0.94\textwidth}{!}{\begin{tabular}{|Sc|Sc|Sc|Sc|}
+        \hline
+        Parameter & Estimator & Unbiased? & Formula\\
+        \hline
+        Population Mean \(\mu\) & Sample Mean \(\widebar{X}\) & \checkmark & \(\dfrac{X_1+X_2+\dots+X_n}{n}\)\\
+        \hline
+        \multirow{2}{*}[-1.2cm]{Population Variance \(\sigma^2\)} & Sample Variance \(\sigma_n^2\) & \(\times\) & 
+        \begin{minipage}{3cm}
+          \begin{center}
+            \(\dfrac{\sum{(X_i-\widebar{X})^2}}{n}\)\\[1mm]
+            \(\dfrac{\sum{X_i^2}}{n}-\widebar{X}^2\)
+          \end{center}
+        \end{minipage}\\
+        \cline{2-4}
+        & \(S^2\) & \checkmark & 
+        \begin{minipage}{5cm}
+          \begin{center}
+          \(\dfrac{n}{n-1}\sigma_n^2\)\\[1mm]
+          \(\dfrac{\sum(X_i-\widebar{X})^2}{n-1}\)\\[1mm]
+          \(\dfrac{1}{n-1}\left[ \sum X_i^2-\dfrac{(\sum X_i)^2}{n} \right]\)
+          \end{center}
+        \end{minipage}\\
+        \hline
+        Population Proportion \(p\) & Sample Proportion \(P_s\) & \checkmark & \(\dfrac{X}{n}\)\\
+        \hline
+      \end{tabular}}
+    \end{center}
+    \item Let \(X\) be a random variable following \emph{any distribution}, and suppose we have a random sample \(X_1,X_2,\dots,X_n\) of size \(n\geq 50\).
+    
+    Then by CLT (Central Limit Theorem), since \(n\geq 50\) is large, 
+    \[\widebar{X}\sim \Normal\left(\mu,\frac{\sigma^2}{n}\right) \qquad\text{and}\qquad X_1+X_2+\dots+X_n\sim \Normal(n\mu,\nu\sigma^2)\]
+    \emph{approximately}.
+    \item Assumptions when using CLT:
+    \begin{itemize}
+      \item The sample is random.
+      \item Each \(X_i\) is independent and identically distributed.
+    \end{itemize}
+    \item Suppose \(X\sim \Normal(\mu,\sigma^2)\) is known and we pick a \emph{particular} sample. Let the unbiased estimates for the population mean and variance of this sample be \(\widebar{x}\) and \(s^2\), respectively. Then,
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        Distribution & Is An Approximation?\\
+        \hline
+        \(\widebar{X} \sim \Normal(\mu,\sigma^2)\) & No\\
+        \hline
+        \(\widebar{X} \sim \Normal(\widebar{x},\sigma^2)\) & Yes\\
+        \hline
+        \(\widebar{X} \sim \Normal(\mu,s^2)\) & Yes\\
+        \hline
+        \(\widebar{X} \sim \Normal(\widebar{x},s^2)\) & Yes\\
+        \hline
+      \end{tabular}
+    \end{center}
+    % ADD NAMES of the parameters and estimators to previous table
+    So, if we obtain any of the latter three in solving a question, we must write ``\(X\sim \Normal(\rule{3mm}{0.1mm},\rule{3mm}{0.1mm})\)approximately'' (even though we knew \(X\) \emph{exactly} follows a normal distribution!)
+    \item Pooled estimators you should know. First assume we have two populations, from which we select a random sample of size \(n_1\) and \(n_2\). We let \(\widebar{X}_1\) and \(S_1^2\) denote the sample mean and unbiased estimator for variance, respectively. Similarly define \(\widebar{X}_2\) and \(S_2^2\).
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        Parameter & Unbiased Pooled Estimator\\
+        \hline
+         Mean  & \(\hat{\mu}=\dfrac{n_1\widebar{X_1}+n_2\widebar{X_2}}{n_1+n_2}\)\\
+         \hline
+         Variance & \(S_p^2=\dfrac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}\)\\
+         \hline
+      \end{tabular}
+    \end{center}
+  \end{itemize}
   
 \end{stbox}
 
