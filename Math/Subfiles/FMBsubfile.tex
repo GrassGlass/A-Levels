@@ -235,7 +235,7 @@
         \hline
         Parameter & Unbiased Pooled Estimator\\
         \hline
-         Mean  & \(\hat{\mu}=\dfrac{n_1\widebar{X_1}+n_2\widebar{X_2}}{n_1+n_2}\)\\
+         Mean  & \(\hat{\mu}=\dfrac{n_1\widebar{X}_1+n_2\widebar{X}_2}{n_1+n_2}\)\\
          \hline
          Variance & \(S_p^2=\dfrac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}\)\\
          \hline
@@ -255,15 +255,36 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 \end{definition}
 \begin{stbox}{}
   \begin{itemize}
-    \item We cannot write ``a \(\frac{1-\alpha}{100}\) confidence interval''. The \(\frac{1-\alpha}{100}\) must always be expressed as a \emph{percentage}.
+    \item We cannot write ``a \(1-\alpha\) (e.g. 0.95) confidence interval''. The \(1-\alpha\) must always be expressed as a \emph{percentage}.
     \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\). Suppose \(n\) is large (\(n\geq 50\)). Then, CLT allows us to obtain the approximation
     \[\frac{\widebar{X}-\mu}{\frac{S}{\sqrt{n}}}=Z\sim \Normal(0,1).\]
-    Hence, by solving \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\), we obtain a \((1-\alpha)100\%\) confidence interval
+    Rewriting \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\) gives
+    \[\Prob\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}<\mu<\widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}}\right)=1-\alpha.\] 
+    As such, a \((1-\alpha)100\%\) confidence interval is
     \[\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}\,,\ \widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}} \right).\]
     When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\).
-    
   \end{itemize}
 \end{stbox}
+\begin{note}
+  Standard phrasing for the interpretation of a \((1-\alpha)100\%\) confidence interval \((a,b)\). 
+  \begin{center}
+    The probability that the interval \((a,b)\) contains the [\(\mu\) in context] is \(1-\alpha\).
+  \end{center}
+\end{note}
+\begin{GCSkills}{}
+  Calculating statistics (i.e. \(\widebar{x}\), \(s\), etc) by G.C. given data for a sample.
+  \begin{enumerate}
+    \item Keying in the data: \texttt{stat} \(\Longrightarrow\) \texttt{1:Edit} \(\Longrightarrow\) Key in the data into one of the lists \(\texttt{L}_i\). 
+    \item Calculating the statistic: \texttt{stat} \(\Longrightarrow\) \texttt{CALC} \(\Longrightarrow\) \texttt{1-Var Stats} (\texttt{List:}\(\texttt{L}_i\)) \(\Longrightarrow\) \texttt{Calculate}.
+    \item Getting the statistic for further calculations: \texttt{vars} \(\Longrightarrow\) \texttt{5:Statistics} \(\Longrightarrow\) Select the desired statistic.
+  \end{enumerate}
+\end{GCSkills}
+\begin{GCSkills}{}
+  Calculating the symmetric confidence interval by G.C.
+  \begin{center}
+    \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{7:ZInterval\dots}
+  \end{center}
+\end{GCSkills}
 
 \chapter{Correlation and Linear Regression}
 \begin{note}
