@@ -256,19 +256,42 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 \begin{stbox}{}
   \begin{itemize}
     \item We cannot write ``a \(1-\alpha\) (e.g. 0.95) confidence interval''. The \(1-\alpha\) must always be expressed as a \emph{percentage}.
-    \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\). Suppose \(n\) is large (\(n\geq 50\)). Then, CLT allows us to obtain the approximation
-    \[\frac{\widebar{X}-\mu}{\frac{S}{\sqrt{n}}}=Z\sim \Normal(0,1).\]
+    % \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\). Suppose \(n\) is large (\(n\geq 50\)). Then, CLT allows us to obtain the approximation
+    % \[\frac{\widebar{X}-\mu}{\frac{S}{\sqrt{n}}}=Z\sim \Normal(0,1).\]
+    % Rewriting \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\) gives
+    % \[\Prob\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}<\mu<\widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}}\right)=1-\alpha.\] 
+    % As such, a \((1-\alpha)100\%\) confidence interval is
+    % \[\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}\,,\ \widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}} \right).\]
+    % When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\).
+    \item Let \(\hat{\theta}\) be a statistic that is normally distributed with mean \(\theta\) and standard error \(\sigma_{\hat{\theta}}\). We see that 
+    \[\frac{\hat{\theta}-\theta}{\sigma_{\hat{\theta}}}=Z \sim \Normal(0,1).\]
     Rewriting \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\) gives
-    \[\Prob\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}<\mu<\widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}}\right)=1-\alpha.\] 
-    As such, a \((1-\alpha)100\%\) confidence interval is
+    \[\Prob(\hat{\theta}-z_{1-\alpha/2}\sigma_{\hat{\theta}}<\theta<\hat{\theta}+z_{1-\alpha/2}\sigma_{\hat{\theta}})=1-\alpha.\]
+    Hence, a \((1-\alpha)100\%\) confidence interval for \(\theta\) is
+    \[(\hat{\theta}-z_{1-\alpha/2}\sigma_{\hat{\theta}}\,,\ \hat{\theta}+z_{1-\alpha/2}\sigma_{\hat{\theta}}).\]
+    \href{https://www.amazon.sg/Mathematical-Statistics-Applications-William-Mendenhall/dp/0495110817#customerReviews}{(Wackerly-Mendenhall-Schaefer)}
+    \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\) with mean \(\mu\), where \(n\) is large. Then, an approximate \((1-\alpha)100\%\) confidence interval for \(\mu\) is
     \[\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}\,,\ \widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}} \right).\]
-    When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\).
+    When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\). If the distribution of \(X\) is known to be normal, in addition to \(\sigma^2\) being known exactly, then the confidence interval is exact; it is not just an approximation. 
+
+    \href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{(Hogg-McKean-Craig)}
+    \item Let \(X\) be a Bernoulli random variable with probability of success \(p\), where \(X\) is 1 or 0 if the outcome is success or failure, respectively. Suppose \(X_1,X_2,\dots,X_n\) is a random sample from the distribution of \(X\), where \(n\) is large. Let \(\hat{p}=\widebar{X}\) be the sample proportion of successes. Then, an approximate \((1-\alpha)100\%\) confidence interval for \(p\) is given by 
+    \[\left( \hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\,,\ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \right).\]
+    (Letting \(Y=X_1+X_2+\dots+X_n\sim \operatorname{B}(n,p)\) gives \(\hat{p}=Y/n\), which is the phrasing used by the school's notes.)
+
+    \href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{(Hogg-McKean-Craig)}
   \end{itemize}
 \end{stbox}
 \begin{note}
   Standard phrasing for the interpretation of a \((1-\alpha)100\%\) confidence interval \((a,b)\). 
   \begin{center}
     The probability that the interval \((a,b)\) contains the [\(\mu\) in context] is \(1-\alpha\).
+  \end{center}
+\end{note}
+\begin{note}
+  Standard phrasing for what is a \((1-\alpha)100\%\) confidence interval for \(\theta\)?
+  \begin{center}
+    It is an interval which has probability \(1-\alpha\) of containing the true value of \(\theta\).  
   \end{center}
 \end{note}
 \begin{GCSkills}{}
