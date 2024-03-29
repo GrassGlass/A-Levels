@@ -50,5 +50,5 @@
 \contentsline {chapter}{\numberline {20}Continuous Random Variables}{49}{chapter.20}%
 \contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{50}{chapter.21}%
 \contentsline {chapter}{\numberline {22}Sampling and Estimation}{52}{chapter.22}%
-\contentsline {chapter}{\numberline {23}Correlation and Linear Regression}{54}{chapter.23}%
-\contentsline {chapter}{\numberline {24}Bibliography}{56}{chapter.24}%
+\contentsline {chapter}{\numberline {23}Correlation and Linear Regression}{56}{chapter.23}%
+\contentsline {chapter}{\numberline {24}Bibliography}{58}{chapter.24}%

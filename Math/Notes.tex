@@ -106,7 +106,7 @@
 \begin{theorem}{The Binomial Series}{}
   \[(1+x)^{p}=\sum_{r=0}^{\infty}{\binom{p}{r}x^r},\]
   where \(p \in \mathbb{Q}\), \(\lvert x \rvert<1\), and
-  \[\binom{p}{r}:=\frac{p(p-1)\cdots(p-r+1)}{r!}.\]
+  \[\binom{p}{r}\coloneq \frac{p(p-1)\cdots(p-r+1)}{r!}.\]
 \end{theorem}
 \begin{corollary}{}{}
   Clearly,
@@ -261,7 +261,7 @@
   \end{enumerate}
 \end{stbox}
 \begin{note}
-  Let \(x_{n+1}=f(x_n)\) and \(L:=\lim{x_n}\). To find the possible values of \(L\), we can compare the graph of \(y=f(x)\) against the identity function \(y=x\). This is done by seeing if \(f(x)<x\), \(f(x)=x\), or \(f(x)>x\).
+  Let \(x_{n+1}=f(x_n)\) and \(L\coloneq \lim{x_n}\). To find the possible values of \(L\), we can compare the graph of \(y=f(x)\) against the identity function \(y=x\). This is done by seeing if \(f(x)<x\), \(f(x)=x\), or \(f(x)>x\).
 \end{note}
 \begin{example}{}{}
   \begin{center}
@@ -403,7 +403,7 @@
 \subsection{Trapezium Rule}
 \begin{stbox}{General Information}
     \begin{enumerate}
-      \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h:=(b-a)/n\): 
+      \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h\coloneq (b-a)/n\): 
       \[\int_{a}^{b}y\,dx=\frac{h}{2}(y_0+2y_1+2y_2+\cdots+2y_{n-1}+y_n).\]
       \item Illustration
       \begin{center}
@@ -421,7 +421,7 @@
     \subsection{Simpson's Rule}
     \begin{stbox}{General Information}
       \begin{enumerate}
-        \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h:=(b-a)/n\):
+        \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h\coloneq (b-a)/n\):
         \[\int_{a}^{b}y\,dx=\frac{h}{3}(y_0+4y_1+2y_2+4y_3+\cdots+2y_{n-2}+4y_{n-1}+y_n).\]
         Note that the number of intervals \(n\) should be \emph{even}, that of ordinates \emph{odd}.
         \item Illustration
@@ -448,7 +448,7 @@
       \[\frac{a+bi}{c+di}=\frac{a+bi}{c+di}\cdot\frac{c-di}{c-di}=\cdots.\]
       \item Polynomials:
       \begin{enumerate}
-        \item Fundamental Theorem of Algebra: If \(p(z):=\sum_{i=0}^{n}a_iz^i\) is a polynomial of degree \(n \geq 1\) with complex coefficients, then there exists complex numbers \(c_i\) for each \(1 \leq i \leq n\) such that 
+        \item Fundamental Theorem of Algebra: If \(p(z)\coloneq \sum_{i=0}^{n}a_iz^i\) is a polynomial of degree \(n \geq 1\) with complex coefficients, then there exists complex numbers \(c_i\) for each \(1 \leq i \leq n\) such that 
         \[p(z)=a_n \prod_{i=1}^{n}(z-c_i).\]
         \item If a polynomial in real coefficients only has root \(a+bi\), then \(a-bi\) is another root.
       \end{enumerate}
@@ -507,7 +507,7 @@
     \item The geometric meaning of multiplying by \(i\) is a anti-clockwise rotation by \(\pi\) radians.
     \item Loci (Use a \emph{compass})
     \begin{enumerate}
-      \item The locus represented by \(\lvert z-a \rvert =r\) (or \(z=a+re^{i\theta}\)) is a \emph{circle} of radius \(r\) centered at \(A(x,y)\) (where \(a:=x+iy\)).
+      \item The locus represented by \(\lvert z-a \rvert =r\) (or \(z=a+re^{i\theta}\)) is a \emph{circle} of radius \(r\) centered at \(A(x,y)\) (where \(a\coloneq x+iy\)).
       \begin{center}
         \includegraphics[scale=0.1]{../images/ComplexCircleLocus}
         \captionof{figure}{The locus of \(\lvert z-a \rvert =r\).}
@@ -1311,7 +1311,7 @@
 \chapter{Permutations and Combinations}
 \begin{definition}{}{}
   The terms \(n\) \emph{pick} \(r\) and \(n\) \emph{choose} \(r\) respectively denote 
-  \[{^n}P_r := \frac{n!}{(n-r)!} \qquad\text{and}\qquad \binom{n}{r}={^n}C_r:=\frac{n!}{(n-r)!r!}.\]
+  \[{^n}P_r \coloneq  \frac{n!}{(n-r)!} \qquad\text{and}\qquad \binom{n}{r}={^n}C_r\coloneq \frac{n!}{(n-r)!r!}.\]
 \end{definition}
 \begin{stbox}{General Information}
   \begin{itemize}
@@ -1387,11 +1387,11 @@
   \mathbf{m_1}+\mu \mathbf{m_2}\text{ where }\lambda,\mu\in\mathbf{R},\]
   \item Scalar Product Form: 
   \[\Pi \colon \mathbf{r} \cdot \mathbf{n}=p\]
-  where the scalar \(p:= \mathbf{a}\cdot \mathbf{n}\),
+  where the scalar \(p\coloneq  \mathbf{a}\cdot \mathbf{n}\),
   \item Cartesian Equation:
   \[n_1x+n_2x+n_3z=p\]
   where the normal vector\\
-  \(\mathbf{n}:=\begin{pmatrix}
+  \(\mathbf{n}\coloneq \begin{pmatrix}
     n_1 & n_2 & n_3
   \end{pmatrix}^\top\).
 \end{enumerate}
@@ -1690,7 +1690,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
     \hline
     \(m_1 \neq m_2\) & \(y=Ae^{m_1x}+Be^{m_2x}\)\\
     \hline
-    \(m:=m_1=m_2\) & \(y=(Ax+B)e^{mx}\)\\
+    \(m\coloneq m_1=m_2\) & \(y=(Ax+B)e^{mx}\)\\
     \hline
     \(m=\highlight[red!30]{p} \pm qi\) & \(y=e^{\highlight[red!30]{p}x}(A \cos(qx)+B \sin(qx))\)\\
     \hline
@@ -1805,11 +1805,11 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
 \begin{stbox}{General Information}
   \begin{enumerate}
     \item Expectation / Mean, 
-    \[\operatorname{E}(X):=\sum_{\text{all } x}{x\Prob(X=x)}.\]
+    \[\operatorname{E}(X)\coloneq \sum_{\text{all } x}{x\Prob(X=x)}.\]
     \item Variance 
-    \[\operatorname{Var}(X):=E\hspace{-0.7mm}\left(X^2\right)-[E(X)]^2.\]
+    \[\operatorname{Var}(X)\coloneq E\hspace{-0.7mm}\left(X^2\right)-[E(X)]^2.\]
     \item Standard Deviation
-    \[\sigma:=\sqrt{\operatorname{Var}(X)}.\]
+    \[\sigma\coloneq \sqrt{\operatorname{Var}(X)}.\]
     \item Properties for two \emph{independent} random \emph{variables} \(X\) and \(Y\); two \emph{independent observations} \(X_1\) and \(X_2\) of \(X\):
     \begin{enumerate}
       \item \(\operatorname{E}(aX+bY+c)=a\operatorname{E}(X)+b\operatorname{E}(Y)+c\),
@@ -1852,7 +1852,7 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \end{enumerate}
 \end{note}
 \begin{note}
-  Let \(W \sim \operatorname{Geo}(p)\), and \(q:=1-p\). Then, 
+  Let \(W \sim \operatorname{Geo}(p)\), and \(q\coloneq 1-p\). Then, 
   \[\Prob(W>m)=q^m \qquad\text{and}\qquad \Prob(X>m+n \,\vert\, X>n)=\Prob(X>m)=q^m.\]
 \end{note}
 \begin{definition}{}{}

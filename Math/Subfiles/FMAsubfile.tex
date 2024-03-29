@@ -88,8 +88,18 @@ Such that the following properties hold:
         \begin{itemize}
             \item The parity of the degree of a real polynomial is the same as that of its number of real roots.
             \item Let the real polynomial \(p\) given by \(p(x)=a_{2n}x^{2n}+a_{2n-1}x^{2n-1}+\dots+a_0\) have coefficients \(a_n>0\) and \(a_0<0\). Then, it has at least one positive and one negative root.
-            \item Linear interpolation on an interval \([a,b]\). The \((i+1)\)th iteration it given by
-            \[x_{i+1}=\frac{a \lvert f(x_i) \rvert+x_i \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(x_i) \rvert}.\]
+            \item Suppose we have some function \(f \colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), whose value we want to approximate. There are three ways to obtain this approximation.
+            \begin{enumerate}
+                \item Linear interpolation on an interval \([a,b]\) containing \(\alpha\). We let \(x_0\coloneq b\) and
+                \[x_{i+1}\coloneq\frac{a \lvert f(x_i) \rvert+x_i \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(x_i) \rvert}.\]
+                \begin{itemize}
+                    \item \emph{Additional notes.}
+                \end{itemize}
+                \item Fixed-point Iteration. First select a function \(F \colon \mathbb{R}\to \mathbb{R}\), such that \(F(\alpha)=\alpha\), and choose some initial approximation \(x_0\) to \(\alpha\). Then, we recursively define \(x_{n+1} \coloneq F(x_n)\). The desired convergence behavior is for \(x_n\) to approach \(\alpha\).
+                \begin{itemize}
+                    \item \emph{Additional notes.}
+                \end{itemize}
+            \end{enumerate}
         \end{itemize}
     \end{stbox}
     \begin{GCSkills}{}
