@@ -801,7 +801,7 @@ So, rearranging, we have
   \end{center}
   \item Magnitude of electric field strength between the plates:
   \[E=\frac{dV}{dr}=\frac{\Delta V}{d}.\]
-  \item The \emph{eleatic potential energy} of a point charge in an electric field is defined as the \emph{work done by an external agent} in bringing the point charge from infinity to that point (without any net change in kinetic energy). 
+  \item The \emph{electric potential energy} of a point charge in an electric field is defined as the \emph{work done by an external agent} in bringing the point charge from infinity to that point (without any net change in kinetic energy). 
   \item The \emph{electric potential} at a point in an electric field is defined as the \emph{work done} per unit \emph{positive} charge, by an external agent, in bringing a \emph{small} test charge from infinity to that point (without any net change in kinetic energy). 
   \item Let \(U\) be the electric potential energy, and \(V\) the electric potential. Then,
   \[U=qV \qquad\text{and}\qquad \Delta U=q\Delta V.\]
@@ -813,9 +813,9 @@ So, rearranging, we have
     \end{tikzcd}
   \end{center}
   \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
-  \[V=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
+  \[V=\sum_{i}{V_i}=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
   \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 
-  \[U=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
+  \[U=\sum_{i}{U_{ij}}=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
 \end{itemize}
 \begin{center}
     \includegraphics[width=\textwidth]{../images/Electron-Deflection/Bahn-Kondensator (1).pdf}
@@ -838,8 +838,7 @@ So, rearranging, we have
     \end{tabular}
 \end{center}
 \begin{itemize}
-    \item For \(n\) identical resistors in parallel, which are each of resistance \(R\), \(R_{\text{effective}}=R/n\).
-    \item Effective resistance is at most the resistance of the smallest resistor, i.e. \(R_{\text{effective}}\leq R_i\) for each \(i\). In fact, the inequality is strict when the number of resistors in parallel \(n\geq 2\).
+    \item For \(n\) identical resistors in parallel, which are each of resistance \(R\), we have \(R_{\text{effective}}=R/n\). Furthermore, the effective resistance is at most the resistance of the smallest resistor, i.e. \(R_{\text{effective}}\leq R_i\) for each \(i\). In fact, the inequality is strict when the number of resistors in parallel \(n\geq 2\).
     \item To resolve tricky systems of resistors, use the fact that electric potential is constant along a wire.
     \begin{center}
         \includegraphics[width=0.93\columnwidth]{../images/DC-Circuits-Resistors.jpg}
