@@ -47,7 +47,7 @@
       \item \(X_1+X_2+\cdots+X_n \sim \operatorname{N}(n\mu,n\sigma^2)\),
       \item \(aX\pm bY \sim \operatorname{N}(a\mu\pm bm,a^2\sigma^2+b^2s^2)\).
     \end{itemize}
-    \item Question phrasing may be misleading at times. Try to use some inference as to what exactly does the setter mean.
+    \item At times, the question may be phrased in a misleading manner. Try using some inference to figure out the intended interpretation.
   \end{itemize}
 \end{stbox}
 \begin{example}{}{}
@@ -201,9 +201,7 @@
         \hline
       \end{tabular}}
     \end{center}
-    \item Let \(X\) be a random variable following \emph{any distribution}, and suppose we have a random sample \(X_1,X_2,\dots,X_n\) of size \(n\geq 50\).
-    
-    Then by CLT (Central Limit Theorem), since \(n\geq 50\) is large, 
+    \item Let \(X\) be a random variable following \emph{any distribution}, and suppose we have a random sample \(X_1,X_2,\dots,X_n\) of size \(n\geq 50\). Then by CLT (Central Limit Theorem), since \(n\geq 50\) is large, 
     \[\widebar{X}\sim \Normal\left(\mu,\frac{\sigma^2}{n}\right) \qquad\text{and}\qquad X_1+X_2+\dots+X_n\sim \Normal(n\mu,\nu\sigma^2)\]
     \emph{approximately}.
     \item Assumptions when using CLT:
@@ -211,7 +209,7 @@
       \item The sample is random.
       \item Each \(X_i\) is independent and identically distributed.
     \end{itemize}
-    \item Suppose \(X\sim \Normal(\mu,\sigma^2)\) is known and we pick a \emph{particular} sample. Let the unbiased estimates for the population mean and variance of this sample be \(\widebar{x}\) and \(s^2\), respectively. Then,
+    \item Suppose \(X\sim \Normal(\mu,\sigma^2)\) is known and we pick a \emph{particular} sample. Then,
     \begin{center}
       \begin{tabular}{|Sc|Sc|Sc|}
         \hline
@@ -229,7 +227,7 @@
     \end{center}
     % ADD NAMES of the parameters and estimators to previous table
     So, if we obtain any of the latter three in solving a question, we must write ``\(X\sim \Normal(\rule{3mm}{0.1mm},\rule{3mm}{0.1mm})\)approximately'' (even though we knew \(X\) \emph{exactly} follows a normal distribution!)
-    \item Pooled estimators you should know. First assume we have two populations, from which we select a random sample of size \(n_1\) and \(n_2\). We let \(\widebar{X}_1\) and \(S_1^2\) denote the sample mean and unbiased estimator for variance, respectively. Similarly define \(\widebar{X}_2\) and \(S_2^2\).
+    \item Pooled estimators. First assume we have two populations, from which we select a random sample of size \(n_1\) and \(n_2\). We let \(\widebar{X}_1\) and \(S_1^2\) denote the sample mean and unbiased estimator for variance, respectively, for the first sample. Similarly define \(\widebar{X}_2\) and \(S_2^2\), for the second sample.
     \begin{center}
       \begin{tabular}{|Sc|Sc|}
         \hline
@@ -241,7 +239,6 @@
          \hline
       \end{tabular}
     \end{center}
-    \item Let \(0<\alpha<1\)
   \end{itemize}
 \end{stbox}
 The following definition is found in 
@@ -277,7 +274,7 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
     \href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{(Hogg-McKean-Craig)}
     \item Let \(X\) be a Bernoulli random variable with probability of success \(p\), where \(X\) is 1 or 0 if the outcome is success or failure, respectively. Suppose \(X_1,X_2,\dots,X_n\) is a random sample from the distribution of \(X\), where \(n\) is large. Let \(\hat{p}=\widebar{X}\) be the sample proportion of successes. Then, an approximate \((1-\alpha)100\%\) confidence interval for \(p\) is given by 
     \[\left( \hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\,,\ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \right).\]
-    (Letting \(Y=X_1+X_2+\dots+X_n\sim \operatorname{B}(n,p)\) gives \(\hat{p}=Y/n\), which is the phrasing used by the school's notes.) 
+    (Letting \(Y=X_1+X_2+\dots+X_n\sim \operatorname{B}(n,p)\) gives \(\hat{p}=Y/n\), which is the presentation used in the school's notes.) 
 
     \href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{(Hogg-McKean-Craig)}
   \end{itemize}
