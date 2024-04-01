@@ -83,6 +83,12 @@
 \newpagestyle{mystyle}
 {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
 
+\RequirePackage{subfiles}
+\renewcommand*{\thefootnote}{\arabic{footnote}}
+\RequirePackage[inline]{enumitem}
+\usepackage{animate}
+\usepackage{nicematrix}
+
 \renewcommand\thesection{\thechapter.\arabic{section}}
 \renewcommand\thechapter{\arabic{chapter}}
 
@@ -93,7 +99,3 @@
     filecolor=magenta,      
     urlcolor=cyan,
     }
-\RequirePackage{subfiles}
-\renewcommand*{\thefootnote}{\arabic{footnote}}
-\RequirePackage[inline]{enumitem}
-\usepackage{animate}

@@ -578,12 +578,12 @@ So, rearranging, we have
     \item Deriving the equation \(I=nAvq\):
     \begin{enumerate}
         \item Assume that the \emph{current is constant}. Then, \(I=\frac{Q}{t}\).
-        \item Assume that there are \(N\) charge carriers, \emph{each} carrying carry an \emph{equal amount of charge} \(q\). Then, the \emph{total charge} that passes through a cross-sectional area \(A\) is
+        \item Assume that there are \(N\) charge carriers passing through a cross-sectional area \(A\) in time \(t\), and that \emph{each} of them carries an \emph{identical amount of charge} \(q\). Then, the \emph{total charge} that passing through \(A\) in time \(t\) is
         \[Q=Nq.\]
-        \item Assume that the \emph{number density} \(n\) of charge carriers is \emph{uniform}. Then, the number of charge carriers passing through \(A\) in a time interval \(t\) is 
-        \[N=nV,\]
-        for the volume \(V\) covered by the current in that time.
-        \item But \(V\) is just \(A\Delta x\). Moreover, since the current travels at some velocity \(v\), we have \[V=A\Delta x=Avt\]
+        \item Assume that the \emph{number density} \(n\) of charge carriers is \emph{uniform}, and let \(V\) be the volume covered by the current in time \(t\). Thus,
+        \[N=nV.\]
+        \item Furthermore, since the current travels at some velocity \(v\),
+        \[V=A\Delta x=Avt.\]
         \item Therefore, 
         \[I=\frac{Q}{t}=\frac{Nq}{t}=\frac{nVq}{t}=\frac{nAvtq}{t}=nAvq.\]
     \end{enumerate}
@@ -1038,12 +1038,33 @@ Some nice images:
         \item Find the mean square value \(\langle I^2 \rangle\) (or \(\langle V^2 \rangle\)). This is just the area under the graph of \(I^2\) (or \(V^2\)) against \(t\) in one period.
         \item Square root the value obtained above.
     \end{enumerate}
-    \item Note that for a \emph{full wave sinusoidal} alternating current, 
-    \[\langle P \rangle=\frac{1}{2}P_0.\]
+    \item Note that for a \emph{full wave sinusoidal} alternating current (which an be assumed unless otherwise stated), 
+    \[\langle P \rangle=\frac{1}{2}P_0,\qquad V_{\text{rms}}=\frac{1}{\sqrt{2}}V_0,\quad\text{and}\quad I_{\text{rms}}=\frac{1}{\sqrt{2}}I_0.\]
+    \item Transformers. Let \(N_P\), \(V_P\), and \(I_P\) be the number of turns, voltage, and current, respectively, in the primary winding. Similarly define \(N_S\), \(V_S\), and \(I_S\) for the secondary winding. Then,
+    \[\frac{N_S}{N_P}=\frac{V_S}{V_P}=\frac{I_S}{I_P}.\]
+    (To quickly determine which side carries a greater voltage, we can use the principle of `more turns, more voltage'.)
+    \item A step up transformer is one that increases voltage, i.e. \(V_S>V_P\) (or \(N_S>N_P\)).
+    \item A step down transformer is one that decreases voltage, i.e. \(V_P>V_S\) (or \(N_P>N_S\)).
     \begin{center}
-        \includegraphics[width=\textwidth-25pt]{../images/Transformer/TransformerCropped.pdf}
-        % \captionof{figure}{Transformer with $\lWind$~windings on the primary side and $\rWind$~windings on the secondary side.}
+        \includegraphics[width=\textwidth-30pt]{../images/Transformer/TransformerCropped.pdf}
+        \captionsetup{type=figure}
+        \captionof{figure}{\ref{Transformer} A step-up transformer with \(N_P=40\) and \(N_S=80\).}
     \end{center}
+    \begin{center}
+        \includegraphics[width=\textwidth-30pt]{../images/Another-Transformer/Another-Transformer.pdf}
+        \captionsetup{type=figure}
+        \captionof{figure}{\ref{Another Transformer} Another step-up transformers.}
+    \end{center}
+    \item Transformers cannot be used for \emph{constant} direct current. Since there is no change in voltage/current, no emf will be (constantly) induced in the secondary coil. 
+    \item When the direct current varies, however, there will be an \emph{alternating} current induced.
+    \item Energy loss in a transformer.
+    \begin{enumerate}
+        \item Winding resistance. Current flowing through the windings causes \emph{resistive heating} of the conductors.
+        \item Hysteresis losses. Each time the \emph{magnetic field is reversed}, a small amount of energy is lost due to hysteresis within the core.
+        \item Magnetostriction. Magnetic flux in a ferromagnetic fore causes it to physically expand and contract slightly with each cycle of the magnetic field. This produces a \emph{buzzing sound} and can cause losses due to \emph{frictional heating}.
+        \item Mechanical losses. The alternating magnetic field causes fluctuating forces between the primary and secondary windings. These cause vibrations within nearby metalwork, adding to the \emph{buzzing noise} and \emph{consuming a small amount of power}.
+    \end{enumerate}
+    \item Power is typically transmitted at high voltages to minimise the power lost during transmission.
 \end{itemize}
 \chapter{Bibliography}
 The copyrights belong solely to their respective owners. The images used mostly fall under the CC-BY-SA-3.0 or CC-BY-SA-4.0 licenses. Please contact me if you would like your work removed from these notes, or have you attribution reworked. 
@@ -1071,5 +1092,6 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{Faraday's Paradox} Faraday's Paradox (Made by me, Grass, in my iPad's native Notes app.)
     \item\label{Varying direct current} Varying direct currents \url{https://www.desmos.com/calculator} (Made by me, Grass.)
     \item\label{Transformer} Transformer \url{https://tex.stackexchange.com/a/158815}
+    \item\label{Another Transformer} Another Transformer \url{https://tex.stackexchange.com/a/321965}
 \end{enumerate}
 \end{document}
