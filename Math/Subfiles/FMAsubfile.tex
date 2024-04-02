@@ -120,12 +120,43 @@ Such that the following properties hold:
             From here, it is simple to choose bases \(\gamma\subseteq\Gamma\) and \(\delta\subseteq\Delta\) for \(V\cap W\). 
             
             (Naturally, it holds that \(\mathbf{A}\mathbf{u_i}+\mathbf{B}\mathbf{u'_i}=0\).)
-            \item \href{https://math.stackexchange.com/a/802878}{An alternative method}. We again reduce the matrix 
+            \item An alternative method. By row reduction, we can calculate
+            \begin{align*}
+                r\coloneq\dim(V\cap W)&=\dim(U)+\dim(V)-\dim(U+V),\\
+                &=\rank(\mathbf{A})+\rank(\mathbf{B})-\rank
+                \begin{pmatrix}
+                    \mathbf{A}&\mathbf{B}
+                \end{pmatrix},\\
+                &=\rank\left(\mathbf{A}^\top\right)+\rank\left(\mathbf{B}^\top\right)-\rank
+                \begin{pmatrix}
+                    \mathbf{A}^\top\\
+                    \mathbf{B}^\top
+                \end{pmatrix}.
+            \end{align*}
+            Then, a basis for \(V\cap W\) can be formed by choosing \(r\) linearly independent columns of 
             \(\begin{pmatrix}
                 \mathbf{A}&\mathbf{B}
+            \end{pmatrix}\),
+             or rows of \(\begin{pmatrix}
+                \mathbf{A}^\top\\
+                \mathbf{B}^\top
             \end{pmatrix}\).
-            Then, we simply compare the columns of \(A\) and \(B\).
-            \item \href{https://math.stackexchange.com/a/4837004}{A third method} for when I learn about orthogonal complements. 
+            \item \href{https://math.stackexchange.com/a/802878}{Another alternative}. Skip the row reduction of \(\mathbf{A}\) and \(\mathbf{B}\) in the above method. We just reduce
+            \[\begin{pmatrix}
+                \mathbf{A}&\mathbf{B}
+            \end{pmatrix}\to
+            \begin{pmatrix}
+                \mathbf{A'}&\mathbf{B'}
+            \end{pmatrix}.\]
+            Let \(\mathbf{c_i}\) and \(\mathbf{c'_i}\) be the \(i\)th column of 
+            \(\begin{pmatrix}
+                \mathbf{A}&\mathbf{B}
+            \end{pmatrix}\) and
+            \(\begin{pmatrix}
+                \mathbf{A'}&\mathbf{B'}
+            \end{pmatrix}\), respectively.
+            We compare the columns of \(A'\) and \(B'\) to find (with relative ease) a basis \(\beta'\coloneq\left\{\mathbf{c'_{i_1}},\mathbf{c'_{i_2}},\dots,\mathbf{c'_{i_r}}\right\}\) for the intersection of the column spaces of \(A'\) and \(B'\). Then, \(\beta\coloneq\{\mathbf{c_{i_1}},\mathbf{c_{i_2}},\dots,\mathbf{c_{i_r}}\}\) is a basis for \(V\cap W\) (the intersection of the column spaces of \(A\) and \(B\)).
+            \item \href{https://math.stackexchange.com/a/4837004}{A fourth method} for when I learn about orthogonal complements. 
             \item The determinant of a square matrix can be evaluated by cofactor expansion along any row. That is, if \(\mathbf{A} \in \mathrm{M}_{n\times n}(\mathbb{F})\), then for any integer \(1\leq i\leq n\),
             \[\det(\mathbf{A})=\sum_{j=1}^{n}{(-1)}^{i+j}\mathbf{A}_{ij}\cdot \det(\widetilde{\mathbf{A}}_{ij}).\] 
             Here, \(\widetilde{\mathbf{A}}_{ij}\) is the \((n-1)\times(n-1)\) matrix obtained from \(\mathbf{A}\) by deleting its \(i\)th row and \(j\)th column.

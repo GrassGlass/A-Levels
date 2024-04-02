@@ -62,11 +62,6 @@
 
     \emph{Note}: \(Z\) is reserved for this purpose.
     \item Let \(X \in \operatorname{N}(\mu,\sigma^2)\). Then, \(\frac{X-\mu}{\sigma}\) follows the standard normal distribution. 
-    \item A continuous random variable \(X\) has a \emph{uniform distribution} over the interval \((a,b)\), which is denoted by \(X \sim \operatorname{U}(a,b)\), iff its pdf \(f\) is such that
-    \[f(x)=\begin{cases}
-      \frac{1}{b-a} &\text{if \(a<x<b\),}\\
-      0 &\text{otherwise.}
-    \end{cases}\] 
     \item What \texttt{Tail} do we select for \texttt{invNorm}?
     \begin{center}
       \begin{tabular}{|Sc|Sc|}
@@ -103,17 +98,28 @@
     \includegraphics[width=\textwidth]{../images/Special-Continuous-Random-Variables-Example-Illustration.jpg}
   \end{center}
 \end{example}
-\begin{stbox}{}
-  \begin{itemize}
-    \setcounter{enumi}{7}
-    \item A continuous random variable \(Y\) has an (negative) exponential distribution, which we denote with \(Y\sim \operatorname{Exp}(\lambda)\), iff its pdf \(g\) is such that
+\begin{definition}{}
+  A continuous random variable \(X\) has a \emph{uniform distribution} over the interval \((a,b)\), which is denoted by \(X \sim \operatorname{U}(a,b)\), iff its pdf \(f\) is such that
+    \[f(x)=\begin{cases}
+      \frac{1}{b-a} &\text{if \(a<x<b\),}\\
+      0 &\text{otherwise.}
+    \end{cases}\] 
+\end{definition}
+\begin{definition}{}
+  A continuous random variable \(Y\) has an (negative) exponential distribution, which we denote with \(Y\sim \operatorname{Exp}(\lambda)\), iff its pdf \(g\) is such that
     \[g(Y)=
     \begin{cases}
-      \lambda e^{-\lambda x} &\text{if \(x\geq 0\)}\\
+      \lambda e^{-\lambda x} &\text{if \(x\geq 0\)},\\
       0 &\text{otherwise.}
     \end{cases}\]
+\end{definition}
+\begin{note}
+  Let \(Y \sim \operatorname{Exp}(\lambda)\), then
+  \[\Prob(Y>z+y \,\vert\, Y>y)=\Prob(Y>z).\]
+\end{note}
+\begin{stbox}{}
+  \begin{itemize}
     \item Expectation and variance:
-
     \begin{center}
       \begin{tabular}{|Sc|Sc|Sc|}
         \hline
@@ -319,6 +325,119 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \end{tabular}
   \end{center}
 \end{GCSkills}
+
+\chapter{Statistics: Hypothesis Testing}
+\begin{definition}{}{}
+  The \emph{null hypothesis} \(H_0\) and \emph{alternative hypothesis} \(H_1\) is the hypotheses that we hope to reject and accept, respectively. 
+\end{definition}
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item Without going into details, a \emph{critical region} \(C\) is just a set that defines the decision rule / test 
+    \begin{center}
+      Reject \(H_0\) (Accept \(H_1\)) \quad if \((X_1,X_2,\dots,X_n)\in C\),
+    \end{center}
+    for any random sample \(X_1,X_2,\dots,X_n\) from the distribution of a random variable \(X\).
+  \end{itemize}
+\end{stbox}
+\begin{definition}{}{}
+  The \emph{significance level} \(\alpha\cdot100\%\) of a test is the probability of rejecting \(H_0\) when it is in fact true. i.e. \(\alpha=\Prob(H_0\text{ is rejected}\,\vert\,H_0\text{ is true})\).
+\end{definition}
+\begin{definition}{}{}
+  The \emph{\(p\)-value} is the lowest level of significance for which the null hypothesis will be rejected. In other words, for the null hypotheses
+    \begin{center}
+      \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
+        \item \(\mu<\mu_0\),
+        \item \(\mu \neq \mu_0\),
+        \item \(\mu>\mu_0\),
+      \end{enumerate*}
+    \end{center}
+    we have
+    \begin{center}
+      \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
+        \item \(p\text{-value}=\Prob(Z\leq z_\text{calc})\),
+        \item \(p\text{-value}=\Prob(\lvert Z \rvert\leq \lvert z_\text{calc} \rvert)\),
+        \item \(p\text{-value}=\Prob(Z\geq z_\text{calc})\).
+      \end{enumerate*}
+    \end{center}
+\end{definition}
+\begin{stbox}{}
+  \begin{itemize}
+    \item Large sample test for the mean. Steps:
+    \begin{enumerate}
+      \item 
+      \begin{tabular}{ll}
+        Test & \(H_0\colon\mu=\mu_0\)\\
+        against &\(H_1\colon\) 
+        \begin{enumerate*}[itemjoin={\quad}]
+          \item \(\mu<\mu_0\),
+          \item \(\mu \neq \mu_0\),\quad or
+          \item \(\mu>\mu_0\).
+        \end{enumerate*}
+      \end{tabular}
+      \item Under \(H_0\), we have \(\widebar{X}\sim \Normal(\mu_0,\hat{\sigma}^2/n)\) approximately. Or, if \(\sigma^2\) is known exactly, then by CLT \(\widebar{X}\sim \Normal(\mu_0,\sigma^2/n)\) approximately.
+      \item Test statistic: 
+      \[Z=\frac{\widebar{X}-\mu_0}{\sigma/\sqrt{n}}\sim\Normal(0,1).\]
+    \end{enumerate}
+      \begin{minipage}[t]{0.45\textwidth}
+        \begin{enumerate}
+          \setcounter{enumi}{3}
+          \item Find \(z_{1-\alpha}\) or \(z_{1-\alpha/2}\), which satisfies
+          \begin{enumerate}
+            \item \(\Prob(Z<z_{1-\alpha/2})=\alpha\), 
+            \item \(\Prob(-z_{1-\alpha}<Z<z_{1-\alpha})=\alpha\), or
+            \item \(\Prob(Z>z_{1-\alpha/2})\).
+          \end{enumerate}
+          \item Find the test statistic value 
+          \[z_\text{calc}=\frac{\hat{\mu}-\mu_0}{\sigma/\sqrt{n}}.\]
+          \item Reject \(H_0\) iff 
+          \begin{enumerate}
+            \item \(z_\text{calc}<z_{1-\alpha}\),
+            \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\), or
+            \item \(z_\text{calc}>z_{1-\alpha}\).
+          \end{enumerate}
+        \end{enumerate}
+      \end{minipage}
+      \begin{minipage}[t]{0.45\textwidth}
+        \begin{enumerate}
+          \setcounter{enumi}{3}
+          \item Find the \(p\)-value using GC.
+          \item Reject \(H_0\) iff \(p\)-value is less than \(\alpha\).
+        \end{enumerate}
+        \vfill
+        \begin{GCSkills}{}
+          Calculating the \(p\)-value of a sample.
+          \begin{center}
+            \texttt{stat \(\Longrightarrow\) TESTS \(\Longrightarrow\) 1:Z-Test.}
+          \end{center}
+        \end{GCSkills}
+      \end{minipage}
+      \item If we have a null hypothesis
+      \begin{center}
+        \(H_0\colon\mu\leq\mu_0\)\quad or\quad \(H_0\colon\mu\geq\mu_0\),
+      \end{center}
+      we can just use \(H_0\colon\mu=\mu_0\) instead.
+  \end{itemize}
+\end{stbox}
+\begin{note}
+  Standard phrasing for rejecting \(H_0\).
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      Since\quad
+      \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
+        \item \(z_\text{calc}<z_{1-\alpha}\),
+        \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\),
+        \item \(z_\text{calc}>z_{1-\alpha}\),\quad or\quad \(p\text{-value}<\alpha\),
+      \end{enumerate*}
+      the value \(z_\text{calc}\) lies in the critical region. We thus reject \(H_0\) and conclude that there is sufficient evidence at significance level \(\alpha\cdot 100\%\) that [\(H_1\) in context].}
+  \end{center}
+  For \emph{not} rejecting \(H_0\), simply change to the appropriate inequality (such that \(z_\text{calc}\) is outside the critical region) and write ``insufficient'' instead of ``sufficient''.
+\end{note}
+% \begin{definition}{}{}
+%   We say a critical region \(C\) is of \emph{size} \(\alpha\) if 
+%   \[\alpha=\max_{\theta\in\omega_0}P_\theta[(X_1,X_2,\dots,X_n)\in C].\]
+%   In our syllabus, \(\alpha\cdot100\%\) is called the \emph{significance level}.
+% \end{definition}
+
 \chapter{Correlation and Linear Regression}
 \begin{note}
   A good scatter diagram should follow the guidelines below.
