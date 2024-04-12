@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  1 APR 2024 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  12 APR 2024 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1968,11 +1968,11 @@ LaTeX Font Info:    Font shape `U/zeur/m/n' will be
 (Font)              scaled to size 10.5pt on input line 883.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
 (Font)              scaled to size 7.9pt on input line 883.
-<../images/Left-Right-Hand-Rules/Left-hand-rule.pdf, id=565, 237.52339pt x 250.4818pt>
-File: ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf Graphic file (type pdf)
-<use ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf>
-Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Left-hand-rule.pdf  used on input line 891.
-(pdftex.def)             Requested size: 171.99922pt x 181.38634pt.
+<../images/Left-Right-Hand-Rules/Left-hand-rule.png, id=565, 955.31906pt x 724.20563pt>
+File: ../images/Left-Right-Hand-Rules/Left-hand-rule.png Graphic file (type png)
+<use ../images/Left-Right-Hand-Rules/Left-hand-rule.png>
+Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Left-hand-rule.png  used on input line 891.
+(pdftex.def)             Requested size: 215.0023pt x 162.98343pt.
 <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf, id=566, 147.31938pt x 212.54205pt>
 File: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf Graphic file (type pdf)
 <use ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf>
@@ -1991,67 +1991,67 @@ File: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf Graphic file (type pdf
 <use ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf>
 Package pdftex.def Info: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf  used on input line 908.
 (pdftex.def)             Requested size: 215.0023pt x 203.5452pt.
- [30 <../images/Left-Right-Hand-Rules/Left-hand-rule.pdf> <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf> <../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>]
-<../images/Solenoid.pdf, id=648, 368.87813pt x 150.5625pt>
+ [30 <../images/Left-Right-Hand-Rules/Left-hand-rule.png> <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf> <../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>]
+<../images/Solenoid.pdf, id=623, 368.87813pt x 150.5625pt>
 File: ../images/Solenoid.pdf Graphic file (type pdf)
 <use ../images/Solenoid.pdf>
 Package pdftex.def Info: ../images/Solenoid.pdf  used on input line 914.
 (pdftex.def)             Requested size: 387.00153pt x 157.95973pt.
-<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=651, page=1, 193.28511pt x 70.33377pt>
+<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=626, page=1, 193.28511pt x 70.33377pt>
 File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphic file (type pdf)
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 1>
 Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page1 used on input line 934.
 (pdftex.def)             Requested size: 289.92696pt x 105.50038pt.
  [31 <../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf> <../images/Solenoid.pdf>]
-<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=665, page=2, 223.68066pt x 82.53435pt>
+<../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=641, page=2, 223.68066pt x 82.53435pt>
 File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphic file (type pdf)
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 2>
 Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page2 used on input line 936.
 (pdftex.def)             Requested size: 335.52017pt x 123.8012pt.
-<../images/Velocity-Selector/Velocity-Selector.pdf, id=669, page=1, 165.33469pt x 190.77473pt>
+<../images/Velocity-Selector/Velocity-Selector.pdf, id=645, page=1, 165.33469pt x 190.77473pt>
 File: ../images/Velocity-Selector/Velocity-Selector.pdf Graphic file (type pdf)
 <use ../images/Velocity-Selector/Velocity-Selector.pdf, page 1>
 Package pdftex.def Info: ../images/Velocity-Selector/Velocity-Selector.pdf , page1 used on input line 950.
 (pdftex.def)             Requested size: 174.14949pt x 200.95105pt.
-<../images/Velocity-Selector/Velocity-Selector.pdf, id=670, page=2, 182.96857pt x 184.18813pt>
+<../images/Velocity-Selector/Velocity-Selector.pdf, id=646, page=2, 182.96857pt x 184.18813pt>
 File: ../images/Velocity-Selector/Velocity-Selector.pdf Graphic file (type pdf)
 <use ../images/Velocity-Selector/Velocity-Selector.pdf, page 2>
 Package pdftex.def Info: ../images/Velocity-Selector/Velocity-Selector.pdf , page2 used on input line 952.
 (pdftex.def)             Requested size: 193.50076pt x 194.80563pt.
  [32 <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf>] [33 <../images/Velocity-Selector/Velocity-Selector.pdf> <../images/Velocity-Selector/Velocity-Selector.pdf>]
-<../images/Bar-Magnet/Cropped/1.pdf, id=738, 196.53224pt x 512.1534pt>
+<../images/Bar-Magnet/Cropped/1.pdf, id=716, 196.53224pt x 512.1534pt>
 File: ../images/Bar-Magnet/Cropped/1.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/1.pdf>
 Package pdftex.def Info: ../images/Bar-Magnet/Cropped/1.pdf  used on input line 961.
 (pdftex.def)             Requested size: 196.53175pt x 512.15215pt.
-<../images/Bar-Magnet/Cropped/2.pdf, id=739, 196.53224pt x 512.1534pt>
+<../images/Bar-Magnet/Cropped/2.pdf, id=717, 196.53224pt x 512.1534pt>
 File: ../images/Bar-Magnet/Cropped/2.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/2.pdf>
 Package pdftex.def Info: ../images/Bar-Magnet/Cropped/2.pdf  used on input line 962.
 (pdftex.def)             Requested size: 196.53175pt x 512.15215pt.
-<../images/Bar-Magnet/Cropped/3.pdf, id=740, 307.55pt x 290.11787pt>
+<../images/Bar-Magnet/Cropped/3.pdf, id=718, 307.55pt x 290.11787pt>
 File: ../images/Bar-Magnet/Cropped/3.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/3.pdf>
 Package pdftex.def Info: ../images/Bar-Magnet/Cropped/3.pdf  used on input line 963.
 (pdftex.def)             Requested size: 210.70462pt x 198.76053pt.
-<../images/Bar-Magnet/Cropped/4.pdf, id=741, 307.55pt x 290.11787pt>
+<../images/Bar-Magnet/Cropped/4.pdf, id=719, 307.55pt x 290.11787pt>
 File: ../images/Bar-Magnet/Cropped/4.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/4.pdf>
 Package pdftex.def Info: ../images/Bar-Magnet/Cropped/4.pdf  used on input line 964.
 (pdftex.def)             Requested size: 210.70462pt x 198.76053pt.
  [34 <../images/Bar-Magnet/Cropped/1.pdf> <../images/Bar-Magnet/Cropped/2.pdf> <../images/Bar-Magnet/Cropped/3.pdf> <../images/Bar-Magnet/Cropped/4.pdf>]
 Chapter 16.
-<../images/Lenz's-Law/Lenz's-Law.pdf, id=838, page=4, 185.21597pt x 126.30386pt>
+<../images/Lenz's-Law/Lenz's-Law.pdf, id=816, page=4, 185.21597pt x 126.30386pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 4>
 Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page4 used on input line 985.
 (pdftex.def)             Requested size: 171.99922pt x 117.29755pt.
-<../images/Lenz's-Law/Lenz's-Law.pdf, id=839, page=5, 216.50787pt x 126.30386pt>
+<../images/Lenz's-Law/Lenz's-Law.pdf, id=817, page=5, 216.50787pt x 126.30386pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 5>
 Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page5 used on input line 986.
 (pdftex.def)             Requested size: 193.50076pt x 112.88417pt.
-<../images/Lenz's-Law/Lenz's-Law.pdf, id=840, page=3, 167.5871pt x 91.75781pt>
+<../images/Lenz's-Law/Lenz's-Law.pdf, id=818, page=3, 167.5871pt x 91.75781pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 3>
 Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page3 used on input line 987.
@@ -2059,24 +2059,24 @@ Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page3 used on inp
 [35
 
  <../images/Lenz's-Law/Lenz's-Law.pdf> <../images/Lenz's-Law/Lenz's-Law.pdf> <../images/Lenz's-Law/Lenz's-Law.pdf>]
-<../images/Lenz's-Law/Lenz's-Law.pdf, id=876, page=1, 165.09178pt x 105.24821pt>
+<../images/Lenz's-Law/Lenz's-Law.pdf, id=854, page=1, 165.09178pt x 105.24821pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 1>
 Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page1 used on input line 996.
 (pdftex.def)             Requested size: 224.4616pt x 143.10837pt.
-<../images/Lenz's-Law/Lenz's-Law.pdf, id=877, page=2, 103.09917pt x 124.39474pt>
+<../images/Lenz's-Law/Lenz's-Law.pdf, id=855, page=2, 103.09917pt x 124.39474pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 2>
 Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page2 used on input line 998.
 (pdftex.def)             Requested size: 143.18866pt x 172.7734pt.
-<../images/Faraday’s-Paradox.png, id=880, 805.0075pt x 964.60374pt>
+<../images/Faraday’s-Paradox.png, id=858, 805.0075pt x 964.60374pt>
 File: ../images/Faraday’s-Paradox.png Graphic file (type png)
 <use ../images/Faraday’s-Paradox.png>
 Package pdftex.def Info: ../images/Faraday’s-Paradox.png  used on input line 1018.
 (pdftex.def)             Requested size: 171.99922pt x 206.09052pt.
  [36 <../images/Lenz's-Law/Lenz's-Law.pdf> <../images/Lenz's-Law/Lenz's-Law.pdf> <../images/Faraday’s-Paradox.png>]
 Chapter 17.
-<../images/Varying-Direct-Current.png, id=923, 897.85437pt x 348.80313pt>
+<../images/Varying-Direct-Current.png, id=901, 897.85437pt x 348.80313pt>
 File: ../images/Varying-Direct-Current.png Graphic file (type png)
 <use ../images/Varying-Direct-Current.png>
 Package pdftex.def Info: ../images/Varying-Direct-Current.png  used on input line 1028.
@@ -2084,7 +2084,7 @@ Package pdftex.def Info: ../images/Varying-Direct-Current.png  used on input lin
 [37
 
  <../images/Varying-Direct-Current.png>]
-<../images/Transformer/TransformerCropped.pdf, id=936, 393.98192pt x 264.97092pt>
+<../images/Transformer/TransformerCropped.pdf, id=914, 393.98192pt x 264.97092pt>
 File: ../images/Transformer/TransformerCropped.pdf Graphic file (type pdf)
 <use ../images/Transformer/TransformerCropped.pdf>
 Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 1049.
@@ -2107,7 +2107,7 @@ LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1051.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1051.
-<../images/Another-Transformer/Another-Transformer.pdf, id=939, 270.64713pt x 188.47214pt>
+<../images/Another-Transformer/Another-Transformer.pdf, id=917, 270.64713pt x 188.47214pt>
 File: ../images/Another-Transformer/Another-Transformer.pdf Graphic file (type pdf)
 <use ../images/Another-Transformer/Another-Transformer.pdf>
 Package pdftex.def Info: ../images/Another-Transformer/Another-Transformer.pdf  used on input line 1054.
@@ -2132,28 +2132,22 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: D37B75C42D6FFABD723C2B3BD17523A9;2321.
  ) 
 Here is how much of TeX's memory you used:
- 39408 strings out of 475237
- 786408 string characters out of 5768555
+ 39407 strings out of 475237
+ 786377 string characters out of 5768555
  1940238 words of memory out of 5000000
  59610 multiletter control sequences out of 15000+600000
  697929 words of font info for 297 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,17n,131p,462b,1563s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Item.83} has been referenced but does not exist, replaced by a fixed one
-
-<c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (41 pages, 27650430 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on ALPhys.pdf (41 pages, 27727192 bytes).
 PDF statistics:
- 1183 PDF objects out of 1200 (max. 8388607)
- 844 compressed objects within 9 object streams
- 190 named destinations out of 1000 (max. 500000)
+ 1158 PDF objects out of 1200 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 189 named destinations out of 1000 (max. 500000)
  520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
