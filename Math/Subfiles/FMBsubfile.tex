@@ -362,7 +362,7 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 \end{definition}
 \begin{stbox}{}
   \begin{itemize}
-    \item Large sample test for the mean. Steps:
+    \item A large sample hypothesis test for the mean.
     \begin{enumerate}
       \item 
       \begin{tabular}{ll}
@@ -371,8 +371,9 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
         \begin{enumerate*}[itemjoin={\quad}]
           \item \(\mu<\mu_0\),
           \item \(\mu \neq \mu_0\),\quad or
-          \item \(\mu>\mu_0\).
-        \end{enumerate*}
+          \item \(\mu>\mu_0\),
+        \end{enumerate*}\\
+        \multicolumn{2}{l}{at the \(100\alpha\%\) significance level.}
       \end{tabular}
       \item Under \(H_0\), we have \(\widebar{X}\sim \Normal(\mu_0,\hat{\sigma}^2/n)\) approximately. Or, if \(\sigma^2\) is known exactly, then by CLT \(\widebar{X}\sim \Normal(\mu_0,\sigma^2/n)\) approximately.
       \item Test statistic: 
@@ -404,12 +405,16 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
           \item Reject \(H_0\) iff \(p\)-value is less than \(\alpha\).
         \end{enumerate}
         \vfill
-        \begin{GCSkills}{}
-          Calculating the \(p\)-value of a sample.
-          \begin{center}
-            \texttt{stat \(\Longrightarrow\) TESTS \(\Longrightarrow\) 1:Z-Test.}
-          \end{center}
-        \end{GCSkills}
+        \begin{flushright}
+          \begin{minipage}{0.8\textwidth}
+            \begin{GCSkills}{}
+              Calculating the \(p\)-value of a sample.
+              \begin{center}
+                \texttt{stat \(\Longrightarrow\) TESTS \(\Longrightarrow\) 1:Z-Test.}
+              \end{center}
+            \end{GCSkills}
+          \end{minipage}
+        \end{flushright}
       \end{minipage}
       \item If we have a null hypothesis
       \begin{center}
