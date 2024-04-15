@@ -98,20 +98,21 @@
     \includegraphics[width=\textwidth]{../images/Special-Continuous-Random-Variables-Example-Illustration.jpg}
   \end{center}
 \end{example}
-\begin{definition}{}
+\begin{definition}{}{}
   A continuous random variable \(X\) has a \emph{uniform distribution} over the interval \((a,b)\), which is denoted by \(X \sim \operatorname{U}(a,b)\), iff its pdf \(f\) is such that
     \[f(x)=\begin{cases}
       \frac{1}{b-a} &\text{if \(a<x<b\),}\\
       0 &\text{otherwise.}
     \end{cases}\] 
 \end{definition}
-\begin{definition}{}
+\begin{definition}{}{}
   A continuous random variable \(Y\) has an (negative) exponential distribution, which we denote with \(Y\sim \operatorname{Exp}(\lambda)\), iff its pdf \(g\) is such that
     \[g(Y)=
     \begin{cases}
       \lambda e^{-\lambda x} &\text{if \(x\geq 0\)},\\
       0 &\text{otherwise.}
     \end{cases}\]
+  (An exponential distribution models time between occurrences.)
 \end{definition}
 \begin{note}
   Let \(Y \sim \operatorname{Exp}(\lambda)\), then
@@ -133,6 +134,10 @@
     \end{center}
     \emph{Note}: We need to remember the expectation and variance for the uniform distribution, as it is not provided in the MF26 formula sheet (unlike all other distributions).
     \item \emph{Warning}: The G.C. tends to incorrectly process an integral if its upper and lower bounds contain \(\pm \text{E}99\).
+    \item Let \(T\) be the time taken between two consecutive arrivals and \(\#\sim\operatorname{Po}(\lambda t)\) the number of arrivals in time \(t\). Then, 
+    \[\Prob(T>t)=\Prob(\#=0)=e^{-4t}.\]
+    As such, the probability that there is at least one arrival in an interval of time \(t\) is 
+    \[\Prob(T\leq t)=1-e^{-4t}.\]  
   \end{itemize}
 \end{stbox}
 \chapter{Sampling and Estimation}
