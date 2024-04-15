@@ -27,53 +27,82 @@ Such that the following properties hold:
     \item \label{(VS 8)}(Distributivity of Scalar Multiplication over Field Addition) For all elements \(a,b \in \mathbb{F}\), and elements \(\mathbf{x} \in V\), we have \((a+b)\mathbf{x}=a\mathbf{x}+b\mathbf{x}\).
 \end{enumerate}
 \end{definition}
-    \begin{stbox}{General Information}
-        \begin{itemize}
-            \item  Let \(V\) be a vector space and \(W\) a subset of \(V\). Then \(W\) is a subspace of \(V\) iff the following 3 conditions hold for the operations defined in V.
+\begin{theorem}{}{}
+    Let \(V\) be a vector space and \(W\) a subset of \(V\). Then \(W\) is a subspace of \(V\) iff the following 3 conditions hold for the operations defined in V.
             \begin{enumerate}[label=(\alph*)]
                 \item \(\mathbf{0} \in W\) \label{Theorem 1.3(a)}
                 \item \(\mathbf{x}+\mathbf{y} \in W\) whenever \(\mathbf{x} \in W\) and \(\mathbf{y} \in W\). \label{Theorem 1.3(b)}
                 \item \(c\mathbf{x} \in W\) whenever \(c \in \mathbb{F}\) and \(\mathbf{x} \in W\). \label{Theorem 1.3(c)}
             \end{enumerate}
-            \item A subset \(S\) of a vector space \(V\) \emph{generates} (or \emph{spans}) \(V\) iff \(\Span(S)=V\). In this case, we also say that the vectors of \(S\) generate (or span) \(V\).
-            \item Let \(V\) be a vector space and \(S\) a nonempty subset of \(V\). A vector \(v \in V\) is called a \emph{linear combination} of vectors of \(S\) iff there exists a finite number of vectors \(u_1,u_2,\dots,u_n\) in \(S\) and scalars \(a_1,a_2,\dots,a_n\) in \(\mathbb{F}\) such that
+\end{theorem}
+\begin{definition}{}{}
+    A subset \(S\) of a vector space \(V\) \emph{generates} (or \emph{spans}) \(V\) iff \(\Span(S)=V\). In this case, we also say that the vectors of \(S\) generate (or span) \(V\).
+\end{definition}
+\begin{definition}{}{}
+    Let \(V\) be a vector space and \(S\) a nonempty subset of \(V\). A vector \(v \in V\) is called a \emph{linear combination} of vectors of \(S\) iff there exists a finite number of vectors \(u_1,u_2,\dots,u_n\) in \(S\) and scalars \(a_1,a_2,\dots,a_n\) in \(\mathbb{F}\) such that
             \[v=\sum_{i=1}^{n}{a_iu_i}.\]
             In this case we also say that \(v\) is a linear combination of \(u_1,u_2,\dots,u_n\) and call \(a_1,a_2,\dots,a_n\) the \emph{coefficients} of the linear combination
-            \item A set subset \(S\) of a vector space \(V\) is called \emph{linearly dependent} iff there exists a finite number of distinct vectors \(u_1,u_2,\dots,u_n\)in \(S\) and scalars \(a_1,a_2,\dots,a_n\) not all zero, such that
+\end{definition}
+\begin{definition}{}{}
+    A set subset \(S\) of a vector space \(V\) is called \emph{linearly dependent} iff there exists a finite number of distinct vectors \(u_1,u_2,\dots,u_n\)in \(S\) and scalars \(a_1,a_2,\dots,a_n\) not all zero, such that
             \[a_1u_1+a_2u_2+a_nu_n=\mathbf{0}.\]
-            \item A \emph{basis} \(\beta\) for a vector space \(V\) is a linearly independent subset of \(V\) that generates \(V\). If \(\beta\) is a basis for \(V\), we also say that the vectors of \(\beta\) form a basis for \(V\).
-            \item The Rank-Nullity Theorem: For any vector spaces \(V\) and \(W\), and a linear operator \(T \colon V \to W\), it holds that
-            \[\rank(T)+\nullity(T)=\dim(V).\]
-            \item For any matrix, its row space, column space, and rank are identical.
-            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is \emph{homogeneous} iff \(\mathbf{b}=0\); otherwise it is \emph{nonhomogeneous}.
-            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of \(m\) linear equations in \(n\) unknowns has a solution space of dimension \(n-\rank(A)\).
-            \item A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of linear equations is \emph{consistent} iff its solution set is nonempty; otherwise it is \emph{inconsistent}.
-            \item The Rouché-Capelli theorem: A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is consistent iff \(\rank(\mathbf{A})=\rank(\mathbf{A}\vert \mathbf{b})\).
-            \item A matrix is said to be in \emph{reduced row echelon form} iff
-            \begin{itemize}
-                \item Any row containing a nonzero entry precedes any row in which all the entries are zero (if any).
-                \item The first nonzero entry in each row is the only nonzero entry in its column.
-                \item The first nonzero entry in each row is 1 and it occurs in a column to the right of the first nonzero entry in the preceding row.
-            \end{itemize}
-            \item Gaussian elimination. 
-            \begin{itemize}
-                \item In the forward pass, the augmented matrix is transformed into an upper triangular matrix in which the first nonzero entry of each row is 1 and it occurs in a column to the right of the first nonzero entry
-                of each preceding row.
-                \item  In the backward pass, the upper triangular matrix is transformed into reduced row echelon form by making the first nonzero entry of each row the only nonzero entry of its column.
-            \end{itemize}
-            \item Let \(\mathbf{A}\) be an \(m\times n\) matrix, and \(\mathbf{a}_j\) its \(j\)th column. For any \(\mathbf{x}=
-            \begin{pmatrix}
-                x_1 & x_2 & \cdots & x_n\\
-            \end{pmatrix}^\top\), 
-            \[\mathbf{A}\mathbf{x}=\sum_{j=1}^{n}{x_j}\mathbf{a}_j.\]
-            \item Let \(\mathbf{A}\) and \(\mathbf{B}\) be matrices having \(n\) rows. For any matrix \(\mathbf{M}\) with \(n\) columns, we have
-            \[\begin{pNiceArray}{c|c}
-                \mathbf{A} & \mathbf{B}
-            \end{pNiceArray}=
-            \begin{pNiceArray}{c|c}
-                \mathbf{M}\mathbf{A} & \mathbf{M}\mathbf{B}
-            \end{pNiceArray}.\]
-            \item Finding a basis for an intersection of subspaces. Let \(V\) and \(W\) be subspaces of \(\mathbb{F}^n\) generated by the columns of the \(n\times m\) matrix \(\mathbf{A}\) and \(n\times k\) matrix \(\mathbf{B}\), respectively. To find a basis for the subspace \(V\cap W\), first notice that \(\mathbf{v} \in V\cap W\) iff
+\end{definition}
+\begin{definition}{}{}
+    A \emph{basis} \(\beta\) for a vector space \(V\) is a linearly independent subset of \(V\) that generates \(V\). If \(\beta\) is a basis for \(V\), we also say that the vectors of \(\beta\) form a basis for \(V\).
+\end{definition}
+\begin{theorem}{The Rank-Nullity Theorem.}{}
+    For any vector spaces \(V\) and \(W\), and a linear operator \(T \colon V \to W\), it holds that
+    \[\rank(T)+\nullity(T)=\dim(V).\]
+\end{theorem}
+\begin{definition}{}{}
+    A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is \emph{homogeneous} iff \(\mathbf{b}=0\); otherwise it is \emph{nonhomogeneous}.
+\end{definition}
+\begin{theorem}{}{}
+    For any matrix, its row space, column space, and rank are identical.
+\end{theorem}
+\begin{theorem}{}{}
+    A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of \(m\) linear equations in \(n\) unknowns has a solution space of dimension \(n-\rank(A)\).
+\end{theorem}
+\begin{definition}{}{}
+    A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) of linear equations is \emph{consistent} iff its solution set is nonempty; otherwise it is \emph{inconsistent}.
+\end{definition}
+\begin{theorem}{The Rouché-Capelli Theorem.}{}
+    A system \(\mathbf{A}\mathbf{x}=\mathbf{b}\) is consistent iff \(\rank(\mathbf{A})=\rank(\mathbf{A}\vert \mathbf{b})\).
+\end{theorem}
+\begin{definition}{}{}
+    A matrix is said to be in \emph{reduced row echelon form} iff
+        \begin{itemize}
+            \item Any row containing a nonzero entry precedes any row in which all the entries are zero (if any).
+            \item The first nonzero entry in each row is the only nonzero entry in its column.
+            \item The first nonzero entry in each row is 1 and it occurs in a column to the right of the first nonzero entry in the preceding row.
+        \end{itemize}
+\end{definition}
+\begin{stbox}{General Information}
+    \begin{itemize}
+        \item Gaussian elimination. 
+        \begin{itemize}
+            \item In the forward pass, the augmented matrix is transformed into an upper triangular matrix in which the first nonzero entry of each row is 1 and it occurs in a column to the right of the first nonzero entry
+            of each preceding row.
+            \item  In the backward pass, the upper triangular matrix is transformed into reduced row echelon form by making the first nonzero entry of each row the only nonzero entry of its column.
+        \end{itemize}
+        \item Let \(\mathbf{A}\) be an invertible \(n\times n\) matrix. Then, for some elementary row matrices \(\mathbf{E}_1\) to \(\mathbf{E}_p\),
+        \[\mathbf{E}_p\mathbf{E}_{p-1}\dots \mathbf{E}_1(\mathbf{A} \,\vert\, \mathbf{I}_n)=\mathbf{A}^{-1}(\mathbf{A} \,\vert\, \mathbf{I}_n)=(\mathbf{I}_n \,\vert\, \mathbf{A}^{-1}).\]
+        In other words, we can perform Gaussian elimination, so that \((\mathbf{A} \,\vert\, \mathbf{I}_n)\to (\mathbf{I}_n \,\vert\, \mathbf{A}^{-1})\).
+        \item Let \(\mathbf{A}\) be an \(m\times n\) matrix, and \(\mathbf{a}_j\) its \(j\)th column. For any \(\mathbf{x}=
+        \begin{pmatrix}
+            x_1 & x_2 & \cdots & x_n\\
+        \end{pmatrix}^\top\), 
+        \[\mathbf{A}\mathbf{x}=\sum_{j=1}^{n}{x_j}\mathbf{a}_j.\]
+        \item Let \(\mathbf{A}\) and \(\mathbf{B}\) be matrices having \(n\) rows. For any matrix \(\mathbf{M}\) with \(n\) columns, we have
+        \[\begin{pNiceArray}{c|c}
+            \mathbf{A} & \mathbf{B}
+        \end{pNiceArray}=
+        \begin{pNiceArray}{c|c}
+            \mathbf{M}\mathbf{A} & \mathbf{M}\mathbf{B}
+        \end{pNiceArray}.\]
+        \item Finding a basis for an intersection of subspaces. Let \(V\) and \(W\) be subspaces of \(\mathbb{F}^n\) generated by the columns of the \(n\times m\) matrix \(\mathbf{A}\) and \(n\times k\) matrix \(\mathbf{B}\), respectively. Find a basis for the subspace \(V\cap W\). 
+        \begin{enumerate}
+            \item First notice that \(\mathbf{v} \in V\cap W\) iff
             \[\mathbf{v}=\mathbf{A}\mathbf{x}_1=\mathbf{B}\mathbf{x}_2\]
             for some \(\mathbf{x}_2\in \mathbb{F}^m\) and \(\mathbf{x}_2\in \mathbb{F}^k\). That is,
             \[\begin{pmatrix}
@@ -137,69 +166,128 @@ Such that the following properties hold:
             \(\begin{pmatrix}
                 \mathbf{A}&\mathbf{B}
             \end{pmatrix}\),
-             or rows of \(\begin{pmatrix}
+                or rows of \(\begin{pmatrix}
                 \mathbf{A}^\top\\
                 \mathbf{B}^\top
             \end{pmatrix}\).
             \item \href{https://math.stackexchange.com/a/802878}{Another alternative}. Skip the row reduction of \(\mathbf{A}\) and \(\mathbf{B}\) in the above method. We just reduce
-            \[\begin{pmatrix}
-                \mathbf{A}&\mathbf{B}
-            \end{pmatrix}\to
-            \begin{pmatrix}
-                \mathbf{A'}&\mathbf{B'}
-            \end{pmatrix}.\]
-            Let \(\mathbf{c_i}\) and \(\mathbf{c'_i}\) be the \(i\)th column of 
-            \(\begin{pmatrix}
-                \mathbf{A}&\mathbf{B}
-            \end{pmatrix}\) and
-            \(\begin{pmatrix}
-                \mathbf{A'}&\mathbf{B'}
-            \end{pmatrix}\), respectively.
-            We compare the columns of \(A'\) and \(B'\) to find (with relative ease) a basis \(\beta'\coloneq\left\{\mathbf{c'_{i_1}},\mathbf{c'_{i_2}},\dots,\mathbf{c'_{i_r}}\right\}\) for the intersection of the column spaces of \(A'\) and \(B'\). Then, \(\beta\coloneq\{\mathbf{c_{i_1}},\mathbf{c_{i_2}},\dots,\mathbf{c_{i_r}}\}\) is a basis for \(V\cap W\) (the intersection of the column spaces of \(A\) and \(B\)).
-            \item \href{https://math.stackexchange.com/a/4837004}{A fourth method} for when I learn about orthogonal complements. 
-            \item The determinant of a square matrix can be evaluated by cofactor expansion along any row. That is, if \(\mathbf{A} \in \mathrm{M}_{n\times n}(\mathbb{F})\), then for any integer \(1\leq i\leq n\),
-            \[\det(\mathbf{A})=\sum_{j=1}^{n}{(-1)}^{i+j}\mathbf{A}_{ij}\cdot \det(\widetilde{\mathbf{A}}_{ij}).\] 
-            Here, \(\widetilde{\mathbf{A}}_{ij}\) is the \((n-1)\times(n-1)\) matrix obtained from \(\mathbf{A}\) by deleting its \(i\)th row and \(j\)th column.
-            \item The determinant of a square matrix can also be evaluated by cofactor expansion along any column, since
-            \[\det(\mathbf{A})=\det(\mathbf{A}^\top).\]
-            \item A matrix \(\mathbf{A}\) is invertible iff its determinant is nonzero. 
-            \item Let \(\mathbf{A}\) be an invertible \(n\times n\) matrix. Then, for some elementary row matrices \(\mathbf{E}_1\) to \(\mathbf{E}_p\),
-            \[\mathbf{E}_p\mathbf{E}_{p-1}\dots \mathbf{E}_1(\mathbf{A} \,\vert\, \mathbf{I}_n)=\mathbf{A}^{-1}(\mathbf{A} \,\vert\, \mathbf{I}_n)=(\mathbf{I}_n \,\vert\, \mathbf{A}^{-1}).\]
-            In other words, we can perform Gaussian elimination, so that \((\mathbf{A} \,\vert\, \mathbf{I}_n)\to (\mathbf{I}_n \,\vert\, \mathbf{A}^{-1})\).
-            \item Alternatively,
-            \[\mathbf{A}^{-1}=\frac{1}{\det(\mathbf{A})}\adj(A),\]
-            where \(\adj(\mathbf{A})\) is the adjugate / classical adjoint of \(\mathbf{A}\). That is, the matrix whose \((i,j)\)th entry is the \((j,i)\)th cofactor \((-1)^{j+i}\det(\widetilde{\mathbf{A}}_{ji})\)
-        \end{itemize}
-    \end{stbox}
-    
-    \chapter{Numerical Methods}
-    \begin{stbox}{General Information}
-        \begin{itemize}
-            \item The parity of the degree of a real polynomial is the same as that of its number of real roots.
-            \item Let the real polynomial \(p\) given by \(p(x)=a_{2n}x^{2n}+a_{2n-1}x^{2n-1}+\dots+a_0\) have coefficients \(a_n>0\) and \(a_0<0\). Then, it has at least one positive and one negative root.
-            \item Suppose we have some function \(f \colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), whose value we want to approximate. There are three ways to obtain this approximation.
-            \begin{enumerate}
-                \item Linear interpolation on an interval \([a,b]\) containing \(\alpha\). We let \(x_0\coloneq b\) and
-                \[x_{i+1}\coloneq\frac{a \lvert f(x_i) \rvert+x_i \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(x_i) \rvert}.\]
-                \begin{itemize}
-                    \item \emph{Additional notes.}
-                \end{itemize}
-                \item Fixed-point Iteration. First select a function \(F \colon \mathbb{R}\to \mathbb{R}\), such that \(F(\alpha)=\alpha\), and choose some initial approximation \(x_0\) to \(\alpha\). Then, we recursively define \(x_{n+1} \coloneq F(x_n)\). The desired convergence behavior is for \(x_n\) to approach \(\alpha\).
-                \begin{itemize}
-                    \item \emph{Additional notes.}
-                \end{itemize}
-            \end{enumerate}
-        \end{itemize}
-    \end{stbox}
-    \begin{GCSkills}{}
-        Linear interpolation: finding an approximation to a root in \([a,b]\) up to \(n\) decimal places.
-        \begin{enumerate}
-          \item \(Y_1=f(x)\),
-          \item \(a \to A\) and \(b \to B\),
-          \item \(\dfrac{B \lvert Y_1(A) \rvert+A \lvert Y_1(B) \rvert}{\lvert Y_1(A) \rvert+\lvert Y_1(B) \rvert}\),
-          \item \(\text{Ans}\to A \text{ or } B\) (choose the one that has the opposite sign to Ans),
-          \item Repeat steps 4 to 5,
-          \item Terminate this process when the approximations are consistent up to \(n\) decimal places.
+        \[\begin{pmatrix}
+            \mathbf{A}&\mathbf{B}
+        \end{pmatrix}\to
+        \begin{pmatrix}
+            \mathbf{A'}&\mathbf{B'}
+        \end{pmatrix}.\]
+        Let \(\mathbf{c_i}\) and \(\mathbf{c'_i}\) be the \(i\)th column of 
+        \(\begin{pmatrix}
+            \mathbf{A}&\mathbf{B}
+        \end{pmatrix}\) and
+        \(\begin{pmatrix}
+            \mathbf{A'}&\mathbf{B'}
+        \end{pmatrix}\), respectively.
+        We compare the columns of \(A'\) and \(B'\) to find (with relative ease) a basis \(\beta'\coloneq\left\{\mathbf{c'_{i_1}},\mathbf{c'_{i_2}},\dots,\mathbf{c'_{i_r}}\right\}\) for the intersection of the column spaces of \(A'\) and \(B'\). Then, \(\beta\coloneq\{\mathbf{c_{i_1}},\mathbf{c_{i_2}},\dots,\mathbf{c_{i_r}}\}\) is a basis for \(V\cap W\) (the intersection of the column spaces of \(A\) and \(B\)).
+        \item \href{https://math.stackexchange.com/a/4837004}{A fourth method} for when I learn about orthogonal complements. 
         \end{enumerate}
-      \end{GCSkills}
+    \end{itemize}
+\end{stbox}
+\begin{definition}{}{}
+    Let \(\mathbf{A}\in \mathrm{M}_{n\times n}(\mathbb{F})\). If \(n=1\), so that \(A=(a_11)\), we define \(\det(\mathbf{A})\coloneq a_11\). For \(n\geq 2\), we define \(\det(\mathbf{A})\) recursively as 
+    \[\det(\mathbf{A})\coloneq \sum_{j=1}^{n}{(-1)^{1+j}}\mathbf{A}_{1j}\cdot \det(\widetilde{\mathbf{A}}_{1j}).\]
+    THe scalar \(\det(\mathbf{A})\) is called the \emph{determinant} of \(\mathbf{A}\) and is also denoted by \(\lvert \mathbf{A} \rvert\). The scalar 
+    \[(-1)^{i+j}\det(\widetilde{\mathbf{A}}_{1j})\]
+    is called the cofactor of the entry of \(\mathbf{A}\) in row \(i\), column \(j\).
+\end{definition}
+\begin{stbox}{}
+    \begin{itemize}
+        \item A matrix \(\mathbf{A}\) is invertible iff its determinant is nonzero. 
+    \end{itemize}
+\end{stbox}
+\begin{theorem}{}{}
+    The determinant of a square matrix can be evaluated by cofactor expansion along any row. That is, if \(\mathbf{A} \in \mathrm{M}_{n\times n}(\mathbb{F})\), then for any integer \(1\leq i\leq n\),
+        \[\det(\mathbf{A})=\sum_{j=1}^{n}{(-1)}^{i+j}\mathbf{A}_{ij}\cdot \det(\widetilde{\mathbf{A}}_{ij}).\] 
+        Here, \(\widetilde{\mathbf{A}}_{ij}\) is the \((n-1)\times(n-1)\) matrix obtained from \(\mathbf{A}\) by deleting its \(i\)th row and \(j\)th column.
+\end{theorem}
+\begin{theorem}{}{}
+    Let \(A\) be an \(n\times n\) matrix. Then,
+    \[\det(\mathbf{A})=\det(\mathbf{A}^\top).\]
+    So, the determinant of a square matrix can also be evaluated by cofactor expansion along any column.
+\end{theorem}
+\begin{theorem}{}{}
+    Let \(\mathbf{A}\) be an invertible \(n\times n\) matrix. Then,
+    \[\mathbf{A}^{-1}=\frac{1}{\det(\mathbf{A})}\adj(A),\]
+    where \(\adj(\mathbf{A})\) is the adjugate/classical adjoint of \(\mathbf{A}\). That is, the matrix whose \((i,j)\)th entry is the \((j,i)\)th cofactor \((-1)^{j+i}\det(\widetilde{\mathbf{A}}_{ji})\)
+\end{theorem}
+\begin{definition}{}{}
+    A linear operator \(T\) on a finite-dimensional vector space \(V\) is called \emph{diagonalisable} iff there is an ordered basis \(\beta\) for \(V\) such that \([T]_\beta\) is a diagonal matrix. A square matrix \(\mathbf{A}\) is called diagonalisable iff \(L_\mathbf{A}\) is diagonalisable.
+\end{definition}
+\begin{definition}{}{}
+    Let \(T\) be a linear operator on a vector space \(V\). A nonzero vector \(\mathbf{v}\in V\) is called an \emph{eigenvector} of \(T\) iff there exists a scalar \(\lambda\) such that \(T(\mathbf{v})=\lambda \mathbf{v}\). The scalar \(\lambda\) is called the \emph{eigenvalue} corresponding to the eigenvector \(\mathbf{v}\).
+
+    Let \(\mathbf{A}\) be in \(\mathrm{M}_{n\times n}(\mathbb{F})\). A nonzero vector \(v\in \mathbb{F}^n\) is called an \emph{eigenvector} of \(\mathbf{A}\) iff \(v\) is an eigenvector of \(L_\mathbf{A}\); that is, iff \(\mathbf{A}v=\lambda v\) for some scalar \(\lambda\). The scalar \(\lambda\) is called the eigenvalue of \(\mathbf{A}\) corresponding to the eigenvector \(v\).
+\end{definition}
+\begin{definition}{}{}
+    Let \(\mathbf{A}\in \mathrm{M}_{n\times n}(\mathbb{F})\). The polynomial \(f(t)=\det(\mathbf{A}-\lambda \mathbf{I}_n)\) is called the \emph{characteristic polynomial} of \(\mathbf{A}\).
+\end{definition}
+\begin{stbox}{}
+    \begin{itemize}
+        \item A matrix \(\mathbf{A}\in\mathrm{M}_{n\times n}(\mathbb{F})\) is diagonalizable iff there exists an ordered basis \(\{\mathbf{v}_1,\mathbf{v}_2,\dots,\mathbf{v}_n\}\) for \(\mathbb{F}^n\) consisting of eigenvectors of \(\mathbf{A}\), i.e. a eigenbasis. Furthermore, if \(\mathbf{Q}\) is the \(n\times n\) matrix whose \(j\)th column is \(\mathbf{v}_j\), then \(\mathbf{A}=\mathbf{Q}^{-1}\mathbf{D}\mathbf{Q}\) is a diagonal matrix such that \(d_{jj}\) is the eigenvalue of \(A\) corresponding to \(\mathbf{v}_j\). The matrix \(\mathbf{Q}\) is said to \emph{diagonalise} \(\mathbf{A}\).
+        \item Hence, we obtain the following procedure to diagonalise a \(3\times 3\) matrix \(\mathbf{A}\) with three distinct eigenvalues.
+        \begin{enumerate}
+            \item Find the eigenvalues \(\lambda_1\), \(\lambda_2\), and \(\lambda_3\) of \(\mathbf{A}\). They are just the roots of the characteristic polynomial of \(\mathbf{A}\). \hyperlink{characteristic-polynomial-roots}{This can be done using the GC}.
+            \item Find an eigenvector \(\mathbf{v}_j\) corresponding to each eigenvalue \(\lambda_j\) by finding the nullspace of \(\mathbf{A}-\lambda_j\mathbf{I}
+            \).
+            \item Let \(\mathbf{Q}=
+            \begin{pmatrix}
+                \mathbf{v}_1,\mathbf{v}_2,\mathbf{v}_3
+            \end{pmatrix}\). Then,
+            \[\mathbf{D}\coloneq \mathbf{Q}^{-1}A\mathbf{Q}\]
+            is a diagonal matrix.
+        \end{enumerate} 
+    \end{itemize}    
+\end{stbox}
+\begin{theorem}{The Cayley-Hamiliton Theorem.}{}
+    Let \(T\) be a linear operator on a finite dimensional vector space \(V\), and let \(f(t)\) be the characteristic polynomial of \(T\). Then \(f(T)=T_0\), the zero transformation. That is, T ``satisfies'' its characteristic equation.
+\end{theorem}
+\begin{corollary}{The Cayley-Hamiliton Theorem for Matrices.}{}
+    Let \(A\) be an \(n\times n\) matrix, and let \(f(t)\) be the characteristic polynomial of \(A\). Then, \(f(A)=O\), the \(n\times n\) zero matrix.  
+\end{corollary}
+\hypertarget{characteristic-polynomial-roots}{}
+\begin{GCSkills}{}
+    Finding eigenvalues of a matrix \(\mathbf{A}\) using the GC.
+    \begin{enumerate}
+        \item \texttt{2nd} \(\Longrightarrow\) \(\texttt{x}^{-1}\) (\texttt{matrix}) \(\Longrightarrow\) Key in the matrix \(\mathbf{A}-t\mathbf{I}\), e.g. into \texttt{[A]}. 
+        \item Plot \(\texttt{Y}_1=\det{(\texttt{[A]})}\).
+        \item \texttt{2nd} \(\Longrightarrow\) \texttt{trace} \(\Longrightarrow\) \texttt{2:zero} \(\Longrightarrow\) Find the roots.
+    \end{enumerate}
+\end{GCSkills}
+    
+\chapter{Numerical Methods}
+\begin{stbox}{General Information}
+    \begin{itemize}
+        \item The parity of the degree of a real polynomial is the same as that of its number of real roots.
+        \item Let the real polynomial \(p\) given by \(p(x)=a_{2n}x^{2n}+a_{2n-1}x^{2n-1}+\dots+a_0\) have coefficients \(a_n>0\) and \(a_0<0\). Then, it has at least one positive and one negative root.
+        \item Suppose we have some function \(f \colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), whose value we want to approximate. There are three ways to obtain this approximation.
+        \begin{enumerate}
+            \item Linear interpolation on an interval \([a,b]\) containing \(\alpha\). We let \(x_0\coloneq b\) and
+            \[x_{i+1}\coloneq\frac{a \lvert f(x_i) \rvert+x_i \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(x_i) \rvert}.\]
+            \begin{itemize}
+                \item \emph{Additional notes.}
+            \end{itemize}
+            \item Fixed-point Iteration. First select a function \(F \colon \mathbb{R}\to \mathbb{R}\), such that \(F(\alpha)=\alpha\), and choose some initial approximation \(x_0\) to \(\alpha\). Then, we recursively define \(x_{n+1} \coloneq F(x_n)\). The desired convergence behavior is for \(x_n\) to approach \(\alpha\).
+            \begin{itemize}
+                \item \emph{Additional notes.}
+            \end{itemize}
+        \end{enumerate}
+    \end{itemize}
+\end{stbox}
+\begin{GCSkills}{}
+    Linear interpolation: finding an approximation to a root in \([a,b]\) up to \(n\) decimal places.
+    \begin{enumerate}
+        \item \(Y_1=f(x)\),
+        \item \(a \to A\) and \(b \to B\),
+        \item \(\dfrac{B \lvert Y_1(A) \rvert+A \lvert Y_1(B) \rvert}{\lvert Y_1(A) \rvert+\lvert Y_1(B) \rvert}\),
+        \item \(\text{Ans}\to A \text{ or } B\) (choose the one that has the opposite sign to Ans),
+        \item Repeat steps 4 to 5,
+        \item Terminate this process when the approximations are consistent up to \(n\) decimal places.
+    \end{enumerate}
+    \end{GCSkills}
 \end{document}

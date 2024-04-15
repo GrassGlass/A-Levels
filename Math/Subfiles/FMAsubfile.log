@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  2 APR 2024 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 APR 2024 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1018,14 +1018,13 @@ LaTeX Warning: You have requested package `../Style/Thms',
                but the package provides `Thms'.
 
 Package: Thms 
-\c@tcb@cnt@theorem=\count397
 ) (../Style/Env.sty
 
 LaTeX Warning: You have requested package `../Style/Env',
                but the package provides `Env'.
 
 Package: Env 
-\c@tcb@cnt@example=\count398
+\c@tcb@cnt@example=\count397
 ) (../Style/NewCommands.sty
 
 LaTeX Warning: You have requested package `../Style/NewCommands',
@@ -1055,16 +1054,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count399
+\scratchcounter=\count398
 \scratchdimen=\dimen392
 \scratchbox=\box102
-\nofMPsegments=\count400
-\nofMParguments=\count401
+\nofMPsegments=\count399
+\nofMParguments=\count400
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count402
+\MPscratchCnt=\count401
 \MPscratchDim=\dimen393
-\MPnumerator=\count403
-\makeMPintoPDFobject=\count404
+\MPnumerator=\count402
+\makeMPintoPDFobject=\count403
 \everyMPtoPDFconversion=\toks63
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1111,10 +1110,10 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@tabularnotesi=\count405
-\enitdp@tabularnotes=\count406
-\c@tabularnotes*i=\count407
-\enitdp@tabularnotes*=\count408
+\c@tabularnotesi=\count404
+\enitdp@tabularnotes=\count405
+\c@tabularnotes*i=\count406
+\enitdp@tabularnotes*=\count407
 Package hyperref Info: Link coloring ON on input line 10.
 (./FMAsubfile.out) (./FMAsubfile.out)
 \@outlinefile=\write4
@@ -1135,10 +1134,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 13.
- (c:/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+ (c:/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
+
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \g__nicematrix_max_cell_width_dim=\dimen394
-\c@iRow=\count409
-\c@jCol=\count410
+\c@iRow=\count408
+\c@jCol=\count409
 \l__nicematrix_cell_box=\box103
 \l__nicematrix_the_array_box=\box104
 \l__nicematrix_left_delim_dim=\dimen395
@@ -1149,25 +1151,22 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 13
 \g__nicematrix_dp_ante_last_row_dim=\dimen400
 \g__nicematrix_ht_last_row_dim=\dimen401
 \g__nicematrix_dp_last_row_dim=\dimen402
-\g__nicematrix_ddots_int=\count411
-\g__nicematrix_iddots_int=\count412
+\g__nicematrix_ddots_int=\count410
+\g__nicematrix_iddots_int=\count411
 \g__nicematrix_delta_x_one_dim=\dimen403
 \g__nicematrix_delta_y_one_dim=\dimen404
 \g__nicematrix_delta_x_two_dim=\dimen405
 \g__nicematrix_delta_y_two_dim=\dimen406
-\l__nicematrix_initial_i_int=\count413
-\l__nicematrix_initial_j_int=\count414
-\l__nicematrix_final_i_int=\count415
-\l__nicematrix_final_j_int=\count416
-\l__nicematrix_end_int=\count417
-\l__nicematrix_local_start_int=\count418
-\l__nicematrix_local_end_int=\count419
- [1
-
-
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2] [3] [4]
+\l__nicematrix_initial_i_int=\count412
+\l__nicematrix_initial_j_int=\count413
+\l__nicematrix_final_i_int=\count414
+\l__nicematrix_final_j_int=\count415
+\l__nicematrix_end_int=\count416
+\l__nicematrix_local_start_int=\count417
+\l__nicematrix_local_end_int=\count418
+ [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] [5]
 Chapter 2.
-[5
+[6
 
 ] (./FMAsubfile.aux)
  ***********
@@ -1178,18 +1177,18 @@ Package rerunfilecheck Info: File `FMAsubfile.out' has not changed.
 (rerunfilecheck)             Checksum: C6EC35352E5FB3901F1A224966F99D15;247.
  ) 
 Here is how much of TeX's memory you used:
- 47007 strings out of 475237
- 1118704 string characters out of 5768555
- 1970238 words of memory out of 5000000
- 67379 multiletter control sequences out of 15000+600000
- 566368 words of font info for 68 fonts, out of 8000000 for 9000
+ 47095 strings out of 475237
+ 1120211 string characters out of 5768555
+ 1983238 words of memory out of 5000000
+ 67432 multiletter control sequences out of 15000+600000
+ 566872 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,16n,148p,802b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMAsubfile.pdf (5 pages, 190748 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on FMAsubfile.pdf (6 pages, 221214 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  10 APR 2024 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 APR 2024 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1015,14 +1015,13 @@ LaTeX Warning: You have requested package `Style/Thms',
                but the package provides `Thms'.
 
 Package: Thms 
-\c@tcb@cnt@theorem=\count397
 ) (./Style/Env.sty
 
 LaTeX Warning: You have requested package `Style/Env',
                but the package provides `Env'.
 
 Package: Env 
-\c@tcb@cnt@example=\count398
+\c@tcb@cnt@example=\count397
 ) (./Style/NewCommands.sty
 
 LaTeX Warning: You have requested package `Style/NewCommands',
@@ -1056,16 +1055,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count399
+\scratchcounter=\count398
 \scratchdimen=\dimen392
 \scratchbox=\box102
-\nofMPsegments=\count400
-\nofMParguments=\count401
+\nofMPsegments=\count399
+\nofMParguments=\count400
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count402
+\MPscratchCnt=\count401
 \MPscratchDim=\dimen393
-\MPnumerator=\count403
-\makeMPintoPDFobject=\count404
+\MPnumerator=\count402
+\makeMPintoPDFobject=\count403
 \everyMPtoPDFconversion=\toks63
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1112,10 +1111,10 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@tabularnotesi=\count405
-\enitdp@tabularnotes=\count406
-\c@tabularnotes*i=\count407
-\enitdp@tabularnotes*=\count408
+\c@tabularnotesi=\count404
+\enitdp@tabularnotes=\count405
+\c@tabularnotes*i=\count406
+\enitdp@tabularnotes*=\count407
 Package hyperref Info: Link coloring ON on input line 25.
 (./Notes.out) (./Notes.out)
 \@outlinefile=\write4
@@ -1288,9 +1287,12 @@ See the caption package documentation for explanation.
 
 [15] [16 <./images/../images/ComplexCircleLocus.jpg> <./images/ComplexLocusCircle-LargestAngleAndDistance.jpg> <./images/../images/ComplexPerpendicularBisectorLocus.jpg>] [17 <./images/../images/ComplexRotationByAngleTheta.jpg> <./images/../images/Complex-Numbers-My-Funnei-Technique.jpg>] (./Subfiles/FMAsubfile.tex [18]
 Chapter 8.
+[19
+
+]
 \g__nicematrix_max_cell_width_dim=\dimen394
-\c@iRow=\count409
-\c@jCol=\count410
+\c@iRow=\count408
+\c@jCol=\count409
 \l__nicematrix_cell_box=\box103
 \l__nicematrix_the_array_box=\box104
 \l__nicematrix_left_delim_dim=\dimen395
@@ -1301,30 +1303,28 @@ Chapter 8.
 \g__nicematrix_dp_ante_last_row_dim=\dimen400
 \g__nicematrix_ht_last_row_dim=\dimen401
 \g__nicematrix_dp_last_row_dim=\dimen402
-\g__nicematrix_ddots_int=\count411
-\g__nicematrix_iddots_int=\count412
+\g__nicematrix_ddots_int=\count410
+\g__nicematrix_iddots_int=\count411
 \g__nicematrix_delta_x_one_dim=\dimen403
 \g__nicematrix_delta_y_one_dim=\dimen404
 \g__nicematrix_delta_x_two_dim=\dimen405
 \g__nicematrix_delta_y_two_dim=\dimen406
-\l__nicematrix_initial_i_int=\count413
-\l__nicematrix_initial_j_int=\count414
-\l__nicematrix_final_i_int=\count415
-\l__nicematrix_final_j_int=\count416
-\l__nicematrix_end_int=\count417
-\l__nicematrix_local_start_int=\count418
-\l__nicematrix_local_end_int=\count419
-[19
-
-] [20] [21] [22]
+\l__nicematrix_initial_i_int=\count412
+\l__nicematrix_initial_j_int=\count413
+\l__nicematrix_final_i_int=\count414
+\l__nicematrix_final_j_int=\count415
+\l__nicematrix_end_int=\count416
+\l__nicematrix_local_start_int=\count417
+\l__nicematrix_local_end_int=\count418
+ [20] [21] [22] [23]
 Chapter 9.
-) [23
+) [24
 
 ]
 Chapter 10.
-[24
+[25
 
-] [25] [26]
+] [26] [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 856.
@@ -1365,11 +1365,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@@over' on input line 863.
 
-[27]
+[28]
 Chapter 11.
-[28
+[29
 
-] [29] [30] [31]
+] [30] [31] [32]
 Chapter 12.
 
 Underfull \hbox (badness 1281) in paragraph at lines 1220--1220
@@ -1421,17 +1421,17 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 1263--1265
 []|[]| 
  []
 
-[32
+[33
 
-] [33]
+] [34]
 Chapter 13.
-[34
+[35
 
 ]
 Chapter 14.
-[35
+[36
 
-] [36]
+] [37]
 Chapter 15.
 
 Underfull \hbox (badness 1418) in paragraph at lines 1535--1536
@@ -1443,18 +1443,18 @@ Overfull \hbox (49.16032pt too wide) in alignment at lines 1370--1584
  [] [] 
  []
 
-[37
+[38
 
-] [38]
+] [39]
 Chapter 16.
-[39
+[40
 
 ]
 Chapter 17.
-[40
+[41
 
-] [41] [42]
-<./images/Logistics Curve.jpg, id=869, 1284.8pt x 642.4pt>
+] [42] [43]
+<./images/Logistics Curve.jpg, id=908, 1284.8pt x 642.4pt>
 File: ./images/Logistics Curve.jpg Graphic file (type jpg)
 <use ./images/Logistics Curve.jpg>
 Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1756.
@@ -1465,7 +1465,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1757.
 See the caption package documentation for explanation.
 
-[43 <./images/Logistics Curve.jpg>]
+[44 <./images/Logistics Curve.jpg>]
 runsystem(pdflatex -interaction=batchmode -shell-escape -jobname '../Diagrams/Oscils' ../Diagrams/Oscils)...disabled (restricted).
 
 
@@ -1484,16 +1484,16 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1801.
 See the caption package documentation for explanation.
 
-[44] [45]
+[45] [46]
 Chapter 18.
-[46
-
-]
-Chapter 19.
 [47
 
 ]
-<./images/BinomDist.png, id=931, 354.57469pt x 185.19188pt>
+Chapter 19.
+[48
+
+]
+<./images/BinomDist.png, id=969, 354.57469pt x 185.19188pt>
 File: ./images/BinomDist.png Graphic file (type png)
 <use ./images/BinomDist.png>
 Package pdftex.def Info: ./images/BinomDist.png  used on input line 1929.
@@ -1504,49 +1504,49 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1930.
 See the caption package documentation for explanation.
 
-[48] (./Subfiles/FMBsubfile.tex [49 <./images/BinomDist.png>]
+[49] (./Subfiles/FMBsubfile.tex [50 <./images/BinomDist.png>]
 Chapter 20.
-[50
+[51
 
 ]
 Chapter 21.
-<Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=967, 4047.12pt x 1561.835pt>
+<Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1006, 4047.12pt x 1561.835pt>
 File: Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
 <use Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
 Package pdftex.def Info: Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 98.
 (pdftex.def)             Requested size: 432.00462pt x 166.70241pt.
-[51
+[52
 
-] [52 <./Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>]
+] [53 <./Subfiles/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>]
 Chapter 22.
-[53
+[54
 
-] [54] [55] [56]
+] [55] [56] [57]
 Chapter 23.
-[57
+[58
 
-] [58]
+] [59]
 Chapter 24.
-<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1060, 876.77562pt x 330.23375pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1101, 876.77562pt x 330.23375pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 1.png>
-Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 1.png  used on input line 458.
+Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 1.png  used on input line 518.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1061, 935.495pt x 259.46938pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1102, 935.495pt x 259.46938pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 2.png>
-Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 2.png  used on input line 459.
+Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 2.png  used on input line 519.
 (pdftex.def)             Requested size: 374.19136pt x 103.7859pt.
-[59
+[60
 
- <./Subfiles/../images/Product Moment Correlation Coefficient 1.png> <./Subfiles/../images/Product Moment Correlation Coefficient 2.png>]) [60]
+ <./Subfiles/../images/Product Moment Correlation Coefficient 1.png> <./Subfiles/../images/Product Moment Correlation Coefficient 2.png>]) [61]
 Chapter 25.
 
 Overfull \hbox (3.1043pt too wide) in paragraph at lines 1960--1961
 []\OT1/cmr/m/n/10 Product mo-ment cor-re-la-tion [][]$\OT1/cmtt/m/n/10 https : / / www . ncl . ac . uk / webtemplate / ask-[]assets / external /
  []
 
-[61
+[62
 
 ] (./Notes.aux)
  ***********
@@ -1561,18 +1561,18 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: E0273C6F5CE96024A7F489E542FB517A;8299.
  ) 
 Here is how much of TeX's memory you used:
- 49801 strings out of 475237
- 1176538 string characters out of 5768555
- 1972238 words of memory out of 5000000
- 69651 multiletter control sequences out of 15000+600000
+ 49891 strings out of 475237
+ 1178146 string characters out of 5768555
+ 1983238 words of memory out of 5000000
+ 69707 multiletter control sequences out of 15000+600000
  585840 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,27n,131p,743b,3108s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Notes.pdf (63 pages, 2148907 bytes).
+Output written on Notes.pdf (64 pages, 2168882 bytes).
 PDF statistics:
- 1373 PDF objects out of 1440 (max. 8388607)
- 1194 compressed objects within 12 object streams
- 493 named destinations out of 1000 (max. 500000)
+ 1420 PDF objects out of 1440 (max. 8388607)
+ 1239 compressed objects within 13 object streams
+ 527 named destinations out of 1000 (max. 500000)
  513 words of extra memory for PDF output out of 10000 (max. 10000000)
 

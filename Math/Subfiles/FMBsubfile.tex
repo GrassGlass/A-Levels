@@ -140,14 +140,30 @@
   A sample is a finite subset of the population.
 \end{definition}
 \begin{definition}{}{}
-  A random sample is a sample selected such that each member of the population has an equal probability of being selected.
+  A random sample is a sample selected such that each member of the population has an equal probability of being selected into the sample.
 \end{definition}
+\begin{note}
+  State, in context, what it means for the sample to be random.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      It means that \hly{every [a member of the population]} has \hly{an equal probability} of being \hly{selected into the sample}. 
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Explain why the sample would actually not be random.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      [Contextual reason], so \hly{not all} the [members of the population] have an \hly{equal probability of being selected into the sample}. 
+    }
+  \end{center}
+\end{note}
 \begin{definition}{}{}
   Any statistic \(T\) derived from a random sample and used to estimated an unknown population parameter \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\). If \(T\) is unbiased we commonly write \(\hat{\theta}\) for \(T\).
 \end{definition}
 \begin{stbox}{General Information}
   \begin{itemize}
-    \item Either write \(\hat{\mu}\) or write out ``Unbiased estimate of the population mean \(\mu\), \(\widebar{x}=\dots\)'' Same holds for other population parameters \(\theta\).
+    \item Either write \(\hat{\mu}\highlight[yellow]{=\bar{x}}=\dots\) or write out ``Unbiased estimate of the population mean \(\mu\), \(\widebar{x}=\dots\)'' Same holds for other population parameters \(\theta\).
     \item Estimators you should know:
     \item 
     % *A table where Parameter is under another column
@@ -308,6 +324,16 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
     The old \((1-\alpha)\%\) confidence interval is to the left/right of the new \((1-\alpha)\%\) confidence interval, such that they do not overlap. So, can conclude that the [mean/proportion in context] likely increased/decreased. Hence, these figures suggests that the [context (e.g. an awareness campaign)] has been effective.
   \end{enumerate}
 \end{note}
+\begin{note}
+  Advantage and disadvantage of a \((1-\beta)\%\) confidence interval compared to a \((1-\alpha)\%\) confidence interval, where \(\beta<\alpha\).
+  \begin{center}
+    \begin{tabular}{ll}
+      Advantage:& A \((1-\beta)\%\) CI is more likely to contain the true mean.\\
+      Disadvantage:& A \((1-\beta)\%\) CI is less precise (or wider).
+    \end{tabular}
+  \end{center}
+  \emph{Note.} Clearly state which is the advantage and disadvantage, as illustrated above.
+\end{note}
 \begin{GCSkills}{}
   Calculating statistics (i.e. \(\widebar{x}\), \(s\), etc) by G.C. given data for a sample.
   \begin{enumerate}
@@ -340,8 +366,16 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \end{itemize}
 \end{stbox}
 \begin{definition}{}{}
-  The \emph{significance level} \(\alpha\cdot100\%\) of a test is the probability of rejecting \(H_0\) when it is in fact true. i.e. \(\alpha=\Prob(H_0\text{ is rejected}\,\vert\,H_0\text{ is true})\).
+  The \emph{significance level} \(100\alpha\%\) of a test is the probability of rejecting \(H_0\) when it is in fact true. i.e. \(\alpha=\Prob(H_0\text{ is rejected}\,\vert\,H_0\text{ is true})\).
 \end{definition}
+\begin{note}
+  Explain what the \(p\)-value means in context.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      The \(p\)-value is the least value of the significance level to conclude that [\(H_1\) in context].
+    }
+  \end{center}
+\end{note}
 \begin{definition}{}{}
   The \emph{\(p\)-value} is the lowest level of significance for which the null hypothesis will be rejected. In other words, for the null hypotheses
     \begin{center}
@@ -446,6 +480,23 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 %   \[\alpha=\max_{\theta\in\omega_0}P_\theta[(X_1,X_2,\dots,X_n)\in C].\]
 %   In our syllabus, \(\alpha\cdot100\%\) is called the \emph{significance level}.
 % \end{definition}
+\begin{note}
+  Explain, in context, the meaning of `at the \(\alpha\&\) level of significance'.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      The probability that [\(H_1\) in context], when actually [\(H_0\) in context], is \(\alpha\%\).
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Explain why there is no need to assume that the distribution of \(X\) is normal/know anything about the population distribution of \(X\).
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      As the \hly{sample size \(n\) is large}, by the \hly{Central Limit Theorem}, the \hly{sample mean} of [random variable \(X\) in context] will \hly{approximately follow a normal distribution}.
+    }
+  \end{center}
+  \emph{Note.} Spell ``Central Limit Theorem'' and ``the sample mean'' out \emph{in full}. Do not use CLT or \(\widebar{X}\) for this question.
+\end{note}
 
 \chapter{Correlation and Linear Regression}
 \begin{note}
