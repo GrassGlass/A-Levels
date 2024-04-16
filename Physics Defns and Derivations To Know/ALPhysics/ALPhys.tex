@@ -7,7 +7,6 @@
 \usepackage{../Style/Thms}
 \usepackage{newpxtext, eulerpx}
 \usepackage{bbding}
-
 \begin{document}
 
 \input{Titlepage.tex}
@@ -578,12 +577,13 @@ So, rearranging, we have
     \item Deriving the equation \(I=nAvq\):
     \begin{enumerate}
         \item Assume that the \emph{current is constant}. Then, \(I=\frac{Q}{t}\).
+        \hspace*{0pt}\hfill \(\highlight[yellow]{[n]}\)
         \item Assume that there are \(N\) charge carriers passing through a cross-sectional area \(A\) in time \(t\), and that \emph{each} of them carries an \emph{identical amount of charge} \(q\). Then, the \emph{total charge} that passing through \(A\) in time \(t\) is
-        \[Q=Nq.\]
+        \[Q=Nq \tag*{\(\highlight[yellow]{[N,A(t),Q(t)]}\)}.\]
         \item Assume that the \emph{number density} \(n\) of charge carriers is \emph{uniform}, and let \(V\) be the volume covered by the current in time \(t\). Thus,
-        \[N=nV.\]
+        \[N=nV \tag*{\(\highlight[yellow]{[n,V(t)]}\)}.\]
         \item Furthermore, since the current travels at some velocity \(v\),
-        \[V=A\Delta x=Avt.\]
+        \[V=A\Delta x=Avt \tag*{\(\highlight[yellow]{[v]}\)}.\]
         \item Therefore, 
         \[I=\frac{Q}{t}=\frac{Nq}{t}=\frac{nVq}{t}=\frac{nAvtq}{t}=nAvq.\]
     \end{enumerate}
@@ -812,10 +812,10 @@ So, rearranging, we have
         V=\frac{Q}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & E=\frac{Q}{4\pi\varepsilon_0r^2}\\
     \end{tikzcd}
   \end{center}
-  \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
+  \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential \(V_i\) due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
   \[V=\sum_{i}{V_i}=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
-  \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 
-  \[U=\sum_{i}{U_{ij}}=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
+  \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies \(U_{ij}\) needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 
+  \[U=\sum_{i>j}{U_{ij}}=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
 \end{itemize}
 \begin{center}
     \includegraphics[width=\textwidth]{../images/Electron-Deflection/Bahn-Kondensator (1).pdf}

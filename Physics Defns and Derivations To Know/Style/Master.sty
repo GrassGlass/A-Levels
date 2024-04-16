@@ -13,6 +13,19 @@
 \RequirePackage[outline]{contour}
 \RequirePackage{environ}
 \RequirePackage[dvipsnames]{xcolor}
+% Highlight https://tex.stackexchange.com/questions/542964/highlighting-subscripts-superscripts-in-math-mode
+\newcommand{\highlight}[2][red!50]{\mathpalette{\highlightwithstyle[#1]}{#2}}
+\newcommand{\highlightwithstyle}[3][red!50]{
+  \begingroup                         %% <- limit scope of \box0 and \fboxsep assignment
+    \sbox0{$\mathsurround 0pt #2#3$}% %% <- typeset content in box 0
+    \setlength{\fboxsep}{.5pt}        %% <- set (smaller) framebox margins
+    \sbox2{\hspace{-.5pt}%            %% <- create box 2, undo margin
+      \colorbox{#1}{\usebox0}%        %% <- print the contents of box 0 in a \colorbox
+    }%
+    \dp2=\dp0 \ht2=\ht0 \wd2=\wd0     %% <- set dimensions of box 2 to match box 0
+    \box2                             %% <- print box 2
+  \endgroup                           %% <- revert old definitions of the boxes and \fboxsep
+}
 \RequirePackage{tikz}
 \RequirePackage{tikz-cd}
 \usepackage{physics,bm}
