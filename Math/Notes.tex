@@ -1852,8 +1852,11 @@ Relationship Btw 2 Lines & Relationship Btw Line \& Plane\\
   \end{enumerate}
 \end{note}
 \begin{note}
-  Let \(W \sim \operatorname{Geo}(p)\), and \(q\coloneq 1-p\). Then, 
-  \[\Prob(W>m)=q^m \qquad\text{and}\qquad \Prob(X>m+n \,\vert\, X>n)=\Prob(X>m)=q^m.\]
+  Let \(W \sim \operatorname{Geo}(p)\), and \(q\coloneq 1-p\). Then,
+  \begin{enumerate}
+    \item \(\Prob(W>m)=q^m\),
+    \item \(\Prob(X>m+n \,\vert\, X>n)=\Prob(X>m)=q^m\),\item \(\Prob(X<m+n \,\vert\, X>n)=\Prob(X<m)=1-q^m\).
+  \end{enumerate}
 \end{note}
 \begin{definition}{}{}
   A discrete random variable \(X\) which takes all values in \(\mathbb{Z}_{0}^{+}\) has a \emph{Poisson Distribution} with parameter \(\lambda>0\), denoted by \(X \sim \operatorname{Po}(\lambda)\), iff 
