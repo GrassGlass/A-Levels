@@ -117,6 +117,9 @@
 \begin{note}
   Let \(Y \sim \operatorname{Exp}(\lambda)\), then
   \[\Prob(Y>z+y \,\vert\, Y>y)=\Prob(Y>z).\]
+  In general, it also holds that 
+  \[\Prob(X>z+y \,\vert\, Y>y)=1-\Prob(X<z+y \,\vert\, Y>y)\]
+  for any random variable \(X\).
 \end{note}
 \begin{stbox}{}
   \begin{itemize}
@@ -229,7 +232,7 @@
       \end{tabular}}
     \end{center}
     \item Let \(X\) be a random variable following \emph{any distribution}, and suppose we have a random sample \(X_1,X_2,\dots,X_n\) of size \(n\geq 50\). Then by CLT (Central Limit Theorem), since \(n\geq 50\) is large, 
-    \[\widebar{X}\sim \Normal\left(\mu,\frac{\sigma^2}{n}\right) \qquad\text{and}\qquad X_1+X_2+\dots+X_n\sim \Normal(n\mu,\nu\sigma^2)\]
+    \[\widebar{X}\sim \Normal\left(\mu,\frac{\sigma^2}{n}\right) \qquad\text{and}\qquad X_1+X_2+\dots+X_n\sim \Normal(n\mu,n\sigma^2)\]
     \emph{approximately}.
     \item Assumptions when using CLT:
     \begin{itemize}
@@ -374,10 +377,10 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   The \emph{significance level} \(100\alpha\%\) of a test is the probability of rejecting \(H_0\) when it is in fact true. i.e. \(\alpha=\Prob(H_0\text{ is rejected}\,\vert\,H_0\text{ is true})\).
 \end{definition}
 \begin{note}
-  Explain what the \(p\)-value means in context.
+  Explain, in context, the meaning of `at the \(\alpha\%\) level of significance'.
   \begin{center}
     \parbox{0.9\textwidth}{
-      The \(p\)-value is the least value of the significance level to conclude that [\(H_1\) in context].
+      The probability that [\(H_1\) in context], when actually [\(H_0\) in context], is \(\alpha\%\).
     }
   \end{center}
 \end{note}
@@ -399,12 +402,22 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
       \end{enumerate*}
     \end{center}
 \end{definition}
+\begin{note}
+  Explain what the \(p\)-value means in context.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      The \(p\)-value is the least level of significance to conclude that [\(H_1\) in context].
+    }
+  \end{center}
+\end{note}
 \begin{stbox}{}
   \begin{itemize}
     \item A large sample hypothesis test for the mean.
     \begin{enumerate}
+      \item Let [\(X\) in context] and \(\mu\) be the population mean.
       \item 
-      \begin{tabular}{ll}
+      \begin{tabular}{|ll|}
+        \hline
         Test & \(H_0\colon\mu=\mu_0\)\\
         against &\(H_1\colon\) 
         \begin{enumerate*}[itemjoin={\quad}]
@@ -412,7 +425,8 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
           \item \(\mu \neq \mu_0\),\quad or
           \item \(\mu>\mu_0\),
         \end{enumerate*}\\
-        \multicolumn{2}{l}{at the \(100\alpha\%\) significance level.}
+        \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+        \hline
       \end{tabular}
       \item Under \(H_0\), we have \(\widebar{X}\sim \Normal(\mu_0,\hat{\sigma}^2/n)\) approximately. Or, if \(\sigma^2\) is known exactly, then by CLT \(\widebar{X}\sim \Normal(\mu_0,\sigma^2/n)\) approximately.
       \item Test statistic: 
@@ -456,7 +470,15 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
         \end{flushright}
       \end{minipage}
       \begin{enumerate}
-        \item[7.] Write a \hyperlink{note}{conclusion}.
+        \item[7.] Since\quad
+        \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
+          \item \(z_\text{calc}<z_{1-\alpha}\),
+          \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\),
+          \item \(z_\text{calc}>z_{1-\alpha}\),\quad or\quad \(p\text{-value}<\alpha\),
+        \end{enumerate*}
+        we reject \(H_0\). There is sufficient evidence at the significance level \(100\alpha\%\) that [\(H_1\) in context].
+
+        \emph{Note.} For \emph{not} rejecting \(H_0\), simply change to the appropriate inequality (such that \(z_\text{calc}\) is outside the critical region) and write ``insufficient'' instead of ``sufficient''.
       \end{enumerate}
       \item If we have a null hypothesis, such as
       \begin{center}
@@ -465,34 +487,11 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
       we can just use \(H_0\colon\mu=\mu_0\) instead.
   \end{itemize}
 \end{stbox}
-\hypertarget{note}{}
-\begin{note}
-  Standard phrasing for rejecting \(H_0\).
-  \begin{center}
-    \parbox{0.9\textwidth}{
-      Since\quad
-      \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
-        \item \(z_\text{calc}<z_{1-\alpha}\),
-        \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\),
-        \item \(z_\text{calc}>z_{1-\alpha}\),\quad or\quad \(p\text{-value}<\alpha\),
-      \end{enumerate*}
-      we reject \(H_0\). There is sufficient evidence at the significance level \(100\alpha\%\) that [\(H_1\) in context].}
-  \end{center}
-  For \emph{not} rejecting \(H_0\), simply change to the appropriate inequality (such that \(z_\text{calc}\) is outside the critical region) and write ``insufficient'' instead of ``sufficient''.
-\end{note}
 % \begin{definition}{}{}
 %   We say a critical region \(C\) is of \emph{size} \(\alpha\) if 
 %   \[\alpha=\max_{\theta\in\omega_0}P_\theta[(X_1,X_2,\dots,X_n)\in C].\]
 %   In our syllabus, \(\alpha\cdot100\%\) is called the \emph{significance level}.
 % \end{definition}
-\begin{note}
-  Explain, in context, the meaning of `at the \(\alpha\&\) level of significance'.
-  \begin{center}
-    \parbox{0.9\textwidth}{
-      The probability that [\(H_1\) in context], when actually [\(H_0\) in context], is \(\alpha\%\).
-    }
-  \end{center}
-\end{note}
 \begin{note}
   Explain why there is no need to assume that the distribution of \(X\) is normal/know anything about the population distribution of \(X\).
   \begin{center}
