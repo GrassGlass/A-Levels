@@ -49,7 +49,7 @@
 \contentsline {chapter}{\numberline {19}Special Discrete Random Variables}{48}{chapter.19}%
 \contentsline {chapter}{\numberline {20}Continuous Random Variables}{51}{chapter.20}%
 \contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{52}{chapter.21}%
-\contentsline {chapter}{\numberline {22}Sampling and Estimation}{54}{chapter.22}%
-\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{58}{chapter.23}%
-\contentsline {chapter}{\numberline {24}Correlation and Linear Regression}{60}{chapter.24}%
-\contentsline {chapter}{\numberline {25}Bibliography}{62}{chapter.25}%
+\contentsline {chapter}{\numberline {22}Sampling and Estimation}{55}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{59}{chapter.23}%
+\contentsline {chapter}{\numberline {24}Correlation and Linear Regression}{61}{chapter.24}%
+\contentsline {chapter}{\numberline {25}Bibliography}{63}{chapter.25}%
