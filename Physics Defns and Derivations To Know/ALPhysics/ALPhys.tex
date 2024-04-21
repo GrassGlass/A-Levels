@@ -1037,6 +1037,7 @@ Some nice images:
         \captionsetup{type=figure}
         \caption[figure]{\ref{Varying direct current} Direct currents.}
     \end{center}
+    \item A \(k\,\text{V}\) \(f\,\text{Hz}\) a.c. supply is one which has \(\text{V}_\text{rms}=k\) and frequency \(f\).
     \item The \emph{root-mean-square} (r.m.s.) value \(I_{\text{rms}}\) (or \(V\text{rms}\)) of an \emph{alternating current} (or alternating voltage) is the value of a \emph{steady direct current} (or direct voltage) that would produce the \emph{same average power} in a given resistor.
     \item We denote the mean value of a quantity \(x\) by \(\langle x \rangle\). So, \(x_{rms}=\sqrt{\langle x^2 \rangle}\), and it also holds that
     \[\langle P \rangle=I_\text{rms}^2R=\frac{V_\text{rms}^2}{R}.\]
@@ -1049,7 +1050,7 @@ Some nice images:
     \item Note that for a \emph{full wave sinusoidal} alternating current (which an be assumed unless otherwise stated), 
     \[\langle P \rangle=\frac{1}{2}P_0,\qquad V_{\text{rms}}=\frac{1}{\sqrt{2}}V_0,\quad\text{and}\quad I_{\text{rms}}=\frac{1}{\sqrt{2}}I_0.\]
     \item Transformers. Let \(N_P\), \(V_P\), and \(I_P\) be the number of turns, voltage, and current, respectively, in the primary winding. Similarly define \(N_S\), \(V_S\), and \(I_S\) for the secondary winding. Then,
-    \[\frac{N_S}{N_P}=\frac{V_S}{V_P}=\frac{I_S}{I_P}.\]
+    \[\text{the turns ratio}\coloneq\frac{N_S}{N_P}=\frac{V_S}{V_P}=\frac{I_S}{I_P}.\]
     (To quickly determine which side carries a greater voltage, we can use the principle of `more turns, more voltage'.)
     \item A step up transformer is one that increases voltage, i.e. \(V_S>V_P\) (or \(N_S>N_P\)).
     \item A step down transformer is one that decreases voltage, i.e. \(V_P>V_S\) (or \(N_P>N_S\)).
@@ -1073,6 +1074,55 @@ Some nice images:
         \item Mechanical losses. The alternating magnetic field causes fluctuating forces between the primary and secondary windings. These cause vibrations within nearby metalwork, adding to the \emph{buzzing noise} and \emph{consuming a small amount of power}.
     \end{enumerate}
     \item Power is typically transmitted at high voltages to minimise the power lost during transmission.
+    \item Rectification.
+    \begin{itemize}
+        \item A \emph{half-wave rectification} converts only \emph{half} of the a.c. into d.c. by allowing current flow in only one direction.
+        \begin{figure}[h]
+            \centering
+            \begin{subfigure}[c]{0.45\textwidth}
+                \centering
+                \includegraphics[width=0.7\linewidth]{../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf}
+                \caption{\ref{Half-Wave-Recification-Circuit} Circuit diagram.}
+            \end{subfigure}%
+            \begin{subfigure}[c]{0.45\textwidth}
+                \centering
+                \includegraphics[width=0.7\linewidth]{../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf}
+                \caption{\ref{Half-Wave-Recification-Graph} The red and green lines denote the \(V_R-t\) and \(V_D-t\) graphs, respectively.}
+            \end{subfigure}
+            \caption{Half-wave rectification.}
+        \end{figure}
+        \begin{itemize}
+            \item First half cycle (`positive' \(V\) and \(I\))
+            \begin{itemize}
+                \item The diode is \emph{forward-biased} and has almost zero resistance, allowing the flow of current through the circuit.
+                \item There is negligible p.d. (approximately zero) across the diode due to the low resistance.
+                \item Thus, p.d. \(V_R\) across the resistor \(R\) is equal to the a.c. input voltage.
+                \item So, when the diode is forward-biased, \(V_R\) follows the a.c. supply.
+            \end{itemize}
+            \item Latter half cycle (`negative' \(V\) and \(I\))
+            \begin{itemize}
+                \item The diode is now \emph{reverse-biased} and has almost infinite resistance, such that only a negligible current flows through it.
+                \item The p.d. across the diode is equal to the a.c. input supply voltage as its resistance is very much larger than \(R\).
+                \item Thus, the p.d. \(V_R\) across \(R\) is negligible.
+                \item So, when the diode is reverse-biased, \(V_R=0\).
+            \end{itemize}
+        \end{itemize}
+        \item A \emph{full-wave rectification} converts \emph{all} of the a.c. into d.c. by inverting the negative current flow into positive current flow.
+        \begin{figure}[h]
+            \centering
+            \begin{subfigure}[c]{0.45\textwidth}
+                \centering
+                \includegraphics[width=0.7\linewidth]{../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf}
+                \caption{\ref{Full-Wave-Rectificaion-Circuit} Circuit diagram.}
+            \end{subfigure}%
+            \begin{subfigure}[c]{0.45\textwidth}
+                \centering
+                \includegraphics[width=0.7\linewidth]{../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf}
+                \caption{\ref{Full-Wave-Rectification-Graph} The \(V_R-t\) graph.}
+            \end{subfigure}
+            \caption{Full-wave rectification.}
+        \end{figure} 
+    \end{itemize}
 \end{itemize}
 \chapter{Bibliography}
 The copyrights belong solely to their respective owners. The images used mostly fall under the CC-BY-SA-3.0 or CC-BY-SA-4.0 licenses. Please contact me if you would like your work removed from these notes, or have you attribution reworked. 
@@ -1100,5 +1150,9 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{Varying direct current} Varying direct currents \url{https://www.desmos.com/calculator} (Made by me, Grass.)
     \item\label{Transformer} Transformer \url{https://tex.stackexchange.com/a/158815}
     \item\label{Another Transformer} Another Transformer \url{https://tex.stackexchange.com/a/321965}
+    \item\label{Half-Wave-Recification-Circuit} Circuit diagram for a half-wave rectification \url{https://tikz.net/semi-rectification/}
+    \item\label{Half-Wave-Recification-Graph} Graph for a half-wave rectification \url{https://www.desmos.com/calculator/iwlror8sml} (Made by me, Grass)
+    \item\label{Full-Wave-Rectificaion-Circuit} Circuit diagram for a full-wave rectification \url{https://tikz.net/diode-bridge-full-rectification/}
+    \item\label{Full-Wave-Rectification-Graph} Graph for a full-wave rectification \url{https://www.desmos.com/calculator/hwj30bli4o}
 \end{enumerate}
 \end{document}
