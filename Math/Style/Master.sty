@@ -13,8 +13,10 @@
 \RequirePackage[mode=buildnew]{standalone}
 \RequirePackage{environ}
 \RequirePackage{longtable}
+\RequirePackage{adjustbox}
 \RequirePackage{bm}
 \RequirePackage{pifont}
+\RequirePackage{pdflscape}
 %NewPackages
 \newcommand\addvmargin[1]{
   \node[fit=(current bounding box),inner ysep=#1,inner xsep=0]{};
@@ -86,7 +88,7 @@
 \RequirePackage{subfiles}
 \renewcommand*{\thefootnote}{\arabic{footnote}}
 \RequirePackage[inline]{enumitem}
-\usepackage{animate}
+\SetLabelAlign{parright}{\parbox[t]{\labelwidth}{\raggedleft#1}}
 \usepackage{nicematrix}
 
 \renewcommand\thesection{\thechapter.\arabic{section}}

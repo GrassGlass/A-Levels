@@ -351,7 +351,7 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \end{enumerate}
 \end{GCSkills}
 \begin{GCSkills}{}
-  Calculating the symmetric confidence interval by G.C.
+  Calculating the symmetric confidence interval for a normally distributed random variable.
   \begin{center}
   \begin{tabular}{ll}
     Mean: & \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{7:ZInterval\dots}\\
@@ -361,6 +361,7 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 \end{GCSkills}
 
 \chapter{Statistics: Hypothesis Testing}
+\section{General Information}
 \begin{definition}{}{}
   The \emph{null hypothesis} \(H_0\) and \emph{alternative hypothesis} \(H_1\) are the hypotheses that we hope to reject and accept, respectively. 
 \end{definition}
@@ -412,7 +413,7 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 \end{note}
 \begin{stbox}{}
   \begin{itemize}
-    \item A large sample hypothesis test for the mean.
+    \item One sample \(z\)-test. There are various combination of assumptions for which this test applies. For brevity, we shall avoid restating it, instead directing the reader to table \ref{Table:Summary table for one-sample hypothesis testing.}
     \begin{enumerate}
       \item Let [\(X\) in context] and \(\mu\) be the population mean.
       \item 
@@ -463,7 +464,7 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
             \begin{GCSkills}{}
               Calculating the \(p\)-value of a sample.
               \begin{center}
-                \texttt{stat \(\Longrightarrow\) TESTS \(\Longrightarrow\) 1:Z-Test.}
+                \texttt{stat \(\Longrightarrow\) TESTS \(\Longrightarrow\) 1:Z-Test\dots}
               \end{center}
             \end{GCSkills}
           \end{minipage}
@@ -501,6 +502,335 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \end{center}
   \emph{Note.} Spell ``Central Limit Theorem'' and ``the sample mean'' out \emph{in full}. Do not use CLT or \(\widebar{X}\) for this question.
 \end{note}
+\begin{definition}{}
+  A random variable \(X\) follows Student's \(t\)-distribution with \(\nu\) degrees of freedom iff its pdf is
+  \[f(t)=\frac{\Gamma{\left( \frac{\nu+1}{2} \right)}}{\sqrt{\pi\nu}\ \Gamma{\left( \frac{\nu}{2} \right)}}\left( 1+\frac{t^2}{\nu} \right)^{-\frac{1}{2}(\nu-1)}.\]
+  This is denoted by \(X\sim t(\nu)\).
+\end{definition}
+\begin{stbox}{}
+  \begin{itemize}
+    \item Properties of Student's \(t\)-distribution.
+    \begin{enumerate}
+      \item It is continuous and symmetric about the vertical axis, i.e. \(t=0\).
+      \item As \(\nu\to\infty\), we have \(t(\nu)\to\Normal(0,1)\).
+    \end{enumerate}
+    \item Let \(T\sim t(n-1)\) and \(t_{(n-1,1-\alpha/2)}\) be such that \(\Prob{\left(-t_{(n-1,1-\alpha/2)}<T<t_{(n-1,1-\alpha/2)}\right)}=1-\alpha\). A \((1-\alpha)100\%\) confidence interval, for the population mean \(\mu\) of \(T\), is
+    \[\left( \widebar{x}-t_{(n-1,1-\alpha/2)}\frac{s}{\sqrt{n}}\,,\ \widebar{x}-t_{(n-1,1-\alpha/2)}\frac{s}{\sqrt{n}} \right).\]
+    \item Suppose we are conducting the following test:
+    \begin{center}
+      \begin{tabular}{|ll|}
+        \hline
+        Test & \(H_0\colon\mu=\mu_0\)\\
+        against &\(H_1\colon\mu\neq\mu_0\)\\
+        \multicolumn{2}{|l|}{at a \(100\alpha\%\) significance level.}\\
+        \hline
+      \end{tabular}
+    \end{center}
+    Then, we reject \(H_0\) iff the appropriate symmetric interval (\(z\) or \(t\)-interval) does \emph{not} contain \(\mu_0\). 
+  \end{itemize}
+\end{stbox}
+\begin{GCSkills}{}
+  Calculating the symmetric \(t\)-confidence interval, for the population mean, of a random variable following Student's \(t\)-distribution.
+  \begin{center}
+    \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{8:TInterval\dots} 
+  \end{center}
+\end{GCSkills}
+\begin{stbox}{}
+  \begin{itemize}
+    \item A one sample \(t\)-test.
+    % We use this test when \emph{the population variance is unknown} and the sample size is small.
+    Again, see table \ref{Table:Summary table for one-sample hypothesis testing.} for the necessary assumptions.
+    \begin{enumerate}
+      \item Let [\(X\) in context], \emph{which we assume to be normally distributed}, and \(\mu\) be the population mean.
+      \item 
+      \begin{tabular}{|ll|}
+        \hline
+        Test & \(H_0\colon\mu=\mu_0\)\\
+        against &\(H_1\colon\) 
+        \begin{enumerate*}[itemjoin={\quad}]
+          \item \(\mu<\mu_0\),
+          \item \(\mu \neq \mu_0\),\quad or
+          \item \(\mu>\mu_0\),
+        \end{enumerate*}\\
+        \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+        \hline
+      \end{tabular}
+      \item Under \(H_0\), the test statistic
+      \[T=\frac{\widebar{X}-\mu}{s/\sqrt{n}}\sim t(n-1).\]
+      \item Continue as per usual, calculating the critical region or the \(p\)-value.
+    \end{enumerate}
+  \end{itemize}
+\end{stbox}
+\begin{GCSkills}{}
+  Calculating, for a one sample \(t\)-test, the 
+  \begin{center}
+    \begin{tabular}{ll}
+      \(p\)-value: & \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{2:T-Test\dots}\\
+      critical region: & \texttt{2nd} \(\Longrightarrow\) \texttt{vars} \(\Longrightarrow\) \texttt{4:invT(}
+    \end{tabular}
+  \end{center}
+\end{GCSkills}
+\begin{note}
+  In the GC, \texttt{invT} is always `to the \texttt{LEFT}'. That is, the output \(t\) of 
+  \begin{center}
+    \begin{tabular}{|lScr|}
+      \hline
+      &\qquad\colorbox{black}{\textcolor{white}{\texttt{invT}}}&\\
+      \texttt{area:\(A\)}&&\qquad\hphantom{\texttt{area:\(A\)}}\\
+      \texttt{df:\(\nu\)}&&\\
+      \texttt{Paste}&&\\
+      \hline
+    \end{tabular}
+  \end{center}
+  is such that \(\Prob(T<t)=A\).
+\end{note}
+\begin{stbox}{}
+  \begin{itemize}
+    \item A two-sample \(z\)-test. 
+    % Let \(X_1\) and \(X_2\) have population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\) (respectively). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\), each of sizes \(n_1\) and \(n_2\) (respectively). If (i) or (ii) is true, then we carry out a two-sample \(z\)-test.
+    Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
+    \begin{enumerate}[label=(\roman*)]
+      \item \(\sigma_1\) and \(\sigma_2\) are known, in addition to
+      \begin{enumerate}[label=(\arabic*)]
+        \item \(X_1\) and \(X_2\) being normally distributed, or
+        \item both sample sizes, \(n_1\) and \(n_2\), being large.
+      \end{enumerate} 
+      \item \(\sigma_1\) and \(\sigma_2\) are unknown, but \(X_1\) and \(X_2\) are normally distributed, and both samples are large (so we can use the fact that a \(t\)-distribution approximates to a normal distribution with large sample sizes).
+    \end{enumerate}
+    \begin{enumerate}
+      \item Let [\(X_1\), \(X_2\) in context], (which we assume to be normally distributed)\footnote{if applicable} and \(\mu\) be the population mean.
+      \item 
+      \begin{tabular}{|ll|}
+        \hline
+        Test & \(H_0\colon\mu_1-\mu_2=c\)\\
+        against &\(H_1\colon\)
+        \begin{enumerate*}[itemjoin={\quad}]
+          \item \(\mu_1-\mu_2<c\),
+          \item \(\mu_1-\mu_2=c\),\quad or
+          \item \(\mu_1-\mu_2>c\),
+        \end{enumerate*}\\
+        \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+        \hline
+      \end{tabular}
+      \item Under \(H_0\), the test statistic
+      \begin{enumerate}[align=parleft,label=(\roman*)]
+        \item \[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}}\sim\Normal(0,1).\]
+        \item[(ii)(1)]\[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}\sim\Normal(0,1).\]
+        \item[(ii)(2)] \[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim\Normal(0,1)\quad\text{where}\quad s_p^2=\rule{0.5cm}{0.1mm}.\]
+      \end{enumerate}
+      Case (ii)(2) is used when the population variances coincide, i.e. \(\sigma_1=\sigma_2\).
+      \item Continue as per usual, calculating the critical region or the \(p\)-value.
+    \end{enumerate}
+  \end{itemize}
+\end{stbox}
+\begin{recall}
+  \[s_p^2=\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}.\]
+\end{recall}
+\begin{stbox}{}
+  \begin{itemize}
+    \item A two-sample \(t\)-test. 
+    % Let \(X_1\sim\Normal(\mu_1,\highlight[yellow]{\sigma^2})\) and \(X_2\sim\Normal(\mu_2,\highlight[yellow]{\sigma^2})\). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\); of small sizes \(n_1\) and \(n_2\) (respectively). Then we carry out a two-sample \(t\)-test.
+    Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
+    \begin{enumerate}
+      \item Let [\(X_1\), \(X_2\) in context], \emph{which we assume to be normally distributed}, and \(\mu\) be the population mean.
+      \item 
+      \begin{tabular}{|ll|}
+        \hline
+        Test & \(H_0\colon\mu_1-\mu_2=c\)\\
+        against &\(H_1\colon\)
+        \begin{enumerate*}[itemjoin={\quad}]
+          \item \(\mu_1-\mu_2<c\),
+          \item \(\mu_1-\mu_2=c\),\quad or
+          \item \(\mu_1-\mu_2>c\),
+        \end{enumerate*}\\
+        \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+        \hline
+      \end{tabular}
+      \item Under \(H_0\), the test statistic
+      \[T=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t(n_1+n_2-2)\quad\text{where}\quad s_p^2=\rule{0.5cm}{0.1mm}.\]
+      \item Continue as per usual, calculating the critical region or the \(p\)-value.
+    \end{enumerate}
+  \end{itemize}
+\end{stbox}
+\begin{GCSkills}{}
+  Calculating the \(p\)-value for a
+  \begin{center} 
+    \begin{tabular}{ll}
+      two-sample \(z\)-test: & \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{3:2-SampZTest\dots}\\
+      two-sample \(t\)-test: & \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{4:2-SampTTest\dots} \(\Longrightarrow\) \hly{\texttt{Pooled:Yes}}
+    \end{tabular}
+  \end{center}
+\end{GCSkills}
+\begin{stbox}{}
+  \begin{itemize}
+    \item A paired sample \(t\)-test. 
+    % Let \(X\) and \(Y\)be normally distributed, with population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\). (respectively). We define \(D\coloneq X-Y\). Further suppose we have two independent random samples \(X_1,X_2,\dots,X_n\) and \(Y_1,Y_2,\dots,Y_n\), such that 
+    % \begin{enumerate}[label=(\roman*)]
+    %   \item \(D_1,D_2,\dots,D_n\) are normally distributed
+    %   \item the data within each pair \(\{X_i,Y_i\}\) are dependent on each other, but
+    %   \item pairs \(\{X_i,Y_i\}\) and \(\{X_j,Y_j\}\) are independent of each other, for \(i\neq j\).
+    % \end{enumerate}
+    % Then, we use a paired sample \(t\)-test. 
+    Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
+  \end{itemize}
+  \begin{enumerate}
+    \item Let \(D=\text{[\(X\) in context]}-\text{[\(Y\) in context]}\), and \(\mu_D\) be the population mean.
+    \item 
+    \begin{tabular}{|ll|}
+      \hline
+      Test & \(H_0\colon\mu_D=\mu_0\)\\
+      against &\(H_1\colon\) 
+      \begin{enumerate*}[itemjoin={\quad}]
+        \item \(\mu_D<\mu_0\),
+        \item \(\mu_D \neq \mu_0\),\quad or
+        \item \(\mu_D>\mu_0\),
+      \end{enumerate*}\\
+      \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+      \hline
+    \end{tabular}
+    \item Under \(H_0\), the test statistic
+    \[T=\frac{\widebar{D}-\mu_0}{s_D/\sqrt{n}}\sim t(n-1).\]
+    \item \(d=x_1-y_1,x_2-y_2,\dots,x_n-y_n\) (insert contextual values) so
+    \[\widebar{d}=\rule{0.5cm}{0.1mm}\qquad\text{and}\qquad s_d^2=\frac{1}{n-1}\left( \sum{d^2}-\frac{\left( \sum{d} \right)^2}{n} \right)=\rule{0.5cm}{0.1mm}.\]
+    \item Continue as per usual, calculating the critical region or the \(p\)-value.
+  \end{enumerate}
+\end{stbox}
+
+\begin{landscape}
+  \section{Summary}
+Throughout the following table, we \emph{always} assume that the (both) sample(s) independent and random.
+  \begin{table}[htbp]
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        Assumptions/Reasons & Test (Statistic)\\
+        \hline
+        \begin{minipage}{418.6pt}
+          \begin{enumerate}[align=parleft]
+            \item[{[ii]}]\ The variance \(\sigma^2\) is known.
+            \item[{[ii]}(1)]\ Sample size \(n\) is large (so CLT applies).
+            \item[{[ii]}(2)]\ Sample size \(n\) is small, but we assume \(X\) is normally distributed.
+          \end{enumerate}
+        \end{minipage}&
+        \begin{minipage}{179.4pt}
+          \begin{center}
+            One-sample \(z\)-test
+            \[Z=\frac{\widebar{X}-\mu_0}{\sigma/\sqrt{n}}\sim\Normal(0,1)\]
+            (approximately if CLT was used)
+          \end{center}
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{418.6pt}
+          \begin{enumerate}[align=parleft]
+            \item[{[i]}]\ The variance \(\sigma^2\) is unknown.
+            \item[{[ii]}]\ Sample size \(n\) is large.
+            \item[{[iii]}(1)]\ \(X\) is known to be normally distributed.
+          \end{enumerate}
+          \begin{enumerate}[leftmargin=3cm,labelindent=-\leftmargin,align=parleft,labelwidth=\widthof{(H2 Math)}]
+            \item[(FM)] So \(t(n-1)\) approximates to \(\Normal(0,1)\).
+            \item[(H2 Math)] No specific reason, just write ``approximately.''.  
+          \end{enumerate}
+          \begin{enumerate}[align=parleft]
+            \item[{[iii]}(2)]\ \(X\) is not known to be normally distributed.        
+          \end{enumerate}
+          \begin{enumerate}[leftmargin=5cm,labelindent=-\leftmargin,align=parleft,labelwidth=\widthof{(H2 Math Handwaving)}]
+            \item[(H2 Math Handwaving)] CLT applies.  
+          \end{enumerate}
+        \end{minipage}&
+        \begin{minipage}{179.4pt}
+          \begin{center}
+            One-sample \(z\)-test
+            \[Z=\frac{\widebar{X}-\mu_0}{s/\sqrt{n}}\sim\Normal(0,1)\]
+            (approximately)
+          \end{center}
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{418.6pt}
+          \begin{enumerate}[label={[\roman*]},align=parleft]
+            \item The variance \(\sigma^2\) is unknown.
+            \item Sample size \(n\) is small.
+            \item Assume \(X\) is normally distributed.
+          \end{enumerate}
+        \end{minipage}&
+        \begin{minipage}{179.4pt}
+          \begin{center}
+            One-sample \(t\)-test
+            \[T=\frac{\widebar{X}-\mu_0}{s/\sqrt{n}}\sim t(n-1)\]
+          \end{center}
+        \end{minipage}\\
+        \hline
+      \end{tabular}
+    \caption{Summary table for one-sample hypothesis testing.}
+    \label{Table:Summary table for one-sample hypothesis testing.}
+  \end{table}
+\end{landscape}
+\begin{landscape}
+  \begin{table}[htbp]
+    \begin{tabular}{|Sc|Sc|}
+      \hline
+      Assumptions/Reasons & Test (Statistic)\\
+      \hline
+      \begin{minipage}{418.6pt}
+        \begin{enumerate}[align=parleft]
+          \item[{[i]}]\ Both variances \(\sigma_1\) and \(\sigma_2\) are known.
+          \item[{[ii](1)}]\ Both sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
+          \item[{[ii](2)}]\ Either sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are normally distributed.
+        \end{enumerate}
+      \end{minipage}&
+      \begin{minipage}{179.4pt}
+        \begin{center}
+          Two-sample \(z\)-test
+          \[Z=\frac{\widebar{X}_1-\widebar{X}_2-(\mu_1-\mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}}\sim\Normal(0,1)\]
+          (approximately if CLT was used)
+        \end{center}
+      \end{minipage}\\
+      \hline
+      \begin{minipage}{418.6pt}
+        \begin{enumerate}[label={[\roman*]},align=parleft]
+          \item One of the variances \(\sigma_1\) and \(\sigma_2\) are unknown.
+          \item Both sample sizes \(n_1\) and \(n_2\) are large.
+          \item Assume \(X_1\) and \(X_2\) are normally distributed.
+        \end{enumerate}
+        So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
+      \end{minipage}&
+      \begin{minipage}{179.4pt}
+        \begin{center}
+          Two-sample \(z\)-test
+          \[Z=\frac{\widebar{X}_1-\widebar{X}_2-(\mu_1-\mu_2)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}\sim\Normal(0,1)\]
+          approximately
+        \end{center}
+      \end{minipage}\\
+      \hline
+      \begin{minipage}{418.6pt}
+        \begin{enumerate}[label={[\roman*]},align=parleft]
+          \item Both variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
+          \item Assume \(X_1\) and \(X_2\) are normally distributed. (Alt: Both samples come from normal populations.)
+        \end{enumerate}
+      \end{minipage}&
+      \begin{minipage}{179.4pt}
+        \begin{center}
+          Two-sample \(t\)-test
+          \[T=\frac{\widebar{X}_1-\widebar{X}_2-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t(n_1+n_2-2)\]
+        \end{center}
+      \end{minipage}\\
+      \hline
+      \begin{minipage}{418.6pt}
+        \begin{enumerate}[align=parleft]
+          \item Assume that \(D_1,D_2,\dots,D_n\) are normally distributed.
+          \item Assume that the data within each pair \(\{X_i,Y_i\}\) are dependent on each other, but pairs \(\{X_i,Y_i\}\) and \(\{X_j,Y_j\}\) are independent of each other, for \(i\neq j\). 
+        \end{enumerate}
+      \end{minipage}&
+      \begin{minipage}{179.4pt}
+        \begin{center}
+          Paired-sample \(t\)-test
+        \[T=\frac{\widebar{D}-\mu_D}{s_D/\sqrt{n}}\sim t(n-1).\]
+        \end{center}
+      \end{minipage}\\
+      \hline
+    \end{tabular}
+  \caption{Summary table for two-sample hypothesis testing.}
+  \label{Table:Summary table for two-sample hypothesis testing.}
+\end{table}
+\end{landscape}
 
 \chapter{Correlation and Linear Regression}
 \begin{note}
