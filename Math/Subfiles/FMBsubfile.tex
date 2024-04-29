@@ -507,11 +507,18 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \[f(t)=\frac{\Gamma{\left( \frac{\nu+1}{2} \right)}}{\sqrt{\pi\nu}\ \Gamma{\left( \frac{\nu}{2} \right)}}\left( 1+\frac{t^2}{\nu} \right)^{-\frac{1}{2}(\nu-1)}.\]
   This is denoted by \(X\sim t(\nu)\).
 \end{definition}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{../Diagrams/t-distribution/t-distributon.pdf}
+  \caption{Student's \(t\)-distribution compared to the standard normal distribution.}
+  \label{Fig:Student}
+\end{figure}
 \begin{stbox}{}
   \begin{itemize}
     \item Properties of Student's \(t\)-distribution.
     \begin{enumerate}
       \item It is continuous and symmetric about the vertical axis, i.e. \(t=0\).
+      \item From Figure \ref{Fig:Student}, we see that the \(t\)-distribution has a flatter peak and fatter tails, than the standard normal distribution.
       \item As \(\nu\to\infty\), we have \(t(\nu)\to\Normal(0,1)\).
     \end{enumerate}
     \item Let \(T\sim t(n-1)\) and \(t_{(n-1,1-\alpha/2)}\) be such that \(\Prob{\left(-t_{(n-1,1-\alpha/2)}<T<t_{(n-1,1-\alpha/2)}\right)}=1-\alpha\). A \((1-\alpha)100\%\) confidence interval, for the population mean \(\mu\) of \(T\), is
@@ -695,10 +702,57 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
     \item Continue as per usual, calculating the critical region or the \(p\)-value.
   \end{enumerate}
 \end{stbox}
+\begin{note}
+  How does the question signal the use of a paired sample \(t\)-test? It would be done in one of the following ways:
+  \begin{enumerate}[label=(\alph*)]
+    \item Via a table
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+        \hline
+        Index & 1 & 2 & \(\cdots\) & \(n\)\\
+        \hline
+        \(X\) & \(x_1\) & \(x_2\) & \(\cdots\) & \(x_n\)\\
+        \hline
+        \(Y\) & \(Y_1\) & \(Y_2\) & \(\cdots\) & \(Y_n\)\\
+        \hline
+      \end{tabular}
+      \captionsetup{type=table}
+      \captionof{table}{Table containing data of two paired samples.}
+      \label{table:table containing data of two paired samples}
+    \end{center}
+    \item Stated very explicitly. For instance, ``The two sets of data are arranged according to respective students.''
+  \end{enumerate}
+\end{note}
+\begin{note}
+  Explain why a two-sample \(t\)-test would be better than a paired sample \(t\)-test.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      A two-sample \(t\)-test would be better since the \emph{samples are independent}, and we do not know if the data is organised such that each pair comes from the same column.
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  If it were required to test whether the [population mean \(\mu_1\) of \(X\) in context] is \(k\), give a reason, whether it would be correct to use the [pooled estimate of variance in context] or an estimate based on the [sample from the distribution of \(X\)].
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      It would be correct to use the estimate of variance based on [sample from the distribution of \(X\)], since the test statistic
+      \[T=\frac{\widebar{X}-\mu}{s/\sqrt{n}}\sim t(n-1).\]
+      involves only the [sample from the distribution of \(X\)].
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  
+  \begin{center}
+    \parbox{0.9\textwidth}{
+
+    }
+  \end{center}
+\end{note}
 
 \begin{landscape}
   \section{Summary}
-Throughout the following table, we \emph{always} assume that the (both) sample(s) independent and random.
+Throughout the two tables, we \emph{always} assume that the (both) sample(s) independent and random.
   \begin{table}[htbp]
       \begin{tabular}{|Sc|Sc|}
         \hline

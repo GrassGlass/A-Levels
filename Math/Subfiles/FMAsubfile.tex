@@ -214,10 +214,52 @@ Such that the following properties hold:
     \end{itemize}
 \end{stbox}
 \begin{theorem}{}{}
+    The determinant \(\det\colon \operatorname{M}_{n \times n}(\mathbb{F})\to \mathbb{F}\) is an alternating \(n\)-linear function. The former (alternating) means that for \(\mathbf{A}\in \operatorname{M}_{n \times n}(\mathbb{F})\) and any \(\mathbf{B}\) obtained from \(\mathbf{A}\) by interchanging any two rows of \(\mathbf{A}\),
+    \[\det(\mathbf{B})=-\det(\mathbf{A}).\]
+    The latter (\(n\)-linearity) means that, for any scalar \(k \in \mathbb{F}\) and vectors \(\mathbf{u},\mathbf{v},\mathbf{a}_i\in \mathbb{F}^n\),
+    \[\det\begin{pmatrix}
+        \mathbf{a}_1\\
+        \mathbf{a}_2\\
+        \vdots\\
+        \mathbf{a}_{r-1}
+        \mathbf{u}+k\mathbf{v}\\
+        \mathbf{a}_{r+1}\\
+        \vdots\\
+        \mathbf{a}_n
+    \end{pmatrix}=
+    \det\begin{pmatrix}
+        \mathbf{a}_1\\
+        \mathbf{a}_2\\
+        \vdots\\
+        \mathbf{a}_{r-1}
+        \mathbf{u}\\
+        \mathbf{a}_{r+1}\\
+        \vdots\\
+        \mathbf{a}_n
+    \end{pmatrix}+
+    k\det\begin{pmatrix}
+        \mathbf{a}_1\\
+        \mathbf{a}_2\\
+        \vdots\\
+        \mathbf{a}_{r-1}
+        \mathbf{v}\\
+        \mathbf{a}_{r+1}\\
+        \vdots\\
+        \mathbf{a}_n
+    \end{pmatrix}.\]
+    (In fact, it can be shown that \(\det\colon \operatorname{M}_{n \times n}(\mathbb{F})\to \mathbb{F}\) is the \emph{unique} alternating \(n\)-linear function, such that \(\det(\mathbf{I})=1\).)
+\end{theorem}
+\begin{corollary}{}{}
+    Let \(\mathbf{A}\in \operatorname{M}_{n \times n}(\mathbb{F})\). Then, for any matrix \(\mathbf{B}\) obtained by adding a scalar multiple of one row/column of \(\mathbf{A}\) to another, \(\det(\mathbf{B})=\det(\mathbf{A})\).
+\end{corollary}
+\begin{theorem}{}{}
     The determinant of a square matrix can be evaluated by cofactor expansion along any row. That is, if \(\mathbf{A} \in \mathrm{M}_{n\times n}(\mathbb{F})\), then for any integer \(1\leq i\leq n\),
         \[\det(\mathbf{A})=\sum_{j=1}^{n}{(-1)}^{i+j}\mathbf{A}_{ij}\cdot \det(\widetilde{\mathbf{A}}_{ij}).\] 
         Here, \(\widetilde{\mathbf{A}}_{ij}\) is the \((n-1)\times(n-1)\) matrix obtained from \(\mathbf{A}\) by deleting its \(i\)th row and \(j\)th column.
 \end{theorem}
+\begin{corollary}{}{}
+    The determinant of any triangular matrix is the product of its diagonals.
+\end{corollary}
 \begin{theorem}{}{}
     Let \(A\) be an \(n\times n\) matrix. Then,
     \[\det(\mathbf{A})=\det(\mathbf{A}^\top).\]
@@ -227,6 +269,9 @@ Such that the following properties hold:
     Let \(\mathbf{A}\) be an invertible \(n\times n\) matrix. Then,
     \[\mathbf{A}^{-1}=\frac{1}{\det(\mathbf{A})}\adj(A),\]
     where \(\adj(\mathbf{A})\) is the adjugate/classical adjoint of \(\mathbf{A}\). That is, the matrix whose \((i,j)\)th entry is the \((j,i)\)th cofactor \((-1)^{j+i}\det(\widetilde{\mathbf{A}}_{ji})\)
+\end{theorem}
+\begin{theorem}{}{}
+    For any \(\mathbf{A},\mathbf{B} \in \operatorname{M}_{n \times n}(\mathbb{F})\), we have \(\det(\mathbf{A}\mathbf{B})=\det(\mathbf{A})\cdot\det(\mathbf{B})\).
 \end{theorem}
 \begin{definition}{}{}
     A linear operator \(T\) on a finite-dimensional vector space \(V\) is called \emph{diagonalisable} iff there is an ordered basis \(\beta\) for \(V\) such that \([T]_\beta\) is a diagonal matrix. A square matrix \(\mathbf{A}\) is called diagonalisable iff \(L_\mathbf{A}\) is diagonalisable.
@@ -256,6 +301,9 @@ Such that the following properties hold:
         \end{enumerate} 
     \end{itemize}    
 \end{stbox}
+\begin{note}
+    Let \(\mathbf{A}\) be a \(3\times 3\) real matrix with the eigenvalue \(\lambda\). Then, the cross product of two nonzero rows/columns of \(\mathbf{A}-\lambda \mathbf{I}\) is an eigenvector of \(\mathbf{A}\).
+\end{note}
 \begin{theorem}{The Cayley-Hamiliton Theorem.}{}
     Let \(T\) be a linear operator on a finite dimensional vector space \(V\), and let \(f(t)\) be the characteristic polynomial of \(T\). Then \(f(T)=T_0\), the zero transformation. That is, T ``satisfies'' its characteristic equation.
 \end{theorem}
