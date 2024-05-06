@@ -328,17 +328,83 @@ Such that the following properties hold:
         \item Suppose we have some function \(f \colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), whose value we want to approximate. There are three ways to obtain this approximation.
         \begin{enumerate}
             \item Linear interpolation on an interval \([a,b]\) containing \(\alpha\). We let \(x_0\coloneq b\) and
-            \[x_{i+1}\coloneq\frac{a \lvert f(x_i) \rvert+x_i \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(x_i) \rvert}.\]
+            \[x_{n+1}\coloneq\frac{a \lvert f(x_n) \rvert+x_n \lvert f(a) \rvert}{\lvert f(x_n) \rvert+\lvert f(a) \rvert}.\]
             \begin{itemize}
-                \item \emph{Additional notes.}
+                \item The sequence \(\{x_n\}\) of approximations \emph{always} converges to \(\alpha\).
+                \item The smaller \(f''(x)\) is (i.e. the slower the gradient \(f'(x)\) changes) near \(\alpha\), the faster the rate of convergence.
+                \item Error:
+                \begin{table}[H]
+                    \centering
+                    \begin{tabular}{|Sc|Sc|Sc|}
+                        \hline
+                        Concave/Gradient & Positive & Negative\\
+                        \hline
+                        Upwards \(\bigcap\) & \textcolor{blue}{underestimation} & \textcolor{red}{overestimation}\\
+                        \hline
+                        Downwards \(\bigcup\) & \textcolor{red}{overestimation} & \textcolor{blue}{underestimation}\\
+                        \hline
+                    \end{tabular}
+                    \caption{Approximation errors when using linear interpolation.}
+                    \label{table:linear-interpolaion}
+                \end{table}
+                \item See Figure \ref{fig:linear-interpolation} for an illustration.
+                \footnotetext{Screw trying to make nice diagonal cells. Pain. Suffering.}
             \end{itemize}
             \item Fixed-point Iteration. First select a function \(F \colon \mathbb{R}\to \mathbb{R}\), such that \(F(\alpha)=\alpha\), and choose some initial approximation \(x_0\) to \(\alpha\). Then, we recursively define \(x_{n+1} \coloneq F(x_n)\). The desired convergence behavior is for \(x_n\) to approach \(\alpha\).
             \begin{itemize}
-                \item \emph{Additional notes.}
+                \item Convergence behavior
+                \begin{table}[H]
+                    \centering
+                    \begin{tabular}{|Sc|Sc|Sc|Sc|}
+                        \hline
+                        Behvaior of \(\lvert F'(x) \rvert\) & Converges? & Rate of convergence\\
+                        \hline
+                        \(\lvert F'(x) \rvert<1\) and is small near \(\alpha\) & \textcolor{green!70!black}{\checkmark} & \textcolor{green!70!black}{fast}\\
+                        \hline
+                        \(\lvert F'(x) \rvert<1\) but is close to 1 near \(\alpha\) & \textcolor{green!70!black}{\checkmark} & \textcolor{blue}{slow}\\
+                        \hline
+                        \(\lvert F'(x) \rvert\geq 1\) near \(\alpha\) & \textcolor{red}{\(\times\)} & -\\
+                        \hline
+                    \end{tabular}
+                    \caption{Convergence behavior of fixed-point iterations.}
+                    \label{table:fixed-point-iteration}
+                \end{table}
+                \item See Figure \ref{fig:fixed-point-iteration} for an illustration.
+            \end{itemize}
+            \item The Newton-Raphson Method. For a function \(f\colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), the Newton-Raphson formula is
+            \[x_{n+1}\coloneq x_n-\frac{f(x_n)}{f'(x_n)}.\]
+            \begin{itemize}
+                \item The Newton-Raphson method fails in the following cases.
+                \begin{enumerate}
+                    \item The gradient at \(x_0\) is too gentle.
+                    \item The gradient changes too rapidly.
+                    \item The initial approximation \(x_0\) is too far from the root \(\alpha\).
+                    \item There is a turning point between the initial approximation \(x_0\) and the root \(\alpha\).
+                    \item There is a point of inflection.
+                \end{enumerate}
+                \item Error: 
+                \begin{table}[H]
+                    \centering
+                    \begin{tabular}{|Sc|Sc|Sc|}
+                        \hline
+                        Concave/Gradient & Positive & Negative\\
+                        \hline
+                        Upwards \(\bigcap\) & \textcolor{red}{overestimation} & \textcolor{blue}{underestimation}\\
+                        \hline
+                        Downwards \(\bigcup\) & \textcolor{blue}{underestimation} & \textcolor{red}{overestimation}\\
+                        \hline
+                    \end{tabular}
+                    \caption{Approximation errors when using the Newton-Raphson method.}
+                    \label{table:newton-raphson}
+                \end{table}
+                \item See Figure \ref{fig:newton's-method} for an illustration.
             \end{itemize}
         \end{enumerate}
     \end{itemize}
 \end{stbox}
+\begin{note}
+    At every iteration of linear interpolation, we must ensure that \(\alpha\in [a,x_n]\). Otherwise \(x_n\) may not approximate \(\alpha\). If \(\alpha\notin [a,x_n]\), simply consider \(\alpha\in [x_n,b]\) (or any other suitable interval) instead.
+\end{note}
 \begin{GCSkills}{}
     Linear interpolation: finding an approximation to a root in \([a,b]\) up to \(n\) decimal places.
     \begin{enumerate}
@@ -350,4 +416,24 @@ Such that the following properties hold:
         \item Terminate this process when the approximations are consistent up to \(n\) decimal places.
     \end{enumerate}
     \end{GCSkills}
+    \newpage
+    You can freely enter any function and shift the initial values in the Desmos graphs below!
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Diagrams/linear-interpolation.pdf}
+        \caption{An illustration of linear interpolation \href{https://www.desmos.com/calculator/jp52nra5le}{(Desmos)}.}
+        \label{fig:linear-interpolation}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf}
+        \caption{An illustration of fixed-point iteration.}
+        \label{fig:fixed-point-iteration}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Diagrams/newton's-method.pdf}
+        \caption{An illustration of Newton's Method \href{https://www.desmos.com/calculator/izkg4ynlfp}{(Desmos)}.}
+        \label{fig:newton's-method}
+    \end{figure}
 \end{document}

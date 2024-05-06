@@ -1,0 +1,216 @@
+\chapter{Sampling and Estimation}
+\begin{definition}{}{}
+  A sample is a finite subset of the population.
+\end{definition}
+\begin{definition}{}{}
+  A random sample is a sample selected such that each member of the population has an equal probability of being selected into the sample.
+\end{definition}
+\begin{note}
+  State, in context, what it means for the sample to be random.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      It means that \hly{every [a member of the population]} has \hly{an equal probability} of being \hly{selected into the sample}. 
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Explain why the sample would actually not be random.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      [Contextual reason], so \hly{not all} the [members of the population] have an \hly{equal probability of being selected into the sample}. 
+    }
+  \end{center}
+\end{note}
+\begin{definition}{}{}
+  Any statistic \(T\) derived from a random sample and used to estimated an unknown population parameter \(\theta\) is known as an \emph{estimator}. It is an \emph{unbiased} estimator iff \(\E(T)=\theta\). If \(T\) is unbiased we commonly write \(\hat{\theta}\) for \(T\).
+\end{definition}
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item Either write \(\hat{\mu}\highlight[yellow]{=\bar{x}}=\dots\) or write out ``Unbiased estimate of the population mean \(\mu\), \(\widebar{x}=\dots\)'' Same holds for other population parameters \(\theta\).
+    \item Estimators you should know:
+    \item 
+    % *A table where Parameter is under another column
+    % \begin{center}
+    %   \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+    %     \hline
+    %     \multicolumn{2}{|Sc|}{Parameter} & Estimator & Unbiased? & Formula\\
+    %     \hline
+    %     Population Mean & \(\mu\) & \(\widebar{X}\) & \checkmark & \(\dfrac{X_1+X_2+\dots+X_n}{n}\)\\
+    %     \hline
+    %     \multirow{2}{*}[-1.2cm]{Population Variance} & \multirow{2}{*}[-1.2cm]{\(\sigma^2\)} & \(\sigma_n^2\) & \(\times\) & 
+    %     \begin{minipage}{3cm}
+    %       \begin{center}
+    %         \(\dfrac{\sum{(X_i-\widebar{X})^2}}{n}\)\\[1mm]
+    %         \(\dfrac{\sum{X_i^2}}{n}-\widebar{X}^2\)
+    %       \end{center}
+    %     \end{minipage}\\
+    %     \cline{3-4}
+    %     & & \(S^2\) & \checkmark & 
+    %     \begin{minipage}{5cm}
+    %       \begin{center}
+    %       \(\dfrac{n}{n-1}\sigma_n^2\)\\[1mm]
+    %       \(\dfrac{\sum(X_i-\widebar{X})^2}{n-1}\)\\[1mm]
+    %       \(\dfrac{1}{n-1}\left[ \sum X_i^2-\dfrac{(\sum X_i)^2}{n} \right]\)
+    %       \end{center}
+    %     \end{minipage}\\
+    %     \hline
+    %     Population Proportion & \(p\) & \(P_s\) & \checkmark & \(\dfrac{X}{n}\)\\
+    %     \hline
+    %   \end{tabular}
+    % \end{center}
+    \begin{center}
+      \resizebox{0.94\textwidth}{!}{\begin{tabular}{|Sc|Sc|Sc|Sc|}
+        \hline
+        Parameter & Estimator & Unbiased? & Formula\\
+        \hline
+        Population Mean \(\mu\) & Sample Mean \(\widebar{X}\) & \checkmark & \(\dfrac{X_1+X_2+\dots+X_n}{n}\)\\
+        \hline
+        \multirow{2}{*}[-1.2cm]{Population Variance \(\sigma^2\)} & Sample Variance \(\sigma_n^2\) & \(\times\) & 
+        \begin{minipage}{3cm}
+          \begin{center}
+            \(\dfrac{\sum{(X_i-\widebar{X})^2}}{n}\)\\[1mm]
+            \(\dfrac{\sum{X_i^2}}{n}-\widebar{X}^2\)
+          \end{center}
+        \end{minipage}\\
+        \cline{2-4}
+        & \(S^2\) & \checkmark & 
+        \begin{minipage}{5cm}
+          \begin{center}
+          \(\dfrac{n}{n-1}\sigma_n^2\)\\[1mm]
+          \(\dfrac{\sum(X_i-\widebar{X})^2}{n-1}\)\\[1mm]
+          \(\dfrac{1}{n-1}\left[ \sum X_i^2-\dfrac{(\sum X_i)^2}{n} \right]\)
+          \end{center}
+        \end{minipage}\\
+        \hline
+        Population Proportion \(p\) & Sample Proportion \(P_s\) & \checkmark & \(\dfrac{X}{n}\)\\
+        \hline
+      \end{tabular}}
+    \end{center}
+    \item Let \(X\) be a random variable following \emph{any distribution}, and suppose we have a random sample \(X_1,X_2,\dots,X_n\) of size \(n\geq 50\). Then by CLT (Central Limit Theorem), since \(n\geq 50\) is large, 
+    \[\widebar{X}\sim \Normal\left(\mu,\frac{\sigma^2}{n}\right) \qquad\text{and}\qquad X_1+X_2+\dots+X_n\sim \Normal(n\mu,n\sigma^2)\]
+    \emph{approximately}.
+    \item Assumptions when using CLT:
+    \begin{itemize}
+      \item The sample is random.
+      \item Each \(X_i\) is independent and identically distributed.
+    \end{itemize}
+    \item Suppose \(X\sim \Normal(\mu,\sigma^2)\) is known and we pick a \emph{particular} sample. Then,
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        Distribution & Is An Approximation?\\
+        \hline
+        \(\widebar{X} \sim \Normal(\mu,\sigma^2)\) & No\\
+        \hline
+        \(\widebar{X} \sim \Normal(\widebar{x},\sigma^2)\) & Yes\\
+        \hline
+        \(\widebar{X} \sim \Normal(\mu,s^2)\) & Yes\\
+        \hline
+        \(\widebar{X} \sim \Normal(\widebar{x},s^2)\) & Yes\\
+        \hline
+      \end{tabular}
+    \end{center}
+    % ADD NAMES of the parameters and estimators to previous table
+    So, if we obtain any of the latter three in solving a question, we must write ``\(X\sim \Normal(\rule{3mm}{0.1mm},\rule{3mm}{0.1mm})\)approximately'' (even though we knew \(X\) \emph{exactly} follows a normal distribution!)
+    \item Pooled estimators. First assume we have two populations, from which we select a random sample of size \(n_1\) and \(n_2\). We let \(\widebar{X}_1\) and \(S_1^2\) denote the sample mean and unbiased estimator for variance, respectively, for the first sample. Similarly define \(\widebar{X}_2\) and \(S_2^2\), for the second sample.
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        Parameter & Unbiased Pooled Estimator\\
+        \hline
+         Mean  & \(\hat{\mu}=\dfrac{n_1\widebar{X}_1+n_2\widebar{X}_2}{n_1+n_2}\)\\
+         \hline
+         Variance & \(S_p^2=\dfrac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}\)\\
+         \hline
+      \end{tabular}
+    \end{center}
+  \end{itemize}
+\end{stbox}
+The following definition is found in 
+\href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{Hogg-McKean-Craig}. Similar definitions are also found in 
+\href{https://www.amazon.sg/Mathematical-Statistics-Applications-William-Mendenhall/dp/0495110817#customerReviews}{Wackerly-Mendenhall-Schaefer}
+and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Monographs/dp/0824703790}{Nitis Mukhopadhyay}.
+\begin{definition}{}{}
+  Let \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\), where \(X\) has pdf \(f(x;\theta)\), \(\theta \in \Omega\). Let \(0<\alpha<1\) be specified. Let \(L=L(X_1,X_2,\dots,X_n)\) and \(U=U((X_1,X_2,\dots,X_n))\) be two statistics. We say that the interval \((L,U)\) is a \((1-\alpha)100\%\) \emph{confidence interval} for \(\theta\) iff 
+  \[1-\alpha=P_\theta[\theta \in (L,U)].\]
+  That is, the probability that the interval contains \(\theta\) is \(1-\alpha\), which is called the \emph{confidence coefficient} or \emph{confidence level} of the interval.
+\end{definition}
+\begin{stbox}{}
+  \begin{itemize}
+    \item We cannot write ``a \(1-\alpha\) (e.g. 0.95) confidence interval''. The \(1-\alpha\) must always be expressed as a \emph{percentage}.
+    % \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\). Suppose \(n\) is large (\(n\geq 50\)). Then, CLT allows us to obtain the approximation
+    % \[\frac{\widebar{X}-\mu}{\frac{S}{\sqrt{n}}}=Z\sim \Normal(0,1).\]
+    % Rewriting \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\) gives
+    % \[\Prob\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}<\mu<\widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}}\right)=1-\alpha.\] 
+    % As such, a \((1-\alpha)100\%\) confidence interval is
+    % \[\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}\,,\ \widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}} \right).\]
+    % When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\).
+    \item Let \(\hat{\theta}\) be a statistic that is normally distributed with mean \(\theta\) and standard error \(\sigma_{\hat{\theta}}\). We see that 
+    \[\frac{\hat{\theta}-\theta}{\sigma_{\hat{\theta}}}=Z \sim \Normal(0,1).\]
+    Rewriting \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\) gives
+    \[\Prob(\hat{\theta}-z_{1-\alpha/2}\sigma_{\hat{\theta}}<\theta<\hat{\theta}+z_{1-\alpha/2}\sigma_{\hat{\theta}})=1-\alpha.\]
+    Hence, a \((1-\alpha)100\%\) confidence interval for \(\theta\) is
+    \[(\hat{\theta}-z_{1-\alpha/2}\sigma_{\hat{\theta}}\,,\ \hat{\theta}+z_{1-\alpha/2}\sigma_{\hat{\theta}}).\]
+    \href{https://www.amazon.sg/Mathematical-Statistics-Applications-William-Mendenhall/dp/0495110817#customerReviews}{(Wackerly-Mendenhall-Schaefer)}
+    \item Let \(0<\alpha<1\) and \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\) with mean \(\mu\), where \(n\) is large. Then, an approximate \((1-\alpha)100\%\) confidence interval for \(\mu\) is
+    \[\left( \widebar{x}-z_{1-\alpha/2}\frac{s}{\sqrt{n}}\,,\ \widebar{x}+z_{1-\alpha/2}\frac{s}{\sqrt{n}} \right).\]
+    When the variance \(\sigma^2\) is known, we can replace \(s\) with \(\sigma\). If the distribution of \(X\) is known to be normal, in addition to \(\sigma^2\) being known exactly, then the confidence interval is exact; it is not just an approximation. 
+
+    \href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{(Hogg-McKean-Craig)}
+    \item Let \(X\) be a Bernoulli random variable with probability of success \(p\), where \(X\) is 1 or 0 if the outcome is success or failure, respectively. Suppose \(X_1,X_2,\dots,X_n\) is a random sample from the distribution of \(X\), where \(n\) is large. Let \(\hat{p}=\widebar{X}\) be the sample proportion of successes. Then, an approximate \((1-\alpha)100\%\) confidence interval for \(p\) is given by 
+    \[\left( \hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\,,\ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \right).\]
+    (Letting \(Y=X_1+X_2+\dots+X_n\sim \operatorname{B}(n,p)\) gives \(\hat{p}=Y/n\), which is the presentation used in the school's notes.) 
+
+    \href{https://www.amazon.com/Introduction-Mathematical-Statistics-8th-Whats-dp-0134686993/dp/0134686993/ref=dp_ob_title_bk}{(Hogg-McKean-Craig)}
+  \end{itemize}
+\end{stbox}
+\begin{note}
+  Standard phrasing for the interpretation of a \((1-\alpha)100\%\) confidence interval \((a,b)\). 
+  \begin{center}
+    The probability that the interval \((a,b)\) contains the true value of the [population mean/proportion in context] is \(1-\alpha\).
+  \end{center}
+\end{note}
+\begin{note}
+  Standard phrasing for what is a \((1-\alpha)100\%\) confidence interval for \(\theta\)?
+  \begin{center}
+    It is an interval which has probability \(1-\alpha\) of containing the true value of \(\theta\).  
+  \end{center}
+\end{note}
+\begin{note}
+  Standard phrasing for whether mean/proportion in context has likely increased/decreased, when given suitable confidence intervals.
+  \begin{enumerate}
+    \item There is no conclusive result.
+
+    Since the old and new \((1-\alpha)\%\) confidence intervals overlap, we are unable to conclude whether the [mean/proportion in context] has decreased or not. Hence, it is inconclusive from these figures as to whether the [context (e.g. an awareness campaign)] has been effective.
+    \item It has likely increased/decreased.
+    
+    The old \((1-\alpha)\%\) confidence interval is to the left/right of the new \((1-\alpha)\%\) confidence interval, such that they do not overlap. So, can conclude that the [mean/proportion in context] likely increased/decreased. Hence, these figures suggests that the [context (e.g. an awareness campaign)] has been effective.
+  \end{enumerate}
+\end{note}
+\begin{note}
+  Advantage and disadvantage of a \((1-\beta)\%\) confidence interval compared to a \((1-\alpha)\%\) confidence interval, where \(\beta<\alpha\).
+  \begin{center}
+    \begin{tabular}{ll}
+      Advantage:& A \((1-\beta)\%\) CI is more likely to contain the true mean.\\
+      Disadvantage:& A \((1-\beta)\%\) CI is less precise (or wider).
+    \end{tabular}
+  \end{center}
+  \emph{Note.} Clearly state which is the advantage and disadvantage, as illustrated above.
+\end{note}
+\begin{GCSkills}{}
+  Calculating statistics (i.e. \(\widebar{x}\), \(s\), etc) by G.C. given data for a sample.
+  \begin{enumerate}
+    \item Keying in the data: \texttt{stat} \(\Longrightarrow\) \texttt{1:Edit} \(\Longrightarrow\) Key in the data into one of the lists \(\texttt{L}_i\). 
+    \item Calculating the statistic: \texttt{stat} \(\Longrightarrow\) \texttt{CALC} \(\Longrightarrow\) \texttt{1-Var Stats} (\texttt{List:}\(\texttt{L}_i\)) \(\Longrightarrow\) \texttt{Calculate}.
+    \item Getting the statistic for further calculations: \texttt{vars} \(\Longrightarrow\) \texttt{5:Statistics} \(\Longrightarrow\) Select the desired statistic.
+  \end{enumerate}
+\end{GCSkills}
+\begin{GCSkills}{}
+  Calculating the symmetric confidence interval for a normally distributed random variable.
+  \begin{center}
+  \begin{tabular}{ll}
+    Mean: & \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{7:ZInterval\dots}\\
+    Proportion: & \texttt{stat} \(\Longrightarrow\)\texttt{TESTS} \(\Longrightarrow\) \texttt{A:1-PropZInt\dots}\\ 
+  \end{tabular}
+  \end{center}
+\end{GCSkills}

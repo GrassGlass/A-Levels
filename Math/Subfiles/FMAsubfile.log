@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  29 APR 2024 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  6 MAY 2024 08:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -966,7 +966,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip85
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 103.
-) (../Style/boxes.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen390
+\c@nlinenum=\count379
+\TeXr@lab=\toks64
+)) (../Style/boxes.sty
 
 LaTeX Warning: You have requested package `../Style/boxes',
                but the package provides `boxes'.
@@ -978,14 +983,14 @@ LaTeX Warning: You have requested package `../Style/DefNoteFact',
                but the package provides `DefNoteFact'.
 
 Package: DefNoteFact 
-\c@tcb@cnt@definition=\count379
+\c@tcb@cnt@definition=\count380
 ) (../Style/QnsProof.sty
 
 LaTeX Warning: You have requested package `../Style/QnsProof',
                but the package provides `QnsProof'.
 
 Package: QnsProof 
-\c@Qns=\count380
+\c@Qns=\count381
 ) (../Style/Thms.sty
 
 LaTeX Warning: You have requested package `../Style/Thms',
@@ -998,7 +1003,7 @@ LaTeX Warning: You have requested package `../Style/Env',
                but the package provides `Env'.
 
 Package: Env 
-\c@tcb@cnt@example=\count381
+\c@tcb@cnt@example=\count382
 ) (../Style/NewCommands.sty
 
 LaTeX Warning: You have requested package `../Style/NewCommands',
@@ -1028,17 +1033,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count382
-\scratchdimen=\dimen390
+\scratchcounter=\count383
+\scratchdimen=\dimen391
 \scratchbox=\box102
-\nofMPsegments=\count383
-\nofMParguments=\count384
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count385
-\MPscratchDim=\dimen391
-\MPnumerator=\count386
-\makeMPintoPDFobject=\count387
-\everyMPtoPDFconversion=\toks65
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen392
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks66
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1084,10 +1089,10 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@tabularnotesi=\count388
-\enitdp@tabularnotes=\count389
-\c@tabularnotes*i=\count390
-\enitdp@tabularnotes*=\count391
+\c@tabularnotesi=\count389
+\enitdp@tabularnotes=\count390
+\c@tabularnotes*i=\count391
+\enitdp@tabularnotes*=\count392
 Package hyperref Info: Link coloring ON on input line 10.
 (./FMAsubfile.out) (./FMAsubfile.out)
 \@outlinefile=\write4
@@ -1112,37 +1117,56 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 13
 
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\g__nicematrix_max_cell_width_dim=\dimen392
-\c@iRow=\count392
-\c@jCol=\count393
+\g__nicematrix_max_cell_width_dim=\dimen393
+\c@iRow=\count393
+\c@jCol=\count394
 \l__nicematrix_cell_box=\box103
 \l__nicematrix_the_array_box=\box104
-\l__nicematrix_left_delim_dim=\dimen393
-\l__nicematrix_right_delim_dim=\dimen394
-\g__nicematrix_dp_row_zero_dim=\dimen395
-\g__nicematrix_ht_row_zero_dim=\dimen396
-\g__nicematrix_ht_row_one_dim=\dimen397
-\g__nicematrix_dp_ante_last_row_dim=\dimen398
-\g__nicematrix_ht_last_row_dim=\dimen399
-\g__nicematrix_dp_last_row_dim=\dimen400
-\g__nicematrix_ddots_int=\count394
-\g__nicematrix_iddots_int=\count395
-\g__nicematrix_delta_x_one_dim=\dimen401
-\g__nicematrix_delta_y_one_dim=\dimen402
-\g__nicematrix_delta_x_two_dim=\dimen403
-\g__nicematrix_delta_y_two_dim=\dimen404
-\l__nicematrix_initial_i_int=\count396
-\l__nicematrix_initial_j_int=\count397
-\l__nicematrix_final_i_int=\count398
-\l__nicematrix_final_j_int=\count399
-\l__nicematrix_end_int=\count400
-\l__nicematrix_local_start_int=\count401
-\l__nicematrix_local_end_int=\count402
+\l__nicematrix_left_delim_dim=\dimen394
+\l__nicematrix_right_delim_dim=\dimen395
+\g__nicematrix_dp_row_zero_dim=\dimen396
+\g__nicematrix_ht_row_zero_dim=\dimen397
+\g__nicematrix_ht_row_one_dim=\dimen398
+\g__nicematrix_dp_ante_last_row_dim=\dimen399
+\g__nicematrix_ht_last_row_dim=\dimen400
+\g__nicematrix_dp_last_row_dim=\dimen401
+\g__nicematrix_ddots_int=\count395
+\g__nicematrix_iddots_int=\count396
+\g__nicematrix_delta_x_one_dim=\dimen402
+\g__nicematrix_delta_y_one_dim=\dimen403
+\g__nicematrix_delta_x_two_dim=\dimen404
+\g__nicematrix_delta_y_two_dim=\dimen405
+\l__nicematrix_initial_i_int=\count397
+\l__nicematrix_initial_j_int=\count398
+\l__nicematrix_final_i_int=\count399
+\l__nicematrix_final_j_int=\count400
+\l__nicematrix_end_int=\count401
+\l__nicematrix_local_start_int=\count402
+\l__nicematrix_local_end_int=\count403
  [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] [5] [6]
 Chapter 2.
+
+Package hyperref Warning: Ignoring empty anchor on input line 351.
+
 [7
 
-] (./FMAsubfile.aux)
+] [8]
+<../Diagrams/linear-interpolation.pdf, id=147, 602.25pt x 602.25pt>
+File: ../Diagrams/linear-interpolation.pdf Graphic file (type pdf)
+<use ../Diagrams/linear-interpolation.pdf>
+Package pdftex.def Info: ../Diagrams/linear-interpolation.pdf  used on input line 423.
+(pdftex.def)             Requested size: 344.005pt x 344.02122pt.
+<../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf, id=150, 228.50569pt x 119.60686pt>
+File: ../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf Graphic file (type pdf)
+<use ../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf>
+Package pdftex.def Info: ../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf  used on input line 429.
+(pdftex.def)             Requested size: 430.00462pt x 225.08173pt.
+<../Diagrams/newton's-method.pdf, id=151, 602.25pt x 602.25pt>
+File: ../Diagrams/newton's-method.pdf Graphic file (type pdf)
+<use ../Diagrams/newton's-method.pdf>
+Package pdftex.def Info: ../Diagrams/newton's-method.pdf  used on input line 435.
+(pdftex.def)             Requested size: 344.005pt x 344.02122pt.
+ [9 <../Diagrams/linear-interpolation.pdf> <../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf>] [10 <../Diagrams/newton's-method.pdf>] (./FMAsubfile.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1151,18 +1175,18 @@ Package rerunfilecheck Info: File `FMAsubfile.out' has not changed.
 (rerunfilecheck)             Checksum: C6EC35352E5FB3901F1A224966F99D15;247.
  ) 
 Here is how much of TeX's memory you used:
- 46027 strings out of 475237
- 1097162 string characters out of 5768555
+ 46296 strings out of 475237
+ 1101334 string characters out of 5768555
  1975238 words of memory out of 5000000
- 66372 multiletter control sequences out of 15000+600000
- 566872 words of font info for 71 fonts, out of 8000000 for 9000
+ 66604 multiletter control sequences out of 15000+600000
+ 573514 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,16n,148p,802b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMAsubfile.pdf (7 pages, 243900 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on FMAsubfile.pdf (10 pages, 382436 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 66 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 

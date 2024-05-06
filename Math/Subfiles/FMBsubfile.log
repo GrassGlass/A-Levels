@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  30 APR 2024 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  6 MAY 2024 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -966,7 +966,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip85
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 103.
-) (../Style/boxes.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen390
+\c@nlinenum=\count379
+\TeXr@lab=\toks64
+)) (../Style/boxes.sty
 
 LaTeX Warning: You have requested package `../Style/boxes',
                but the package provides `boxes'.
@@ -978,14 +983,14 @@ LaTeX Warning: You have requested package `../Style/DefNoteFact',
                but the package provides `DefNoteFact'.
 
 Package: DefNoteFact 
-\c@tcb@cnt@definition=\count379
+\c@tcb@cnt@definition=\count380
 ) (../Style/QnsProof.sty
 
 LaTeX Warning: You have requested package `../Style/QnsProof',
                but the package provides `QnsProof'.
 
 Package: QnsProof 
-\c@Qns=\count380
+\c@Qns=\count381
 ) (../Style/Thms.sty
 
 LaTeX Warning: You have requested package `../Style/Thms',
@@ -998,7 +1003,7 @@ LaTeX Warning: You have requested package `../Style/Env',
                but the package provides `Env'.
 
 Package: Env 
-\c@tcb@cnt@example=\count381
+\c@tcb@cnt@example=\count382
 ) (../Style/NewCommands.sty
 
 LaTeX Warning: You have requested package `../Style/NewCommands',
@@ -1028,17 +1033,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count382
-\scratchdimen=\dimen390
+\scratchcounter=\count383
+\scratchdimen=\dimen391
 \scratchbox=\box102
-\nofMPsegments=\count383
-\nofMParguments=\count384
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count385
-\MPscratchDim=\dimen391
-\MPnumerator=\count386
-\makeMPintoPDFobject=\count387
-\everyMPtoPDFconversion=\toks65
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen392
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks66
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1084,10 +1089,10 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@tabularnotesi=\count388
-\enitdp@tabularnotes=\count389
-\c@tabularnotes*i=\count390
-\enitdp@tabularnotes*=\count391
+\c@tabularnotesi=\count389
+\enitdp@tabularnotes=\count390
+\c@tabularnotes*i=\count391
+\enitdp@tabularnotes*=\count392
 Package hyperref Info: Link coloring ON on input line 10.
 (./FMBsubfile.out) (./FMBsubfile.out)
 \@outlinefile=\write4
@@ -1095,131 +1100,69 @@ Package hyperref Info: Link coloring ON on input line 10.
 
 
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 11.
+
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11.
 (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 14.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 11.
  (c:/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
 
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Chapter 2.
-<../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=52, 4047.12pt x 1561.835pt>
-File: ../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
-<use ../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
-Package pdftex.def Info: ../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 98.
-(pdftex.def)             Requested size: 432.00462pt x 166.70241pt.
-[2
-
-] [3 <../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>] [4]
-Chapter 3.
-[5
-
-] [6] [7] [8]
-Chapter 4.
-[9
-
-]
-<../Diagrams/t-distribution/t-distributon.pdf, id=129, 247.79776pt x 206.2867pt>
-File: ../Diagrams/t-distribution/t-distributon.pdf Graphic file (type pdf)
-<use ../Diagrams/t-distribution/t-distributon.pdf>
-Package pdftex.def Info: ../Diagrams/t-distribution/t-distributon.pdf  used on input line 512.
-(pdftex.def)             Requested size: 215.0023pt x 178.98322pt.
- [10] [11 <../Diagrams/t-distribution/t-distributon.pdf>]
-Overfull \hbox (12.41122pt too wide) in paragraph at lines 625--625
-[]\OT1/cmr/m/n/10 (ii)(1)  
- []
-
-
-Overfull \hbox (12.41122pt too wide) in paragraph at lines 626--626
-[]\OT1/cmr/m/n/10 (ii)(2)  
- []
-
-[12] [13] [14]
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 764--764
-[]\OT1/cmr/m/n/10 [ii](1)  
- []
-
-
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 765--765
-[]\OT1/cmr/m/n/10 [ii](2)  
- []
-
-
-Overfull \hbox (6.66672pt too wide) in paragraph at lines 780--780
-[]\OT1/cmr/m/n/10 [iii](1)  
- []
-
-
-Overfull \hbox (6.66672pt too wide) in paragraph at lines 787--787
-[]\OT1/cmr/m/n/10 [iii](2)  
- []
-
-[15
-
-]
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 829--829
-[]\OT1/cmr/m/n/10 [ii](1)  
- []
-
-
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 830--830
-[]\OT1/cmr/m/n/10 [ii](2)  
- []
-
-
-Overfull \hbox (2.39914pt too wide) detected at line 866
-\OML/cmm/m/it/10 T \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^X \OML/cmm/m/it/10 t\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2)
- []
-
-[16
-
-
-]
-Chapter 5.
-<../images/Product Moment Correlation Coefficient 1.png, id=259, 876.77562pt x 330.23375pt>
+<../images/Product Moment Correlation Coefficient 1.png, id=36, 876.77562pt x 330.23375pt>
 File: ../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use ../images/Product Moment Correlation Coefficient 1.png>
-Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 1.png  used on input line 906.
+Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 1.png  used on input line 50.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<../images/Product Moment Correlation Coefficient 2.png, id=261, 935.495pt x 259.46938pt>
+<../images/Product Moment Correlation Coefficient 2.png, id=38, 935.495pt x 259.46938pt>
 File: ../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use ../images/Product Moment Correlation Coefficient 2.png>
-Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 2.png  used on input line 907.
+Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 2.png  used on input line 51.
 (pdftex.def)             Requested size: 374.19136pt x 103.7859pt.
-[17
+[2
 
-
- <../images/Product Moment Correlation Coefficient 1.png> <../images/Product Moment Correlation Coefficient 2.png>] [18] (./FMBsubfile.aux)
+ <../images/Product Moment Correlation Coefficient 1.png> <../images/Product Moment Correlation Coefficient 2.png>] [3] (./FMBsubfile.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `FMBsubfile.out' has not changed.
-(rerunfilecheck)             Checksum: 09977664610325DE99C1A57306E103C3;1232.
+(rerunfilecheck)             Checksum: 355B0B849A6B1EF60CEFA35E17B77F0D;361.
  ) 
 Here is how much of TeX's memory you used:
- 45983 strings out of 475237
- 1095509 string characters out of 5768555
- 1968238 words of memory out of 5000000
- 66244 multiletter control sequences out of 15000+600000
- 576696 words of font info for 108 fonts, out of 8000000 for 9000
+ 45820 strings out of 475237
+ 1092191 string characters out of 5768555
+ 1936238 words of memory out of 5000000
+ 66219 multiletter control sequences out of 15000+600000
+ 571730 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,20n,148p,802b,2261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMBsubfile.pdf (18 pages, 520270 bytes).
+ 130i,14n,148p,802b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on FMBsubfile.pdf (3 pages, 238769 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 125 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 39 words of extra memory for PDF output out of 10000 (max. 10000000)
 

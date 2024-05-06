@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{math}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{1pt}
+%
+% File name: Dottie-point.tex
+% Description: 
+% A representation of the Dottie Number is shown.
+% 
+% Date of creation: March, 4th, 2023.
+% Date of last modification: March, 4th, 2023.
+% Author: Efraín Soto Apolinar.
+% https://www.aprendematematicas.org.mx/author/efrain-soto-apolinar/instructing-courses/
+% Source: page 136 of the book titled:
+% Glossarium Mathematica (English version) by Efraín Soto Apolinar.
+% (To be published soon)
+%
+% Terms of use:
+% According to the license: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
+% https://creativecommons.org/licenses/by-nc-sa/4.0/
+% Your commitment to the terms of use is greatly appreciated.
+%
+\begin{document}
+%
+\begin{tikzpicture}[scale=2.0]
+		\tikzmath{function f(\x) {return cos(\x r);};}
+		\pgfmathsetmacro{\xdottie}{0.739085}
+		\pgfmathsetmacro{\ydottie}{f(\xdottie)}
+		%
+		\pgfmathsetmacro{\dx}{0.5}
+		\pgfmathsetmacro{\xi}{-0.5*pi-0.25*\dx}
+		\pgfmathsetmacro{\xf}{0.5*pi+0.5*\dx}
+		\pgfmathsetmacro{\ejex}{0.5*pi+0.5*\dx} % x
+		\pgfmathsetmacro{\ejey}{0.5*pi-0.5*\dx}
+		% The line:  $y = x$
+		\draw[blue] (0,0) -- (\ejey,\ejey) node [very near end,sloped,above] {\footnotesize$y = x$};
+		% Origin
+		\node[below left] at (0,0) {$O$};
+		% Coordinate axis
+		\draw[thick,->] (\xi,0) -- (\ejex,0) node [right]{$x$};
+		\foreach \x/\xtext in {-1/-1,1/1,-1.5708/-\frac{\pi}{2},1.5708/\frac{\pi}{2}}{
+			\draw[thick] (\x,1pt) -- (\x,-1pt) node [below] {$\xtext$};
+		}
+		\draw[thick,->] (0,-0.25) -- (0,\ejey) node [above]{$y$};
+		\draw[thick] (1pt,1) -- (-1pt,1) node [left] {$1$};
+		% The graph of the cosine function
+		\draw[blue,thick,->] plot[domain=\xi:\xf,smooth] (\x,{cos(\x r)}) 
+			node[below]{\footnotesize$y = \cos(x)$};
+		% Initial values for the fixed-point method
+		\pgfmathsetmacro{\xa}{-1.0}
+		\pgfmathsetmacro{\ya}{f(\xa)}
+		\draw[red] (\xa,0) -- (\xa,\ya); 
+		% Cycle for the fixed-point method
+		\foreach \i [remember=\x as \xlast (initially \xa), remember=\y as \ylast (initially \ya)] in {1,2,...,15}{
+			\tikzmath{\x = \ylast; \y=f(\ylast); }
+			\draw[red] (\xlast,\ylast) -- (\x,\ylast) -- (\x,\y);
+		}
+		% Indication of the location of the Dottie point:
+		\fill[red] (\xdottie,\ydottie) circle (0.25pt);
+		%
+	\end{tikzpicture}
+%
+\end{document}
