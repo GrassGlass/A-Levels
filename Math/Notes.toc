@@ -53,5 +53,6 @@
 \contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{63}{chapter.23}%
 \contentsline {section}{\numberline {23.1}General Information}{63}{section.23.1}%
 \contentsline {section}{\numberline {23.2}Summary}{69}{section.23.2}%
-\contentsline {chapter}{\numberline {24}Correlation and Linear Regression}{71}{chapter.24}%
-\contentsline {chapter}{\numberline {25}Bibliography}{73}{chapter.25}%
+\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{71}{chapter.24}%
+\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{74}{chapter.25}%
+\contentsline {chapter}{\numberline {26}Bibliography}{76}{chapter.26}%
