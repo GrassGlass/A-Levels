@@ -1155,7 +1155,7 @@ Some nice images:
                 (but \(\Delta t=0.2-0.4\) s)
             \end{minipage}}\\
             \hline
-            Thermometer & change in temperature & 2 & \multicolumn{2}{Sc|}{1 \(^\circ\)C}\\
+            Thermometer & temperature & 2 & \multicolumn{2}{Sc|}{1 \(^\circ\)C}\\
             \hline
             Voltmeter & p.d. & 2 & \multicolumn{2}{Sc|}{smallest division}\\
             \hline
@@ -1169,7 +1169,7 @@ Some nice images:
             \textbf{Digital instruments} & \textbf{in general} & \textbf{1} & \multicolumn{2}{Sc|}{
                 \begin{minipage}{5cm}
                     \centering
-                    \textbf{smallest `division'}\\
+                    \textbf{smallest increment displayed}\\
                     E.g. \(x=5.02\text{ g}\implies \Delta x=0.01\text{ g}\)
                 \end{minipage}
             }\\
@@ -1178,16 +1178,57 @@ Some nice images:
         \caption{The precision of some standard instruments.}
         \label{table:precision}
     \end{table}
-    \item Always take the average of three measurements (and show the working for the averaging explicitly) wherever possible. 
-    \item Uncertainty rules:
-    \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct.
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc|}
+            \hline
+            \multirow{2}{*}{\textbf{Operation}} & \multicolumn{2}{Sc|}{\textbf{D.P.\,/\,S.F.}}\\
+            \cline{2-3}
+            & Calculated value & Data used\\
+            \hline
+            \hline
+            \multicolumn{3}{|Sc|}{\textbf{Addition and Multiplication}}\\
+            \hline
+            Addition & d.p. & least d.p.\\
+            \hline
+            Multiplication & s.f. & least s.f.\\
+            \hline
+            Multiplication by a fixed factor (e.g. \(\pi\)) & s.f. & s.f.\\
+            \hline
+            \hline
+            \multicolumn{3}{|Sc|}{\textbf{Special Operations}}\\
+            \hline
+            Logarithms of base 10 or \(e\) & d.p. & s.f.\\
+            \hline
+            Trigonometric functions & s.f. & s.f.\\
+            \hline
+        \end{tabular}
+        \caption{D.P.S.F.}
+        \label{table:dpsf}
+    \end{table}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|}
+            \hline
+            \textbf{Equation} & \textbf{Rules}\\
+            \hline
+            \(Z=aX\pm bY\) & \(\Delta Z=\lvert a \rvert\Delta X+\lvert b \rvert\Delta Y\)\\
+            \hline
+            \(Z=cX^aY^b\) & \(\dfrac{\Delta Z}{Z}=\lvert a \rvert\dfrac{\Delta X}{X}+\lvert b \rvert\dfrac{\Delta Y}{Y}\)\\
+            \hline
+        \end{tabular}
+        \caption{Uncertainty rules}
+        \label{table:uncertainty-rules}
+    \end{table}
+    \item Always take the average of three measurements (and show the working for the averaging explicitly) wherever possible. This reduces the effect of random error on the value of \rule{0.5cm}{0.05mm}\,, hence making it more precise.
+    \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct. See table \ref{table:dpsf}.
     \item Percentage uncertainty of stopwatch,
-    \[\frac{\Delta t}{t}=\frac{0.2}{\widebar{t}}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.),\]
-    where \(\widebar{t}\) denotes the average time taken.
+    \[\frac{\Delta t}{t}=\frac{0.2}{\langle t \rangle}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.).\]
     \item If it's difficult to measure a quantity accurately, we should account for it when calculating uncertainties. E.g. 
     \begin{enumerate}
         \item The base of a beaker is not flat. So its height \(h\) (measured with vernier calipers) has uncertainty \(\Delta h=0.2\) cm, rather than the usual \(0.01\) cm.
         \item It may be difficult to precisely measure the height \(h\) of a suspended object (with a metre rule). So, we use \(\Delta h=0.2\) cm, instead of the usual \(0.1\) cm. 
+        \item It is difficult to maintain protraction when measuring an angle \(\theta\) (freehand) between, say, a metre rule and a string. Therefore, we account for this by taking \(\Delta\theta=3^\circ\), in place of the usual \(1^\circ\).
     \end{enumerate}
 \end{itemize}
 \section{Graphing}
@@ -1198,33 +1239,38 @@ Some nice images:
     \item Linearisation statement: 
     \begin{itemize}
         \item The equation can be rewritten as \(y=mx+c\). E.g. \(\frac{1}{L}=A+Ar\cdot\frac{1}{R_2}\).
-        \item Plot \(y\) against \(x\). Then, the vertical intercept is \(c\) and the gradient is \(m\). 
+        \item Plot \(y\) against \(x\). Then, if a straight line is obtained, the vertical intercept is \(c\) and the gradient is \(m\). 
     \end{itemize}
     \item Draw a gradient triangle using dotted lines and label the selected points (do not mark these points out using a dot/cross/etc).
     \item Always check that the two points selected for calculating gradient are stated to the correct number of decimal places, corresponding to half the smallest square.
     \begin{table}[H]
         \centering
-        \begin{tabular}{|Sc|Sc|}
+        \begin{tabular}{|Sc|Sc|Sc|}
             \hline
-            Is there an anomalous point? & Phrasing\\
+            Is there an anomalous point? & Graph & Anomaly statement\\
             \hline
-            \textcolor{red}{\(\times\)} & 
-            \begin{minipage}{0.7\textwidth-24.03719pt}
+            \textcolor{red}{\(\times\)} & Do nothing. &
+            \begin{minipage}{0.7\textwidth-135.33138pt}
                 There is no anomalous point as all plotted points follow the trend of the best fit line.
             \end{minipage}\\
             \hline
-            \multirow{2}{*}[-2mm]{\textcolor{green!70!black}{\checkmark}} & 
-            \begin{minipage}{0.7\textwidth-24.03719pt}
-                There is one anomalous point as all plotted points follow the trend of the best fit line.
+            \multirow{2}{*}[-3mm]{\textcolor{green!70!black}{\checkmark}} & 
+            \multirow{3}{*}[-1mm]{
+                \begin{minipage}{3.3cm}
+                    Circle the point and write ``anomaly'' next to it.
+                \end{minipage}
+            } &
+            \begin{minipage}{0.7\textwidth-135.33138pt}
+                There is one anomalous point as it does not follow the trend of the best fit line.
             \end{minipage}\\
-            \cline{2-2}
-            & 
-            \begin{minipage}{0.7\textwidth-24.03719pt}
+            \cline{3-3}
+            &&
+            \begin{minipage}{0.7\textwidth-135.33138pt}
                 There is one anomalous point as it lies relatively far from the best fit line, \emph{compared to other points}.
             \end{minipage}\\
             \hline
         \end{tabular}
-        \caption{Anomaly statements.}
+        \caption{Anomalous points.}
         \label{table:anomaly-statement}
     \end{table}
 \end{itemize}
@@ -1237,31 +1283,117 @@ Some nice images:
         \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%\leq\rule{0.5cm}{0.05mm}\%=\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment supports the suggested relationship.
     \end{itemize}
     \item Avoid writing ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{red}{not equal to} \rule{0.5cm}{0.05mm}''. Rather, we should say ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{green!70!black}{far from/near to/close to} \rule{0.5cm}{0.05mm}''.
-    \item Examples of significant sources of error and the ways to remedy them.
-    \begin{enumerate}
-        \item[(a)(i)] (J1 P08) It is difficult to track the oscillating mass when the amplitude of the oscillations is small and the period is short. 
-        \item[(ii)]
-        \begin{enumerate}[label=\arabic*.]
-            \item Change the two springs to one equivalent spring of similar effective spring constant.
-            \item Use a heavier mass but which does not cause the springs to exceed their limit of proportionality.
-            \item Provide a visual mark near the oscillating mass to help in tracking its movement.
-        \end{enumerate} 
-        \item[(b)(i)] (J1 P07)
-        % \begin{enumerate}[label=\arabic*.]
-        %     \item 
-        % \end{enumerate}
-        \item[(ii)] 
-        \begin{enumerate}[label=\arabic*.]
-            \item Conduct the experiment using a sufficiently large hanger mass, such that the circular motion is more horizontal.
-            \item Take a video of the experiment and analyse the data collected using tracking software.  
-        \end{enumerate}
-        \item[(c)(i)] (J1 P06) The values for current and voltage constantly fluctuate throughout the experiment. This introduces significant random error, which makes the value of \(c_2\) obtained less precise.
-        \item[(ii)] Increase the mass of the oil added into the metal significantly. (So the measured values of \(t\) all increase in magnitude, reducing the effect of the random error\dots)
-        \item[(d)(i)] (J1 P04) There is significant friction between the hooks and the thread. (this adds systematic error into the measured values of \(t\).)
-        \item[(ii)] Use rollers instead of hooks, to minimise the friction experienced by the moving thread.
-        \item[(e)(i)] (J1 P01) It is difficult to maintain protraction, and hence, hard to measure \(\theta\) precisely.
-        \item[(ii)] Clamp the protractor using another retort stand.    
-    \end{enumerate}
+    \item A suggested format for writing sources of error:
+    \begin{itemize}
+        \item What is error is/what causes the error, 
+        \item Which raw data are affected.
+    \end{itemize}
+    An example. It is difficult to release the ball from the exact position (what the error is), as the ball is only released by a free hand, which is unsteady (what causes the error). This results in imprecise values of \(h\) (which raw data are affected).
+    \item Examples of (i) significant sources of error and (ii) the ways to remedy them.
+    % \begin{enumerate}
+    %     \item[(a)(i)]  
+    %     \item[(ii)]
+    %     \item[(b)(i)] 
+    %     % \begin{enumerate}[label=\arabic*.]
+    %     %     \item 
+    %     % \end{enumerate}
+    %     \item[(ii)] 
+    %     \item[(c)(i)] 
+    %     \item[(ii)] 
+    %     \item[(d)(i)] 
+    %     \item[(ii)] 
+    %     \item[(e)(i)] 
+    %     \item[(ii)] 
+    % \end{enumerate}
+    \begin{longtable}{|Sc|Sc|}
+        \hline
+        \textbf{Source of error} & \textbf{Solution}\\
+        \hline
+        \hline
+        \multicolumn{2}{|Sc|}{\textbf{J1 practical sessions}}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J1 P01) It is difficult to maintain protraction, and hence, hard to measure \(\theta\) precisely.
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Clamp the protractor using another retort stand.    
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J1 P04) There is significant friction between the hooks and the thread. (This adds systematic error into the measured values of \(t\).)
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Use rollers instead of hooks, to minimise the friction experienced by the moving thread.
+        \end{minipage}\\
+        \hline 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J1 P06) The values for current and voltage constantly fluctuate throughout the experiment. This introduces significant random error, which makes the value of \(c_2\) obtained less precise.
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Increase the mass of the oil added into the metal significantly. (So the measured values of \(t\) all increase in magnitude, reducing the effect of the random error\dots)
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J1 P07)
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{enumerate}[label=\arabic*.]
+                \item Conduct the experiment using a sufficiently large hanger mass, such that the circular motion is more horizontal.
+                \item Take a video of the experiment and analyse the data collected using tracking software.  
+            \end{enumerate}
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J1 P08) It is difficult to track the oscillating mass when the amplitude of the oscillations is small and the period is short.
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{enumerate}[label=\arabic*.]
+                \item Change the two springs to one equivalent spring of similar effective spring constant.
+                \item Use a heavier mass but which does not cause the springs to exceed their limit of proportionality.
+                \item Provide a visual mark near the oscillating mass to help in tracking its movement.
+            \end{enumerate} 
+        \end{minipage}\\
+        \hline
+        \multicolumn{2}{|Sc|}{\textbf{J2 practical sessions}}\\
+        \hline
+        \hline
+        \multicolumn{2}{|Sc|}{\textbf{Others}}\\
+        \hline
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            The large size of the object resulted in a larger uncertainty in the measurement.
+        \end{minipage}& 
+        Use a thinner/smaller object\\
+        \hline
+        Human reaction time & Explain the use of photogates\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            One's hand is not steady and cannot release the object from the same position consistently.
+        \end{minipage}& 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Use a retort stand to hold the object in place before release.
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            The mark is larger than the smallest division of \rule{0.5cm}{0.05mm}.
+        \end{minipage}&
+        Use a smaller mark.\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            It is difficult for the naked eye to pinpoint the exact moment when the object crosses the mark. 
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Take a video of the experiment. Then, using tracking software, find the exact time when the object crosses the mark. 
+        \end{minipage}\\
+        \hline
+        Kinks in a wire & 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Use a wingbolt to tighten the wire.
+        \end{minipage}\\
+        \hline
+    \caption{Further examples.}
+    \label{table:sources-of-error-and-solutions}
+    \end{longtable}
 \end{itemize}
 \section{Planning questions}
 \begin{itemize}
