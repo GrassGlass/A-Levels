@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 JAN 2024 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  19 MAY 2024 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,28 +871,43 @@ Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used 
  [13]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 663.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 658.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [14]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 701.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 677.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [15]
-Overfull \hbox (44.83247pt too wide) in paragraph at lines 703--703
-[][][]\OT1/cmr/m/n/8 The Godly Ref-er-ence: [][]$\OT1/cmtt/m/n/8 https : / / hbr . org / 2022 / 10 / what-[]happens-[]when-[]a-[]company-[]like-[]patagonia-[]becomes-[]a-[]nonprofit ?
+File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
+<use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 703.
+(pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
+ [16]
+File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
+<use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 737.
+(pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
+ [17]
+File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
+<use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 753.
+(pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 756--756
+[][][][][]$\OT1/cmtt/m/n/8 https : / / hbr . org / 2022 / 10 / what-[]happens-[]when-[]a-[]company-[]like-[]patagonia-[]becomes-[]a-[]nonprofit ?
  []
 
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 720.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 773.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
-[16]
+[19]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 742.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 796.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
- [17] (./English.aux)
+ [20] (./English.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -906,18 +921,18 @@ Package rerunfilecheck Info: File `English.out' has not changed.
 (rerunfilecheck)             Checksum: 0F8CC14DCEE8A356F22EE6723D94B106;2104.
  ) 
 Here is how much of TeX's memory you used:
- 32440 strings out of 475237
- 744037 string characters out of 5768555
+ 32451 strings out of 475237
+ 744203 string characters out of 5768555
  1943238 words of memory out of 5000000
- 52875 multiletter control sequences out of 15000+600000
+ 52881 multiletter control sequences out of 15000+600000
  568769 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,1512b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on English.pdf (17 pages, 404784 bytes).
+Output written on English.pdf (20 pages, 418597 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 492 compressed objects within 5 object streams
- 268 named destinations out of 1000 (max. 500000)
+ 602 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 273 named destinations out of 1000 (max. 500000)
  122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
