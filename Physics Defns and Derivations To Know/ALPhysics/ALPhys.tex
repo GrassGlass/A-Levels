@@ -1222,6 +1222,8 @@ Some nice images:
     \end{table}
     \item Always take the average of three measurements (and show the working for the averaging explicitly) wherever possible. This reduces the effect of random error on the value of \rule{0.5cm}{0.05mm}\,, hence making it more precise.
     \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct. See table \ref{table:dpsf}.
+    \item \emph{Note.} Whenever a physical quantity is given --- even a resistor clearly labelled ``\(10\Omega\)'' --- we still must account for its dpsf. However, if it's the number of turns/number of oscillations/etc, do not account for its dpsf.
+    \item \emph{Note.} Even for physical constants --- such as \(e=1.90\cdot 10^{-19}\) --- their dpsf should also be taken into account! However, mathematical constants, like \(\pi\), can be disregarded in dpsf considerations. 
     \item Percentage uncertainty of stopwatch,
     \[\frac{\Delta t}{t}=\frac{0.2}{\langle t \rangle}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.).\]
     \item If it's difficult to measure a quantity accurately, we should account for it when calculating uncertainties. E.g. 
@@ -1283,7 +1285,7 @@ Some nice images:
         \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%\leq\rule{0.5cm}{0.05mm}\%=\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment supports the suggested relationship.
     \end{itemize}
     \item Avoid writing ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{red}{not equal to} \rule{0.5cm}{0.05mm}''. Rather, we should say ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{green!70!black}{far from/near to/close to} \rule{0.5cm}{0.05mm}''.
-    \item A suggested format for writing sources of error:
+    \item NY's suggested format for writing sources of error:
     \begin{itemize}
         \item What is error is/what causes the error, 
         \item Which raw data are affected.
@@ -1310,7 +1312,7 @@ Some nice images:
         \textbf{Source of error} & \textbf{Solution}\\
         \hline
         \hline
-        \multicolumn{2}{|Sc|}{\textbf{J1 practical sessions}}\\
+        \multicolumn{2}{|Sc|}{\textbf{RV J1 practical sessions}}\\
         \hline
         \begin{minipage}{0.5\textwidth-25.2pt}
             (J1 P01) It is difficult to maintain protraction, and hence, hard to measure \(\theta\) precisely.
@@ -1354,25 +1356,40 @@ Some nice images:
             \end{enumerate} 
         \end{minipage}\\
         \hline
-        \multicolumn{2}{|Sc|}{\textbf{J2 practical sessions}}\\
+        \multicolumn{2}{|Sc|}{\textbf{RV J2 practical sessions}}\\
         \hline
         \hline
-        \multicolumn{2}{|Sc|}{\textbf{Others}}\\
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J2 P04) The precise point where resonance occurs is not easily determined when the vibration of the wire is not significant enough to be observed.
+        \end{minipage}& 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{enumerate}
+                \item Increase the magnetic flux density by using a stronger magnet, e.g. neodymium magnets.
+                \item Add a white grid (e.g. graph paper) behind the wire, so that it is easier to estimate and compare the magnitude of oscillation.
+            \end{enumerate}
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (J2 P06)
+            \begin{enumerate}
+                \item It is hard to ensure that the oscillation is only about the vertical axis. Moreover, the ruler tends to swing back and forth, affecting the measurement of \(T\).
+                \item It is hard to measure the angle freehand using a protractor without disturbing the equilibrium of the system.
+            \end{enumerate}
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{enumerate}
+                \item Keeping the ruler in the horizontal position will make it rotate more easily about the vertical axis.
+                \item Secure the protractor to another retort stand, so that the protractor can be brought near to the system to read off the angle.
+            \end{enumerate}
+        \end{minipage}\\
+        \hline
+        \multicolumn{2}{|Sc|}{\textbf{NY practicals}}\\
         \hline
         \hline
         \begin{minipage}{0.5\textwidth-25.2pt}
             The large size of the object resulted in a larger uncertainty in the measurement.
         \end{minipage}& 
         Use a thinner/smaller object\\
-        \hline
-        Human reaction time & Explain the use of photogates\\
-        \hline
-        \begin{minipage}{0.5\textwidth-25.2pt}
-            One's hand is not steady and cannot release the object from the same position consistently.
-        \end{minipage}& 
-        \begin{minipage}{0.5\textwidth-25.2pt}
-            Use a retort stand to hold the object in place before release.
-        \end{minipage}\\
         \hline
         \begin{minipage}{0.5\textwidth-25.2pt}
             The mark is larger than the smallest division of \rule{0.5cm}{0.05mm}.
@@ -1386,16 +1403,98 @@ Some nice images:
             Take a video of the experiment. Then, using tracking software, find the exact time when the object crosses the mark. 
         \end{minipage}\\
         \hline
-        Kinks in a wire & 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (Experiment 01)
+            \begin{enumerate}
+                \item Human reaction time.
+                \item The rubber band is thicker than the smallest division of the ruler used and this adds error to the measured values of \(s\).
+            \end{enumerate}
+        \end{minipage}& 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{enumerate}
+                \item Place two photogates, held by retort stands, at [location of gates]. Then, connect both photogates to an electronic timer. We use this photogates set-up to start and stop the measurement of the time \(t\).
+                \item Replace the rubber band with a brightly coloured thin string and tie a loop around the cylinder.
+            \end{enumerate}
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (Experiment 02) One's hand is not steady and cannot release the object from the same velocity/position consistently.
+        \end{minipage}& 
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Use a ruler/retort stand/etc to hold the object in a stable position before release so the initial velocity is constant.
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (Experiment 05) The upper string might not be parallel to the ground as it is just an estimate by the human eye. Hence, the value of \(h\) would be inaccurate.
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            A ruler and a set square can be used to ensure that the string is perpendicular to the retort stand, which is perpendicular to the tabletop. Hence, this makes the values of \(h\) more accurate.
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (Experiment 07) 
+            \begin{enumerate}
+                \item It is difficult to ascertain the extreme position of the ball accurately as it is only at rest instantaneously. This results in imprecision.
+                \item It is difficult to release the ball with constant height.
+            \end{enumerate}
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{enumerate}
+                \item Use of a motion sensor/video.
+                \item Use of a release mechanism.
+            \end{enumerate}
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (Experiment 13) Kinks in the wire.
+        \end{minipage} & 
         \begin{minipage}{0.5\textwidth-25.2pt}
             Use a wingbolt to tighten the wire.
         \end{minipage}\\
         \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            (Experiment 15) The paper cone is flimsy and cannot hold a perfect circular shape at the base of the cone. Hence, this causes the values at \(\theta\) to be smaller than expected. So, precision is lost for the values of \(h\), \(y\), and \(x\).
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Use a plastic cone, so that the measurements for \(h\), \(x\), and \(y\) are more precise, as the shape of the cone cannot change.
+        \end{minipage}\\
+        \hline
+        % \begin{minipage}{0.5\textwidth-25.2pt}
+            
+        % \end{minipage}&
+        % \begin{minipage}{0.5\textwidth-25.2pt}
+            
+        % \end{minipage}\\
+        % \hline
     \caption{Further examples.}
     \label{table:sources-of-error-and-solutions}
     \end{longtable}
 \end{itemize}
 \section{Planning questions}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|Sc|Sc|}
+        \hline
+        Context & Sentence\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            A solar panel heats water by absorbing intra-red radiation from the Sun. It consists of an array of pipes, through which water is passed\dots Design an experiment to determine the efficiency of a model solar panel.
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Check that there is a significant temperature difference between the two thermometers. If not, adjust the power of the lamp. This will help us to determine the range of suitable values of intensity that can be used.
+        \end{minipage}\\
+        \hline
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            The efficiency of a motor is thought to depend on the angular velocity \(\omega\) of the motor. The relation between the efficiency and the angular velocity \(\omega\) of the motor may be written in the form \(\eta=a\omega^b\), where \(a\) and \(b\) are constants\dots
+        \end{minipage}&
+        \begin{minipage}{0.5\textwidth-25.2pt}
+            Check for the appropriate masses and heights such the mass can be raised when adjusting the angular speed of the motor using the variable power supply.
+        \end{minipage}\\
+        \hline
+    \end{tabular}
+    \caption{Examples on preliminary readings.}
+    \label{table:preliminary-readings}
+\end{table}
 \begin{itemize}
     \item For \emph{short} planning questions, we can reference the question's diagram(s). But we must include \emph{our own} for \emph{long} planning questions.
 \end{itemize}
