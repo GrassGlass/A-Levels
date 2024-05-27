@@ -66,10 +66,11 @@
 
 
 
-
 \RequirePackage{longtable}
 \RequirePackage{booktabs}
 \RequirePackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \RequirePackage{cellspace}
 \RequirePackage{multirow}
 \setlength\cellspacetoplimit{1.5pt}
@@ -130,6 +131,7 @@
 \RequirePackage[font=small,labelfont=bf]{caption}
 \RequirePackage{subcaption}
 \RequirePackage{float}
+\RequirePackage{wrapfig}
 \RequirePackage{enumitem}
 
 \RequirePackage[pagestyles]{titlesec}
@@ -159,6 +161,8 @@
 \renewcommand{\thefootnote}{\arabic{footnote}}	
 \RequirePackage{subfiles}
 \RequirePackage{pdfpages}
+\RequirePackage{pdflscape}
+\RequirePackage{arydshln}
 
 % Widebar
 % Source: https://tex.stackexchange.com/a/60253
@@ -231,3 +235,11 @@
   \endgroup
 }
 \makeatother
+
+% https://tex.stackexchange.com/a/213819
+\newcommand{\xdownarrow}[1]{%
+  {\left\downarrow\vbox to #1{}\right.\kern-\nulldelimiterspace}
+}
+\newcommand{\xuparrow}[1]{%
+  {\left\uparrow\vbox to #1{}\right.\kern-\nulldelimiterspace}
+}

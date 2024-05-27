@@ -15,9 +15,11 @@
 \contentsline {chapter}{\numberline {15}Electromagnetism}{29}{chapter.15}%
 \contentsline {chapter}{\numberline {16}Electromagnetic Induction}{35}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Alternating Current}{37}{chapter.17}%
-\contentsline {chapter}{\numberline {18}Practical}{41}{chapter.18}%
-\contentsline {section}{\numberline {18.1}Measurements \& Calculations}{41}{section.18.1}%
-\contentsline {section}{\numberline {18.2}Graphing}{42}{section.18.2}%
-\contentsline {section}{\numberline {18.3}Questions post-graphing}{43}{section.18.3}%
-\contentsline {section}{\numberline {18.4}Planning questions}{45}{section.18.4}%
-\contentsline {chapter}{\numberline {19}Bibliography}{46}{chapter.19}%
+\contentsline {chapter}{\numberline {18}Quantum Physics}{41}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Nuclear Physics}{44}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Practical}{47}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Measurements \& Calculations}{47}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Graphing}{48}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Questions post-graphing}{49}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Planning questions}{51}{section.20.4}%
+\contentsline {chapter}{\numberline {21}Bibliography}{52}{chapter.21}%

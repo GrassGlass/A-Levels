@@ -1125,6 +1125,288 @@ Some nice images:
         \end{figure} 
     \end{itemize}
 \end{itemize}
+\begin{landscape}
+    \chapter{Quantum Physics}
+    \begin{itemize}
+        \item \emph{A photon} is defined as \emph{a quantum} of electromagnetic energy. 
+        \item The energy of a photon is given by \(E=hf=hc/\lambda\), where Planck's constant \(h=6.63\cdot 10^{-34}\) Js. A useful conversion: 1 eV\({}=1.60\cdot 10^{-19}\) J 
+        \item \emph{The photoelectric effect} refers to the emission of \emph{electrons from a metal surface} when the surface is \emph{irradiated} with electromagnetic radiation of a \emph{high enough frequency}.
+    \end{itemize}
+    \begin{longtable}{
+        |m{21.7624088777cm*\real{0.25}}|m{21.7624088777cm*\real{0.32}};{2pt/2pt}M{21.7624088777cm*\real{0.03}}|m{21.7624088777cm*\real{0.4}}|
+        % |M{21.7624088777cm*\real{0.3}}|M{21.7624088777cm*\real{0.7}}|
+        }
+        \hline
+        \begin{minipage}{21.7624088777cm*\real{0.25}}
+            \centering
+            Experimental observations
+        \end{minipage}& 
+        \multicolumn{2}{Sc|}{Predictions of classical theory}&
+        \begin{minipage}{21.7624088777cm*\real{0.4}}
+            \centering
+            Explanation via quantum theory
+        \end{minipage}\\ 
+        % Experimental observations & Explanation via quantum theory\\ 
+        \hline
+        \begin{itemize}
+            \item \emph{Emission} of photoelectrons is almost \emph{instantaneous}, with a negligible time lag.
+            \item Is unaffected by the intensity or brightness of the light if the light is above the threshold frequency.
+        \end{itemize}&
+        \begin{itemize}
+            \item Electrons should absorb energy over a period of time before it gains enough energy to escape the metal.
+            \item A dim light after some delay would transfer sufficient energy to the electron for ejection, whereas a very bright light would eject electrons after a short while.
+        \end{itemize}&
+        \textcolor{red}{\(\times\)}&
+        \begin{itemize}
+            \item Photon-electron interaction is \emph{one-to-one}.
+            \item Energy of a single photon cannot be shared; it either gives up all of its energy to the electron, or none at all.
+            \item This absorption of the photon then leads to a gain in energy for the electron.
+            \item The time taken for the electron to gain sufficient energy is negligible. Hence, photoemission is \emph{instantaneous}.
+        \end{itemize}\\
+        \hline
+        \begin{itemize}
+            \item Electrons are emitted when the frequency of light is above the \emph{threshold frequency} \(f_0\) (or below the threshold wavelength \(\lambda_0\)).
+            \item No electron is emitted below \(f_0\), \emph{regardless of the light intensity}.
+        \end{itemize}&
+        \begin{itemize}
+            \item Energy of the wave is dependent on the square of its amplitude. 
+            \item Electrons \emph{will} absorb enough energy to escape given \emph{sufficient time}.
+            \item There should \emph{not} be any threshold frequency. 
+        \end{itemize}&
+        \textcolor{red}{\(\times\)}&
+        \begin{itemize}
+            \item The existence of the threshold frequency again traces back to the \emph{one-to-one} interactions between electrons and photons. 
+            \item \emph{The work function} \(\phi\) is the \emph{minimum energy} required to eject/free an electron from the \emph{surface} of a metal.
+            \item \emph{Note.} The energy \(E\geq\phi\) required to free an electron \emph{varies} from electron to electron.
+        \end{itemize}\\
+        \hline
+        The \emph{maximum kinetic energy} of the ejected electrons is independent of the \emph{intensity} of the light, but dependent on the \emph{frequency} of the light.&
+        The higher the light \emph{intensity}, the higher the \emph{energy} of the light wave striking the metal surface. Electrons should be ejected with \emph{greater} kinetic energy. It \emph{cannot} explain why the maximum kinetic energy is dependent on frequency and independent of intensity.&
+        \textcolor{red}{\(\times\)}&
+        \begin{itemize}
+            \item By the conservation of energy, energy imparted by a photon is used to \emph{free} the electron and becomes the \emph{kinetic energy} of the emitted electron.
+            \item For an electron requiring the \emph{minimum} energy \(\phi\) to escape from the metal, its kinetic energy will be a \emph{maximum}. i.e. \(hf=\phi+E_{k,\text{max}}\).
+            \item When the light source increases in \emph{frequency}, the \emph{energy} \(E_{\text{photon}}\propto f\) of the emitted \emph{photons} increases proportionately. So, the \emph{maximum} kinetic energy \(E_{k,\text{max}}=E_{\text{photon}}-\phi\) of the electrons emitted also increases. 
+        \end{itemize}\\
+        \hline
+        The \emph{rate} at which electrons were ejected, and therefore, the \emph{photocurrent} produced is proportional to the \emph{intensity} of the light.&
+        A higher light intensity should be able to simultaneously free more electrons from the metal at any instant. This results in a higher current.&
+        \textcolor{green!70!black}{\checkmark}&
+        The \emph{intensity} of the \emph{monochromatic} light beam is directly proportional to the number of \emph{photons} passing through a cross-sectional \emph{area} per unit \emph{time}. In fact,
+        \[I=\frac{N}{t}\cdot\frac{hf}{A}=\frac{Nhf}{tA}.\]
+        The higher the light \emph{intensity}, the higher the \emph{number of photons per unit time} hitting the metal surface, and hence, its electrons.\\
+        \hline
+        \caption{The photoelectric effect, in summary.}
+        \label{table:the-photoelectric-effect}
+    \end{longtable}
+\end{landscape}
+\begin{minipage}{0.5\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{../images/the-photoelectric-effect.pdf}
+        \caption{\ref{fig:the-photoelectric-effect} An illustration of the photoelectric effect.}
+        \label{fig:the-photoelectric-effect}
+    \end{figure}
+\end{minipage}%
+\begin{minipage}{\textwidth}
+    The negative side.
+
+    The positive side
+\end{minipage}
+
+\chapter{Nuclear Physics}
+\begin{itemize}
+    \item The Rutherford-Geiger-Marsden Experiment.
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|}
+            \hline
+            Observation & Explanation\\
+            \hline
+            \begin{minipage}{0.5\textwidth-25.2pt}
+                Most \(\alpha\)-particles passed straight through the foil, \emph{undeflected}.
+            \end{minipage}& 
+            \begin{minipage}{0.5\textwidth-25.2pt}
+                The nucleus is \emph{very small} in size \emph{compared} to the atom as a whole, which mostly comprises of \emph{empty space}.
+            \end{minipage}\\
+            \hline
+            \begin{minipage}{0.5\textwidth-25.2pt}
+                Less than \hly{1\%} of the \(\alpha\)-particles were \emph{scattered backwards}, with an angle of \emph{deflection} exceeding \(90^\circ\).
+            \end{minipage}& 
+            \begin{minipage}{0.5\textwidth-25.2pt}
+                Most of the mass of an atom is \emph{concentrated} in a \emph{very small positively charged} region.
+            \end{minipage}\\
+            \hline
+        \end{tabular}
+        \caption{The Rutherford-Geiger-Marsden Experiment: Observations and explanations.}
+        \label{table:rutherford-geiger-marsden}
+    \end{table}
+    \item A \emph{isotope} is one of two or more atoms with the \emph{same atomic number} but \emph{different number of neutrons}.
+    \item The \emph{unified atomic mass unit} \(u\) is equivalent to \emph{one-twelfth} of the mass of a carbon-12 atom. i.e. 1 \(u=1.66\cdot 10^{-27}\) kg.
+    \item The \emph{mass defect} is the amount by which the mass of an atomic \emph{nucleus} is less than the sum of the masses of its \emph{constituent particles}. i.e.
+    \[\text{mass defect }\Delta m=\text{sum of masses of nucleons}-\text{mass of nucleus}.\]
+    \item The \emph{binding energy} of a nucleus is the amount of energy that is required to \emph{break a nucleus} into its \emph{constituent nucleons}.
+    \item Binding energy is not a form of stored energy. 
+    \item Mass-energy equivalence: \(E=mc^2\).
+    \item The \emph{binding energy per nucleon} is defined as the \emph{binding energy} of a nucleus divided by the \emph{number of nucleons} in the nucleus.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.81\textwidth]{../images/Binding energy per nucleon.pdf}
+        \caption{\ref{source:binding-energy-per-nucleon} The variation of binding energy per nucleon with nucleon number.}
+        \label{fig:binding-energy-per-nucleon}
+    \end{figure}
+    \item Remember that, Fe-56 has a binding energy per nucleon of 8.8 MeV and is located near (slightly to the right of) the peak.
+    \item The binding energy per nucleon can be seen as a measure of stability: a higher binding energy per nucleon corresponds to a higher stability of the nucleus.
+\end{itemize}
+\begin{minipage}{0.5\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{../images/Li6-D_Reaction.pdf}
+        \caption{\ref{source:nuclear-fusion-and-fission} Nuclear fusion followed by fission.}
+        \label{fig:nuclear-fusion-and-fission}
+    \end{figure} 
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+    \begin{itemize}
+        \item Nuclear fusion is the process where light nuclei fuse into a heavier nucleus that is more stable. Energy is liberated.
+        \item Nuclear fission is the process where a heavy nucleus splits into two lighter nuclei that is more stable. Energy is liberated.
+        \item Useful equations for calculating the energy liberated in a nuclear reaction. 
+        \begin{enumerate}
+            \item energy released\({}={}\)(mass of reactants\({}-{}\)mass of products)\({}c^2\).
+            \item energy released\({}={}\)B.E. of products\({}-{}\)B.E. of reactants.
+        \end{enumerate}
+        \item Conserved quantities in nuclear reactions.
+        \begin{enumerate}
+            \item Nucleon number.
+            \item Charge. The \emph{atomic numbers} of reactants and products each sum to the same total. \emph{But}, the total \emph{number of protons} may change due to beta decay. i.e. 
+            \(_Z^A\text{X}\to{}_{Z+1}^A\text{X}+{}_{-1}^0\text{e}\).
+            \item Mass-energy.
+        \end{enumerate}
+    \end{itemize}
+\end{minipage}
+\begin{itemize}
+    \item Radioactive decay is \emph{spontaneous} and \emph{random}.
+    \begin{itemize}
+        \item \emph{Spontaneous} means that the nucleus decays because it is \emph{unstable}, not because of \emph{external conditions}.
+        \item Random means that it is impossible to predict \emph{which} nucleus will delay or \emph{when} a particular nucleus will decay.
+    \end{itemize}
+    \item \emph{Background radiation} is the radiation detected by a \emph{radiation counter} when \emph{no radioactive source} is nearby.
+    \item The \emph{activity} \(A\) of a radioactive isotope is defined as the number of \emph{nuclear disintegrations per unit time}.
+    \item (No need to rmb) The count rate \(C\) is the rate at which counts are triggered on a ratemeter, by ionising radiation. 
+    \item \emph{Note.} The count rate is \emph{not the same} as activity. In fact, \(C\leq A\) because not all emissions --- stemming from radioactive decay --- are counted. Some reasons include:
+    \begin{enumerate}
+        \item Not all the radiation is directed towards the detector.
+        \item Some of the radiation will be absorbed in the source itself, and by the air between the source and the detector. 
+    \end{enumerate}
+    \item The \emph{decay constant} \(\lambda\) of a \emph{sample of a radioactive nuclide} is the \emph{probability} that a nucleus will \emph{decay per unit time}. 
+    \item The number \(N\) of undecayed nuclei is such that \(A=-\frac{dN}{dt}=\lambda N\).
+    \item The number \(N\) of undecayed nuclei, mass \(m\) of radioactive sample, activity \(A\), and count rate \(C\) all follow the equation \(y=y_0e^{-\lambda t}\) (\(y=N,m,A,C\)).
+    \item The \emph{half-life} \(t_{1/2}\) of a \emph{radioactive isotope} is the \emph{average time} taken for its \emph{activity to be halved}. \emph{Note.} \(\lambda t_{1/2}=ln(2)\).
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc;{2pt/2pt}Sc|Sc;{2pt/2pt}Sc|Sc|}
+            \hline
+            Type of decay & Equation & \multicolumn{2}{Sc|}{Ionising power} & \multicolumn{2}{Sc|}{Penetration power} & Velocity\\
+            \hline
+            Alpha decay & 
+            \begin{minipage}{3cm}
+                \vspace{-4.07mm}
+                \[_Z^A\text{X}\to{}_{Z-2}^{A-4}\text{Y}+\overbrace{_2^4\text{He}}^{
+                    \mathclap{
+                        \alpha-\text{particle (zero electrons)\hspace{2.1cm}}}}
+                        % \substack{\alpha-\text{particle}\\
+                        % \text{(zero electrons)}}}}
+                \]
+            \end{minipage}&
+            \multirow{3}{*}{\(\xdownarrow{1.5cm}\)} & 
+            \begin{minipage}{2cm}
+                \centering
+                Strong
+
+                (\(10^5\) ions per cm)
+            \end{minipage}& \multirow{3}{*}{\(\xuparrow{1.5cm}\)} & 
+            \begin{minipage}{2cm}
+                \centering
+                Stopped by a few cm of air or paper 
+            \end{minipage}& 
+            \begin{minipage}{3cm-23pt}
+                \centering
+                \(10^7\text{ ms}^{-1}\) or 
+                
+                \(0.1c\)
+            \end{minipage}\\
+            \cline{1-2}
+            \cline{4-4}
+            \cline{6-7}
+            Beta decay & 
+            \begin{minipage}{3cm}
+                \vspace{-4.07mm}
+                \[_Z^A\text{X}\to{}_{Z+1}^A\text{Y}+\overbrace{_{-1}^0\text{e}}^{
+                    \mathclap{\beta-\text{particle}}\hspace{3mm}}\]
+            \end{minipage}&
+            &
+            \begin{minipage}{2cm}
+                \centering
+                (\(10^3\) ions per cm)
+            \end{minipage}&& 
+            \begin{minipage}{2cm}
+                \centering
+                5 mm of aluminum 
+            \end{minipage}& 
+            \begin{minipage}{3cm-23pt}
+                \centering
+                Continuous range up to 
+                
+                \(10^8\text{ ms}^{-1}\) or 
+                
+                \(0.9c\)
+            \end{minipage}\\
+            \cline{1-2}
+            \cline{4-4}
+            \cline{6-7}
+            Gamma decay & 
+            \begin{minipage}{3cm}
+                \vspace{-4.07mm}
+                \[\rule{0.5cm}{0.05mm}\to \rule{0.5cm}{0.05mm}+\overbrace{_0^0\gamma}^{
+                    \mathclap{\gamma-\text{ray}}}\]
+            \end{minipage}&& 
+            \begin{minipage}{2cm}
+                \centering
+                Weak
+
+                (indirect ionisation)
+            \end{minipage}&& 
+            \begin{minipage}{2cm}
+                \centering
+                Several cm of lead
+            \end{minipage}& \(c\)\\
+            \hline
+        \end{tabular}
+        \caption{Types of radioactive decay.}
+        \label{table:types-of-radioactive-decay}
+    \end{table}
+\end{itemize}
+    \begin{minipage}{0.5\textwidth}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{../images/Beta-minus_Decay.pdf}
+            \caption{\ref{source:beta-decay} Illustration of a beta decay.}
+            \label{fig-beta-decay}
+        \end{figure}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \begin{itemize}
+            \item While a couple mm or cm of metal suffices to stop \(\beta\)-particles, X-rays (bremsstrahlung) may be produced outside the container. So, thicker layers of lower atomic mass materials --- plastic, wood, water, etc --- may be preferable.
+            \item In a beta decay, a \emph{neutrino} is emitted along with the \(\beta\)-particle, carrying away some kinetic energy and momentum. Hence, the electron emission may not be collinear, in the opposite direction of, the recoil of the nucleus.
+        \end{itemize}
+    \end{minipage}
+\begin{itemize}
+    \item Biological effects of radiation.
+    \begin{itemize}
+        \item Direct effects. When radiation interacts with DNA, affecting (or even breaking) the bonds within, it impacts the ability of a cell to reproduce and survive. Mutations may also occur, eventually leading to cancer.
+        \item Indirect effects. When radiation interacts with and breaks the bonds in water molecules, it creates free radicals: molecules which are highly reactive due to the presence of unpaired electrons. These free radicals form compounds which initiates harmful chemical reactions within cells, causing them to be destroyed.
+    \end{itemize}
+\end{itemize}
 
 \chapter{Practical}
 \begin{itemize}
@@ -1528,5 +1810,12 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{Half-Wave-Recification-Graph} Graph for a half-wave rectification \url{https://www.desmos.com/calculator/iwlror8sml} (Made by me, Grass)
     \item\label{Full-Wave-Rectificaion-Circuit} Circuit diagram for a full-wave rectification \url{https://tikz.net/diode-bridge-full-rectification/}
     \item\label{Full-Wave-Rectification-Graph} Graph for a full-wave rectification \url{https://www.desmos.com/calculator/hwj30bli4o} (Made by me, Grass)
+    \item\label{source:binding-energy-per-nucleon} The variation of binding energy per nucleon with nucleon number (Figure \ref{fig:binding-energy-per-nucleon}) \url{https://commons.wikimedia.org/wiki/File:Binding_energy_curve_-_common_isotopes.svg}
+    \item\label{source:nuclear-fusion-and-fission} 
+    % Lithium-6 (\(_3^6\)Li) and deuterium (\(_1^2\)H) reacting to form the highly excited intermediate nucleus (\(_4^8\)Be), which decays immediately into two helium-4 (\(_2^4\)He) alpha particles 
+    Nuclear fusion followed by fission
+    (Figure \ref{fig:nuclear-fusion-and-fission}) \url{https://commons.wikimedia.org/wiki/File:Li6-D_Reaction.svg} 
+    \item\label{source:beta-decay} Illustration of a beta decay (Figure \ref{fig-beta-decay}) \url{https://en.wikipedia.org/wiki/Beta_decay#/media/File:Beta-minus_Decay.svg}
+    \item\label{source:the-photoelectric-effect} An illustration of the photoelectric effect (Figure \ref{fig:the-photoelectric-effect}) \url{https://commons.wikimedia.org/wiki/File:Photoelectric_effect_measurement_apparatus_-_microscopic_picture.svg}
 \end{enumerate}
 \end{document}
