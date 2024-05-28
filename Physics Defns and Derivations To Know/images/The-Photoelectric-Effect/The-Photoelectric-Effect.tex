@@ -1,0 +1,368 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz,pgfplots}
+\usepackage{newpxtext, eulerpx}
+\begin{document}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    orangenode/.style={rectangle, draw=orange, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    yellownode/.style={rectangle, draw=yellow!92.5!black, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},]
+    \begin{axis}[
+        axis x line=center,
+        axis y line=center,
+        xtick={-2},
+        ytick={3.25},
+        every tick/.style={red},
+        xticklabels={\textcolor{red}{\(-V_S\)}},
+        yticklabels={\textcolor{red}{\(I_{\text{max}}\)}},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+        xlabel={\(V\)},
+        ylabel={\(I\)},
+        xlabel style={right},
+        ylabel style={above},
+        xmin=-3.5,
+        xmax=5.5,
+        ymin=-0.5,
+        ymax=3.5,
+        width=10cm,
+        height=6cm,
+        ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % High intensity of radiation
+    \draw [red] plot [smooth] coordinates { 
+        (axis cs:-2,0) 
+        (axis cs:-1.8,0.3)
+        (axis cs:-1.5,1.5) 
+        (axis cs:-1,2.5) 
+        (axis cs:0,3) 
+        (axis cs:2,3.21) 
+        (axis cs:5.5,3.25)};
+    \draw[red] (axis cs:-5.5,0) to (axis cs:-2,0);
+    \draw[dotted] (axis cs:0,3.25) to (axis cs:5.5,3.25);
+    \end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex]
+\begin{axis}[
+  axis x line=center,
+  axis y line=center,
+  xtick={0,3.5,7},
+  ytick={0,-2,-4},
+  every tick/.style={blue},
+  xticklabels={,\textcolor{blue}{\(f_{0,\,\text{metal 1}}\)},\textcolor{blue}{\(f_{0,\,\text{metal 2}}\)}},
+  yticklabels={,\textcolor{blue}{\(\phi_1\)},\textcolor{blue}{\(\phi_2\)}},
+%   xticklabel=\empty,
+%   yticklabel=\empty,
+%   ticks=none,
+  xlabel={\(f\)},
+  ylabel={\(E_{k,\,\text{max}}\)},
+  xlabel style={right},
+  ylabel style={above},
+  xmin=-0.5,
+  xmax=10.5,
+  ymin=-5,
+  ymax=5.5,
+%   width=10.5cm,
+%   height=10.5cm,
+  ]
+%   Origin
+\node[below left] at (axis cs:0,0) {\(0\)};
+% Function label
+\node[blue] at (axis cs:8,5) {\(E_{k,\,\text{max}}=hf-\phi\)};
+%   Metal 1
+\addplot[domain=3.5:10.5,blue] {0.571*x-1.999};
+\addplot[domain=0:3.5,dotted,blue] {0.571*x-1.999};
+% Metal 2
+\addplot[domain=7:10.5,blue] {0.571*x-3.997};
+\addplot[domain=0:7,dotted,blue] {0.571*x-3.997};
+\end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,relative]
+    \begin{axis}[
+      axis x line=center,
+      axis y line=center,
+      xtick={0,3.5,7},
+      ytick={0,-2,-4},
+      every tick/.style={blue},
+      xticklabels={,\textcolor{blue}{\(f_{0,\,\text{metal 1}}\)},\textcolor{blue}{\(f_{0,\,\text{metal 2}}\)}},
+      yticklabels={,\textcolor{blue}{\(\dfrac{\phi_1}{e}\)},\textcolor{blue}{\(\dfrac{\phi_2}{e}\)}},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+      xlabel={\(f\)},
+      ylabel={\(V_s\)},
+      xlabel style={right},
+      ylabel style={above},
+      xmin=-0.5,
+      xmax=10.5,
+      ymin=-5,
+      ymax=5.5,
+    %   width=10.5cm,
+    %   height=10.5cm,
+      ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % Function label
+    \node[blue] at (axis cs:8,5) {\(V_s=\frac{hf-\phi}{e}\)};
+    %   Metal 1
+    \addplot[domain=3.5:10.5,blue] {0.571*x-1.999};
+    \addplot[domain=0:3.5,dotted,blue] {0.571*x-1.999};
+    % Metal 2
+    \addplot[domain=7:10.5,blue] {0.571*x-3.997};
+    \addplot[domain=0:7,dotted,blue] {0.571*x-3.997};
+    \end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    orangenode/.style={rectangle, draw=orange, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    yellownode/.style={rectangle, draw=yellow!92.5!black, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},]
+    \begin{axis}[
+        axis x line=center,
+        axis y line=center,
+        xtick={-2},
+        ytick={0},
+        every tick/.style={},
+        xticklabels={\(-V_S\)},
+        yticklabels={},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+        xlabel={\(V\)},
+        ylabel={\(I\)},
+        xlabel style={right},
+        ylabel style={above},
+        xmin=-3.5,
+        xmax=5.5,
+        ymin=-0.5,
+        ymax=3.3,
+        width=10cm,
+        height=6cm,
+        ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % High intensity of radiation
+    \draw [red] plot [smooth] coordinates { 
+        (axis cs:-2,0) 
+        (axis cs:-1.8,0.3)
+        (axis cs:-1.5,1.5) 
+        (axis cs:-1,2.5) 
+        (axis cs:0,3) 
+        (axis cs:2,3.25) 
+        (axis cs:5.5,3.25)};
+        % label
+        % \node[red] at (axis cs:7.75,3.4) {\footnotesize High light intensity};
+    \draw[red] (axis cs:-5.5,0) to (axis cs:-2,0);
+    % Moderate intensity of radiation
+    \draw [orange] plot [smooth] coordinates { 
+        (axis cs:-2,0) 
+        (axis cs:-1.8,0.3/1.5)
+        (axis cs:-1.5,1.5/1.5) 
+        (axis cs:-1,2.5/1.5) 
+        (axis cs:0,3/1.5) 
+        (axis cs:2,3.25/1.5) 
+        (axis cs:5.5,3.25/1.5)};
+        % label
+        % \node[orange] at (axis cs:7.2,3.25/2+0.15) {\footnotesize Moderate light intensity};
+    \draw[orange] (axis cs:-5.5,0) to (axis cs:-2,0);
+    % Low intensity of radiation
+    \draw [yellow!92.5!black] plot [smooth] coordinates { 
+        (axis cs:-2,0) 
+        (axis cs:-1.8,0.3/3)
+        (axis cs:-1.5,1.5/3) 
+        (axis cs:-1,2.5/3) 
+        (axis cs:0,3/3) 
+        (axis cs:2,3.25/3) 
+        (axis cs:5.5,3.25/3)};
+        % label
+        % \node[yellow!92.5!black] at (axis cs:7.2,3.25/2+0.15) {\footnotesize Low light intensity};
+    \draw[yellow!92.5!black] (axis cs:-5.5,0) to (axis cs:-2,0);
+    \end{axis}
+    \matrix [draw,below left] at (current bounding box.south east) {
+    \node [rednode,label=right:\textcolor{red}{High light intensity}] {};\\
+    \node [orangenode,label=right:\textcolor{orange}{Moderate light intensity}] {};\\
+    \node [yellownode,label=right:\textcolor{yellow!92.5!black}{Low light intensity}] {}; \\
+    };
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+    \begin{axis}[
+      axis x line=center,
+      axis y line=center,
+      xtick={-2,-2*2},
+      ytick={0},
+      every tick/.style={},
+      xticklabels={\textcolor{blue}{\(-V_{S_1}\)},\textcolor{violet}{\(-V_{S_2}\)}},
+      yticklabels={},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+      xlabel={\(V\)},
+      ylabel={\(I\)},
+      xlabel style={right},
+      ylabel style={above},
+      xmin=-5.5,
+      xmax=5.5,
+      ymin=-0.5,
+      ymax=3.3,
+      width=10cm,
+      height=6cm,
+      ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % Moderate intensity of radiation
+    \draw [blue] plot [smooth] coordinates { 
+        (axis cs:-2,0) 
+        (axis cs:-1.8,0.3)
+        (axis cs:-1.5,1.5) 
+        (axis cs:-1,2.5) 
+        (axis cs:0,3) 
+        (axis cs:2,3.25) 
+        (axis cs:5.5,3.25)};
+        % label
+        % \node[blue] at (axis cs:7.2,3.25/2+0.15) {\footnotesize Moderate light intensity};
+    \draw[blue] (axis cs:-5.5,0) to (axis cs:-2,0);
+    % Low intensity of radiation
+    \draw [violet] plot [smooth] coordinates { 
+        (axis cs:-2*2,0) 
+        (axis cs:-1.8*2,0.3)
+        (axis cs:-1.5*2,1.5) 
+        (axis cs:-1*2,2.5) 
+        (axis cs:0,3) 
+        (axis cs:2,3.25) 
+        (axis cs:5.5,3.25)};
+        % label
+        % \node[violet] at (axis cs:7.2,3.25/2+0.15) {\footnotesize Low light intensity};
+    \draw[violet] (axis cs:-5.5,0) to (axis cs:-2,0);
+    \end{axis}
+    % \matrix (M) [
+    % draw,
+    % below left,
+    % cell/.style={rectangle},
+    % row sep=-\pgflinewidth,
+    % column sep=-\pgflinewidth,
+    % nodes={rectangle,minimum width=3em,outer sep=0pt},
+    % ] at (current bounding box.south east) {
+    % \node [nonode] {}; & \node [nonode,label=right:Frequency] {}; & \node [nonode,label=right:Intensity] {};\\
+    % \hline
+    % \node [rednode] {}; & \node [nonode,label=right:\textcolor{red}{Low}] {}; & \node [nonode,label=right:\textcolor{red}{high}] {};\\
+    % \node [bluenode] {}; & \node [nonode,label=right:\textcolor{blue}{Low}] {}; & \node [nonode,label=right:\textcolor{blue}{Low}] {};\\
+    % \node [violetnode] {}; & \node [nonode,label=right:\textcolor{violet}{High}] {}; & \node [nonode,label=right:\textcolor{violet}{Low}] {}; \\
+    % };
+    \matrix [draw,below left] at (current bounding box.south east) {
+        \node [bluenode,label=right:\textcolor{blue}{Low frequency}] {};\\
+        \node [violetnode,label=right:\textcolor{violet}{High frequency}] {}; \\
+        };
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex]
+\begin{axis}[
+  axis x line=center,
+  axis y line=center,
+  xtick={0},
+  ytick={0},
+  every tick/.style={green!85!black},
+  xticklabels={},
+  yticklabels={},
+%   xticklabel=\empty,
+%   yticklabel=\empty,
+%   ticks=none,
+  xlabel={Intensity},
+  ylabel={\(I\)},
+  xlabel style={right},
+  ylabel style={above},
+  xmin=-0.5,
+  xmax=10,
+  ymin=-0.7,
+  ymax=10,
+%   width=10.5cm,
+%   height=10.5cm,
+  ]
+%   Origin
+\node[below left] at (axis cs:0,0) {\(0\)};
+%   Metal 1
+\addplot[domain=0:10,green!85!black] {x};
+\end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+    \begin{axis}[
+      axis x line=center,
+      axis y line=center,
+      xtick={4},
+      ytick={0},
+      every tick/.style={blue},
+      xticklabels={\textcolor{blue}{\(f_0\)}},
+      yticklabels={},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+      xlabel={\(f\)},
+      ylabel={\(I\)},
+      xlabel style={right},
+      ylabel style={above},
+      xmin=-0.8,
+      xmax=15.5,
+      ymin=-0.3,
+      ymax=3.5,
+      ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    \draw [blue] plot [smooth] coordinates { 
+        (axis cs:4,0)
+        (axis cs:4.2,0.5)
+        % (axis cs:5,1.5)
+        (axis cs:5.5,2)
+        % (axis cs:6,2.3)
+        (axis cs:7,2.7)
+        % (axis cs:8,2.9)
+        (axis cs:9,3.1)
+        % (axis cs:10,3.2)
+        (axis cs:12,3.3)
+        (axis cs:15.5,3.3)};
+        % label
+        % \node[blue] at (axis cs:7.2,3.25/2+0.15) {\footnotesize Moderate light intensity};
+    \draw[blue] (axis cs:-5.5,0) to (axis cs:-2,0);
+    % Low intensity of radiation
+    % \draw [violet] plot [smooth] coordinates { 
+    %     (axis cs:-2*2,0) 
+    %     (axis cs:-1.8*2,0.3)
+    %     (axis cs:-1.5*2,1.5) 
+    %     (axis cs:-1*2,2.5) 
+    %     (axis cs:0,3) 
+    %     (axis cs:2,3.25) 
+    %     (axis cs:5.5,3.25)};
+    %     % label
+    %     % \node[violet] at (axis cs:7.2,3.25/2+0.15) {\footnotesize Low light intensity};
+    % \draw[violet] (axis cs:-5.5,0) to (axis cs:-2,0);
+    \end{axis}
+    % \matrix (M) [
+    % draw,
+    % below left,
+    % cell/.style={rectangle},
+    % row sep=-\pgflinewidth,
+    % column sep=-\pgflinewidth,
+    % nodes={rectangle,minimum width=3em,outer sep=0pt},
+    % ] at (current bounding box.south east) {
+    % \node [nonode] {}; & \node [nonode,label=right:Frequency] {}; & \node [nonode,label=right:Intensity] {};\\
+    % \hline
+    % \node [rednode] {}; & \node [nonode,label=right:\textcolor{red}{Low}] {}; & \node [nonode,label=right:\textcolor{red}{high}] {};\\
+    % \node [bluenode] {}; & \node [nonode,label=right:\textcolor{blue}{Low}] {}; & \node [nonode,label=right:\textcolor{blue}{Low}] {};\\
+    % \node [violetnode] {}; & \node [nonode,label=right:\textcolor{violet}{High}] {}; & \node [nonode,label=right:\textcolor{violet}{Low}] {}; \\
+    % };
+    % \matrix [draw,below left] at (current bounding box.south east) {
+    %     \node [bluenode,label=right:\textcolor{blue}{Low frequency}] {};\\
+    %     \node [violetnode,label=right:\textcolor{violet}{High frequency}] {}; \\
+    %     };
+\end{tikzpicture}
+
+\end{document}

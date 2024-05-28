@@ -1,0 +1,52 @@
+\documentclass[border=5mm,tikz]{standalone}
+\usepackage{pgfplots}
+\usepackage{newpxtext, eulerpx}
+\begin{document}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    orangenode/.style={rectangle, draw=orange, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    yellownode/.style={rectangle, draw=yellow!92.5!black, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},]
+    \begin{axis}[
+        axis x line=center,
+        axis y line=center,
+        xtick={33},
+        ytick={0},
+        every tick/.style={blue},
+        xticklabels={\textcolor{blue}{\(\lambda_{\text{min}}\)}},
+        yticklabels={},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+        xlabel={\(\lambda\)},
+        ylabel={Intensity},
+        xlabel style={right},
+        ylabel style={above},
+        xmin=30,
+        xmax=90,
+        ymin=0,
+        ymax=100,
+        ]
+    % %   Origin
+    % \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % High intensity of radiation
+    \draw [blue] plot [smooth] coordinates { 
+        (axis cs:33,0)
+        (axis cs:40,15)
+        (axis cs:50,15*1.5)
+        (axis cs:58,15*1.3)
+        (axis cs:60.5,15*1.5)
+        (axis cs:62,45)
+        (axis cs:65,15*1.2)
+        (axis cs:68.5,20)
+        (axis cs:70,90)
+        (axis cs:75,20)
+        (axis cs:90,3)};
+    \draw[red] (axis cs:-5.5,0) to (axis cs:-2,0);
+    \draw[dotted] (axis cs:0,3.25) to (axis cs:5.5,3.25);
+    \node[above,align=center,blue] at (axis cs:45,15*1.5) {Bremsstrahlung\\ Continuum};
+    \node[above,blue] at (axis cs:62,45) {\(K_\beta\)};
+    \node[above,blue] at (axis cs:70,90) {\(K_\alpha\)};
+    \end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1128,9 +1128,9 @@ Some nice images:
 \begin{landscape}
     \chapter{Quantum Physics}
     \begin{itemize}
-        \item \emph{A photon} is defined as \emph{a quantum} of electromagnetic energy. 
+        \item[\AsteriskThin] \emph{A photon} is defined as \emph{a quantum} of electromagnetic energy. 
         \item The energy of a photon is given by \(E=hf=hc/\lambda\), where Planck's constant \(h=6.63\cdot 10^{-34}\) Js. A useful conversion: 1 eV\({}=1.60\cdot 10^{-19}\) J 
-        \item \emph{The photoelectric effect} refers to the emission of \emph{electrons from a metal surface} when the surface is \emph{irradiated} with electromagnetic radiation of a \emph{high enough frequency}.
+        \item[\AsteriskThin] \emph{The photoelectric effect} refers to the emission of \emph{electrons from a metal surface} when the surface is \emph{irradiated} with electromagnetic radiation of a \emph{high enough frequency}.
     \end{itemize}
     \begin{longtable}{
         |m{21.7624088777cm*\real{0.25}}|m{21.7624088777cm*\real{0.32}};{2pt/2pt}M{21.7624088777cm*\real{0.03}}|m{21.7624088777cm*\real{0.4}}|
@@ -1176,7 +1176,7 @@ Some nice images:
         \textcolor{red}{\(\times\)}&
         \begin{itemize}
             \item The existence of the threshold frequency again traces back to the \emph{one-to-one} interactions between electrons and photons. 
-            \item \emph{The work function} \(\phi\) is the \emph{minimum energy} required to eject/free an electron from the \emph{surface} of a metal.
+            \item[\AsteriskThin] \emph{The work function} \(\phi\) is the \emph{minimum energy} required to eject/free an electron from the \emph{surface} of a metal.
             \item \emph{Note.} The energy \(E\geq\phi\) required to free an electron \emph{varies} from electron to electron.
         \end{itemize}\\
         \hline
@@ -1203,16 +1203,252 @@ Some nice images:
 \begin{minipage}{0.5\textwidth}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\textwidth]{../images/the-photoelectric-effect.pdf}
-        \caption{\ref{fig:the-photoelectric-effect} An illustration of the photoelectric effect.}
+        \includegraphics[width=\textwidth]{../images/The-Photoelectric-Effect/Illustration.pdf}
+        \caption{\ref{source:the-photoelectric-effect} An illustration of the photoelectric effect.}
         \label{fig:the-photoelectric-effect}
     \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth,page=1]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{\ref{source:curves-the-photoelectric-effect} An illustration of the photoelectric effect.}
+        \label{fig:curves-the-photoelectric-effect}
+    \end{figure}
+    % \begin{figure}[H]
+    %     \centering
+    %     \includegraphics[width=\textwidth]{../images/Photoelectric effect stopping_voltage_diagram_for_zinc_-_English.pdf}
+    %     \caption{\ref{source:max-E_k-against-frequency_zinc} The maximum kinetic energy of a photoelectron as a function of the frequency of light on zinc.}
+    %     \label{fig:max-E_k-against-frequency_zinc}
+    % \end{figure}
 \end{minipage}%
-\begin{minipage}{\textwidth}
-    The negative side.
-
-    The positive side
+\begin{minipage}{0.5\textwidth}
+    \begin{itemize}
+        \item A is negative relative to B (\(V=V_A-V_B<0\)).
+        \begin{itemize}
+            \item Electrons decelerate when moving towards A.
+            \item If the kinetic energy \(E_k\) of an electron exceeds \(eV\), then it will reach electrode A.
+            \item And when \(E_k<eV\), the electron will be repelled back to electrode A. 
+            \item As \(V\) increases, more electrons have insufficient \(E_k\) to reach electrode A. i.e., less electrons reach A. So, the photocurrent is reduced.
+            \item At the stopping potential \(V_s\), even the most energetic electrons have insufficient \(E_k\) to reach A. i.e. \(eV_s=E_{k,\text{max}}\). Hence, there is no photocurrent.  
+        \end{itemize}
+        \item A is positive relative to B (\(V=V_A-V_B>0\)).
+        \begin{itemize}
+            \item All electrons accelerate towards A.
+            \item The saturation current is not immediately reached because some electrons' path are such that they do not hit electrode A. So, a sufficiently strong electric field is required for them to hit A.
+        \end{itemize}
+    \end{itemize}
 \end{minipage}
+\null
+\vfill
+\footnotetext{Totally didn't take me 5-7 hours to tex out the next page\dots Tikz is pain, suffering, but beautiful.}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[c]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=2]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{ The maximum kinetic energy of a photoelectron plotted against the frequency of light used.}
+    \end{subfigure}\hfill
+    \begin{subfigure}[c]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=3]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{ The stopping potential for a metal surface plotted against the frequency of light used.}
+    \end{subfigure}\hfill
+    \begin{subfigure}[c]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=4]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{ The graph of photocurrent \(I\) against potential difference \(V=V_A-V_B\), under (a constant frequency but) varying intensities of light.}
+    \end{subfigure}\hfill
+    \begin{subfigure}[c]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=5]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{ The graph of photocurrent \(I\) against potential difference \(V=V_A-V_B\), under (a constant rate of photon emission but) varying frequencies of light.}
+    \end{subfigure}\hfill
+    \begin{subfigure}[c]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=6]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{The graph of photocurrent \(I\) against the intensity of light used (under a constant frequency, which exceeds the threshold).}
+    \end{subfigure}\hfill
+    \begin{subfigure}[c]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=7]{../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf}
+        \caption{The graph of photocurrent \(I\) against the frequency of light used (under a constant rate of photon emission).}
+    \end{subfigure}\hfill
+    \caption{\ref{source:curves-the-photoelectric-effect} The photoelectric effect: the relationship between the maximum kinetic energy \(E_{k,\text{max}}\), the stopping potential\(V_s\), photocurrent \(I\), potential difference \(V=V_A-V_B\), frequency \(f\) of light used, intensity of light used.}
+    \label{fig:curves-TOO-the-photoelectric-effect}
+\end{figure}
+\begin{itemize}
+    \item The \emph{de Broglie wavelength} of any particle is given by \(\lambda=h/p\).
+    \item The Heisenberg Uncertainty Principle states that \(\Delta p\Delta x\gtrsim h\), where \(p\) and \(x\) are the momentum and position, respectively, of a particle. 
+    \item \emph{Note.} The above applies only when considering the momentum \(p\) and position \(x\) \emph{in the same direction}. So, it is possible that, for example, \(\Delta x\Delta p_y=0\) or \(\Delta y\Delta p_x=0\).
+    \item The energy of a photon involved in the transition between energy levels obeys energy conservation. i.e. \(hf=E_f-E_i\) where \(f\) is the photon's frequency.
+    \item Some terminology.
+    \begin{enumerate}
+        \item The \emph{ground state} of an atom is the lowest state an atom can be at, such that all electrons in the atom occupy the lowest possible energy levels.
+        \item An atom is said to be \emph{excited} iff one or more of its electrons are not occupying the lowest possible energy states.
+        \item For this topic, \emph{ionisation} is the removal of an electron to create an ion.
+        \item The \emph{ionisation energy} of an atom is the energy required to ionise the atom.  
+    \end{enumerate}
+    \item[\AsteriskThin] An \emph{emission line spectrum} is a series of distinctly coloured lines against a dark background.
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{\textwidth}
+            \centering
+            \pgfspectra[element=He,axis,label,label position=north west]
+            \caption{The emission line spectrum of Helium.}
+            \label{fig:emission-line-spectrum-helium}
+        \end{subfigure}%
+
+        \begin{subfigure}[c]{\textwidth}
+            \centering
+            \pgfspectra[element=H,axis,label,label position=north west]
+            \caption{The emission line spectrum of Hydrogen.}
+            \label{fig:emission-line-spectrum-hydrogen}
+        \end{subfigure}%
+        \caption{\ref{source:emission-and-absorption-lines} Some emission line spectra.}
+        \label{fig:emission-lines}
+    \end{figure}
+    \begin{itemize}
+        \item Excited atoms are unstable and de-excite by \emph{emitting} photons, eventually reaching the ground state (it does not have to immediately de-excite to the ground state).
+        \item The frequency of these photons is such that \(hf=E_i-E_f\), where \(E_i\) and \(E_f\) are the initial and final energy states, respectively (\(f\) can be nonzero).
+        \item Each emission spectrum is unique to each element. 
+        \item Given \(n\) energy states, there will be \(\binom{n}{2}\) emission lines.
+    \end{itemize}
+    \item[\AsteriskThin] An \emph{absorption line spectrum} is a series of distinct dark lines against a continuous spectrum. 
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{\textwidth}
+            \centering
+            \pgfspectra[element=He,axis,label,label position=north west,charge=all,absorption]
+            \caption{The absorption line spectrum of Helium.}
+            \label{fig:absorption-line-spectrum-helium}
+        \end{subfigure}%
+
+        \begin{subfigure}[c]{\textwidth}
+            \centering
+            \pgfspectra[element=H,axis,label,label position=north west,charge=all,absorption]
+            \caption{The absorption line spectrum of Hydrogen.}
+            \label{fig:absorption-line-spectrum-hydrogen}
+        \end{subfigure}%
+        \caption{\ref{source:emission-and-absorption-lines} Some absorption line spectra.}
+        \label{fig:absorption-lines}
+    \end{figure}
+    \begin{itemize}
+        \item Gaseous atoms \emph{absorb} photons with (exactly) the energies they need to transit to a higher energy state, \emph{from the ground state}. (We do not consider further excitations from above a higher energy level.)
+        \item Given \(n\) energy states, there will be \(n-1\) emission lines. 
+    \end{itemize}
+    \item Similarity: The distinct lines in both spectra are of the \emph{same wavelengths}.
+    \item Difference: There are at least as many absorption lines as there are emission lines. In general, there are \emph{more} absorption lines. 
+    \item \emph{Note.} It is critical to accurately represent the distance between the each emission line (or absorption line), especially the one furthest away from adjacent lines. E.g. the line near the 600 nm mark in Figure \ref{fig:emission-line-spectrum-hydrogen} or \ref{fig:absorption-line-spectrum-hydrogen}. 
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.5\textheight,angle=90]{../images/Energy-Level/Energy-Level.pdf}
+    \caption{\ref{source:hydrogen-energy-levels} The energy levels of Hydrogen (drawn to scale).}
+    \label{fig:hydrogen-energy-levels}
+\end{figure}
+\newpage
+\null
+\vfill
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,page=1]{../images/Energy level diagram(s)/energy-level-1.pdf}
+    \caption{\ref{source:fluor-energy-levels} (Pretty diagram; \emph{out of syllabus}) Typical energy levels for $\pi$-orbitals of a fluor molecule. Spin singlet~($S$) and triplet~($T$) states are separated for clarity. The ionization level $I_\pi$ is shown at the top.  Excited states as well as vibrational sublevels (dashed horizontal lines) are shown. Internal degradation is a non-radiative process, while fluorescence and phosphorescence are radiative decays.  The decay $T_0 \to S_0$, however, is indirect, by interactions with other molecules.}
+    \label{fig:fluor-energy-levels}
+\end{figure}
+\vfill
+\newpage
+\null
+\vfill
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../images/Energy level diagram(s)/energy-level-3.pdf}
+    \caption{\ref{source:hunds} (Another pretty diagram; \emph{out of syllabus}) An illustration of Hund's rule.}
+    \label{fig:hunds}
+\end{figure} 
+\vfill
+\newpage
+\begin{minipage}{0.6\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{../images/x-ray-spectrum/x-ray-spectrum.pdf}
+        \caption{\ref{source:x-ray-spectrum} \(X\)-ray spectrum.}
+        \label{fig:x-ray-spectrum}
+    \end{figure}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth,angle=90]{../images/x-ray-apparatus.pdf}
+        \caption{\ref{source:x-ray-apparatus} Experimental set-up to produce \(X\)-rays}
+        \label{fig:x-ray-apparatus}
+    \end{figure} 
+\end{minipage}
+\begin{longtable}{|m{0.25\textwidth}|m{0.75\textwidth}|}
+    \hline
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        Features
+    \end{minipage}& 
+    \begin{minipage}{0.75\textwidth}
+        \centering
+        Explanation
+    \end{minipage}\\
+    \hline
+    A sharp cut-off/minimum wavelength \(\lambda_{\text{min}}\)& 
+    % When the kinetic energy of an incident electron is fully lost as a single photon, that photon has maximum kinetic energy.
+    \begin{itemize}
+        \item An X-ray photon has maximum kinetic energy --- i.e. has minimum wavelength \(\lambda_{\text{min}}\) --- when the kinetic energy of an incident electron is fully lost as that photon. i.e. \(E_k=hc/\lambda_{\text{min}}\).
+        \item Furthermore, each incident electron has kinetic energy \(E_k=eV\).
+        \item So, we solve \(hc/\lambda_{\text{min}}=eV\), telling us that \(\lambda_{\text{min}}=\frac{hc}{eV}\).
+        \item No emitted X-ray photon has a lower wavelength \(\lambda<\lambda_{\text{min}}\), because such a photon would have 
+        energy exceeding \(hc/\lambda_{\text{min}}\), and hence, exceeding the kinetic energy of all incident electrons. 
+        % energy \(hc/\lambda>hc/\lambda_{\text{min}}=E_k=eV\), and hence, require a more energetic electron --- i.e. an electron accelerated through a larger potential difference \(V\)
+    \end{itemize}\\
+    \hline
+    A broad continuous spectrum known as the \emph{Bremsstrahlung continuum}. (Bremsstrahlung is braking radiation in German.)&
+    \begin{itemize}
+        \item When incident electrons pass by the nucleus, they are accelerated.
+        \item Their kinetic energies are lost through the emission of Bremsstrahlung.
+        % , which are \(X\)-ray photons of a range of energies.
+        \item Since the magnitude of the acceleration experienced by the incident electrons varies and is not discrete, the wavelengths of the emitted photons have a continuous distribution.
+        \item Hence, the Bremsstrahlung produces a continuous spectrum of electromagnetic radiation. 
+    \end{itemize}\\
+    \hline
+    Sharp peaks \(K_\alpha\) and \(K_\beta\) called characteristic lines/X-rays. &
+    \begin{itemize}
+        \item An accelerated incident electron `collides' with an electron from the innermost \(K\)-shell, kicking it out of the shell.
+        \item The atom is excited due to the vacancy in the \(K\)-shell.
+        \item An electron from the higher energy shell transits to the \(K\)-shell, emitting a photon.
+    \end{itemize}
+    \begin{minipage}{0.75\textwidth}
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+            \hline
+            Series & Emission line & Initial shell \((m)\) & Final shell \((n)\) & \(m-n\)\\
+            \hline
+            \multirow{2}{*}{\(K\) series} & \(K_\alpha\) & \(L\)-shell (2nd) & \multirow{2}{*}{\(K\)-shell (1st)} & 1\\
+            \cline{2-3}
+            \cline{5-5}
+            & \(K_\beta\) & \(M\)-shell (3rd) && 2\\
+            \hline
+            \multirow{2}{*}{\(L\) series} & \(L_\alpha\) & \(M\)-shell (3rd) & \multirow{2}{*}{\(L\)-shell (2nd)} & 1\\
+            \cline{2-3}
+            \cline{5-5}
+            & \(L_\beta\) & \(N\)-shell  && 2\\
+            \hline
+        \end{tabular}
+        \begin{itemize}
+            \item See Figure \ref{fig:X-ray-series} for an illustration. 
+        \end{itemize}
+    \end{minipage}\\
+    \hline
+    \caption{The features of an X-ray spectrum.}
+\end{longtable}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{../images/CharacteristicRadiation.pdf}
+        \caption{\ref{source:X-ray-series} X-ray series}
+        \label{fig:X-ray-series}
+\end{figure}
 
 \chapter{Nuclear Physics}
 \begin{itemize}
@@ -1241,14 +1477,14 @@ Some nice images:
         \caption{The Rutherford-Geiger-Marsden Experiment: Observations and explanations.}
         \label{table:rutherford-geiger-marsden}
     \end{table}
-    \item A \emph{isotope} is one of two or more atoms with the \emph{same atomic number} but \emph{different number of neutrons}.
-    \item The \emph{unified atomic mass unit} \(u\) is equivalent to \emph{one-twelfth} of the mass of a carbon-12 atom. i.e. 1 \(u=1.66\cdot 10^{-27}\) kg.
-    \item The \emph{mass defect} is the amount by which the mass of an atomic \emph{nucleus} is less than the sum of the masses of its \emph{constituent particles}. i.e.
+    \item[\AsteriskThin] A \emph{isotope} is one of two or more atoms with the \emph{same atomic number} but \emph{different number of neutrons}.
+    \item[\AsteriskThin] The \emph{unified atomic mass unit} \(u\) is equivalent to \emph{one-twelfth} of the mass of a carbon-12 atom. i.e. 1 \(u=1.66\cdot 10^{-27}\) kg.
+    \item[\AsteriskThin] The \emph{mass defect} is the amount by which the mass of an atomic \emph{nucleus} is less than the sum of the masses of its \emph{constituent particles}. i.e.
     \[\text{mass defect }\Delta m=\text{sum of masses of nucleons}-\text{mass of nucleus}.\]
-    \item The \emph{binding energy} of a nucleus is the amount of energy that is required to \emph{break a nucleus} into its \emph{constituent nucleons}.
+    \item[\AsteriskThin] The \emph{binding energy} of a nucleus is the amount of energy that is required to \emph{break a nucleus} into its \emph{constituent nucleons}.
     \item Binding energy is not a form of stored energy. 
     \item Mass-energy equivalence: \(E=mc^2\).
-    \item The \emph{binding energy per nucleon} is defined as the \emph{binding energy} of a nucleus divided by the \emph{number of nucleons} in the nucleus.
+    \item[\AsteriskThin] The \emph{binding energy per nucleon} is defined as the \emph{binding energy} of a nucleus divided by the \emph{number of nucleons} in the nucleus.
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.81\textwidth]{../images/Binding energy per nucleon.pdf}
@@ -1285,23 +1521,23 @@ Some nice images:
     \end{itemize}
 \end{minipage}
 \begin{itemize}
-    \item Radioactive decay is \emph{spontaneous} and \emph{random}.
+    \item[\AsteriskThin] Radioactive decay is \emph{spontaneous} and \emph{random}.
     \begin{itemize}
         \item \emph{Spontaneous} means that the nucleus decays because it is \emph{unstable}, not because of \emph{external conditions}.
         \item Random means that it is impossible to predict \emph{which} nucleus will delay or \emph{when} a particular nucleus will decay.
     \end{itemize}
-    \item \emph{Background radiation} is the radiation detected by a \emph{radiation counter} when \emph{no radioactive source} is nearby.
-    \item The \emph{activity} \(A\) of a radioactive isotope is defined as the number of \emph{nuclear disintegrations per unit time}.
-    \item (No need to rmb) The count rate \(C\) is the rate at which counts are triggered on a ratemeter, by ionising radiation. 
+    \item[\AsteriskThin] \emph{Background radiation} is the radiation detected by a \emph{radiation counter} when \emph{no radioactive source} is nearby.
+    \item[\AsteriskThin] The \emph{activity} \(A\) of a radioactive isotope is defined as the number of \emph{nuclear disintegrations per unit time}.
+    \item The count rate \(C\) is the rate at which counts are triggered on a ratemeter, by ionising radiation. 
     \item \emph{Note.} The count rate is \emph{not the same} as activity. In fact, \(C\leq A\) because not all emissions --- stemming from radioactive decay --- are counted. Some reasons include:
     \begin{enumerate}
         \item Not all the radiation is directed towards the detector.
         \item Some of the radiation will be absorbed in the source itself, and by the air between the source and the detector. 
     \end{enumerate}
-    \item The \emph{decay constant} \(\lambda\) of a \emph{sample of a radioactive nuclide} is the \emph{probability} that a nucleus will \emph{decay per unit time}. 
+    \item[\AsteriskThin] The \emph{decay constant} \(\lambda\) of a \emph{sample of a radioactive nuclide} is the \emph{probability} that a nucleus will \emph{decay per unit time}. 
     \item The number \(N\) of undecayed nuclei is such that \(A=-\frac{dN}{dt}=\lambda N\).
     \item The number \(N\) of undecayed nuclei, mass \(m\) of radioactive sample, activity \(A\), and count rate \(C\) all follow the equation \(y=y_0e^{-\lambda t}\) (\(y=N,m,A,C\)).
-    \item The \emph{half-life} \(t_{1/2}\) of a \emph{radioactive isotope} is the \emph{average time} taken for its \emph{activity to be halved}. \emph{Note.} \(\lambda t_{1/2}=ln(2)\).
+    \item[\AsteriskThin] The \emph{half-life} \(t_{1/2}\) of a \emph{radioactive isotope} is the \emph{average time} taken for its \emph{activity to be halved}. \emph{Note.} \(\lambda t_{1/2}=ln(2)\).
     \begin{table}[H]
         \centering
         \begin{tabular}{|Sc|Sc|Sc;{2pt/2pt}Sc|Sc;{2pt/2pt}Sc|Sc|}
@@ -1817,5 +2053,17 @@ The copyrights belong solely to their respective owners. The images used mostly 
     (Figure \ref{fig:nuclear-fusion-and-fission}) \url{https://commons.wikimedia.org/wiki/File:Li6-D_Reaction.svg} 
     \item\label{source:beta-decay} Illustration of a beta decay (Figure \ref{fig-beta-decay}) \url{https://en.wikipedia.org/wiki/Beta_decay#/media/File:Beta-minus_Decay.svg}
     \item\label{source:the-photoelectric-effect} An illustration of the photoelectric effect (Figure \ref{fig:the-photoelectric-effect}) \url{https://commons.wikimedia.org/wiki/File:Photoelectric_effect_measurement_apparatus_-_microscopic_picture.svg}
+    \item\label{source:curves-the-photoelectric-effect} My tikz diagrams for the photoelectric effect ---in particlar, the relationship between the variables involved --- (Figures \ref{fig:curves-the-photoelectric-effect} and \ref{fig:curves-TOO-the-photoelectric-effect}).
+    \item\label{source:fluor-energy-levels} Typical energy levels for \(\pi\)-orbitals of a fluor molecule (Figure \ref{fig:fluor-energy-levels}) 
+    
+    \url{https://texample.net/tikz/examples/fluor-energy-levels/}
+
+    \url{https://tex.stackexchange.com/questions/318489/making-jablonsky-diagrams-using-tikz}
+    \item\label{source:hunds} An illustration of Hund's rule (Figure \ref{fig:hunds}) \url{https://texample.net/tikz/examples/energy-levels/}
+    \item\label{source:emission-and-absorption-lines} Emission and absorption spectra of Helium and Hydrogen drawn painlessly using pgf-spectra (Figures \ref{fig:emission-lines} and \ref{fig:absorption-lines}) \url{https://ctan.org/pkg/pgf-spectra?lang=en} 
+    \item\label{source:hydrogen-energy-levels} My tikz diagram for the energy levels of Hydrogen (Figure \ref{fig:hydrogen-energy-levels})
+    \item\label{source:x-ray-spectrum} My tikz diagram for the X-ray spectrum (Figure \ref{fig:x-ray-spectrum})
+    \item\label{source:x-ray-apparatus} Experimental set-up to produce X-rays (Figure \ref{fig:x-ray-apparatus})
+    \item\label{source:X-ray-series} X-ray series (Diagram \ref{fig:X-ray-series}) \url{https://vle.learning.moe.edu.sg/assignment/attempt/5b4013df-1a3e-4627-93ce-1c11d770772f/page/75709787?pageNo=1}
 \end{enumerate}
 \end{document}

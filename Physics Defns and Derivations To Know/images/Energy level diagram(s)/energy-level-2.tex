@@ -1,0 +1,45 @@
+% source: https://tex.stackexchange.com/questions/672744/drawing-energy-diagram-involving-transitions
+\documentclass[a4paper,11pt]{article}
+\usepackage{polyglossia}
+\setdefaultlanguage[babelshorthands=true]{dutch}
+\setotherlanguage[variant=british]{english}
+\usepackage{newpxtext, eulerpx}
+
+\usepackage[body={17.0cm,26cm},top=2.0cm,left=2.0cm]{geometry}
+\usepackage{endiagram}
+
+\setlength{\parindent}{0pt}
+\renewcommand{\baselinestretch}{1.1}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,arrows.meta,backgrounds,calc,decorations,decorations.markings,decorations.pathmorphing,fit,positioning,shapes.arrows,shapes.callouts,shapes.geometric,shapes.misc}
+
+\begin{document}
+    
+\begin{endiagram}[axes=y]
+    \ENcurve[step=0.9]{0,4,3,1,0}
+    \ShowNiveaus
+\end{endiagram}
+
+\begin{tikzpicture}[decoration={snake}]
+    %== drawing the levels
+    \draw[very thick,black,-{Stealth[length=3mm]}] (0.5,0) --(0.5,6);
+    \draw[very thick,blue] (0,0) -- (4,0) node(t1) [align=left,xshift=7mm] {1 ($\tau_1$)};
+    \draw[very thick,blue] (0,6) -- (4,6) node(t2) [align=left,xshift=7mm] {2 ($\tau_2$)};
+    \draw[very thick,blue] (2,4) -- (4,4) node(t3) [align=left,xshift=7mm] {3 ($\tau_3$)};
+    \draw[very thick,blue] (2,2) -- (4,2) node(t4) [align=left,xshift=7mm] {4 ($\tau_4$)};
+    
+    %== drawing the decays
+    \draw[thick,decorate,black,-{Stealth[length=3mm]}] (2.4,6) -- node(d1) [right,align=left,xshift=2mm,font=\footnotesize] {non-radiative \\ fast decay} (2.4,4);
+    \draw[thick,black,-{Stealth[length=3mm]}] (2.4,4) -- node(d2) {} (2.4,2);
+    \draw[thick,decorate,red,-{Stealth[length=3mm]}] (2.5,3) -- node(rd) [above,align=left,yshift=1mm,font=\footnotesize] {$h\nu$} (3.8,3);
+    \draw[thick,decorate,black,-{Stealth[length=3mm]}] (2.4,2) -- node(d3) [right,align=left,xshift=2mm,font=\footnotesize] {non-radiative \\ very fast decay} (2.4,0);
+    
+    %== annotating levels
+    \node[right=of t2] {$\tau_2 \ll \tau_3$};
+    \node[right=of t3] {$\tau_3 \gg \tau_4$};
+    \node[draw,rectangle callout,callout absolute pointer={(t3.south east)},font=\footnotesize] at (7,3.4) {meta stable};
+\end{tikzpicture}       
+    
+    
+\end{document}
