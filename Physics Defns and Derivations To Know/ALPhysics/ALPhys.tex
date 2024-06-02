@@ -1285,7 +1285,7 @@ Some nice images:
         \item The \emph{ground state} of an atom is the lowest state an atom can be at, such that all electrons in the atom occupy the lowest possible energy levels.
         \item An atom is said to be \emph{excited} iff one or more of its electrons are not occupying the lowest possible energy states.
         \item For this topic, \emph{ionisation} is the removal of an electron to create an ion.
-        \item The \emph{ionisation energy} of an atom is the energy required to ionise the atom.  
+        \item The \emph{ionisation energy} of an atom is the energy required for the atom to transition from the \(n=1\) to \(n=\infty\) state.
     \end{enumerate}
     \item[\AsteriskThin] An \emph{emission line spectrum} is a series of distinctly coloured lines against a dark background.
     \begin{figure}[H]
@@ -1335,13 +1335,33 @@ Some nice images:
         \item Gaseous atoms \emph{absorb} photons with (exactly) the energies they need to transit to a higher energy state, \emph{from the ground state}. (We do not consider further excitations from above a higher energy level.)
         \item Given \(n\) energy states, there will be \(n-1\) emission lines. 
     \end{itemize}
+    \item If an element \(_Z^AX\) lies on the \(m\)th row and in the \(n\)th group of the periodic table, then an atom of \(X\) at ground state has \(m\) electron shells and \(n\) valence electrons.
+    \item The maximum number of electrons that can occupy the \(n\)th shell of an atom is \(2n^2\). 
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{ScScSc}
+            \toprule
+            \multicolumn{2}{Sc}{Shell} & \multirow{2}{*}[-0.7mm]{Maximum number of electrons}\\
+            \cmidrule{1-2}
+            Number & Letter &\\
+            \midrule
+            1st & \(K\) & 2\\
+            2nd & \(L\) & 8\\
+            3rd & \(M\) & 18\\
+            4th & \(N\) & 32\\
+            \bottomrule
+        \end{tabular}
+        \caption{The maximum number of electrons that can occupy the first four shells of an atom.}
+        \label{table:maximum-number-of-electrons-in-shell}
+    \end{table}
+    % ^ Source: https://education.jlab.org/qa/electron_number.html 
     \item Similarity: The distinct lines in both spectra are of the \emph{same wavelengths}.
     \item Difference: There are at least as many absorption lines as there are emission lines. In general, there are \emph{more} absorption lines. 
     \item \emph{Note.} It is critical to accurately represent the distance between the each emission line (or absorption line), especially the one furthest away from adjacent lines. E.g. the line near the 600 nm mark in Figure \ref{fig:emission-line-spectrum-hydrogen} or \ref{fig:absorption-line-spectrum-hydrogen}. 
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[height=0.5\textheight,angle=90]{../images/Energy-Level/Energy-Level.pdf}
+    \includegraphics[height=0.395\textheight,angle=90]{../images/Energy-Level/Energy-Level.pdf}
     \caption{\ref{source:hydrogen-energy-levels} The energy levels of Hydrogen (drawn to scale).}
     \label{fig:hydrogen-energy-levels}
 \end{figure}
@@ -1382,8 +1402,8 @@ Some nice images:
         \label{fig:x-ray-apparatus}
     \end{figure} 
 \end{minipage}
-\begin{longtable}{|m{0.25\textwidth}|m{0.75\textwidth}|}
-    \hline
+\begin{longtable}{m{0.25\textwidth}m{0.75\textwidth}}
+    \toprule
     \begin{minipage}{0.25\textwidth}
         \centering
         Features
@@ -1392,8 +1412,8 @@ Some nice images:
         \centering
         Explanation
     \end{minipage}\\
-    \hline
-    A sharp cut-off/minimum wavelength \(\lambda_{\text{min}}\)& 
+    \midrule
+    A sharp cut-off / minimum wavelength \(\lambda_{\text{min}}\)& 
     % When the kinetic energy of an incident electron is fully lost as a single photon, that photon has maximum kinetic energy.
     \begin{itemize}
         \item An X-ray photon has maximum kinetic energy --- i.e. has minimum wavelength \(\lambda_{\text{min}}\) --- when the kinetic energy of an incident electron is fully lost as that photon. i.e. \(E_k=hc/\lambda_{\text{min}}\).
@@ -1403,7 +1423,7 @@ Some nice images:
         energy exceeding \(hc/\lambda_{\text{min}}\), and hence, exceeding the kinetic energy of all incident electrons. 
         % energy \(hc/\lambda>hc/\lambda_{\text{min}}=E_k=eV\), and hence, require a more energetic electron --- i.e. an electron accelerated through a larger potential difference \(V\)
     \end{itemize}\\
-    \hline
+    \midrule
     A broad continuous spectrum known as the \emph{Bremsstrahlung continuum}. (Bremsstrahlung is braking radiation in German.)&
     \begin{itemize}
         \item When incident electrons pass by the nucleus, they are accelerated.
@@ -1412,35 +1432,29 @@ Some nice images:
         \item Since the magnitude of the acceleration experienced by the incident electrons varies and is not discrete, the wavelengths of the emitted photons have a continuous distribution.
         \item Hence, the Bremsstrahlung produces a continuous spectrum of electromagnetic radiation. 
     \end{itemize}\\
-    \hline
+    \midrule
+    \newpage
+    \midrule
     Sharp peaks \(K_\alpha\) and \(K_\beta\) called characteristic lines/X-rays. &
     \begin{itemize}
         \item An accelerated incident electron `collides' with an electron from the innermost \(K\)-shell, kicking it out of the shell.
         \item The atom is excited due to the vacancy in the \(K\)-shell.
         \item An electron from the higher energy shell transits to the \(K\)-shell, emitting a photon.
-    \end{itemize}
-    \begin{minipage}{0.75\textwidth}
-        \centering
-        \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
-            \hline
-            Series & Emission line & Initial shell \((m)\) & Final shell \((n)\) & \(m-n\)\\
-            \hline
+        \item
+        \begin{tabular}{ScScScScSc}
+            \toprule
+            Series & Line & Initial shell \((m)\) & Final shell \((n)\) & \(m-n\)\\
+            \midrule
             \multirow{2}{*}{\(K\) series} & \(K_\alpha\) & \(L\)-shell (2nd) & \multirow{2}{*}{\(K\)-shell (1st)} & 1\\
-            \cline{2-3}
-            \cline{5-5}
             & \(K_\beta\) & \(M\)-shell (3rd) && 2\\
-            \hline
+            \midrule
             \multirow{2}{*}{\(L\) series} & \(L_\alpha\) & \(M\)-shell (3rd) & \multirow{2}{*}{\(L\)-shell (2nd)} & 1\\
-            \cline{2-3}
-            \cline{5-5}
-            & \(L_\beta\) & \(N\)-shell  && 2\\
-            \hline
+            & \(L_\beta\) & \(N\)-shell (4th) && 2\\
+            \bottomrule
         \end{tabular}
-        \begin{itemize}
             \item See Figure \ref{fig:X-ray-series} for an illustration. 
-        \end{itemize}
-    \end{minipage}\\
-    \hline
+        \end{itemize}\\
+    \bottomrule
     \caption{The features of an X-ray spectrum.}
 \end{longtable}
 \begin{figure}[H]
@@ -1455,24 +1469,24 @@ Some nice images:
     \item The Rutherford-Geiger-Marsden Experiment.
     \begin{table}[H]
         \centering
-        \begin{tabular}{|Sc|Sc|}
-            \hline
+        \begin{tabular}{ScSc}
+            \toprule
             Observation & Explanation\\
-            \hline
+            \midrule
             \begin{minipage}{0.5\textwidth-25.2pt}
                 Most \(\alpha\)-particles passed straight through the foil, \emph{undeflected}.
             \end{minipage}& 
             \begin{minipage}{0.5\textwidth-25.2pt}
                 The nucleus is \emph{very small} in size \emph{compared} to the atom as a whole, which mostly comprises of \emph{empty space}.
             \end{minipage}\\
-            \hline
+            \midrule
             \begin{minipage}{0.5\textwidth-25.2pt}
                 Less than \hly{1\%} of the \(\alpha\)-particles were \emph{scattered backwards}, with an angle of \emph{deflection} exceeding \(90^\circ\).
             \end{minipage}& 
             \begin{minipage}{0.5\textwidth-25.2pt}
                 Most of the mass of an atom is \emph{concentrated} in a \emph{very small positively charged} region.
             \end{minipage}\\
-            \hline
+            \bottomrule
         \end{tabular}
         \caption{The Rutherford-Geiger-Marsden Experiment: Observations and explanations.}
         \label{table:rutherford-geiger-marsden}
@@ -1540,10 +1554,11 @@ Some nice images:
     \item[\AsteriskThin] The \emph{half-life} \(t_{1/2}\) of a \emph{radioactive isotope} is the \emph{average time} taken for its \emph{activity to be halved}. \emph{Note.} \(\lambda t_{1/2}=ln(2)\).
     \begin{table}[H]
         \centering
-        \begin{tabular}{|Sc|Sc|Sc;{2pt/2pt}Sc|Sc;{2pt/2pt}Sc|Sc|}
-            \hline
-            Type of decay & Equation & \multicolumn{2}{Sc|}{Ionising power} & \multicolumn{2}{Sc|}{Penetration power} & Velocity\\
-            \hline
+        \begin{tabular}{ScScScScSc}
+        % {|Sc|Sc|Sc;{2pt/2pt}Sc|Sc;{2pt/2pt}Sc|Sc|}
+            \toprule
+            Type of decay & Equation & Ionising power \textdownarrow & Penetration power \textuparrow & Velocity\\
+            \midrule
             Alpha decay & 
             \begin{minipage}{3cm}
                 \vspace{-4.07mm}
@@ -1554,13 +1569,12 @@ Some nice images:
                         % \text{(zero electrons)}}}}
                 \]
             \end{minipage}&
-            \multirow{3}{*}{\(\xdownarrow{1.5cm}\)} & 
             \begin{minipage}{2cm}
                 \centering
                 Strong
 
                 (\(10^5\) ions per cm)
-            \end{minipage}& \multirow{3}{*}{\(\xuparrow{1.5cm}\)} & 
+            \end{minipage}&
             \begin{minipage}{2cm}
                 \centering
                 Stopped by a few cm of air or paper 
@@ -1571,20 +1585,17 @@ Some nice images:
                 
                 \(0.1c\)
             \end{minipage}\\
-            \cline{1-2}
-            \cline{4-4}
-            \cline{6-7}
+            \midrule
             Beta decay & 
             \begin{minipage}{3cm}
                 \vspace{-4.07mm}
                 \[_Z^A\text{X}\to{}_{Z+1}^A\text{Y}+\overbrace{_{-1}^0\text{e}}^{
                     \mathclap{\beta-\text{particle}}\hspace{3mm}}\]
             \end{minipage}&
-            &
             \begin{minipage}{2cm}
                 \centering
                 (\(10^3\) ions per cm)
-            \end{minipage}&& 
+            \end{minipage}&
             \begin{minipage}{2cm}
                 \centering
                 5 mm of aluminum 
@@ -1597,30 +1608,111 @@ Some nice images:
                 
                 \(0.9c\)
             \end{minipage}\\
-            \cline{1-2}
-            \cline{4-4}
-            \cline{6-7}
+            \midrule
             Gamma decay & 
             \begin{minipage}{3cm}
                 \vspace{-4.07mm}
                 \[\rule{0.5cm}{0.05mm}\to \rule{0.5cm}{0.05mm}+\overbrace{_0^0\gamma}^{
                     \mathclap{\gamma-\text{ray}}}\]
-            \end{minipage}&& 
+            \end{minipage}& 
             \begin{minipage}{2cm}
                 \centering
                 Weak
 
                 (indirect ionisation)
-            \end{minipage}&& 
+            \end{minipage}&
             \begin{minipage}{2cm}
                 \centering
                 Several cm of lead
             \end{minipage}& \(c\)\\
-            \hline
+            \bottomrule
         \end{tabular}
         \caption{Types of radioactive decay.}
         \label{table:types-of-radioactive-decay}
     \end{table}
+    % \begin{table}[H]
+    %     \centering
+    %     \begin{tabular}{|Sc|Sc|Sc;{2pt/2pt}Sc|Sc;{2pt/2pt}Sc|Sc|}
+    %         \hline
+    %         Type of decay & Equation & \multicolumn{2}{Sc|}{Ionising power} & \multicolumn{2}{Sc|}{Penetration power} & Velocity\\
+    %         \hline
+    %         Alpha decay & 
+    %         \begin{minipage}{3cm}
+    %             \vspace{-4.07mm}
+    %             \[_Z^A\text{X}\to{}_{Z-2}^{A-4}\text{Y}+\overbrace{_2^4\text{He}}^{
+    %                 \mathclap{
+    %                     \alpha-\text{particle (zero electrons)\hspace{2.1cm}}}}
+    %                     % \substack{\alpha-\text{particle}\\
+    %                     % \text{(zero electrons)}}}}
+    %             \]
+    %         \end{minipage}&
+    %         \multirow{3}{*}{\(\xdownarrow{1.5cm}\)} & 
+    %         \begin{minipage}{2cm}
+    %             \centering
+    %             Strong
+
+    %             (\(10^5\) ions per cm)
+    %         \end{minipage}& \multirow{3}{*}{\(\xuparrow{1.5cm}\)} & 
+    %         \begin{minipage}{2cm}
+    %             \centering
+    %             Stopped by a few cm of air or paper 
+    %         \end{minipage}& 
+    %         \begin{minipage}{3cm-23pt}
+    %             \centering
+    %             \(10^7\text{ ms}^{-1}\) or 
+                
+    %             \(0.1c\)
+    %         \end{minipage}\\
+    %         \cline{1-2}
+    %         \cline{4-4}
+    %         \cline{6-7}
+    %         Beta decay & 
+    %         \begin{minipage}{3cm}
+    %             \vspace{-4.07mm}
+    %             \[_Z^A\text{X}\to{}_{Z+1}^A\text{Y}+\overbrace{_{-1}^0\text{e}}^{
+    %                 \mathclap{\beta-\text{particle}}\hspace{3mm}}\]
+    %         \end{minipage}&
+    %         &
+    %         \begin{minipage}{2cm}
+    %             \centering
+    %             (\(10^3\) ions per cm)
+    %         \end{minipage}&& 
+    %         \begin{minipage}{2cm}
+    %             \centering
+    %             5 mm of aluminum 
+    %         \end{minipage}& 
+    %         \begin{minipage}{3cm-23pt}
+    %             \centering
+    %             Continuous range up to 
+                
+    %             \(10^8\text{ ms}^{-1}\) or 
+                
+    %             \(0.9c\)
+    %         \end{minipage}\\
+    %         \cline{1-2}
+    %         \cline{4-4}
+    %         \cline{6-7}
+    %         Gamma decay & 
+    %         \begin{minipage}{3cm}
+    %             \vspace{-4.07mm}
+    %             \[\rule{0.5cm}{0.05mm}\to \rule{0.5cm}{0.05mm}+\overbrace{_0^0\gamma}^{
+    %                 \mathclap{\gamma-\text{ray}}}\]
+    %         \end{minipage}&& 
+    %         \begin{minipage}{2cm}
+    %             \centering
+    %             Weak
+
+    %             (indirect ionisation)
+    %         \end{minipage}&& 
+    %         \begin{minipage}{2cm}
+    %             \centering
+    %             Several cm of lead
+    %         \end{minipage}& \(c\)\\
+    %         \hline
+    %     \end{tabular}
+    %     \caption{Types of radioactive decay.}
+    %     \label{table:types-of-radioactive-decay}
+    % \end{table}
 \end{itemize}
     \begin{minipage}{0.5\textwidth}
         \begin{figure}[H]

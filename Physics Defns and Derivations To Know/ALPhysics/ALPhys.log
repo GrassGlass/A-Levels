@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  28 MAY 2024 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  2 JUN 2024 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2272,146 +2272,133 @@ Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Ef
 <../images/Energy-Level/Energy-Level.pdf, id=1273, 216.51689pt x 422.60886pt>
 File: ../images/Energy-Level/Energy-Level.pdf Graphic file (type pdf)
 <use ../images/Energy-Level/Energy-Level.pdf>
-Package pdftex.def Info: ../images/Energy-Level/Energy-Level.pdf  used on input line 1344.
-(pdftex.def)             Requested size: 168.2779pt x 328.44675pt.
+Package pdftex.def Info: ../images/Energy-Level/Energy-Level.pdf  used on input line 1364.
+(pdftex.def)             Requested size: 132.94069pt x 259.47572pt.
  [46 <../images/Energy-Level/Energy-Level.pdf>]
-<../images/Energy level diagram(s)/energy-level-1.pdf, id=1301, page=1, 305.8095pt x 285.45044pt>
+<../images/Energy level diagram(s)/energy-level-1.pdf, id=1302, page=1, 305.8095pt x 285.45044pt>
 File: ../images/Energy level diagram(s)/energy-level-1.pdf Graphic file (type pdf)
 <use ../images/Energy level diagram(s)/energy-level-1.pdf, page 1>
-Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-1.pdf , page1 used on input line 1353.
+Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-1.pdf , page1 used on input line 1373.
 (pdftex.def)             Requested size: 430.00462pt x 401.40933pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 1354.
+(Font)              scaled to size 9.0pt on input line 1374.
  [47 <../images/Energy level diagram(s)/energy-level-1.pdf>]
-<../images/Energy level diagram(s)/energy-level-3.pdf, id=1328, 387.10522pt x 345.14447pt>
+<../images/Energy level diagram(s)/energy-level-3.pdf, id=1329, 387.10522pt x 345.14447pt>
 File: ../images/Energy level diagram(s)/energy-level-3.pdf Graphic file (type pdf)
 <use ../images/Energy level diagram(s)/energy-level-3.pdf>
-Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-3.pdf  used on input line 1363.
+Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-3.pdf  used on input line 1383.
 (pdftex.def)             Requested size: 430.00462pt x 383.39928pt.
  [48 <../images/Energy level diagram(s)/energy-level-3.pdf>]
-<../images/x-ray-spectrum/x-ray-spectrum.pdf, id=1354, 258.61922pt x 224.61516pt>
+<../images/x-ray-spectrum/x-ray-spectrum.pdf, id=1355, 258.61922pt x 224.61516pt>
 File: ../images/x-ray-spectrum/x-ray-spectrum.pdf Graphic file (type pdf)
 <use ../images/x-ray-spectrum/x-ray-spectrum.pdf>
-Package pdftex.def Info: ../images/x-ray-spectrum/x-ray-spectrum.pdf  used on input line 1372.
+Package pdftex.def Info: ../images/x-ray-spectrum/x-ray-spectrum.pdf  used on input line 1392.
 (pdftex.def)             Requested size: 258.00539pt x 224.1005pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../images/x-ray-apparatus.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../images/x-ray-apparatus.pdf, id=1357, 843.04463pt x 281.01486pt>
+<../images/x-ray-apparatus.pdf, id=1358, 843.04463pt x 281.01486pt>
 File: ../images/x-ray-apparatus.pdf Graphic file (type pdf)
 <use ../images/x-ray-apparatus.pdf>
-Package pdftex.def Info: ../images/x-ray-apparatus.pdf  used on input line 1380.
+Package pdftex.def Info: ../images/x-ray-apparatus.pdf  used on input line 1400.
 (pdftex.def)             Requested size: 171.99922pt x 57.3297pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1396
-[]|\T1/zplTLF/m/n/10 A sharp cut-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1396
-\T1/zplTLF/m/n/10 off/minimum wave-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1407
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1427
 []|\T1/zplTLF/m/n/10 A broad con-tin-u-ous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1407
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1427
 \T1/zplTLF/m/it/10 Bremsstrahlung con-tin-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1410--1412
+Underfull \hbox (badness 5245) in paragraph at lines 1430--1432
 []\T1/zplTLF/m/n/10 Their ki-netic en-er-gies are lost through the emis-sion of
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 1416--1416
+Underfull \hbox (badness 2753) in paragraph at lines 1438--1438
 []|\T1/zplTLF/m/n/10 Sharp peaks $\U/zeur/m/n/10 K[]$ \T1/zplTLF/m/n/10 and
  []
 
 
-Overfull \hbox (25.19997pt too wide) in alignment at lines 1385--1445
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1405--1459
  [] [] 
  []
 
 
-Overfull \hbox (25.19997pt too wide) has occurred while \output is active
+Overfull \hbox (23.99998pt too wide) has occurred while \output is active
  [] [] 
  []
 
 [49 <../images/x-ray-spectrum/x-ray-spectrum.pdf> <../images/x-ray-apparatus.pdf>]
-Overfull \hbox (25.19997pt too wide) has occurred while \output is active
+Overfull \hbox (23.99998pt too wide) has occurred while \output is active
  [] [] 
  []
 
-<../images/CharacteristicRadiation.pdf, id=1387, 424.58624pt x 379.4175pt>
+<../images/CharacteristicRadiation.pdf, id=1388, 424.58624pt x 379.4175pt>
 File: ../images/CharacteristicRadiation.pdf Graphic file (type pdf)
 <use ../images/CharacteristicRadiation.pdf>
-Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1448.
+Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1462.
 (pdftex.def)             Requested size: 322.50346pt x 288.20976pt.
 [50 <../images/CharacteristicRadiation.pdf>]
 Chapter 19.
-<../images/Binding energy per nucleon.pdf, id=1411, 504.81346pt x 331.72682pt>
+<../images/Binding energy per nucleon.pdf, id=1412, 504.81346pt x 331.72682pt>
 File: ../images/Binding energy per nucleon.pdf Graphic file (type pdf)
 <use ../images/Binding energy per nucleon.pdf>
-Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 1490.
+Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 1504.
 (pdftex.def)             Requested size: 348.30269pt x 228.89174pt.
 [51
 
 ]
-<../images/Li6-D_Reaction.pdf, id=1419, 1008.76875pt x 1180.41pt>
+<../images/Li6-D_Reaction.pdf, id=1420, 1008.76875pt x 1180.41pt>
 File: ../images/Li6-D_Reaction.pdf Graphic file (type pdf)
 <use ../images/Li6-D_Reaction.pdf>
-Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 1500.
+Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 1514.
 (pdftex.def)             Requested size: 215.0023pt x 251.56778pt.
  [52 <../images/Binding energy per nucleon.pdf> <../images/Li6-D_Reaction.pdf
 
 pdfTeX warning: pdflatex.exe (file ../images/Li6-D_Reaction.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \vbox (42.02908pt too high) detected at line 1557
+Overfull \hbox (6.30168pt too wide) in paragraph at lines 1557--1630
+ [][] 
  []
 
-
-Overfull \vbox (42.02908pt too high) detected at line 1563
- []
-
-<../images/Beta-minus_Decay.pdf, id=1523, 250.9375pt x 170.6375pt>
+<../images/Beta-minus_Decay.pdf, id=1524, 250.9375pt x 170.6375pt>
 File: ../images/Beta-minus_Decay.pdf Graphic file (type pdf)
 <use ../images/Beta-minus_Decay.pdf>
-Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 1628.
+Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 1720.
 (pdftex.def)             Requested size: 215.0023pt x 146.20901pt.
 [53] [54 <../images/Beta-minus_Decay.pdf>]
 Chapter 20.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 1649.
+(Font)              scaled to size 14.4pt on input line 1741.
 [55
 
 ] [56]
-Underfull \hbox (badness 1215) in paragraph at lines 1885--1886
+Underfull \hbox (badness 1215) in paragraph at lines 1977--1978
 \T1/zplTLF/m/n/10 by us-ing a stronger mag-net, e.g.
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 1934--1935
+Underfull \hbox (badness 1762) in paragraph at lines 2026--2027
 []\T1/zplTLF/m/n/10 Replace the rub-ber band with a
  []
 
 [57] [58]
-Underfull \hbox (badness 1117) in paragraph at lines 2009--2010
+Underfull \hbox (badness 1117) in paragraph at lines 2101--2102
 []\T1/zplTLF/m/n/10 Check for the ap-pro-pri-ate masses and
  []
 
 [59]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2022.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2114.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2022.
+(Font)              scaled to size 10.0pt on input line 2114.
  [60
 
 ] [61] (./ALPhys.aux)
@@ -2424,25 +2411,22 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 85E716AACA68CB44C80BACA1EB7FA621;3280.
  ) 
 Here is how much of TeX's memory you used:
- 41073 strings out of 475237
- 825078 string characters out of 5768555
+ 41078 strings out of 475237
+ 825217 string characters out of 5768555
  1964238 words of memory out of 5000000
- 61153 multiletter control sequences out of 15000+600000
+ 61157 multiletter control sequences out of 15000+600000
  708605 words of font info for 307 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,23n,131p,7693b,1563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (63 pages, 28574167 bytes).
+Output written on ALPhys.pdf (63 pages, 28574122 bytes).
 PDF statistics:
- 2133 PDF objects out of 2487 (max. 8388607)
- 1356 compressed objects within 14 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 2134 PDF objects out of 2487 (max. 8388607)
+ 1357 compressed objects within 14 object streams
+ 292 named destinations out of 1000 (max. 500000)
  698 words of extra memory for PDF output out of 10000 (max. 10000000)
 
