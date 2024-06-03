@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  3 JUN 2024 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  3 JUN 2024 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1163,11 +1163,11 @@ Chapter 3.
 <./images/SpecialRR.jpg, id=384, 3838.34pt x 2115.905pt>
 File: ./images/SpecialRR.jpg Graphic file (type jpg)
 <use ./images/SpecialRR.jpg>
-Package pdftex.def Info: ./images/SpecialRR.jpg  used on input line 268.
+Package pdftex.def Info: ./images/SpecialRR.jpg  used on input line 271.
 (pdftex.def)             Requested size: 191.92824pt x 105.80144pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 269.
+(caption)                particular \caption on input line 272.
 See the caption package documentation for explanation.
 
 [7
@@ -1179,12 +1179,12 @@ Chapter 4.
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
@@ -1200,14 +1200,14 @@ runsystem(pdflatex -interaction=batchmode -shell-escape -jobname '../Diagrams/Tr
 
 
 Package standalone Warning: Graphic '../Diagrams/Trapezium.pdf' could not be build.
-Shell escape activated? on input line 410.
+Shell escape activated? on input line 413.
 
 (./images/../Diagrams/Trapezium.tex)
 File: ./images/../Diagrams/Trapezium.tex Graphic file (type tex)
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 411.
+(caption)                particular \caption on input line 414.
 See the caption package documentation for explanation.
 
 [14]
@@ -1216,14 +1216,14 @@ runsystem(pdflatex -interaction=batchmode -shell-escape -jobname '../Diagrams/Si
 
 
 Package standalone Warning: Graphic '../Diagrams/Simpson.pdf' could not be build.
-Shell escape activated? on input line 429.
+Shell escape activated? on input line 432.
 
 (./images/../Diagrams/Simpson.tex)
 File: ./images/../Diagrams/Simpson.tex Graphic file (type tex)
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 430.
+(caption)                particular \caption on input line 433.
 See the caption package documentation for explanation.
 
 [15]
@@ -1231,68 +1231,70 @@ Chapter 7.
 <./images/../Diagrams/Argand.pdf, id=488, page=145, 294.44002pt x 173.41888pt>
 File: ./images/../Diagrams/Argand.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Argand.pdf, page 145>
-Package pdftex.def Info: ./images/../Diagrams/Argand.pdf , page145 used on input line 441.
+Package pdftex.def Info: ./images/../Diagrams/Argand.pdf , page145 used on input line 444.
 (pdftex.def)             Requested size: 430.00462pt x 253.26355pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 442.
+(caption)                particular \caption on input line 445.
 See the caption package documentation for explanation.
 
 [16
 
- <./images/../Diagrams/Argand.pdf>]
-<./images/../images/ComplexCircleLocus.jpg, id=517, 1603.9925pt x 925.4575pt>
+ <./images/../Diagrams/Argand.pdf>] [17]
+<./images/../images/ComplexCircleLocus.jpg, id=532, 1603.9925pt x 925.4575pt>
 File: ./images/../images/ComplexCircleLocus.jpg Graphic file (type jpg)
 <use ./images/../images/ComplexCircleLocus.jpg>
-Package pdftex.def Info: ./images/../images/ComplexCircleLocus.jpg  used on input line 512.
+Package pdftex.def Info: ./images/../images/ComplexCircleLocus.jpg  used on input line 522.
 (pdftex.def)             Requested size: 160.40865pt x 92.55116pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 513.
+(caption)                particular \caption on input line 523.
 See the caption package documentation for explanation.
 
-<./images/ComplexLocusCircle-LargestAngleAndDistance.jpg, id=518, 1492.57625pt x 811.03pt>
+<./images/ComplexLocusCircle-LargestAngleAndDistance.jpg, id=533, 1492.57625pt x 811.03pt>
 File: ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg Graphic file (type jpg)
 <use ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg>
-Package pdftex.def Info: ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg  used on input line 521.
+Package pdftex.def Info: ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg  used on input line 531.
 (pdftex.def)             Requested size: 223.87677pt x 121.64925pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 522.
+(caption)                particular \caption on input line 532.
 See the caption package documentation for explanation.
 
-<./images/../images/ComplexPerpendicularBisectorLocus.jpg, id=519, 1355.0625pt x 745.78625pt>
+<./images/../images/ComplexPerpendicularBisectorLocus.jpg, id=534, 1355.0625pt x 745.78625pt>
 File: ./images/../images/ComplexPerpendicularBisectorLocus.jpg Graphic file (type jpg)
 <use ./images/../images/ComplexPerpendicularBisectorLocus.jpg>
-Package pdftex.def Info: ./images/../images/ComplexPerpendicularBisectorLocus.jpg  used on input line 527.
+Package pdftex.def Info: ./images/../images/ComplexPerpendicularBisectorLocus.jpg  used on input line 537.
 (pdftex.def)             Requested size: 162.60048pt x 89.49048pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 528.
+(caption)                particular \caption on input line 538.
 See the caption package documentation for explanation.
 
-<./images/../images/ComplexRotationByAngleTheta.jpg, id=520, 1604.99625pt x 1100.11pt>
+<./images/../images/ComplexRotationByAngleTheta.jpg, id=535, 1604.99625pt x 1100.11pt>
 File: ./images/../images/ComplexRotationByAngleTheta.jpg Graphic file (type jpg)
 <use ./images/../images/ComplexRotationByAngleTheta.jpg>
-Package pdftex.def Info: ./images/../images/ComplexRotationByAngleTheta.jpg  used on input line 532.
+Package pdftex.def Info: ./images/../images/ComplexRotationByAngleTheta.jpg  used on input line 542.
 (pdftex.def)             Requested size: 160.50902pt x 110.01744pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 533.
+(caption)                particular \caption on input line 543.
 See the caption package documentation for explanation.
 
-<./images/../images/Complex-Numbers-My-Funnei-Technique.jpg, id=521, 2055.68pt x 1559.8275pt>
+<./images/../images/Complex-Numbers-My-Funnei-Technique.jpg, id=536, 2055.68pt x 1559.8275pt>
 File: ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg Graphic file (type jpg)
 <use ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg>
-Package pdftex.def Info: ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg  used on input line 545.
+Package pdftex.def Info: ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg  used on input line 555.
 (pdftex.def)             Requested size: 216.0023pt x 163.89383pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 546.
+(caption)                particular \caption on input line 556.
 See the caption package documentation for explanation.
 
-[17] [18 <./images/../images/ComplexCircleLocus.jpg> <./images/ComplexLocusCircle-LargestAngleAndDistance.jpg> <./images/../images/ComplexPerpendicularBisectorLocus.jpg>] [19 <./images/../images/ComplexRotationByAngleTheta.jpg> <./images/../images/Complex-Numbers-My-Funnei-Technique.jpg>] (./Subfiles/FMAsubfile.tex [20]
+[18 <./images/../images/ComplexCircleLocus.jpg> <./images/ComplexLocusCircle-LargestAngleAndDistance.jpg>] [19 <./images/../images/ComplexPerpendicularBisectorLocus.jpg> <./images/../images/ComplexRotationByAngleTheta.jpg> <./images/../images/Complex-Numbers-My-Funnei-Technique.jpg>] (./Subfiles/FMAsubfile.tex [20
+
+]
 Chapter 8.
 [21
 
@@ -1331,17 +1333,17 @@ Package hyperref Warning: Ignoring empty anchor on input line 351.
 [27
 
 ] [28]
-<Subfiles/../Diagrams/linear-interpolation.pdf, id=681, 602.25pt x 602.25pt>
+<Subfiles/../Diagrams/linear-interpolation.pdf, id=683, 602.25pt x 602.25pt>
 File: Subfiles/../Diagrams/linear-interpolation.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/linear-interpolation.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/linear-interpolation.pdf  used on input line 423.
 (pdftex.def)             Requested size: 344.005pt x 344.02122pt.
-<Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf, id=684, 228.50569pt x 119.60686pt>
+<Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf, id=686, 228.50569pt x 119.60686pt>
 File: Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf  used on input line 429.
 (pdftex.def)             Requested size: 430.00462pt x 225.08173pt.
-<Subfiles/../Diagrams/newton's-method.pdf, id=685, 602.25pt x 602.25pt>
+<Subfiles/../Diagrams/newton's-method.pdf, id=687, 602.25pt x 602.25pt>
 File: Subfiles/../Diagrams/newton's-method.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/newton's-method.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/newton's-method.pdf  used on input line 435.
@@ -1355,43 +1357,43 @@ Chapter 10.
 ] [33] [34] [35]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 856.
+(hyperref)                removing `math shift' on input line 866.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lvert' on input line 856.
+(hyperref)                removing `\lvert' on input line 866.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rvert' on input line 856.
+(hyperref)                removing `\rvert' on input line 866.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 856.
+(hyperref)                removing `math shift' on input line 866.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lvert' on input line 856.
+(hyperref)                removing `\lvert' on input line 866.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rvert' on input line 856.
+(hyperref)                removing `\rvert' on input line 866.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 863.
+(hyperref)                removing `math shift' on input line 873.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 863.
+(hyperref)                removing `\begingroup' on input line 873.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 863.
+(hyperref)                removing `\endgroup' on input line 873.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 863.
+(hyperref)                removing `\@@over' on input line 873.
 
 [36]
 Chapter 11.
@@ -1400,23 +1402,13 @@ Chapter 11.
 ] [38] [39] [40]
 Chapter 12.
 
-Underfull \hbox (badness 1281) in paragraph at lines 1220--1220
+Underfull \hbox (badness 1281) in paragraph at lines 1230--1230
 []\OT1/cmr/m/n/9 When light par-al-lel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1220--1220
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 
- []
-
-
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 1227--1231
-[]|[]| 
- []
-
-
-Overfull \hbox (12.4pt too wide) in paragraph at lines 1232--1236
-[]|[]| 
  []
 
 
@@ -1425,27 +1417,37 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 1237--1241
  []
 
 
-Overfull \hbox (12.4pt too wide) in paragraph at lines 1242--1247
+Overfull \hbox (12.4pt too wide) in paragraph at lines 1242--1246
 []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1247--1251
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 1247--1251
 []|[]| 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 1252--1257
+Overfull \hbox (12.4pt too wide) in paragraph at lines 1252--1257
 []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1258--1263
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1257--1261
 []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1263--1265
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 1262--1267
+[]|[]| 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1268--1273
+[]|[]| 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1273--1275
 []|[]| 
  []
 
@@ -1462,12 +1464,12 @@ Chapter 14.
 ] [45]
 Chapter 15.
 
-Underfull \hbox (badness 1418) in paragraph at lines 1497--1498
+Underfull \hbox (badness 1418) in paragraph at lines 1507--1508
 []\OT1/cmr/m/n/10 Solving sys-tem of lin-ear equa-tions,
  []
 
 
-Overfull \hbox (49.16032pt too wide) in alignment at lines 1370--1575
+Overfull \hbox (49.16032pt too wide) in alignment at lines 1380--1585
  [] [] 
  []
 
@@ -1482,15 +1484,15 @@ Chapter 17.
 [50
 
 ] [51] [52]
-<./images/Logistics Curve.jpg, id=1045, 1284.8pt x 642.4pt>
+<./images/Logistics Curve.jpg, id=1047, 1284.8pt x 642.4pt>
 File: ./images/Logistics Curve.jpg Graphic file (type jpg)
 <use ./images/Logistics Curve.jpg>
-Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1747.
+Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1757.
 (pdftex.def)             Requested size: 430.00462pt x 215.00194pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1748.
+(caption)                particular \caption on input line 1758.
 See the caption package documentation for explanation.
 
 [53 <./images/Logistics Curve.jpg>]
@@ -1499,7 +1501,7 @@ runsystem(pdflatex -interaction=batchmode -shell-escape -jobname '../Diagrams/Os
 
 
 Package standalone Warning: Graphic '../Diagrams/Oscils.pdf' could not be build.
-Shell escape activated? on input line 1791.
+Shell escape activated? on input line 1801.
 
 (./images/../Diagrams/Oscils.tex
 contour: Using real outline for `(c)' on input line 60.
@@ -1509,7 +1511,7 @@ File: ./images/../Diagrams/Oscils.tex Graphic file (type tex)
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1792.
+(caption)                particular \caption on input line 1802.
 See the caption package documentation for explanation.
 
 [54] [55]
@@ -1521,15 +1523,15 @@ Chapter 19.
 [57
 
 ] [58]
-<./images/BinomDist.png, id=1116, 354.57469pt x 185.19188pt>
+<./images/BinomDist.png, id=1118, 354.57469pt x 185.19188pt>
 File: ./images/BinomDist.png Graphic file (type png)
 <use ./images/BinomDist.png>
-Package pdftex.def Info: ./images/BinomDist.png  used on input line 1923.
+Package pdftex.def Info: ./images/BinomDist.png  used on input line 1933.
 (pdftex.def)             Requested size: 354.57382pt x 185.1914pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1924.
+(caption)                particular \caption on input line 1934.
 See the caption package documentation for explanation.
 
 [59 <./images/BinomDist.png>] (./chapters/continuous-random-variables.tex [60]
@@ -1541,7 +1543,7 @@ Chapter 21.
 [62
 
 ]
-<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1151, 4047.12pt x 1561.835pt>
+<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1153, 4047.12pt x 1561.835pt>
 File: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
 <use ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
 Package pdftex.def Info: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 65.
@@ -1555,7 +1557,7 @@ Chapter 23.
 [69
 
 ] [70]
-<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1237, 247.79776pt x 206.2867pt>
+<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1239, 247.79776pt x 206.2867pt>
 File: ./images/../Diagrams/t-distribution/t-distributon.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/t-distribution/t-distributon.pdf>
 Package pdftex.def Info: ./images/../Diagrams/t-distribution/t-distributon.pdf  used on input line 150.
@@ -1624,7 +1626,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 11.
 
-<Subfiles/../Diagrams/Chi-square.pdf, id=1343, 451.6875pt x 301.125pt>
+<Subfiles/../Diagrams/Chi-square.pdf, id=1345, 451.6875pt x 301.125pt>
 File: Subfiles/../Diagrams/Chi-square.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/Chi-square.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/Chi-square.pdf  used on input line 21.
@@ -1634,12 +1636,12 @@ Package pdftex.def Info: Subfiles/../Diagrams/Chi-square.pdf  used on input line
 
  <./Subfiles/../Diagrams/Chi-square.pdf>] [78] [79]
 Chapter 25.
-<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1387, 876.77562pt x 330.23375pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1389, 876.77562pt x 330.23375pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 1.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 1.png  used on input line 164.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1388, 935.495pt x 259.46938pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1390, 935.495pt x 259.46938pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 2.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 2.png  used on input line 165.
@@ -1655,22 +1657,26 @@ Chapter 26.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: 27D6229927D78524326B1BEECBA1CDF4;8988.
  ) 
 Here is how much of TeX's memory you used:
- 49182 strings out of 475237
- 1163198 string characters out of 5768555
+ 49195 strings out of 475237
+ 1163447 string characters out of 5768555
  1976238 words of memory out of 5000000
- 68868 multiletter control sequences out of 15000+600000
+ 68879 multiletter control sequences out of 15000+600000
  591855 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,27n,131p,743b,3107s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Notes.pdf (84 pages, 2352686 bytes).
+Output written on Notes.pdf (84 pages, 2353944 bytes).
 PDF statistics:
- 1734 PDF objects out of 2073 (max. 8388607)
- 1492 compressed objects within 15 object streams
- 647 named destinations out of 1000 (max. 500000)
+ 1739 PDF objects out of 2073 (max. 8388607)
+ 1497 compressed objects within 15 object streams
+ 649 named destinations out of 1000 (max. 500000)
  578 words of extra memory for PDF output out of 10000 (max. 10000000)
 

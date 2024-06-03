@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {6.3.2}Simpson's Rule}{15}{subsection.6.3.2}%
 \contentsline {chapter}{\numberline {7}Complex Numbers}{16}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Complex Number I}{16}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Complex Numbers II}{17}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Complex Numbers II}{18}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Linear Algebra}{21}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Numerical Methods}{27}{chapter.9}%
 \contentsline {part}{2\hspace {1em}FMB}{31}{part.2}%
