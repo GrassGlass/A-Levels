@@ -10,6 +10,17 @@
     \hbox{.}\hbox{.}\hbox{.}
   }}
 \makeatother
+% Table of contents
+\usepackage{tocloft}
+\makeatletter
+\@addtoreset{section}{part}
+\makeatother
+\newlength\mylen
+\renewcommand\thepart{\arabic{part}}
+\renewcommand\cftpartpresnum{Part~}
+\settowidth\mylen{\bfseries\cftpartpresnum\cftpartaftersnum}
+\addtolength\cftpartnumwidth{\mylen}
+% Figures and tables
 \RequirePackage[mode=buildnew]{standalone}
 \RequirePackage{environ}
 \RequirePackage{longtable}
@@ -77,13 +88,13 @@
 \graphicspath{ {./images/} }
 \RequirePackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
 
-\RequirePackage[pagestyles]{titlesec}
-\titleformat{\chapter}[display]   
-{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
-\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
-\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\LARGE}
-\newpagestyle{mystyle}
-{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+% \RequirePackage[pagestyles]{titlesec}
+% \titleformat{\chapter}[display]   
+% {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+% \titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+% \titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\LARGE}
+% \newpagestyle{mystyle}
+% {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
 
 \RequirePackage{subfiles}
 \renewcommand*{\thefootnote}{\arabic{footnote}}
