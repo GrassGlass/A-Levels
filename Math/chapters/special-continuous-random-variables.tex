@@ -72,6 +72,10 @@
       0 &\text{otherwise.}
     \end{cases}\] 
 \end{definition}
+\begin{note}
+  Let \(l\) and \(u\) be the lower and upper quartiles, of a normal distribution \(X\sim\Normal(\mu,\sigma^2)\). i.e. \(\Prob(X<l)=1/4\) and \(\Prob(X<u)=3/4\). Then, 
+  \[P{\left( \mu-\highlight[yellow]{\frac{u-l}{2}}<X<\mu+\highlight[yellow]{\frac{u-l}{2}} \right)}=\Prob(l<X<u)=1/2.\]
+\end{note}
 \begin{definition}{}{}
   A continuous random variable \(Y\) has an (negative) exponential distribution, which we denote with \(Y\sim \operatorname{Exp}(\lambda)\), iff its pdf \(g\) is such that
     \[g(Y)=
