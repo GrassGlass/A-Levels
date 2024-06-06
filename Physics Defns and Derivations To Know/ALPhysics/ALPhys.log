@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  3 JUN 2024 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  6 JUN 2024 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2283,11 +2283,11 @@ File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic fi
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 6>
 Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page6 used on input line 1301.
 (pdftex.def)             Requested size: 210.70462pt x 153.79329pt.
-<../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1218, page=7, 209.38828pt x 180.56761pt>
+<../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1218, page=7, 206.29771pt x 180.56761pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 7>
 Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page7 used on input line 1306.
-(pdftex.def)             Requested size: 210.70462pt x 181.71332pt.
+(pdftex.def)             Requested size: 210.70462pt x 184.42448pt.
  [44
 
  <../images/The-Photoelectric-Effect/Illustration.pdf> <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf>] [45 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf> <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf> <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf> <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf> <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf> <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf>] [46]
@@ -2345,7 +2345,7 @@ Underfull \hbox (badness 2753) in paragraph at lines 1475--1475
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1439--1496
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1439--1497
  [] [] 
  []
 
@@ -2362,14 +2362,14 @@ Overfull \hbox (23.99998pt too wide) has occurred while \output is active
 <../images/CharacteristicRadiation.pdf, id=1474, 424.58624pt x 379.4175pt>
 File: ../images/CharacteristicRadiation.pdf Graphic file (type pdf)
 <use ../images/CharacteristicRadiation.pdf>
-Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1499.
+Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1500.
 (pdftex.def)             Requested size: 322.50346pt x 288.20976pt.
 [51 <../images/CharacteristicRadiation.pdf>]
 Chapter 19.
 <../images/Binding energy per nucleon.pdf, id=1498, 504.81346pt x 331.72682pt>
 File: ../images/Binding energy per nucleon.pdf Graphic file (type pdf)
 <use ../images/Binding energy per nucleon.pdf>
-Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 1541.
+Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 1542.
 (pdftex.def)             Requested size: 348.30269pt x 228.89174pt.
 [52
 
@@ -2377,50 +2377,50 @@ Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input
 <../images/Li6-D_Reaction.pdf, id=1506, 1008.76875pt x 1180.41pt>
 File: ../images/Li6-D_Reaction.pdf Graphic file (type pdf)
 <use ../images/Li6-D_Reaction.pdf>
-Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 1551.
+Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 1552.
 (pdftex.def)             Requested size: 215.0023pt x 251.56778pt.
  [53 <../images/Binding energy per nucleon.pdf> <../images/Li6-D_Reaction.pdf
 
 pdfTeX warning: pdflatex.exe (file ../images/Li6-D_Reaction.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (6.30168pt too wide) in paragraph at lines 1594--1667
+Overfull \hbox (6.30168pt too wide) in paragraph at lines 1595--1668
  [][] 
  []
 
 <../images/Beta-minus_Decay.pdf, id=1610, 250.9375pt x 170.6375pt>
 File: ../images/Beta-minus_Decay.pdf Graphic file (type pdf)
 <use ../images/Beta-minus_Decay.pdf>
-Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 1757.
+Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 1758.
 (pdftex.def)             Requested size: 215.0023pt x 146.20901pt.
 [54] [55 <../images/Beta-minus_Decay.pdf>]
 Chapter 20.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 1778.
+(Font)              scaled to size 14.4pt on input line 1779.
 [56
 
 ] [57]
-Underfull \hbox (badness 1215) in paragraph at lines 2014--2015
+Underfull \hbox (badness 1215) in paragraph at lines 2015--2016
 \T1/zplTLF/m/n/10 by us-ing a stronger mag-net, e.g.
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 2063--2064
+Underfull \hbox (badness 1762) in paragraph at lines 2064--2065
 []\T1/zplTLF/m/n/10 Replace the rub-ber band with a
  []
 
 [58] [59]
-Underfull \hbox (badness 1117) in paragraph at lines 2138--2139
+Underfull \hbox (badness 1117) in paragraph at lines 2139--2140
 []\T1/zplTLF/m/n/10 Check for the ap-pro-pri-ate masses and
  []
 
 [60]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2151.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2152.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2151.
+(Font)              scaled to size 10.0pt on input line 2152.
  [61
 
 ] [62] (./ALPhys.aux)
@@ -2448,7 +2448,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  109i,23n,131p,7693b,1563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (63 pages, 28624129 bytes).
+Output written on ALPhys.pdf (63 pages, 28624201 bytes).
 PDF statistics:
  2227 PDF objects out of 2487 (max. 8388607)
  1426 compressed objects within 15 object streams
