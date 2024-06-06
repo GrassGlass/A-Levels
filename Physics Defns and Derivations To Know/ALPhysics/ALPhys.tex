@@ -94,9 +94,24 @@
 \end{itemize}
 \chapter{Temperature and Ideal Gases}
 \begin{itemize}
+    \item From empirical results, we know that there appears to be a \emph{linear} trend, wherein pressure and volume decrease, when temperature decreases. So, there must be a temperature where pressure is zero, and a temperature where volume is zero. Empirical data shows that the temperature at which this occurs is the same for all gases under all experimental conditions. This temperature is known as \emph{absolute zero}.
     \item The \emph{Zeroth Law of Thermodynamics} If bodies \(A\) and \(B\) are separately in thermal equilibrium with body \(C\), then bodies \(A\) and \(B\) are in thermal equilibrium with each other.
     \item \emph{One mole} is defined as the amount of substance that contains as many elementary particles as there are atoms in 0.012kg of carbon-12.
     \item \emph{Avogadro's Constant \(N_A\)} is the number of atoms in 0.012kg of carbon-12.
+    \item Celsius-Kelvin conversion: \(T\ {^\circ}\text{C}=(T+273.15)\ \text{K}\). 
+    \begin{figure}[H]
+        \centering
+        \includegraphics{../images/Celcius-Kelvin/Celcius-Kelvin.pdf}
+        \caption{\ref{source:celsius-kelvin} Kelvin against celsius graph.}
+        \label{fig:celsius-kelvin}
+    \end{figure}
+    \item There is no ideal gas in nature, but at \emph{low pressures} and \emph{high temperatures}, real gases behave like ideal gases.
+    \item \emph{Boyle's Law}. When the temperature of an ideal gas remains constant, the product of its pressure \(p\) and volume \(V\) is constant. i.e. \(p_1V_1=p_2V_2\).
+    \item \emph{Charles' Law}. When the pressure of an ideal gas remains constant, its volume \(V\) is directly proportional to its thermodynamic temperature \(T/K\). i.e. \(V_1/T_1=V_2/T_2\).
+    \item \emph{Gay-Lussac's Law}. When the volume of an ideal gas remains constant, its pressure \(p\) is directly proportional to its thermodynamic temperature \(T/K\). i.e. \(p_1/T_1=p_2/T_2\).
+    \item Let \(n\) be the amount of gas in moles and the integer \(N\) be the number of gas molecules. Then, for the molar gas constant \(R=8.31\) J K\(^{-1}\) mol\(^{-1}\) and Boltzmann's constant \(k=1.38\cdot 10^{-23}\) J K\(^{-1}\), the equation of state for an ideal gas is \(pV=nRT=NkT\).
+    \item Some useful conversions: \(n=\frac{M/\text{kg}}{M/\text{mol}}=\frac{N}{N_A}\).
+    \newpage
     \item ~\\[-3mm]
     \begin{tabular}{|Sc|Sl|}
         \hline
@@ -133,8 +148,8 @@
         \end{tabular}\\
         \hline
     \end{tabular}
-    \item When do real gases behave like ideal gases: At high temperatures and low pressures.
-    \item Deriving \(p=\frac{1}{3}\frac{Nm}{V}\langle c^2 \rangle\):
+    \item Real gases are approximately ideal at high temperatures and low pressures.
+    \item Deriving \(p=\frac{1}{3}\frac{Nm}{V}\langle c^2 \rangle\) for an ideal gas:
     \begin{enumerate}
         \item Consider a cubic container of side \(l\) containing \(N\) molecules, each of mass m.
         \item Change in momentum due to \emph{elastic} collision between wall and molecule\(\text{}=2mc_x\)
@@ -144,21 +159,19 @@
         \item Pressure due to \(N\) particles, \(p_N=\frac{Nmc_x^2}{V}\).
         \item By Pythagoras'Theorem, \(c^2=c_x^2+c_y^2+c_z^2\). The average speed in the \(x\), \(y\), and \(z\) directions can be taken to be \(c_x=c_y=c_z\) so \(c^2=3c_x^2\). Now, \(p_N=\frac{Nm\langle \frac{1}{3}c^2\rangle}{V}=\frac{1}{3}\frac{Nm\langle c^2 \rangle}{V}\).
     \end{enumerate}
+    \item The mean translational kinetic energy of an ideal gas molecule molecule is \(\frac{1}{2}m \langle c^2 \rangle=\frac{3}{2}kT\).
+    \item The total translational kinetic energy of \(N\) ideal gas molecules is \(\frac{3}{2}NkT=\frac{3}{2}nRT=\frac{3}{2}pV\). This is valid for monoatomic gases.
 \end{itemize}
 \chapter{First Law of Thermodynamics}
 \begin{itemize}
     \item The \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise its temperature by one Kelvin / degree Celsius.
     \item The specific \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise the temperature of one unit mass of the substance by one Kelvin / degree Celsius.
-    \item Celsius-Kelvin conversion: \(T\ {^\circ}\text{C}=(T+273.15)\ \text{K}\). 
-    \begin{figure}[H]
-        \centering
-        \includegraphics{../images/Celcius-Kelvin/Celcius-Kelvin.pdf}
-        \caption{\ref{source:celsius-kelvin} Kelvin against celsius graph.}
-        \label{fig:celsius-kelvin}
-    \end{figure}
     \item The \emph{specific latent heat} of a body is defined as the thermal energy required to change \emph{phase} of one unit mass of a substance, \emph{without a change in temperature}.
     \item \emph{Internal energy} of a system is a sum of \emph{random distribution} of kinetic and potential energy \emph{associated with the molecules} of the system.
-    \item The \emph{First Law of Thermodynamics} states that the \emph{increase} in internal energy of a closed system is the \emph{sum} of heat \emph{supplied} to the system and the work done \emph{on} the system. 
+    \item The \emph{First Law of Thermodynamics} states that the \emph{increase} in internal energy of a closed system is the \emph{sum} of heat \emph{supplied} to the system and the work done \emph{on} the system. i.e. \(\Delta U=Q+W\).
+    \item The work done \(W\) on a gas against a constant external pressure \(p\) is such that \(W=-p\Delta V\).
+    \item In general, the work done on a gas is \(W=\int_{V_i}^{V_f}p\,dV\).
+    \item An \emph{isothermal process} is one that takes place without a change in temperature, i.e. \(\Delta T=0\). For an ideal gas, 
 \end{itemize}
 
 \chapter{Circular Motion}
