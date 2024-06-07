@@ -264,7 +264,7 @@
   Let \(x_{n+1}=f(x_n)\) and \(L\coloneq \lim{x_n}\). To find the possible values of \(L\), we can compare the graph of \(y=f(x)\) against the identity function \(y=x\). This is done by seeing if \(f(x)<x\), \(f(x)=x\), or \(f(x)>x\).
 \end{note}
 \begin{note}
-  We should remember Vieta's Formulas. Consider a complex polynomial \(\alpha z^2+\beta z+\gamma\) with roots \(r_1\) and \(r_2\). Then, the sum \(r_1+r_2=-\beta/\alpha\) and the product \(r_1r_2=\gamma/\alpha\).
+  We should remember Vieta's Formulas. Consider a complex polynomial \(a_2 z^2+a_1 z+a_0\) with roots \(r_1\) and \(r_2\). Then, the sum \(r_1+r_2=-a_1/a_2\) and the product \(r_1r_2=a_0/a_2\).
 \end{note}
 \begin{example}{}{}
   \begin{center}
@@ -561,11 +561,12 @@
 \begin{example}{TQ 10(b)}{}
   Show that \(\cot^2(2\pi/5)\) is a root of the equation \(px^2+qx+r=0\), where we are given 
   \[\cot(4\theta)=\frac{\cot^4(\theta)-6\cot^2(\theta)+1}{4\cot^3(\theta)-4\cot(\theta)}.\]
+  \rule{20cm-137.0549pt}{0.05mm}
   First notice that \(\cot(8\pi/5)=-\cot(2\pi/5)\). So, 
   \[-\cot(2\pi/5)=\frac{\cot^4(2\pi/5)-6\cot^2(2\pi/5)+1}{4\cot^3(2\pi/5)-4\cot(2\pi/5)}.\]
   Simplifying gives 
   \[5[\cot^2(2\pi/5)]^2-10[\cot^2(2\pi/5)]+1=0.\]
-  Thus, \(x=cot^2(2\pi/5)\) is a root of the equation \(5x^2-10x+1=0\). 
+  Thus, \(x=\cot^2(2\pi/5)\) is a root of the equation \(5x^2-10x+1=0\). 
 \end{example}
 
 \subfile{Subfiles/FMAsubfile.tex}
@@ -1620,7 +1621,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
 \section{First Order D.E.s}
 \subsection{Elementary Solving Techniques}
 \begin{stbox}{General Information}
-  \begin{enumerate}
+  \begin{itemize}
     \item Separable Variables:
     \begin{align*}
       \frac{dy}{dx}&=f(y)g(x),
@@ -1632,14 +1633,33 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
       e^{\int P(x)\,dx} \frac{dy}{dx}+ye^{\int P(x)\,dx}P(x)&=Q(x)e^{\int P(x)\,dx},\\
       ye^{\int P(x)\,dx}&=\int Q(x)e^{\int P(x)\,dx}\,dx.
     \end{align*}
-  \end{enumerate}
+  \end{itemize}
 \end{stbox}
 \subsection{Numerical Methods}
 \begin{stbox}{General Information}
-  \begin{enumerate}
+  \begin{itemize}
     \item Euler's Method: 
-    \[y_{i+1}+hf(x_i,y_i).\]
-  \end{enumerate}
+    \[y_{i+1}=y_i+hf(x_i,y_i),\text{ where }x_n=x_0+nh.\]
+    We can present our working directly, as shown in Example 17.1, if there are only one or two iterations. Otherwise, draw the following table.
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{|Sc|Sc|Sc|}
+        \hline
+        \(x\) & \(y\) & \(y+hf(x,y)\)\\
+        \hline
+        \(x_0\)& \(y_0\) & \(y_1\)\\
+        \hline
+        % \(x_0+h\)& \(y_1\) & \(y_2\)\\
+        % \hline
+        \(\vdots\) & \(\vdots\) & \(\vdots\)\\
+        \hline
+        \(x_n\) & \(y_n\) &\\
+        \hline
+      \end{tabular}
+      \caption{Tabular presentation for Euler's Method.}
+      \label{table:euler-presentation}
+    \end{table}
+  \end{itemize}
 \end{stbox}
     \begin{example}{}{}
       Let (step size) \(h=0.25\) and \(f(x,y)=\frac{dy}{dx}\):
@@ -1653,15 +1673,18 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \end{example}
     \begin{stbox}{}
       \setcounter{enumi}{1}
-    \begin{enumerate}
+    \begin{itemize}
     \item Improved Euler's Method: 
-    \[i_{i+1}=y_i+hf(x_i,y_i)\quad\&\quad y_{i+1}=y_i+\frac{h}{2}[f(x_i,y_i)+f(x_{i+1},u_{i+1})].\]
+    \[u_{i+1}=y_i+hf(x_i,y_i)\quad\&\quad y_{i+1}=y_i+\frac{h}{2}[f(x_i,y_i)+f(x_{i+1},u_{i+1})].\]
+    Usually only one or two iterations is necessary, so presenting our working directly is sufficient.
+% \end{itemize}
+% \begin{itemize}
     \item Error:
     \begin{enumerate}
       \item If \(\frac{dy}{dx}\) can be shown to be \emph{increasing} from the calculations of \(f(x,y)\), then the curve is \emph{concave upwards}, leading to a \emph{underestimate}.
       \item If \(\frac{dy}{dx}\) can be shown to be \emph{decreasing} from the calculations of \(f(x,y)\), then the curve is \emph{concave downwards}, leading to a \emph{overestimate}.
     \end{enumerate}
-  \end{enumerate}
+  \end{itemize}
 \end{stbox} ~
 \begin{example}{}{}
   From the computation, \emph{the values of} \(\frac{dy}{dx}\) \emph{increases}, i.e. \(\frac{d^2y}{dx^2}>0\), and thus implying the solution curve to be \emph{concave upwards}. Therefore, we have an \emph{underestimation}. 
@@ -1674,13 +1697,19 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   It is found that the approximation obtained in (i) for the \(y\)-coordinate where \(x=0.75\) is an underestimation and has a percentage error of 120.633\%. Explain why there is such a substantial error.\\[3mm]
   From gradient values calculated above, we suspect sharp charges in gradient values within the interval (from negative to positive). Yet \emph{Euler's Method\footnote{We are explaining what it does} simply uses a straight line segment} with gradient\footnote{Emphasising negative gradient (Show its value)} \(-4.6409\) to estimate the curve for the first iteration, which could have lead to a significant underestimation of the \(y\)-value.
 \end{example}
-\begin{example}{}{}
+\begin{note}{}{}
   Compare the relative merits of Euler's Method and the Improved Euler's Method.
   \begin{enumerate}[wide=0pt, leftmargin=*]
     \item[Euler's Method:] It is computationally simpler.
     \item[Improved Euler's Method] More accurate as it takes the mean of the initial and next gradient. 
   \end{enumerate}
-\end{example}
+\end{note}
+\begin{figure}[H]
+  \centering
+  \includegraphics{../Diagrams/Euler's-Methods/euler's-method.pdf}
+  \caption{An illustration of \textcolor{green!50!blue}{Euler's Method} and the \textcolor{green!85!black}{Improved Euler's Method}.}
+  \label{fig:euler's-methods}
+\end{figure}
 \section{Second Order D.E.}
 \begin{center}
   \begin{tabular}{|Sc|Sc|}
@@ -1962,6 +1991,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \item Fig 6.1 Trapezium rule \href{https://tex.stackexchange.com/a/110618}{(Source)}
   \item Fig 6.2 Simpson's rule \href{https://tex.stackexchange.com/a/439119}{(Source)}
   \item Fig 7.1 Argand Diagram \href{https://tex.stackexchange.com/a/466846}{(Source)}
+  \item Figure \ref{fig:euler's-methods} An illustration of Euler's Method and the Improved Euler's Method \url{https://tex.stackexchange.com/a/639280}
   \item Oscillatory behavior of DEs modelling physical phenomena Fig 15.2 \href{https://tikz.net/dynamics_oscillator/}{(Source)}
   \item Fig 17.1 Mode of a binomial distribution \href{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}{(Source)}
   \item Product moment correlation \href{https://www.ncl.ac.uk/webtemplate/ask-assets/external/maths-resources/images/R_value.png}{(Source)}

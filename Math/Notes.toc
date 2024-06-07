@@ -42,19 +42,19 @@
 \contentsline {subsection}{\numberline {17.1.1}Elementary Solving Techniques}{50}{subsection.17.1.1}%
 \contentsline {subsection}{\numberline {17.1.2}Numerical Methods}{50}{subsection.17.1.2}%
 \contentsline {section}{\numberline {17.2}Second Order D.E.}{52}{section.17.2}%
-\contentsline {section}{\numberline {17.3}Applications}{52}{section.17.3}%
-\contentsline {subsection}{\numberline {17.3.1}Exponential Growth}{52}{subsection.17.3.1}%
-\contentsline {subsection}{\numberline {17.3.2}Logistics Growth}{52}{subsection.17.3.2}%
-\contentsline {subsection}{\numberline {17.3.3}Harvesting}{54}{subsection.17.3.3}%
-\contentsline {subsection}{\numberline {17.3.4}Physics}{54}{subsection.17.3.4}%
-\contentsline {chapter}{\numberline {18}Discrete Random Variables}{56}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Special Discrete Random Variables}{57}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Continuous Random Variables}{61}{chapter.20}%
-\contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{62}{chapter.21}%
-\contentsline {chapter}{\numberline {22}Sampling and Estimation}{65}{chapter.22}%
-\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{69}{chapter.23}%
-\contentsline {section}{\numberline {23.1}General Information}{69}{section.23.1}%
-\contentsline {section}{\numberline {23.2}Summary}{75}{section.23.2}%
-\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{77}{chapter.24}%
-\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{80}{chapter.25}%
-\contentsline {chapter}{\numberline {26}Bibliography}{82}{chapter.26}%
+\contentsline {section}{\numberline {17.3}Applications}{53}{section.17.3}%
+\contentsline {subsection}{\numberline {17.3.1}Exponential Growth}{53}{subsection.17.3.1}%
+\contentsline {subsection}{\numberline {17.3.2}Logistics Growth}{53}{subsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.3.3}Harvesting}{55}{subsection.17.3.3}%
+\contentsline {subsection}{\numberline {17.3.4}Physics}{55}{subsection.17.3.4}%
+\contentsline {chapter}{\numberline {18}Discrete Random Variables}{57}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Special Discrete Random Variables}{58}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Continuous Random Variables}{62}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{63}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Sampling and Estimation}{66}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{70}{chapter.23}%
+\contentsline {section}{\numberline {23.1}General Information}{70}{section.23.1}%
+\contentsline {section}{\numberline {23.2}Summary}{76}{section.23.2}%
+\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{78}{chapter.24}%
+\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{81}{chapter.25}%
+\contentsline {chapter}{\numberline {26}Bibliography}{83}{chapter.26}%
