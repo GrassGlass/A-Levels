@@ -339,9 +339,9 @@ Such that the following properties hold:
                         \hline
                         Concave/Gradient & Positive & Negative\\
                         \hline
-                        Upwards \(\bigcap\) & \textcolor{blue}{underestimation} & \textcolor{red}{overestimation}\\
+                        Upwards \(\bigcup\) & \textcolor{blue}{underestimation} & \textcolor{red}{overestimation}\\
                         \hline
-                        Downwards \(\bigcup\) & \textcolor{red}{overestimation} & \textcolor{blue}{underestimation}\\
+                        Downwards \(\bigcap\) & \textcolor{red}{overestimation} & \textcolor{blue}{underestimation}\\
                         \hline
                     \end{tabular}
                     \caption{Approximation errors when using linear interpolation.}
@@ -380,7 +380,7 @@ Such that the following properties hold:
                     \item The gradient changes too rapidly.
                     \item The initial approximation \(x_0\) is too far from the root \(\alpha\).
                     \item There is a turning point between the initial approximation \(x_0\) and the root \(\alpha\).
-                    \item There is a point of inflection.
+                    \item There is a point of inflection --- where the concavity changes/the sign of \(f''(x)\) changes.
                 \end{enumerate}
                 \item Error: 
                 \begin{table}[H]
@@ -389,9 +389,9 @@ Such that the following properties hold:
                         \hline
                         Concave/Gradient & Positive & Negative\\
                         \hline
-                        Upwards \(\bigcap\) & \textcolor{red}{overestimation} & \textcolor{blue}{underestimation}\\
+                        Upwards \(\bigcup\) & \textcolor{red}{overestimation} & \textcolor{blue}{underestimation}\\
                         \hline
-                        Downwards \(\bigcup\) & \textcolor{blue}{underestimation} & \textcolor{red}{overestimation}\\
+                        Downwards \(\bigcap\) & \textcolor{blue}{underestimation} & \textcolor{red}{overestimation}\\
                         \hline
                     \end{tabular}
                     \caption{Approximation errors when using the Newton-Raphson method.}
@@ -404,6 +404,9 @@ Such that the following properties hold:
 \end{stbox}
 \begin{note}
     At every iteration of linear interpolation, we must ensure that \(\alpha\in [a,x_n]\). Otherwise \(x_n\) may not approximate \(\alpha\). If \(\alpha\notin [a,x_n]\), simply consider \(\alpha\in [x_n,b]\) (or any other suitable interval) instead.
+\end{note}
+\begin{note}
+    If the question asks for the approximation of a root to \(k\) significant figures/\(k\) decimal places, then our iterative process must be continued until two consecutive iterations agree up to \(k+2\) significant figures/\(k+2\) decimal places.
 \end{note}
 \begin{GCSkills}{}
     Linear interpolation: finding an approximation to a root in \([a,b]\) up to \(n\) decimal places.
