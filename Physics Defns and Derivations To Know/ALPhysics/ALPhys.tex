@@ -168,10 +168,65 @@
     \item The specific \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise the temperature of one unit mass of the substance by one Kelvin / degree Celsius.
     \item The \emph{specific latent heat} of a body is defined as the thermal energy required to change \emph{phase} of one unit mass of a substance, \emph{without a change in temperature}.
     \item \emph{Internal energy} of a system is a sum of \emph{random distribution} of kinetic and potential energy \emph{associated with the molecules} of the system.
+    \item An ideal monoatomic gas of \(N\) atoms only has translational motion and no intermolecular potential energy, \(U=E_k=N\cdot\text{translational \(E_k\) of one atom}=\frac{3}{2}NkT\).
+    \item For non-monoatomic ideal gases, \(U\neq \frac{3}{2}NkT\). But we know that \(U_{\text{Total}}\propto NT\) and \(U_{\text{one molecule}}\propto T\).
     \item The \emph{First Law of Thermodynamics} states that the \emph{increase} in internal energy of a closed system is the \emph{sum} of heat \emph{supplied} to the system and the work done \emph{on} the system. i.e. \(\Delta U=Q+W\).
     \item The work done \(W\) on a gas against a constant external pressure \(p\) is such that \(W=-p\Delta V\).
-    \item In general, the work done on a gas is \(W=\int_{V_i}^{V_f}p\,dV\).
-    \item An \emph{isothermal process} is one that takes place without a change in temperature, i.e. \(\Delta T=0\). For an ideal gas, 
+    \item In general, the work done on a gas is \(W=-\int_{V_i}^{V_f}p\,dV\).
+    \item An \emph{\textcolor{blue}{isothermal} process} is one that takes place without a change in temperature, i.e. \(\Delta T=0\). Thus, for an ideal gas, \(\Delta U=\frac{3}{2}Nk\Delta T=0\).
+    \item An \emph{\textcolor{pink!75!red}{iso-volumetric/isochoric} process} is one that takes place without a chance in volume, i.e. \(\Delta V=0\). Hence, \(W=0\).  
+    \item An \emph{\textcolor{red!60!black}{adiabatic} process} is one that takes place without heat transfer, i.e. \(Q=0\). Therefore, \(Q=0\).
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{0.30\textwidth}
+            \centering
+            \includegraphics[page=6]{../images/Thermodynamics/Thermodynamics.pdf}
+            \caption{An \textcolor{blue}{isothermal} process.}
+            \label{fig:isothermal}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.30\textwidth}
+            \centering
+            \includegraphics[page=7]{../images/Thermodynamics/Thermodynamics.pdf}
+            \caption{\textcolor{pink!75!red}{Iso-volumetric} and \textcolor{green!85!black}{isobaric} processes.}
+            \label{fig:iso-volumetric}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.30\textwidth}
+            \centering
+            \includegraphics[page=8]{../images/Thermodynamics/Thermodynamics.pdf}
+            \caption{An An \textcolor{red!60!black}{adiabatic} process.}
+            \label{fig:adiabatic}
+        \end{subfigure}%
+        \caption{\ref{source:thermodynamic-processes} Illustrations for isothermal, iso-volumetric/isochoric, isobaric, and adiabatic processes.}
+        \label{fig:thermodynamic-processes-PV-diagram}
+    \end{figure}
+    \item A thermodynamic cyclic process is one that eventually returns to its initial state. 
+    \begin{itemize}
+        \item \(\Delta U=0\) so \(Q=-W\). 
+        \item The net work done by/on the gas is given by the area enclosed by the closed loop.
+    \end{itemize}
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{0.30\textwidth}
+            \centering
+            \includegraphics[page=4]{../images/Thermodynamics/Thermodynamics.pdf}
+            \caption{A simple engine.}
+            \label{fig:simple-engine-theromdynamics-closed-loop}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.30\textwidth}
+            \centering
+            \includegraphics[page=10]{../images/Thermodynamics/Thermodynamics.pdf}
+            \caption{An Otto cycle}
+            \label{fig:otto-cycle-theromdynamics-closed-loop}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.30\textwidth}
+            \centering
+            \includegraphics[page=11]{../images/Thermodynamics/Thermodynamics.pdf}
+            \caption{A Carnot cycle.}
+            \label{fig:carnot-cycle-theromdynamics-closed-loop}
+        \end{subfigure}%
+        \caption{\ref{source:thermodynamic-processes} Some thermodynamic cyclic processes.}
+        \label{fig:thermodynamic-cyclic-processes}
+    \end{figure}
 \end{itemize}
 
 \chapter{Circular Motion}
@@ -2165,6 +2220,7 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{Projectile motion} Projectile motion \url{https://tug.org/PSTricks/main.cgi?file=Examples/Physics/physics}
     \item\label{Crane} Crane \url{https://tex.stackexchange.com/a/158785}
     \item\label{source:celsius-kelvin} Kelvin against celsius graph (Figure \ref{fig:celsius-kelvin}) \url{https://tikz.net/temperature_scale/} 
+    \item\label{source:thermodynamic-processes} Illustrations of some thermodynamic processes (Figures \ref{fig:thermodynamic-processes-PV-diagram} and \ref{fig:thermodynamic-cyclic-processes}) \url{https://tikz.net/thermodynamics_pv_diagrams/}
     \item\label{2024 Eclipse Map} 2024 Eclipse Map \url{https://discord.com/channels/268882317391429632/359052581022203914/1221402243039887451}
     \item\label{Simple harmonic motion} Simple harmonic motion \url{https://tex.stackexchange.com/a/158741}
     \item\label{RVHS} Images from RVHS' notes
