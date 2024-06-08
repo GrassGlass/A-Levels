@@ -1,0 +1,44 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Thms}
+
+\newtcbtheorem[use counter from=definition]{theorem}{Theorem}{
+    colback=white,
+    oversize=2pt,
+    colframe=black,
+    before skip=\topsep,
+    after skip=\topsep,
+    colback=white,
+    oversize=2pt,
+    coltitle=black,
+    borderline west={2pt}{0pt}{black},
+    enhanced,
+    breakable,
+    skin    = enhanced jigsaw,
+    boxsep  = 1pt,
+    boxrule = 0pt,
+    colbacktitle=white,
+    enhanced,
+    attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
+    fonttitle={\sffamily\bfseries},
+    attach boxed title to top left={xshift=3mm,yshift=-3mm,yshifttext=-1mm},}{thm}
+
+\newtcbtheorem[use counter from=theorem]{corollary}{Corollary}{
+    colback=white,
+    oversize=2pt,
+    colframe=black,
+    before skip=\topsep,
+    after skip=\topsep,
+    colback=white,
+    oversize=2pt,
+    coltitle=black,
+    borderline west={2pt}{0pt}{black},
+    enhanced,
+    breakable,
+    skin    = enhanced jigsaw,
+    boxsep  = 1pt,
+    boxrule = 0pt,
+    colbacktitle=white,
+    enhanced,
+    attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
+    fonttitle={\sffamily\bfseries},
+    attach boxed title to top left={xshift=3mm,yshift=-3mm,yshifttext=-1mm},}{cor}
