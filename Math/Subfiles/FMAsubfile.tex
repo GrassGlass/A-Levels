@@ -325,10 +325,12 @@ Such that the following properties hold:
     \begin{itemize}
         \item The parity of the degree of a real polynomial is the same as that of its number of real roots.
         \item Let the real polynomial \(p\) given by \(p(x)=a_{2n}x^{2n}+a_{2n-1}x^{2n-1}+\dots+a_0\) have coefficients \(a_n>0\) and \(a_0<0\). Then, it has at least one positive and one negative root.
+        \item To show that there a continuous function \(f\) attains a root in an interval \([a,b]\), we find two values \(x<y\) in the interval (e.g. \(a<b\)) such that \(f(a)f(b)<0\). i.e. show that \(f\) changes sign in \([a,b]\).
+        \item To further show that the root is \emph{unique} in \([a,b]\), it suffices to prove that \(f\) is monotone on \([a,b]\).
         \item Suppose we have some function \(f \colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), whose value we want to approximate. There are three ways to obtain this approximation.
         \begin{enumerate}
-            \item Linear interpolation on an interval \([a,b]\) containing \(\alpha\). We let \(x_0\coloneq b\) and
-            \[x_{n+1}\coloneq\frac{a \lvert f(x_n) \rvert+x_n \lvert f(a) \rvert}{\lvert f(x_n) \rvert+\lvert f(a) \rvert}.\]
+            \item Linear interpolation on an interval \([a,b]\) containing \(\alpha\). Our approximation is
+            \[\frac{a \lvert f(b) \rvert+b \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(b) \rvert}.\]
             \begin{itemize}
                 \item The sequence \(\{x_n\}\) of approximations \emph{always} converges to \(\alpha\).
                 \item The smaller \(f''(x)\) is (i.e. the slower the gradient \(f'(x)\) changes) near \(\alpha\), the faster the rate of convergence.
@@ -350,7 +352,38 @@ Such that the following properties hold:
                 \item See Figure \ref{fig:linear-interpolation} for an illustration.
                 \footnotetext{Screw trying to make nice diagonal cells. Pain. Suffering.}
             \end{itemize}
-            \item Fixed-point Iteration. First select a function \(F \colon \mathbb{R}\to \mathbb{R}\), such that \(F(\alpha)=\alpha\), and choose some initial approximation \(x_0\) to \(\alpha\). Then, we recursively define \(x_{n+1} \coloneq F(x_n)\). The desired convergence behavior is for \(x_n\) to approach \(\alpha\).
+        \end{enumerate}
+    \end{itemize}
+\end{stbox}
+\begin{note}
+    At every iteration of linear interpolation, we must ensure that \(\alpha\in [a,x_n]\). Otherwise \(x_n\) may not approximate \(\alpha\). If \(\alpha\notin [a,x_n]\), simply consider \(\alpha\in [x_n,b]\) (or any other suitable interval) instead.
+\end{note}
+\begin{note}
+    It is important to show which interval we are interpolating on, not just the iteratively obtained values. We can present our working using the table below.
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+            \hline
+            \(a\) & \(f(a)\) & \(b\) & \(f(b)\) & \(\dfrac{a \lvert f(b) \rvert+b \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(b) \rvert}\)\\
+            \hline
+            \(a\) & \(f(a)>0\) & \(b\) & \(f(b)<0\) & \(x_1\)\\
+            \hline
+            \(x_1\) & \(f(x_1)>0\) & \(b\) & \(f(b)<0\) & \(x_2\)\\
+            \hline
+            \(x_1\) & \(f(x_1)>0\) & \(x_2\) & \(f(x_2)<0\) & \(x_3\)\\
+            \hline
+            \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\)\\
+            \hline
+        \end{tabular}
+        \caption{Required working for linear interpolation.}
+        \label{table:linear-interpolation-presentation}
+    \end{table}
+\end{note}
+\begin{stbox}{}
+    \begin{itemize}
+        \item[]
+        \begin{enumerate}
+            \item Fixed-point Iteration. First select a function \(F \colon \mathbb{R}\to \mathbb{R}\), such that \(F(\alpha)=\alpha\), and choose some initial approximation \(x_0\) to \(\alpha\). Then, we recursively define \(x_{n+1} \coloneq F(x_n)\). We want \(x_n\to \alpha\).
             \begin{itemize}
                 \item Convergence behavior
                 \begin{table}[H]
@@ -371,7 +404,29 @@ Such that the following properties hold:
                 \end{table}
                 \item See Figure \ref{fig:fixed-point-iteration} for an illustration.
             \end{itemize}
-            \item The Newton-Raphson Method. For a function \(f\colon \mathbb{R}\to \mathbb{R}\) with a root \(\alpha\), the Newton-Raphson formula is
+        \end{enumerate}
+    \end{itemize}
+\end{stbox}
+\begin{note}
+    We must write out \emph{all} iterations, not just the final two. The working below is sufficient.
+
+    \rule{20cm-137.0549pt}{0.05mm}
+
+    Let \(x_0=\rule{0.5cm}{0.05mm}\) and \(x_{n+1}=F(x_n)\), \(x\geq 0\).
+    \begin{align*}
+        x_1&=\rule{0.5cm}{0.05mm}\\
+        x_2&=\rule{0.5cm}{0.05mm}\\
+        &\vdots\\
+        x_{m-1}&=\rule{0.5cm}{0.05mm}\\
+        x_m&=\rule{0.5cm}{0.05mm}
+    \end{align*}
+    Therefore, \(\alpha=x_m\) (\(k\) d.p.).
+\end{note}
+\begin{stbox}{}
+    \begin{itemize}
+        \item[]
+        \begin{enumerate}
+            \item The Newton-Raphson Method. Let \(\alpha\) be a root of the function \(f\colon \mathbb{R}\to \mathbb{R}\). The Newton-Raphson formula is
             \[x_{n+1}\coloneq x_n-\frac{f(x_n)}{f'(x_n)}.\]
             \begin{itemize}
                 \item The Newton-Raphson method fails in the following cases.
@@ -403,10 +458,26 @@ Such that the following properties hold:
     \end{itemize}
 \end{stbox}
 \begin{note}
-    At every iteration of linear interpolation, we must ensure that \(\alpha\in [a,x_n]\). Otherwise \(x_n\) may not approximate \(\alpha\). If \(\alpha\notin [a,x_n]\), simply consider \(\alpha\in [x_n,b]\) (or any other suitable interval) instead.
+    We must write out \emph{all} iterations, not just the final two. One way to present our working is as follows.
+
+    \rule{20cm-137.0549pt}{0.05mm}
+
+    Let \(x_0=\rule{0.5cm}{0.05mm}\) and \(x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}=\rule{0.5cm}{0.05mm}\)\,, \(x\geq 0\).
+    \begin{align*}
+        x_1&=\rule{0.5cm}{0.05mm}\\
+        x_2&=\rule{0.5cm}{0.05mm}\\
+        &\vdots\\
+        x_{m-1}&=\rule{0.5cm}{0.05mm}\\
+        x_m&=\rule{0.5cm}{0.05mm}
+    \end{align*}
+    Therefore, \(\alpha=x_m\) (\(k\) d.p.).
 \end{note}
 \begin{note}
-    If the question asks for the approximation of a root to \(k\) significant figures/\(k\) decimal places, then our iterative process must be continued until two consecutive iterations agree up to \(k+2\) significant figures/\(k+2\) decimal places.
+    Suppose a question asks for the approximation of a root to \(k\) significant figures/\(k\) decimal places. Then: 
+    \begin{enumerate}
+        \item We leave our iterative approximations \(x_n\) to at least \(k+2\) significant figures/\(k+2\) decimal places.
+        \item We continue the iterative process till two consecutive ones agree up to \(k\) significant figures/\(k\) decimal places.
+    \end{enumerate}
 \end{note}
 \begin{GCSkills}{}
     Linear interpolation: finding an approximation to a root in \([a,b]\) up to \(n\) decimal places.
@@ -419,23 +490,29 @@ Such that the following properties hold:
         \item Terminate this process when the approximations are consistent up to \(n\) decimal places.
     \end{enumerate}
     \end{GCSkills}
-    \newpage
     You can freely enter any function and shift the initial values in the Desmos graphs below!
+    \newpage
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth]{../Diagrams/linear-interpolation.pdf}
+        \includegraphics[width=0.69\textwidth]{../Diagrams/linear-interpolation.pdf}
         \caption{An illustration of linear interpolation \href{https://www.desmos.com/calculator/jp52nra5le}{(Desmos)}.}
         \label{fig:linear-interpolation}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\textwidth]{../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf}
-        \caption{An illustration of fixed-point iteration.}
+        \includegraphics[width=0.69\textwidth]{../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf}
+        \caption{An illustration of fixed-point iteration \href{https://www.desmos.com/calculator/t9mnqtmhxw}{(Desmos)}.}
         \label{fig:fixed-point-iteration}
     \end{figure}
+    % \begin{figure}[H]
+    %     \centering
+    %     \includegraphics[width=\textwidth]{../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf}
+    %     \caption{An illustration of fixed-point iteration.}
+    %     \label{fig:fixed-point-iteration}
+    % \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth]{../Diagrams/newton's-method.pdf}
+        \includegraphics[width=0.69\textwidth]{../Diagrams/newton's-method.pdf}
         \caption{An illustration of Newton's Method \href{https://www.desmos.com/calculator/izkg4ynlfp}{(Desmos)}.}
         \label{fig:newton's-method}
     \end{figure}

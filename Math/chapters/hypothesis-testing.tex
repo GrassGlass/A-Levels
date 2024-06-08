@@ -3,6 +3,38 @@
 \begin{definition}{}{}
   The \emph{null hypothesis} \(H_0\) and \emph{alternative hypothesis} \(H_1\) are the hypotheses that we hope to reject and accept, respectively. 
 \end{definition}
+\begin{note}
+  To check we have correctly stated the hypotheses in our hypothesis test, ensure that they are contrasting. For example, we are testing A's claim that \(\mu>\mu_0\):
+
+  \begin{minipage}{0.45\textwidth}
+    \vspace{\baselineskip}
+    \begin{tabular}{|ll|}
+      \hline
+      Test & \(H_0\colon\mu=\mu_0\) (A's claim is false)\\
+      against &\(H_1\colon\mu<\mu_0\) (A's claim is false)\\
+      \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+      \hline
+    \end{tabular}
+
+    \vspace{\baselineskip}
+    Both hypotheses result in A's claim being false. Hence, the hypotheses have been stated erroneously \textcolor{red}{\(\times\)}.  
+  \end{minipage}%
+  \hfill
+  \begin{minipage}{0.45\textwidth}
+    \vspace{\baselineskip}
+    \begin{tabular}{|ll|}
+      \hline
+      Test & \(H_0\colon\mu=\mu_0\) (A's claim is false)\\
+      against &\(H_1\colon\mu>\mu_0\) (A's claim is true)\\
+      \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+      \hline 
+    \end{tabular}  
+
+    \vspace{\baselineskip}
+    The hypotheses are contrasting. So, they have been correctly stated \textcolor{green!70!black}{\checkmark}. 
+    \vspace{\baselineskip}
+  \end{minipage}
+\end{note}
 \begin{stbox}{General Information}
   \begin{itemize}
     \item Without going into details, a \emph{critical region} \(C\) is just a set that defines the decision rule / test 
@@ -234,14 +266,14 @@
     \item A two-sample \(z\)-test. 
     % Let \(X_1\) and \(X_2\) have population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\) (respectively). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\), each of sizes \(n_1\) and \(n_2\) (respectively). If (i) or (ii) is true, then we carry out a two-sample \(z\)-test.
     Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
-    \begin{enumerate}[label=(\roman*)]
-      \item \(\sigma_1\) and \(\sigma_2\) are known, in addition to
-      \begin{enumerate}[label=(\arabic*)]
-        \item \(X_1\) and \(X_2\) being normally distributed, or
-        \item both sample sizes, \(n_1\) and \(n_2\), being large.
-      \end{enumerate} 
-      \item \(\sigma_1\) and \(\sigma_2\) are unknown, but \(X_1\) and \(X_2\) are normally distributed, and both samples are large (so we can use the fact that a \(t\)-distribution approximates to a normal distribution with large sample sizes).
-    \end{enumerate}
+    % \begin{enumerate}[label=(\roman*)]
+    %   \item \(\sigma_1\) and \(\sigma_2\) are known, in addition to
+    %   \begin{enumerate}[label=(\arabic*)]
+    %     \item \(X_1\) and \(X_2\) being normally distributed, or
+    %     \item both sample sizes, \(n_1\) and \(n_2\), being large.
+    %   \end{enumerate} 
+    %   \item \(\sigma_1\) and \(\sigma_2\) are unknown, but \(X_1\) and \(X_2\) are normally distributed, and both samples are large (so we can use the fact that a \(t\)-distribution approximates to a normal distribution with large sample sizes).
+    % \end{enumerate}
     \begin{enumerate}
       \item Let [\(X_1\), \(X_2\) in context], (which we assume to be normally distributed)\footnote{if applicable} and \(\mu\) be the population mean.
       \item 
@@ -347,7 +379,7 @@
     \begin{center}
       \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
         \hline
-        Index & 1 & 2 & \(\cdots\) & \(n\)\\
+        \rowcolor{yellow} Index & 1 & 2 & \(\cdots\) & \(n\)\\
         \hline
         \(X\) & \(x_1\) & \(x_2\) & \(\cdots\) & \(x_n\)\\
         \hline
@@ -379,14 +411,14 @@
     }
   \end{center}
 \end{note}
-\begin{note}
+% \begin{note}
   
-  \begin{center}
-    \parbox{0.9\textwidth}{
+%   \begin{center}
+%     \parbox{0.9\textwidth}{
 
-    }
-  \end{center}
-\end{note}
+%     }
+%   \end{center}
+% \end{note}
 
 \begin{landscape}
   \section{Summary}
@@ -464,7 +496,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) ind
       \begin{minipage}{418.6pt}
         \begin{enumerate}[align=parleft]
           \item[{[i]}]\ Both variances \(\sigma_1\) and \(\sigma_2\) are known.
-          \item[{[ii](1)}]\ Both sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
+          \item[{[ii](1)}]\ Sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
           \item[{[ii](2)}]\ Either sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
       \end{minipage}&
@@ -478,8 +510,9 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) ind
       \hline
       \begin{minipage}{418.6pt}
         \begin{enumerate}[label={[\roman*]},align=parleft]
-          \item One of the variances \(\sigma_1\) and \(\sigma_2\) are unknown.
-          \item Both sample sizes \(n_1\) and \(n_2\) are large.
+          \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
+          \item Sample sizes \(n_1\) and \(n_2\) are large.
+          \item The variances \(\sigma_1^2\) and \(\sigma_2^2\) do not coincide.
           \item Assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
         So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
@@ -494,9 +527,31 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) ind
       \hline
       \begin{minipage}{418.6pt}
         \begin{enumerate}[label={[\roman*]},align=parleft]
+          \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
+          \item Sample sizes \(n_1\) and \(n_2\) are large.
           \item Both variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
-          \item Assume \(X_1\) and \(X_2\) are normally distributed. (Alt: Both samples come from normal populations.)
+          \item Assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
+        So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
+      \end{minipage}&
+      \begin{minipage}{179.4pt}
+        \begin{center}
+          Two-sample \(z\)-test
+          \[Z=\frac{\widebar{X}_1-\widebar{X}_2-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim\Normal(0,1)\]
+          approximately
+        \end{center}
+      \end{minipage}\\
+      \hline
+      \begin{minipage}{418.6pt}
+        \begin{enumerate}[label={[\roman*]},align=parleft]
+          \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
+          \item Sample sizes \(n_1\) and \(n_2\) are small.
+          \item Both variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
+          \item Assume \(X_1\) and \(X_2\) are normally distributed. 
+          
+          (Or: Both samples come from normal populations.)
+        \end{enumerate}
+        Write [iii] and [iv] if the question asks for the necessary assumptions.
       \end{minipage}&
       \begin{minipage}{179.4pt}
         \begin{center}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  7 JUN 2024 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  8 JUN 2024 08:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1176,27 +1176,30 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 13
  [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] [5] [6]
 Chapter 2.
 
-Package hyperref Warning: Ignoring empty anchor on input line 351.
+Package hyperref Warning: Ignoring empty anchor on input line 353.
 
 [7
 
-] [8]
-<../Diagrams/linear-interpolation.pdf, id=147, 602.25pt x 602.25pt>
+] [8] [9]
+<../Diagrams/linear-interpolation.pdf, id=155, 602.25pt x 602.25pt>
 File: ../Diagrams/linear-interpolation.pdf Graphic file (type pdf)
 <use ../Diagrams/linear-interpolation.pdf>
-Package pdftex.def Info: ../Diagrams/linear-interpolation.pdf  used on input line 426.
-(pdftex.def)             Requested size: 344.005pt x 344.02122pt.
-<../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf, id=150, 228.50569pt x 119.60686pt>
-File: ../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf Graphic file (type pdf)
-<use ../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf>
-Package pdftex.def Info: ../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf  used on input line 432.
-(pdftex.def)             Requested size: 430.00462pt x 225.08173pt.
-<../Diagrams/newton's-method.pdf, id=151, 602.25pt x 602.25pt>
+Package pdftex.def Info: ../Diagrams/linear-interpolation.pdf  used on input line 497.
+(pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
+<../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf, id=158, 602.25pt x 602.25pt>
+File: ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf Graphic file (type pdf)
+<use ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf>
+Package pdftex.def Info: ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf  used on input line 503.
+(pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
+<../Diagrams/newton's-method.pdf, id=161, 602.25pt x 602.25pt>
 File: ../Diagrams/newton's-method.pdf Graphic file (type pdf)
 <use ../Diagrams/newton's-method.pdf>
-Package pdftex.def Info: ../Diagrams/newton's-method.pdf  used on input line 438.
-(pdftex.def)             Requested size: 344.005pt x 344.02122pt.
- [9 <../Diagrams/linear-interpolation.pdf> <../Diagrams/fixed-point-iteration/fixed-point-iteration.pdf>] [10 <../Diagrams/newton's-method.pdf>] (./FMAsubfile.aux)
+Package pdftex.def Info: ../Diagrams/newton's-method.pdf  used on input line 515.
+(pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
+ [10 <../Diagrams/linear-interpolation.pdf> <../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf
+
+pdfTeX warning: pdflatex.exe (file ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [11 <../Diagrams/newton's-method.pdf>] (./FMAsubfile.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1205,18 +1208,18 @@ Package rerunfilecheck Info: File `FMAsubfile.out' has not changed.
 (rerunfilecheck)             Checksum: C6EC35352E5FB3901F1A224966F99D15;247.
  ) 
 Here is how much of TeX's memory you used:
- 46203 strings out of 475237
- 1100751 string characters out of 5768555
+ 46216 strings out of 475237
+ 1101005 string characters out of 5768555
  1975238 words of memory out of 5000000
- 66513 multiletter control sequences out of 15000+600000
+ 66522 multiletter control sequences out of 15000+600000
  574120 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,16n,148p,802b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMAsubfile.pdf (10 pages, 383260 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on FMAsubfile.pdf (11 pages, 412726 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
  44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
