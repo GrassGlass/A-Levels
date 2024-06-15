@@ -176,6 +176,56 @@
   \end{center}
 \end{GCSkills}
 \begin{note}
+  If it's unclear as to what is to be stated as independent/dependent in the hypotheses, consider the expected values and how they relate to the context.  
+\end{note}
+\begin{example}{}{}
+  \label{eg:infering-independence-relation}
+  Consider the following context:
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{ScSc}
+      \toprule
+      Statement & \textcolor{green!70!black}{Independent}/\textcolor{red}{Dependent}?\\
+      \midrule
+      There is consistency in the marking of the two T.A.s. & ?\\
+      There is no consistency in the marking of the two T.A.s. & ?\\
+      \bottomrule  
+    \end{tabular}
+    \caption{Two statements on the relationship between the marks awarded and the T.A. marking.}
+    % , which can be confusing to interpret
+    \label{table:NOT-FILLED-infering-independence-relation-hypotheses}
+  \end{table}
+  Then, under \(H_0\) --- the independence claim --- the expected frequencies are as stated below.
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{ScScScScSc}
+      \toprule  
+      \multicolumn{2}{Sc}{\multirow{2}{*}{\(e_{ij}\)}} & \multicolumn{3}{Sc}{Grade}\\
+      && \(A\) & \(B\) & \(C\)\\
+      \midrule
+      \multirow{2}{*}{\rotatebox[origin=c]{90}{T.A.}} & \(X\) & \(a\) & \(b\) & \(c\)\\
+      & \(Y\) & \(a\) & \(b\) & \(c\)\\
+      \bottomrule
+    \end{tabular}
+    \caption{Expected frequencies.}
+    \label{table:infering-independence-relation-data}
+  \end{table}
+  Since \(e_{1j}=e_{2j}\) for all \(1\leq j\leq 3\), we infer the following.
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{ScSc}
+      \toprule
+      Statement & \textcolor{green!70!black}{Independent}/\textcolor{red}{Dependent}?\\
+      \midrule
+      There is consistency in the marking of the two T.A.s. & \textcolor{green!70!black}{Independent}\\
+      There is no consistency in the marking of the two T.A.s. & \textcolor{red}{Dependent}\\
+      \bottomrule  
+    \end{tabular}
+    \caption{Which statement corresponds to independence and which coresponds to dependence.}
+    \label{table:FILLED-infering-independence-relation-hypotheses}
+  \end{table}
+\end{example}
+\begin{note}
   If the question says to ``use an approximate \(\chi^2\)-statistic\dots'', then we must use the critical region method. It is incorrect to use the \(p\)-value.
 \end{note}
 \begin{note}
