@@ -365,7 +365,7 @@
       \item Apply partial fractions:
       \[\int\frac{f(x)}{g(x)}\,dx.\]
       \item Split \(px+q\), then complete the square:
-      \[\int \frac{px+1}{\sqrt{ax^2+bx+c}}\,dx \quad\text{or}\quad \int \frac{px+1}{ax^2+bx+c}\,dx\] 
+      \[\int \frac{px+q}{\sqrt{ax^2+bx+c}}\,dx \quad\text{or}\quad \int \frac{px+q}{ax^2+bx+c}\,dx\] 
     \end{enumerate}
     \item Integration by Substitution: 
     \[\int f(x) \, dx=\int f(x)\frac{dx}{du}\,du.\]
@@ -391,9 +391,9 @@
     \item Volume of revolution when rotated about \(x\)-axis: 
   \begin{enumerate}
     \item The disc method
-    \[\int_{x_1}^{x_2}\pi y^2\,dx=\int_{x=x_1}^{x=x_1}\pi y^2\, \frac{dx}{dt}\,dt.\]
+    \[\int_{x_1}^{x_2}\pi y^2\,dx=\int_{x=x_1}^{x=x_2}\pi y^2\, \frac{dx}{dt}\,dt.\]
     \item The shell method:
-    \[\int_{x_1}^{x_2}2\pi yx \,dy.\]
+    \[\int_{y_1}^{y_2}2\pi yx \,dy.\]
   \end{enumerate}
   \item Arc length:
   \begin{equation*}
@@ -1330,7 +1330,7 @@
 \chapter{Permutations and Combinations}
 \begin{definition}{}{}
   The terms \(n\) \emph{pick} \(r\) and \(n\) \emph{choose} \(r\) respectively denote 
-  \[{^n}P_r \coloneq  \frac{n!}{(n-r)!} \qquad\text{and}\qquad \binom{n}{r}={^n}C_r\coloneq \frac{n!}{(n-r)!r!}.\]
+  \[{^n}P_r \coloneq  \frac{n!}{(n-r)!} \qquad\text{and}\qquad \binom{n}{r}\coloneq{^n}C_r\coloneq \frac{n!}{(n-r)!r!}.\]
 \end{definition}
 \begin{stbox}{General Information}
   \begin{itemize}
@@ -1695,7 +1695,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \end{itemize}
 \end{stbox} ~
 \begin{example}{}{}
-  From the computation, \emph{the values of} \(\frac{dy}{dx}\) \emph{increases}, i.e. \(\frac{d^2y}{dx^2}>0\), and thus implying the solution curve to be \emph{concave upwards}. Therefore, we have an \emph{underestimation}. 
+  From the computation, \emph{the values of} \(\frac{dy}{dx}\) \emph{increases}, i.e. \(\frac{d^2y}{dx^2}>0\), implying that the solution curve is \emph{concave upwards}. Therefore, we have an \emph{underestimation}. 
 \end{example}
 \begin{example}{}{}
   It is suggested that the estimation in part (ii)\footnote{Given the point (1,1), we estimated the value of y(2) using the Improved Euler's Method} can be further improved by reducing the step size. Sketch the solution curve and hence comment on this suggestion.\\[3mm]
@@ -1750,7 +1750,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \end{note}
   \begin{example}{}{}
     \begin{enumerate}
-      \item If \(y_c=A^{-3x}\) and \(f(x)=10e^x\), then \(y_p=kxe^x\)
+      \item If \(y_c=Ae^{-3x}\) and \(f(x)=10e^x\), then \(y_p=ke^x\)
       \item If \(y_c=Ae^x+Be^{-3x}\) and \(f(x)=10e^x\), then \(y_p=kxe^x\).
       \item If \(y_c=Ae^x+Bxe^{x}+Ce^{-3x}\) and \(f(x)=10e^x\), then \(y_p=kx^2e^x\).
     \end{enumerate}
