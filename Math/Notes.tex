@@ -401,7 +401,7 @@
     \end{equation*}
   \item Surface area of revolution when rotated about \(\highlight[blue!30]{x}\)-axis: 
   \begin{equation*}
-    \resizebox{0.9\hsize}{!}{\(\displaystyle\int_{x_1}^{x_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dx}\right)^2+1}\,dx=\int_{y_1}^{y_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dx}{dy}\right)^2+1}\,dy=\int_{t_1}^{t_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2}\,dx=\int_{\alpha}^{\beta}\frac{1}{2}r^2\,d\theta.\)}
+    \resizebox{0.9\hsize}{!}{\(\displaystyle\int_{x_1}^{x_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dx}\right)^2+1}\,dx=\int_{y_1}^{y_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dx}{dy}\right)^2+1}\,dy=\int_{t_1}^{t_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2}\,dt=\int_{\alpha}^{\beta}\frac{1}{2}r^2\,d\theta.\)}
     \end{equation*}
   \begin{flushleft}
     \(\bigstar\) Rotating about \(\highlight[blue!30]{x}\)-axis \(\implies\) \(\highlight[red!30]{y}\) in integrand\\
@@ -1396,7 +1396,7 @@
     \begin{enumerate}
       \item Vector Equation: \[\ell \colon \mathbf{r}=\mathbf{a}+\lambda \mathbf{m}\text{, }\lambda \in \mathbb{R},\]
       \item Cartesian Equation: 
-      \[\frac{x-a_1}{m}=\frac{y-a_2}{m_2}=\frac{z-a_3}{m_3.}\]
+      \[\frac{x-a_1}{m_1}=\frac{y-a_2}{m_2}=\frac{z-a_3}{m_3.}\]
     \end{enumerate}
 \end{minipage} & 
 \begin{minipage}{0.5\textwidth}
@@ -1428,28 +1428,37 @@
     \end{enumerate}
     \item[M2:] 
     \begin{enumerate}
-      \item \(\overrightarrow{AN}=\left(\overrightarrow{AQ} \cdot \mathbf{\hat{m}}\right)\mathbf{\hat{m}}\),
+      \item \(\overrightarrow{AN}=\left(\overrightarrow{AQ} \cdot \mathbf{\widehat{m}}\right)\mathbf{\widehat{m}}\),
       \item \(\overrightarrow{ON}=\overrightarrow{OA}+\overrightarrow{AN}\).
     \end{enumerate}
   \end{enumerate}
 \end{minipage} & 
 \begin{minipage}{0.5\textwidth}
-  \begin{enumerate}[label=(\alph*)]
-    \item \(\ell_{NQ} \colon \mathbf{r}=\overrightarrow{OQ}+\lambda n\), where \(\lambda \in \mathbb{R}\), and 
-    \[\Pi \colon \mathbf{r}\cdot \mathbf{n}= \mathbf{a}\cdot \mathbf{n},\]
-    \item \(\left(\overrightarrow{OQ}+\lambda \mathbf{n}\right)\cdot \mathbf{n}= \mathbf{a}\cdot \mathbf{n}\), solve for \(\lambda\),
-    \item \(\overrightarrow{ON}+\overrightarrow{OQ}+\lambda \mathbf{n}\).
+  \begin{enumerate}
+    \item[M1:]
+    \begin{enumerate}[label=(\alph*)]
+      \item \(\overrightarrow{ON}=\overrightarrow{OQ}+\lambda\mathbf{n}\),
+      \item \(\overrightarrow{ON}\cdot\mathbf{n}=p\), solve for \(\lambda\),
+      \item  Substitute \(\lambda\) into (a).
+    \end{enumerate}
+    \item[M2:]
+    \begin{enumerate}[label=(\alph*)]
+      \item \(\overrightarrow{QN}=\left( \overrightarrow{QA}\cdot\widehat{\mathbf{n}} \right)\widehat{\mathbf{n}}\),
+      \item \(\overrightarrow{ON}=\overrightarrow{OA}+\overrightarrow{AN}\).
+    \end{enumerate}
   \end{enumerate}
 \end{minipage}\\
+\hline
+\newpage
 \hline
 \multicolumn{2}{|Sc|}{Shortest Distance of Point To Line, \(QN\)}\\
 \hline
 \begin{minipage}{0.5\textwidth}
   \begin{enumerate}
-    \item[M1:] \(\norm{\overrightarrow{AQ} \times \mathbf{\hat{m}}}\).
+    \item[M1:] \(\norm{\overrightarrow{AQ} \times \mathbf{\widehat{m}}}\).
     \item[M2:]
     \begin{enumerate}
-      \item \(AN= \norm{\overrightarrow{AQ}\cdot \mathbf{\hat{m}}} \),
+      \item \(AN= \norm{\overrightarrow{AQ}\cdot \mathbf{\widehat{m}}} \),
       \item Pythagoras' Theorem.
     \end{enumerate}
     \item[M3:] Using the foot of perpendicular, find distance \(QN\).
@@ -1457,15 +1466,15 @@
 \end{minipage} &
 \begin{minipage}{0.5\textwidth}
   \begin{enumerate}
-    \item[M1:] \(\norm{\overrightarrow{AQ}\cdot \mathbf{\hat{n}}} \).
+    \item[M1:] \(\norm{\overrightarrow{AQ}\cdot \mathbf{\widehat{n}}} \).
     \item[M2:] Distance of plane to \emph{origin}: 
     
     If \(\Pi \colon \mathbf{r}\cdot \mathbf{n}=p\), then \(\dfrac{p}{\norm{\mathbf{n}}}\) is the shortest distance from the origin to the plane \(\Pi\). 
     
     \emph{Note:}
     \begin{itemize}
-      \item If \(\dfrac{p}{\norm{\mathbf{n}}}>0\), then \(\Pi\) `above' \(0\).
-      \item If \(\dfrac{p}{\norm{\mathbf{n}}}<0\), then \(\Pi\) `below' 0.
+      \item If \(\dfrac{p}{\norm{\mathbf{n}}}>0\), then \(\Pi\) is `above' the origin.
+      \item If \(\dfrac{p}{\norm{\mathbf{n}}}<0\), then \(\Pi\) is `below' the origin.
     \end{itemize}
     \item[M3:] Using the foot of perpendicular, then find distance \(QN\).
   \end{enumerate}
@@ -1478,7 +1487,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \item Parallel, Non-Intersecting
     \begin{enumerate}
       \item \(\mathbf{m_1}\newparallel \mathbf{m_2}\),
-      \item Solving \(\ell_1=\ell_2\) gives no real solution.
+      \item Solving \(\mathbf{r_1}=\mathbf{r_2}\) gives no real solution. Or, show that \(\mathbf{a_1}\) does not lie in \(\ell_2\).
     \end{enumerate}
     \item Parallel, Coinciding
     \begin{enumerate}
@@ -1488,27 +1497,35 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \item Non-Parallel, Intersecting
     \begin{enumerate}
       \item \(\mathbf{m_1}\) not \(\newparallel \mathbf{m_2}\),
-      \item Solve \(\ell_1=\ell_2\) to find intersection.
+      \item Solve \(\mathbf{r_1}=\mathbf{r_2}\) to find intersection.
     \end{enumerate} 
     \item Skew Lines\\
     (Non-Parallel, Non-Intersecting)
     \begin{enumerate}
       \item \(\mathbf{m_1}\) not \(\newparallel \mathbf{m_2}\),
-      \item Solving \(\ell_1=\ell_2\) gives no real solution. 
+      \item Solving \(\mathbf{r_1}=\mathbf{r_2}\) gives no real solution. 
     \end{enumerate}
   \end{enumerate}
 \end{minipage} &
 \begin{minipage}{0.5\textwidth}
   \begin{enumerate}
-    \item Parallel Planes: Show there exists an \(\mathbf{a}\) for which
+    \item Distinct Parallel Planes: 
     \begin{enumerate}
-      \item \(\mathbf{a}\cdot \mathbf{n_1}= p_1\),
-      \item \(\mathbf{a}\cdot \mathbf{n_2}\neq p_2\).
+      \item Show that \(\mathbf{n_1}\newparallel\mathbf{n_2}\),
+      \item Find a vector \(\mathbf{b}\) for which
+      \begin{enumerate}[label=(\roman*)]
+        \item \(\mathbf{b}\cdot \mathbf{n_1}= p_1\),
+        \item \(\mathbf{b}\cdot \mathbf{n_2}\neq p_2\).
+      \end{enumerate}
     \end{enumerate}
-    \item Same Plane: Show there exists an \(\mathbf{a}\) for which
+    \item Same Plane:
     \begin{enumerate}
-      \item \(\mathbf{a}\cdot \mathbf{n_1}= p_1\),
-      \item \(\mathbf{a}\cdot \mathbf{n_2}= p_2\).
+      \item Show that \(\mathbf{n_1}\newparallel\mathbf{n_2}\),
+      \item Find a vector \(\mathbf{b}\) for which
+      \begin{enumerate}[label=(\roman*)]
+        \item \(\mathbf{b}\cdot \mathbf{n_1}= p_1\),
+        \item \(\mathbf{b}\cdot \mathbf{n_2}= p_2\).
+      \end{enumerate}
     \end{enumerate}
     \item Intersect in a line \(\ell\); To find this line:
     \begin{enumerate}[label=M\arabic*:]
@@ -1517,6 +1534,8 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \end{enumerate}
   \end{enumerate}
 \end{minipage}\\
+\hline
+\newpage
 \hline
 \multicolumn{2}{|Sc|}{The Relationship Between A Line and A Plane}\\
 \hline 
@@ -1528,25 +1547,25 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
       \item
       \begin{enumerate}
         \item Show \(\mathbf{m}\cdot \mathbf{n}=0\) so \(\ell \newparallel \Pi\).
-        \item Then \(\mathbf{a}\cdot \mathbf{n}=p\) tells us \(\ell\) lies in \(\Pi\).
+        \item Then \(\mathbf{a}_\ell\cdot \mathbf{n}=p\) tells us \(\ell\) lies in \(\Pi\).
       \end{enumerate}
       \item Substitute \(\ell\) into \(\Pi\) and show the system (of lin eqns) is consistent for all \(\lambda\).
     \end{enumerate}
-    \item \(\ell \newparallel \Pi\) but Nonintersecting
+    \item \(\ell \newparallel \Pi\) but nonintersecting
     \begin{enumerate}[label=M\arabic*:]
       \item 
       \begin{enumerate}
         \item Show \(\mathbf{m}\cdot \mathbf{n}=0\) so \(\ell \newparallel \Pi\).
-        \item Then \(\mathbf{a}\cdot \mathbf{n} \neq p\) tells us \(\ell\) and \(\Pi\) are nonintersecting.
+        \item Then \(\mathbf{a}_\ell\cdot \mathbf{n} \neq p\) tells us \(\ell\) and \(\Pi\) are nonintersecting.
       \end{enumerate}
       \item Substitute \(\ell\) into \(\Pi\), and show the system (of lin eqns) is inconsistent.
     \end{enumerate} 
-    \item Intersect at 1 point
-    \begin{enumerate}[label=M\arabic*:]
+    \item Intersect at one point
+    \begin{enumerate}
       \item Check that \(\mathbf{m}\cdot \mathbf{n} \neq 0\).
+      \item Then, to find the point of intersection of the plane \(\Pi\colon \mathbf{r}\cdot \mathbf{n}=p\) with the line \(\ell\colon \mathbf{r}=\mathbf{a}+\lambda \mathbf{m}\),
+      we solve for \(\lambda\) using simultaneous equations or G.C.
     \end{enumerate}
-    Then, to find the point of intersection of the plane \(\Pi\colon \mathbf{r}\cdot \mathbf{n}=p\) with the line \(\ell\colon \mathbf{r}=\mathbf{a}+\lambda \mathbf{m}\),
-    we solve for \(\lambda\) using simultaneous equations or G.C.
   \end{enumerate}
 \end{minipage}}\\
 \hline
@@ -1562,9 +1581,8 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
 \end{center}
 \end{minipage}}\\
 \hline
-\hline
   \multicolumn{2}{|Sc|}{Angle Between}\\
-      \hline
+  \hline
   \multicolumn{2}{|Sc|}{
     \begin{tabular}{Sc|Sc|Sc}
       \begin{minipage}{0.333\textwidth}
@@ -1579,7 +1597,10 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
         \centering
         Two Planes
       \end{minipage}\\
-      \hline
+    \end{tabular}}\\
+    \hline
+    \multicolumn{2}{|Sc|}{
+    \begin{tabular}{Sc|Sc|Sc}
       \begin{minipage}{0.333\textwidth}
         \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{m}_1}\cdot {\mathbf{\widehat{m}_2}}\right\rvert.\]
       \end{minipage} &
@@ -1709,7 +1730,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   Compare the relative merits of Euler's Method and the Improved Euler's Method.
   \begin{enumerate}[wide=0pt, leftmargin=*]
     \item[Euler's Method:] It is computationally simpler.
-    \item[Improved Euler's Method] More accurate as it takes the mean of the initial and next gradient. 
+    \item[Improved Euler's Method:] It is More accurate as it takes the mean of the initial and next gradient. 
   \end{enumerate}
 \end{note}
 \begin{figure}[H]
@@ -1852,17 +1873,22 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \begin{enumerate}
       \item \(\operatorname{E}(aX+bY+c)=a\operatorname{E}(X)+b\operatorname{E}(Y)+c\),
       \item \(\operatorname{E}(X_1+X_2)=\operatorname{E}(X_1)+\operatorname{E}(X_2)=2\operatorname{E}(X)\).
-      \item \(\operatorname{Var}(aX+bY+c)=a\operatorname{Var}(X)+b\operatorname{Var}(Y)\),
+      \item \(\operatorname{Var}(aX+bY+c)=a^2\operatorname{Var}(X)+b^2\operatorname{Var}(Y)\),
       \item \(\operatorname{Var}(X_1+X_2)=\operatorname{Var}(X_1)+\operatorname{Var}(X_2)=2\operatorname{Var}(X)\).
     \end{enumerate}
     \item Probability Distribution Table:
-    \begin{tabular}{|Sc|Sc|Sc|Sc|}
-      \hline
-      \(x\) & 1 & \(\cdots\) & \(n\)\\
-      \hline
-      \(\Prob(X=x)\) & \(\Prob(X=1)\) & \(\cdots\) & \(\Prob(X=n)\)\\
-      \hline
-    \end{tabular}
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{|Sc|Sc|Sc|Sc|}
+        \hline
+        \(x\) & 1 & \(\cdots\) & \(n\)\\
+        \hline
+        \(\Prob(X=x)\) & \(\Prob(X=1)\) & \(\cdots\) & \(\Prob(X=n)\)\\
+        \hline
+      \end{tabular}
+      \caption{A probability distribution table.}
+      \label{table:a-probability-distribution-table}
+    \end{table}
   \end{enumerate}
 \end{stbox}
 \chapter{Special Discrete Random Variables}
@@ -1879,7 +1905,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \begin{enumerate}
     \item The event of a [trial in context] is independent of that of another [trial in context].
     \item The probability of each [trial in context] is constant.
-    \item Each trial has only 2 mutually exclusive outcomes.
+    \item Each trial has only two mutually exclusive outcomes.
   \end{enumerate}
 \end{note}
 \begin{note}
@@ -1893,7 +1919,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   Let \(W \sim \operatorname{Geo}(p)\), and \(q\coloneq 1-p\). Then,
   \begin{enumerate}
     \item \(\Prob(W>m)=q^m\),
-    \item \(\Prob(X>m+n \,\vert\, X>n)=\Prob(X>m)=q^m\),\item \(\Prob(X<m+n \,\vert\, X>n)=\Prob(X<m)=1-q^m\).
+    \item \(\Prob(X>m+n \,\vert\, X>n)=\Prob(X>m)=q^m\),\item \(\Prob(X<m+n \,\vert\, X>n)=\Prob(X<m)=1-q^{m-1}\).
   \end{enumerate}
 \end{note}
 \begin{definition}{}{}
@@ -1964,12 +1990,14 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \end{enumerate}
 \end{GCSkills}
 \begin{note}
-  Let \(X\) be the random variable such that \(X \sim \operatorname{B}(n,p)\). If \(\Prob(X=n)\) is the \emph{highest probability} that occurs, \(X=n\) is the modal value. So, we solve the two inequalities \(\Prob(X=5)>\Prob(X=4)\) and \(\Prob(X=5)>\Prob(X=6)\). This gives the \emph{strictest} range of values that \(p\) can take (Fig 17.1).
+  Let \(X\) be the random variable such that \(X \sim \operatorname{B}(n,p)\). If \(\highlight[cyan!50]{\Prob(X=n)}\) is the \emph{highest probability} that occurs, \(X=n\) is the modal value. So, we solve the two inequalities \(\highlight[cyan!50]{\Prob(X=n)}>\highlight[orange!50]{\Prob(X=n-1)}\) and \(\highlight[cyan!50]{\Prob(X=n)}>\highlight[orange!50]{\Prob(X=n+1)}\). This gives the \emph{strictest} range of values that \(p\) can take (Fig 17.1).
 \end{note}
-\begin{center}
-  \includegraphics[scale=1]{BinomDist}
-  \captionof{figure}{In this case, \(X=10\) is the mode.} 
-\end{center}
+\begin{figure}[H]
+  \centering
+  \includegraphics{../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf}
+  \caption{The histogram for a binomial distribution \(X\sim\operatorname{B}(10,p)\) that has mode \(m=5\).}
+  \label{fig:binomial-distribution}
+\end{figure}
 \begin{example}{2018 TPJC JC2 H2 MYE P2 8}{}
   On average, 3.5\% of a certain brand of chocolate turn out misshapen. The chocolates are sold in packets of 25.
   \begin{enumerate}[label=(\roman*)]
@@ -2001,7 +2029,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \item Fig 7.1 Argand Diagram \href{https://tex.stackexchange.com/a/466846}{(Source)}
   \item Figure \ref{fig:euler's-methods} An illustration of Euler's Method and the Improved Euler's Method \url{https://tex.stackexchange.com/a/639280}
   \item Oscillatory behavior of DEs modelling physical phenomena Fig 15.2 \href{https://tikz.net/dynamics_oscillator/}{(Source)}
-  \item Fig 17.1 Mode of a binomial distribution \href{https://math.oxford.emory.edu/site/math117/normalApproxToBinomial/}{(Source)}
+  \item Figure \ref{fig:binomial-distribution} Mode of a binomial distribution \href{https://tex.stackexchange.com/a/209658}{(Source)}
   \item Product moment correlation \href{https://www.ncl.ac.uk/webtemplate/ask-assets/external/maths-resources/images/R_value.png}{(Source)}
   \item Used some inspiration from the beautiful preamble by tearfox and det.uwu from Discord, to make my environments look better.
   \item Figure \ref{fig:linear-interpolation} on linear interpolation by me (Grass) \href{https://www.desmos.com/calculator/jp52nra5le}{(Source)}
