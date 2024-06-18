@@ -1,6 +1,7 @@
 \documentclass[tikz]{standalone}
 \usepackage{tikz,pgfplots}
 \usepackage{newpxtext, eulerpx}
+\usetikzlibrary{fpu}
 \begin{document}
 \begin{tikzpicture}[>=latex,
     rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
@@ -27,8 +28,6 @@
       xmax=1.1,
       ymin=-0.1,
       ymax=1.1,
-      width=10cm,
-      height=6cm,
       ]
     %   Origin
     \node[below left] at (axis cs:0,0) {\(0\)};
@@ -65,9 +64,13 @@
       xticklabels={\(\omega x_0\)},
       every tick/.style={},
       yticklabel style={anchor=south east},
-      ytick={-1},
-      yticklabels={\(-\omega x_0\)},
-      yticklabel style={anchor=north east},
+      extra y ticks={-1},
+      extra y tick style={
+          yticklabel style={anchor=north east}},
+      extra x ticks={-1},
+      extra x tick style={
+          xticklabel={\(-\omega x_0\)},
+          xticklabel style={anchor=north east}},
     %   xticklabel=\empty,
     %   yticklabel=\empty,
     %   ticks=none,
@@ -87,5 +90,134 @@
     % Circle
     \draw (axis cs:0,0) circle (2.59cm);
     \end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+  rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+  \begin{axis}[
+    axis x line=center,
+    axis y line=center,
+    xtick={-1,1},
+    ytick={-1,1},
+    every tick/.style={},
+    xticklabels={\(-x_0\),\(x_0\)},
+    yticklabels={\(-\omega^2x_0\),\(\omega^2x_0\)},
+  %   xticklabel=\empty,
+  %   yticklabel=\empty,
+  %   ticks=none,
+    xlabel={\(x\)},
+    ylabel={\(a\)},
+    xlabel style={right},
+    ylabel style={above},
+    xmin=-1.1,
+    xmax=1.1,
+    ymin=-1.1,
+    ymax=1.1,
+    ]
+  %   Origin
+  \node[below left] at (axis cs:0,0) {\(0\)};
+  % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+  % acceleration a(x)
+  \addplot[domain=-1:1,blue,samples=100] {-x};
+  % Dotted lines
+  \addplot[domain=-1:-0.35,black,dashed] {1};
+  \addplot[domain=0:1,black,dashed] {-1};
+  \draw[black,dashed] (axis cs:-1,0) to (axis cs:-1,1);
+  \draw[black,dashed] (axis cs:1,-0.2) to (axis cs:1,-1);
+  \end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+  rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+  \begin{axis}[
+    axis x line=center,
+    axis y line=center,
+    xtick={1/8,2/8,...,1},
+    ytick={1},
+    every tick/.style={},
+    xticklabels={\(\frac{T}{8}\),\(\frac{T}{4}\),\(\frac{3T}{8}\),\(\frac{T}{2}\),\(\frac{5T}{8}\),\(\frac{3T}{4}\),\(\frac{7T}{8}\),\(T\)},
+    yticklabels={\(E_T\)},
+  %   xticklabel=\empty,
+  %   yticklabel=\empty,
+  %   ticks=none,
+    xlabel={\(x\)},
+    ylabel={\(E\)},
+    xlabel style={right},
+    ylabel style={above},
+    xmin=-0.07,
+    xmax=1.1,
+    ymin=-0.1,
+    ymax=1.1,
+    ]
+  %   Origin
+  \node[below left] at (axis cs:0,0) {\(0\)};
+  % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+  % K.E.
+  \addplot[domain=0:1,blue,samples=100] {(cos(deg(2*pi*x)))^2};
+  % P.E.
+  \addplot[domain=0:1,violet,samples=100] {(sin(deg(2*pi*x)))^2};
+  % Dotted lines
+  \addplot[domain=0:1,black,dashed] {1};
+  % \draw[black,dashed] (axis cs:1/8,0) to (axis cs:1/8,1);
+  \draw[black,dashed] (axis cs:1/4,0) to (axis cs:1/4,1);
+  % \draw[black,dashed] (axis cs:3/8,0) to (axis cs:3/8,1);
+  \draw[black,dashed] (axis cs:1/2,0) to (axis cs:1/2,1);
+  % \draw[black,dashed] (axis cs:5/8,0) to (axis cs:5/8,1);
+  \draw[black,dashed] (axis cs:3/4,0) to (axis cs:3/4,1);
+  % \draw[black,dashed] (axis cs:7/8,0) to (axis cs:7/8,1);
+  \draw[black,dashed] (axis cs:1,0) to (axis cs:1,1);
+  \end{axis}
+  \matrix [draw,below left] at (current bounding box.south east) {
+    \node [bluenode,label=right:\textcolor{blue}{Kinetic energy}] {};\\
+    \node [violetnode,label=right:\textcolor{violet}{Potential energy}] {}; \\
+    };
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+  rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+  nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+  \begin{axis}[
+    axis x line=center,
+    axis y line=center,
+    xtick={-1,1},
+    ytick={1},
+    every tick/.style={},
+    xticklabels={},
+    yticklabels={\(E_T\)},
+  %   xticklabel=\empty,
+  %   yticklabel=\empty,
+  %   ticks=none,
+    xlabel={\(x\)},
+    ylabel={\(E\)},
+    xlabel style={right},
+    ylabel style={above},
+    xmin=-0.1,
+    xmax=2.6,
+    ymin=-0.1,
+    ymax=7.1,
+    ]
+  %   Origin
+  \node[below left] at (axis cs:0,0) {\(0\)};
+  % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+  % No damping
+  \addplot[domain=0:2.5,black,samples=500] {1/(sqrt((1-x^2)^2)+(2*x*0)^2)};
+  % Light damping
+  \addplot[domain=0:2.5,yellow!85!black,samples=200,smooth] {1/(sqrt((1-x^2)^2)+(2*x*0.22)^2)};
+  % Heavy damping
+  \addplot[domain=0:2.5,orange,smooth,samples=200] {1/(sqrt((1-x^2)^2)+(2*x*0.3)^2)};
+  \addplot[domain=0:2.5,black,smooth,samples=500,dashed] {1/(sqrt(1-x^4))};
+  % Dotted lines
+  % \addplot[domain=0:1,black,dashed] {1};
+  \draw[black,dashed] (axis cs:1,0) to (axis cs:1,1);
+  \end{axis}
+  \matrix [draw,below left] at (current bounding box.south east) {
+    \node [bluenode,label=right:\textcolor{blue}{Kinetic energy}] {};\\
+    \node [violetnode,label=right:\textcolor{violet}{Potential energy}] {}; \\
+    };
 \end{tikzpicture}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  18 JUN 2024 00:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  18 JUN 2024 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,13 +608,13 @@ LaTeX Font Info:    Redeclaring math symbol \ell on input line 245.
 LaTeX Font Info:    Redeclaring math symbol \imath on input line 275.
 LaTeX Font Info:    Redeclaring math symbol \jmath on input line 276.
 LaTeX Font Info:    Redeclaring math symbol \wp on input line 277.
-)
-LaTeX Font Info:    Trying to load font information for T1+zplTLF on input line 4.
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex)
+LaTeX Font Info:    Trying to load font information for T1+zplTLF on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1zpltlf.fd
 File: t1zpltlf.fd 2021/05/25 v1.0 font definition file for T1/zpl/TLF
 )
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
+(Font)              scaled to size 10.0pt on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
@@ -622,40 +622,40 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (./SHM-too.aux)
 \openout1 = `SHM-too.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 4.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 4.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 5.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 4.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 4.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 4.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 5.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
@@ -698,107 +698,408 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 4.
+ on input line 5.
 
 \c@mv@tabular=\count316
 \c@mv@boldtabular=\count317
-LaTeX Info: Command `\dddot' is already robust on input line 4.
-LaTeX Info: Command `\ddddot' is already robust on input line 4.
-LaTeX Font Info:    Trying to load font information for OT1+zplTLF on input line 44.
+LaTeX Info: Command `\dddot' is already robust on input line 5.
+LaTeX Info: Command `\ddddot' is already robust on input line 5.
+LaTeX Font Info:    Trying to load font information for OT1+zplTLF on input line 43.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2021/05/25 v1.0 font definition file for OT1/zpl/TLF
 )
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 43.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 44.
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 43.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 43.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 43.
  (c:/texlive/2023/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.3pt on input line 44.
+(Font)              scaled to size 7.3pt on input line 43.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.5pt on input line 44.
+(Font)              scaled to size 5.5pt on input line 43.
  [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] [2] (./SHM-too.aux)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] [2] [3] [4]
+NOTE: coordinate (1Y1.001999e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.007009e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0120189e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0170288e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0220387e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0270486e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0320586e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0370685e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0420784e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0470883e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0520982e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0571082e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.062118e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.067128e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0721379e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0771478e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0821577e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0871677e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0921776e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0971875e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1021974e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1072073e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1122173e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1172272e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1222371e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.127247e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.132257e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1372668e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1422768e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1472867e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1522966e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1573065e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1623164e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1673264e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1723363e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1773462e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1823561e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.187366e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.192376e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1973859e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2023958e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2074057e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2124156e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2174255e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2224355e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2274454e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2324553e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2374652e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2424751e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.247485e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.252495e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2575049e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2625148e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2675247e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2725346e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2775446e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2825545e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2875644e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2925743e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2975842e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3025941e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.307604e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.312614e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3176239e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3226338e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3276437e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3326537e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3376636e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3426735e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3476834e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3526933e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3577032e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3627132e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3677231e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.372733e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3777429e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3827528e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3877628e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3927727e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3977826e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4027925e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4078024e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4128123e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4178223e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4228322e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4278421e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.432852e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.437862e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4428719e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4478818e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4528917e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4579016e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4629115e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4679214e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4729314e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4779413e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4829512e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4879611e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.492971e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.497981e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5029909e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5080008e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5130107e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5180206e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5230305e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5280405e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5330504e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5380603e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5430702e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5480801e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.55309e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5581e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5631099e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5681198e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5731297e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5781396e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5831496e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5881595e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5931694e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5981793e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6031892e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6081992e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.613209e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.618219e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6232289e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6282388e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6332487e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6382587e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6432686e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6482785e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6532884e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6582983e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6633083e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6683182e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6733281e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.678338e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.683348e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6883578e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6933678e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6983777e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7033876e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7083975e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7134074e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7184174e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7234273e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7284372e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7334471e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.738457e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.743467e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7484769e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7534868e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7584967e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7635066e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7685165e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7735265e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7785364e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7835463e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7885562e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7935661e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.798576e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.803586e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8085959e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8136058e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8186157e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8236256e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8286356e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8336455e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8386554e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8436653e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8486752e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8536852e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.858695e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.863705e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8687149e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8737248e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8787347e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8837447e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8887546e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8937645e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8987744e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9037843e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9087943e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9138042e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9188141e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.923824e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9288339e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9338438e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9388538e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9438637e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9488736e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9538835e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9588934e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9639034e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9689133e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9739232e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9789331e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.983943e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.988953e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9939629e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9989728e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0039827e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0089926e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0140025e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0190125e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0240224e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0290323e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0340422e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0390521e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.044062e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.049072e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0540819e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0590918e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0641017e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0691116e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0741216e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0791315e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0841414e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0891513e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0941612e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0991711e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.104181e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.109191e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1142009e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1192108e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1242207e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1292307e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1342406e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1392505e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1442604e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1492703e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1542802e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1592902e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1643001e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.16931e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1743199e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1793298e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1843398e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1893497e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1943596e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1993695e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2043794e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2093893e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2143993e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2194092e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2244191e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.229429e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.234439e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2394489e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2444588e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2494687e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2544786e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2594885e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2644984e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2695084e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2745183e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2795282e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2845381e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.289548e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.294558e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2995679e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3045778e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3095877e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3145976e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3196075e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3246175e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3296274e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3346373e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3396472e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3446571e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.349667e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.354677e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3596869e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3646968e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3697067e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3747166e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3797266e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3847365e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3897464e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3947563e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3997662e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4047762e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.409786e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.414796e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4198059e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4248158e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4298257e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4348357e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4398456e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4448555e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4498654e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4548753e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4598853e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4648952e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4699051e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.474915e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.479925e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4849348e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4899448e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4949547e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4999646e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+[5] (./SHM-too.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 27654 strings out of 475237
- 672461 string characters out of 5768555
- 1927238 words of memory out of 5000000
- 48430 multiletter control sequences out of 15000+600000
- 575347 words of font info for 69 fonts, out of 8000000 for 9000
+ 27826 strings out of 475237
+ 676268 string characters out of 5768555
+ 1940238 words of memory out of 5000000
+ 48594 multiletter control sequences out of 15000+600000
+ 576856 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,121p,730b,1995s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on SHM-too.pdf (2 pages, 37910 bytes).
+ 117i,15n,121p,730b,2014s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
+Output written on SHM-too.pdf (5 pages, 68080 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
