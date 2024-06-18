@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  17 JUN 2024 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  18 JUN 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1544,33 +1544,38 @@ Package pdftex.def Info: ./images/../Diagrams/Binomial-Distribution/Binomial-Dis
 (pdftex.def)             Requested size: 220.19812pt x 190.94992pt.
  [61 <./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf>] (./chapters/continuous-random-variables.tex [62]
 Chapter 20.
-) (./chapters/special-continuous-random-variables.tex [63
+<Diagrams/CRV-cosine/diagram.pdf, id=1181, 214.74428pt x 184.88272pt>
+File: Diagrams/CRV-cosine/diagram.pdf Graphic file (type pdf)
+<use Diagrams/CRV-cosine/diagram.pdf>
+Package pdftex.def Info: Diagrams/CRV-cosine/diagram.pdf  used on input line 30.
+(pdftex.def)             Requested size: 214.74374pt x 184.88225pt.
+[63
 
-]
+]) (./chapters/special-continuous-random-variables.tex [64 <./Diagrams/CRV-cosine/diagram.pdf>]
 Chapter 21.
-[64
+[65
 
 ]
-<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1191, 4047.12pt x 1561.835pt>
+<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1224, 4047.12pt x 1561.835pt>
 File: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
 <use ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
 Package pdftex.def Info: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 65.
 (pdftex.def)             Requested size: 432.00462pt x 166.70241pt.
- [65 <./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>]) (./chapters/sampling-and-estimation.tex [66]
+ [66 <./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>]) (./chapters/sampling-and-estimation.tex [67]
 Chapter 22.
-[67
+[68
 
-] [68] [69]) (./chapters/hypothesis-testing.tex [70]
+] [69] [70]) (./chapters/hypothesis-testing.tex [71]
 Chapter 23.
-[71
+[72
 
-] [72]
-<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1278, 247.79776pt x 206.2867pt>
+] [73]
+<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1310, 247.79776pt x 206.2867pt>
 File: ./images/../Diagrams/t-distribution/t-distributon.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/t-distribution/t-distributon.pdf>
 Package pdftex.def Info: ./images/../Diagrams/t-distribution/t-distributon.pdf  used on input line 182.
 (pdftex.def)             Requested size: 215.0023pt x 178.98322pt.
- [73 <./images/../Diagrams/t-distribution/t-distributon.pdf>]
+ [74 <./images/../Diagrams/t-distribution/t-distributon.pdf>]
 Overfull \hbox (12.41122pt too wide) in paragraph at lines 295--295
 []\OT1/cmr/m/n/10 (ii)(1)  
  []
@@ -1580,7 +1585,7 @@ Overfull \hbox (12.41122pt too wide) in paragraph at lines 296--296
 []\OT1/cmr/m/n/10 (ii)(2)  
  []
 
-[74] [75] [76]
+[75] [76] [77]
 Overfull \hbox (3.88893pt too wide) in paragraph at lines 434--434
 []\OT1/cmr/m/n/10 [ii](1)  
  []
@@ -1600,7 +1605,7 @@ Overfull \hbox (6.66672pt too wide) in paragraph at lines 457--457
 []\OT1/cmr/m/n/10 [iii](2)  
  []
 
-[77
+[78
 
 ]
 Overfull \hbox (3.88893pt too wide) in paragraph at lines 499--499
@@ -1620,7 +1625,7 @@ Overfull \hbox (2.39914pt too wide) detected at line 559
 
 LaTeX Warning: Float too large for page by 35.17229pt on input line 579.
 
-[78]) (./Subfiles/FMBsubfile.tex
+[79]) (./Subfiles/FMBsubfile.tex
 Chapter 24.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1634,38 +1639,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 11.
 
-<Subfiles/../Diagrams/Chi-square.pdf, id=1386, 451.6875pt x 301.125pt>
+<Subfiles/../Diagrams/Chi-square.pdf, id=1419, 451.6875pt x 301.125pt>
 File: Subfiles/../Diagrams/Chi-square.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/Chi-square.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/Chi-square.pdf  used on input line 21.
 (pdftex.def)             Requested size: 301.00192pt x 200.6775pt.
-[79
+[80
 
 
 
 
- <./Subfiles/../Diagrams/Chi-square.pdf>] [80]
+ <./Subfiles/../Diagrams/Chi-square.pdf>] [81]
 Underfull \hbox (badness 10000) in paragraph at lines 115--118
 [][]
  []
 
-[81] [82] [83]
+[82] [83] [84]
 Chapter 25.
-<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1453, 876.77562pt x 330.23375pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1485, 876.77562pt x 330.23375pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 1.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 1.png  used on input line 281.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1455, 935.495pt x 259.46938pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1487, 935.495pt x 259.46938pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 2.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 2.png  used on input line 282.
 (pdftex.def)             Requested size: 374.19136pt x 103.7859pt.
-[84
+[85
 
- <./Subfiles/../images/Product Moment Correlation Coefficient 1.png>]) [85 <./Subfiles/../images/Product Moment Correlation Coefficient 2.png>]
+ <./Subfiles/../images/Product Moment Correlation Coefficient 1.png>]) [86 <./Subfiles/../images/Product Moment Correlation Coefficient 2.png>]
 Chapter 26.
-[86
+[87
 
 ] (./Notes.aux)
  ***********
@@ -1676,18 +1681,18 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: 27D6229927D78524326B1BEECBA1CDF4;8988.
  ) 
 Here is how much of TeX's memory you used:
- 49271 strings out of 475237
- 1165619 string characters out of 5768555
+ 49295 strings out of 475237
+ 1166184 string characters out of 5768555
  1977238 words of memory out of 5000000
- 68929 multiletter control sequences out of 15000+600000
+ 68948 multiletter control sequences out of 15000+600000
  591855 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,27n,131p,743b,3107s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Notes.pdf (88 pages, 2401331 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
+Output written on Notes.pdf (89 pages, 2441294 bytes).
 PDF statistics:
- 1815 PDF objects out of 2073 (max. 8388607)
- 1559 compressed objects within 16 object streams
- 675 named destinations out of 1000 (max. 500000)
- 583 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1851 PDF objects out of 2073 (max. 8388607)
+ 1586 compressed objects within 16 object streams
+ 680 named destinations out of 1000 (max. 500000)
+ 588 words of extra memory for PDF output out of 10000 (max. 10000000)
 

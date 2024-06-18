@@ -1,0 +1,91 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz,pgfplots}
+\usepackage{newpxtext, eulerpx}
+\begin{document}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+    \begin{axis}[
+      axis x line=center,
+      axis y line=center,
+      xtick={-1,1},
+      ytick={1},
+      every tick/.style={},
+      xticklabels={\(-x_0\),\(x_0\)},
+      yticklabels={\(\frac{1}{2}m\omega^2x_0^2\)},
+      yticklabel style={anchor=south east},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+      xlabel={\(x\)},
+      ylabel={\(E\)},
+      xlabel style={right},
+      ylabel style={above},
+      xmin=-1.1,
+      xmax=1.1,
+      ymin=-0.1,
+      ymax=1.1,
+      width=10cm,
+      height=6cm,
+      ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % K.E.
+    \addplot[domain=-1:1,blue,samples=100] {-x^2+1};
+    % P.E.
+    \addplot[domain=-1:1,violet,samples=100] {x^2};
+    % Dotted lines
+    \addplot[domain=-1:1,black,dashed] {1};
+    \draw[black,dashed] (axis cs:-1,0) to (axis cs:-1,1);
+    \draw[black,dashed] (axis cs:1,0) to (axis cs:1,1);
+    \end{axis}
+    \matrix [draw,below left] at (current bounding box.south east) {
+        \node [bluenode,label=right:\textcolor{blue}{Kinetic energy}] {};\\
+        \node [violetnode,label=right:\textcolor{violet}{Potential energy}] {}; \\
+        };
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+    \begin{axis}[
+      axis x line=center,
+      axis y line=center,
+      xtick={-1},
+      ytick={1},
+      xticklabels={\(-x_0\)},
+      xticklabel style={anchor=north east},
+      xtick={1},
+      xticklabels={\(x_0\)},
+      xticklabel style={anchor=north west},
+      xticklabels={\(\omega x_0\)},
+      every tick/.style={},
+      yticklabel style={anchor=south east},
+      ytick={-1},
+      yticklabels={\(-\omega x_0\)},
+      yticklabel style={anchor=north east},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+      xlabel={\(x\)},
+      ylabel={\(v\)},
+      xlabel style={right},
+      ylabel style={above},
+      xmin=-1.1,
+      xmax=1.1,
+      ymin=-1.1,
+      ymax=1.1,
+      axis equal,
+      ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % Circle
+    \draw (axis cs:0,0) circle (2.59cm);
+    \end{axis}
+\end{tikzpicture}
+\end{document}

@@ -9,6 +9,31 @@
     \item When writing out the cdf as a piecewise function, we explicitly write out the range of values for each case. We reserve the use of ``otherwise'' for pdf's.
     \item Any cdf is continuous and nondecreasing.
     \item Let \(X\) be a continuous random variable with cdf \(F\). To find the pdf \(g\) of any \(Y(X)\), we first find its cdf, then differentiate. We achieve this by reverse engineering \(Y(X)\leq y\) to find an inequality that relates \(X\) with \(y\). E.g. \(e^X\leq y\) iff \(X\leq \ln(y)\).
+  \end{itemize}
+\end{stbox}
+\begin{note}
+  It is important to check whether \(Y(X)\) is an increasing or decreasing function.
+\end{note}
+\begin{example}{An increasing \(Y(X)\).}{}
+  Let \(Y=e^X\). Then,
+  \[\Prob(Y\leq y)=\Prob(e^X\leq y)=\Prob(X\leq\ln(y)).\]
+\end{example}
+\begin{example}{A decreasing \(Y(X)\).}{}
+  Let \(Y=e^{-X}\). Then,
+  \[\Prob(Y\leq y)=\Prob(e^X\leq y)=\Prob(X\geq\ln(y)).\]
+\end{example}
+\begin{example}{Another decreasing \(Y(X)\).}
+  Let \(X\sim\operatorname{U}(0,\pi/2)\) and \(Y=\cos(X)\). Then, 
+  \[\Prob(Y\leq y)=\Prob(\cos(X)\leq y)=\textcolor{green!70!black}{\Prob(X\leq\pi/2-\cos^{-1}(y))}\neq \textcolor{red}{\Prob(X\leq\cos^{-1}(y))}.\]
+  \begin{figure}[H]
+    \centering
+    \includegraphics{Diagrams/CRV-cosine/diagram.pdf}
+    \caption{The graph of \(\cos(x)\) against \(x\). Notice that \textcolor{green!70!black}{\([\cos^{-1}(y),\pi/2]\stackrel{\cos}{\to}[0,y]\)}, while \textcolor{red}{\([0,\cos^{-1}(y)]\stackrel{\cos}{\to}[y,1]\)}.}
+    \label{fig:CRV-cosine}
+  \end{figure}
+\end{example}
+\begin{stbox}{}
+  \begin{itemize}
     \item A \emph{median} of \(X\) is any value \(m\) such that \(\Prob(X\leq m)=F(m)=1/2\).
     \item Mean/Expectation: 
     \[\mu=\E(X)\coloneq \int_{-\infty}^{\infty}xf(x)\,dx \qquad\text{and}\qquad \E(g(X))=\int_{-\infty}^{\infty}g(x)f(x)\,dx.\]

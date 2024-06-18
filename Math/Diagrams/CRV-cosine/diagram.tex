@@ -1,0 +1,41 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz,pgfplots}
+\usepackage{newpxtext, eulerpx}
+\begin{document}
+\begin{tikzpicture}[>=latex,
+    rednode/.style={rectangle, draw=red, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    bluenode/.style={rectangle, draw=blue, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    violetnode/.style={rectangle, draw=violet, minimum height=0.1pt, minimum width=10pt, inner sep=0pt,},
+    nonode/.style={rectangle, draw=red, minimum height=0pt, minimum width=0pt, inner sep=0pt,},]
+    \begin{axis}[
+      axis x line=center,
+      axis y line=center,
+      xtick={pi/4,pi/2},
+      ytick={sqrt(2)/2,1},
+      every tick/.style={},
+      xticklabels={\(\cos^{-1}(y)\),\(\pi/2\)},
+      yticklabels={\(y\),1},
+    %   xticklabel=\empty,
+    %   yticklabel=\empty,
+    %   ticks=none,
+      xlabel={\(x\)},
+      ylabel={\(\cos(x)\)},
+      xlabel style={right},
+      ylabel style={above},
+      xmin=-0.08,
+      xmax=pi/2+0.1,
+      ymin=-0.1,
+      ymax=1.1,
+      ]
+    %   Origin
+    \node[below left] at (axis cs:0,0) {\(0\)};
+    % https://tex.stackexchange.com/questions/33607/easy-curves-in-tikz
+    % Cosine
+    \addplot[domain=0:pi/4,blue,samples=100,thick] {cos(deg(x))};
+    \addplot[domain=pi/4:pi/2,red,samples=100,thick] {cos(deg(x))};
+    % Dotted lines
+    \draw[black,dashed] (axis cs:0,0.7071067812) to (axis cs:0.7853981634,0.7071067812);
+    \draw[black,dashed] (axis cs:0.7853981634,0) to (axis cs:0.7853981634,0.7071067812);
+    \end{axis}
+\end{tikzpicture}
+\end{document}

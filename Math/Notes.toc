@@ -50,11 +50,11 @@
 \contentsline {chapter}{\numberline {18}Discrete Random Variables}{58}{chapter.18}%
 \contentsline {chapter}{\numberline {19}Special Discrete Random Variables}{59}{chapter.19}%
 \contentsline {chapter}{\numberline {20}Continuous Random Variables}{63}{chapter.20}%
-\contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{64}{chapter.21}%
-\contentsline {chapter}{\numberline {22}Sampling and Estimation}{67}{chapter.22}%
-\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{71}{chapter.23}%
-\contentsline {section}{\numberline {23.1}General Information}{71}{section.23.1}%
-\contentsline {section}{\numberline {23.2}Summary}{77}{section.23.2}%
-\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{79}{chapter.24}%
-\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{84}{chapter.25}%
-\contentsline {chapter}{\numberline {26}Bibliography}{86}{chapter.26}%
+\contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{65}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Sampling and Estimation}{68}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{72}{chapter.23}%
+\contentsline {section}{\numberline {23.1}General Information}{72}{section.23.1}%
+\contentsline {section}{\numberline {23.2}Summary}{78}{section.23.2}%
+\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{80}{chapter.24}%
+\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{85}{chapter.25}%
+\contentsline {chapter}{\numberline {26}Bibliography}{87}{chapter.26}%
