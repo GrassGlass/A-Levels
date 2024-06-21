@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  6 JUN 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  21 JUN 2024 08:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,13 +793,13 @@ L3 programming layer <2023-06-30>
 Here is how much of TeX's memory you used:
  27781 strings out of 475237
  675207 string characters out of 5768555
- 1925238 words of memory out of 5000000
+ 1926238 words of memory out of 5000000
  48548 multiletter control sequences out of 15000+600000
  584100 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,15n,121p,747b,1968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on The-Photoelectric-Effect.pdf (7 pages, 57648 bytes).
+Output written on The-Photoelectric-Effect.pdf (7 pages, 57660 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
