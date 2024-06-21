@@ -174,14 +174,14 @@ Such that the following properties hold:
                     \mathbf{B}^\top
                 \end{pmatrix}.
             \end{align*}
-            Then, a basis for \(V\cap W\) can be formed by choosing \(r\) linearly independent columns of 
-            \(\begin{pmatrix}
-                \mathbf{A}&\mathbf{B}
-            \end{pmatrix}\),
-                or rows of \(\begin{pmatrix}
-                \mathbf{A}^\top\\
-                \mathbf{B}^\top
-            \end{pmatrix}\).
+            Then, a basis for \(V\cap W\) can be formed by choosing \(r\) linearly independent vectors in \(V\cap W\). 
+            % \(\begin{pmatrix}
+            %     \mathbf{A}&\mathbf{B}
+            % \end{pmatrix}\),
+            %     or rows of \(\begin{pmatrix}
+            %     \mathbf{A}^\top\\
+            %     \mathbf{B}^\top
+            % \end{pmatrix}\).
             \item \href{https://math.stackexchange.com/a/802878}{Another alternative}, probably the best option! Skip the row reduction of \(\mathbf{A}\) and \(\mathbf{B}\) in the above method. We just reduce
         \[\begin{pmatrix}
             \mathbf{A}&\mathbf{B}
@@ -202,9 +202,9 @@ Such that the following properties hold:
     \end{itemize}
 \end{stbox}
 \begin{definition}{}{}
-    Let \(\mathbf{A}\in \mathrm{M}_{n\times n}(\mathbb{F})\). If \(n=1\), so that \(A=(a_11)\), we define \(\det(\mathbf{A})\coloneq a_11\). For \(n\geq 2\), we define \(\det(\mathbf{A})\) recursively as 
+    Let \(\mathbf{A}\in \mathrm{M}_{n\times n}(\mathbb{F})\). If \(n=1\), so that \(A=(a_{11})\), we define \(\det(\mathbf{A})\coloneq a_{11}\). For \(n\geq 2\), we define \(\det(\mathbf{A})\) recursively as 
     \[\det(\mathbf{A})\coloneq \sum_{j=1}^{n}{(-1)^{1+j}}\mathbf{A}_{1j}\cdot \det(\widetilde{\mathbf{A}}_{1j}).\]
-    THe scalar \(\det(\mathbf{A})\) is called the \emph{determinant} of \(\mathbf{A}\) and is also denoted by \(\lvert \mathbf{A} \rvert\). The scalar 
+    The scalar \(\det(\mathbf{A})\) is called the \emph{determinant} of \(\mathbf{A}\) and is also denoted by \(\lvert \mathbf{A} \rvert\). The scalar 
     \[(-1)^{i+j}\det(\widetilde{\mathbf{A}}_{1j})\]
     is called the cofactor of the entry of \(\mathbf{A}\) in row \(i\), column \(j\).
 \end{definition}
@@ -221,7 +221,7 @@ Such that the following properties hold:
         \mathbf{a}_1\\
         \mathbf{a}_2\\
         \vdots\\
-        \mathbf{a}_{r-1}
+        \mathbf{a}_{r-1}\\
         \mathbf{u}+k\mathbf{v}\\
         \mathbf{a}_{r+1}\\
         \vdots\\
@@ -231,7 +231,7 @@ Such that the following properties hold:
         \mathbf{a}_1\\
         \mathbf{a}_2\\
         \vdots\\
-        \mathbf{a}_{r-1}
+        \mathbf{a}_{r-1}\\
         \mathbf{u}\\
         \mathbf{a}_{r+1}\\
         \vdots\\
@@ -241,7 +241,7 @@ Such that the following properties hold:
         \mathbf{a}_1\\
         \mathbf{a}_2\\
         \vdots\\
-        \mathbf{a}_{r-1}
+        \mathbf{a}_{r-1}\\
         \mathbf{v}\\
         \mathbf{a}_{r+1}\\
         \vdots\\
@@ -333,7 +333,7 @@ Such that the following properties hold:
             \[\frac{a \lvert f(b) \rvert+b \lvert f(a) \rvert}{\lvert f(a) \rvert+\lvert f(b) \rvert}.\]
             \begin{itemize}
                 \item The sequence \(\{x_n\}\) of approximations \emph{always} converges to \(\alpha\).
-                \item The smaller \(f''(x)\) is (i.e. the slower the gradient \(f'(x)\) changes) near \(\alpha\), the faster the rate of convergence.
+                \item The smaller \(\lvert f''(x) \rvert\) is (i.e. the slower the gradient \(f'(x)\) changes) near \(\alpha\), the faster the rate of convergence.
                 \item Error:
                 \begin{table}[H]
                     \centering
