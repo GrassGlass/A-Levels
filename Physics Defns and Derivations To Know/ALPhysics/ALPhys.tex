@@ -38,7 +38,70 @@
     \item \emph{Newton's Second Law of Motion} states that the rate of change of momentum of a body is directly proportional to the resultant force acting on the body and occurs \emph{in the direction} of the resultant force.
     \item \emph{Newton's Third Law of Motion} states that if body A exerts a force on body B, then body B exerts a force of the \emph{same type} that is equal in magnitude and opposite in direction on body A.
     \item \emph{Impulse} is defined as the product of \emph{average} force acting on an object and the time for which the force acts.
-    \item The \emph{Principle of Conservation of Linear Momentum} states that the total momentum of a system remains constant provided no \emph{external} resultant force acts on the system.
+    \item The \emph{Principle of Conservation of Linear Momentum} states that the total momentum of a system remains constant provided no \emph{external} resultant force acts on the system. i.e.
+    \[m_1u_1+m_2u_2=m_1v_1+m_2v_2.\]
+    \item A elastic collision is on where kinetic energy is conserved. i.e.
+    \[m_1u_1^2+m_2u_2^2=m_1v_1^2+m_2v_2^2.\]
+    \item The below table provides a quick shortcut, that is particularly helpful in solving multiple choice questions fast. We assume a mass \(m_1\) is moving with velocity \(u_1\) towards a \emph{stationary} (\(u_2=0\)) mass \(m_2\).
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{ScScSc}
+            \toprule 
+            Case & \(v_1\) & \(v_2\)\\
+            \midrule
+            \(m_1=m_2\) & \(0\) & \(u\)\\
+            \(m_1\ll m_2\) & \(\approx -u\) & \(\approx 0\)\\
+            \(m_1\gg m_2\) & \(\approx u\) & \(\approx 2u\)\\
+            \bottomrule
+        \end{tabular}
+        \caption{Special cases of elastic collisions.}
+        \label{table:elastic-collisions}
+    \end{table}
+    \item For an elastic collision, the relative velocity of approach is equal to the relative velocity after collision:
+    \[u_1\highlight[green!50]{-u_2}=v_2\highlight[green!50]{-v_1}.\]
+    \emph{Note.} The formula is \textcolor{red}{\emph{not} \(u_1-u_2=v_1-v_2\)}.
+    \item An inelastic collision is one where kinetic energy is not conserved. 
+    \item In a perfectly inelastic collision, the masses coalesce (become one) and move off with the same velocity. In other words,
+    \[m_1u_1+m_2u_2=(m_1+m_2)v.\]
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[page=1]{../images/collisions/collisions.pdf}
+        \caption{The masses travelling towards each other, before colliding.}
+    \end{subfigure}%
+
+    \vspace{1em}
+    \begin{subfigure}[c]{0.4\textwidth}
+        \centering
+        \includegraphics[page=2]{../images/collisions/collisions.pdf}
+        \caption{After an elastic collision, the masses may travel in opposite directions.}
+    \end{subfigure}\hfill
+    \begin{subfigure}[c]{0.5\textwidth}
+        \centering
+        \includegraphics[page=3]{../images/collisions/collisions.pdf}
+        \caption{After an elastic collision, the masses may travel in the same direction, with equal velocities.}
+    \end{subfigure}%
+
+    \vspace{1em}
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[page=4]{../images/collisions/collisions.pdf}
+        \caption{After a perfectly inelastic collision, the coalesced masses travel together in the same direction.}
+    \end{subfigure}%
+    \caption{\ref{source:collision} An illustration of (perfectly) elastic and inelastic collisions.}
+    \label{fig:collision-1d}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[page=7]{../images/collisions/collisions.pdf}
+    \caption{\ref{source:collision} Another illustration of a (perfectly) inelastic collision.}
+    \label{fig:collision-2d}
+\end{figure}
+\begin{itemize}
+    \item An explosion does not conserve kinetic energy. But momentum is still conserved. Suppose a (stationary) mass splits into \(n\) masses \(m_1\), \(m_2\), \dots, \(m_n\). Then we have
+    \[m_1v_1+m_2v_2+\dots+m_nv_n=0.\]
 \end{itemize}
 \chapter{Forces}
 \begin{center}
@@ -46,23 +109,107 @@
     \captionsetup{type=figure}
     \caption[figure]{\ref{Crane} Forces acting on a crane.}
 \end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[page=2]{../images/ladder/ladder.pdf}
+    \caption{\ref{source:fbd-ladder} The free body diagram for a ladder, on which a person stands, and which is leaning against a wall.}
+    \label{fig:fbd-ladder}
+\end{figure}
 \begin{itemize}
     \item \emph{Hooke's Law} states that the force is directly proportional to the extension in a material if its \emph{limit of proportionality} is not exceeded.
     \item The \emph{center of gravity} of an object is the point at which the entire weight of a body may be considered to act.
+    \item For a mass placed on a ramp, the forces it experiences are as shown below.
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{0.3\textwidth}
+            \centering
+            \includegraphics[page=4]{../images/Force-Triangle/Force-Triangle.pdf}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.3\textwidth}
+            \centering
+            \includegraphics[page=5]{../images/Force-Triangle/Force-Triangle.pdf}
+        \end{subfigure}%
+        \caption{\ref{source:forces-triangle} Mass \(m\) placed on a ramp whose top surface makes an angle \(\theta\) with the horizontal.}
+        \label{fig:forces-triangle}
+    \end{figure}
     \item The \emph{moment} of a force is equal to the product of the force and the \emph{perpendicular} distance of the \emph{line of action} of the force from the pivot. It is also the turning effect of a force.
     \item \emph{Torque of a couple} is defined as the product of one of the forces and the \emph{perpendicular} distance between the \emph{lines of action} of the forces.
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{0.3\textwidth}
+            \centering
+            \includegraphics[page=1]{../images/torque/torque.pdf}
+            \caption{A perpendicular force.}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.3\textwidth}
+            \centering
+            \includegraphics[page=2]{../images/torque/torque.pdf}
+            \caption{A parallel force.}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.3\textwidth}
+            \centering
+            \includegraphics[page=3]{../images/torque/torque.pdf}
+            \caption{A force which is neither perpendicular nor parallel.}
+        \end{subfigure}%
+        \caption{\ref{source:torque} The torque of a force acting on a wheel}
+        \label{fig:torque-wheel}
+    \end{figure}
     \item The \emph{Principle of Moments} states that if a body is in equilibrium, the sum of all the clockwise moments about \emph{any axis} must be equal to the sum of anticlockwise moments about the \emph{same axis}.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[page=4]{../images/torque/torque.pdf}
+        \caption{\ref{source:torque} The free body diagram of a lever, which is in equilibrium iff \(m_1gr_1=m_2gr_2\).}
+        \label{fig:torque-lever}
+    \end{figure}
     \item \emph{Density} is defined as the mass per unit volume of a substance.
     \item \emph{Pressure} is defined as force per unit area, where the force is \emph{acting perpendicularly} to the area.
-    \item Deriving \(p=\rho gh\):
-    \begin{enumerate}
-        \item Consider a point at a depth \(h\) below the surface of a liquid of density \(\rho\). 
-        \item The force \(F\) acting perpendicularly on a surface area \(A\) at depth \(h\) is due to the weight of the liquid column above \(A\) to give pressure \(p\). Thus, \(p=\frac{F}{A}=\frac{mg}{A}=\frac{\rho Ah}{g}=\rho gh\).
-    \end{enumerate}
+\end{itemize}
+\begin{minipage}{0.3\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[page=5]{../images/pressure/pressure.pdf}
+        \caption{\ref{source:pascal's-law} A column of fluid.}
+        \label{fig:pascal's-law}
+    \end{figure}
+\end{minipage}%
+\begin{minipage}{0.7\textwidth}
+    \begin{itemize}
+        \item Deriving \(p=\rho gh\):
+        \begin{enumerate}
+            \item Consider a point at a depth \(h\) below the surface of a liquid of density \(\rho\). 
+            \item The force \(F\) acting perpendicularly on a surface area \(A\) at depth \(h\) is due to the weight of the liquid column above \(A\) to give pressure \(p\). Thus, \(p=\frac{F}{A}=\frac{mg}{A}=\frac{\rho Ah}{g}=\rho gh\).
+        \end{enumerate}
+    \end{itemize}
+\end{minipage}
+\begin{itemize}
     \item \emph{Upthrust} is the upward force exerted by a fluid on a body immersed in the fluid (due to pressure difference in the fluid).
     \item \emph{The origin of upthrust:} Upthrust is a result of the pressure difference between top and bottom surfaces of the body, resulting in a net upwards force being exerted on the body by the third medium in which the body is located.
-    \item \emph{Archimedes' Principle} states that when a body is totally or partially immersed in a fluid, it experiences an upward force (upthrust) equal to the weight of fluid displaced.
-    \item \emph{The Principle of Floatation} states that, for any object floating in \emph{equilibrium}, the upthrust is equal to the weight of the object.
+\end{itemize}
+\begin{minipage}{0.5\textwidth}
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{0.5\textwidth}
+            \centering
+            \includegraphics[page=3]{../images/Upthrust/Upthrust.pdf}
+        \end{subfigure}%
+        \begin{subfigure}[c]{0.5\textwidth}
+            \centering
+            \vspace{1cm}
+            \includegraphics[page=4]{../images/Upthrust/Upthrust.pdf}
+        \end{subfigure}%
+        \caption{\ref{source:archimedes-principle} An illustration of Archimedes' Principle.}
+        \label{fig:archimedes-principle}
+    \end{figure}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+    \begin{itemize}
+        \item \emph{Archimedes' Principle} states that when a body is totally or partially immersed in a fluid, it experiences an upward force (upthrust) equal to the weight of fluid displaced.
+        \item \emph{The Principle of Floatation} states that, for any object floating in \emph{equilibrium}, the upthrust is equal to the weight of the object.
+    \end{itemize}
+\end{minipage}
+\begin{itemize}
+    \item Remember to account for atmospheric pressure, where necessary.
+    \item Suppose a body is subjected to forces acting at three points. Then, for it to be in equilibrium, the lines of action must be \emph{concurrent} (intersection at a common point) or \emph{parallel}. 
 \end{itemize}
 \chapter{Work, Energy, and Power}
 \begin{itemize}
@@ -1508,7 +1655,7 @@ Some nice images:
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[height=0.395\textheight,angle=90]{../images/Energy-Level/Energy-Level.pdf}
+    \includegraphics[height=0.5\textheight,angle=90]{../images/Energy-Level/Energy-Level.pdf}
     \caption{\ref{source:hydrogen-energy-levels} The energy levels of Hydrogen (drawn to scale).}
     \label{fig:hydrogen-energy-levels}
 \end{figure}
@@ -1617,7 +1764,7 @@ Some nice images:
 
 \chapter{Nuclear Physics}
 \begin{itemize}
-    \item The Rutherford-Geiger-Marsden Experiment.
+    \item The Rutherford-Geiger-Marsden experiment.
     \begin{table}[H]
         \centering
         \begin{tabular}{ScSc}
@@ -1639,7 +1786,7 @@ Some nice images:
             \end{minipage}\\
             \bottomrule
         \end{tabular}
-        \caption{The Rutherford-Geiger-Marsden Experiment: Observations and explanations.}
+        \caption{The Rutherford-Geiger-Marsden experiment: observations and explanations.}
         \label{table:rutherford-geiger-marsden}
     \end{table}
     \item[\AsteriskThin] A \emph{isotope} is one of two or more atoms with the \emph{same atomic number} but \emph{different number of neutrons}.
@@ -2263,8 +2410,14 @@ Some nice images:
 The copyrights belong solely to their respective owners. The images used mostly fall under the CC-BY-SA-3.0 or CC-BY-SA-4.0 licenses. Please contact me if you would like your work removed from these notes, or have you attribution reworked. 
 \begin{enumerate}[label={[\arabic*]}]
     \item\label{Projectile motion} Projectile motion \url{https://tug.org/PSTricks/main.cgi?file=Examples/Physics/physics}
+    \item\label{source:collision} Illustrations of (perfectly) elastic and inelastic collisions (Figures \ref{fig:collision-1d} and \ref{fig:collision-2d}) \url{https://tikz.net/dynamics_collision/}
     \item\label{Crane} Crane \url{https://tex.stackexchange.com/a/158785}
-    \item\label{source:celsius-kelvin} Kelvin against celsius graph (Figure \ref{fig:celsius-kelvin}) \url{https://tikz.net/temperature_scale/} 
+    \item\label{source:fbd-ladder} The free body diagram for a ladder (Figure \ref{fig:fbd-ladder}) \url{https://tikz.net/dynamics_stability_ladder/} 
+    \item\label{source:forces-triangle} A mass placed on a ramp (Figure \ref{fig:forces-triangle}) \url{https://tikz.net/dynamics_friction/}
+    \item\label{source:torque} The torque acting on a wheel and a lever (Figures \ref{fig:torque-wheel} and \ref{fig:torque-wheel}) \url{https://tikz.net/dynamics_torque/}
+    \item\label{source:pascal's-law} A column of fluid (Figure \ref{fig:pascal's-law}) \url{https://tikz.net/fluid_dynamics_pressure/}
+    \item\label{source:archimedes-principle} An illustration of Archimedes' Principle (Figure \ref{fig:archimedes-principle}) \url{https://tikz.net/fluid_dynamics_buoyancy/}
+    \item\label{source:celsius-kelvin} Kelvin against celsius graph (Figure \ref{fig:celsius-kelvin}) \url{https://tikz.net/temperature_scale/} \url{https://tikz.net/dynamics_friction/}
     \item\label{source:thermodynamic-processes} Illustrations of some thermodynamic processes (Figures \ref{fig:thermodynamic-processes-PV-diagram} and \ref{fig:thermodynamic-cyclic-processes}) \url{https://tikz.net/thermodynamics_pv_diagrams/}
     \item\label{2024 Eclipse Map} 2024 Eclipse Map \url{https://discord.com/channels/268882317391429632/359052581022203914/1221402243039887451}
     \item\label{Simple harmonic motion} Simple harmonic motion spring diagram \url{https://tex.stackexchange.com/a/158741}
