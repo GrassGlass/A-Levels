@@ -150,7 +150,7 @@
   \draw[dashed] (0,0) -- (M');
   \draw[->,thick] (0,-\ymax) -- (0,\ymax) node[left] {$y$};
   \draw[->,thick] (-\xmax,0) -- (\xmax,0) coordinate (X) node[below] {$x$};
-  \draw[velocity] (M')++(\ang:0.3*\w) --++ (\ang:1.3*\v) node[above right=-3] {$\vb{v}'$};
+  \draw[velocity] (M')++(\ang:0.3*\w) --++ (\ang:1.3*\v) node[above right=-3] {$\vb{v}$};
   \draw[mass]
     (M1')++(\w/2,\h/2) -|++ (-\w,-\h) --++ (\w,0) coordinate (I0)
     to[out=100,in=-100]++(-0.05*\w,0.3*\h) coordinate (I1)
@@ -165,8 +165,8 @@
   \node[red!30!black] at (M1') {$m_1$};
   \node[red!30!black] at (M2') {\,$m_2$};
   \draw pic["$\theta$",xcol,draw=xcol,angle radius=14,angle eccentricity=1.4] {angle=X--O--M'}; %pic text options={shift={(0.05,-0.05)}}
-  \draw[velocity] (M1)++(\w/2,0) --++ (1.1*\v,0) node[above=-1] {$\vb{v}_1$};
-  \draw[velocity] (M2)++(0,\h/2) --++ (0,\v) node[right=-1] {$\vb{v}_2$};
+  \draw[velocity] (M1)++(\w/2,0) --++ (1.1*\v,0) node[above=-1] {$\vb{u}_1$};
+  \draw[velocity] (M2)++(0,\h/2) --++ (0,\v) node[right=-1] {$\vb{u}_2$};
   \draw[mass] (M1)++(-\w/2,-\h/2) rectangle++ (\w,\h) node[midway] {$m_1$};
   \draw[mass] (M2)++(-\h/2,-\w/2) rectangle++ (\h,\w) node[midway] {$m_2$};
   \pic[scale=1,rotate=110] at (O) {collision={1.1}};
