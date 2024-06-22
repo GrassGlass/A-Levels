@@ -576,6 +576,24 @@
   \[5[\cot^2(2\pi/5)]^2-10[\cot^2(2\pi/5)]+1=0.\]
   Thus, \(x=\cot^2(2\pi/5)\) is a root of the equation \(5x^2-10x+1=0\). 
 \end{example}
+\begin{example}{RV FM 2023 J2 CT}{}
+  Show, by using De Moivre's theorem, that provided \(\cos(\theta)=0\), 
+  \[\sum_{k=1}^{12}{(-1)^{k-1}\cos((2k-1)\theta)}=\frac{\sin^2(P\theta)}{\cos(\theta)}\]
+  where \(P\) is a constant to be determined.
+
+  \rule{20cm-137.0549pt}{0.05mm}
+
+  Let \(C=\sum_{k=1}^{12}{(-1)^{k-1}\cos((2k-1)\theta)}\) and \(S=\sum_{k=1}^{12}{(-1)^{k-1}\sin((2k-1)\theta)}\). Then, for \(z=i\theta\),
+  \begin{align*}
+    C+iS &=\sum_{k=1}^{12}{(-1)^{k-1}[\cos((2k-1)\theta)+i\sin((2k-1)\theta)]}\\
+    &=\sum_{k=1}^{12}{z(-z^2)^{k-1}}\\
+    &=\frac{z\left(1-(-z^2)^{12}\right)}{1-(-z^2)}\\
+    &\vdotswithin{=}\\
+    &=\frac{-ie^{i(12\theta)\sin(12\theta)}}{\cos(\theta)}.
+  \end{align*}
+  So, comparing real parts,
+  \[C=\frac{(-i)\cdot i\sin(12\theta) \cdot \sin(12\theta)}{\cos(\theta)}=\frac{\sin^2(12\theta)}{\cos(\theta)}.\]
+\end{example}
 
 \subfile{Subfiles/FMAsubfile.tex}
 \part{FMB}
