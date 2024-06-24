@@ -131,7 +131,7 @@ The following definition is found in
 \href{https://www.amazon.sg/Mathematical-Statistics-Applications-William-Mendenhall/dp/0495110817#customerReviews}{Wackerly-Mendenhall-Schaefer}
 and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Monographs/dp/0824703790}{Nitis Mukhopadhyay}.
 \begin{definition}{}{}
-  Let \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\), where \(X\) has pdf \(f(x;\theta)\), \(\theta \in \Omega\). Let \(0<\alpha<1\) be specified. Let \(L=L(X_1,X_2,\dots,X_n)\) and \(U=U((X_1,X_2,\dots,X_n))\) be two statistics. We say that the interval \((L,U)\) is a \((1-\alpha)100\%\) \emph{confidence interval} for \(\theta\) iff 
+  Let \(X_1,X_2,\dots,X_n\) be a sample on a random variable \(X\), where \(X\) has pdf \(f(x;\theta)\), \(\theta \in \Omega\). Let \(0<\alpha<1\) be specified. Let \(L=L(X_1,X_2,\dots,X_n)\) and \(U=U(X_1,X_2,\dots,X_n)\) be two statistics. We say that the interval \((L,U)\) is a \((1-\alpha)100\%\) \emph{confidence interval} for \(\theta\) iff 
   \[1-\alpha=P_\theta[\theta \in (L,U)].\]
   That is, the probability that the interval contains \(\theta\) is \(1-\alpha\), which is called the \emph{confidence coefficient} or \emph{confidence level} of the interval.
 \end{definition}
@@ -167,7 +167,9 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
 \begin{note}
   Standard phrasing for the interpretation of a \((1-\alpha)100\%\) confidence interval \((a,b)\). 
   \begin{center}
-    The probability that the interval \((a,b)\) contains the true value of the [population mean/proportion in context] is \(1-\alpha\).
+    \parbox{0.9\textwidth}{
+      The probability that the interval \((a,b)\) contains the true value of the [population mean/proportion in context] is \(1-\alpha\).
+    }
   \end{center}
 \end{note}
 \begin{note}

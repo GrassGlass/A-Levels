@@ -1,0 +1,28 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+\usepackage{amsmath}
+\usepackage{newpxtext, eulerpx}
+\begin{document}
+\pgfplotsset{colormap/hot2}
+
+\begin{tikzpicture}
+  \begin{axis}[
+    3d box,
+    width=15cm,
+    view={25}{25},
+    enlargelimits=false,
+    grid=major,
+    domain=-5:5,
+    y domain=-5:5,
+    zmin=-1,zmax=1,
+    samples=51,
+    % xlabel=$x$,
+    % ylabel=$y$,
+    % zlabel=$z$,
+    ]
+    \addplot3 [surf, unbounded coords=jump]
+        { -exp(-(x*x+y*y)/2) };
+  \end{axis}
+\end{tikzpicture}
+\end{document}

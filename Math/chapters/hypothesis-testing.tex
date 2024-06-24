@@ -51,7 +51,7 @@
   Explain, in context, the meaning of `at the \(\alpha\%\) level of significance'.
   \begin{center}
     \parbox{0.9\textwidth}{
-      The probability that [\(H_1\) in context], when actually [\(H_0\) in context], is \(\alpha\%\).
+      The probability that we conclude [\(H_1\) in context], when actually [\(H_0\) in context], is \(\alpha\%\).
     }
   \end{center}
 \end{note}
@@ -67,9 +67,9 @@
     we have
     \begin{center}
       \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
-        \item \(p\text{-value}=\Prob(Z\leq z_\text{calc})\),
-        \item \(p\text{-value}=\Prob(\lvert Z \rvert\geq \lvert z_\text{calc} \rvert)\),
-        \item \(p\text{-value}=\Prob(Z\geq z_\text{calc})\).
+        \item \(p\text{-value}\coloneq\Prob(Z\leq z_\text{calc})\),
+        \item \(p\text{-value}\coloneq\Prob(\lvert Z \rvert\geq \lvert z_\text{calc} \rvert)\),
+        \item \(p\text{-value}\coloneq\Prob(Z\geq z_\text{calc})\).
       \end{enumerate*}
     \end{center}
 \end{definition}
@@ -172,7 +172,7 @@
   \end{center}
   \emph{Note.} Spell ``Central Limit Theorem'' and ``the sample mean'' out \emph{in full}. Do not use CLT or \(\widebar{X}\) for this question.
 \end{note}
-\begin{definition}{}
+\begin{definition}{}{}
   A random variable \(X\) follows Student's \(t\)-distribution with \(\nu\) degrees of freedom iff its pdf is
   \[f(t)=\frac{\Gamma{\left( \frac{\nu+1}{2} \right)}}{\sqrt{\pi\nu}\ \Gamma{\left( \frac{\nu}{2} \right)}}\left( 1+\frac{t^2}{\nu} \right)^{-\frac{1}{2}(\nu-1)}.\]
   This is denoted by \(X\sim t(\nu)\).
@@ -402,12 +402,12 @@
   \end{center}
 \end{note}
 \begin{note}
-  If it were required to test whether the [population mean \(\mu_1\) of \(X\) in context] is \(k\), give a reason, whether it would be correct to use the [pooled estimate of variance in context] or an estimate based on the [sample from the distribution of \(X\)].
+  If it were required to test whether the [population mean \(\mu_1\) of \(X_1\) in context] is \(k\), give a reason, whether it would be correct to use the [pooled estimate of variance in context] or an estimate based on the [sample from the distribution of \(X_1\)].
   \begin{center}
     \parbox{0.9\textwidth}{
-      It would be correct to use the estimate of variance based on [sample from the distribution of \(X\)], since the test statistic
-      \[T=\frac{\widebar{X}-\mu}{s/\sqrt{n}}\sim t(n-1).\]
-      involves only the [sample from the distribution of \(X\)].
+      It would be correct to use the estimate of variance based on [sample from the distribution of \(X_1\)], since the test statistic
+      \[T=\frac{\widebar{X}_1-\mu_1}{s/\sqrt{n}}\sim t(n-1).\]
+      involves only the [sample from the distribution of \(X_1\)].
     }
   \end{center}
 \end{note}
@@ -497,7 +497,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \begin{enumerate}[align=parleft]
           \item[{[i]}]\ Both variances \(\sigma_1\) and \(\sigma_2\) are known.
           \item[{[ii](1)}]\ Sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
-          \item[{[ii](2)}]\ Either sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are normally distributed.
+          \item[{[ii](2)}]\ Sample sizes \(n_1\) or \(n_2\) are small, but we assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
       \end{minipage}&
       \begin{minipage}{179.4pt}

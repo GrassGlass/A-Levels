@@ -26,9 +26,9 @@
   \begin{itemize}
     \item Properties of chi-squared distributions.
     \begin{itemize}
-      \item \(\E(X)=v\) and \(\Var(X)=2\nu\).
+      \item \(\E(X)=\nu\) and \(\Var(X)=2\nu\).
       % , and the mode of \(X\) is \(\max\{k-2,0\}\).
-      \item The \(\chi_{(\nu)}^2\) distribution tends to a normal distribution as \(\nu\to\infty\).
+      \item The \(\chi_{(\nu)}^2\) distribution tends to the standard normal distribution as \(\nu\to\infty\).
       \item Suppose \(Z_i\sim\Normal(0,1)\) are independent. Then, \(Z_1^2+\dots+Z_n^2\sim\chi^2_{(n)}\).
       \item If \(X\sim\chi_{(\nu)}^2\) and \(Y\sim\chi_{(\upsilon)}^2\), then \(X+Y\sim\chi_{(\nu+\upsilon)}^2\).
     \end{itemize}
@@ -81,7 +81,7 @@
   If \(X\) follows a \emph{discrete} uniform distribution, we must state it out in words. We cannot write \(X\sim\operatorname{U}(\mu,\sigma^2)\) as this would denote that \(X\) is a \emph{continuous} random variable. But if \(X\sim\Binom(n,p)\) (or \(X\sim\Poisson(\lambda)\), etc), then we can just denote it as such. 
 \end{note}
 \begin{example}{\(\#\text{estimated parameters}=0\)}{}
-  Given \(X\sim\Normal(0,1)\) (note how the \emph{population parameters} that define the distribution are \emph{known}), the degree of freedom \(\nu=\#\text{estimated parameters}\coloneq n\).
+  Given \(X\sim\Normal(0,1)\) (note how the \emph{population parameters} that define the distribution are \emph{known}), the degree of freedom \(\nu=\#\text{estimated parameters}\eqcolon n\).
 \end{example}
 \begin{example}{\(\#\text{estimated parameters}=1\)}{}
   Consider when \(X\sim\Binom(m,p)\), such that the expected frequency for each of the \(n\) classes is at least 5, but we do not know the exact value of \(p\). So, we \emph{estimate} it according to the sample given. Then, the degree of freedom is \(\nu=n-1-1=n-2\).
@@ -115,7 +115,7 @@
   \rule{20cm-137.0549pt}{0.05mm}
   Then, for (ii), two main changes have to be made:
   \begin{enumerate}
-    \item Estimate the value of \(p\) by computing the sample mean \(\widebar{x}\) and letting \(p=\frac{1}{\widebar{x}}\).
+    \item Estimate the value of \(p\) by computing the sample mean \(\widebar{x}\) and letting \(p=1/\widebar{x}\).
     \item Adjust the degree of freedom from 4 to \(4-1=3\), as there is one more restriction, that the mean must agree.
   \end{enumerate}
   (The phrasing is similar for gof tests for other distributions; simply use the appropriate estimators for the unknown population parameters.)
@@ -229,7 +229,7 @@
   If the question says to ``use an approximate \(\chi^2\)-statistic\dots'', then we must use the critical region method. It is incorrect to use the \(p\)-value.
 \end{note}
 \begin{note}
-  Consider we are asked to state which cells correspond to the highest contributions to the test statistic, and relate that back to the context of the question. Then:
+  Consider when we are asked to state which cells correspond to the highest contributions to the test statistic, and relate that back to the context of the question. Then:
   \begin{enumerate}
     \item State the cells in the form (\rule{0.5cm}{0.05mm},\ \rule{0.5cm}{0.05mm}). E.g. (High, Good) and (Low, Good).
     \item In table \ref{table:tests-of-indepedence}, add an asterisk to each of these cells. E.g. 
