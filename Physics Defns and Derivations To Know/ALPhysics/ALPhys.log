@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  24 JUN 2024 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  24 JUN 2024 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1170,14 +1170,7 @@ File: t1zpltlf.fd 2021/05/25 v1.0 font definition file for T1/zpl/TLF
 )
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 10.
- (./ALPhys.aux
-
-LaTeX Warning: Label `source:gravitational-potential-well' multiply defined.
-
-
-LaTeX Warning: Label `source:gravitational-potential-well@cref' multiply defined.
-
-)
+ (./ALPhys.aux)
 \openout1 = `ALPhys.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 10.
@@ -2568,11 +2561,7 @@ File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 2446.
-
-
-LaTeX Warning: Reference `fig:gravitational-potential-well' on page 69 undefined on input line 2457.
-
-[69
+ [69
 
 ] [70] [71] (./ALPhys.aux)
  ***********
@@ -2584,20 +2573,14 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 85E716AACA68CB44C80BACA1EB7FA621;3280.
  ) 
 Here is how much of TeX's memory you used:
- 41408 strings out of 475237
- 837533 string characters out of 5768555
+ 41409 strings out of 475237
+ 837572 string characters out of 5768555
  1964238 words of memory out of 5000000
- 61437 multiletter control sequences out of 15000+600000
+ 61438 multiletter control sequences out of 15000+600000
  710175 words of font info for 311 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,23n,131p,7693b,1559s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2614,10 +2597,10 @@ pdfTeX warning (dest): name{Fig\04012.3} has been referenced but does not exist,
 pdfTeX warning (dest): name{Fig\04012.2} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (72 pages, 29501031 bytes).
+Output written on ALPhys.pdf (72 pages, 29500781 bytes).
 PDF statistics:
- 2586 PDF objects out of 2984 (max. 8388607)
- 1671 compressed objects within 17 object streams
+ 2587 PDF objects out of 2984 (max. 8388607)
+ 1672 compressed objects within 17 object streams
  338 named destinations out of 1000 (max. 500000)
  868 words of extra memory for PDF output out of 10000 (max. 10000000)
 
