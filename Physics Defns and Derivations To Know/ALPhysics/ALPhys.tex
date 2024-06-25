@@ -536,10 +536,12 @@ So, rearranging, we have
             &
             &
             \(\begin{aligned}
-                T=2\pi\sqrt{\frac{m}{k}}
+                \omega=\sqrt{\frac{k}{m}} 
+                % \quad\&\quad T=2\pi\sqrt{\frac{m}{k}}
             \end{aligned}\)&
             \(\begin{aligned}
-                T=2\pi\sqrt{\frac{l}{g}}
+                \omega=\sqrt{\frac{g}{l}} 
+                % \quad\&\quad T=2\pi\sqrt{\frac{l}{g}}
             \end{aligned}\)
         \\
         \hline
@@ -563,6 +565,7 @@ So, rearranging, we have
     \end{figure}
     \item \begin{tabular}{|Sc|Sc|Sc|Sc|}
         \hline
+    Variable
         &
     \(\begin{aligned}
         E_k
@@ -574,6 +577,7 @@ So, rearranging, we have
             E_T
     \end{aligned}\)\\
     \hline
+        Time 
         \(\begin{aligned}
             t
         \end{aligned}\)&
@@ -583,12 +587,15 @@ So, rearranging, we have
         \(\begin{aligned}
             \frac{1}{2}m\omega^2x_0^2\sin^2(\omega t)
         \end{aligned}\)&
-        \(\begin{aligned}
+        \multirow{2}{*}[-1.8mm]{
+            \(\begin{aligned}
             \frac{1}{2}m\omega^2x_0^2
-        \end{aligned}\)\\
-        \hline
+            \end{aligned}\)
+        }\\
+        \cline{1-3}
+        Displacement
         \(\begin{aligned}
-            m
+            x
         \end{aligned}\)&
         \(\begin{aligned}
             \frac{1}{2}m\omega^2(x_0^2-x^2)
@@ -596,9 +603,7 @@ So, rearranging, we have
         \(\begin{aligned}
             \frac{1}{2}m\omega^2x^2
         \end{aligned}\)&
-        \(\begin{aligned}
-            \frac{1}{2}m\omega^2x_0^2
-        \end{aligned}\)\\
+        \\
         \hline
     \end{tabular}
     \begin{figure}[H]
@@ -634,7 +639,7 @@ So, rearranging, we have
         \item Peak (max amplitude) becomes flatter.
     \end{itemize}
 \end{itemize}
-\begin{figure}[H]
+\begin{figure}[p]
     \centering
     \includegraphics[width=0.7\textwidth]{../images/SHM/Amplitude-vs-frequency-graph.pdf}
     \caption{\ref{Simple harmonic motion amplitude-vs-frequency graph} The graph of amplitude against frequency, as damping increases. The resonance frequency is denoted by \(f_0\).}
