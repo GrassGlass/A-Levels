@@ -594,6 +594,44 @@
   So, comparing real parts,
   \[C=\frac{(-i)\cdot i\sin(12\theta) \cdot \sin(12\theta)}{\cos(\theta)}=\frac{\sin^2(12\theta)}{\cos(\theta)}.\]
 \end{example}
+\begin{note}
+  Algebraic tricks to know.
+  \begin{enumerate}
+    \item Factoring out \(e^{i\theta/2}\) given an expression involving \(e^{i\theta}\).
+    \item Finding \(\sin^n(\theta)\) as a linear combination of \(\sin(m\theta)\), where \(m\in \mathbb{Z}^{+}\). first notice that \(z^n-\frac{1}{z^n}=2i\sin(n\theta)\), for \(z=e^{i\theta}\). Then,
+    \begin{align*}
+      \left( z+\frac{1}{z} \right)^n &= \sum_{r=0}^{n}{\binom{n}{r}z^{n-2r}}\\
+      [2i\sin(\theta)]^n &= \cdots
+    \end{align*}
+    Comparing imaginary parts, we get \(\sin^n(\theta)\) in the desired form. (Similarly for other trigonometric functions raised to the \(n\)th power.)
+    \item If, instead, we need to find \(\sin(n\theta)\) in terms of powers of \(\sin(\theta)\), then we simply apply De Moivre's Theorem and compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).) Letting \(c\coloneq\cos(\theta)\) and \(s\coloneq\sin(\theta)\):
+    \[\cos(n\theta)+i\sin(n\theta)=(c+is)^n=\sum_{r=0}^{n}{\binom{n}{r}c^{n-r}i^rs^r}.\]
+  \end{enumerate}
+\end{note}
+\begin{example}{Algebraic tricks to know}{}
+  \begin{enumerate}
+    \item[1(a).] 
+    \begin{align*}
+      w&=\frac{-ie^{\frac{2k}{5}(i\pi)}}{1-e^{\frac{2k}{5}(i\pi)}}=\frac{-ie^{\frac{2k}{5}(i\pi)}}{e^{\frac{k}{5}(i\pi)}\left[ e^{-\frac{k}{5}(i\pi)}-e^{\frac{k}{5}(i\pi)} \right]}=\frac{-ie^{\frac{k}{5}(i\pi)}}{-2i\sin(k\pi/5)}\\
+      &=\frac{\cos(k\pi/5)+i\sin(k\pi/5)}{2\sin(k\pi/5)}=\frac{1}{2}[\cot(k\pi/5)+i]
+    \end{align*}
+    \item[1(b).]
+    \[z=2\left( 1+e^{\frac{2k}{3}(i\pi)} \right)=2e^{\frac{k}{3}(i\pi)}\left( e^{-\frac{k}{3}(i\pi)}+e^{\frac{k}{3}(i\pi)} \right)=4\cos(k\pi/3)e^{\frac{k}{3}(i\pi)}.\]
+    \item[2.]
+    \begin{align*}
+      \left( z-\frac{1}{z} \right)^5 &= z^5-5z^3+10z-\frac{10}{z}+\frac{5}{z^3}-\frac{1}{z^5}\\
+      [2i\sin(\theta)]^5 &= \left( z^5-\frac{1}{z^5} \right)-5\left( z^3-\frac{1}{z^3} \right)+10\left( z-\frac{1}{z} \right)\\
+      32i\sin^5(\theta) &= 2\sin(5\theta)-5(2)i\sin(3\theta)+10(2)i\sin(\theta)\\
+      \sin^5(\theta) &= \frac{1}{16}\sin(5\theta)-\frac{5}{16}\sin(3\theta)+\frac{5}{8}\sin(\theta).
+    \end{align*}
+  \end{enumerate}
+\end{example}
+\begin{note}
+  Geometrical tricks to know.
+  \begin{enumerate}
+    \item In circle-line interactions, be aware of any congruent triangles, common angles, and sides of common length. In particular, when a triangle has an angle of \(\pi/4=45^{\circ}\), it is an isosceles triangle. These observations are especially helpful in finding circle-line intersections.
+  \end{enumerate}
+\end{note}
 
 \subfile{Subfiles/FMAsubfile.tex}
 \part{FMB}

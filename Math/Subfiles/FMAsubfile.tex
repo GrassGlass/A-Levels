@@ -516,4 +516,16 @@ Such that the following properties hold:
         \caption{An illustration of Newton's Method \href{https://www.desmos.com/calculator/izkg4ynlfp}{(Desmos)}.}
         \label{fig:newton's-method}
     \end{figure}
+    \begin{note}
+        Perform \rule{1.5cm}{0.01mm} (e.g. linear interpolation) to obtain an approximation for \(\alpha\), correct to two decimal places.
+
+        \rule{20cm-137.0549pt}{0.05mm}
+
+        Suppose our approximation is some \(a=1.00\), then we note the sign of \(f\) at \(a\pm 0.\highlight[yellow]{00}5\). (For an arbitrary number of s.f. or d.p., simply adjust the value \(0.\highlight[yellow]{00}5\) accordingly. E.g. for 3 d.p. we instead use \(0.\highlight[yellow]{000}5\)). Our working should look similar to the following:
+        \begin{center}
+            \parbox{0.9\textwidth}{
+                Since \(f(0.995)=\rule{0.5cm}{0.01mm}<0\) and \(f(1.005)=\rule{0.5cm}{0.01mm}>0\), we conclude that \(1.00\) is a sufficiently accurate approximation, at 2 d.p..
+            }
+        \end{center}
+    \end{note}
 \end{document}
