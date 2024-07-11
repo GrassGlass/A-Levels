@@ -597,13 +597,18 @@
 \begin{note}
   Algebraic tricks to know.
   \begin{enumerate}
-    \item Factoring out \(e^{i\theta/2}\) given an expression involving \(e^{i\theta}\).
-    \item Finding \(\sin^n(\theta)\) as a linear combination of \(\sin(m\theta)\), where \(m\in \mathbb{Z}^{+}\). first notice that \(z^n-\frac{1}{z^n}=2i\sin(n\theta)\), for \(z=e^{i\theta}\). Then,
+    \item Factoring out \(e^{i\theta/2}\), given an expression involving \(e^{i\theta}\), can help in simplifying expressions.
+    \item Fix an odd \(n\in \mathbb{Z}^{+}\). Suppose we want to express \(\sin^n(\theta)\) as a linear combination of \(\sin(m\theta)\), for \(m\in \mathbb{Z}^{+}\). First notice that \(z^k-\frac{1}{z^k}=2i\sin(k\theta)\), for \(z=e^{i\theta}\). Then, use this fact in conjunction with the binomial theorem:
     \begin{align*}
-      \left( z-\frac{1}{z} \right)^n &= \sum_{r=0}^{n}{\binom{n}{r}(-1)^rz^{n-2r}}\\
-      [2i\sin(\theta)]^n &= \cdots
+      \left( z-\frac{1}{z} \right)^n &= \sum_{r=0}^{2n+1}{\binom{n}{r}(-1)^rz^{2n+1-2r}}\\
+      [2i\sin(\theta)]^n &= \sum_{k=0}^{\lfloor n/2 \rfloor}{\binom{n}{n-2k}\left( z^{n-2k}-\frac{1}{z^{n-2k}} \right)}
+      % \binom{n}{n}\left( z^n-\frac{1}{z^n} \right)+\binom{n}{n-1}\left( z^{n-2}-\frac{1}{z^{n-2}} \right)+\dots+\binom{n}{\lfloor n/2 \rfloor}\left( z-\frac{1}{z} \right)\\
     \end{align*}
-    Comparing imaginary parts, we get \(\sin^n(\theta)\) in the desired form. (Similarly for \(\cos^n(\theta)\).)
+    Comparing imaginary parts, we get \(\sin^n(\theta)\) in the desired form:
+    \[\sin^n(\theta)=\frac{1}{i^{n-1}2^{n-1}}
+    % \left[ \sin(n\theta)+\binom{n}{n-2}\sin((n-2)\theta)+\dots+\binom{n}{\lfloor n/2 \rfloor}\sin(\theta) \right]
+    \sum_{k=0}^{\lfloor n/2 \rfloor}{\binom{n}{n-2k}\sin((n-2k)\theta)}.\]
+    (Similarly, we can express \(\cos^n(\theta)\) as a linear combination of \(\cos(m\theta)\).)
     \item If, instead, we need to find \(\sin(n\theta)\) in terms of powers of \(\sin(\theta)\), then we simply apply De Moivre's Theorem and compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).) Letting \(c\coloneq\cos(\theta)\) and \(s\coloneq\sin(\theta)\):
     \[\cos(n\theta)+i\sin(n\theta)=(c+is)^n=\sum_{r=0}^{n}{\binom{n}{r}c^{n-r}i^rs^r}.\]
   \end{enumerate}
@@ -632,6 +637,23 @@
     \item In circle-line interactions, be aware of any congruent triangles, common angles, and sides of common length. In particular, when a triangle has an angle of \(\pi/4=45^{\circ}\), it is an isosceles triangle. These observations are especially helpful in finding circle-line intersections.
   \end{enumerate}
 \end{note}
+\begin{example}{RV FM CT 2024}{}
+  \begin{figure}[H]
+    \centering
+    \begin{subfigure}[c]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth,page=1]{../Diagrams/FM-CT-2024-Q5.pdf}
+      \caption{Finding the intersection of the two lines.}
+  \end{subfigure}\hfill
+  \begin{subfigure}[c]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth,page=2]{../Diagrams/FM-CT-2024-Q5.pdf}
+      \caption{Finding the radius \(R\) for which the circle just touches the half-line.}
+  \end{subfigure}%
+    \caption{The writing in blue denote the deductions we should make.}
+    \label{fig:RVFM-CT-2024-Complex}
+  \end{figure}
+\end{example}
 
 \subfile{Subfiles/FMAsubfile.tex}
 \part{FMB}
@@ -1851,6 +1873,12 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \end{enumerate}
   \end{example}
 \end{center}
+\begin{note}
+  R-formulas. Let \(a,b\in \mathbb{R}\). Then, for 
+  \[R\coloneq\sqrt{a^2+b^2} \qquad\text{and}\qquad \tan(\alpha)\coloneq\frac{b}{a},\]
+  we have that
+  \[a\sin(\theta)\pm b\cos(\theta)=R\sin(\theta\pm\alpha) \qquad\text{and}\qquad a\cos(\theta)\pm b\sin(\theta)=R\cos(\theta\mp\alpha).\]
+\end{note}
 \section{Applications}
 \subsection{Exponential Growth}
 \begin{stbox}{General Information}
