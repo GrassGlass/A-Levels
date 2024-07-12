@@ -523,6 +523,19 @@
     \item Note that \(1+e^{i\theta}=e^{i\theta/2}(e^{-i\theta/2}+e^{i\theta/2})\).
     \item For \(z=re^{i\theta}\), we have \(z^n+z^{-n}=2\cos(n\theta)\) and \(z^n-z^{-n}=2i\sin(n\theta)\).
     \item The geometric meaning of multiplying by \(i\) is a anti-clockwise rotation by \(\pi\) radians.
+    \item To represent roots of unity on an argand diagram, we should annotate 
+    \begin{enumerate}
+      \item The points representing the roots, as dots.
+      \item The (dotted) circle which these points lie on.
+      \item The radius of the circle.
+      \item The angular separation between the roots.
+    \end{enumerate}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.4\textwidth,page=2]{../Diagrams/Complex-revision.pdf}
+      \caption{Roots of unity on an argand diagram.}
+      \label{fig:roots-of-unity}
+    \end{figure}
     \item Loci (Use a \emph{compass})
     \begin{enumerate}
       \item The locus represented by \(\lvert z-a \rvert =r\) (or \(z=a+re^{i\theta}\)) is a \emph{circle} of radius \(r\) centered at \(A(x,y)\) (where \(a\coloneq x+iy\)).
@@ -589,7 +602,7 @@
     &=\sum_{k=1}^{12}{z(-z^2)^{k-1}}\\
     &=\frac{z\left(1-(-z^2)^{12}\right)}{1-(-z^2)}\\
     &\vdotswithin{=}\\
-    &=\frac{-ie^{i(12\theta)\sin(12\theta)}}{\cos(\theta)}.
+    &=\frac{-ie^{i(12\theta)}\sin(12\theta)}{\cos(\theta)}.
   \end{align*}
   So, comparing real parts,
   \[C=\frac{(-i)\cdot i\sin(12\theta) \cdot \sin(12\theta)}{\cos(\theta)}=\frac{\sin^2(12\theta)}{\cos(\theta)}.\]
@@ -598,10 +611,16 @@
   Algebraic tricks to know.
   \begin{enumerate}
     \item Factoring out \(e^{i\theta/2}\), given an expression involving \(e^{i\theta}\), can help in simplifying expressions.
-    \item Fix an odd \(n\in \mathbb{Z}^{+}\). Suppose we want to express \(\sin^n(\theta)\) as a linear combination of \(\sin(m\theta)\), for \(m\in \mathbb{Z}^{+}\). First notice that \(z^k-\frac{1}{z^k}=2i\sin(k\theta)\), for \(z=e^{i\theta}\). Then, use this fact in conjunction with the binomial theorem:
+    \item Let \(r_1,\dots,r_n\) be the roots of the polynomial \(p(z)\coloneq\sum{a_iz^i}\). To find the sum or product of the roots, consider
+    \begin{enumerate*}[itemjoin={, or\ }]
+      \item Vieta's Formula
+      \item comparing the coefficients of \(p(z)=\highlight[yellow]{a_n}(z-r_1)(z-r_2)\cdots(z-r_n)\).
+    \end{enumerate*}
+    \item[\(\bigstar\)] Take extra caution to note whether a geometric progression is present.
+    \item Let \(n\in \mathbb{Z}^{+}\). Suppose that \(n\) is odd, and we want to express \(\sin^n(\theta)\) as a linear combination of \(\sin(m\theta)\), for \(m\in \mathbb{Z}^{+}\). First notice that \(z^k-\frac{1}{z^k}=2i\sin(k\theta)\), for \(z=e^{i\theta}\). Then, use this fact in conjunction with the binomial theorem:
     \begin{align*}
-      \left( z-\frac{1}{z} \right)^n &= \sum_{r=0}^{2n+1}{\binom{n}{r}(-1)^rz^{2n+1-2r}}\\
-      [2i\sin(\theta)]^n &= \sum_{k=0}^{\lfloor n/2 \rfloor}{\binom{n}{n-2k}\left( z^{n-2k}-\frac{1}{z^{n-2k}} \right)}
+      \left( z-\frac{1}{z} \right)^n &= \sum_{k=0}^{n}{\binom{n}{k}(-1)^kz^{n-2k}}\\
+      [2i\sin(\theta)]^n &= \sum_{k=0}^{\lfloor n/2 \rfloor}{\binom{n}{n-2k}\left( z^{n-2k}-\frac{1}{z^{n-2k}} \right)}.
       % \binom{n}{n}\left( z^n-\frac{1}{z^n} \right)+\binom{n}{n-1}\left( z^{n-2}-\frac{1}{z^{n-2}} \right)+\dots+\binom{n}{\lfloor n/2 \rfloor}\left( z-\frac{1}{z} \right)\\
     \end{align*}
     Comparing imaginary parts, we get \(\sin^n(\theta)\) in the desired form:
@@ -609,20 +628,42 @@
     % \left[ \sin(n\theta)+\binom{n}{n-2}\sin((n-2)\theta)+\dots+\binom{n}{\lfloor n/2 \rfloor}\sin(\theta) \right]
     \sum_{k=0}^{\lfloor n/2 \rfloor}{\binom{n}{n-2k}\sin((n-2k)\theta)}.\]
     (Similarly, we can express \(\cos^n(\theta)\) as a linear combination of \(\cos(m\theta)\).)
-    \item If, instead, we need to find \(\sin(n\theta)\) in terms of powers of \(\sin(\theta)\), then we simply apply De Moivre's Theorem and compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).) Letting \(c\coloneq\cos(\theta)\) and \(s\coloneq\sin(\theta)\):
-    \[\cos(n\theta)+i\sin(n\theta)=(c+is)^n=\sum_{r=0}^{n}{\binom{n}{r}c^{n-r}i^rs^r}.\]
+    \item Now, consider even \(n\), instead. Then, recall that \(z^k+\frac{1}{z^k}=2\cos(k\theta)\). As such,
+    \begin{align*}
+      [2i\sin(\theta)]^n &= \sum_{k=0}^{n/2}{\binom{n}{n-2k}\left( z^{n-2k}+\frac{1}{z^{n-2k}} \right)}\\
+      \sin^n(\theta) &= \frac{1}{i^n2^{n-1}}\sum_{k=0}^{n/2}{\binom{n}{n-2k}\sin((n-2k)\theta)}.
+    \end{align*}
+    (The case for \(\cos^n(\theta)\) is again similar.)
+    \item Alternatively, we may be asked to express \(\sin(n\theta)\) as a linear combination of \(\sin(m\theta)\), using just De Moivre's theorem. Letting \(c\coloneq\cos(\theta)\) and \(s\coloneq\sin(\theta)\), we first expand
+    \begin{align*}
+      \cos(n\theta)+i\sin(n\theta) &= [\cos(\theta)+i\sin(\theta)]^n\\
+      &= \sum_{k=0}^{n}{\binom{n}{k}c^{n-k}i^{k}s^{k}}.
+    \end{align*}
+    Then, compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).)
+    \item Let \(n\in \mathbb{Z}^{+}\). Similarly, to find \(\sin(n\theta)\) in terms of powers of \(\sin(\theta)\), first apply De Moivre's theorem:
+    \[\cos(n\theta)+i\sin(n\theta)=(c+is)^n=\sum_{k=0}^{n}{\binom{n}{k}c^{n-k}i^ks^k}.\]
+    Then, we compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).)
   \end{enumerate}
 \end{note}
 \begin{example}{Algebraic tricks to know}{}
   \begin{enumerate}
-    \item[1(a).] 
+    \item[1(a).] Simplifying a complex number \(w\) to a given form. 
     \begin{align*}
       w&=\frac{-ie^{\frac{2k}{5}(i\pi)}}{1-e^{\frac{2k}{5}(i\pi)}}=\frac{-ie^{\frac{2k}{5}(i\pi)}}{e^{\frac{k}{5}(i\pi)}\left[ e^{-\frac{k}{5}(i\pi)}-e^{\frac{k}{5}(i\pi)} \right]}=\frac{-ie^{\frac{k}{5}(i\pi)}}{-2i\sin(k\pi/5)}\\
       &=\frac{\cos(k\pi/5)+i\sin(k\pi/5)}{2\sin(k\pi/5)}=\frac{1}{2}[\cot(k\pi/5)+i]
     \end{align*}
     \item[1(b).]
     \[z=2\left( 1+e^{\frac{2k}{3}(i\pi)} \right)=2e^{\frac{k}{3}(i\pi)}\left( e^{-\frac{k}{3}(i\pi)}+e^{\frac{k}{3}(i\pi)} \right)=4\cos(k\pi/3)e^{\frac{k}{3}(i\pi)}.\]
-    \item[2.]
+    \item[2.] We found that the roots of \((1+z)^4+(1-z)^4=0\) has roots \(i\tan(k\pi/8)\), where \(k=1,3,4,7\). Then, we were tasked to find the value of \(\tan^2(\pi/8)+\tan^2(3\pi/8)\) and \(\tan^2(5\pi/8)\tan^2(\pi/8)\tan^2(3\pi/8)\).\\[\baselineskip]
+    Since \(\tan(\pi/8)=-\tan(7\pi/8)\) and \(\tan(3\pi/8)=-\tan(5\pi/8)\),
+    \begin{align*}
+      (1+z)^4+(1-z)^4 &= \highlight[yellow]{2}[z-i\tan(\pi/8)][z+i\tan(\pi/8)][z-i\tan(3\pi/8)][z+i\tan(3\pi/8)]\\
+      &= \highlight[yellow]{2}[z^2+\tan^2(\pi/8)][z^2+\tan^2(3\pi/8)].
+    \end{align*}
+    Comparing constants/coefficients of \(z^2\), we obtain 
+    \[\tan^2(\pi/8)\tan^2(3\pi/8)=1 \qquad\text{and}\qquad \tan^2(\pi/8)+\tan^2(3\pi/8)=6,\]
+    respectively.  
+    \item[3.] The case of \(n=5\): expressing \(\sin^5(\theta)\), in terms of \(\sin(m\theta)\).
     \begin{align*}
       \left( z-\frac{1}{z} \right)^5 &= z^5-5z^3+10z-\frac{10}{z}+\frac{5}{z^3}-\frac{1}{z^5}\\
       [2i\sin(\theta)]^5 &= \left( z^5-\frac{1}{z^5} \right)-5\left( z^3-\frac{1}{z^3} \right)+10\left( z-\frac{1}{z} \right)\\
@@ -634,10 +675,17 @@
 \begin{note}
   Geometrical tricks to know.
   \begin{enumerate}
-    \item In circle-line interactions, be aware of any congruent triangles, common angles, and sides of common length. In particular, when a triangle has an angle of \(\pi/4=45^{\circ}\), it is an isosceles triangle. These observations are especially helpful in finding circle-line intersections.
+    \item Where clarity may otherwise be lacking, consider making a line segment \emph{thicker} and \emph{label} it with ``\textrightarrow\ required points'' --- to indicate that it is the locus being requested for.  
+    \item Be aware of any triangles, congruent triangles, common angles, and sides of common length. In particular, when a triangle has an angle of \(\pi/4=45^{\circ}\), it is an isosceles triangle. These observations are especially helpful in finding circle-line intersections.
   \end{enumerate}
 \end{note}
-\begin{example}{RV FM CT 2024}{}
+\begin{example}{}{}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth,page=1]{../Diagrams/Complex-revision.pdf}
+    \caption{\textcolor{green!85!black}{Annotations} that improve clarity.}
+    \label{fig:complex-clarity-improvements}
+  \end{figure}
   \begin{figure}[H]
     \centering
     \begin{subfigure}[c]{0.45\textwidth}
@@ -649,8 +697,14 @@
       \centering
       \includegraphics[width=\textwidth,page=2]{../Diagrams/FM-CT-2024-Q5.pdf}
       \caption{Finding the radius \(R\) for which the circle just touches the half-line.}
-  \end{subfigure}%
-    \caption{The writing in blue denote the deductions we should make.}
+  \end{subfigure}
+
+  \begin{subfigure}[c]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,page=3]{../Diagrams/Complex-revision.pdf}
+    \caption{Finding the shortest distance \(L\) and \(D\) of \((2,-\sqrt{3})\), from the circle and line, respectively.}
+  \end{subfigure}
+    \caption{The \textcolor{blue}{writing in blue} denote the deductions we should make.}
     \label{fig:RVFM-CT-2024-Complex}
   \end{figure}
 \end{example}
