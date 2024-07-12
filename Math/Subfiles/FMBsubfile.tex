@@ -36,6 +36,7 @@
     \begin{enumerate}
       \item Let [\(X\) in context].
       \item \emph{Note.} Use a pen to draw any necessary tables.
+
       \begin{tabular}{|ll|}
         \hline
         Test & \(H_0\colon\text{[\(X\) follows the distribution in context]}\)\\
@@ -288,4 +289,250 @@
     \item Estimations should not be taken for data outside the range of the sample provided, even if the value of \(r\) is close to 1.
   \end{itemize}
 \end{stbox}
+
+\chapter{Non-Parametric Tests}
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item A \emph{sign test}.
+    \begin{enumerate}
+      \item Let \(m\) be the population median of \(D=\rule{1.5cm}{0.01mm}-\rule{1.5cm}{0.01mm}\).
+      \item 
+      \begin{tabular}{|ll|}
+        \hline
+        Test & \(H_0\colon m=m_0\)\\
+        against &\(H_1\colon\) 
+        \begin{enumerate*}[itemjoin={\quad}]
+          \item \(m<m_0\),
+          \item \(m\neq m_0\),\quad or
+          \item \(m>m_0\),
+        \end{enumerate*}\\
+        \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+        \hline
+      \end{tabular}
+      \item ~
+      \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
+          \hline
+          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(n\)\\
+          \hline 
+          Sign & \(+\) & \(0\) & \(-\) & \(\cdots\) & \(+\)\\
+          \hline
+        \end{tabular}
+        \caption{The signs of \(d_1,d_2,\dots,d_n\), for a sign test. Instead of \(1,2,\dots,n\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
+        \label{table:sign-test-working-table}
+      \end{table}
+      \item Let \(X_{+}\) be the number of \(`+'\). Under \(H_0\), \(X_{+}\sim\Binom(\hyperlink{non-parametric-tests-n-value}{n},1/2)\), \(x_{+}=11\). (Alternatively, \(X_{-}\) can also be used.)
+      \item Since \(p\text{-value}=\rule{1cm}{0.01mm}<100\alpha\%\) (\(\geq 100\alpha\%\)), there is sufficient (insufficient) evidence, at the \(100\alpha\%\) significance level, to conclude that [\(H_1\) in context].
+    \end{enumerate}
+    \item \emph{Note.} The \(p\)-value for a sign test is given by
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{ScScScSc}
+        \toprule
+        \(H_1\) & \(m<m_0\) & \(m>m_0\) & \(m\neq m_0\)\\
+        \midrule
+        \(X_{+}\) & \(\Prob(X_{+}\leq x_{+})\) & \(\Prob(X_{+}\geq x_{+})\) & \(2\min\{\Prob(X_{+}\geq x_{+}),\Prob(X_{+})\leq x_{+}\}\)\\
+        \midrule
+        \(X_{-}\) & \(\Prob(X_{-}\geq x_{-})\) & \(\Prob(X_{-}\leq x_{-})\) & \(2\min\{\Prob(X_{-}\geq x_{-}),\Prob(X_{-})\leq x_{-}\}\)\\
+        \bottomrule
+      \end{tabular}
+      \caption{The \(p\)-value for a sign test.}
+      \label{table:sign-test-p-value}
+    \end{table}
+  \end{itemize}
+\end{stbox}
+\begin{note}
+  Sign test. Suppose we have \(H_1\colon m\neq m_0\). To find the range of values of \(x_{+}\) that result in the rejection of \(H_0\), use GC to compute the following tables.
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|Sc|Sc|}
+      \hline
+      \(x_{+}\) & \(\alpha/2-2\Prob(X_{+}\leq x_{+})\)\\
+      \hline
+      \(n-1\) & \(\rule{0.5cm}{0.01mm}>0\)\\
+      \hline
+      \(n\) & \(\rule{0.5cm}{0.01mm}>0\)\\
+      \hline
+      \(n+1\) & \(\rule{0.5cm}{0.01mm}<0\)\\
+      \hline
+    \end{tabular}\hspace{1cm}
+    \begin{tabular}{|Sc|Sc|}
+      \hline
+      \(x_{+}\) & \(\alpha/2-2\Prob(X_{+}\geq x_{+})\)\\
+      \hline
+      \(m-1\) & \(\rule{0.5cm}{0.01mm}<0\)\\
+      \hline
+      \(m\) & \(\rule{0.5cm}{0.01mm}<0\)\\
+      \hline
+      \(m+1\) & \(\rule{0.5cm}{0.01mm}>0\)\\
+      \hline
+    \end{tabular} 
+  \end{table}
+  Then, we conclude that \(x_{+}\leq n\) or \(x_{+}\geq m\).
+\end{note}
+\begin{stbox}{}
+  \begin{itemize}
+    \item A Wilcoxon matched-pairs signed rank test. 
+    \begin{enumerate}
+      \item Let \(m\) be the population median of \(D=\rule{1.5cm}{0.01mm}-\rule{1.5cm}{0.01mm}\).
+      \item 
+      \begin{tabular}{|ll|}
+        \hline
+        Test & \(H_0\colon m=0\)\\
+        against &\(H_1\colon\) 
+        \begin{enumerate*}[itemjoin={\quad}]
+          \item \(m<\highlight[yellow]{0}\),
+          \item \(m\neq \highlight[yellow]{0}\),\quad or
+          \item \(m>\highlight[yellow]{0}\),
+        \end{enumerate*}\\
+        \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+        \hline
+      \end{tabular}
+      \item ~
+      \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
+          \hline
+          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(n\)\\
+          \hline 
+          \(D\) & \(d_1\) & \(0\) & \(d_3\) & \(\cdots\) & \(d_n\)\\
+          \hline
+          Rank & \(1\) &  & \(5\) & \(\cdots\) & \(2\)\\
+          \hline
+        \end{tabular}
+        \caption{The value of the differences \(d_1,d_2,\dots,d_n\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). If \(d_i=0\), simply leave the corresponding cell, for rank, blank.}
+        \label{table:wilcoxon-working-table}
+      \end{table}
+      \item
+      \begin{itemize}[label=\(\circ\)]
+        \item \(t_{-}=\rule{0.5cm}{0.01mm}+\rule{0.5cm}{0.01mm}+\dots+\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}\)
+        \item \(t_{+}=\rule{0.5cm}{0.01mm}+\rule{0.5cm}{0.01mm}+\dots+\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}\)
+        \item The test statistic is \(T\coloneq\min\{T_{-},T_{+}\}=\rule{0.5cm}{0.01mm}\).
+        \item Reject \(H_0\) if \(T=\rule{0.5cm}{0.01mm}\). (see table \ref{table:wilcoxon-critical-region})
+      \end{itemize}
+      \item Since \(t=\rule{0.5cm}{0.01mm}\,\square\, \rule{0.5cm}{0.01mm}\), there is sufficient/insufficient evidence, at the \(100\alpha\%\) significance level, to conclude that [\(H_1\) in context].
+    \end{enumerate}
+    \item The test statistics \(T_{+}\) and \(T_{-}\) can also be used, depending on our preference.
+      \item The critical regions for a Wilcoxon test, for each alternative hypothesis and test statistic \(T_{-}\) or \(T_{+}\). The value of \(c\) is obtained from MF26\(^{\hyperlink{non-parametric-tests-n-value}{*}}\). 
+      
+      \emph{Note.} the value of \(c\) may differ for a one-tail vs a two-tail test, so look at the table carefully, to obtain the correct value.
+      \begin{table}[H]
+        \centering
+        \setlength{\tabcolsep}{12pt}
+        \begin{tabular}{ScScScSc}
+          \toprule
+          \(H_1\) & \(m<m_0\) & \(m>m_0\) & \(m\neq m_0\)\\
+          \midrule
+          \(T_{+}\) & \(T_{+}\leq c\) & \(T_{+}\geq \dfrac{n(n+1)}{2}-c\) & \(T_{+}\leq c\)\quad or\quad\(T_{+}\geq \dfrac{n(n+1)}{2}-c\)\\
+          \midrule
+          \(T_{-}\) & \(T_{-}\geq \dfrac{n(n+1)}{2}-c\) & \(T_{-}\leq c\) & \(T_{-}\leq c\)\quad or\quad\(T_{-}\geq \dfrac{n(n+1)}{2}-c\)\\
+          \midrule
+          \(T\) & \multicolumn{2}{Sc}{\(T\leq c^{\hyperlink{wilcoxson-T=min-note}{1}}\)} & \(T\leq c\)\quad or\quad\(T\geq \dfrac{n(n+1)}{2}-c\)\\
+          \bottomrule
+        \end{tabular}
+        \caption{The critical regions for Wilcoxon tests.}
+        \label{table:wilcoxon-critical-region}
+      \end{table}
+      \begin{footnotesize}
+        {}\(^{\protect\hypertarget{wilcoxson-T=min-note}{1}}\)Assuming \(T_{-}\geq T_{+}\) for \(m<m_0\), and \(T_{+}\geq T_{-}\) for \(m>m_0\).
+      \end{footnotesize}
+      \setlength{\tabcolsep}{6pt}
+      \item For large sample sizes \(n\geq 21\), we use the approximation 
+      \[T\sim\Normal\left( \frac{n(n+1)}{4},\frac{n(n+1)(2n+1)}{24} \right)\]
+      and conduct a one/two-tailed \(z\)-test.
+  \end{itemize}
+\end{stbox}
+\begin{note}\hypertarget{non-parametric-tests-n-value}{}
+  The value of \(n\) in both tests should be the total number of columns minus the number of columns with \(d=0\). i.e.
+  \[n\coloneq\#\text{cols}-\#\{i \,\vert\, d_i\neq 0\}.\]
+\end{note}
+\begin{note}
+  If we need to use both the sign test and a Wilcoxon test on the same sample, then consider creating just a single table, as shown below. 
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
+      \hline
+      [label in context] & 1 & 2 & 3 & \(\cdots\) & \(n\)\\
+      \hline 
+      \(D\) & \(d_1\) & \(0\) & \(d_3\) & \(\cdots\) & \(d_n\)\\
+      \hline
+      Sign & \(+\) & \(0\) & \(-\) & \(\cdots\) & \(+\)\\
+      \hline
+      Rank & \(1\) &  & \(5\) & \(\cdots\) & \(2\)\\
+      \hline
+    \end{tabular}
+    \caption{Combined table for both the sign test and Wilcoxon test.}
+    \label{table:sign-Wilcoxon-combined}
+  \end{table}
+\end{note}
+\begin{note}
+  State the circumstances under which a non-parametric test would be used rather than a parametric test.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      We use a non-parametric test, rather than a parametric test, when:
+      \begin{enumerate}
+        \item The population is not known to be normally distributed.
+        \item The population mean is not the best way to measure tendency.
+        \item The measurement scale has no predetermined rank or ordering. 
+      \end{enumerate}
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Why is it not appropriate to use a paired-sample \(t\)-test? 
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      There is no contextual evidence to support the assumption that \(D_1,D_2,\dots,D_n\) are normally distributed. So, conducting a paired-sample \(t\)-test may result in unreliable results, given our small sample size \(n\). 
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  State the precautions that should be taken to avoid (statistical) bias. 
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      Choose any approperate ones.
+      \begin{enumerate}
+        \item The test should be \emph{`blind'}. [Testers in context] should not know which of the [two variations involved in the test, in context] they are [tasting/wearing/etc, in context]. If the [testers] knew, their preconceptions may affect \rule{2cm}{0.01mm}.
+        \item Pick a random sample of \(n\) [testers].
+        \item The \emph{order} of the test --- whether the [first variation] or [second variation] comes first --- should be randomised.
+        \item The [testers] should not communicate with each other.
+        \item There should be sufficient rest time between the two runs, so that the running timing of the second run would not be affected due to fatigue.
+      \end{enumerate}
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Explain why it is better to conduct a Wilcoxon test than a sign test.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+     While a sign test only considers the sign of the differences, a Wilcoxson test takes into account both the sign and \emph{magnitude} of the differences. Therefore, a Wilcoxon test is more reliable, as it incorporates more information about the data.
+    }
+  \end{center}
+  % \begin{center}
+  %   \parbox{0.9\textwidth}{
+      
+  %   }
+  % \end{center}
+\end{note}
+\begin{note}
+  Explain why it might be better to conduct a sign test, rather than a Wilcoxon test. 
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      The data here is non-numeric and is not meausred on an ordinal scale. Hence, it is inapproperiate to conduct a Wilcoxon test. A sign test is better, as the data can still be represented by positie and negative responses --- denoting \rule{1cm}{0.01mm} and \rule{1cm}{0.01mm}, respectively.
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Explain why a sign test is more suitable/a Wilcoxon test is inappropriate.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      Choose any approperiate ones
+      \begin{enumerate}
+        \item The magnitude of the differences is irrelevant because \rule{1cm}{0.01mm}. So, a sign test --- which only accounts for the sign of the differences --- is more appropriate.
+        \item In this case, the data has too many \emph{tied ranks}. Thus, the conclusion obtained from a Wilcoxon test may not be reliable.
+      \end{enumerate}
+    }
+  \end{center}
+\end{note}
 \end{document}

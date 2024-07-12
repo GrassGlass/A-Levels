@@ -6,6 +6,7 @@
         "rref",
         "tearfox",
         "underbraces",
-        "Vieta"
+        "Vieta",
+        "Wilcoxon"
     ]
 }
