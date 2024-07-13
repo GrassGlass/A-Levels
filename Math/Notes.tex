@@ -1520,21 +1520,23 @@
 \chapter{Vectors}
 \begin{note}
   A useful fact about cross products. For any \(a_i,b_i\in \mathbb{R}\):
-  \[\begin{pmatrix}
-    a_1\\
-    a_2\\
-    a_3
-  \end{pmatrix}\times
-  \begin{pmatrix}
-    b_1\\
-    b_2\\
-    b_3
-  \end{pmatrix}=
-  \begin{pmatrix}
+  \[\left\lvert 
+    \begin{pmatrix}
+      a_1\\
+      a_2\\
+      a_3
+    \end{pmatrix}\times
+    \begin{pmatrix}
+      b_1\\
+      b_2\\
+      b_3
+    \end{pmatrix}
+   \right\rvert=
+  \begin{vmatrix}
     1 & a_1 & b_1\\
     1 & a_2 & b_2\\
     1 & a_3 & b_3\\
-  \end{pmatrix}.\]
+  \end{vmatrix}.\]
 \end{note}
 \begin{longtable}{|Sc|Sc|}
   \hline
@@ -1542,18 +1544,18 @@
   \hline
   \multicolumn{2}{|Sc|}{Equivalent Forms}\\
   \hline
-  \begin{minipage}{0.5\textwidth}
+  \begin{minipage}{0.4\linewidth}
     \begin{enumerate}
       \item Vector Equation: \[\ell \colon \mathbf{r}=\mathbf{a}+\lambda \mathbf{m}\text{, }\lambda \in \mathbb{R},\]
       \item Cartesian Equation: 
       \[\frac{x-a_1}{m_1}=\frac{y-a_2}{m_2}=\frac{z-a_3}{m_3.}\]
     \end{enumerate}
 \end{minipage} & 
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
 \begin{enumerate}
   \item Vector Equation: 
   \[\Pi \colon \mathbf{r}=\mathbf{a}+\lambda
-  \mathbf{m_1}+\mu \mathbf{m_2}\text{ where }\lambda,\mu\in\mathbf{R},\]
+  \mathbf{m_1}+\mu \mathbf{m_2},\ \lambda,\mu\in\mathbb{R}.\]
   \item Scalar Product Form: 
   \[\Pi \colon \mathbf{r} \cdot \mathbf{n}=p\]
   where the scalar \(p\coloneq  \mathbf{a}\cdot \mathbf{n}\),
@@ -1568,7 +1570,7 @@
 \hline
 \multicolumn{2}{|Sc|}{Foot of Perpendicular}\\
 \hline
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
   \begin{enumerate}
     \item[M1:] 
     \begin{enumerate}
@@ -1583,7 +1585,7 @@
     \end{enumerate}
   \end{enumerate}
 \end{minipage} & 
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
   \begin{enumerate}
     \item[M1:]
     \begin{enumerate}[label=(\alph*)]
@@ -1603,7 +1605,7 @@
 \hline
 \multicolumn{2}{|Sc|}{Shortest Distance of Point To Line, \(QN\)}\\
 \hline
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
   \begin{enumerate}
     \item[M1:] \(\norm{\overrightarrow{AQ} \times \mathbf{\widehat{m}}}\).
     \item[M2:]
@@ -1614,7 +1616,7 @@
     \item[M3:] Using the foot of perpendicular, find distance \(QN\).
   \end{enumerate}
 \end{minipage} &
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
   \begin{enumerate}
     \item[M1:] \(\norm{\overrightarrow{AQ}\cdot \mathbf{\widehat{n}}} \).
     \item[M2:] Distance of plane to \emph{origin}: 
@@ -1632,7 +1634,7 @@
 \hline
 The Relationship Between Two Lines & The Relationship Between Two Planes\\
 \hline
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
   \begin{enumerate}
     \item Parallel, Non-Intersecting
     \begin{enumerate}
@@ -1657,7 +1659,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \end{enumerate}
   \end{enumerate}
 \end{minipage} &
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\linewidth}
   \begin{enumerate}
     \item Distinct Parallel Planes: 
     \begin{enumerate}
@@ -1690,7 +1692,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
 \multicolumn{2}{|Sc|}{The Relationship Between A Line and A Plane}\\
 \hline 
 \multicolumn{2}{|Sc|}{
-\begin{minipage}{\textwidth}
+\begin{minipage}{0.8\linewidth}
   \begin{enumerate}
     \item \(\ell\) lies in \(\Pi\)
     \begin{enumerate}[label=M\arabic*:]
@@ -1722,12 +1724,12 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
 \multicolumn{2}{|Sc|}{The Point of Reflection}\\
 \hline
 \multicolumn{2}{|Sc|}{  
-\begin{minipage}{\textwidth}
+\begin{minipage}{0.8\linewidth}
 \begin{center}
-  \begin{enumerate*}[itemjoin={,\qquad\qquad}]
+  \begin{enumerate}
     \item Find foot of perpendicular \(\overrightarrow{ON}\)
     \item Notice \(\overrightarrow{OA'}=\overrightarrow{OA}+2\overrightarrow{AN}=2\overrightarrow{ON}-\overrightarrow{OA}\).
-  \end{enumerate*}
+  \end{enumerate}
 \end{center}
 \end{minipage}}\\
 \hline
@@ -1735,15 +1737,15 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \hline
   \multicolumn{2}{|Sc|}{
     \begin{tabular}{Sc|Sc|Sc}
-      \begin{minipage}{0.333\textwidth}
+      \begin{minipage}{0.267\linewidth}
         \centering
         Two Lines
       \end{minipage} &
-      \begin{minipage}{0.333\textwidth}
+      \begin{minipage}{0.267\linewidth}
         \centering
         Line and Plane
       \end{minipage} &
-      \begin{minipage}{0.333\textwidth}
+      \begin{minipage}{0.267\linewidth}
         \centering
         Two Planes
       \end{minipage}\\
@@ -1751,13 +1753,13 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \hline
     \multicolumn{2}{|Sc|}{
     \begin{tabular}{Sc|Sc|Sc}
-      \begin{minipage}{0.333\textwidth}
+      \begin{minipage}{0.267\linewidth}\vspace{-0.5cm}
         \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{m}_1}\cdot {\mathbf{\widehat{m}_2}}\right\rvert.\]
       \end{minipage} &
-      \begin{minipage}{0.333\textwidth} 
+      \begin{minipage}{0.267\linewidth}\vspace{-0.5cm}
         \[\theta=\sin^{-1}\left\lvert \mathbf{\widehat{m}}\cdot \mathbf{\widehat{n}} \right\rvert .\]
       \end{minipage} &
-      \begin{minipage}{0.333\textwidth}
+      \begin{minipage}{0.267\linewidth}\vspace{-0.5cm}
         \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{n}_1}\cdot \mathbf{\widehat{n}_2} \right\rvert.\]
       \end{minipage}\\
     \end{tabular}}\\

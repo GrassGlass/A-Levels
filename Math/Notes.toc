@@ -57,4 +57,5 @@
 \contentsline {section}{\numberline {23.2}Summary}{82}{section.23.2}%
 \contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{84}{chapter.24}%
 \contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{89}{chapter.25}%
-\contentsline {chapter}{\numberline {26}Bibliography}{91}{chapter.26}%
+\contentsline {chapter}{\numberline {26}Non-Parametric Tests}{91}{chapter.26}%
+\contentsline {chapter}{\numberline {27}Bibliography}{95}{chapter.27}%
