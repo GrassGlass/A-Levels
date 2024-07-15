@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 JUL 2024 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 JUL 2024 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1540,13 +1540,13 @@ Chapter 17.
 [55
 
 ] [56]
-<./images/../Diagrams/Euler's-Methods/euler's-method.pdf, id=1089, 341.86823pt x 235.80798pt>
+<./images/../Diagrams/Euler's-Methods/euler's-method.pdf, id=1091, 341.86823pt x 235.80798pt>
 File: ./images/../Diagrams/Euler's-Methods/euler's-method.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Euler's-Methods/euler's-method.pdf>
 Package pdftex.def Info: ./images/../Diagrams/Euler's-Methods/euler's-method.pdf  used on input line 1896.
 (pdftex.def)             Requested size: 341.86739pt x 235.8074pt.
  [57 <./images/../Diagrams/Euler's-Methods/euler's-method.pdf>] [58]
-<./images/Logistics Curve.jpg, id=1137, 1284.8pt x 642.4pt>
+<./images/Logistics Curve.jpg, id=1139, 1284.8pt x 642.4pt>
 File: ./images/Logistics Curve.jpg Graphic file (type jpg)
 <use ./images/Logistics Curve.jpg>
 Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 1979.
@@ -1585,7 +1585,7 @@ Chapter 19.
 [63
 
 ] [64]
-<./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf, id=1211, 220.19867pt x 190.9504pt>
+<./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf, id=1213, 220.19867pt x 190.9504pt>
 File: ./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf>
 Package pdftex.def Info: ./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf  used on input line 2161.
@@ -1595,7 +1595,7 @@ Chapter 20.
 [67
 
 ]
-<Diagrams/CRV-cosine/diagram.pdf, id=1248, 214.74428pt x 184.88272pt>
+<Diagrams/CRV-cosine/diagram.pdf, id=1250, 214.74428pt x 184.88272pt>
 File: Diagrams/CRV-cosine/diagram.pdf Graphic file (type pdf)
 <use Diagrams/CRV-cosine/diagram.pdf>
 Package pdftex.def Info: Diagrams/CRV-cosine/diagram.pdf  used on input line 41.
@@ -1605,7 +1605,7 @@ Chapter 21.
 [69
 
 ]
-<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1286, 4047.12pt x 1561.835pt>
+<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1288, 4047.12pt x 1561.835pt>
 File: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
 <use ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
 Package pdftex.def Info: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 65.
@@ -1619,7 +1619,7 @@ Chapter 23.
 [76
 
 ] [77]
-<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1373, 247.79776pt x 206.2867pt>
+<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1375, 247.79776pt x 206.2867pt>
 File: ./images/../Diagrams/t-distribution/t-distributon.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/t-distribution/t-distributon.pdf>
 Package pdftex.def Info: ./images/../Diagrams/t-distribution/t-distributon.pdf  used on input line 182.
@@ -1688,7 +1688,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 11.
 
-<Subfiles/../Diagrams/Chi-square.pdf, id=1483, 451.6875pt x 301.125pt>
+<Subfiles/../Diagrams/Chi-square.pdf, id=1485, 451.6875pt x 301.125pt>
 File: Subfiles/../Diagrams/Chi-square.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/Chi-square.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/Chi-square.pdf  used on input line 21.
@@ -1705,12 +1705,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
 [86] [87] [88]
 Chapter 25.
-<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1549, 876.77562pt x 330.23375pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1551, 876.77562pt x 330.23375pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 1.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 1.png  used on input line 282.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1551, 935.495pt x 259.46938pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1553, 935.495pt x 259.46938pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 2.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 2.png  used on input line 283.
@@ -1734,18 +1734,18 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: 4F9022EB58F008449BA52BE547DE7267;9142.
  ) 
 Here is how much of TeX's memory you used:
- 49567 strings out of 475237
- 1171702 string characters out of 5768555
+ 49568 strings out of 475237
+ 1171712 string characters out of 5768555
  1982238 words of memory out of 5000000
  69150 multiletter control sequences out of 15000+600000
  591855 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,27n,145p,743b,3107s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Notes.pdf (97 pages, 3654517 bytes).
+Output written on Notes.pdf (97 pages, 3654598 bytes).
 PDF statistics:
- 1990 PDF objects out of 2073 (max. 8388607)
- 1703 compressed objects within 18 object streams
- 747 named destinations out of 1000 (max. 500000)
+ 1992 PDF objects out of 2073 (max. 8388607)
+ 1705 compressed objects within 18 object streams
+ 748 named destinations out of 1000 (max. 500000)
  621 words of extra memory for PDF output out of 10000 (max. 10000000)
 
