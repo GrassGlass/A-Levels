@@ -41,10 +41,10 @@
 \contentsline {section}{\numberline {17.1}First Order D.E.s}{55}{section.17.1}%
 \contentsline {subsection}{\numberline {17.1.1}Elementary Solving Techniques}{55}{subsection.17.1.1}%
 \contentsline {subsection}{\numberline {17.1.2}Numerical Methods}{55}{subsection.17.1.2}%
-\contentsline {section}{\numberline {17.2}Second Order D.E.}{57}{section.17.2}%
+\contentsline {section}{\numberline {17.2}Second Order D.E.}{58}{section.17.2}%
 \contentsline {section}{\numberline {17.3}Applications}{58}{section.17.3}%
 \contentsline {subsection}{\numberline {17.3.1}Exponential Growth}{58}{subsection.17.3.1}%
-\contentsline {subsection}{\numberline {17.3.2}Logistics Growth}{58}{subsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.3.2}Logistics Growth}{59}{subsection.17.3.2}%
 \contentsline {subsection}{\numberline {17.3.3}Harvesting}{60}{subsection.17.3.3}%
 \contentsline {subsection}{\numberline {17.3.4}Physics}{60}{subsection.17.3.4}%
 \contentsline {chapter}{\numberline {18}Discrete Random Variables}{62}{chapter.18}%
