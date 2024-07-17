@@ -91,6 +91,34 @@
   Similarly, suppose \(X\sim\Normal(\mu,\sigma^2)\), such that the expected frequency of each of the \(n\) classes is at least 5, and the true values of \(\mu\) and \(\sigma^2\) are unknown. In this case, the degree of freedom \(\nu=n-2-1=n-3\). 
 \end{example}
 \begin{note}
+  Consider when we are testing 
+\begin{center}
+    \begin{tabular}{|ll|}
+      \hline
+      Test & \(H_0\colon X\sim\Normal(\mu,\sigma^2)\)\\
+      against &\(H_1\colon X\not\sim\Normal(\mu,\sigma^2)\)\\
+      \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
+      \hline
+    \end{tabular} 
+\end{center}
+So, we want to fill up the values of \(e_i\) below.
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+    \hline
+    \(x\) & \(a_1\leq x_1\leq b_1\) & \(a_2\leq x_2\leq b_2\) & \(\cdots\) & \(a_n\leq x_n\leq b_n\)\\
+    \hline
+    \(f_i\) & \(f_1\) & \(f_2\) & \(\cdots\) & \(f_n\)\\
+    \hline
+    \(e_i\) & \cellcolor{yellow} \(e_1\) & \(e_2\) & \(\cdots\) & \cellcolor{yellow} \(e_n\)\\
+    \hline
+  \end{tabular}
+  \caption{Observed and expected frequencies when testing goodness-of-fit with a normal distribution.}
+  \label{table:gof-normal} 
+\end{table}
+Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Prob(\highlight[green!50]{-\infty}<X\leq b_1)\) and \(e_n=m\Prob(a_n\leq X<\highlight[green!50]{\infty})\), instead of \(e_1=m\Prob(\highlight[red!30]{a_1}\leq X\leq b_1)\) or \(e_n=m\Prob(a_n\leq X\leq\highlight[red!30]{b_n})\). Similarly, for goodness-of-fit tests with Poisson and Geometric distributions, we must also be careful in ensuring that we account for \emph{all} possible values which \(X\) can take on, in calculating \(e_i\).
+\end{note}
+\begin{note}
   Suppose we are given a question of the following form.
 
   \vspace{-0.5\baselineskip}\rule{20cm-137.0549pt}{0.05mm}

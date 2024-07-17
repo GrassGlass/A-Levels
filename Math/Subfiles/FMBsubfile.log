@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  15 JUL 2024 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  17 JUL 2024 20:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,21 +1172,21 @@ Package pdftex.def Info: ../Diagrams/Chi-square.pdf  used on input line 21.
 
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../Diagrams/Chi-square.pdf>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 [][]
  []
 
 [3] [4] [5]
 Chapter 2.
-<../images/Product Moment Correlation Coefficient 1.png, id=107, 876.77562pt x 330.23375pt>
+<../images/Product Moment Correlation Coefficient 1.png, id=108, 876.77562pt x 330.23375pt>
 File: ../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use ../images/Product Moment Correlation Coefficient 1.png>
-Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 1.png  used on input line 282.
+Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 1.png  used on input line 310.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<../images/Product Moment Correlation Coefficient 2.png, id=109, 935.495pt x 259.46938pt>
+<../images/Product Moment Correlation Coefficient 2.png, id=110, 935.495pt x 259.46938pt>
 File: ../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use ../images/Product Moment Correlation Coefficient 2.png>
-Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 2.png  used on input line 283.
+Package pdftex.def Info: ../images/Product Moment Correlation Coefficient 2.png  used on input line 311.
 (pdftex.def)             Requested size: 374.19136pt x 103.7859pt.
 [6
 
@@ -1203,18 +1203,18 @@ Package rerunfilecheck Info: File `FMBsubfile.out' has not changed.
 (rerunfilecheck)             Checksum: 398B21D9B2A16C106E430310951C74B5;507.
  ) 
 Here is how much of TeX's memory you used:
- 46097 strings out of 475237
- 1097686 string characters out of 5768555
- 1953238 words of memory out of 5000000
- 66397 multiletter control sequences out of 15000+600000
+ 46104 strings out of 475237
+ 1097796 string characters out of 5768555
+ 1957238 words of memory out of 5000000
+ 66403 multiletter control sequences out of 15000+600000
  584524 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,17n,162p,802b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMBsubfile.pdf (11 pages, 448992 bytes).
+Output written on FMBsubfile.pdf (11 pages, 451348 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 82 named destinations out of 1000 (max. 500000)
  52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
