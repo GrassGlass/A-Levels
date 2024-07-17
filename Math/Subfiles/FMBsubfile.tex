@@ -106,7 +106,7 @@ So, we want to fill up the values of \(e_i\) below.
   \centering
   \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
     \hline
-    \(x\) & \(a_1\leq x_1\leq b_1\) & \(a_2\leq x_2\leq b_2\) & \(\cdots\) & \(a_n\leq x_n\leq b_n\)\\
+    \(x\) & \(a_1\leq x_1\leq a_2\) & \(a_2\leq x_2\leq a_3\) & \(\cdots\) & \(a_n\leq x_n\leq a_{n+1}\)\\
     \hline
     \(f_i\) & \(f_1\) & \(f_2\) & \(\cdots\) & \(f_n\)\\
     \hline
@@ -116,7 +116,7 @@ So, we want to fill up the values of \(e_i\) below.
   \caption{Observed and expected frequencies when testing goodness-of-fit with a normal distribution.}
   \label{table:gof-normal} 
 \end{table}
-Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Prob(\highlight[green!50]{-\infty}<X\leq b_1)\) and \(e_n=m\Prob(a_n\leq X<\highlight[green!50]{\infty})\), instead of \(e_1=m\Prob(\highlight[red!30]{a_1}\leq X\leq b_1)\) or \(e_n=m\Prob(a_n\leq X\leq\highlight[red!30]{b_n})\). Similarly, for goodness-of-fit tests with Poisson and Geometric distributions, we must also be careful in ensuring that we account for \emph{all} possible values which \(X\) can take on, in calculating \(e_i\).
+Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Prob(\highlight[green!50]{-\infty}<X\leq a_2)\) and \(e_n=m\Prob(a_n\leq X<\highlight[green!50]{\infty})\), instead of \(e_1=m\Prob(\highlight[red!30]{a_1}\leq X\leq a_2)\) or \(e_n=m\Prob(a_n\leq X\leq\highlight[red!30]{a_{n+1}})\). Similarly, for goodness-of-fit tests with Poisson and Geometric distributions, we must also be careful in ensuring that we account for \emph{all} possible values which \(X\) can take on, in calculating \(e_i\).
 \end{note}
 \begin{note}
   Suppose we are given a question of the following form.
