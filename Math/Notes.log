@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 JUL 2024 09:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 JUL 2024 09:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1043,8 +1043,7 @@ LaTeX Warning: You have requested package `Style/NewCommands',
                but the package provides `NewCommands'.
 
 Package: NewCommands 
-)
-No file Notes.aux.
+) (./Notes.aux)
 \openout1 = `Notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -1065,7 +1064,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
-(c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count387
 \scratchdimen=\dimen386
@@ -1129,10 +1128,11 @@ Package caption Info: End \AtBeginDocument code.
 \c@tabularnotes*i=\count395
 \enitdp@tabularnotes*=\count396
 Package hyperref Info: Link coloring ON on input line 33.
+(./Notes.out) (./Notes.out)
 \@outlinefile=\write4
 \openout4 = `Notes.out'.
 
-(./Titlepage.tex
+ (./Titlepage.tex
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 6.
  (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1146,16 +1146,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 6.
- (c:/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-No file Notes.toc.
+ (c:/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) (./Notes.toc [1
+
+
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `Notes.toc'.
 
-[1
-
-
-
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [1
+ [2]) [1
 
 
 ]
@@ -1168,7 +1167,7 @@ Chapter 2.
 
 ] [5] [6]
 Chapter 3.
-<./images/SpecialRR.jpg, id=88, 3838.34pt x 2115.905pt>
+<./images/SpecialRR.jpg, id=389, 3838.34pt x 2115.905pt>
 File: ./images/SpecialRR.jpg Graphic file (type jpg)
 <use ./images/SpecialRR.jpg>
 Package pdftex.def Info: ./images/SpecialRR.jpg  used on input line 279.
@@ -1236,7 +1235,7 @@ See the caption package documentation for explanation.
 
 [15]
 Chapter 7.
-<./images/../Diagrams/Argand.pdf, id=202, page=145, 294.44002pt x 173.41888pt>
+<./images/../Diagrams/Argand.pdf, id=494, page=145, 294.44002pt x 173.41888pt>
 File: ./images/../Diagrams/Argand.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Argand.pdf, page 145>
 Package pdftex.def Info: ./images/../Diagrams/Argand.pdf , page145 used on input line 452.
@@ -1251,12 +1250,12 @@ See the caption package documentation for explanation.
  <./images/../Diagrams/Argand.pdf>] [17]
 
 pdfTeX warning: pdflatex.exe (file ./images/../Diagrams/Complex-revision.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images/../Diagrams/Complex-revision.pdf, id=248, page=2, 3990.91pt x 2404.985pt>
+<./images/../Diagrams/Complex-revision.pdf, id=538, page=2, 3990.91pt x 2404.985pt>
 File: ./images/../Diagrams/Complex-revision.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Complex-revision.pdf, page 2>
 Package pdftex.def Info: ./images/../Diagrams/Complex-revision.pdf , page2 used on input line 535.
 (pdftex.def)             Requested size: 172.79921pt x 104.10957pt.
-<./images/../images/ComplexCircleLocus.jpg, id=249, 1603.9925pt x 925.4575pt>
+<./images/../images/ComplexCircleLocus.jpg, id=539, 1603.9925pt x 925.4575pt>
 File: ./images/../images/ComplexCircleLocus.jpg Graphic file (type jpg)
 <use ./images/../images/ComplexCircleLocus.jpg>
 Package pdftex.def Info: ./images/../images/ComplexCircleLocus.jpg  used on input line 543.
@@ -1266,7 +1265,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 544.
 See the caption package documentation for explanation.
 
-<./images/ComplexLocusCircle-LargestAngleAndDistance.jpg, id=250, 1492.57625pt x 811.03pt>
+<./images/ComplexLocusCircle-LargestAngleAndDistance.jpg, id=540, 1492.57625pt x 811.03pt>
 File: ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg Graphic file (type jpg)
 <use ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg>
 Package pdftex.def Info: ./images/ComplexLocusCircle-LargestAngleAndDistance.jpg  used on input line 552.
@@ -1276,7 +1275,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 553.
 See the caption package documentation for explanation.
 
-<./images/../images/ComplexPerpendicularBisectorLocus.jpg, id=251, 1355.0625pt x 745.78625pt>
+<./images/../images/ComplexPerpendicularBisectorLocus.jpg, id=541, 1355.0625pt x 745.78625pt>
 File: ./images/../images/ComplexPerpendicularBisectorLocus.jpg Graphic file (type jpg)
 <use ./images/../images/ComplexPerpendicularBisectorLocus.jpg>
 Package pdftex.def Info: ./images/../images/ComplexPerpendicularBisectorLocus.jpg  used on input line 558.
@@ -1286,7 +1285,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 559.
 See the caption package documentation for explanation.
 
-<./images/../images/ComplexRotationByAngleTheta.jpg, id=252, 1604.99625pt x 1100.11pt>
+<./images/../images/ComplexRotationByAngleTheta.jpg, id=542, 1604.99625pt x 1100.11pt>
 File: ./images/../images/ComplexRotationByAngleTheta.jpg Graphic file (type jpg)
 <use ./images/../images/ComplexRotationByAngleTheta.jpg>
 Package pdftex.def Info: ./images/../images/ComplexRotationByAngleTheta.jpg  used on input line 563.
@@ -1296,7 +1295,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 564.
 See the caption package documentation for explanation.
 
-<./images/../images/Complex-Numbers-My-Funnei-Technique.jpg, id=253, 2055.68pt x 1559.8275pt>
+<./images/../images/Complex-Numbers-My-Funnei-Technique.jpg, id=543, 2055.68pt x 1559.8275pt>
 File: ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg Graphic file (type jpg)
 <use ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg>
 Package pdftex.def Info: ./images/../images/Complex-Numbers-My-Funnei-Technique.jpg  used on input line 576.
@@ -1314,7 +1313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 584--587
 [20 <./images/../images/Complex-Numbers-My-Funnei-Technique.jpg>] [21] [22]
 
 pdfTeX warning: pdflatex.exe (file ./images/../Diagrams/Complex-revision.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images/../Diagrams/Complex-revision.pdf, id=319, page=1, 3007.235pt x 3592.42125pt>
+<./images/../Diagrams/Complex-revision.pdf, id=607, page=1, 3007.235pt x 3592.42125pt>
 File: ./images/../Diagrams/Complex-revision.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Complex-revision.pdf, page 1>
 Package pdftex.def Info: ./images/../Diagrams/Complex-revision.pdf , page1 used on input line 685.
@@ -1322,7 +1321,7 @@ Package pdftex.def Info: ./images/../Diagrams/Complex-revision.pdf , page1 used 
 
 
 pdfTeX warning: pdflatex.exe (file ./images/../Diagrams/FM-CT-2024-Q5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images/../Diagrams/FM-CT-2024-Q5.pdf, id=320, page=1, 3500.07625pt x 1758.57pt>
+<./images/../Diagrams/FM-CT-2024-Q5.pdf, id=608, page=1, 3500.07625pt x 1758.57pt>
 File: ./images/../Diagrams/FM-CT-2024-Q5.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/FM-CT-2024-Q5.pdf, page 1>
 Package pdftex.def Info: ./images/../Diagrams/FM-CT-2024-Q5.pdf , page1 used on input line 693.
@@ -1330,7 +1329,7 @@ Package pdftex.def Info: ./images/../Diagrams/FM-CT-2024-Q5.pdf , page1 used on 
 
 
 pdfTeX warning: pdflatex.exe (file ./images/../Diagrams/FM-CT-2024-Q5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images/../Diagrams/FM-CT-2024-Q5.pdf, id=321, page=2, 3826.295pt x 1830.84pt>
+<./images/../Diagrams/FM-CT-2024-Q5.pdf, id=609, page=2, 3826.295pt x 1830.84pt>
 File: ./images/../Diagrams/FM-CT-2024-Q5.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/FM-CT-2024-Q5.pdf, page 2>
 Package pdftex.def Info: ./images/../Diagrams/FM-CT-2024-Q5.pdf , page2 used on input line 698.
@@ -1338,7 +1337,7 @@ Package pdftex.def Info: ./images/../Diagrams/FM-CT-2024-Q5.pdf , page2 used on 
 
 
 pdfTeX warning: pdflatex.exe (file ./images/../Diagrams/Complex-revision.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images/../Diagrams/Complex-revision.pdf, id=322, page=3, 4067.195pt x 2164.085pt>
+<./images/../Diagrams/Complex-revision.pdf, id=610, page=3, 4067.195pt x 2164.085pt>
 File: ./images/../Diagrams/Complex-revision.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Complex-revision.pdf, page 3>
 Package pdftex.def Info: ./images/../Diagrams/Complex-revision.pdf , page3 used on input line 704.
@@ -1382,32 +1381,22 @@ Chapter 8.
  [26] [27] [28] [29] [30]
 Chapter 9.
 
-LaTeX Warning: Reference `fig:linear-interpolation' on page 31 undefined on input line 352.
-
-
 Package hyperref Warning: Ignoring empty anchor on input line 353.
 
 [31
 
-]
-
-LaTeX Warning: Reference `fig:fixed-point-iteration' on page 32 undefined on input line 405.
-
-
-LaTeX Warning: Reference `fig:newton's-method' on page 32 undefined on input line 455.
-
-[32] [33]
-<Subfiles/../Diagrams/linear-interpolation.pdf, id=462, 602.25pt x 602.25pt>
+] [32] [33]
+<Subfiles/../Diagrams/linear-interpolation.pdf, id=754, 602.25pt x 602.25pt>
 File: Subfiles/../Diagrams/linear-interpolation.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/linear-interpolation.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/linear-interpolation.pdf  used on input line 497.
 (pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
-<Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf, id=465, 602.25pt x 602.25pt>
+<Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf, id=757, 602.25pt x 602.25pt>
 File: Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf  used on input line 503.
 (pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
-<Subfiles/../Diagrams/newton's-method.pdf, id=468, 602.25pt x 602.25pt>
+<Subfiles/../Diagrams/newton's-method.pdf, id=760, 602.25pt x 602.25pt>
 File: Subfiles/../Diagrams/newton's-method.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/newton's-method.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/newton's-method.pdf  used on input line 515.
@@ -1591,13 +1580,13 @@ Chapter 17.
 [55
 
 ] [56]
-<./images/../Diagrams/Euler's-Methods/euler's-method.pdf, id=820, 341.86823pt x 235.80798pt>
+<./images/../Diagrams/Euler's-Methods/euler's-method.pdf, id=1091, 341.86823pt x 235.80798pt>
 File: ./images/../Diagrams/Euler's-Methods/euler's-method.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Euler's-Methods/euler's-method.pdf>
 Package pdftex.def Info: ./images/../Diagrams/Euler's-Methods/euler's-method.pdf  used on input line 1934.
 (pdftex.def)             Requested size: 341.86739pt x 235.8074pt.
  [57 <./images/../Diagrams/Euler's-Methods/euler's-method.pdf>] [58]
-<./images/Logistics Curve.jpg, id=871, 1284.8pt x 642.4pt>
+<./images/Logistics Curve.jpg, id=1139, 1284.8pt x 642.4pt>
 File: ./images/Logistics Curve.jpg Graphic file (type jpg)
 <use ./images/Logistics Curve.jpg>
 Package pdftex.def Info: ./images/Logistics Curve.jpg  used on input line 2017.
@@ -1636,7 +1625,7 @@ Chapter 19.
 [63
 
 ] [64]
-<./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf, id=950, 220.19867pt x 190.9504pt>
+<./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf, id=1213, 220.19867pt x 190.9504pt>
 File: ./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf>
 Package pdftex.def Info: ./images/../Diagrams/Binomial-Distribution/Binomial-Distribution.pdf  used on input line 2199.
@@ -1646,7 +1635,7 @@ Chapter 20.
 [67
 
 ]
-<Diagrams/CRV-cosine/diagram.pdf, id=988, 214.74428pt x 184.88272pt>
+<Diagrams/CRV-cosine/diagram.pdf, id=1250, 214.74428pt x 184.88272pt>
 File: Diagrams/CRV-cosine/diagram.pdf Graphic file (type pdf)
 <use Diagrams/CRV-cosine/diagram.pdf>
 Package pdftex.def Info: Diagrams/CRV-cosine/diagram.pdf  used on input line 41.
@@ -1656,7 +1645,7 @@ Chapter 21.
 [69
 
 ]
-<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1028, 4047.12pt x 1561.835pt>
+<./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg, id=1288, 4047.12pt x 1561.835pt>
 File: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg Graphic file (type jpg)
 <use ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg>
 Package pdftex.def Info: ./images/../images/Special-Continuous-Random-Variables-Example-Illustration.jpg  used on input line 65.
@@ -1669,28 +1658,13 @@ Chapter 22.
 Chapter 23.
 [76
 
-]
-
-LaTeX Warning: Reference `Table:Summary table for one-sample hypothesis testing.' on page 77 undefined on input line 86.
-
-[77]
-<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1114, 247.79776pt x 206.2867pt>
+] [77]
+<./images/../Diagrams/t-distribution/t-distributon.pdf, id=1375, 247.79776pt x 206.2867pt>
 File: ./images/../Diagrams/t-distribution/t-distributon.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/t-distribution/t-distributon.pdf>
 Package pdftex.def Info: ./images/../Diagrams/t-distribution/t-distributon.pdf  used on input line 182.
 (pdftex.def)             Requested size: 215.0023pt x 178.98322pt.
-
-
-LaTeX Warning: Reference `Fig:Student' on page 78 undefined on input line 191.
-
-[78 <./images/../Diagrams/t-distribution/t-distributon.pdf>]
-
-LaTeX Warning: Reference `Table:Summary table for one-sample hypothesis testing.' on page 79 undefined on input line 219.
-
-
-LaTeX Warning: Reference `Table:Summary table for two-sample hypothesis testing.' on page 79 undefined on input line 268.
-
-
+ [78 <./images/../Diagrams/t-distribution/t-distributon.pdf>]
 Overfull \hbox (12.41122pt too wide) in paragraph at lines 295--295
 []\OT1/cmr/m/n/10 (ii)(1)  
  []
@@ -1700,14 +1674,7 @@ Overfull \hbox (12.41122pt too wide) in paragraph at lines 296--296
 []\OT1/cmr/m/n/10 (ii)(2)  
  []
 
-[79]
-
-LaTeX Warning: Reference `Table:Summary table for two-sample hypothesis testing.' on page 80 undefined on input line 310.
-
-
-LaTeX Warning: Reference `Table:Summary table for two-sample hypothesis testing.' on page 80 undefined on input line 351.
-
-[80] [81]
+[79] [80] [81]
 Overfull \hbox (3.88893pt too wide) in paragraph at lines 445--445
 []\OT1/cmr/m/n/10 [ii](1)  
  []
@@ -1761,7 +1728,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 11.
 
-<Subfiles/../Diagrams/Chi-square.pdf, id=1221, 451.6875pt x 301.125pt>
+<Subfiles/../Diagrams/Chi-square.pdf, id=1485, 451.6875pt x 301.125pt>
 File: Subfiles/../Diagrams/Chi-square.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/Chi-square.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/Chi-square.pdf  used on input line 21.
@@ -1776,18 +1743,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--147
 [][]
  []
 
-[86] [87]
-
-LaTeX Warning: Reference `table:tests-of-indepedence' on page 88 undefined on input line 264.
-
-[88]
+[86] [87] [88]
 Chapter 25.
-<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1289, 876.77562pt x 330.23375pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 1.png, id=1552, 876.77562pt x 330.23375pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 1.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 1.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 1.png  used on input line 310.
 (pdftex.def)             Requested size: 263.03471pt x 99.07088pt.
-<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1291, 935.495pt x 259.46938pt>
+<Subfiles/../images/Product Moment Correlation Coefficient 2.png, id=1554, 935.495pt x 259.46938pt>
 File: Subfiles/../images/Product Moment Correlation Coefficient 2.png Graphic file (type png)
 <use Subfiles/../images/Product Moment Correlation Coefficient 2.png>
 Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficient 2.png  used on input line 311.
@@ -1798,30 +1761,8 @@ Package pdftex.def Info: Subfiles/../images/Product Moment Correlation Coefficie
 Chapter 26.
 [91
 
-]
-
-LaTeX Warning: Reference `table:wilcoxon-critical-region' on page 92 undefined on input line 440.
-
-[92] [93]) [94]
+] [92] [93]) [94]
 Chapter 27.
-
-LaTeX Warning: Reference `fig:euler's-methods' on page 95 undefined on input line 2232.
-
-
-LaTeX Warning: Reference `fig:binomial-distribution' on page 95 undefined on input line 2234.
-
-
-LaTeX Warning: Reference `fig:linear-interpolation' on page 95 undefined on input line 2237.
-
-
-LaTeX Warning: Reference `fig:fixed-point-iteration' on page 95 undefined on input line 2239.
-
-
-LaTeX Warning: Reference `fig:newton's-method' on page 95 undefined on input line 2240.
-
-
-LaTeX Warning: Reference `fig:chi-square' on page 95 undefined on input line 2241.
-
 [95
 
 ] (./Notes.aux)
@@ -1829,35 +1770,22 @@ LaTeX Warning: Reference `fig:chi-square' on page 95 undefined on input line 224
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Notes.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Notes.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4F9022EB58F008449BA52BE547DE7267;9142.
+Package rerunfilecheck Info: File `Notes.out' has not changed.
+(rerunfilecheck)             Checksum: 4F9022EB58F008449BA52BE547DE7267;9142.
  ) 
 Here is how much of TeX's memory you used:
- 49501 strings out of 475237
- 1170862 string characters out of 5768555
+ 49575 strings out of 475237
+ 1171821 string characters out of 5768555
  1982238 words of memory out of 5000000
- 69090 multiletter control sequences out of 15000+600000
+ 69155 multiletter control sequences out of 15000+600000
  591855 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,28n,145p,743b,3107s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Notes.pdf (96 pages, 3636140 bytes).
+Output written on Notes.pdf (97 pages, 3648711 bytes).
 PDF statistics:
- 1719 PDF objects out of 1728 (max. 8388607)
- 1438 compressed objects within 15 object streams
- 749 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1989 PDF objects out of 2073 (max. 8388607)
+ 1704 compressed objects within 18 object streams
+ 750 named destinations out of 1000 (max. 500000)
+ 621 words of extra memory for PDF output out of 10000 (max. 10000000)
 
