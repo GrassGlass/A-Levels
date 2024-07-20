@@ -401,12 +401,14 @@
     \end{equation*}
   \item Surface area of revolution when rotated about \(\highlight[blue!30]{x}\)-axis: 
   \begin{equation*}
-    \resizebox{0.9\hsize}{!}{\(\displaystyle\int_{x_1}^{x_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dx}\right)^2+1}\,dx=\int_{y_1}^{y_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dx}{dy}\right)^2+1}\,dy=\int_{t_1}^{t_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2}\,dt=\int_{\alpha}^{\beta}\frac{1}{2}r^2\,d\theta.\)}
+    \resizebox{0.9\hsize}{!}{\(\displaystyle\int_{x_1}^{x_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dx}\right)^2+1}\,dx=\int_{y_1}^{y_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dx}{dy}\right)^2+1}\,dy=\int_{t_1}^{t_2}2\pi \highlight[red!30]{y} \sqrt{\left(\frac{dy}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2}\,dt.\)}
     \end{equation*}
   \begin{flushleft}
     \(\bigstar\) Rotating about \(\highlight[blue!30]{x}\)-axis \(\implies\) \(\highlight[red!30]{y}\) in integrand\\
     \hphantom{\(\bigstar\)} Rotating about \(\highlight[blue!30]{y}\)-axis \(\implies\) \(\highlight[red!30]{x}\) in integrand.
   \end{flushleft}
+  \item Area enclosed by a polar curve:
+  \[\int_{\alpha}^{\beta}\frac{1}{2}r^2\,d\theta.\]
   \end{enumerate}
 \end{stbox}
 \newpage
@@ -1287,7 +1289,7 @@
     \hline 
     Conic & \multicolumn{2}{Sc|}{Parabolas} & \multicolumn{2}{Sc|}{Ellipses} & \multicolumn{2}{Sc|}{Hyperbolas}\\
     \hline
-    Equation & \(x^2=4py\) & \(y^2=4px\) & 
+    Cartesian & \(x^2=4py\) & \(y^2=4px\) & 
     \(\begin{aligned}
       \frac{x^2}{a^2}+\frac{y^2}{b^2}=1\text{, }a>b
     \end{aligned}\) & 
@@ -1300,6 +1302,25 @@
     \(\begin{aligned}
     \frac{y^2}{b^2}-\frac{x^2}{a^2}=1
     \end{aligned}\)\\
+    \hline
+    Parametric & 
+    {\(\!\begin{aligned} 
+      x&=t\\
+      y&=t^2/4p
+     \end{aligned}\)} &
+     {\(\!\begin{aligned}
+      x&=t^2/4p\\
+      y&=t
+    \end{aligned}\)} & 
+    \multicolumn{2}{Sc|}{\(x=a\cos(\theta)\), \(y=b\sin(\theta)\)} &
+    {\(\!\begin{aligned} 
+      x&=a\sec(\theta)\\
+      y&=b\tan(\theta)
+     \end{aligned}\)} &
+     {\(\!\begin{aligned}
+      x&=a\tan(\theta)\\
+      y&=b\sec(\theta)
+    \end{aligned}\)}\\
     \hline
     Foci & \((0,p)\) & \((p,0)\) & \((\pm c,0)\) & \((0,\pm c)\) & \((\pm c,0)\) & \((0,\pm c)\)\\
     \hline
