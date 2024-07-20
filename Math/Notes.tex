@@ -271,8 +271,8 @@
 \begin{note}
   Let \(x_{n+1}=f(x_n)\) and \(L\coloneq \lim{x_n}\). To find the possible values of \(L\), we can compare the graph of \(y=f(x)\) against the identity function \(y=x\). This is done by seeing if \(f(x)<x\), \(f(x)=x\), or \(f(x)>x\).
 \end{note}
-\begin{note}
-  We should remember Vieta's Formulas. Consider a complex polynomial \(a_2 z^2+a_1 z+a_0\) with roots \(r_1\) and \(r_2\). Then, the sum \(r_1+r_2=-a_1/a_2\) and the product \(r_1r_2=a_0/a_2\).
+\begin{note}\hypertarget{vieta}{}
+  We should remember Vieta's Formula. Consider a complex polynomial \(a_2 z^2+a_1 z+a_0\) with roots \(r_1\) and \(r_2\). Then, the sum \(r_1+r_2=-a_1/a_2\) and the product \(r_1r_2=a_0/a_2\).
 \end{note}
 \begin{example}{}{}
   \begin{center}
@@ -750,8 +750,8 @@
 \begin{IN}
   \begin{itemize}
     \item The discriminant can be very useful.
-    \item Know how to use the G.C. Transfrm app.
-    It allows you to vary the value of some parameter \(A\) for a function \(f(Ax)\). Use this to graphically find the values of integer \(k\) satisfying some conditions.
+    \item Be aware of how to use the G.C. Transfrm app.
+    It allows you to vary the value of some parameter \(A\) for a function \(f(Ax)\). Use this to graphically find the values of \(k\) that satisfy some condition(s).
   \end{itemize}
 \end{IN}
 
@@ -946,9 +946,9 @@
 \end{center}
 \begin{stbox}{General Information}
   \begin{itemize}
-    \item To find asymptote of hyperbolas, just solve  
+    \item To find asymptote of hyperbolas, solve  
     \[\frac{(x-h)^2}{a^2}=\frac{(y-k)^2}{b^2}.\]
-    \item Label vertices or radii, together with the center and asymptotes.
+    \item When sketching any conic, label its vertices or radii, together with its center and asymptotes.
   \end{itemize}
 \end{stbox}
 \section{Parametric Equations}
@@ -1092,8 +1092,8 @@
 \end{center}
 \begin{definition*}{}{}
   \begin{enumerate}
-    \item The \emph{pole} is the origin, i.e. the point \(0\).
-    \item The \emph{initial line / polar axis} is the \emph{half line} \(\theta=0\).
+    \item The \emph{pole} is the origin.
+    \item The \emph{initial line/polar axis} is the \emph{half line} \(\theta=0\).
   \end{enumerate}
 \end{definition*}
 \begin{stbox}{General Information}{}
@@ -1218,18 +1218,12 @@
 \hline
     \end{longtable}
     \item Tangent lines at the pole are obtained by solving \(r=0\).
-    \item Know how to find range of \(r\) and \(\theta\) (given a func/eqn).
-    \item \(r=f(\theta)\) is symmetrical about the polar (horizontal) axis iff \(f(\theta)=f(-\theta)\).
-    \begin{itemize}
-      \item Suppose \(r\) is a function of \(\cos(n\theta)\)\footnote{E.g.: \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\)} \emph{only}. Then, the lines of symmetry are \(n\theta=0,\pi,2\pi,\ldots\)
-    \end{itemize}
-    \item \(r=f(\theta)\) is symmetrical about the vertical line \(\theta=\pi/2\) iff the equation \(f(\theta)=f(\pi-\theta)\).
-    \begin{itemize}
-      \item Suppose \(r\) is a function of \(\sin(n\theta)\) \emph{only}. Then, the lines of symmetry are 
-      \[n\theta=\frac{\pi}{2},\frac{3\pi}{2},\ldots,\frac{(2m+1)\pi}{2},\ldots\]
-    \end{itemize}
+    \item \(r=f(\theta)\) is symmetrical about the polar (horizontal) axis iff \(f(\theta)=f(-\theta)\) for all \(\theta\).
+    \item \(r=f(\theta)\) is symmetrical about the vertical line \(\theta=\pi/2\) iff \(f(\theta)=f(\pi-\theta)\) for all \(\theta\).
+    \item Suppose \(r\) is a function of \(\cos(n\theta)\)\emph{only}. (E.g. \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\).)  Then, the lines of symmetry are \(n\theta=k\pi\), for \(k\in \mathbb{Z}\).
+    \item Suppose \(r\) is a function of \(\sin(n\theta)\) \emph{only}. Then, the lines of symmetry are \(n\theta=k\pi/2\), for \(k\in \mathbb{Z}\).
     \item \(r=f(\theta)\) is symmetrical about the pole iff \((r,\theta)\) is a point on the curve whenever \((-r,\theta)\) is.
-    \item \hyperlink{R-formulas}{\(R\)-formulas} may be necessary
+    \item The use of \hyperlink{R-formulas}{\(R\)-formulas} may be necessary.
     \item Area of a sector, 
     \[A=\dfrac{1}{2}\int_{\alpha}^{\beta}r^2\,\text{d}\theta,\] 
     where \(\alpha<\beta\).
@@ -1239,9 +1233,9 @@
 \end{stbox}
 \begin{IN}
   \begin{enumerate}
-    \item \(r\) is normally \(\geq 0\). But, in some questions, it can be negative.
-    \item No need to fully expand; a final answer such as \((x^2+y^2)^2=3y(x^2+y^2)-4y^2\) suffices.
-    \item Polar curve sketching essentials:
+    \item Normally, \(r\geq 0\). But, in some questions, it can be negative.
+    \item There is no need to fully expand/simplify our final answers. E.g. \((x^2+y^2)^2=3y(x^2+y^2)-4y^2\) suffices.
+    \item The essentials of sketching polar curves:
     \begin{enumerate}
       \item Shape of curve
       \item Intersection(s) with (`axial') half lines
@@ -1255,28 +1249,28 @@
       \item No need to state points at the pole unless they are `axial', i.e. \(\theta=0\), or \(\pi/2\), etc.
     \end{enumerate}
     \item When finding maximum / minimum \(y\) values \(\left(dy/dx=0\right)\), we need to check its nature (1st/2nd deriv test). However, this is unnecessary for max / min \(r\) values.
-    \item For stuff like \(dy/dx\), try to keep it in polar form if possible instead of converting to cartesian form.
-    \item As usual, be \emph{careful}! E.g. Which values need to be rejected.
-    \item When reflecting/rotating, a diagram may be useful in finding the necessary angle/expression to replace \(\theta\) with. E.g.: \small
+    \item When finding \(dy/dx\), try to keep it in polar form if possible instead of converting to cartesian form.
+    \item As usual, be \emph{careful}, such as about which values need to be rejected.
+    \item When reflecting/rotating, a diagram may be useful to find the angle/expression to replace \(\theta\) with. E.g.: \small
     \begin{enumerate}
       \item To reflect about \(r=\theta\) or \(y=x\), we map \((r,\theta) \to (r,\pi/2-\theta)\).
-      \item Reflect about the half-line \(\theta=\pi/2\) is obtained by mapping \((r,\theta) \to (r,\pi-\theta)\).
+      \item A reflection about the half-line \(\theta=\pi/2\) is obtained by mapping \((r,\theta) \to (r,\pi-\theta)\).
     \end{enumerate} \normalsize
   \end{enumerate}
 \end{IN}
 \begin{GCSkills}{}
   \begin{enumerate}
     \item To display a nicely scaled polar curve, we use \texttt{Zoom fit}, followed by \texttt{Zoom square}
-    \item Simply press alpha trace 1 to get \(r_1\). In fact, this works for the other modes available in the GC as well. 
+    \item Press alpha trace 1 to get \(r_1\). In fact, this works for the other modes available in the GC as well. 
     \item We can type 
     \[\left. \frac{d}{d\theta}r_1 \right\rvert_{\theta=\theta}\] 
-    into formulas (like the one for arc length) without having to manually differentiate it!
+    into formulas (e.g. for arc length) without having to manually differentiate it!
   \end{enumerate}
 \end{GCSkills}
 
 \chapter{Conic Sections}
 \begin{definition}{}{}
-  Eccentricity, \(e\), is defined as 
+  Eccentricity \(e\) is defined as 
   \[\frac{\text{distance of \(P\) from focus}}{\text{distance of \(P\) from directrix}}.\]
 \end{definition}
 \begin{stbox}{General Information}{}
@@ -1371,8 +1365,53 @@
   \end{tabular}}
   \newpage
   \begin{itemize}[label=\(\circ\)]
-    \item Polar Form: \(x=p\), \(x=-p\), \(y=p\), or \(y=-p\) being the directrix
+    \item Conics in polar forms. Consider a conic with a focus at the origin, and a directrix 
   \end{itemize}
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{p{1.5cm}p{1.5cm}p{1.5cm}}
+      & \begin{tabular}{|p{1.5cm}|}
+        \hline
+        \centering Top\\
+        \(y=p\)
+      \end{tabular} &\\
+      \begin{tabular}{|p{1.5cm}}
+        \hline
+        \centering Left\\
+        \(x=-p\)
+      \end{tabular} &
+      \begin{tabular}{|p{1.5cm}|}
+        \hline
+        \centering \vphantom{Top}\\
+        \(\vphantom{y=p}\)
+      \end{tabular} & 
+      \begin{tabular}{p{1.5cm}|}
+        \hline
+        \centering Right\\
+        \(x=p\)
+      \end{tabular}\\
+      \begin{tabular}{p{1.5cm}}
+        \hline
+        \centering \vphantom{Top}\\
+        \(\vphantom{y=p}\)
+      \end{tabular} &
+      \begin{tabular}{|p{1.5cm}|}
+        \hline
+        \centering Bottom\\
+        \(y=-p\)
+      \end{tabular}
+      & 
+      \begin{tabular}{p{1.5cm}}
+        \hline
+        \centering \vphantom{Top}\\
+        \(\vphantom{y=p}\)
+      \end{tabular}\\
+      & \begin{tabular}{p{1.5cm}}
+        \hline \hphantom{1}   
+      \end{tabular} &
+    \end{tabular}
+  \end{table}
+  for some \(p>0\). In each respective case, the polar equation for the conic is given by
   \begin{center}
     \begin{tabular}{p{3cm}p{3cm}p{3cm}}
       & \begin{tabular}{|p{3cm}|}
@@ -1417,28 +1456,27 @@
     \end{tabular}
   \end{center}
 \end{stbox}
-  \begin{definition*}{}{}
+  \begin{note}
     \begin{itemize}[label=\(\circ\)]
-      \item Major / minor axes \(\implies\) lengths of longest and shortest diameters respectively.
-      \item Semi-major / semi-minor \(\implies\) half of major / minor axes respectively.
-      \item Focal radius \(\implies\) distance from point on conic section to focus.
+      \item The \emph{major/minor axes} of an ellipse refer to the longest/shortest diameter of the ellipse. 
+      \item The \emph{semi-major/semi-minor axes} of an ellipse refer to the longest/shortest radius of the ellipse. 
+      \item A \emph{focal radius} of a conic is the distance from a point on the conic to a focus of the conic.
     \end{itemize}
-  \end{definition*}
+  \end{note}
   \begin{note}
     Some possible things to try:
     \begin{itemize}
-      \item Using the fact that \(PF_1+PF_2=2a\) to do simultaneous equations.
-      \item Converting to polar form (when \(e<1\) so \(r \geq 0\)) for distances.
+      \item Using \(PF_1+PF_2=2a\) to form simultaneous equations.
+      \item Finding the polar form of a given conic (when \(e<1\) so \(r \geq 0\)) to solve for distances.
       \item Congruent/Similar triangles.
       \item Classic use of discriminants.
-      \item Sum and product of roots: Given any polynomial \(ax^2+bx+c\) with the roots \(\alpha\) and \(\beta\),
-      \[\alpha + \beta = - \frac{b}{a} \qquad\text{and}\qquad \alpha\beta=\frac{c}{a}.\]
+      \item \hyperlink{vieta}{Vieta's formula}.
     \end{itemize}
   \end{note}
 \chapter{Functions}
 \begin{stbox}{General Information}
   \begin{enumerate}
-    \item Horizontal Line Test: 
+    \item The horizontal line test: 
     \begin{enumerate}
       \item Fail: Since\footnote{some specific \(k\), e.g. \(y=1/2\)} \(y=k\) intersects the graph of \(y=f(x)\) more than once, therefore \(f\) is not injective.
       \item Success: Since \emph{any} horizontal line \(y=k\) will intersect the graph of \(y=g(x)\) \emph{at most once}, so \(f(x)\) is one-one.
@@ -1446,7 +1484,7 @@
     \item The inverse function, \(f^{-1}\), of a function \(f\) exists iff \(f\) is one-one.
     \item \(y=f^{-1}\) is a reflection of \(y=f(x)\) about the line \(y=x\).
     \item The composite function \(gf\) exists iff \(R_f \subseteq D_g\).
-    \item \(D_{gf}=D_f\) \& \(R_{gf}=R_g\).
+    \item \(D_{gf}=D_f\) \& \(R_{gf}\subseteq R_g\).
     \item Finding the range:
     \begin{enumerate}
       \item Graphing method:
