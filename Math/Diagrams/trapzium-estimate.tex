@@ -1,0 +1,64 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots} %http://www.ctan.org/pkg/pgfplots
+\pgfplotsset{compat=1.8, set layers=standard}
+
+\begin{document}
+
+\pgfplotsset{
+    integral axis/.style={
+        axis lines=middle,
+        axis line style = very thick,
+        enlarge y limits=upper,
+        axis equal image, width=12cm,
+        xlabel=\Large$x$, ylabel=\Large$y$,
+        ytick=\empty,
+        xticklabel style={font=\Large, text height=1.5ex, anchor=north},
+        samples=100
+    },
+    integral/.style={
+            domain=2:10,
+            samples=4
+    },
+    integral fill/.style={
+            integral,
+            draw=none, fill=#1,
+            on layer=axis background
+        },
+        integral fill/.default=cyan!10,
+        integral line/.style={
+            integral,
+            line width=0.5mm,
+            draw=#1
+        },
+        integral line/.default=black
+}
+
+\begin{tikzpicture}[
+    % The function that is used for all the plots
+    declare function={f=((0.1*x)^3*e^(0.2*x));},
+]
+\begin{axis}[
+    integral axis,
+    ymin=0,
+    xmin=0.75, xmax=11.25,
+    domain=1.5:10.5,
+    xtick={2,14/3,22/3,10},
+    xticklabels={\(a=x_0\), \(x_1\), \(x_2\), \(b=x_3\)},
+]
+% The function
+\addplot [line width=0.5mm, cyan!75!blue,domain=0:10.1] {f} node [anchor=south,xshift=-2mm] {\Large$y=f(x)$};
+
+% The filled area under the approximate integral
+\addplot [integral fill=cyan!15] {f} \closedcycle;
+
+% The approximate integral
+\addplot [integral line=black] {f};
+
+% The vertical lines between the segments
+\addplot [integral, ycomb] {f};
+
+% The highlighted segment
+% \addplot [integral fill=cyan!35, domain=6:7, samples=2] {f} \closedcycle;
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -430,6 +430,20 @@
     \end{enumerate}
     \end{enumerate}
     \end{stbox}
+    \begin{note}
+      State and explain whether the trapezium rule gives an underestimate or an overestimate of the area of under the curve \(y=f(x)\) from \(x=x_0\) to \(x=x_1\).
+      \begin{center}
+        \parbox{0.9\textwidth}{
+          \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{../Diagrams/trapzium-estimate.pdf}
+            \caption{The trapezium rule results in an overestimate for the area under a curve that is concave upwards.}
+            \label{fig:trapezium-overestimate}
+          \end{figure}
+          From the diagram and the fact that \(\frac{d^2y}{dx^2}=\rule{0.5cm}{0.01mm}>0\) for all \(x\in[a,b]\), the curve is concave upwards. As such, the trapeziums contain the graph of \(y=f(x)\), for \(x\in[a,b]\). So, the trapezium rule gives a overestimate
+        }
+      \end{center}
+    \end{note}
     \newpage
     \subsection{Simpson's Rule}
     \begin{stbox}{General Information}
@@ -448,6 +462,32 @@
         Accuracy of the Trapezium rule vs Simpson's Rule:
         ``Simpson's Rule uses \emph{quadratic curves} to interpolate the points on the curve so it usually \emph{gives a better approximation} to the actual curve than the trapezium rule which uses \emph{straight lines} to interpolate the ordinates.''
       \end{note}
+\section{Reduction formulas}
+\begin{stbox}{General Information}{}
+  Let \(I_n\coloneq\int_{a}^{b}f(x)\,dx\). To find a reduction formula for \(I_n\), we use integration by parts on \(I_n\).
+
+  \emph{Note.} Integrating \(I_{n-1},I_{n+1},\text{etc}\) (by parts) typically does not produce nice results.  
+\end{stbox}
+Sometimes, some algebraic tricks are needed to reduce an integral into the desired form. Try to spot these, before attempting another round of integration by parts. 
+\begin{example}{Rewriting \(x^2\) as \((4-x^2)-4\)}{}
+  % \begin{alignat*}{3}
+  %   &\text{Let }& u&=\dfrac{1}{(4-x^2)^n} &\qquad  v&=1\\
+  %   &&\dfrac{du}{dx} &=\dfrac{2nx}{(4-x^2)^{n+1}} & \dfrac{dv}{dx}&=x
+  %  \end{alignat*}
+  Using
+   \begin{alignat*}{2}
+    u&=\dfrac{1}{(4-x^2)^n} &\qquad  v&=1\\
+    \dfrac{du}{dx} &=\dfrac{2nx}{(4-x^2)^{n+1}} & \dfrac{dv}{dx}&=x
+   \end{alignat*}
+   we evaluate \(A_n\coloneq\int_{0}^{1/2}\frac{1}{(4-x^2)^n}\,dx\):
+   \begin{align*}
+    A_n&=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n\int_{0}^{1/2}\frac{x^2}{(4-x^2)^{n+1}}\,dx\\
+    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n\int_{0}^{1/2}\frac{\highlight[yellow]{(4-x^2)-4}}{(4-x^2)^{n+1}}\,dx\\
+    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n\int_{0}^{1/2}\frac{4-x^2}{(4-x^2)^n}-4\cdot\frac{1}{(4-x^2)^{n+1}}\,dx\\
+    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n(A_n-4A_{n+1}).\\
+   \end{align*}
+   Therefore, \((2n-1)A_n+1/2(4/15)^n=8nA_{n+1}\).
+\end{example}
   \chapter{Complex Numbers}
   \section{Complex Number I}
   \begin{center}

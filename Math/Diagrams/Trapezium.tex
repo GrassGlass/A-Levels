@@ -1,7 +1,9 @@
-\documentclass{standalone}
-\tikzexternalize
-\usepackage{../Style/Diagrams}
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots} %http://www.ctan.org/pkg/pgfplots
+\pgfplotsset{compat=1.8, set layers=standard}
+
 \begin{document}
+
 \pgfplotsset{
     integral axis/.style={
         axis lines=middle,
@@ -38,7 +40,7 @@
 \begin{axis}[
     integral axis,
     ymin=0,
-    xmin=0.75, xmax=11.25,
+    xmin=0, xmax=11.25,
     domain=1.5:10.5,
     xtick={2,...,10},
     xticklabels={$a=x_0$, $x_1$,,,$x_{j-1}$,$x_j$,,$x_{n-1}$,$b=x_n$},
