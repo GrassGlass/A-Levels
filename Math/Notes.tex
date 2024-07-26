@@ -372,16 +372,16 @@
     \item Use Pythagoras' Theorem / draw a right-angled triangle to help with trig conversions, e.g.:
     \[\tan(\theta) \qquad\text{to}\qquad \frac{x+1}{\sqrt{2-(x+1)^2}}.\]
     \item Integration by Parts:
-    \begin{center}
-      \begin{tabular}{ScSc}
-        \(\begin{aligned}
-          \text{Let }&u=g(x)\text{, }\frac{dv}{dx}=h(x),\\
-          \frac{du}{dx}&=g'(x)\text{, }v=\int h(x)\, dx.
-        \end{aligned}\) & \hspace{1cm}\(\begin{aligned}
-          \int u\left(\frac{dv}{dx}\right)\,dx=uv-\int v \left(\frac{du}{dx}\right)\,dx.
-        \end{aligned}\)
-      \end{tabular}
-    \end{center}
+
+    \begin{minipage}{0.5\textwidth-12.5pt}
+      \begin{alignat*}{3}
+        &\text{Let }& u&=\rule{0.5cm}{0.01mm} &\qquad  v&=\rule{0.5cm}{0.01mm}\\
+        &&\dfrac{du}{dx} &=\rule{0.5cm}{0.01mm} & \dfrac{dv}{dx}&=\rule{0.5cm}{0.01mm}
+       \end{alignat*} 
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth-12.5pt}
+      \[\int u\left(\frac{dv}{dx}\right)\,dx=uv-\int v \left(\frac{du}{dx}\right)\,dx.\]
+    \end{minipage}
   \end{enumerate}
 \end{stbox}
 \newpage
@@ -1262,7 +1262,7 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
     \item Tangent lines at the pole are obtained by solving \(r=0\).
     \item \(r=f(\theta)\) is symmetrical about the polar (horizontal) axis iff \(f(\theta)=f(-\theta)\) for all \(\theta\).
     \item \(r=f(\theta)\) is symmetrical about the vertical line \(\theta=\pi/2\) iff \(f(\theta)=f(\pi-\theta)\) for all \(\theta\).
-    \item Suppose \(r\) is a function of \(\cos(n\theta)\)\emph{only}. (E.g. \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\).)  Then, the lines of symmetry are \(n\theta=k\pi\), for \(k\in \mathbb{Z}\).
+    \item Suppose \(r\) is a function of \(\cos(n\theta)\)\emph{only}. E.g. \(r=a\sqrt{(4+\sin^2(\theta))^2\cos(\theta)}\). Then, the lines of symmetry are \(n\theta=k\pi\), for \(k\in \mathbb{Z}\).
     \item Suppose \(r\) is a function of \(\sin(n\theta)\) \emph{only}. Then, the lines of symmetry are \(n\theta=k\pi/2\), for \(k\in \mathbb{Z}\).
     \item \(r=f(\theta)\) is symmetrical about the pole iff \((r,\theta)\) is a point on the curve whenever \((-r,\theta)\) is.
     \item The use of \hyperlink{R-formulas}{\(R\)-formulas} may be necessary.
@@ -1473,7 +1473,8 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
     \end{tabular}
   \end{table}
   for some \(p>0\). In each respective case, the polar equation for the conic is given by
-  \begin{center}
+  \begin{table}[H]
+    \centering
     \begin{tabular}{p{3cm}p{3cm}p{3cm}}
       & \begin{tabular}{|p{3cm}|}
         \hline
@@ -1515,7 +1516,7 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
         \hline \hphantom{1}   
       \end{tabular} &
     \end{tabular}
-  \end{center}
+  \end{table}
 \end{stbox}
   \begin{note}
     \begin{itemize}[label=\(\circ\)]

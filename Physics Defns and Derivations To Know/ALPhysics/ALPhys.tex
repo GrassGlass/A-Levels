@@ -116,7 +116,7 @@
     \label{fig:fbd-ladder}
 \end{figure}
 \begin{itemize}
-    \item \emph{Hooke's Law} states that the force is directly proportional to the extension in a material if its \emph{limit of proportionality} is not exceeded.
+    \item \emph{Hooke's Law} states that the magnitude of the force acting on a spring directly proportional to the extension in the spring, if the \emph{limit of proportionality} of the spring is not exceeded.
     \item The \emph{center of gravity} of an object is the point at which the entire weight of a body may be considered to act.
     \item For a mass placed on a ramp, the forces it experiences are as shown below.
     \begin{figure}[H]
@@ -154,7 +154,7 @@
         \caption{\ref{source:torque} The torque of a force acting on a wheel}
         \label{fig:torque-wheel}
     \end{figure}
-    \item The \emph{Principle of Moments} states that if a body is in equilibrium, the sum of all the clockwise moments about \emph{any axis} must be equal to the sum of anticlockwise moments about the \emph{same axis}.
+    \item The \emph{Principle of Moments} states that if a body is in rotational equilibrium, the vector sum of all the clockwise moments about \emph{any axis} must be equal to the sum of anticlockwise moments about the \emph{same axis}.
     \begin{figure}[H]
         \centering
         \includegraphics[page=4]{../images/torque/torque.pdf}
@@ -243,7 +243,7 @@
 \chapter{Temperature and Ideal Gases}
 \begin{itemize}
     \item From empirical results, we know that there appears to be a \emph{linear} trend, wherein pressure and volume decrease, when temperature decreases. So, there must be a temperature where pressure is zero, and a temperature where volume is zero. Empirical data shows that the temperature at which this occurs is the same for all gases under all experimental conditions. This temperature is known as \emph{absolute zero}.
-    \item The \emph{Zeroth Law of Thermodynamics} If bodies \(A\) and \(B\) are separately in thermal equilibrium with body \(C\), then bodies \(A\) and \(B\) are in thermal equilibrium with each other.
+    \item The \emph{Zeroth Law of Thermodynamics} states that if bodies \(A\) and \(B\) are separately in thermal equilibrium with body \(C\), then bodies \(A\) and \(B\) are in thermal equilibrium with each other.
     \item \emph{One mole} is defined as the amount of substance that contains as many elementary particles as there are atoms in 0.012kg of carbon-12.
     \item \emph{Avogadro's Constant \(N_A\)} is the number of atoms in 0.012kg of carbon-12.
     \item Celsius-Kelvin conversion: \(T\ {^\circ}\text{C}=(T+273.15)\ \text{K}\). 
@@ -304,6 +304,7 @@
         \end{tabular}\\
         \hline
     \end{tabular}
+    \item How would the force exerted by gas differ in the presence of intermolecular forces, compared to the ideal case? Particles would attract each other, so the average force on the wall will decrease.   
     \item Real gases are approximately ideal at high temperatures and low pressures.
     \item Deriving \(p=\frac{1}{3}\frac{Nm}{V}\langle c^2 \rangle\) for an ideal gas:
     \begin{enumerate}
@@ -912,6 +913,35 @@ So, rearranging, we have
         \item The sides of the central fringes are likely more reddish.
         \item  This is because the wider red fringe extends beyond the narrower blue fringe.
     \end{enumerate}
+    \end{example}
+    \begin{example}{}{}
+        A beam of white light is shone onto a diffraction grating with slit separation \(d\). The light source consists of wavelength between \(l\) m to \(u\) m. Determine whether the first and second spectra overlap.
+
+        \rule{20cm-137.0549pt-25pt}{0.05mm}
+        This means that we want to see whether the outer end of the first order diffracted light will touch the inner end of the second order diffracted light. So, we calculate\vspace{-1em}
+        \begin{center}
+            \begin{minipage}{0.25\textwidth}
+                    \begin{align*}
+                        \text{\underline{For \(u\) m}}&\\
+                        d\sin(\theta_1)&=u\\
+                        \theta_1&=\sin^{-1}(u/d)
+                    \end{align*}
+            \end{minipage}\hspace{2cm}
+            \begin{minipage}{0.25\textwidth}
+                    \begin{align*}
+                        \text{\underline{For \(l\) m}}&\\
+                        d\sin(\theta_2)&=l\\
+                        \theta_2&=\sin^{-1}(l/d)
+                    \end{align*}
+            \end{minipage}
+        \end{center}
+        If \(\theta_1>\theta_2\), the spectra overlap. Otherwise, when \(\theta_2>\theta_1\), the spectra do not overlap.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{../images/spectra-overlap.jpg}
+            \caption{Spectra overlap.}
+            \label{fig:spectra-overlap}
+        \end{figure}
     \end{example}
 \end{itemize}
 
@@ -1635,6 +1665,7 @@ Some nice images:
         \item For this topic, \emph{ionisation} is the removal of an electron to create an ion.
         \item The \emph{ionisation energy} of an atom is the energy required for the atom to transition from the \(n=1\) to \(n=\infty\) state.
     \end{enumerate}
+    \item Why do energy levels have negative values? Electrons have \emph{zero potential energy at infinity}, and so have \emph{less} potential energy (i.e. negative potential energy) near the \emph{positively} charged nucleus.
     \item[\AsteriskThin] An \emph{emission line spectrum} is a series of distinctly coloured lines against a dark background.
     \begin{figure}[H]
         \centering
@@ -1660,6 +1691,7 @@ Some nice images:
         \item Each emission spectrum is unique to each element. 
         \item Given \(n\) energy states, there will be \(\binom{n}{2}\) emission lines.
     \end{itemize}
+    \item Do not use say that an atom transits from the \(n=\rule{0.5cm}{0.01mm}\) state to the \(n=\rule{0.5cm}{0.01mm}\) state, if the question does \emph{not} define \(n\).
     \item[\AsteriskThin] An \emph{absorption line spectrum} is a series of distinct dark lines against a continuous spectrum. 
     \begin{figure}[H]
         \centering
@@ -1683,6 +1715,7 @@ Some nice images:
         \item Gaseous atoms \emph{absorb} photons with (exactly) the energies they need to transit to a higher energy state, \emph{from the ground state}. (We do not consider further excitations from above a higher energy level.)
         \item Given \(n\) energy states, there will be \(n-1\) absorption lines. 
     \end{itemize}
+    \item All the light absorbed by atoms is re-emitted. Suggest why dark spectral lines are still seen: Incident light is directional, but light is re-emitted in all directions.  
     \item If an element \(_Z^AX\) lies on the \(m\)th row and in the \(n\)th group of the periodic table, then an atom of \(X\) at ground state has \(m\) electron shells and \(n\) valence electrons.
     \item The maximum number of electrons that can occupy the \(n\)th shell of an atom is \(2n^2\). 
     \begin{table}[H]

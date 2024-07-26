@@ -1,5 +1,5 @@
 \chapter{Statistics: Hypothesis Testing}
-\section{General Information}
+\section{Preliminary Definitions}
 \begin{definition}{}{}
   The \emph{null hypothesis} \(H_0\) and \emph{alternative hypothesis} \(H_1\) are the hypotheses that we hope to reject and accept, respectively. 
 \end{definition}
@@ -81,7 +81,8 @@
     }
   \end{center}
 \end{note}
-\begin{stbox}{}
+\section{One sample \(z\)-test}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item One sample \(z\)-test. There are various combinations of assumptions for which this test applies. For brevity, we shall avoid restating it, instead directing the reader to table \ref{Table:Summary table for one-sample hypothesis testing.}.
     \begin{enumerate}
@@ -172,6 +173,7 @@
   \end{center}
   \emph{Note.} Spell ``Central Limit Theorem'' and ``the sample mean'' out \emph{in full}. Do not use CLT or \(\widebar{X}\) for this question.
 \end{note}
+\section{Student's \(t\)-distribution}
 \begin{definition}{}{}
   A random variable \(X\) follows Student's \(t\)-distribution with \(\nu\) degrees of freedom iff its pdf is
   \[f(t)=\frac{\Gamma{\left( \frac{\nu+1}{2} \right)}}{\sqrt{\pi\nu}\ \Gamma{\left( \frac{\nu}{2} \right)}}\left( 1+\frac{t^2}{\nu} \right)^{-\frac{1}{2}(\nu-1)}.\]
@@ -183,7 +185,7 @@
   \caption{Student's \(t\)-distribution compared to the standard normal distribution.}
   \label{Fig:Student}
 \end{figure}
-\begin{stbox}{}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item Properties of Student's \(t\)-distribution.
     \begin{enumerate}
@@ -212,7 +214,8 @@
     \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{8:TInterval\dots} 
   \end{center}
 \end{GCSkills}
-\begin{stbox}{}
+\section{One sample \(t\)-test}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item A one sample \(t\)-test.
     % We use this test when \emph{the population variance is unknown} and the sample size is small.
@@ -261,7 +264,8 @@
   \end{center}
   is such that \(\Prob(T<t)=A\).
 \end{note}
-\begin{stbox}{}
+\section{Two sample \(z\)-test}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item A two-sample \(z\)-test. 
     % Let \(X_1\) and \(X_2\) have population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\) (respectively). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\), each of sizes \(n_1\) and \(n_2\) (respectively). If (i) or (ii) is true, then we carry out a two-sample \(z\)-test.
@@ -303,7 +307,8 @@
 \begin{recall}
   \[s_p^2=\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}.\]
 \end{recall}
-\begin{stbox}{}
+\section{Two sample \(t\)-test}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item A two-sample \(t\)-test. 
     % Let \(X_1\sim\Normal(\mu_1,\highlight[yellow]{\sigma^2})\) and \(X_2\sim\Normal(\mu_2,\highlight[yellow]{\sigma^2})\). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\); of small sizes \(n_1\) and \(n_2\) (respectively). Then we carry out a two-sample \(t\)-test.
@@ -338,7 +343,8 @@
     \end{tabular}
   \end{center}
 \end{GCSkills}
-\begin{stbox}{}
+\section{Paired sample \(t\)-test}
+\begin{stbox}{General Information}
   \begin{itemize}
     \item A paired sample \(t\)-test. 
     % Let \(X\) and \(Y\)be normally distributed, with population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\). (respectively). We define \(D\coloneq X-Y\). Further suppose we have two independent random samples \(X_1,X_2,\dots,X_n\) and \(Y_1,Y_2,\dots,Y_n\), such that 
