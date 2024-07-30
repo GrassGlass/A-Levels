@@ -313,11 +313,45 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
     \item The regression line of \(y\) on \(x\) minimises the sum of squares deviation (error) in the \(y\)-direction. (i.e. we are assuming \(x\) is the independent variable whose values are known exactly.) It is given by
     \[y=\widebar{y}+b(x-\widebar{x}),\qquad\text{where}\qquad b=\frac{\sum{(x-\widebar{x})(y-\widebar{y})}}{\sum{(x-\widebar{x})^2}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}}.\] 
     \item The regression lines of \(y\) on \(x\) and \(x\) on \(y\) intersect at \((\widebar{x},\widebar{y})\).
-    \item Say we are given the value of one variable, and asked to approximate the the value of the other variable. Then, we should always use the line of the \emph{dependent} variable on the \emph{independent}.
+    \item Say we are given the value of one variable, and asked to approximate the the value of the other variable. Then, we should always use the line of the \emph{dependent} variable \(x\) on the \emph{independent} variable \(y\).
     \item Estimations should not be taken for data outside the range of the sample provided, even if the value of \(r\) is close to 1.
   \end{itemize}
 \end{stbox}
-
+\begin{note}
+  Explain whether your estimate using the regression line of \(y\) on \(x\) is reliable.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      Since the \(\lvert r \rvert\) value of \rule{0.5cm}{0.01mm} is close to 1, \emph{and} \(x=\rule{0.5cm}{0.01mm}\) is within the data range of \(\rule{0.5cm}{0.01mm}\leq x\leq \rule{0.5cm}{0.01mm}\), the estimate is reliable.
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Explain why the estimate using the regression line \(y\) on \(x\) is not reliable.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      Since \(x=\rule{0.5cm}{0.01mm}\) falls outside of the range of data \(\rule{0.5cm}{0.01mm}\leq x\leq \rule{0.5cm}{0.01mm}\), we would be extrapolating the observed data points. This makes the estimate of the value of \(y\) at \(x=\rule{0.5cm}{0.01mm}\) unreliable.
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Let \(x\) be in unit\(_1\) and \(\mathbf{x}\) be in unit\(_2\). Suppose that the \(a\text{ unit}_1=1\text{ unit}_2\), where \(a\) is a constant. Then, if \(y=mx+c\), we have \(y=ma\mathbf{x}+c\).
+\end{note}
+\begin{note}
+  By calculating the product moment correlation coefficients, explain whether model \(y=mx+c\) or model \(\mathbf{y}=\mathbf{m}\mathbf{x}+\mathbf{c}\) is more appropriate.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      The \(\lvert r \rvert\) value for the model \(y=mx+c\) is higher at \rule{0.5cm}{0.01mm}, compared to \rule{0.5cm}{0.01mm} for the model \(\mathbf{y}=\mathbf{m}\mathbf{x}+\mathbf{c}\). Thus, there is a stronger (positive/negative) correlation between \(x\) and \(y\). As such, the model \(y=mx+c\) is more appropriate.
+    }
+  \end{center}
+\end{note}
+\begin{example}{}{}
+  One of the values of \(t\) appears to be incorrect. Indicate the corresponding point on your diagram by labelling it \(P\) and explain why the scatter diagram for the remaining points may be consistent with a model of the form \(y=a+bf(x)\). 
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      With \(P\) removed, the remaning points seem to lie, on a curve that [e.g. increases at a decreasing rate], suggesting consistency with the model \(y=a+bf(x)\).
+    }
+  \end{center}
+\end{example}
 \chapter{Non-Parametric Tests}
 \section{Sign tests}
 \begin{stbox}{General Information}
