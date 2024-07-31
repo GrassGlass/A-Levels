@@ -55,16 +55,23 @@
 \contentsline {chapter}{\numberline {22}Sampling and Estimation}{74}{chapter.22}%
 \contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{78}{chapter.23}%
 \contentsline {section}{\numberline {23.1}Preliminary Definitions}{78}{section.23.1}%
-\contentsline {section}{\numberline {23.2}One sample \(z\)-test}{79}{section.23.2}%
-\contentsline {section}{\numberline {23.3}Student's \(t\)-distribution}{80}{section.23.3}%
-\contentsline {section}{\numberline {23.4}One sample \(t\)-test}{81}{section.23.4}%
-\contentsline {section}{\numberline {23.5}Two sample \(z\)-test}{82}{section.23.5}%
-\contentsline {section}{\numberline {23.6}Two sample \(t\)-test}{82}{section.23.6}%
-\contentsline {section}{\numberline {23.7}Paired sample \(t\)-test}{83}{section.23.7}%
+\contentsline {section}{\numberline {23.2}One Sample \(z\)-Test}{79}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Student's \(t\)-Distribution}{80}{section.23.3}%
+\contentsline {section}{\numberline {23.4}One Sample \(t\)-Test}{81}{section.23.4}%
+\contentsline {section}{\numberline {23.5}Two Sample \(z\)-Test}{82}{section.23.5}%
+\contentsline {section}{\numberline {23.6}Two Sample \(t\)-Test}{82}{section.23.6}%
+\contentsline {section}{\numberline {23.7}Paired Sample \(t\)-Test}{83}{section.23.7}%
 \contentsline {section}{\numberline {23.8}Summary}{85}{section.23.8}%
 \contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{87}{chapter.24}%
+\contentsline {section}{\numberline {24.1}The \(\chi ^2\)-Distribution}{87}{section.24.1}%
+\contentsline {section}{\numberline {24.2}A Goodness-of-Fit Test}{88}{section.24.2}%
+\contentsline {section}{\numberline {24.3}Tests of Independence}{90}{section.24.3}%
 \contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{92}{chapter.25}%
-\contentsline {chapter}{\numberline {26}Non-Parametric Tests}{94}{chapter.26}%
-\contentsline {section}{\numberline {26.1}Sign tests}{94}{section.26.1}%
-\contentsline {section}{\numberline {26.2}Wilcoxon matched-pairs signed rank tests}{95}{section.26.2}%
-\contentsline {chapter}{\numberline {27}Bibliography}{99}{chapter.27}%
+\contentsline {section}{\numberline {25.1}Scatter Diagrams}{92}{section.25.1}%
+\contentsline {section}{\numberline {25.2}Product Moment Correlation Coefficient \(r\)}{93}{section.25.2}%
+\contentsline {section}{\numberline {25.3}Regression Lines}{93}{section.25.3}%
+\contentsline {section}{\numberline {25.4}Other Notes}{96}{section.25.4}%
+\contentsline {chapter}{\numberline {26}Non-Parametric Tests}{97}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Sign Test}{97}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Wilcoxon Matched-Pairs Signed Rank Test}{98}{section.26.2}%
+\contentsline {chapter}{\numberline {27}Bibliography}{102}{chapter.27}%

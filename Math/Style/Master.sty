@@ -49,8 +49,11 @@
 \RequirePackage[normalem]{ulem}
 \newcommand\hlg{\bgroup\markoverwith
   {\textcolor{green}{\rule[-.5ex]{2pt}{2.5ex}}}\ULon}
-  \newcommand\hly{\bgroup\markoverwith
+\newcommand\hly{\bgroup\markoverwith
   {\textcolor{yellow}{\rule[-.5ex]{2pt}{2.5ex}}}\ULon}
+% Modified from https://tex.stackexchange.com/a/254337
+\newcommand{\hl}[1][yellow]{\bgroup\markoverwith
+  {\textcolor{#1}{\rule[-.5ex]{.1pt}{2.5ex}}}\ULon}
 \RequirePackage{mathrsfs}  
 \RequirePackage{amsmath}
 \makeatletter

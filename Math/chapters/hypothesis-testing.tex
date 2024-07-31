@@ -81,12 +81,11 @@
     }
   \end{center}
 \end{note}
-\section{One sample \(z\)-test}
+\section{One Sample \(z\)-Test}
 \begin{stbox}{General Information}
-  \begin{itemize}
-    \item One sample \(z\)-test. There are various combinations of assumptions for which this test applies. For brevity, we shall avoid restating it, instead directing the reader to table \ref{Table:Summary table for one-sample hypothesis testing.}.
+  There are various combinations of assumptions for which this test applies, and two variants of the corresponding test statistic. For brevity, we shall avoid restating it, instead directing the reader to table \ref{Table:Summary table for one-sample hypothesis testing.}.
     \begin{enumerate}
-      \item Let [\(X\) in context] and \(\mu\) be the population mean.
+      \item Let [\(X\) in context] and \(\mu\) be its population mean.
       \item 
       \begin{tabular}{|ll|}
         \hline
@@ -100,13 +99,13 @@
         \multicolumn{2}{|l|}{at the \(100\alpha\%\) significance level.}\\
         \hline
       \end{tabular}
-      \item Under \(H_0\), we have \(\widebar{X}\sim \Normal(\mu_0,\hat{\sigma}^2/n)\) approximately. Or, if \(\sigma^2\) is known exactly, then by CLT \(\widebar{X}\sim \Normal(\mu_0,\sigma^2/n)\) approximately.
+      \item Under \(H_0\), since the sample size \(n=\rule{0.5cm}{0.01mm}\) (\(\geq 50\)), by CLT we have \(\widebar{X}\sim \Normal(\mu_0,s^2/n)\) approximately.
       \item Test statistic: 
-      \[Z=\frac{\widebar{X}-\mu_0}{\sigma/\sqrt{n}}\sim\Normal(0,1).\]
+      \[Z=\frac{\widebar{X}-\mu_0}{s/\sqrt{n}}\sim\Normal(0,1)\qquad\text{approximately},\]
+      where \(\widebar{x}=\rule{0.5cm}{0.01mm}\) and \(s=\rule{0.5cm}{0.01mm}\).
     \end{enumerate}
       \begin{minipage}[t]{0.45\textwidth}
-        \begin{enumerate}
-          \setcounter{enumi}{3}
+        \begin{itemize}
           \item Find \(z_{1-\alpha}\) or \(z_{1-\alpha/2}\), which satisfies
           \begin{enumerate}
             \item \(\Prob(Z<z_{1-\alpha})=\alpha\), 
@@ -114,21 +113,20 @@
             \item \(\Prob(Z>z_{1-\alpha})\).
           \end{enumerate}
           \item Find the test statistic value 
-          \[z_\text{calc}=\frac{\hat{\mu}-\mu_0}{\sigma/\sqrt{n}}.\]
+          \[z_\text{calc}=\frac{\widebar{x}-\mu_0}{s/\sqrt{n}}.\]
           \item Reject \(H_0\) iff 
           \begin{enumerate}
             \item \(z_\text{calc}<z_{1-\alpha}\),
             \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\), or
             \item \(z_\text{calc}>z_{1-\alpha}\).
           \end{enumerate}
-        \end{enumerate}
+        \end{itemize}
       \end{minipage}
       \begin{minipage}[t]{0.45\textwidth}
-        \begin{enumerate}
-          \setcounter{enumi}{3}
+        \begin{itemize}
           \item Find the \(p\)-value using GC.
           \item Reject \(H_0\) iff \(p\)-value is less than \(\alpha\).
-        \end{enumerate}
+        \end{itemize}
         \vfill
         \begin{flushright}
           \begin{minipage}{0.8\textwidth}
@@ -142,23 +140,22 @@
         \end{flushright}
       \end{minipage}
       \begin{enumerate}
-        \item[7.] Since\quad
+        \item[5.] Since\quad
         \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
           \item \(z_\text{calc}<z_{1-\alpha}\),
           \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\),
           \item \(z_\text{calc}>z_{1-\alpha}\),\quad or\quad \(p\text{-value}<\alpha\),
         \end{enumerate*}
         we reject \(H_0\). There is sufficient evidence at the significance level \(100\alpha\%\) that [\(H_1\) in context].
-
-        \emph{Note.} For \emph{not} rejecting \(H_0\), simply change to the appropriate inequality (such that \(z_\text{calc}\) is outside the critical region) and write ``insufficient'' instead of ``sufficient''.
       \end{enumerate}
-      \item If we have a null hypothesis, such as
+\end{stbox}
+\begin{note}
+  If we have a null hypothesis, such as
       \begin{center}
         \(H_0\colon\mu\leq\mu_0\)\quad or\quad \(H_0\colon\mu\geq\mu_0\),
       \end{center}
       we can just use \(H_0\colon\mu=\mu_0\) instead.
-  \end{itemize}
-\end{stbox}
+\end{note}
 % \begin{definition}{}{}
 %   We say a critical region \(C\) is of \emph{size} \(\alpha\) if 
 %   \[\alpha=\max_{\theta\in\omega_0}P_\theta[(X_1,X_2,\dots,X_n)\in C].\]
@@ -173,7 +170,7 @@
   \end{center}
   \emph{Note.} Spell ``Central Limit Theorem'' and ``the sample mean'' out \emph{in full}. Do not use CLT or \(\widebar{X}\) for this question.
 \end{note}
-\section{Student's \(t\)-distribution}
+\section{Student's \(t\)-Distribution}
 \begin{definition}{}{}
   A random variable \(X\) follows Student's \(t\)-distribution with \(\nu\) degrees of freedom iff its pdf is
   \[f(t)=\frac{\Gamma{\left( \frac{\nu+1}{2} \right)}}{\sqrt{\pi\nu}\ \Gamma{\left( \frac{\nu}{2} \right)}}\left( 1+\frac{t^2}{\nu} \right)^{-\frac{1}{2}(\nu-1)}.\]
@@ -214,14 +211,11 @@
     \texttt{stat} \(\Longrightarrow\) \texttt{TESTS} \(\Longrightarrow\) \texttt{8:TInterval\dots} 
   \end{center}
 \end{GCSkills}
-\section{One sample \(t\)-test}
+\section{One Sample \(t\)-Test}
 \begin{stbox}{General Information}
-  \begin{itemize}
-    \item A one sample \(t\)-test.
-    % We use this test when \emph{the population variance is unknown} and the sample size is small.
     Again, see table \ref{Table:Summary table for one-sample hypothesis testing.} for the necessary assumptions.
     \begin{enumerate}
-      \item Let [\(X\) in context], \emph{which we assume to be normally distributed}, and \(\mu\) be the population mean.
+      \item Let [\(X\) in context] and \(\mu\) be its population mean.
       \item 
       \begin{tabular}{|ll|}
         \hline
@@ -236,10 +230,10 @@
         \hline
       \end{tabular}
       \item Under \(H_0\), the test statistic
-      \[T=\frac{\widebar{X}-\mu}{s/\sqrt{n}}\sim t(n-1).\]
+      \[T=\frac{\widebar{X}-\mu}{s/\sqrt{n}}\sim t(n-1),\]
+      where \(\widebar{x}=\rule{0.5cm}{0.01mm}\) and \(s=\rule{0.5cm}{0.01mm}\).
       \item Continue as per usual, calculating the critical region or the \(p\)-value.
     \end{enumerate}
-  \end{itemize}
 \end{stbox}
 \begin{GCSkills}{}
   Calculating, for a one sample \(t\)-test, the 
@@ -253,6 +247,7 @@
 \begin{note}
   In the GC, \texttt{invT} is always `to the \texttt{LEFT}'. That is, the output \(t\) of 
   \begin{center}
+    \rowcolors{1}{white}{white}
     \begin{tabular}{|lScr|}
       \hline
       &\qquad\colorbox{black}{\textcolor{white}{\texttt{invT}}}&\\
@@ -264,10 +259,8 @@
   \end{center}
   is such that \(\Prob(T<t)=A\).
 \end{note}
-\section{Two sample \(z\)-test}
+\section{Two Sample \(z\)-Test}
 \begin{stbox}{General Information}
-  \begin{itemize}
-    \item A two-sample \(z\)-test. 
     % Let \(X_1\) and \(X_2\) have population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\) (respectively). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\), each of sizes \(n_1\) and \(n_2\) (respectively). If (i) or (ii) is true, then we carry out a two-sample \(z\)-test.
     Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
     % \begin{enumerate}[label=(\roman*)]
@@ -279,7 +272,7 @@
     %   \item \(\sigma_1\) and \(\sigma_2\) are unknown, but \(X_1\) and \(X_2\) are normally distributed, and both samples are large (so we can use the fact that a \(t\)-distribution approximates to a normal distribution with large sample sizes).
     % \end{enumerate}
     \begin{enumerate}
-      \item Let [\(X_1\), \(X_2\) in context], (which we assume to be normally distributed)\footnote{if applicable} and \(\mu\) be the population mean.
+      \item Let [\(X_1\), \(X_2\) in context]. Also let \(\mu_1\) and \(\mu_2\) be the population mean of \(X_1\) and \(X_2\), respectively.
       \item 
       \begin{tabular}{|ll|}
         \hline
@@ -295,26 +288,26 @@
       \end{tabular}
       \item Under \(H_0\), the test statistic
       \begin{enumerate}[align=parleft,label=(\roman*)]
-        \item \[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}}\sim\Normal(0,1).\]
-        \item[(ii)(1)]\[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}\sim\Normal(0,1).\]
-        \item[(ii)(2)] \[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim\Normal(0,1)\quad\text{where}\quad s_p^2=\rule{0.5cm}{0.1mm}.\]
+        \item \[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}}\sim\Normal(0,1)\]
+        where \(\widebar{x}_1=\rule{0.5cm}{0.01mm}\) and \(\widebar{x}_2=\rule{0.5cm}{0.01mm}\).
+        \item[(ii)(1)]\[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}\sim\Normal(0,1)\]
+        here \(\widebar{x}_1=\rule{0.5cm}{0.01mm}\) and \(\widebar{x}_2=\rule{0.5cm}{0.01mm}\); \(s_1=\rule{0.5cm}{0.01mm}\) and \(s_2=\rule{0.5cm}{0.01mm}\).
+        \item[(ii)(2)] \[Z=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim\Normal(0,1)\]
+        where \(\widebar{x}_1=\rule{0.5cm}{0.01mm}\), \(\widebar{x}_2=\rule{0.5cm}{0.01mm}\), and \(s_p^2=\rule{0.5cm}{0.1mm}\).
       \end{enumerate}
       Case (ii)(2) is used when the population variances coincide, i.e. \(\sigma_1=\sigma_2\).
       \item Continue as per usual, calculating the critical region or the \(p\)-value.
     \end{enumerate}
-  \end{itemize}
 \end{stbox}
 \begin{recall}
   \[s_p^2=\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}.\]
 \end{recall}
-\section{Two sample \(t\)-test}
+\section{Two Sample \(t\)-Test}
 \begin{stbox}{General Information}
-  \begin{itemize}
-    \item A two-sample \(t\)-test. 
     % Let \(X_1\sim\Normal(\mu_1,\highlight[yellow]{\sigma^2})\) and \(X_2\sim\Normal(\mu_2,\highlight[yellow]{\sigma^2})\). Further suppose we have two independent random samples, from the distributions of \(X_1\) and \(X_2\); of small sizes \(n_1\) and \(n_2\) (respectively). Then we carry out a two-sample \(t\)-test.
     Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
     \begin{enumerate}
-      \item Let [\(X_1\), \(X_2\) in context], \emph{which we assume to be normally distributed}, and \(\mu\) be the population mean.
+      \item Let [\(X_1\), \(X_2\) in context]. Also let \(\mu_1\) and \(\mu_2\) be the population mean of \(X_1\) and \(X_2\), respectively.
       \item 
       \begin{tabular}{|ll|}
         \hline
@@ -329,10 +322,10 @@
         \hline
       \end{tabular}
       \item Under \(H_0\), the test statistic
-      \[T=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t(n_1+n_2-2)\quad\text{where}\quad s_p^2=\rule{0.5cm}{0.1mm}.\]
+      \[T=\frac{(\widebar{X}_1-\widebar{X}_2)-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t(n_1+n_2-2),\]
+      where \(\widebar{x}_1=\rule{0.5cm}{0.01mm}\), \(\widebar{x}_2=\rule{0.5cm}{0.01mm}\), and \(s_p^2=\rule{0.5cm}{0.1mm}\).
       \item Continue as per usual, calculating the critical region or the \(p\)-value.
     \end{enumerate}
-  \end{itemize}
 \end{stbox}
 \begin{GCSkills}{}
   Calculating the \(p\)-value for a
@@ -343,10 +336,8 @@
     \end{tabular}
   \end{center}
 \end{GCSkills}
-\section{Paired sample \(t\)-test}
+\section{Paired Sample \(t\)-Test}
 \begin{stbox}{General Information}
-  \begin{itemize}
-    \item A paired sample \(t\)-test. 
     % Let \(X\) and \(Y\)be normally distributed, with population means \(\mu_1\) and \(\mu_2\); population variances \(\sigma_1^2\) and \(\sigma_2^2\). (respectively). We define \(D\coloneq X-Y\). Further suppose we have two independent random samples \(X_1,X_2,\dots,X_n\) and \(Y_1,Y_2,\dots,Y_n\), such that 
     % \begin{enumerate}[label=(\roman*)]
     %   \item \(D_1,D_2,\dots,D_n\) are normally distributed
@@ -355,7 +346,6 @@
     % \end{enumerate}
     % Then, we use a paired sample \(t\)-test. 
     Again, see table \ref{Table:Summary table for two-sample hypothesis testing.} for the necessary assumptions.
-  \end{itemize}
   \begin{enumerate}
     \item Let \(D=\text{[\(X\) in context]}-\text{[\(Y\) in context]}\), and \(\mu_D\) be the population mean.
     \item 
