@@ -329,7 +329,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
 \section{Product Moment Correlation Coefficient \(r\)}
 \begin{definition}{}{}
   The Product Moment Correlation Coefficient is a measure of the linear correlation between two variables. It is defined by
-    \[r=\frac{\sum{(x-\widebar{x})(y-\widebar{y})}}{\sqrt{\sum{(x-\widebar{x})^2}\sum{(y-\widebar{y})^2}}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sqrt{\left[\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}\right]\left[\sum{y^2}-\dfrac{\left(\sum{y}\right)^2}{n}\right]}},\]
+    \[r\coloneq\frac{\sum{(x-\widebar{x})(y-\widebar{y})}}{\sqrt{\sum{(x-\widebar{x})^2}\sum{(y-\widebar{y})^2}}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sqrt{\left[\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}\right]\left[\sum{y^2}-\dfrac{\left(\sum{y}\right)^2}{n}\right]}},\]
     and takes on a value from 0 to 1. See Figure \ref{fig:scatter-plot-r-value-examples} for some scatter plots of various \(r\) values.
     % \item When \(r=0\), there is no linear relationship. But, a nonlinear relationship may be present. Additionally, the regression lines are perpendicular.
     % \item The closer the value of \(r\) is to 1 (or \(-1\)), the stronger the positive (or negative) linear correlation. Furthermore, the regression lines coincide when \(\lvert r \rvert=1\).
@@ -367,12 +367,12 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \begin{subfigure}[c]{0.4\textwidth}
     \centering
     \includegraphics[width=\textwidth]{../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg}
-    \caption{\(\sum{(x-\widebar{x})^2}=0\).}
+    \caption{\(\sum{(y-\widebar{y})^2}=0\).}
   \end{subfigure}\hspace{0.06666666666667\textwidth}
   \begin{subfigure}[c]{0.4\textwidth}
     \centering
     \includegraphics[width=\textwidth]{../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg}
-    \caption{\(\sum{(y-\widebar{y})^2}=0\).}
+    \caption{\(\sum{(x-\widebar{x})^2}=0\).}
   \end{subfigure}
   \caption{Example scatter plots with different values of \(r\).}
   \label{fig:scatter-plot-r-value-examples}
@@ -405,8 +405,8 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
 \end{note}
 \section{Regression Lines}
 \begin{stbox}{General Information}
-  The regression line of \(y\) on \(x\) minimises the sum of squares deviation (error) in the \(y\)-direction. (i.e. we are assuming \(x\) is the independent variable whose values are known exactly.) It is given by
-  \[y=\widebar{y}+b(x-\widebar{x}),\qquad\text{where}\qquad b=\frac{\sum{(x-\widebar{x})(y-\widebar{y})}}{\sum{(x-\widebar{x})^2}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}}.\] 
+  The regression line of \(y\) on \(x\) minimises the sum of squares deviation (error) in the \(y\)-direction --- we assume that \(x\) is the independent variable whose values are known exactly. It is given by
+  \[y=\widebar{y}+b(x-\widebar{x}),\qquad\text{where}\qquad b\coloneq\frac{\sum{(x-\widebar{x})(y-\widebar{y})}}{\sum{(x-\widebar{x})^2}}=\frac{\sum{xy}-\dfrac{\sum{x}\sum{y}}{n}}{\sum{x^2}-\dfrac{\left(\sum{x}\right)^2}{n}}.\] 
 \end{stbox}
 \begin{GCSkills}{}
   To find the \(r\)-value, or the regression line of \(y\) on \(x\), for a given dataset:

@@ -411,7 +411,6 @@
   \[\int_{\alpha}^{\beta}\frac{1}{2}r^2\,d\theta.\]
   \end{enumerate}
 \end{stbox}
-\newpage
 \section{Numerical Methods}
 \subsection{Trapezium Rule}
 \begin{stbox}{General Information}
@@ -419,10 +418,12 @@
       \item Formula for \(n\) intervals, or (n+1)ordinates, of width \(h\coloneq (b-a)/n\): 
       \[\int_{a}^{b}y\,dx=\frac{h}{2}(y_0+2y_1+2y_2+\cdots+2y_{n-1}+y_n).\]
       \item Illustration
-      \begin{center}
+      \begin{figure}[H]
+        \centering
         \includestandalone{../Diagrams/Trapezium}
-        \captionof{figure}{Trapezium rule}
-      \end{center}
+        \caption{Trapezium rule.}
+        \label{fig:trapzium-rule}
+      \end{figure}
     \item Error: 
     \begin{enumerate}
       \item Concave upwards, i.e. (\(f'(x)\) is increasing / \(f''(x)>0\)) \(\implies\) overestimation.
@@ -432,19 +433,14 @@
     \end{stbox}
     \begin{note}
       State and explain whether the trapezium rule gives an underestimate or an overestimate of the area of under the curve \(y=f(x)\) from \(x=x_0\) to \(x=x_1\).
-      \begin{center}
-        \parbox{0.9\textwidth}{
-          \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.5\textwidth]{../Diagrams/trapzium-estimate.pdf}
-            \caption{The trapezium rule results in an overestimate for the area under a curve that is concave upwards.}
-            \label{fig:trapezium-overestimate}
-          \end{figure}
-          From the diagram and the fact that \(\frac{d^2y}{dx^2}=\rule{0.5cm}{0.01mm}>0\) for all \(x\in[a,b]\), the curve is concave upwards. As such, the trapeziums contain the graph of \(y=f(x)\), for \(x\in[a,b]\). So, the trapezium rule gives a overestimate
-        }
-      \end{center}
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{../Diagrams/trapzium-estimate.pdf}
+        \caption{The trapezium rule results in an overestimate for the area under a curve that is concave upwards.}
+        \label{fig:trapezium-overestimate}
+      \end{figure}
+      From the diagram and the fact that \(\frac{d^2y}{dx^2}=\rule{0.5cm}{0.01mm}>0\) for all \(x\in[a,b]\), the curve is concave upwards. As such, the trapeziums contain the graph of \(y=f(x)\), for \(x\in[a,b]\). So, the trapezium rule gives a overestimate.
     \end{note}
-    \newpage
     \subsection{Simpson's Rule}
     \begin{stbox}{General Information}
       \begin{enumerate}
@@ -452,10 +448,12 @@
         \[\int_{a}^{b}y\,dx=\frac{h}{3}(y_0+4y_1+2y_2+4y_3+\cdots+2y_{n-2}+4y_{n-1}+y_n).\]
         Note that the number of intervals \(n\) should be \emph{even}, that of ordinates \emph{odd}.
         \item Illustration
-        \begin{center}
+        \begin{figure}[H]
+          \centering
           \includestandalone{../Diagrams/Simpson}
-          \captionof{figure}{Simpson's rule}
-        \end{center}
+          \caption{Simpson's rule.}
+          \label{fig:simpson's-rule}
+        \end{figure}
       \end{enumerate}
     \end{stbox}
       \begin{note}
