@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  3 AUG 2024 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  3 AUG 2024 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1719,38 +1719,38 @@ Package pdftex.def Info: ../images/em-spectrum/em-spectrum.pdf  used on input li
 <../images/Malus'-Law/Malus'-Law.pdf, id=725, page=4, 100.59482pt x 100.59482pt>
 File: ../images/Malus'-Law/Malus'-Law.pdf Graphic file (type pdf)
 <use ../images/Malus'-Law/Malus'-Law.pdf, page 4>
-Package pdftex.def Info: ../images/Malus'-Law/Malus'-Law.pdf , page4 used on input line 674.
+Package pdftex.def Info: ../images/Malus'-Law/Malus'-Law.pdf , page4 used on input line 677.
 (pdftex.def)             Requested size: 100.59456pt x 100.59456pt.
 <../images/Malus'-Law/Malus'-Law.pdf, id=726, page=3, 368.96646pt x 129.30408pt>
 File: ../images/Malus'-Law/Malus'-Law.pdf Graphic file (type pdf)
 <use ../images/Malus'-Law/Malus'-Law.pdf, page 3>
-Package pdftex.def Info: ../images/Malus'-Law/Malus'-Law.pdf , page3 used on input line 683.
+Package pdftex.def Info: ../images/Malus'-Law/Malus'-Law.pdf , page3 used on input line 686.
 (pdftex.def)             Requested size: 430.00462pt x 150.70506pt.
-LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 704.
 [20
 
  <../images/em-spectrum/em-spectrum.pdf> <../images/Malus'-Law/Malus'-Law.pdf> <../images/Malus'-Law/Malus'-Law.pdf>]
-LaTeX Font Info:    Trying to load font information for U+ding on input line 709.
+LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 707.
+LaTeX Font Info:    Trying to load font information for U+ding on input line 712.
  (c:/texlive/2023/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ) [21]
 Chapter 11.
-LaTeX Font Info:    Trying to load font information for T1+zplsups on input line 727.
+LaTeX Font Info:    Trying to load font information for T1+zplsups on input line 730.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1zplsups.fd
 File: t1zplsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 727.
+(Font)              scaled to size 10.0pt on input line 730.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 8.0pt on input line 734.
+(Font)              scaled to size 8.0pt on input line 737.
 
-Underfull \hbox (badness 1515) in paragraph at lines 774--775
+Underfull \hbox (badness 1515) in paragraph at lines 777--778
 []\T1/zplTLF/m/n/10 Distance be-tween ad-ja-cent in-phase
  []
 
 
-Overfull \hbox (40.45384pt too wide) in alignment at lines 740--782
+Overfull \hbox (40.45384pt too wide) in alignment at lines 743--785
  [] [] [] 
  []
 
@@ -1760,307 +1760,307 @@ Overfull \hbox (40.45384pt too wide) has occurred while \output is active
  []
 
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 783.
+(Font)              scaled to size 6.2pt on input line 786.
 [22
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/npxsups_T1.enc}]
 <../images/StationaryWavesPhase.jpg, id=804, 1094.0875pt x 816.04875pt>
 File: ../images/StationaryWavesPhase.jpg Graphic file (type jpg)
 <use ../images/StationaryWavesPhase.jpg>
-Package pdftex.def Info: ../images/StationaryWavesPhase.jpg  used on input line 787.
+Package pdftex.def Info: ../images/StationaryWavesPhase.jpg  used on input line 790.
 (pdftex.def)             Requested size: 218.81361pt x 163.20685pt.
 <../images/StringStatWaves.jpg, id=811, 1529.715pt x 395.4775pt>
 File: ../images/StringStatWaves.jpg Graphic file (type jpg)
 <use ../images/StringStatWaves.jpg>
-Package pdftex.def Info: ../images/StringStatWaves.jpg  used on input line 812.
+Package pdftex.def Info: ../images/StringStatWaves.jpg  used on input line 815.
 (pdftex.def)             Requested size: 198.86993pt x 51.41388pt.
 <../images/Open Pipe.jpg, id=812, 1218.5525pt x 282.05376pt>
 File: ../images/Open Pipe.jpg Graphic file (type jpg)
 <use ../images/Open Pipe.jpg>
-Package pdftex.def Info: ../images/Open Pipe.jpg  used on input line 817.
+Package pdftex.def Info: ../images/Open Pipe.jpg  used on input line 820.
 (pdftex.def)             Requested size: 188.87369pt x 43.71786pt.
 <../images/Pipe Closed at One End.jpg, id=813, 839.135pt x 286.06876pt>
 File: ../images/Pipe Closed at One End.jpg Graphic file (type jpg)
 <use ../images/Pipe Closed at One End.jpg>
-Package pdftex.def Info: ../images/Pipe Closed at One End.jpg  used on input line 824.
+Package pdftex.def Info: ../images/Pipe Closed at One End.jpg  used on input line 827.
 (pdftex.def)             Requested size: 142.65106pt x 48.63104pt.
 <../images/Pipe Closed At One End Movement.jpg, id=816, 1606.0pt x 397.485pt>
 File: ../images/Pipe Closed At One End Movement.jpg Graphic file (type jpg)
 <use ../images/Pipe Closed At One End Movement.jpg>
-Package pdftex.def Info: ../images/Pipe Closed At One End Movement.jpg  used on input line 832.
+Package pdftex.def Info: ../images/Pipe Closed At One End Movement.jpg  used on input line 835.
 (pdftex.def)             Requested size: 401.49902pt x 99.371pt.
  [23 <../images/StationaryWavesPhase.jpg> <../images/StringStatWaves.jpg> <../images/Open Pipe.jpg> <../images/Pipe Closed at One End.jpg> <../images/Pipe Closed At One End Movement.jpg>]
 <../images/Single Slit Diffraction.jpg, id=833, 3245.12375pt x 1152.305pt>
 File: ../images/Single Slit Diffraction.jpg Graphic file (type jpg)
 <use ../images/Single Slit Diffraction.jpg>
-Package pdftex.def Info: ../images/Single Slit Diffraction.jpg  used on input line 859.
+Package pdftex.def Info: ../images/Single Slit Diffraction.jpg  used on input line 862.
 (pdftex.def)             Requested size: 324.53139pt x 115.23724pt.
  [24 <../images/Single Slit Diffraction.jpg>]
-Overfull \hbox (25.01889pt too wide) in paragraph at lines 875--887
+Overfull \hbox (25.01889pt too wide) in paragraph at lines 878--890
 []  
  []
 
 <../images/Double-Slit Diffraction.jpg, id=851, 4055.15pt x 1537.745pt>
 File: ../images/Double-Slit Diffraction.jpg Graphic file (type jpg)
 <use ../images/Double-Slit Diffraction.jpg>
-Package pdftex.def Info: ../images/Double-Slit Diffraction.jpg  used on input line 891.
+Package pdftex.def Info: ../images/Double-Slit Diffraction.jpg  used on input line 894.
 (pdftex.def)             Requested size: 405.53876pt x 153.78351pt.
 
-Overfull \hbox (0.53416pt too wide) in paragraph at lines 891--893
+Overfull \hbox (0.53416pt too wide) in paragraph at lines 894--896
  [] 
  []
 
 <../images/Diffraction Grating.jpg, id=854, 3312.375pt x 1003.75pt>
 File: ../images/Diffraction Grating.jpg Graphic file (type jpg)
 <use ../images/Diffraction Grating.jpg>
-Package pdftex.def Info: ../images/Diffraction Grating.jpg  used on input line 900.
+Package pdftex.def Info: ../images/Diffraction Grating.jpg  used on input line 903.
 (pdftex.def)             Requested size: 331.25691pt x 100.38087pt.
 [25
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.902 ...{figure}{\ref{RVHS} Diffraction grating.}
+l.905 ...{figure}{\ref{RVHS} Diffraction grating.}
                                                    <../images/Double-Slit Diffraction.jpg> <../images/Diffraction Grating.jpg>]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.86201pt on input line 905.
+(Font)              scaled to size 6.86201pt on input line 908.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.17001pt on input line 905.
+(Font)              scaled to size 5.17001pt on input line 908.
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--924
+Underfull \hbox (badness 10000) in paragraph at lines 925--927
 [][]
  []
 
 <../images/spectra-overlap.jpg, id=869, 1606.0pt x 453.695pt>
 File: ../images/spectra-overlap.jpg Graphic file (type jpg)
 <use ../images/spectra-overlap.jpg>
-Package pdftex.def Info: ../images/spectra-overlap.jpg  used on input line 943.
+Package pdftex.def Info: ../images/spectra-overlap.jpg  used on input line 946.
 (pdftex.def)             Requested size: 407.0046pt x 114.97418pt.
 [26 <../images/spectra-overlap.jpg>]
 Chapter 12.
 [27
 
 ]
-Underfull \hbox (badness 4001) in paragraph at lines 980--981
+Underfull \hbox (badness 4001) in paragraph at lines 983--984
 []\T1/zplTLF/m/n/10 Metallic con-duc-tor at
  []
 
 <../images/MetallicConductor I-V.jpg, id=893, 1606.0pt x 1007.765pt>
 File: ../images/MetallicConductor I-V.jpg Graphic file (type jpg)
 <use ../images/MetallicConductor I-V.jpg>
-Package pdftex.def Info: ../images/MetallicConductor I-V.jpg  used on input line 987.
+Package pdftex.def Info: ../images/MetallicConductor I-V.jpg  used on input line 990.
 (pdftex.def)             Requested size: 129.00269pt x 80.94577pt.
 
-Underfull \hbox (badness 1515) in paragraph at lines 991--992
+Underfull \hbox (badness 1515) in paragraph at lines 994--995
 \T1/zplTLF/m/it/10 trons \T1/zplTLF/m/n/10 and the \T1/zplTLF/m/it/10 rate of
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 992--993
+Underfull \hbox (badness 1082) in paragraph at lines 995--996
 \T1/zplTLF/m/n/10 ture will have a dif-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
 
  []
 
 <../images/ForwardReverseBias.jpg, id=894, 844.15375pt x 1606.0pt>
 File: ../images/ForwardReverseBias.jpg Graphic file (type jpg)
 <use ../images/ForwardReverseBias.jpg>
-Package pdftex.def Info: ../images/ForwardReverseBias.jpg  used on input line 999.
+Package pdftex.def Info: ../images/ForwardReverseBias.jpg  used on input line 1002.
 (pdftex.def)             Requested size: 67.53368pt x 128.48262pt.
 
-Underfull \hbox (badness 1048) in paragraph at lines 1004--1005
+Underfull \hbox (badness 1048) in paragraph at lines 1007--1008
 \T1/zplTLF/m/it/10 in-creases\T1/zplTLF/m/n/10 . In fact, if
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 1004--1005
+Underfull \hbox (badness 3612) in paragraph at lines 1007--1008
 \T1/zplTLF/m/n/10 goes past its \T1/zplTLF/m/it/10 thresh-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 1005--1006
+Underfull \hbox (badness 3148) in paragraph at lines 1008--1009
 []\T1/zplTLF/m/n/10 Reverse-biased: \T1/zplTLF/m/it/10 Very
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 1005--1006
+Underfull \hbox (badness 1721) in paragraph at lines 1008--1009
 \T1/zplTLF/m/it/10 high re-sis-tance\T1/zplTLF/m/n/10 . But,
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 1006--1007
+Underfull \hbox (badness 4967) in paragraph at lines 1009--1010
 []\T1/zplTLF/m/n/10 If the reverse-biased
  []
 
 <../images/Diode I-V characteristics.jpg, id=895, 1606.0pt x 1376.14125pt>
 File: ../images/Diode I-V characteristics.jpg Graphic file (type jpg)
 <use ../images/Diode I-V characteristics.jpg>
-Package pdftex.def Info: ../images/Diode I-V characteristics.jpg  used on input line 1008.
+Package pdftex.def Info: ../images/Diode I-V characteristics.jpg  used on input line 1011.
 (pdftex.def)             Requested size: 129.00269pt x 110.5345pt.
 
-Underfull \hbox (badness 1325) in paragraph at lines 1013--1014
+Underfull \hbox (badness 1325) in paragraph at lines 1016--1017
 \T1/zplTLF/m/n/10 ates a \T1/zplTLF/m/it/10 widened `de-ple-
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 1013--1014
+Underfull \hbox (badness 4279) in paragraph at lines 1016--1017
 \T1/zplTLF/m/n/10 which \T1/zplTLF/m/it/10 im-pedes charge
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 1013--1014
+Underfull \hbox (badness 3323) in paragraph at lines 1016--1017
 \T1/zplTLF/m/it/10 car-ri-ers \T1/zplTLF/m/n/10 from flow-ing
  []
 
 <../images/Filament Lamp I-V Characteristics.jpg, id=896, 1606.0pt x 1009.7725pt>
 File: ../images/Filament Lamp I-V Characteristics.jpg Graphic file (type jpg)
 <use ../images/Filament Lamp I-V Characteristics.jpg>
-Package pdftex.def Info: ../images/Filament Lamp I-V Characteristics.jpg  used on input line 1025.
+Package pdftex.def Info: ../images/Filament Lamp I-V Characteristics.jpg  used on input line 1028.
 (pdftex.def)             Requested size: 129.00269pt x 81.10701pt.
 <../images/Filament Lamp Resistance.jpg, id=897, 1604.99625pt x 864.22874pt>
 File: ../images/Filament Lamp Resistance.jpg Graphic file (type jpg)
 <use ../images/Filament Lamp Resistance.jpg>
-Package pdftex.def Info: ../images/Filament Lamp Resistance.jpg  used on input line 1026.
+Package pdftex.def Info: ../images/Filament Lamp Resistance.jpg  used on input line 1029.
 (pdftex.def)             Requested size: 129.00269pt x 69.45619pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 []\T1/zplTLF/m/n/10 As \T1/zplTLF/m/it/10 cur-rent in-creases,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 \T1/zplTLF/m/it/10 power dis-si-pated in-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 1030--1031
+Underfull \hbox (badness 1424) in paragraph at lines 1033--1034
 \T1/zplTLF/m/n/10 Heat is gen-er-ated so
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 1030--1031
+Underfull \hbox (badness 3514) in paragraph at lines 1033--1034
 \T1/zplTLF/m/it/10 equi-lib-rium tem-per-a-ture
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 1030--1031
+Underfull \hbox (badness 7963) in paragraph at lines 1033--1034
 \T1/zplTLF/m/n/10 lat-tice and trans-fers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 []\T1/zplTLF/m/n/10 The \T1/zplTLF/m/it/10 lat-tice ions vi-
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 1031--1032
+Underfull \hbox (badness 4940) in paragraph at lines 1034--1035
 \T1/zplTLF/m/it/10 brate more vig-or-ously\T1/zplTLF/m/n/10 .
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 1031--1032
+Underfull \hbox (badness 2884) in paragraph at lines 1034--1035
 \T1/zplTLF/m/n/10 This \T1/zplTLF/m/it/10 hin-ders the flow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 \T1/zplTLF/m/n/10 of `charge car-ri-ers'.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
 []\T1/zplTLF/m/n/10 Ohmic con-duc-tors
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 1032--1033
+Underfull \hbox (badness 7133) in paragraph at lines 1035--1036
 \T1/zplTLF/m/n/10 hence do \T1/zplTLF/m/it/10 not \T1/zplTLF/m/n/10 obey
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 1032--1033
+Underfull \hbox (badness 4981) in paragraph at lines 1035--1036
 \T1/zplTLF/m/n/10 Ohm's Law at \T1/zplTLF/m/it/10 high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 []\T1/zplTLF/m/n/10 Negative Tem-per-a-ture
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 1041--1042
+Underfull \hbox (badness 4699) in paragraph at lines 1044--1045
 \T1/zplTLF/m/n/10 mis-tor also \T1/zplTLF/m/it/10 in-creases\T1/zplTLF/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1042--1043
+Underfull \hbox (badness 1590) in paragraph at lines 1045--1046
 \T1/zplTLF/m/it/10 in-crease \T1/zplTLF/m/n/10 in \T1/zplTLF/m/it/10 tem-per-a-ture
  []
 
 <../images/NTC I-V.jpg, id=898, 1606.0pt x 953.5625pt>
 File: ../images/NTC I-V.jpg Graphic file (type jpg)
 <use ../images/NTC I-V.jpg>
-Package pdftex.def Info: ../images/NTC I-V.jpg  used on input line 1044.
+Package pdftex.def Info: ../images/NTC I-V.jpg  used on input line 1047.
 (pdftex.def)             Requested size: 129.00269pt x 76.5921pt.
 <../images/NTC Resistance.jpg, id=899, 1606.0pt x 921.4425pt>
 File: ../images/NTC Resistance.jpg Graphic file (type jpg)
 <use ../images/NTC Resistance.jpg>
-Package pdftex.def Info: ../images/NTC Resistance.jpg  used on input line 1045.
+Package pdftex.def Info: ../images/NTC Resistance.jpg  used on input line 1048.
 (pdftex.def)             Requested size: 129.00269pt x 74.01216pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
 []\T1/zplTLF/m/n/10 As \T1/zplTLF/m/it/10 cur-rent in-creases\T1/zplTLF/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
 \T1/zplTLF/m/it/10 power dis-si-pated in-
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 1049--1050
+Underfull \hbox (badness 1484) in paragraph at lines 1052--1053
 \T1/zplTLF/m/n/10 gen-er-ated, lead-ing to
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 1049--1050
+Underfull \hbox (badness 4531) in paragraph at lines 1052--1053
 \T1/zplTLF/m/n/10 a \T1/zplTLF/m/it/10 rise \T1/zplTLF/m/n/10 in \T1/zplTLF/m/it/10 equi-lib-rium
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 1050--1051
+Underfull \hbox (badness 5548) in paragraph at lines 1053--1054
 \T1/zplTLF/m/n/10 and lat-tice ions \T1/zplTLF/m/it/10 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 []\T1/zplTLF/m/n/10 The \T1/zplTLF/m/it/10 bonded elec-trons
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 1053--1054
+Underfull \hbox (badness 8094) in paragraph at lines 1056--1057
 \T1/zplTLF/m/n/10 in-creas-ing the \T1/zplTLF/m/it/10 num-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 1053--1054
+Underfull \hbox (badness 2401) in paragraph at lines 1056--1057
 \T1/zplTLF/m/n/10 car-ri-ers'. There-fore,
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 1054--1055
+Underfull \hbox (badness 2189) in paragraph at lines 1057--1058
 \T1/zplTLF/m/it/10 ing the flow \T1/zplTLF/m/n/10 of `mo-
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 1054--1055
+Underfull \hbox (badness 6268) in paragraph at lines 1057--1058
 \T1/zplTLF/m/n/10 bile charge car-ri-ers'.
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 1057--1058
+Underfull \hbox (badness 1521) in paragraph at lines 1060--1061
 \T1/zplTLF/m/n/10 more sig-nif-i-cant than
  []
 
@@ -2069,17 +2069,17 @@ Chapter 13.
 <../images/2 charges.png, id=920, 350.81062pt x 350.30875pt>
 File: ../images/2 charges.png Graphic file (type png)
 <use ../images/2 charges.png>
-Package pdftex.def Info: ../images/2 charges.png  used on input line 1146.
+Package pdftex.def Info: ../images/2 charges.png  used on input line 1149.
 (pdftex.def)             Requested size: 107.50114pt x 107.3438pt.
 <../images/2repellingcharges.png, id=921, 349.305pt x 370.38374pt>
 File: ../images/2repellingcharges.png Graphic file (type png)
 <use ../images/2repellingcharges.png>
-Package pdftex.def Info: ../images/2repellingcharges.png  used on input line 1146.
+Package pdftex.def Info: ../images/2repellingcharges.png  used on input line 1149.
 (pdftex.def)             Requested size: 107.50114pt x 113.98698pt.
 <../images/E-fieldPlate.png, id=926, 471.7625pt x 355.82938pt>
 File: ../images/E-fieldPlate.png Graphic file (type png)
 <use ../images/E-fieldPlate.png>
-Package pdftex.def Info: ../images/E-fieldPlate.png  used on input line 1150.
+Package pdftex.def Info: ../images/E-fieldPlate.png  used on input line 1153.
 (pdftex.def)             Requested size: 215.0023pt x 162.16866pt.
 [31
 
@@ -2087,42 +2087,42 @@ Package pdftex.def Info: ../images/E-fieldPlate.png  used on input line 1150.
 <../images/ElectricFieldStrengthPlot.png, id=938, 599.74063pt x 357.335pt>
 File: ../images/ElectricFieldStrengthPlot.png Graphic file (type png)
 <use ../images/ElectricFieldStrengthPlot.png>
-Package pdftex.def Info: ../images/ElectricFieldStrengthPlot.png  used on input line 1156.
+Package pdftex.def Info: ../images/ElectricFieldStrengthPlot.png  used on input line 1159.
 (pdftex.def)             Requested size: 215.0023pt x 128.1007pt.
 <../images/ParallelPlates/testing.pdf, id=941, 177.77718pt x 112.00143pt>
 File: ../images/ParallelPlates/testing.pdf Graphic file (type pdf)
 <use ../images/ParallelPlates/testing.pdf>
-Package pdftex.def Info: ../images/ParallelPlates/testing.pdf  used on input line 1175.
+Package pdftex.def Info: ../images/ParallelPlates/testing.pdf  used on input line 1178.
 (pdftex.def)             Requested size: 177.77673pt x 112.00114pt.
  [32 <../images/E-fieldPlate.png> <../images/ElectricFieldStrengthPlot.png>]
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 1193.
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 1196.
  (c:/texlive/2023/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1193.
+(Font)              scaled to size 10.0pt on input line 1196.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1193.
+(Font)              scaled to size 7.0pt on input line 1196.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1193.
+(Font)              scaled to size 7.0pt on input line 1196.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 5.0pt on input line 1193.
+(Font)              scaled to size 5.0pt on input line 1196.
 <../images/Electron-Deflection/Bahn-Kondensator (1).pdf, id=954, 563.46509pt x 249.02234pt>
 File: ../images/Electron-Deflection/Bahn-Kondensator (1).pdf Graphic file (type pdf)
 <use ../images/Electron-Deflection/Bahn-Kondensator (1).pdf>
-Package pdftex.def Info: ../images/Electron-Deflection/Bahn-Kondensator (1).pdf  used on input line 1198.
+Package pdftex.def Info: ../images/Electron-Deflection/Bahn-Kondensator (1).pdf  used on input line 1201.
 (pdftex.def)             Requested size: 430.00462pt x 190.04547pt.
  [33 <../images/ParallelPlates/testing.pdf>] [34 <../images/Electron-Deflection/Bahn-Kondensator (1).pdf>]
 Chapter 14.
 <../images/DC-Circuits-Resistors.jpg, id=1014, 1606.0pt x 651.43375pt>
 File: ../images/DC-Circuits-Resistors.jpg Graphic file (type jpg)
 <use ../images/DC-Circuits-Resistors.jpg>
-Package pdftex.def Info: ../images/DC-Circuits-Resistors.jpg  used on input line 1224.
+Package pdftex.def Info: ../images/DC-Circuits-Resistors.jpg  used on input line 1227.
 (pdftex.def)             Requested size: 399.90114pt x 162.21193pt.
 <../images/DC-Circuits-Potentiometer-1.jpg, id=1017, 3029.3175pt x 2545.51pt>
 File: ../images/DC-Circuits-Potentiometer-1.jpg Graphic file (type jpg)
 <use ../images/DC-Circuits-Potentiometer-1.jpg>
-Package pdftex.def Info: ../images/DC-Circuits-Potentiometer-1.jpg  used on input line 1236.
+Package pdftex.def Info: ../images/DC-Circuits-Potentiometer-1.jpg  used on input line 1239.
 (pdftex.def)             Requested size: 171.99922pt x 144.52849pt.
 [35
 
@@ -2130,175 +2130,175 @@ Package pdftex.def Info: ../images/DC-Circuits-Potentiometer-1.jpg  used on inpu
 <../images/DC-Circuits-Potentiometer-2.jpg, id=1025, 4140.46875pt x 1686.3pt>
 File: ../images/DC-Circuits-Potentiometer-2.jpg Graphic file (type jpg)
 <use ../images/DC-Circuits-Potentiometer-2.jpg>
-Package pdftex.def Info: ../images/DC-Circuits-Potentiometer-2.jpg  used on input line 1243.
+Package pdftex.def Info: ../images/DC-Circuits-Potentiometer-2.jpg  used on input line 1246.
 (pdftex.def)             Requested size: 378.40616pt x 154.10196pt.
 <../images/D.C.-Voltage-Cancelling-Each-Other.png, id=1028, 836.3747pt x 514.17094pt>
 File: ../images/D.C.-Voltage-Cancelling-Each-Other.png Graphic file (type png)
 <use ../images/D.C.-Voltage-Cancelling-Each-Other.png>
-Package pdftex.def Info: ../images/D.C.-Voltage-Cancelling-Each-Other.png  used on input line 1249.
+Package pdftex.def Info: ../images/D.C.-Voltage-Cancelling-Each-Other.png  used on input line 1252.
 (pdftex.def)             Requested size: 129.00269pt x 79.30339pt.
  [36 <../images/DC-Circuits-Potentiometer-1.jpg> <../images/DC-Circuits-Potentiometer-2.jpg> <../images/D.C.-Voltage-Cancelling-Each-Other.png>]
 Chapter 15.
 <../images/Bar-Magnet/Bar-Magnet.pdf, id=1040, 569.05598pt x 455.24078pt>
 File: ../images/Bar-Magnet/Bar-Magnet.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Bar-Magnet.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnet.pdf  used on input line 1258.
+Package pdftex.def Info: ../images/Bar-Magnet/Bar-Magnet.pdf  used on input line 1261.
 (pdftex.def)             Requested size: 344.005pt x 275.20966pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.87003pt on input line 1270.
+(Font)              scaled to size 9.87003pt on input line 1273.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.42601pt on input line 1270.
+(Font)              scaled to size 7.42601pt on input line 1273.
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1270.
+(Font)              size <10.95> substituted on input line 1273.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1270.
+(Font)              size <10.95> substituted on input line 1273.
 
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1270.
+(Font)              scaled to size 14.4pt on input line 1273.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.5pt on input line 1270.
+(Font)              scaled to size 10.5pt on input line 1273.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.9pt on input line 1270.
+(Font)              scaled to size 7.9pt on input line 1273.
 [37
 
  <../images/Bar-Magnet/Bar-Magnet.pdf>]
 <../images/Left-Right-Hand-Rules/Left-hand-rule.png, id=1063, 955.31906pt x 724.20563pt>
 File: ../images/Left-Right-Hand-Rules/Left-hand-rule.png Graphic file (type png)
 <use ../images/Left-Right-Hand-Rules/Left-hand-rule.png>
-Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Left-hand-rule.png  used on input line 1279.
+Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Left-hand-rule.png  used on input line 1282.
 (pdftex.def)             Requested size: 215.0023pt x 162.98343pt.
 <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf, id=1064, 147.31938pt x 212.54205pt>
 File: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf Graphic file (type pdf)
 <use ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf>
-Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf  used on input line 1281.
+Package pdftex.def Info: ../images/Left-Right-Hand-Rules/Right-hand-rule.pdf  used on input line 1284.
 (pdftex.def)             Requested size: 120.40076pt x 173.71158pt.
 <../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf, id=1067, 129.2549pt x 109.23009pt>
 File: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf Graphic file (type pdf)
 <use ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>
-Package pdftex.def Info: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf  used on input line 1289.
+Package pdftex.def Info: ../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf  used on input line 1292.
 (pdftex.def)             Requested size: 215.0023pt x 181.69856pt.
 <../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf, id=1070, 210.18324pt x 198.97336pt>
 File: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf Graphic file (type pdf)
 <use ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf>
-Package pdftex.def Info: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf  used on input line 1296.
+Package pdftex.def Info: ../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf  used on input line 1299.
 (pdftex.def)             Requested size: 215.0023pt x 203.5452pt.
  [38 <../images/Left-Right-Hand-Rules/Left-hand-rule.png> <../images/Left-Right-Hand-Rules/Right-hand-rule.pdf> <../images/Current-Carrying-Wire/Current-Carrying-Wire.pdf>]
 <../images/Solenoid.pdf, id=1100, 368.87813pt x 150.5625pt>
 File: ../images/Solenoid.pdf Graphic file (type pdf)
 <use ../images/Solenoid.pdf>
-Package pdftex.def Info: ../images/Solenoid.pdf  used on input line 1302.
+Package pdftex.def Info: ../images/Solenoid.pdf  used on input line 1305.
 (pdftex.def)             Requested size: 387.00153pt x 157.95973pt.
  [39 <../images/Flat-Circular-Coil/Flat-Circular-Coil.pdf> <../images/Solenoid.pdf>]
 <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=1116, page=1, 193.28511pt x 70.33377pt>
 File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphic file (type pdf)
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 1>
-Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page1 used on input line 1323.
+Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page1 used on input line 1326.
 (pdftex.def)             Requested size: 289.92696pt x 105.50038pt.
 <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, id=1117, page=2, 223.68066pt x 82.53435pt>
 File: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf Graphic file (type pdf)
 <use ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf, page 2>
-Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page2 used on input line 1325.
+Package pdftex.def Info: ../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf , page2 used on input line 1328.
 (pdftex.def)             Requested size: 335.52017pt x 123.8012pt.
 <../images/Velocity-Selector/Velocity-Selector.pdf, id=1121, page=1, 165.33469pt x 190.77473pt>
 File: ../images/Velocity-Selector/Velocity-Selector.pdf Graphic file (type pdf)
 <use ../images/Velocity-Selector/Velocity-Selector.pdf, page 1>
-Package pdftex.def Info: ../images/Velocity-Selector/Velocity-Selector.pdf , page1 used on input line 1339.
+Package pdftex.def Info: ../images/Velocity-Selector/Velocity-Selector.pdf , page1 used on input line 1342.
 (pdftex.def)             Requested size: 174.14949pt x 200.95105pt.
 <../images/Velocity-Selector/Velocity-Selector.pdf, id=1122, page=2, 182.96857pt x 184.18813pt>
 File: ../images/Velocity-Selector/Velocity-Selector.pdf Graphic file (type pdf)
 <use ../images/Velocity-Selector/Velocity-Selector.pdf, page 2>
-Package pdftex.def Info: ../images/Velocity-Selector/Velocity-Selector.pdf , page2 used on input line 1341.
+Package pdftex.def Info: ../images/Velocity-Selector/Velocity-Selector.pdf , page2 used on input line 1344.
 (pdftex.def)             Requested size: 193.50076pt x 194.80563pt.
  [40 <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf> <../images/Two-Current-Carrying-Wires/Two-Current-Carrying-Wires.pdf>] [41 <../images/Velocity-Selector/Velocity-Selector.pdf> <../images/Velocity-Selector/Velocity-Selector.pdf>]
 <../images/Bar-Magnet/Cropped/1.pdf, id=1189, 196.53224pt x 512.1534pt>
 File: ../images/Bar-Magnet/Cropped/1.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/1.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Cropped/1.pdf  used on input line 1350.
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/1.pdf  used on input line 1353.
 (pdftex.def)             Requested size: 196.53175pt x 512.15215pt.
 <../images/Bar-Magnet/Cropped/2.pdf, id=1190, 196.53224pt x 512.1534pt>
 File: ../images/Bar-Magnet/Cropped/2.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/2.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Cropped/2.pdf  used on input line 1351.
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/2.pdf  used on input line 1354.
 (pdftex.def)             Requested size: 196.53175pt x 512.15215pt.
 <../images/Bar-Magnet/Cropped/3.pdf, id=1191, 307.55pt x 290.11787pt>
 File: ../images/Bar-Magnet/Cropped/3.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/3.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Cropped/3.pdf  used on input line 1352.
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/3.pdf  used on input line 1355.
 (pdftex.def)             Requested size: 210.70462pt x 198.76053pt.
 <../images/Bar-Magnet/Cropped/4.pdf, id=1192, 307.55pt x 290.11787pt>
 File: ../images/Bar-Magnet/Cropped/4.pdf Graphic file (type pdf)
 <use ../images/Bar-Magnet/Cropped/4.pdf>
-Package pdftex.def Info: ../images/Bar-Magnet/Cropped/4.pdf  used on input line 1353.
+Package pdftex.def Info: ../images/Bar-Magnet/Cropped/4.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 210.70462pt x 198.76053pt.
  [42 <../images/Bar-Magnet/Cropped/1.pdf> <../images/Bar-Magnet/Cropped/2.pdf> <../images/Bar-Magnet/Cropped/3.pdf> <../images/Bar-Magnet/Cropped/4.pdf>]
 Chapter 16.
 <../images/Lenz's-Law/Lenz's-Law.pdf, id=1289, page=4, 185.21597pt x 126.30386pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 4>
-Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page4 used on input line 1374.
+Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page4 used on input line 1377.
 (pdftex.def)             Requested size: 171.99922pt x 117.29755pt.
 <../images/Lenz's-Law/Lenz's-Law.pdf, id=1290, page=5, 216.50787pt x 126.30386pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 5>
-Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page5 used on input line 1375.
+Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page5 used on input line 1378.
 (pdftex.def)             Requested size: 193.50076pt x 112.88417pt.
 <../images/Lenz's-Law/Lenz's-Law.pdf, id=1291, page=3, 167.5871pt x 91.75781pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 3>
-Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page3 used on input line 1376.
+Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page3 used on input line 1379.
 (pdftex.def)             Requested size: 171.99922pt x 94.17697pt.
 [43
 
@@ -2306,24 +2306,24 @@ Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page3 used on inp
 <../images/Lenz's-Law/Lenz's-Law.pdf, id=1328, page=1, 165.09178pt x 105.24821pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 1>
-Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page1 used on input line 1385.
+Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page1 used on input line 1388.
 (pdftex.def)             Requested size: 224.4616pt x 143.10837pt.
 <../images/Lenz's-Law/Lenz's-Law.pdf, id=1329, page=2, 103.09917pt x 124.39474pt>
 File: ../images/Lenz's-Law/Lenz's-Law.pdf Graphic file (type pdf)
 <use ../images/Lenz's-Law/Lenz's-Law.pdf, page 2>
-Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page2 used on input line 1387.
+Package pdftex.def Info: ../images/Lenz's-Law/Lenz's-Law.pdf , page2 used on input line 1390.
 (pdftex.def)             Requested size: 143.18866pt x 172.7734pt.
 <../images/Faraday’s-Paradox.png, id=1332, 805.0075pt x 964.60374pt>
 File: ../images/Faraday’s-Paradox.png Graphic file (type png)
 <use ../images/Faraday’s-Paradox.png>
-Package pdftex.def Info: ../images/Faraday’s-Paradox.png  used on input line 1407.
+Package pdftex.def Info: ../images/Faraday’s-Paradox.png  used on input line 1410.
 (pdftex.def)             Requested size: 171.99922pt x 206.09052pt.
  [44 <../images/Lenz's-Law/Lenz's-Law.pdf> <../images/Lenz's-Law/Lenz's-Law.pdf> <../images/Faraday’s-Paradox.png>]
 Chapter 17.
 <../images/Varying-Direct-Current.png, id=1373, 897.85437pt x 348.80313pt>
 File: ../images/Varying-Direct-Current.png Graphic file (type png)
 <use ../images/Varying-Direct-Current.png>
-Package pdftex.def Info: ../images/Varying-Direct-Current.png  used on input line 1417.
+Package pdftex.def Info: ../images/Varying-Direct-Current.png  used on input line 1420.
 (pdftex.def)             Requested size: 405.00462pt x 157.33783pt.
 [45
 
@@ -2331,45 +2331,45 @@ Package pdftex.def Info: ../images/Varying-Direct-Current.png  used on input lin
 <../images/Transformer/TransformerCropped.pdf, id=1386, 393.98192pt x 264.97092pt>
 File: ../images/Transformer/TransformerCropped.pdf Graphic file (type pdf)
 <use ../images/Transformer/TransformerCropped.pdf>
-Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 1439.
+Package pdftex.def Info: ../images/Transformer/TransformerCropped.pdf  used on input line 1442.
 (pdftex.def)             Requested size: 400.00462pt x 269.02956pt.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 1441.
+(Font)              scaled to size 8.46002pt on input line 1444.
 <../images/Another-Transformer/Another-Transformer.pdf, id=1389, 270.64713pt x 188.47214pt>
 File: ../images/Another-Transformer/Another-Transformer.pdf Graphic file (type pdf)
 <use ../images/Another-Transformer/Another-Transformer.pdf>
-Package pdftex.def Info: ../images/Another-Transformer/Another-Transformer.pdf  used on input line 1444.
+Package pdftex.def Info: ../images/Another-Transformer/Another-Transformer.pdf  used on input line 1447.
 (pdftex.def)             Requested size: 400.00462pt x 278.57489pt.
  [46 <../images/Transformer/TransformerCropped.pdf> <../images/Another-Transformer/Another-Transformer.pdf>]
 <../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf, id=1454, 200.1628pt x 122.6693pt>
 File: ../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf Graphic file (type pdf)
 <use ../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf>
-Package pdftex.def Info: ../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf  used on input line 1465.
+Package pdftex.def Info: ../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf  used on input line 1468.
 (pdftex.def)             Requested size: 135.44994pt x 83.01158pt.
 <../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf, id=1457, 602.25pt x 602.25pt>
 File: ../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf Graphic file (type pdf)
 <use ../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf>
-Package pdftex.def Info: ../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf  used on input line 1470.
+Package pdftex.def Info: ../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf  used on input line 1473.
 (pdftex.def)             Requested size: 135.44994pt x 135.44525pt.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 1471.
+(Font)              scaled to size 7.52002pt on input line 1474.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.828pt on input line 1471.
+(Font)              scaled to size 5.828pt on input line 1474.
  [47 <../images/Half-Wave-Rectification/Half-Wave-Rectification.pdf> <../images/Half-Wave-Rectification/Half-Wave-Rectification-Graph.pdf>]
 <../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf, id=1486, 418.18434pt x 207.67487pt>
 File: ../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf Graphic file (type pdf)
 <use ../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf>
-Package pdftex.def Info: ../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf  used on input line 1496.
+Package pdftex.def Info: ../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf  used on input line 1499.
 (pdftex.def)             Requested size: 135.44994pt x 67.26537pt.
 <../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf, id=1489, 602.25pt x 602.25pt>
 File: ../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf Graphic file (type pdf)
 <use ../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf>
-Package pdftex.def Info: ../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf  used on input line 1501.
+Package pdftex.def Info: ../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf  used on input line 1504.
 (pdftex.def)             Requested size: 135.44994pt x 135.44525pt.
  [48 <../images/Full-Wave-Rectification/Full-Wave-Rectification.pdf> <../images/Full-Wave-Rectification/Full-Wave-Rectification-Graph.pdf>]
 Chapter 18.
 
-Overfull \hbox (12.30684pt too wide) in alignment at lines 1518--1581
+Overfull \hbox (12.30684pt too wide) in alignment at lines 1521--1584
  [] [] [] [] 
  []
 
@@ -2390,48 +2390,48 @@ Overfull \hbox (12.30684pt too wide) has occurred while \output is active
 <../images/The-Photoelectric-Effect/Illustration.pdf, id=1547, 172.11pt x 175.62213pt>
 File: ../images/The-Photoelectric-Effect/Illustration.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/Illustration.pdf>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/Illustration.pdf  used on input line 1586.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/Illustration.pdf  used on input line 1589.
 (pdftex.def)             Requested size: 215.0023pt x 219.38776pt.
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1550, page=1, 253.92667pt x 141.20755pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 1>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page1 used on input line 1592.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page1 used on input line 1595.
 (pdftex.def)             Requested size: 215.0023pt x 119.56372pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1622 ...Tikz is pain, suffering, but beautiful.}
+l.1625 ...Tikz is pain, suffering, but beautiful.}
                                                   
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1553, page=2, 224.35318pt x 178.62132pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 2>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page2 used on input line 1627.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page2 used on input line 1630.
 (pdftex.def)             Requested size: 210.70462pt x 167.75958pt.
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1554, page=3, 226.75316pt x 177.49713pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 3>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page3 used on input line 1632.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page3 used on input line 1635.
 (pdftex.def)             Requested size: 210.70462pt x 164.9352pt.
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1555, page=4, 253.92667pt x 197.8341pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 4>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page4 used on input line 1637.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page4 used on input line 1640.
 (pdftex.def)             Requested size: 210.70462pt x 164.15999pt.
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1556, page=5, 253.92767pt x 182.18967pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 5>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page5 used on input line 1642.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page5 used on input line 1645.
 (pdftex.def)             Requested size: 210.70462pt x 151.17845pt.
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1557, page=6, 241.12885pt x 176.00053pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 6>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page6 used on input line 1647.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page6 used on input line 1650.
 (pdftex.def)             Requested size: 210.70462pt x 153.79329pt.
 <../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, id=1558, page=7, 206.29771pt x 180.56761pt>
 File: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf Graphic file (type pdf)
 <use ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf, page 7>
-Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page7 used on input line 1652.
+Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Effect.pdf , page7 used on input line 1655.
 (pdftex.def)             Requested size: 210.70462pt x 184.42448pt.
  [51
 
@@ -2439,27 +2439,27 @@ Package pdftex.def Info: ../images/The-Photoelectric-Effect/The-Photoelectric-Ef
 <../images/Energy-Level/Energy-Level.pdf, id=1689, 216.51689pt x 422.60886pt>
 File: ../images/Energy-Level/Energy-Level.pdf Graphic file (type pdf)
 <use ../images/Energy-Level/Energy-Level.pdf>
-Package pdftex.def Info: ../images/Energy-Level/Energy-Level.pdf  used on input line 1748.
+Package pdftex.def Info: ../images/Energy-Level/Energy-Level.pdf  used on input line 1751.
 (pdftex.def)             Requested size: 168.2779pt x 328.44675pt.
  [54] [55 <../images/Energy-Level/Energy-Level.pdf>]
 <../images/Energy level diagram(s)/energy-level-1.pdf, id=1722, page=1, 305.8095pt x 285.45044pt>
 File: ../images/Energy level diagram(s)/energy-level-1.pdf Graphic file (type pdf)
 <use ../images/Energy level diagram(s)/energy-level-1.pdf, page 1>
-Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-1.pdf , page1 used on input line 1757.
+Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-1.pdf , page1 used on input line 1760.
 (pdftex.def)             Requested size: 430.00462pt x 401.40933pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 1758.
+(Font)              scaled to size 9.0pt on input line 1761.
  [56 <../images/Energy level diagram(s)/energy-level-1.pdf>]
 <../images/Energy level diagram(s)/energy-level-3.pdf, id=1748, 387.10522pt x 345.14447pt>
 File: ../images/Energy level diagram(s)/energy-level-3.pdf Graphic file (type pdf)
 <use ../images/Energy level diagram(s)/energy-level-3.pdf>
-Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-3.pdf  used on input line 1767.
+Package pdftex.def Info: ../images/Energy level diagram(s)/energy-level-3.pdf  used on input line 1770.
 (pdftex.def)             Requested size: 430.00462pt x 383.39928pt.
  [57 <../images/Energy level diagram(s)/energy-level-3.pdf>]
 <../images/x-ray-spectrum/x-ray-spectrum.pdf, id=1775, 258.61922pt x 224.61516pt>
 File: ../images/x-ray-spectrum/x-ray-spectrum.pdf Graphic file (type pdf)
 <use ../images/x-ray-spectrum/x-ray-spectrum.pdf>
-Package pdftex.def Info: ../images/x-ray-spectrum/x-ray-spectrum.pdf  used on input line 1776.
+Package pdftex.def Info: ../images/x-ray-spectrum/x-ray-spectrum.pdf  used on input line 1779.
 (pdftex.def)             Requested size: 258.00539pt x 224.1005pt.
 
 
@@ -2467,30 +2467,30 @@ pdfTeX warning: pdflatex.exe (file ../images/x-ray-apparatus.pdf): PDF inclusion
 <../images/x-ray-apparatus.pdf, id=1778, 843.04463pt x 281.01486pt>
 File: ../images/x-ray-apparatus.pdf Graphic file (type pdf)
 <use ../images/x-ray-apparatus.pdf>
-Package pdftex.def Info: ../images/x-ray-apparatus.pdf  used on input line 1784.
+Package pdftex.def Info: ../images/x-ray-apparatus.pdf  used on input line 1787.
 (pdftex.def)             Requested size: 171.99922pt x 57.3297pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1814--1814
+Underfull \hbox (badness 10000) in paragraph at lines 1817--1817
 []|\T1/zplTLF/m/n/10 A broad con-tin-u-ous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1814--1814
+Underfull \hbox (badness 10000) in paragraph at lines 1817--1817
 \T1/zplTLF/m/it/10 Bremsstrahlung con-tin-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1817--1819
+Underfull \hbox (badness 5245) in paragraph at lines 1820--1822
 []\T1/zplTLF/m/n/10 Their ki-netic en-er-gies are lost through the emis-sion of
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 1825--1825
+Underfull \hbox (badness 2753) in paragraph at lines 1828--1828
 []|\T1/zplTLF/m/n/10 Sharp peaks $\U/zeur/m/n/10 K[]$ \T1/zplTLF/m/n/10 and
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1789--1847
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1792--1850
  [] [] 
  []
 
@@ -2507,14 +2507,14 @@ Overfull \hbox (23.99998pt too wide) has occurred while \output is active
 <../images/CharacteristicRadiation.pdf, id=1808, 424.58624pt x 379.4175pt>
 File: ../images/CharacteristicRadiation.pdf Graphic file (type pdf)
 <use ../images/CharacteristicRadiation.pdf>
-Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1850.
+Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1853.
 (pdftex.def)             Requested size: 322.50346pt x 288.20976pt.
 [59 <../images/CharacteristicRadiation.pdf>]
 Chapter 19.
 <../images/Binding energy per nucleon.pdf, id=1832, 504.81346pt x 331.72682pt>
 File: ../images/Binding energy per nucleon.pdf Graphic file (type pdf)
 <use ../images/Binding energy per nucleon.pdf>
-Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 1892.
+Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 1895.
 (pdftex.def)             Requested size: 348.30269pt x 228.89174pt.
 [60
 
@@ -2522,50 +2522,50 @@ Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input
 <../images/Li6-D_Reaction.pdf, id=1841, 1008.76875pt x 1180.41pt>
 File: ../images/Li6-D_Reaction.pdf Graphic file (type pdf)
 <use ../images/Li6-D_Reaction.pdf>
-Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 1902.
+Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 1905.
 (pdftex.def)             Requested size: 215.0023pt x 251.56778pt.
  [61 <../images/Binding energy per nucleon.pdf> <../images/Li6-D_Reaction.pdf
 
 pdfTeX warning: pdflatex.exe (file ../images/Li6-D_Reaction.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (6.30168pt too wide) in paragraph at lines 1945--2018
+Overfull \hbox (6.30168pt too wide) in paragraph at lines 1948--2021
  [][] 
  []
 
 <../images/Beta-minus_Decay.pdf, id=1945, 250.9375pt x 170.6375pt>
 File: ../images/Beta-minus_Decay.pdf Graphic file (type pdf)
 <use ../images/Beta-minus_Decay.pdf>
-Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 2108.
+Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 2111.
 (pdftex.def)             Requested size: 215.0023pt x 146.20901pt.
 [62] [63 <../images/Beta-minus_Decay.pdf>]
 Chapter 20.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 2129.
+(Font)              scaled to size 14.4pt on input line 2132.
 [64
 
 ] [65]
-Underfull \hbox (badness 1215) in paragraph at lines 2365--2366
+Underfull \hbox (badness 1215) in paragraph at lines 2368--2369
 \T1/zplTLF/m/n/10 by us-ing a stronger mag-net, e.g.
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 2414--2415
+Underfull \hbox (badness 1762) in paragraph at lines 2417--2418
 []\T1/zplTLF/m/n/10 Replace the rub-ber band with a
  []
 
 [66] [67]
-Underfull \hbox (badness 1117) in paragraph at lines 2489--2490
+Underfull \hbox (badness 1117) in paragraph at lines 2492--2493
 []\T1/zplTLF/m/n/10 Check for the ap-pro-pri-ate masses and
  []
 
 [68]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2502.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2505.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2502.
+(Font)              scaled to size 10.0pt on input line 2505.
  [69
 
 ] [70] [71] (./ALPhys.aux)
@@ -2582,11 +2582,11 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 85E716AACA68CB44C80BACA1EB7FA621;3280.
  ) 
 Here is how much of TeX's memory you used:
- 41376 strings out of 475237
- 837722 string characters out of 5768555
+ 41374 strings out of 475237
+ 837711 string characters out of 5768555
  1966238 words of memory out of 5000000
  61420 multiletter control sequences out of 15000+600000
- 735212 words of font info for 296 fonts, out of 8000000 for 9000
+ 734427 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,23n,131p,7693b,1579s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2602,7 +2602,7 @@ pdfTeX warning (dest): name{Fig\04012.3} has been referenced but does not exist,
 pdfTeX warning (dest): name{Fig\04012.2} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (72 pages, 29786878 bytes).
+Output written on ALPhys.pdf (72 pages, 29787054 bytes).
 PDF statistics:
  2601 PDF objects out of 2984 (max. 8388607)
  1683 compressed objects within 17 object streams
