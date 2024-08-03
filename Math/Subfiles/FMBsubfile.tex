@@ -67,7 +67,7 @@
       \end{table}
       \item Check whether \(e_i\geq 5\) for each of the \(n\) classes. If it isn't, we need to combine \emph{just enough} adjacent classes, till they do. Working-wise, use some underbraces/overbraces to indicate the combined values. 
       \item Under \(H_0\), the test statistic is
-      \[\chi^2=\sum_{i=1}^{n}{\frac{(F_i-E_i)^2}{E_i}}\sim\chi_{(\nu)}^2.\]
+      \[\chi^2=\sum{\frac{(F_i-E_i)^2}{E_i}}\sim\chi_{(\nu)}^2.\]
       Here, \(n\coloneq\#\text{classes}\) and \(\nu=(\#\text{classes}-\#\text{estimated parameters})-1\).
       \item Continue as per usual, calculating the critical region \(\chi_{(\nu)}^2>\chi^2_{(\nu,1-\alpha)}\) or the \(p\)-value.
     \end{enumerate}
@@ -185,14 +185,22 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \cline{2-7}
         \multicolumn{1}{|Sc|}{}&\(y_m\)&&&&&\multicolumn{1}{Sc|}{\(t_{r_m}\)}\\  
         \hline
-        \multicolumn{1}{Sc|}{}& Total & \(t_{c_1}\) & \(t_{c_2}\) & \(\cdots\) & \(t_{c_n}\) & \multicolumn{1}{Sc|}{\(\sum{t_{r_i}}+\sum{t_{c_i}}\)}\\ 
+        \multicolumn{1}{Sc|}{}& Total & \(t_{c_1}\) & \(t_{c_2}\) & \(\cdots\) & \(t_{c_n}\) & \multicolumn{1}{Sc|}{\(S=\sum{t_{r_i}}+\sum{t_{c_i}}\)}\\ 
         \cline{2-7}
       \end{tabular}
       \caption{\emph{Expected} frequencies for a test of independence.}
       \label{table:tests-of-indepedence}
     \end{table}
+    % \Bigg(The expected frequencies are given by \(e_{ij}=\dfrac{\text{row total}\cdot\text{column total}}{\text{total number of observations}}=\dfrac{t_{r_i}t_{c_j}}{S}\).\Bigg)
+    \vspace{-1em}
+    \begin{minipage}{0.825\textwidth}
+      \begin{remark}
+        The expected frequencies are given by \(e_{ij}=\dfrac{\text{row total}\cdot\text{column total}}{\text{total number of observations}}=\dfrac{t_{r_i}t_{c_j}}{S}\).
+      \end{remark}
+    \end{minipage}
+    \item Check whether \(e_i\geq 5\) for each of the \(mn\) cells. If it isn't, we need to combine \emph{just enough} adjacent classes, till they do. Working-wise, use some underbraces/overbraces/side braces to indicate the combined values. 
     \item Under \(H_0\), the test statistic is
-    \[\chi^2=\sum_{i=1}^{n}{\frac{(F_i-E_i)^2}{E_i}}\sim\chi_{(\nu)}^2.\]
+    \[\chi^2=\sum{\frac{(F_i-E_i)^2}{E_i}}\sim\chi_{(\nu)}^2.\]
     Here, \(n\coloneq\#\text{cols}\) and \(\nu=(\#\text{rows}-1)(\#\text{cols}-1)\).
     \item Continue as per usual, calculating the critical region \(\chi_{(\nu)}^2>\chi^2_{(\nu,1-\alpha)}\) or the \(p\)-value.
   \end{enumerate}
@@ -746,7 +754,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \end{center}
 \end{note}
 \begin{example}{A tricker question, involving an unknown in the data provided.}{}
-  Let \(m\) be the median of \(D\colon X-Y\). For the data in Table \ref{table:wilcoxon-unknown-variable-raw-data}, assume that there are no tied ranks, and \(x_i\neq y_i\) for each \(1\leq i<j\leq 7\). Carry out a Wilcoxon test, at the \(5\%\) significance level, to determine if the data supports the alternative hypothesis \(H_1\colon m>0\).
+  Let \(m\) be the median of \(D\colon X-Y\). For the data in Table \ref{table:wilcoxon-unknown-variable-raw-data}, assume that there are no tied ranks, and \(x_i\neq y_i\) for each \(1\leq i\leq 7\). Carry out a Wilcoxon test, at the \(5\%\) significance level, to determine if the data supports the alternative hypothesis \(H_1\colon m>0\).
   \begin{table}[H]
     \centering
     \begin{tabular}{ScScScScScScScSc}

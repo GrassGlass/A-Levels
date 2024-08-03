@@ -108,15 +108,15 @@
         \begin{itemize}
           \item Find \(z_{1-\alpha}\) or \(z_{1-\alpha/2}\), which satisfies
           \begin{enumerate}
-            \item \(\Prob(Z<z_{1-\alpha})=\alpha\), 
+            \item \(\Prob(Z<z_\alpha)=\alpha\), 
             \item \(\Prob(-z_{1-\alpha/2}<Z<z_{1-\alpha/2})=1-\alpha\), or
-            \item \(\Prob(Z>z_{1-\alpha})\).
+            \item \(\Prob(Z>z_{1-\alpha})=\alpha\).
           \end{enumerate}
           \item Find the test statistic value 
           \[z_\text{calc}=\frac{\widebar{x}-\mu_0}{s/\sqrt{n}}.\]
           \item Reject \(H_0\) iff 
           \begin{enumerate}
-            \item \(z_\text{calc}<z_{1-\alpha}\),
+            \item \(z_\text{calc}<z_\alpha\),
             \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\), or
             \item \(z_\text{calc}>z_{1-\alpha}\).
           \end{enumerate}
@@ -142,7 +142,7 @@
       \begin{enumerate}
         \item[5.] Since\quad
         \begin{enumerate*}[label=(\alph*),itemjoin={\quad}]
-          \item \(z_\text{calc}<z_{1-\alpha}\),
+          \item \(z_\text{calc}<z_\alpha\),
           \item \(\lvert z_\text{calc} \rvert>z_{1-\alpha/2}\),
           \item \(z_\text{calc}>z_{1-\alpha}\),\quad or\quad \(p\text{-value}<\alpha\),
         \end{enumerate*}
@@ -431,10 +431,9 @@
   \section{Summary}
 Throughout the two tables, we \emph{always} assume that the (both) sample(s) are independent and random. Square brackets indicate ``and'', while round brackets indicate ``or''.
   \begin{table}[htbp]
-      \begin{tabular}{|Sc|Sc|}
-        \hline
+      \begin{tabular}{ScSc}
         Assumptions/Reasons & Test (Statistic)\\
-        \hline
+        \toprule
         \begin{minipage}{418.6pt}
           \begin{enumerate}[align=parleft]
             \item[{[ii]}]\ The variance \(\sigma^2\) is known.
@@ -449,7 +448,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
             (approximately if CLT was used)
           \end{center}
         \end{minipage}\\
-        \hline
+        \midrule
         \begin{minipage}{418.6pt}
           \begin{enumerate}[align=parleft]
             \item[{[i]}]\ The variance \(\sigma^2\) is unknown.
@@ -474,7 +473,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
             (approximately)
           \end{center}
         \end{minipage}\\
-        \hline
+        \midrule
         \begin{minipage}{418.6pt}
           \begin{enumerate}[label={[\roman*]},align=parleft]
             \item The variance \(\sigma^2\) is unknown.
@@ -488,7 +487,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
             \[T=\frac{\widebar{X}-\mu_0}{s/\sqrt{n}}\sim t(n-1)\]
           \end{center}
         \end{minipage}\\
-        \hline
+        \bottomrule
       \end{tabular}
     \caption{Summary table for one-sample hypothesis testing.}
     \label{Table:Summary table for one-sample hypothesis testing.}
@@ -496,15 +495,14 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
 \end{landscape}
 \begin{landscape}
   \begin{table}[htbp]
-    \begin{tabular}{|Sc|Sc|}
-      \hline
+    \begin{tabular}{ScSc}
       Assumptions/Reasons & Test (Statistic)\\
-      \hline
+      \toprule
       \begin{minipage}{418.6pt}
         \begin{enumerate}[align=parleft]
           \item[{[i]}]\ Both variances \(\sigma_1\) and \(\sigma_2\) are known.
           \item[{[ii](1)}]\ Sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
-          \item[{[ii](2)}]\ Sample sizes \(n_1\) or \(n_2\) are small, but we assume \(X_1\) and \(X_2\) are normally distributed.
+          \item[{[ii](2)}]\ At least one sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
       \end{minipage}&
       \begin{minipage}{179.4pt}
@@ -514,7 +512,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
           (approximately if CLT was used)
         \end{center}
       \end{minipage}\\
-      \hline
+      \midrule
       \begin{minipage}{418.6pt}
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
@@ -531,7 +529,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
           approximately
         \end{center}
       \end{minipage}\\
-      \hline
+      \midrule
       \begin{minipage}{418.6pt}
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
@@ -548,11 +546,11 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
           approximately
         \end{center}
       \end{minipage}\\
-      \hline
+      \midrule
       \begin{minipage}{418.6pt}
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
-          \item Sample sizes \(n_1\) and \(n_2\) are small.
+          \item At least one sample size \(n_1\) or \(n_2\) is small.
           \item Both variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
           \item Assume \(X_1\) and \(X_2\) are normally distributed. 
           
@@ -566,7 +564,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
           \[T=\frac{\widebar{X}_1-\widebar{X}_2-(\mu_1-\mu_2)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t(n_1+n_2-2)\]
         \end{center}
       \end{minipage}\\
-      \hline
+      \midrule
       \begin{minipage}{418.6pt}
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Assume that \(D_1,D_2,\dots,D_n\) are normally distributed.
@@ -579,7 +577,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \[T=\frac{\widebar{D}-\mu_D}{s_D/\sqrt{n}}\sim t(n-1).\]
         \end{center}
       \end{minipage}\\
-      \hline
+      \bottomrule
     \end{tabular}
   \caption{Summary table for two-sample hypothesis testing.}
   \label{Table:Summary table for two-sample hypothesis testing.}
