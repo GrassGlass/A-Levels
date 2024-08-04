@@ -7,6 +7,7 @@
 \usepackage{../Style/Thms}
 \usepackage{newpxtext, eulerpx}
 \usepackage{bbding}
+\usepackage{pgf-interference}
 \begin{document}
 
 \input{Titlepage.tex}
@@ -650,13 +651,21 @@ So, rearranging, we have
         \item (Resonance) frequency at max amplitude shifts gradually to lower frequencies.
         \item Peak (max amplitude) becomes flatter.
     \end{itemize}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{../images/SHM/Amplitude-vs-frequency-graph.pdf}
+        \caption{\ref{Simple harmonic motion amplitude-vs-frequency graph} The graph of amplitude against frequency, as damping increases. The resonance frequency is denoted by \(f_0\).}
+        \label{fig:SHM-graphs-A-f}
+    \end{figure}
+    \item When drawing the displacement-time graph of a underdamped oscillator, we must show the exponential decay in amplitude:
+    \begin{figure}[H]
+        \centering
+        \includegraphics{../images/light-damping/light-damping.pdf}
+        \caption{\ref{source:underdamped} The displacement-time graph of an underdamped oscillator}
+        \label{fig:underdamped}
+    \end{figure}
 \end{itemize}
-\begin{figure}[p]
-    \centering
-    \includegraphics[width=0.7\textwidth]{../images/SHM/Amplitude-vs-frequency-graph.pdf}
-    \caption{\ref{Simple harmonic motion amplitude-vs-frequency graph} The graph of amplitude against frequency, as damping increases. The resonance frequency is denoted by \(f_0\).}
-    \label{fig:SHM-graphs-A-f}
-\end{figure}
+
 \chapter{Wave Motion}
 \begin{figure}[H]
     \centering
@@ -690,7 +699,9 @@ So, rearranging, we have
 \begin{itemize}[label=\(\square\)]
     \item \begin{tabular}{|Sc|Sc|Sc|}
         \hline
-        Phase Difference \(\Delta \phi\) & \(\frac{2\pi}{\lambda}\Delta x\) & \(\frac{2\pi}{T}\Delta t\)\\
+        Phase Angle \(\phi\) & \(2\pi\cdot\dfrac{x}{\lambda}\) & \(2\pi\cdot\dfrac{t}{T}\)\\
+        \hline
+        Phase Difference \(\Delta \phi\) & \(2\pi\cdot\dfrac{\Delta x}{\lambda}\) & \(2\pi\cdot\dfrac{\Delta t}{T}\)\\
         \hline
     \end{tabular}
     \item \begin{tabular}{|Sc|Sc|Sc|Sc|}
@@ -701,10 +712,10 @@ So, rearranging, we have
             \cline{2-4}
             & Spherical & Circular & Plane\\
             \hline
-            \(I \propto A^2\) & \(I \propto \frac{1}{r^2}\) & \(I \propto \frac{1}{r}\) & \begin{minipage}{3cm}
+            \(I \propto A^2\) & \(I \propto \dfrac{1}{r^2}\) & \(I \propto \dfrac{1}{r}\) & \begin{minipage}{3cm}
                 \vspace{1mm}\begin{center}
                     \(I\) is constant\\
-                \tiny (No spreading of waves) \normalsize
+                \scriptsize (No spreading of waves) \normalsize
                 \end{center}
             \end{minipage}\\
             \hline
@@ -858,11 +869,12 @@ So, rearranging, we have
         \item Distance \(y_1\) of the first minima from either side of the central bright fringe is
         \[y_1=\frac{\lambda L}{b}.\]
     \end{enumerate}
-    \begin{center}
-        \includegraphics[scale=0.1]{../images/Single Slit Diffraction.jpg}
-        \captionsetup{type=figure}
-        \captionof{figure}{\ref{RVHS} Single slit diffraction.}
-    \end{center}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[page=2]{../images/single-slit-diffraction/single-slit-diffraction.pdf}
+        \caption{\ref{source:single-slit-diffraction} Single-slit diffraction.}
+        \label{fig:single-slit-diffraction}
+    \end{figure}
     \item \emph{Circular} aperture: \(\theta \approx \frac{\lambda}{b}\).
     \item \emph{Rayleigh's Criterion} is the \emph{minimum separation} between two objects in order to be distinguished as two \emph{distinct} objects:
     \[\theta \approx \frac{\lambda}{b}.\]
@@ -890,13 +902,34 @@ So, rearranging, we have
     \item We always need to take the path difference starting from the actual source itself, even when the source travels through two slits onto a screen, for instance.
     \item Double-slits: For\footnote{Typical values: \(a \approx 0.5\)mm, \(D \approx 1\)m, and \(\lambda \approx 600\)nm. In any case, using the equation requires \(a\ll D\).} a (\emph{center-to-center}) slit separation \(a\) and slit-screen distance \(D\), the fringe separation (between two adjacent minima, or two adjacent maxima) is
     \[x=\frac{\lambda D}{a}.\]
-    \begin{center}
-        \includegraphics[scale=0.1]{../images/Double-Slit Diffraction.jpg}
-        \captionsetup{type=figure}
-        \captionof{figure}{\ref{RVHS} Double-slit diffraction.}
-    \end{center}
-    \setcounter{footnote}{4}
-    \footnotetext{The intensity of the double-slit interference pattern is not constant because of single-slit diffraction effects.}
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[c]{0.5\textwidth}
+            \centering
+            \includegraphics[page=1,width=\textwidth]{../images/Double-slit diffraciton/double-slit.pdf}
+            \caption{\ref{source:double-slit-diffraction(a)}}
+            \label{fig:double-slit-diffraction(a)}
+        \end{subfigure}\hfill
+        \begin{subfigure}[c]{0.5\textwidth}
+            \centering
+            \includegraphics[page=1,width=\textwidth]{../images/Double-slit diffraciton/ds-too.pdf}
+            \caption{\ref{source:double-slit-diffraction(b)}}
+            \label{fig:double-slit-diffraction(b)}
+        \end{subfigure}
+        \caption{\ref{Me} Double-slit diffraction.}
+        \label{fig:double-slit}
+    \end{figure}
+    \item Why does the central bright fringe of a double-slit diffraction pattern have a higher intensity than other maxima?
+    \begin{itemize}
+        \item Light passing through each slit undergoes single-slit diffraction, where the intensity is maximum at the central bright fringe.
+        \item The central bright fringe formed due to double-slit diffraction has a higher intensity because it was formed from the superposition of two single slit diffraction patterns coming from each slit.
+    \end{itemize}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[page=1]{../images/single-slit-diffraction/single-slit-diffraction.pdf}
+        \caption{\ref{source:single-slit-diffraction} The combined effects of diffraction and interference.}
+        \label{fig:combined-single-double-diffraction}
+    \end{figure}
     \item Diffraction grating: For a slit-separation \(d\) and \(n \in \mathbb{Z}^{+}_{0}\), the angular positions for the \(n\)th order maxima satisfies
     \[d \sin(\theta_n)=n\lambda.\]
     \begin{center}
@@ -949,6 +982,82 @@ So, rearranging, we have
         \end{figure}
     \end{example}
 \end{itemize}
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=1]{../images/pgf-interference/interference.pdf}
+        \caption{Single slit.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=2]{../images/pgf-interference/interference.pdf}
+        \caption{Double slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=3]{../images/pgf-interference/interference.pdf}
+        \caption{Triple slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=4]{../images/pgf-interference/interference.pdf}
+        \caption{Quadruple slits.}
+    \end{subfigure}%
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \ContinuedFloat % continue from previous page
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=5]{../images/pgf-interference/interference.pdf}
+        \caption{Quintuple slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=6]{../images/pgf-interference/interference.pdf}
+        \caption{10 slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=7]{../images/pgf-interference/interference.pdf}
+        \caption{20 slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=8]{../images/pgf-interference/interference.pdf}
+        \caption{30 slits.}
+    \end{subfigure}%
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \ContinuedFloat % continue from previous page
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=9]{../images/pgf-interference/interference.pdf}
+        \caption{40 slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=10]{../images/pgf-interference/interference.pdf}
+        \caption{50 slits.}
+    \end{subfigure}%
+
+    \begin{subfigure}[c]{\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,page=11]{../images/pgf-interference/interference.pdf}
+        \caption{100 slits.}
+    \end{subfigure}%
+    \caption{\ref{source:pgf-interference} Interference patterns generated by pgf-interference}
+    \label{fig:pgf-interference}
+\end{figure}
 
 \chapter{Currents of Electricity}
 \begin{itemize}
@@ -2519,10 +2628,15 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{Simple harmonic motion} Simple harmonic motion spring diagram \url{https://tex.stackexchange.com/a/158741}
     \item\label{Simple harmonic motion graphs} Simple harmonic motion: tikz/pgfplots graphs (Figures \ref{fig:SHM-graphs-v-and-a-against-t} and and \ref{fig:SHM-graphs-E-t-and-E-x}) (Made by me, Grass)
     \item\label{Simple harmonic motion amplitude-vs-frequency graph} Simple harmonic motion: Amplitude against frequency graph (Figure \ref{fig:SHM-graphs-A-f}) \url{https://www.desmos.com/calculator/2fgrwckqyg} (Made by me, Grass)
+    \item\label{source:underdamped} Displacement-time graph for an underdamped oscillator (Figure \ref{fig:underdamped}) \url{https://tikz.net/dynamics_oscillator/}
     \item\label{RVHS} Images from RVHS' notes
     \item\label{source:em-spectrum} The electromagnetic spectrum (Figure \ref{fig:em-spectrum}). \url{https://tikz.net/electromagnetic_spectrum/}
     \item\label{source:malus-law} An illustration of Malus' Law (Figure \ref{fig:malus-law}) \url{https://tikz.net/optics_polarization/} 
-    \item\label{Me} Made by me, Grass, in my iPad's native Notes app.
+    \item\label{Me} Made by me, Grass, in my iPad's/phone's native Notes app.
+    \item\label{source:single-slit-diffraction} Single slit diffraction and the combined effects of diffraction and interference (Figures \ref{fig:single-slit-diffraction} and \ref{fig:combined-single-double-diffraction}) \url{https://tikz.net/optics_diffraction/}
+    \item\label{source:double-slit-diffraction(a)} Double slit diffraction (Figure \ref{fig:double-slit-diffraction(a)}) \url{https://tikz.net/optics_twoslit/}
+    \item\label{source:double-slit-diffraction(b)} Double slit diffraction (Figure \ref{fig:double-slit-diffraction(b)}) \url{https://tex.stackexchange.com/a/469159}
+    \item\label{source:pgf-interference} Interference patterns generated by pgf-interference (Figure \ref{fig:pgf-interference}) \url{https://ctan.org/pkg/pgf-interference?lang=en}
     \item\label{Electric field lines of a point charge} Electric field lines of a point charge \url{https://tikz.net/electric_fieldlines1/}
     \item\label{Electric field lines of two charges} Electric field lines of two charges \url{https://tikz.net/electric_fieldlines2/}
     \item\label{Interaction of a point charge with a charged plate} Interaction of a point charge with a charged plate \url{https://tikz.net/electric_field_image_charge_plane/}

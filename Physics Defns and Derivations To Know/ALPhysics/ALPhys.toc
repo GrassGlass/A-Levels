@@ -9,17 +9,17 @@
 \contentsline {chapter}{\numberline {9}Oscillations}{17}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Wave Motion}{20}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Superposition}{22}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Currents of Electricity}{27}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Electric Fields}{31}{chapter.13}%
-\contentsline {chapter}{\numberline {14}D.C. Circuits}{35}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Electromagnetism}{37}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Electromagnetic Induction}{43}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Alternating Current}{45}{chapter.17}%
-\contentsline {chapter}{\numberline {18}Quantum Physics}{49}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Nuclear Physics}{60}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Practical}{64}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Measurements \& Calculations}{64}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Graphing}{65}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Questions post-graphing}{66}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Planning questions}{68}{section.20.4}%
-\contentsline {chapter}{\numberline {21}Bibliography}{69}{chapter.21}%
+\contentsline {chapter}{\numberline {12}Currents of Electricity}{31}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Electric Fields}{35}{chapter.13}%
+\contentsline {chapter}{\numberline {14}D.C. Circuits}{39}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Electromagnetism}{41}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Electromagnetic Induction}{47}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Alternating Current}{49}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Quantum Physics}{53}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Nuclear Physics}{64}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Practical}{68}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Measurements \& Calculations}{68}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Graphing}{69}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Questions post-graphing}{70}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Planning questions}{72}{section.20.4}%
+\contentsline {chapter}{\numberline {21}Bibliography}{73}{chapter.21}%
