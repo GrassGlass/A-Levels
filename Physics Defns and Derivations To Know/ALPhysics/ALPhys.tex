@@ -2250,8 +2250,27 @@ Some nice images:
 \end{itemize}
 
 \chapter{Practical}
+\section{A-Level Trend}
 \begin{itemize}
-    \section{Measurements \& Calculations}
+    \item One question on electrical circuits.
+    \item One question on oscillations.
+    \item One `wild card' question on any topic.
+    \item One planning question on any topic.
+\end{itemize}
+\section{Measurements \& Calculations}
+\begin{itemize}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\textwidth]{../images/dmm-config.jpg}
+        \caption{\ref{Me} The \textcolor{green!75!blue}{units} that a dmm is measuring in, given a \textcolor{blue}{particular config}.}
+        \label{fig:dmm-config}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\textwidth]{../images/rheostat-config.jpg}
+        \caption{\ref{Me} How to connect a rheostat to obtain a variable resistor or a fixed resistor.}
+        \label{fig:rheostat-config}
+    \end{figure}
     \begin{table}[H]
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
@@ -2355,19 +2374,26 @@ Some nice images:
         \item It may be difficult to precisely measure the height \(h\) of a suspended object (with a metre rule). So, we use \(\Delta h=0.2\) cm, instead of the usual \(0.1\) cm. 
         \item It is difficult to maintain protraction when measuring an angle \(\theta\) (freehand) between, say, a metre rule and a string. Therefore, we account for this by taking \(\Delta\theta=3^\circ\), in place of the usual \(1^\circ\).
     \end{enumerate}
+    \item Make the retort stands face inwards to increase stability
 \end{itemize}
 \section{Graphing}
 \begin{itemize}
+    \item Place all raw data on the left and leave space on the right to add extra columns.
     \item We should have at least six readings to plot.
     \item The dependent variable is always plotted as the horizontal axis.
     \item Always include axis labels for every big square / every 2.0 cm.
-    \item Linearisation statement: 
-    \begin{itemize}
-        \item The equation can be rewritten as \(y=mx+c\). E.g. \(\frac{1}{L}=A+Ar\cdot\frac{1}{R_2}\).
-        \item Plot \(y\) against \(x\). Then, if a straight line is obtained, the vertical intercept is \(c\) and the gradient is \(m\). 
-    \end{itemize}
-    \item Draw a gradient triangle using dotted lines and label the selected points (do not mark these points out using a dot/cross/etc).
-    \item Always check that the two points selected for calculating gradient are stated to the correct number of decimal places, corresponding to half the smallest square.
+    \item When drawing a best fit line, take note of the following:
+    \begin{enumerate}
+        \item The number of points above and below the line should differ by at most one.
+        \item Do not draw a \textcolor{red}{`lopsided' graph}, as that is unlikely to be the \textcolor{green!70!black}{best fit line}.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.3\textwidth]{../images/lopsided-best-fit-line.jpg}
+            \caption{A \textcolor{red}{`lopsided' line} and the corresponding \textcolor{green!70!black}{best fit line}.}
+            \label{fig:lopsided-best-fit-line}
+        \end{figure}
+    \end{enumerate}
+    \item On anomalous points:
     \begin{table}[H]
         \centering
         \begin{tabular}{|Sc|Sc|Sc|}
@@ -2398,6 +2424,30 @@ Some nice images:
         \caption{Anomalous points.}
         \label{table:anomaly-statement}
     \end{table}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{ScScSc}
+            \toprule
+            Type & Total number of points & Anomalous points allowed\\
+            \midrule
+            \multirow{2}{*}{Straight line} & 6 & 1\\
+            & 7 & 2\\
+            \midrule
+            Curve & 8 & 1\\
+            \bottomrule
+        \end{tabular}
+        \caption{Minimum number of points/maximum number of anomalous points.}
+        \label{table:practical-graph-points}
+    \end{table}
+    \item Linearisation statement: 
+    \begin{itemize}
+        \item The equation can be rewritten as \(y=mx+c\). E.g. \(\frac{1}{L}=A+Ar\cdot\frac{1}{R_2}\).
+        \item Plot \(y\) against \(x\). Then, if a straight line is obtained, the vertical intercept is \(c\) and the gradient is \(m\). 
+    \end{itemize}
+    \item Draw a gradient triangle using dotted lines and label the selected points (do not mark these points out using a dot/cross/etc).
+    \item Always check that the two points selected for calculating gradient are stated to the correct number of decimal places, corresponding to half the smallest square.
+    \item If there is a conflict of dpsf between the table and the graph, then we follow the one with the lower dpsf.
+    \item Suppose we want to draw a new line such that its vertical intercept is the same as our best fit line, but our horizontal axis does not start from zero. Then, just ensure that the lines do not intersect.
 \end{itemize}
 \section{Questions post-graphing}
 \begin{itemize}
@@ -2407,7 +2457,16 @@ Some nice images:
         \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%>\rule{0.5cm}{0.05mm}\%=\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment does not support the suggested relationship.
         \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%\leq\rule{0.5cm}{0.05mm}\%=\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment supports the suggested relationship.
     \end{itemize}
-    \item Avoid writing ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{red}{not equal to} \rule{0.5cm}{0.05mm}''. Rather, we should say ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{green!70!black}{far from/near to/close to} \rule{0.5cm}{0.05mm}''.
+    \item Use your values in (f)(ii) to plot another point \(Z\) on your graph. State whether this point agrees with the pattern of the other points on your graph, with reference to your values in (a)(v) --- where we obtained two values for \(y\) (e.g. current \(I\)).
+    \begin{itemize}
+        \item Calculate the difference in current \(\Delta y_1\) between the current obtained from the graph and the current obtained in (f)(ii).
+        \item Calculate half the range 
+        \[\Delta y_2\coloneq\frac{y_{\text{higher}}-y_{\text{smaller}}}{2}\] 
+        between the two values of \(y\) obtained in (a)(v).
+        \item Since \(\Delta y_1> \Delta y_2\), this point \(Z\) does not agree with the pattern of the other points on the graph.
+        \item Since \(\Delta y_1<\Delta y_2\), this point \(Z\) agrees with the pattern of the other points on the graph.
+    \end{itemize}
+    \item Avoid writing ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{red}{not equal to} \rule{0.5cm}{0.05mm}''. Rather, we should say ``\dots because \rule{0.5cm}{0.05mm} is \textcolor{green!70!black}{far from/near to/close to} \rule{0.5cm}{0.05mm}''. 
     \item NY's suggested format for writing sources of error:
     \begin{itemize}
         \item What is error is/what causes the error, 
