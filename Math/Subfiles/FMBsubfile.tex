@@ -653,6 +653,13 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
       and conduct a one/two-tailed \(z\)-test.
   \end{itemize}
 \end{stbox}
+\begin{GCSkills}
+  After calculating our list of differences \texttt{L\(_3\)}, we can calculate \(\texttt{L}_4=\lvert \texttt{L}_3 \rvert\) and use the G.C. to rank this list in ascending order:
+  \begin{center}
+    \texttt{stat} \(\Longrightarrow\) \texttt{2:SortA} \(\Longrightarrow\) \(\texttt{L}_4\).
+  \end{center}
+  This allows us to easily compute the ranks associated with each difference.
+\end{GCSkills}
 \begin{note}\hypertarget{non-parametric-tests-n-value}{}
   The value of \(n\) in both tests should be the total number of columns minus the number of columns with \(d=0\). i.e.
   \[n\coloneq\#\text{cols}-\#\{i \,\vert\, d_i\neq 0\}.\]
