@@ -33,9 +33,9 @@
   Let \(Y=e^{-X}\). Then,
   \[\Prob(Y\leq y)=\Prob(e^X\leq y)=\Prob(X\geq\ln(y)).\]
 \end{example}
-\begin{example}{Another decreasing \(Y(X)\).}
+\begin{example}{Another decreasing \(Y(X)\).}{}
   Let \(X\sim\operatorname{U}(0,\pi/2)\) and \(Y=\cos(X)\). Then, 
-  \[\Prob(Y\leq y)=\Prob(\cos(X)\leq y)=\textcolor{green!70!black}{\Prob(X\leq\pi/2-\cos^{-1}(y))}\neq \textcolor{red}{\Prob(X\leq\cos^{-1}(y))}.\]
+  \[\Prob(Y\leq y)=\Prob(\cos(X)\leq y)=\textcolor{green!70!black}{\Prob(X\geq\cos^{-1}(y))}\neq \textcolor{red}{\Prob(X\leq\cos^{-1}(y))}.\]
   \begin{figure}[H]
     \centering
     \includegraphics{Diagrams/CRV-cosine/diagram.pdf}
