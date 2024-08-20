@@ -2365,7 +2365,7 @@ Some nice images:
     \item Always take the average of three measurements (and show the working for the averaging explicitly) wherever possible. This reduces the effect of random error on the value of \rule{0.5cm}{0.05mm}\,, hence making it more precise.
     \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct. See table \ref{table:dpsf}.
     \item \emph{Note.} Whenever a physical quantity is given --- even a resistor clearly labelled ``\(10\Omega\)'' --- we still must account for its dpsf. However, if it's the number of turns/number of oscillations/etc, do not account for its dpsf.
-    \item \emph{Note.} Even for physical constants --- such as \(e=1.90\cdot 10^{-19}\) --- their dpsf should also be taken into account! However, mathematical constants, like \(\pi\), can be disregarded in dpsf considerations. 
+    \item \emph{Note.} Even for physical constants --- such as \(e=1.60\cdot 10^{-19}\) --- their dpsf should also be taken into account! However, mathematical constants, like \(\pi\), can be disregarded in dpsf considerations. 
     \item Percentage uncertainty of stopwatch,
     \[\frac{\Delta t}{t}=\frac{0.2}{\langle t \rangle}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.).\]
     \item If it's difficult to measure a quantity accurately, we should account for it when calculating uncertainties. E.g. 
@@ -2376,9 +2376,24 @@ Some nice images:
     \end{enumerate}
     \item Make the retort stands face inwards to increase stability
 \end{itemize}
-\section{Graphing}
+\section{Tables \& Graphing}
 \begin{itemize}
+    \item Define new variables --- i.e. ones that the question has not defined --- clearly. E.g. let \(n\) be the number of oscillations.
     \item Place all raw data on the left and leave space on the right to add extra columns.
+    \item For the raw data for \(n\) oscillations, we can write it in this way:
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
+            \hline
+            \(n\) & \(nT_1\)/s & \(nT_2\)/s & \(nT_3\)/s & \(T\)/s\\
+            \hline
+            &&&&\\
+            \hline
+        \end{tabular}
+        \caption{Presentation of data for oscillations.}
+        \label{table:raw-data-for-n-oscillations}
+    \end{table} 
+    % \item Ignore the dpsf of counting numbers, such as the number of oscillations \(n\). 
     \item We should have at least six readings to plot.
     \item The dependent variable is always plotted as the horizontal axis.
     \item Always include axis labels for every big square / every 2.0 cm.
@@ -2446,7 +2461,26 @@ Some nice images:
     \end{itemize}
     \item Draw a gradient triangle using dotted lines and label the selected points (do not mark these points out using a dot/cross/etc).
     \item Always check that the two points selected for calculating gradient are stated to the correct number of decimal places, corresponding to half the smallest square.
-    \item If there is a conflict of dpsf between the table and the graph, then we follow the one with the lower dpsf.
+    \item Follow the dpsf of the graph when calculating gradient. But follow the least sf of the graph and table when relating the gradient to a physical quantity.
+    \begin{example}{}{}
+        Consider when are given that \(y=mx+c\), where \(m\) and \(c\) are physical constants, and have the following table of values.
+        \begin{table}[H]
+            \centering
+            \begin{tabular}{|Sc|Sc|Sc|Sc|}
+                \hline
+                \multirow{2}{*}{\(\cdots\)} & \(x\) & \(y\) & \multirow{2}{*}{\(\cdots\)}\\
+                \cline{2-3}
+                & (\(n_x\) s.f.) & (\(n_y\) s.f.) &\\
+                \hline
+            \end{tabular}
+            \caption{The dpsf of the quantities \(x\) and \(y\).}
+            \label{table:example-table-dpsf-gradient-physical-quantity}
+        \end{table} 
+        Suppose that, using values from our graph, \(y_2-y_1\) and \(x_2-x_1\) have \(m_y\) and \(m_x\) s.f., respectively. Then, 
+        \[\text{gradient}=\frac{y_2-y_1}{x_2-x_1}=\rule{0.5cm}{0.01mm}\ (\min\{m_x,m_y\}\text{ s.f.})\]
+        but
+        \[a=\text{gradient}=\rule{0.5cm}{0.01mm}\ (\min\{n_x,n_y,m_x,m_y\}\text{ s.f.}).\]
+    \end{example}
     \item Suppose we want to draw a new line such that its vertical intercept is the same as our best fit line, but our horizontal axis does not start from zero. Then, just ensure that the lines do not intersect.
 \end{itemize}
 \section{Questions post-graphing}
@@ -2679,6 +2713,7 @@ Some nice images:
 \end{table}
 \begin{itemize}
     \item For \emph{short} planning questions, we can reference the question's diagram(s). But we must include \emph{our own} for \emph{long} planning questions.
+    \item In testing for a linear relationship, we must state that the best fit line should be a \emph{straight line}. If we're testing for direct proportionality, this line should also \emph{cut through the origin}. 
 \end{itemize}
 \chapter{Bibliography}
 The copyrights belong solely to their respective owners. The images used mostly fall under the CC-BY-SA-3.0 or CC-BY-SA-4.0 licenses. Please contact me if you would like your work removed from these notes, or have you attribution reworked. 

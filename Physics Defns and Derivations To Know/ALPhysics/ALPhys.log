@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 AUG 2024 10:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 AUG 2024 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2630,34 +2630,34 @@ Package pdftex.def Info: ../images/rheostat-config.jpg  used on input line 2270.
 <../images/lopsided-best-fit-line.jpg, id=2422, 765.86125pt x 391.4625pt>
 File: ../images/lopsided-best-fit-line.jpg Graphic file (type jpg)
 <use ../images/lopsided-best-fit-line.jpg>
-Package pdftex.def Info: ../images/lopsided-best-fit-line.jpg  used on input line 2391.
+Package pdftex.def Info: ../images/lopsided-best-fit-line.jpg  used on input line 2406.
 (pdftex.def)             Requested size: 129.00269pt x 65.9325pt.
  [70 <../images/lopsided-best-fit-line.jpg>] [71]
-Underfull \hbox (badness 1215) in paragraph at lines 2549--2550
+Underfull \hbox (badness 1215) in paragraph at lines 2583--2584
 \T1/zplTLF/m/n/10 by us-ing a stronger mag-net, e.g.
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 2598--2599
+Underfull \hbox (badness 1762) in paragraph at lines 2632--2633
 []\T1/zplTLF/m/n/10 Replace the rub-ber band with a
  []
 
-[72]
-Underfull \hbox (badness 1117) in paragraph at lines 2673--2674
+[72] [73]
+Underfull \hbox (badness 1117) in paragraph at lines 2707--2708
 []\T1/zplTLF/m/n/10 Check for the ap-pro-pri-ate masses and
  []
 
-[73] [74]
+[74] [75]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2686.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2721.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2686.
- [75
+(Font)              scaled to size 10.0pt on input line 2721.
+ [76
 
-] [76] [77] (./ALPhys.aux)
+] [77] [78] (./ALPhys.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2668,13 +2668,13 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
 Package rerunfilecheck Info: File `ALPhys.out' has not changed.
-(rerunfilecheck)             Checksum: 0C1A6A0B5E4C77704378895DFC03785C;3405.
+(rerunfilecheck)             Checksum: 29F807A271E056B804E6E1492D65A70E;3459.
  ) 
 Here is how much of TeX's memory you used:
- 41570 strings out of 475237
- 845840 string characters out of 5768555
+ 41580 strings out of 475237
+ 846116 string characters out of 5768555
  1966238 words of memory out of 5000000
- 61592 multiletter control sequences out of 15000+600000
+ 61598 multiletter control sequences out of 15000+600000
  734427 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,23n,131p,7693b,1579s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2691,10 +2691,10 @@ pdfTeX warning (dest): name{Fig\04012.3} has been referenced but does not exist,
 pdfTeX warning (dest): name{Fig\04012.2} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (78 pages, 30125205 bytes).
+Output written on ALPhys.pdf (79 pages, 30128298 bytes).
 PDF statistics:
- 2758 PDF objects out of 2984 (max. 8388607)
- 1793 compressed objects within 18 object streams
- 368 named destinations out of 1000 (max. 500000)
+ 2766 PDF objects out of 2984 (max. 8388607)
+ 1800 compressed objects within 18 object streams
+ 372 named destinations out of 1000 (max. 500000)
  971 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,7 +20,7 @@
 \contentsline {chapter}{\numberline {20}Practical}{68}{chapter.20}%
 \contentsline {section}{\numberline {20.1}A-Level Trend}{68}{section.20.1}%
 \contentsline {section}{\numberline {20.2}Measurements \& Calculations}{68}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Graphing}{70}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Questions post-graphing}{71}{section.20.4}%
+\contentsline {section}{\numberline {20.3}Tables \& Graphing}{70}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Questions post-graphing}{72}{section.20.4}%
 \contentsline {section}{\numberline {20.5}Planning questions}{74}{section.20.5}%
-\contentsline {chapter}{\numberline {21}Bibliography}{75}{chapter.21}%
+\contentsline {chapter}{\numberline {21}Bibliography}{76}{chapter.21}%
