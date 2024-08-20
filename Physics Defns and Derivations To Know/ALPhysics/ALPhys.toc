@@ -16,11 +16,11 @@
 \contentsline {chapter}{\numberline {16}Electromagnetic Induction}{47}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Alternating Current}{49}{chapter.17}%
 \contentsline {chapter}{\numberline {18}Quantum Physics}{53}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Nuclear Physics}{64}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Practical}{68}{chapter.20}%
-\contentsline {section}{\numberline {20.1}A-Level Trend}{68}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Measurements \& Calculations}{68}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Tables \& Graphing}{70}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Questions post-graphing}{72}{section.20.4}%
-\contentsline {section}{\numberline {20.5}Planning questions}{74}{section.20.5}%
-\contentsline {chapter}{\numberline {21}Bibliography}{76}{chapter.21}%
+\contentsline {chapter}{\numberline {19}Nuclear Physics}{65}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Practical}{69}{chapter.20}%
+\contentsline {section}{\numberline {20.1}A-Level Trend}{69}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Measurements \& Calculations}{69}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Tables \& Graphing}{71}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Questions post-graphing}{73}{section.20.4}%
+\contentsline {section}{\numberline {20.5}Planning questions}{75}{section.20.5}%
+\contentsline {chapter}{\numberline {21}Bibliography}{77}{chapter.21}%

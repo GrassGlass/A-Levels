@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 AUG 2024 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 AUG 2024 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2582,82 +2582,87 @@ File: ../images/CharacteristicRadiation.pdf Graphic file (type pdf)
 <use ../images/CharacteristicRadiation.pdf>
 Package pdftex.def Info: ../images/CharacteristicRadiation.pdf  used on input line 1975.
 (pdftex.def)             Requested size: 322.50346pt x 288.20976pt.
-[63 <../images/CharacteristicRadiation.pdf>]
+<../images/x-ray-peak-transitions/x-ray-transitions.pdf, id=1929, 305.10486pt x 320.5034pt>
+File: ../images/x-ray-peak-transitions/x-ray-transitions.pdf Graphic file (type pdf)
+<use ../images/x-ray-peak-transitions/x-ray-transitions.pdf>
+Package pdftex.def Info: ../images/x-ray-peak-transitions/x-ray-transitions.pdf  used on input line 1981.
+(pdftex.def)             Requested size: 430.00462pt x 451.71912pt.
+[63 <../images/CharacteristicRadiation.pdf>] [64 <../images/x-ray-peak-transitions/x-ray-transitions.pdf>]
 Chapter 19.
-<../images/Binding energy per nucleon.pdf, id=1951, 504.81346pt x 331.72682pt>
+<../images/Binding energy per nucleon.pdf, id=1981, 504.81346pt x 331.72682pt>
 File: ../images/Binding energy per nucleon.pdf Graphic file (type pdf)
 <use ../images/Binding energy per nucleon.pdf>
-Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 2017.
+Package pdftex.def Info: ../images/Binding energy per nucleon.pdf  used on input line 2023.
 (pdftex.def)             Requested size: 348.30269pt x 228.89174pt.
-[64
+[65
 
 ]
-<../images/Li6-D_Reaction.pdf, id=1959, 1008.76875pt x 1180.41pt>
+<../images/Li6-D_Reaction.pdf, id=1989, 1008.76875pt x 1180.41pt>
 File: ../images/Li6-D_Reaction.pdf Graphic file (type pdf)
 <use ../images/Li6-D_Reaction.pdf>
-Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 2027.
+Package pdftex.def Info: ../images/Li6-D_Reaction.pdf  used on input line 2033.
 (pdftex.def)             Requested size: 215.0023pt x 251.56778pt.
- [65 <../images/Binding energy per nucleon.pdf> <../images/Li6-D_Reaction.pdf
+ [66 <../images/Binding energy per nucleon.pdf> <../images/Li6-D_Reaction.pdf
 
 pdfTeX warning: pdflatex.exe (file ../images/Li6-D_Reaction.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (6.30168pt too wide) in paragraph at lines 2070--2143
+Overfull \hbox (6.30168pt too wide) in paragraph at lines 2076--2149
  [][] 
  []
 
-<../images/Beta-minus_Decay.pdf, id=2063, 250.9375pt x 170.6375pt>
+<../images/Beta-minus_Decay.pdf, id=2094, 250.9375pt x 170.6375pt>
 File: ../images/Beta-minus_Decay.pdf Graphic file (type pdf)
 <use ../images/Beta-minus_Decay.pdf>
-Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 2233.
+Package pdftex.def Info: ../images/Beta-minus_Decay.pdf  used on input line 2239.
 (pdftex.def)             Requested size: 215.0023pt x 146.20901pt.
-[66] [67 <../images/Beta-minus_Decay.pdf>]
+[67] [68 <../images/Beta-minus_Decay.pdf>]
 Chapter 20.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 2253.
-<../images/dmm-config.jpg, id=2402, 945.5325pt x 1419.3025pt>
+(Font)              scaled to size 14.4pt on input line 2259.
+<../images/dmm-config.jpg, id=2432, 945.5325pt x 1419.3025pt>
 File: ../images/dmm-config.jpg Graphic file (type jpg)
 <use ../images/dmm-config.jpg>
-Package pdftex.def Info: ../images/dmm-config.jpg  used on input line 2264.
+Package pdftex.def Info: ../images/dmm-config.jpg  used on input line 2270.
 (pdftex.def)             Requested size: 129.00269pt x 193.6333pt.
-<../images/rheostat-config.jpg, id=2405, 846.16125pt x 673.51625pt>
+<../images/rheostat-config.jpg, id=2435, 846.16125pt x 673.51625pt>
 File: ../images/rheostat-config.jpg Graphic file (type jpg)
 <use ../images/rheostat-config.jpg>
-Package pdftex.def Info: ../images/rheostat-config.jpg  used on input line 2270.
+Package pdftex.def Info: ../images/rheostat-config.jpg  used on input line 2276.
 (pdftex.def)             Requested size: 129.00269pt x 102.67767pt.
-[68
+[69
 
- <../images/dmm-config.jpg> <../images/rheostat-config.jpg>] [69]
-<../images/lopsided-best-fit-line.jpg, id=2422, 765.86125pt x 391.4625pt>
+ <../images/dmm-config.jpg> <../images/rheostat-config.jpg>] [70]
+<../images/lopsided-best-fit-line.jpg, id=2452, 765.86125pt x 391.4625pt>
 File: ../images/lopsided-best-fit-line.jpg Graphic file (type jpg)
 <use ../images/lopsided-best-fit-line.jpg>
-Package pdftex.def Info: ../images/lopsided-best-fit-line.jpg  used on input line 2406.
+Package pdftex.def Info: ../images/lopsided-best-fit-line.jpg  used on input line 2412.
 (pdftex.def)             Requested size: 129.00269pt x 65.9325pt.
- [70 <../images/lopsided-best-fit-line.jpg>] [71]
-Underfull \hbox (badness 1215) in paragraph at lines 2583--2584
+ [71 <../images/lopsided-best-fit-line.jpg>] [72]
+Underfull \hbox (badness 1215) in paragraph at lines 2589--2590
 \T1/zplTLF/m/n/10 by us-ing a stronger mag-net, e.g.
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 2632--2633
+Underfull \hbox (badness 1762) in paragraph at lines 2638--2639
 []\T1/zplTLF/m/n/10 Replace the rub-ber band with a
  []
 
-[72] [73]
-Underfull \hbox (badness 1117) in paragraph at lines 2707--2708
+[73] [74]
+Underfull \hbox (badness 1117) in paragraph at lines 2713--2714
 []\T1/zplTLF/m/n/10 Check for the ap-pro-pri-ate masses and
  []
 
-[74] [75]
+[75] [76]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2721.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 2727.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2721.
- [76
+(Font)              scaled to size 10.0pt on input line 2727.
+ [77
 
-] [77] [78] (./ALPhys.aux)
+] [78] [79] (./ALPhys.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2671,10 +2676,10 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 29F807A271E056B804E6E1492D65A70E;3459.
  ) 
 Here is how much of TeX's memory you used:
- 41580 strings out of 475237
- 846116 string characters out of 5768555
+ 41594 strings out of 475237
+ 846794 string characters out of 5768555
  1966238 words of memory out of 5000000
- 61598 multiletter control sequences out of 15000+600000
+ 61609 multiletter control sequences out of 15000+600000
  734427 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,23n,131p,7693b,1579s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2691,10 +2696,10 @@ pdfTeX warning (dest): name{Fig\04012.3} has been referenced but does not exist,
 pdfTeX warning (dest): name{Fig\04012.2} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (79 pages, 30128298 bytes).
+Output written on ALPhys.pdf (80 pages, 30142420 bytes).
 PDF statistics:
- 2766 PDF objects out of 2984 (max. 8388607)
- 1800 compressed objects within 18 object streams
- 372 named destinations out of 1000 (max. 500000)
- 971 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2800 PDF objects out of 2984 (max. 8388607)
+ 1825 compressed objects within 19 object streams
+ 375 named destinations out of 1000 (max. 500000)
+ 976 words of extra memory for PDF output out of 10000 (max. 10000000)
 
