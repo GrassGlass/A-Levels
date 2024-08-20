@@ -86,7 +86,7 @@
   (An exponential distribution models time between occurrences.)
 \end{definition}
 \begin{note}
-  Let \(Y \sim \operatorname{Exp}(\lambda)\), then
+  The memorylessness of the exponential distribution. Let \(Y \sim \operatorname{Exp}(\lambda)\), then
   \[\Prob(Y>z+y \,\vert\, Y>y)=\Prob(Y>z) \qquad\text{and}\qquad\Prob(Y<z+y \,\vert\, Y>y)=\Prob(Y<z).\]
   % In general, it also holds that 
   % \[\Prob(V>z+y \,\vert\, V>y)=1-\Prob(V<z+y \,\vert\, V>y)\]
@@ -114,3 +114,19 @@
     \[\Prob(T\leq t)=1-e^{-4t}.\]  
   \end{itemize}
 \end{stbox}
+\begin{note}
+  The exponential distribution \emph{begins from zero}. But, contextually, we may begin counting from \emph{one}! Hence, we need to be careful of what bounds to use in probability calculations.   
+\end{note}
+\begin{example}{}{}
+  Find the probability \(p\) that the company received the first response in the third hour of the day. (It is implied the that there's no zeroth hour.)
+  
+  \vspace{-0.5\baselineskip}\rule{20cm-137.0549pt}{0.05mm}
+
+  Let \(T\sim\Exp(\lambda)\). Then, \(p=\Prob(2\leq T<3)\neq\Prob(3\leq T<4)\).
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../Diagrams/exp-example.pdf}
+    \caption{}
+    \label{fig:exp-bounds-note-example}
+  \end{figure}
+\end{example}

@@ -541,9 +541,9 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \toprule
         \(H_1\) & \(m<m_0\) & \(m>m_0\) & \(m\neq m_0\)\\
         \midrule
-        \(X_{+}\) & \(\Prob(X_{+}\leq x_{+})\) & \(\Prob(X_{+}\geq x_{+})\) & \(2\min\{\Prob(X_{+}\geq x_{+}),\Prob(X_{+})\leq x_{+}\}\)\\
+        \(X_{+}\) & \(\Prob(X_{+}\leq x_{+})\) & \(\Prob(X_{+}\geq x_{+})\) & \(2\min\{\Prob(X_{+}\geq x_{+}),\Prob(X_{+}\leq x_{+})\}\)\\
         \midrule
-        \(X_{-}\) & \(\Prob(X_{-}\geq x_{-})\) & \(\Prob(X_{-}\leq x_{-})\) & \(2\min\{\Prob(X_{-}\geq x_{-}),\Prob(X_{-})\leq x_{-}\}\)\\
+        \(X_{-}\) & \(\Prob(X_{-}\geq x_{-})\) & \(\Prob(X_{-}\leq x_{-})\) & \(2\min\{\Prob(X_{-}\geq x_{-}),\Prob(X_{-}\leq x_{-})\}\)\\
         \bottomrule
       \end{tabular}
       \caption{The \(p\)-value for a sign test.}
@@ -581,6 +581,13 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   Then, we conclude that \(x_{+}\leq n\) or \(x_{+}\geq m\).
 \end{note}
 \section{Wilcoxon Matched-Pairs Signed Rank Test}
+\begin{note}
+  Assumptions needed for the Wilcoxon Matched-Pairs Signed Rank Test:
+  \begin{enumerate}
+    \item The data within each pair are dependent on each other, but pairs are independent of each other.
+    \item The distribution of the differences is continuous and symmetrical.
+  \end{enumerate}
+\end{note}
 \begin{stbox}{General Information}
   \begin{itemize}
     \item A Wilcoxon matched-pairs signed rank test. 
