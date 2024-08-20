@@ -807,7 +807,7 @@ So, rearranging, we have
         \centering
         \resizebox{\textwidth}{!}{\begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
             \hline
-            & \multicolumn{2}{Sc|}{Modes} & \multirow{2}{*}{Diagrams} & \multirow{2}{*}{Wavelength} & \multirow{2}{*}{Frequency}\\
+            \multirow{2}{*}{\(n\geq 0\)} & \multicolumn{2}{Sc|}{Modes} & \multirow{2}{*}{Diagrams} & \multirow{2}{*}{Wavelength} & \multirow{2}{*}{Frequency}\\
             \cline{2-3}
             & Overtone & Harmonic &&&\\
             \hline
@@ -824,19 +824,19 @@ So, rearranging, we have
         \centering
         \begin{subfigure}[c]{0.5\textwidth}
             \centering
-            \includegraphics[scale=0.13]{../images/StringStatWaves.jpg}
+            \includegraphics[width=\textwidth]{../images/StringStatWaves.jpg}
             \caption{A string.}
         \end{subfigure}%
         \begin{subfigure}[c]{0.5\textwidth}
             \centering
-            \includegraphics[scale=0.155]{../images/Open Pipe.jpg}
+            \includegraphics[width=0.9\textwidth]{../images/Open Pipe.jpg}
             \caption{An open pipe.}
         \end{subfigure}%
 
         \vspace{1em}
         \begin{subfigure}[c]{0.5\textwidth}
             \centering
-            \includegraphics[scale=0.17]{../images/Pipe Closed at One End.jpg}
+            \includegraphics[width=0.6\textwidth]{../images/Pipe Closed at One End.jpg}
             \caption{A pipe that is closed at one end.}
         \end{subfigure}%
         \caption{\ref{Me} How stationary waves look for a string, an open pipe, and a pipe that is closed at one end.}
@@ -904,7 +904,7 @@ So, rearranging, we have
         \hline 
         In phase & \(\Delta=n\lambda\) & \(\Delta=(n+1/2)\lambda\)\\
         \hline
-        Out-of-phase & \(\Delta=(n+1/2)\lambda\) & \(\Delta=n\lambda\)\\
+        Antiphase & \(\Delta=(n+1/2)\lambda\) & \(\Delta=n\lambda\)\\
         \hline
     \end{tabular}}
     \item We always need to take the path difference starting from the actual source itself, even when the source travels through two slits onto a screen, for instance.
@@ -924,7 +924,7 @@ So, rearranging, we have
             \caption{\ref{source:double-slit-diffraction(b)}}
             \label{fig:double-slit-diffraction(b)}
         \end{subfigure}
-        \caption{\ref{Me} Double-slit diffraction.}
+        \caption{Double-slit diffraction.}
         \label{fig:double-slit}
     \end{figure}
     \item Why does the central bright fringe of a double-slit diffraction pattern have a higher intensity than other maxima?
@@ -947,7 +947,7 @@ So, rearranging, we have
     \end{center}
     \item Check answer: For visible light, \(400\text{nm} \leq \lambda \leq 700\text{nm}\).
     \item \(\text{Total number of bright regions/maximas}=2\mathsf{n}+1\), where \(\mathsf{n}\) is the highest order maxima possible.
-    \item \(\text{Total number of dark regions/minimas}=2\mathsf{m}+1\), where \(\mathsf{m}\) is the highest order minima possible.
+    \item \(\text{Total number of dark regions/minimas}=2\mathsf{m}\), where \(\mathsf{m}\) is the highest order minima possible.
     \item When slit width is reduced, intensity is reduced.
     \item To calculate \emph{resultant intensity}, first take the sum of the amplitudes and use proportionality (\(I \propto A^2\)).  
     \item Every other line means half of the lines are covered.
@@ -1482,7 +1482,7 @@ Some nice images:
     \item The area \(A\) here is a \emph{vector}! When we flip it through \(\pi\) radians, the magnetic flux through it is now \(-\Phi=-B_\perp A\). 
     \item \emph{One weber} is the \emph{magnitude of magnetic flux} through an \emph{area of} \(1\text{m}^2\) when a \emph{magnetic field of} \(1\text{T}\) acts \emph{perpendicularly into} the area.
     \item \emph{Magnetic flux linkage} through a coil is defined as the \emph{product} of the \emph{number of turns} of the coil and the magnetic flux through each turn of the coil.
-    \item The magnetic flux through a coil of \(N\) turns is hence
+    \item The magnetic flux linkage through a coil of \(N\) turns is hence
     \[N\Phi=NB_\perp A.\]
     \item \emph{Faraday's Law of Electromagnetic Induction} states that the \emph{e.m.f. induced} in a \emph{conductor} is \emph{directly proportional} to the \emph{rate of change of magnetic flux linkage}.
     \item \emph{Lenz's Law} states that the \emph{direction of the induced e.m.f.} is such that it may produce \emph{an effect} that \emph{opposes the change} causing it.
@@ -1498,7 +1498,7 @@ Some nice images:
         \caption[figure]{\ref{Lenz's Law} Examples of Lenz's Law in action.}
     \end{center}
     \item Motional e.m.f.: Suppose we have a circuit as shown in the bottom left of the following figure. Then, by Faraday's Law,
-    \[\lvert E \rvert=\Phi'=B(\Delta A)=Blv.\]
+    \[\lvert E \rvert=\Phi'=BA'=Blv.\]
     \begin{center}
         \begin{minipage}{0.9\textwidth}
             \centering
