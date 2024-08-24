@@ -523,12 +523,12 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
           \hline
-          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(n\)\\
+          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(m\)\\
           \hline 
           Sign & \(+\) & \(0\) & \(-\) & \(\cdots\) & \(+\)\\
           \hline
         \end{tabular}
-        \caption{The signs of \(d_1,d_2,\dots,d_n\), for a sign test. Instead of \(1,2,\dots,n\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
+        \caption{The signs of \(d_1,d_2,\dots,d_m\), for a sigm test. Instead of \(1,2,\dots,m\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
         \label{table:sign-test-working-table}
       \end{table}
       \item Let \(X_{+}\) be the number of \(`+'\). Under \(H_0\), \(X_{+}\sim\Binom(\hyperlink{non-parametric-tests-n-value}{n},1/2)\), \(x_{+}=11\). (Alternatively, \(X_{-}\) can also be used.)
@@ -611,14 +611,16 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
           \hline
-          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(n\)\\
+          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(m\)\\
           \hline 
-          \(D\) & \(d_1\) & \(0\) & \(d_3\) & \(\cdots\) & \(d_n\)\\
+          \(D\) & \(d_1\) & \(0\) & \(d_3\) & \(\cdots\) & \(d_m\)\\
           \hline
-          Rank & \(1\) &  & \(5\) & \(\cdots\) & \(2\)\\
+          Rank & \(1\) & \(0\) & \(5\) & \(\cdots\) & \(2\)\\
           \hline
         \end{tabular}
-        \caption{The value of the differences \(d_1,d_2,\dots,d_n\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). If \(d_i=0\), simply leave the corresponding cell, for rank, blank.}
+        \caption{The value of the differences \(d_1,d_2,\dots,d_m\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). When the absolute difference is identical across two or more columns, \protect\hyperlink{tied-ranks-example}{take the average rank}.
+        % If \(d_i=0\), simply leave the corresponding cell, for rank, blank.
+        }
         \label{table:wilcoxon-working-table}
       \end{table}
       \item
@@ -667,9 +669,28 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \end{center}
   This allows us to easily compute the ranks associated with each difference.
 \end{GCSkills}
+\begin{note}
+  \hypertarget{tied-ranks-example}{}
+  Suppose wlog that \(0<\lvert d_1 \rvert<\lvert d_2 \rvert<\dots<\lvert d_p \rvert<\lvert d \rvert<\lvert d_{q+1} \rvert<d_{q+2}<\dots<d_n\) in the following table. Then, the rank assigned to the columns with identical absolute difference \(d\) is \(\highlight[black!15]{r\coloneq\frac{1}{q-p}\sum_{i=p+1}^{q}{i}}\):
+  % that \(\lvert d \rvert,\lvert d_1 \rvert,\lvert d_2 \rvert,\dots\) are unique and nonzero. Further assume that there is a one-to-one correspondence between \(\{r_1,r_2,\dots,r_p\}\cup\{r_{q+1},r_{q+2},\dots,r_n\}\) and \(\{1,2,\dots,s-1\}\cup\{s-p+q,s-p+q+1,\dots,n\}\). Then, for \(r\coloneq\frac{s+s+1+}{}\)
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|Sc|Sc|Sc|}
+      \hline
+      [label] & 1 & 2 & \(\cdots\) & \(p\) & \(p+1\) & \(p+2\) & \(\cdots\) & \(q\) & \(q+1\) & \(\cdots\) & \(n\)\\
+      \hline
+      \(D\) & \(d_1\) & \(d_2\) & \(\cdots\) & \(d_p\) & \(\pm d\) & \(\pm d\) & \(\cdots\) & \(\pm d\) & \(d_{q+1}\) & \(\cdots\) & \(d_n\)\\
+      \hline
+      Rank & \(r_1\) & \(r_2\) & \(\cdots\) & \(r_p\) & \(r\) & \(r\) & \(\cdots\) & \(r\) & \(r_{q+1}\) & \(\cdots\) & \(r_n\)\\
+      \hline
+    \end{tabular}
+    \caption{Identical absolute differences}
+    \label{table:tied-ranks-example}
+  \end{table}
+\end{note}
 \begin{note}\hypertarget{non-parametric-tests-n-value}{}
-  The value of \(n\) in both tests should be the total number of columns minus the number of columns with \(d=0\). i.e.
-  \[n\coloneq\#\text{cols}-\#\{i \,\vert\, d_i\neq 0\}.\]
+  The value of \(n\) for the test statistic/MF26 critical region in both tests should be the number of columns with nonzero difference \(d\). i.e.
+  \[n\coloneq\#\{i \,\vert\, d_i\neq 0\}=\#\text{cols}-\#\{i \,\vert\, d_i=0\}.\]
 \end{note}
 \begin{note}
   If we need to use both the sign test and a Wilcoxon test on the same sample, then consider creating just a single table, as shown below. 
@@ -683,7 +704,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
       \hline
       Sign & \(+\) & \(0\) & \(-\) & \(\cdots\) & \(+\)\\
       \hline
-      Rank & \(1\) &  & \(5\) & \(\cdots\) & \(2\)\\
+      Rank & \(1\) & \(0\) & \(5\) & \(\cdots\) & \(2\)\\
       \hline
     \end{tabular}
     \caption{Combined table for both the sign test and Wilcoxon test.}
@@ -786,7 +807,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   First, we calculate the differences. Since \(x_i\neq y_i\), we have \(a\neq 1\). In fact, \(a\neq 1,2,3,4,7,8\) because \(d_i\neq d_j\), for \(i\neq j\). Thus, \(a=6,7\) or \(a\geq 10\). The corresponding rank \(r_5\) is hence \(5\) or \(7\). 
   \begin{table}[H]
     \centering
-    \begin{tabular}{Sc>{\columncolor[gray]{0.8}}Sc>{\columncolor[gray]{0.8}}ScScSc>{\columncolor[gray]{0.8}}ScScSc}
+    \begin{tabular}{Sc>{\columncolor[gray]{0.85}}Sc>{\columncolor[gray]{0.85}}ScScSc>{\columncolor[gray]{0.85}}ScScSc}
       \toprule
       Index & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) & \(7\)\\
       \midrule
