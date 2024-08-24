@@ -618,8 +618,8 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
           Rank & \(1\) & \(0\) & \(5\) & \(\cdots\) & \(2\)\\
           \hline
         \end{tabular}
-        \caption{The value of the differences \(d_1,d_2,\dots,d_m\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). When the absolute difference is identical across two or more columns, \protect\hyperlink{tied-ranks-example}{take the average rank}.
-        % If \(d_i=0\), simply leave the corresponding cell, for rank, blank.
+        \caption{The value of the differences \(d_1,d_2,\dots,d_m\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). For our syllabus, each \(d_i\) is always distinct.
+        % When the absolute difference is identical across two or more columns, \protect\hyperlink{tied-ranks-example}{take the average rank}.
         }
         \label{table:wilcoxon-working-table}
       \end{table}
@@ -669,25 +669,25 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \end{center}
   This allows us to easily compute the ranks associated with each difference.
 \end{GCSkills}
-\begin{note}
-  \hypertarget{tied-ranks-example}{}
-  Suppose wlog that \(0<\lvert d_1 \rvert<\lvert d_2 \rvert<\dots<\lvert d_p \rvert<\lvert d \rvert<\lvert d_{q+1} \rvert<d_{q+2}<\dots<d_n\) in the following table. Then, the rank assigned to the columns with identical absolute difference \(d\) is \(\highlight[black!15]{r\coloneq\frac{1}{q-p}\sum_{i=p+1}^{q}{i}}\):
-  % that \(\lvert d \rvert,\lvert d_1 \rvert,\lvert d_2 \rvert,\dots\) are unique and nonzero. Further assume that there is a one-to-one correspondence between \(\{r_1,r_2,\dots,r_p\}\cup\{r_{q+1},r_{q+2},\dots,r_n\}\) and \(\{1,2,\dots,s-1\}\cup\{s-p+q,s-p+q+1,\dots,n\}\). Then, for \(r\coloneq\frac{s+s+1+}{}\)
-  \begin{table}[H]
-    \centering
-    \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|Sc|Sc|Sc|}
-      \hline
-      [label] & 1 & 2 & \(\cdots\) & \(p\) & \(p+1\) & \(p+2\) & \(\cdots\) & \(q\) & \(q+1\) & \(\cdots\) & \(n\)\\
-      \hline
-      \(D\) & \(d_1\) & \(d_2\) & \(\cdots\) & \(d_p\) & \(\pm d\) & \(\pm d\) & \(\cdots\) & \(\pm d\) & \(d_{q+1}\) & \(\cdots\) & \(d_n\)\\
-      \hline
-      Rank & \(r_1\) & \(r_2\) & \(\cdots\) & \(r_p\) & \(r\) & \(r\) & \(\cdots\) & \(r\) & \(r_{q+1}\) & \(\cdots\) & \(r_n\)\\
-      \hline
-    \end{tabular}
-    \caption{Identical absolute differences}
-    \label{table:tied-ranks-example}
-  \end{table}
-\end{note}
+% \begin{note}
+%   \hypertarget{tied-ranks-example}{}
+%   Suppose wlog that \(0<\lvert d_1 \rvert<\lvert d_2 \rvert<\dots<\lvert d_p \rvert<\lvert d \rvert<\lvert d_{q+1} \rvert<d_{q+2}<\dots<d_n\) in the following table. Then, the rank assigned to the columns with identical absolute difference \(d\) is \(\highlight[black!15]{r\coloneq\frac{1}{q-p}\sum_{i=p+1}^{q}{i}}\):
+%   % that \(\lvert d \rvert,\lvert d_1 \rvert,\lvert d_2 \rvert,\dots\) are unique and nonzero. Further assume that there is a one-to-one correspondence between \(\{r_1,r_2,\dots,r_p\}\cup\{r_{q+1},r_{q+2},\dots,r_n\}\) and \(\{1,2,\dots,s-1\}\cup\{s-p+q,s-p+q+1,\dots,n\}\). Then, for \(r\coloneq\frac{s+s+1+}{}\)
+%   \begin{table}[H]
+%     \centering
+%     \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|>{\columncolor[gray]{0.85}}Sc|Sc|Sc|Sc|}
+%       \hline
+%       [label] & 1 & 2 & \(\cdots\) & \(p\) & \(p+1\) & \(p+2\) & \(\cdots\) & \(q\) & \(q+1\) & \(\cdots\) & \(n\)\\
+%       \hline
+%       \(D\) & \(d_1\) & \(d_2\) & \(\cdots\) & \(d_p\) & \(\pm d\) & \(\pm d\) & \(\cdots\) & \(\pm d\) & \(d_{q+1}\) & \(\cdots\) & \(d_n\)\\
+%       \hline
+%       Rank & \(r_1\) & \(r_2\) & \(\cdots\) & \(r_p\) & \(r\) & \(r\) & \(\cdots\) & \(r\) & \(r_{q+1}\) & \(\cdots\) & \(r_n\)\\
+%       \hline
+%     \end{tabular}
+%     \caption{Identical absolute differences}
+%     \label{table:tied-ranks-example}
+%   \end{table}
+% \end{note}
 \begin{note}\hypertarget{non-parametric-tests-n-value}{}
   The value of \(n\) for the test statistic/MF26 critical region in both tests should be the number of columns with nonzero difference \(d\). i.e.
   \[n\coloneq\#\{i \,\vert\, d_i\neq 0\}=\#\text{cols}-\#\{i \,\vert\, d_i=0\}.\]
