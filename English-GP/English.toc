@@ -1,14 +1,15 @@
 \contentsline {chapter}{\numberline {1}Composition}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Good Vocabulary}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}'Advanced' Words}{2}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}insert section name}{8}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Idioms}{9}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Words/Phrases to not forget}{10}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}List Of Synonyms / Words with Similiar Purpose }{10}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Colorful \& Picturesque Delineations}{11}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Word Play}{11}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Simile \& Metaphors}{11}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Adding 'Quality' Descriptive Adjectives}{11}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Examples}{12}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Environment}{12}{subsection.1.5.1}%
-\contentsline {section}{\numberline {1.6}GP/2023+ Addons}{15}{section.1.6}%
+\contentsline {section}{\numberline {1.2}Idioms}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Words/Phrases to not forget}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}List Of Synonyms / Words with Similiar Purpose }{9}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Colorful \& Picturesque Delineations}{10}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Word Play}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Simile \& Metaphors}{11}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Adding 'Quality' Descriptive Adjectives}{11}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Introduction}{11}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Conclusion}{12}{subsection.1.3.5}%
+\contentsline {section}{\numberline {1.4}Examples}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Environment}{12}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}GP/2023+ Addons}{15}{section.1.5}%
