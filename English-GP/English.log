@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  27 AUG 2024 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  27 AUG 2024 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,31 +566,38 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks55
 \AP@partial=\box67
 \AP@footins=\box68
-)) (c:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip57
+\enit@outerparindent=\dimen300
+\enit@toks=\toks56
+\enit@inbox=\box69
+\enit@count@id=\count321
+\enitdp@description=\count322
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count321
-\mult@box=\box69
-\multicol@leftmargin=\dimen300
-\c@unbalance=\count322
-\c@collectmore=\count323
-\doublecol@number=\count324
-\multicoltolerance=\count325
-\multicolpretolerance=\count326
-\full@width=\dimen301
-\page@free=\dimen302
-\premulticols=\dimen303
-\postmulticols=\dimen304
-\multicolsep=\skip57
-\multicolbaselineskip=\skip58
-\partial@page=\box70
-\last@line=\box71
-\mc@boxedresult=\box72
-\maxbalancingoverflow=\dimen305
-\mult@rightbox=\box73
-\mult@grightbox=\box74
-\mult@firstbox=\box75
-\mult@gfirstbox=\box76
-\@tempa=\box77
+\c@tracingmulticols=\count323
+\mult@box=\box70
+\multicol@leftmargin=\dimen301
+\c@unbalance=\count324
+\c@collectmore=\count325
+\doublecol@number=\count326
+\multicoltolerance=\count327
+\multicolpretolerance=\count328
+\full@width=\dimen302
+\page@free=\dimen303
+\premulticols=\dimen304
+\postmulticols=\dimen305
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box71
+\last@line=\box72
+\mc@boxedresult=\box73
+\maxbalancingoverflow=\dimen306
+\mult@rightbox=\box74
+\mult@grightbox=\box75
+\mult@firstbox=\box76
+\mult@gfirstbox=\box77
 \@tempa=\box78
 \@tempa=\box79
 \@tempa=\box80
@@ -626,33 +633,34 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box110
 \@tempa=\box111
 \@tempa=\box112
-\c@minrows=\count327
-\c@columnbadness=\count328
-\c@finalcolumnbadness=\count329
-\last@try=\dimen306
-\multicolovershoot=\dimen307
-\multicolundershoot=\dimen308
-\mult@nat@firstbox=\box113
-\colbreak@box=\box114
-\mc@col@check@num=\count330
+\@tempa=\box113
+\c@minrows=\count329
+\c@columnbadness=\count330
+\c@finalcolumnbadness=\count331
+\last@try=\dimen307
+\multicolovershoot=\dimen308
+\multicolundershoot=\dimen309
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count332
 ) (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box115
-\beforetitleunit=\skip59
-\aftertitleunit=\skip60
-\ttl@plus=\dimen309
-\ttl@minus=\dimen310
-\ttl@toksa=\toks56
-\titlewidth=\dimen311
-\titlewidthlast=\dimen312
-\titlewidthfirst=\dimen313
+\ttl@box=\box116
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen310
+\ttl@minus=\dimen311
+\ttl@toksa=\toks57
+\titlewidth=\dimen312
+\titlewidthlast=\dimen313
+\titlewidthfirst=\dimen314
  (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titleps.sty))
-\c@subsubsubsection=\count331
+\c@subsubsubsection=\count333
  (c:/texlive/2023/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks57
-\footnotemargin=\dimen314
-\@outputbox@depth=\dimen315
+\FN@temptoken=\toks58
+\footnotemargin=\dimen315
+\@outputbox@depth=\dimen316
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -661,42 +669,42 @@ Package footmisc Info: Declaring symbol style lamport* on input line 744.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count332
-\l__pdf_internal_box=\box116
+\l__color_backend_stack_int=\count334
+\l__pdf_internal_box=\box117
 ) (./English.aux)
 \openout1 = `English.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
-\scratchdimen=\dimen316
-\scratchbox=\box117
-\nofMPsegments=\count334
-\nofMParguments=\count335
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count336
-\MPscratchDim=\dimen317
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count335
+\scratchdimen=\dimen317
+\scratchbox=\box118
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen318
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks60
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (c:/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
@@ -711,7 +719,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 58.
+ on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -749,15 +757,15 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 58.
-Package gensymb Info: Math companion symbols declared on input line 58.
-LaTeX Info: Redefining \degree on input line 58.
-LaTeX Info: Redefining \celsius on input line 58.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 58.
-LaTeX Info: Redefining \ohm on input line 58.
-Package gensymb Info: Using \textohm for \ohm on input line 58.
-Package gensymb Info: Using \textmu for \micro on input line 58.
-Package hyperref Info: Link coloring ON on input line 58.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 59.
+Package gensymb Info: Math companion symbols declared on input line 59.
+LaTeX Info: Redefining \degree on input line 59.
+LaTeX Info: Redefining \celsius on input line 59.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 59.
+LaTeX Info: Redefining \ohm on input line 59.
+Package gensymb Info: Using \textohm for \ohm on input line 59.
+Package gensymb Info: Using \textmu for \micro on input line 59.
+Package hyperref Info: Link coloring ON on input line 59.
 (./English.out) (./English.out)
 \@outlinefile=\write4
 \openout4 = `English.out'.
@@ -765,7 +773,7 @@ Package hyperref Info: Link coloring ON on input line 58.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <45> not available
-(Font)              size <24.88> substituted on input line 65.
+(Font)              size <24.88> substituted on input line 66.
 
 (./English.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
@@ -779,10 +787,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `English.toc'.
 
-<images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg, id=82, 460.72125pt x 823.075pt>
+<images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg, id=97, 460.72125pt x 823.075pt>
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 82.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 83.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [1
 
@@ -790,144 +798,162 @@ Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used 
 Chapter 1.
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 139.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 140.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
 [2
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
 
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 188.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 189.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 231.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 232.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
 [4]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 275.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 276.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [5]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 318.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 319.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [6]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 374.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 375.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [7]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 463.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 464.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [8]
 Overfull \vbox (110.35779pt too high) has occurred while \output is active []
 
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 463.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 464.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [9]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 506.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 507.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [10]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 545.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 546.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [11]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 577.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 578.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [12]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 622.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 623.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 663--664
+Underfull \hbox (badness 10000) in paragraph at lines 664--666
 
  []
 
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 666.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 667.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
 [14]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 704.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 705.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [15]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 742.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 743.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [16]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 761.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 762.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [17]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 787.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 788.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [18]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 815.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 816.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [19]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 840.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 841.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [20]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 868.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 869.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [21]
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 885--885
 [][][][][]$\OT1/cmtt/m/n/8 https : / / hbr . org / 2022 / 10 / what-[]happens-[]when-[]a-[]company-[]like-[]patagonia-[]becomes-[]a-[]nonprofit ?
  []
 
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 887.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 889.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
 [22]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 908.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 909.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
  [23]
 File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
 <use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
-Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 923.
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 924.
 (pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
- [24] (./English.aux)
+ [24]
+Chapter 2.
+
+Overfull \hbox (16.61264pt too wide) in paragraph at lines 938--940
+[]\OT1/cmr/m/n/10 He quotes a fa-mous/noted philoso-pher whose views are that hap-pi-ness is the root/essence
+ []
+
+File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
+<use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 971.
+(pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
+[25
+
+]
+File: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg Graphic file (type jpg)
+<use images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg>
+Package pdftex.def Info: images/F6844D2B-4286-4748-88DE-8DF15F26D9EE.jpeg  used on input line 975.
+(pdftex.def)             Requested size: 614.33333pt x 794.97827pt.
+ [26] (./English.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -938,21 +964,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 20.12pt have occurred.
 
 Package rerunfilecheck Info: File `English.out' has not changed.
-(rerunfilecheck)             Checksum: 2C05F12B33C3EB3ECE47072E7FCAF545;2338.
+(rerunfilecheck)             Checksum: 510E25DAA56CA87C67446F97425430AA;2842.
  ) 
 Here is how much of TeX's memory you used:
- 32489 strings out of 475237
- 744706 string characters out of 5768555
- 1944238 words of memory out of 5000000
- 52894 multiletter control sequences out of 15000+600000
+ 32842 strings out of 475237
+ 750653 string characters out of 5768555
+ 1945238 words of memory out of 5000000
+ 53226 multiletter control sequences out of 15000+600000
  568769 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,1512b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,1512b,1283s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on English.pdf (24 pages, 440499 bytes).
+Output written on English.pdf (26 pages, 446088 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 585 compressed objects within 6 object streams
- 298 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 700 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 315 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
