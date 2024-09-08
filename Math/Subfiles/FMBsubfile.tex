@@ -523,12 +523,12 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
           \hline
-          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(m\)\\
+          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(N\)\\
           \hline 
           Sign & \(+\) & \(0\) & \(-\) & \(\cdots\) & \(+\)\\
           \hline
         \end{tabular}
-        \caption{The signs of \(d_1,d_2,\dots,d_m\), for a sigm test. Instead of \(1,2,\dots,m\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
+        \caption{The signs of \(d_1,d_2,\dots,d_N\), for a sigm test. Instead of \(1,2,\dots,N\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
         \label{table:sign-test-working-table}
       \end{table}
       \item Let \(X_{+}\) be the number of \(`+'\). Under \(H_0\), \(X_{+}\sim\Binom(\hyperlink{non-parametric-tests-n-value}{n},1/2)\), \(x_{+}=11\). (Alternatively, \(X_{-}\) can also be used.)
@@ -570,15 +570,15 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
       \hline
       \(x_{+}\) & \(\alpha/2-2\Prob(X_{+}\geq x_{+})\)\\
       \hline
-      \(m-1\) & \(\rule{0.5cm}{0.01mm}<0\)\\
+      \(N-1\) & \(\rule{0.5cm}{0.01mm}<0\)\\
       \hline
-      \(m\) & \(\rule{0.5cm}{0.01mm}<0\)\\
+      \(N\) & \(\rule{0.5cm}{0.01mm}<0\)\\
       \hline
-      \(m+1\) & \(\rule{0.5cm}{0.01mm}>0\)\\
+      \(N+1\) & \(\rule{0.5cm}{0.01mm}>0\)\\
       \hline
     \end{tabular} 
   \end{table}
-  Then, we conclude that \(x_{+}\leq n\) or \(x_{+}\geq m\).
+  Then, we conclude that \(x_{+}\leq n\) or \(x_{+}\geq N\).
 \end{note}
 \section{Wilcoxon Matched-Pairs Signed Rank Test}
 \begin{note}
@@ -611,25 +611,40 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|}
           \hline
-          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(m\)\\
+          [label in context] & 1 & 2 & 3 & \(\cdots\) & \(N\)\\
           \hline 
-          \(D\) & \(d_1\) & \(0\) & \(d_3\) & \(\cdots\) & \(d_m\)\\
+          \(D\) & \(d_1\) & \(0\) & \(d_3\) & \(\cdots\) & \(d_N\)\\
           \hline
           Rank & \(1\) & \(0\) & \(5\) & \(\cdots\) & \(2\)\\
           \hline
         \end{tabular}
-        \caption{The value of the differences \(d_1,d_2,\dots,d_m\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). For our syllabus, each \(d_i\) is always distinct.
+        \caption{The value of the differences \(d_1,d_2,\dots,d_N\), which are then ranked according to their absolute size \(\lvert d_i \rvert\). For our syllabus, each \(d_i\) is always distinct.
         % When the absolute difference is identical across two or more columns, \protect\hyperlink{tied-ranks-example}{take the average rank}.
         }
         \label{table:wilcoxon-working-table}
       \end{table}
-      \item
-      \begin{itemize}[label=\(\circ\)]
-        \item \(t_{-}=\rule{0.5cm}{0.01mm}+\rule{0.5cm}{0.01mm}+\dots+\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}\)
-        \item \(t_{+}=\rule{0.5cm}{0.01mm}+\rule{0.5cm}{0.01mm}+\dots+\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}\)
-        \item The test statistic is \(T\coloneq\min\{T_{-},T_{+}\}=\rule{0.5cm}{0.01mm}\).
-        \item Reject \(H_0\) if \(T=\rule{0.5cm}{0.01mm}\). (see table \ref{table:wilcoxon-critical-region})
-      \end{itemize}
+    \end{enumerate}
+    \begin{minipage}{0.6\textwidth}
+      \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item
+        \begin{itemize}[label=\(\circ\)]
+          \item \(t_{-}=\rule{0.5cm}{0.01mm}+\rule{0.5cm}{0.01mm}+\dots+\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}\)
+          \item \(t_{+}=\rule{0.5cm}{0.01mm}+\rule{0.5cm}{0.01mm}+\dots+\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}\)
+          \item The test statistic is \(T\coloneq\min\{T_{-},T_{+}\}=\rule{0.5cm}{0.01mm}\).
+          \item Reject \(H_0\) if \(T=\rule{0.5cm}{0.01mm}\). (see table \ref{table:wilcoxon-critical-region})
+        \end{itemize}
+      \end{enumerate}
+    \end{minipage}%
+    \hspace{0.15cm}
+    \begin{minipage}{0.3\textwidth}
+      \begin{remark}
+        \[\frac{\hyperlink{non-parametric-tests-n-value}{n}(\hyperlink{non-parametric-tests-n-value}{n}+1)}{2}=t_{-}+t_{+}.\]
+      \end{remark}
+      \vspace{0.7cm}
+    \end{minipage}
+    \begin{enumerate}
+      \setcounter{enumi}{4}
       \item Since \(t=\rule{0.5cm}{0.01mm}\,\square\, \rule{0.5cm}{0.01mm}\), there is sufficient/insufficient evidence, at the \(100\alpha\%\) significance level, to conclude that [\(H_1\) in context].
     \end{enumerate}
     \item The test statistics \(T_{+}\) and \(T_{-}\) can also be used, depending on our preference.
