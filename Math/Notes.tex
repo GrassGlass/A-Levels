@@ -2015,6 +2015,10 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \caption{An illustration of \textcolor{green!50!blue}{Euler's Method} and the \textcolor{green!85!black}{Improved Euler's Method}.}
   \label{fig:euler's-methods}
 \end{figure}
+\begin{note}
+  To find the percentage difference of the true value and the estimated value, we calculate
+  \[\frac{\text{true value}-\text{estimated value}}{\text{true value}}\cdot 100\%.\]
+\end{note}
 \section{Second Order D.E.}
 \begin{center}
   \begin{tabular}{|Sc|Sc|}
@@ -2057,7 +2061,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \(R\)-formulas. Let \(a,b\in \mathbb{R}\). Then, for 
   \[R\coloneq\sqrt{a^2+b^2} \qquad\text{and}\qquad \tan(\alpha)\coloneq\frac{b}{a},\]
   we have that
-  \[a\sin(\theta)\pm b\cos(\theta)=R\sin(\theta\pm\alpha) \qquad\text{and}\qquad a\cos(\theta)\pm b\sin(\theta)=R\cos(\theta\mp\alpha).\]
+  \[a\sin(\theta)+b\cos(\theta)=R\sin(\theta+\alpha) \qquad\text{and}\qquad b\sin(\theta)+a\cos(\theta)=R\cos(\theta-\alpha).\]
 \end{note}
 \section{Applications}
 \subsection{Exponential Growth}
