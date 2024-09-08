@@ -585,7 +585,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   Assumptions needed for the Wilcoxon Matched-Pairs Signed Rank Test:
   \begin{enumerate}
     \item The data within each pair are dependent on each other, but pairs are independent of each other.
-    \item The distribution of the differences is continuous and symmetrical.
+    \item The distribution of the differences is continuous and symmetrical about the median.
   \end{enumerate}
 \end{note}
 \begin{stbox}{General Information}
@@ -677,7 +677,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
       and conduct a one/two-tailed \(z\)-test.
   \end{itemize}
 \end{stbox}
-\begin{GCSkills}
+\begin{GCSkills}{}
   After calculating our list of differences \texttt{L\(_3\)}, we can calculate \(\texttt{L}_4=\lvert \texttt{L}_3 \rvert\) and use the G.C. to rank this list in ascending order:
   \begin{center}
     \texttt{stat} \(\Longrightarrow\) \texttt{2:SortA} \(\Longrightarrow\) \(\texttt{L}_4\).
@@ -772,7 +772,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   Explain why it is better to conduct a \textcolor{green!70!black}{Wilcoxon} test than a \textcolor{red}{sign} test.
   \begin{center}
     \parbox{0.9\textwidth}{
-     While a sign test only considers the sign of the differences, a Wilcoxon test takes into account both the sign and \emph{magnitude} of the differences. Therefore, a Wilcoxon test is more reliable, as it incorporates more information about the data.
+     While a sign test only considers the sign of the differences, a Wilcoxon test takes into account both the sign and \emph{magnitude} of the differences. Therefore, a Wilcoxon test is more reliable, as it incorporates more (relevant) information about the data.
     }
   \end{center}
   % \begin{center}
