@@ -1314,15 +1314,18 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
   \[\frac{\text{distance of \(P\) from focus}}{\text{distance of \(P\) from directrix}}.\]
 \end{definition}
 \begin{stbox}{General Information}{}
-  \begin{itemize}[label=\(\circ\)]
-    \item Shapes associated with the value of \(e\)
-    \begin{itemize}
-      \item \(e=0\): Circle
-      \item \(0<e<1\): Ellipse 
-      \item \(e=1\): Parabola
-      \item \(e>1\): Hyperbola
-    \end{itemize}
-  \end{itemize}
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{ScScScScSc}
+      \toprule
+      Conic section & Circle & Ellipse & Parabola & Hyperbola\\
+      \midrule
+      Eccentricity \(e\) & \(0\) & \((0,1)\) & \(1\) & \((1,\infty)\)\\
+      \bottomrule
+    \end{tabular}
+    \caption{Values of eccentricity \(e\) and the associated conic sections.}
+    \label{table:eccentricity-associated-conics}
+  \end{table}
   \resizebox{\columnwidth}{!}{\begin{tabular}{|Sc|Sc|Sc|Sc|Sc|Sc|Sc|}
     \hline 
     Conic & \multicolumn{2}{Sc|}{Parabolas} & \multicolumn{2}{Sc|}{Ellipses} & \multicolumn{2}{Sc|}{Hyperbolas}\\
@@ -1882,6 +1885,9 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
       It is the line \emph{passing through the fixed point} with position vector \(\mathbf{a}\) and is \emph{parallel to} \(\mathbf{m}\). 
     }
   \end{center}
+\end{note}
+\begin{note}
+  Let \(\pi\) be a plane containing the line \(\ell\) and \(P\) be a point. The foot of perpendicular of \(P\) on \(\pi\) is not necessarily the same as the foot of perpendicular of \(P\) on \(\ell\). 
 \end{note}
 \chapter{Probability}
 \begin{stbox}{General Information}
