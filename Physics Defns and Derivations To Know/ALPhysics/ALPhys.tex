@@ -89,7 +89,7 @@
     \begin{subfigure}[c]{\textwidth}
         \centering
         \includegraphics[page=4]{../images/collisions/collisions.pdf}
-        \caption{After a perfectly inelastic collision, the coalesced masses travel together in the same direction, with equal velocities.}
+        \caption{After an inelastic collision, the coalesced masses travel together in the same direction, with equal velocities.}
     \end{subfigure}%
     \caption{\ref{source:collision} An illustration of (perfectly) elastic and inelastic collisions.}
     \label{fig:collision-1d}
@@ -2370,11 +2370,13 @@ Some nice images:
         \label{table:uncertainty-rules}
     \end{table}
     \item Always take the average of three measurements (and show the working for the averaging explicitly) wherever possible. This reduces the effect of random error on the value of \rule{0.5cm}{0.05mm}\,, hence making it more precise.
+    \item Always write the associated units for angles, be it \(\theta^{\circ}\) or \(\theta\) rad.
     \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct. See table \ref{table:dpsf}.
     \item \emph{Note.} Whenever a physical quantity is given --- even a resistor clearly labelled ``\(10\Omega\)'' --- we still must account for its dpsf. However, if it's the number of turns/number of oscillations/etc, do not account for its dpsf.
     \item \emph{Note.} Even for physical constants --- such as \(e=1.60\cdot 10^{-19}\) --- their dpsf should also be taken into account! However, mathematical constants, like \(\pi\), can be disregarded in dpsf considerations. 
     \item Percentage uncertainty of stopwatch,
     \[\frac{\Delta t}{t}=\frac{0.2}{\langle t \rangle}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.).\]
+    \item Be careful of which quantities you are calculating. For example, in determining the radius \(r\) of an object, we might first measure its diameter \(d\). Take caution to remember to calculate \(r=d/2\), and \emph{not} carelessly write \(r=d\).  
     \item If it's difficult to measure a quantity accurately, we should account for it when calculating uncertainties. E.g. 
     \begin{enumerate}
         \item The base of a beaker is not flat. So its height \(h\) (measured with vernier calipers) has uncertainty \(\Delta h=0.2\) cm, rather than the usual \(0.01\) cm.
@@ -2401,6 +2403,13 @@ Some nice images:
         \label{table:raw-data-for-n-oscillations}
     \end{table} 
     % \item Ignore the dpsf of counting numbers, such as the number of oscillations \(n\). 
+    \item Look out for
+    \begin{enumerate}
+        \item Correct column headings
+        \item Dpsf of raw data
+        \item Dpsf of calculated data
+        \item Number of datasets (see Table \ref{table:practical-graph-points})
+    \end{enumerate}
     \item We should have at least six readings to plot.
     \item The dependent variable is always plotted as the horizontal axis.
     \item Always include axis labels for every big square / every 2.0 cm.
