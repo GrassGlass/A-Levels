@@ -456,10 +456,23 @@
         \end{figure}
       \end{enumerate}
     \end{stbox}
-      \begin{note}
-        Accuracy of the Trapezium rule vs Simpson's Rule:
-        ``Simpson's Rule uses \emph{quadratic curves} to interpolate the points on the curve so it usually \emph{gives a better approximation} to the actual curve than the trapezium rule which uses \emph{straight lines} to interpolate the ordinates.''
-      \end{note}
+    \begin{example}{}{}
+      Explain, with the aid of a suitable diagram, why Simpson's Rule does not give a good approximation of the value of \(I=\int_{a}^{b}f(x)\,dx\) and suggest how the method can be improved to give a better approximation.
+
+      \rule{20cm-137.0549pt-25pt}{0.05mm}
+
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.425\textwidth]{../Diagrams/simpson-underestimate.pdf}
+        \caption{\href{https://www.desmos.com/calculator/wxxs9ypjkf}{(Desmos)}}
+        \label{fig:simpson's-rule-overestimate-prelims}
+      \end{figure}
+      We see that there is a large discrepancy between the area under the actual curve \(y=f(x)\) and the approximated quadratic curve for the interval \(a\leq x\leq b\), which is caused by [the existence of both a turning point and a point of inflection]. Hence, Simpson's Rule using \(n\) ordinates will not provide a good approximation in this case.
+    \end{example}
+    \begin{note}
+      Accuracy of the Trapezium rule vs Simpson's Rule:
+      ``Simpson's Rule uses \emph{quadratic curves} to interpolate the points on the curve so it usually \emph{gives a better approximation} to the actual curve than the trapezium rule which uses \emph{straight lines} to interpolate the ordinates.''
+    \end{note}
 \section{Reduction formulas}
 \begin{stbox}{General Information}{}
   Let \(I_n\coloneq\int_{a}^{b}f(x)\,dx\). To find a reduction formula for \(I_n\), we use integration by parts on \(I_n\).
@@ -694,6 +707,15 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
     \end{align*}
     \item[1(b).]
     \[z=2\left( 1+e^{\frac{2k}{3}(i\pi)} \right)=2e^{\frac{k}{3}(i\pi)}\left( e^{-\frac{k}{3}(i\pi)}+e^{\frac{k}{3}(i\pi)} \right)=4\cos(k\pi/3)e^{\frac{k}{3}(i\pi)}.\]
+    \item[1(c).] Let \(z_k=e^{2ki\pi/n}\) for all \(1\leq k\leq n\). In the case where \(n\) is odd, i.e. \(n=2m+1\), evaluate the series \(\sum_{k=1}^{n}{2(1+z_k)^{-1}}\).
+    \begin{align*}
+      \sum_{k=1}^{n}{\frac{2}{1+z_k}}&=\sum_{k=1}^{n}{\frac{2}{1+e^{2ki\pi/n}}}=\sum_{k=1}^{n}{\frac{2}{e^{ki\pi/n}\left( e^{-ki\pi/n}+e^{ki\pi/n} \right)}}=\sum_{k=1}^{n}{\frac{2e^{-ki\pi/n}}{2\cos(k\pi/n)}}\\
+      &=\frac{k=1}{n}\frac{\cos(k\pi/n-i\sin(k\pi/n))}{\cos(k\pi/n)}=\sum_{k=1}^{n}{1-i\tan(k\pi/n)}\\
+      &=n-i\Bigl[\bigl[\tan(\pi/n)+\tan((n-1)\pi/n)\bigr]+\bigl[\tan(2\pi/n)+\tan((n-2)\pi/n)\bigr]+...\\
+      &\hphantom{={}}+\bigl[\tan(m\pi/n)+\tan((n-m)\pi/n)\bigr]+\tan(\pi)\Bigr]\\
+      &=n+i(0+0+\dots+0)=n
+    \end{align*}
+    because \(\tan(\pi-\theta)=-\tan(\theta)\).
     \item[2.] We found that the roots of \((1+z)^4+(1-z)^4=0\) has roots \(i\tan(k\pi/8)\), where \(k=1,3,4,7\). Then, we were tasked to find the value of \(\tan^2(\pi/8)+\tan^2(3\pi/8)\) and \(\tan^2(5\pi/8)\tan^2(\pi/8)\tan^2(3\pi/8)\).\\[\baselineskip]
     Since \(\tan(\pi/8)=-\tan(7\pi/8)\) and \(\tan(3\pi/8)=-\tan(5\pi/8)\),
     \begin{align*}

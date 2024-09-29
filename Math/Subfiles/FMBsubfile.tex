@@ -85,7 +85,7 @@
   If \(X\) follows a \emph{discrete} uniform distribution, we must state it out in words. We cannot write \(X\sim\operatorname{U}(\mu,\sigma^2)\) as this would denote that \(X\) is a \emph{continuous} random variable. But if \(X\sim\Binom(n,p)\) (or \(X\sim\Poisson(\lambda)\), etc), then we can just denote it as such. 
 \end{note}
 \begin{example}{\(\#\text{estimated parameters}=0\)}{}
-  Given \(X\sim\Normal(0,1)\) (note how the \emph{population parameters} that define the distribution are \emph{known}), the degree of freedom \(\nu=\#\text{estimated parameters}\eqcolon n\).
+  Given \(X\sim\Normal(0,1)\) (note how the \emph{population parameters} that define the distribution are \emph{known}), the degree of freedom \(\nu=n-1\).
 \end{example}
 \begin{example}{\(\#\text{estimated parameters}=1\)}{}
   Consider when \(X\sim\Binom(m,p)\), such that the expected frequency for each of the \(n\) classes is at least 5, but we do not know the exact value of \(p\). So, we \emph{estimate} it according to the sample given. Then, the degree of freedom is \(\nu=n-1-1=n-2\).
@@ -151,6 +151,14 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
     \item Adjust the degree of freedom from 4 to \(4-1=3\), as there is one more restriction, that the mean must agree.
   \end{enumerate}
   (The phrasing is similar for gof tests for other distributions; simply use the appropriate estimators for the unknown population parameters.)
+\end{note}
+\begin{note}
+  The \(\chi^2\) goodness-of-fit test showed that there is strong evidence for \(X\sim\Poisson(\lambda)\). Suggest a possible reason.
+
+  \rule{20cm-137.0549pt-25pt}{0.05mm}
+  % \vspace{0.5\baselineskip}
+  \[s^2=\rule{0.5cm}{0.05mm} \qquad \widebar{x}=\rule{0.5cm}{0.05mm}\]
+  The mean and variance of the [\(X\) in context] are approximately equal. This contributed to making the data a good fit to the Poisson distribution.
 \end{note}
 \section{Tests of Independence}
 \begin{stbox}{General Information}
