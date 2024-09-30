@@ -339,7 +339,15 @@
       \end{tabular}
     \end{center}
     \item Implicit differentiation: \(\dfrac{dz}{dx}=\dfrac{dz}{dy}\cdot \dfrac{dy}{dx}\).
-    \item Parametric Differentiation: \(\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}\).
+  \end{enumerate}
+\end{stbox}
+\begin{note}
+  Be careful when differentiating implicitly/using the chain rule. Namely, note the power \hly{two} in the following:
+  \[\left( f(y)\frac{dy}{dx} \right)'=f'(y)\left( \frac{dy}{dx} \right)^{\highlight[yellow]{2}}+f(y)\frac{d^2y}{dx^2}.\]
+  More generally, remember to increase the exponent of \(dy/dx\) by one with each differentiation.
+\end{note}
+\begin{stbox}{}
+  \begin{enumerate}
     \item Small angle approximation: 
     \begin{enumerate}
       \item \(\sin(x) \approx x\),
@@ -348,7 +356,12 @@
     \end{enumerate}
     \item Maclaurin Series: 
     \[f(x)=\sum_{n=0}^{\infty}\dfrac{f^{(n)}(0)}{n!}x.\]
+    \item When possible, use the series --- of \(e^{x}\), \(\sin(x)\), \(\cos(x)\), et cetera --- provided in MF26 to find the required series expansion, instead of manually differentiating and applying the Maclaurin series. (Unless otherwise stated, of course.)  
   \end{enumerate}
+  \begin{example*}{}{}
+    Find the series expansion of \(e^{x+bx^2}\). Then, simply write
+    \[e^{x+bx^2}\approx 1+(x+bx^2)+\frac{(x+bx^2)^2}{2}\approx 1+x+\left( b+\frac{1}{2} \right)x^2.\]
+  \end{example*}
 \end{stbox}
 \chapter{Integration Techniques}
 \section{Basic Integration (IBS, IBP, etc)}
@@ -1910,6 +1923,13 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
 \end{note}
 \begin{note}
   Let \(\pi\) be a plane containing the line \(\ell\) and \(P\) be a point. The foot of perpendicular of \(P\) on \(\pi\) is not necessarily the same as the foot of perpendicular of \(P\) on \(\ell\). 
+\end{note}
+\begin{note}
+  When finding the plane \(\pi\) that is `above' another plane \(\Pi\colon \mathbf{r}\cdot \mathbf{n}=p\) by a constant \(q\) units, take note of the direction of \(\mathbf{n}=
+  \begin{pmatrix}
+    n_1 & n_2 & n_3
+  \end{pmatrix}^{\top}\). If \(n_3>0\), then \(\mathbf{n}\) is pointing `upwards'. So, \(\pi\colon \mathbf{r}\cdot\widehat{\mathbf{n}}=\highlight[green!50]{+}q\). Otherwise \(n_3<0\), meaning \(\mathbf{n}\) is pointing `downwards'. Hence, \(\pi\colon \mathbf{r}\cdot\widehat{\mathbf{n}}=\highlight[green!50]{-}q\).
+  \footnotetext[0]{I'm slightly skeptical that Cambridge will not make clear which side is considered `upwards/downwards'. But, just in case, this is a good point to note.}
 \end{note}
 \chapter{Probability}
 \begin{stbox}{General Information}
