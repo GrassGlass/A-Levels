@@ -323,7 +323,7 @@ Such that the following properties hold:
 \section{Conics}
 Given a conic section defined by \(Ax^2+Bxy+Cy^2+Dx+Ey+F=0\), we may want to find its lines of symmetry, center, radii, etc. The core idea is simple: complete the square, to express \(Ax^2+Bxy+Cy^2\) in the form \(a(x')^2+b(y')^2\), for some linear combinations \(x'\) and \(y'\) of \(x\) and \(y\). Then, the initial equation becomes \(a(x')^2+b(y')^2+d(x')+e(y')+F=0\), which is easily reduced to the standard form for conics. Before that, we need to develop some machinery.
 \begin{definition}{}{}
-    Let \(V\) be a vector space over a field \(\mathbb{F}\) not of characteristic two. A function \(K\colon V\to \mathbb{F}\) is called a \emph{quadratic form on \(\mathbb{F}^n\)} if there exists a symmetric matrix \(A\in \operatorname{M}_{n \times n}(\mathbb{F})\), such that \(K(\mathbf{x})=\mathbf{x}^{\top} \mathbf{A}\mathbf{x}\) for all \(\mathbf{x}\in V\).
+    Let \(\mathbb{F}\) be a field not of characteristic two. A function \(K\colon \mathbb{F}^n\to \mathbb{F}\) is called a \emph{quadratic form on \(\mathbb{F}^n\)} if there exists a symmetric matrix \(A\in \operatorname{M}_{n \times n}(\mathbb{F})\), such that \(K(\mathbf{x})=\mathbf{x}^{\top} \mathbf{A}\mathbf{x}\) for all \(\mathbf{x}\in \mathbb{F}^n\).
 \end{definition}
 \begin{note}
     Let \(\mathbb{F}\) be a field not of characteristic two and scalars \(a_i\in \mathbb{F}\). The polynomial \(f\colon \mathbb{F}^n\to \mathbb{F}\) given by \(f(t_1,t_2,\dots,t_n)=\sum_{i\leq j}{a_{ij}t_it_j}\) is a quadratic form. In fact, the matrix \(\mathbf{A}\) with 
