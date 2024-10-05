@@ -319,6 +319,67 @@ Such that the following properties hold:
         \item \texttt{2nd} \(\Longrightarrow\) \texttt{trace} \(\Longrightarrow\) \texttt{2:zero} \(\Longrightarrow\) Find the roots.
     \end{enumerate}
 \end{GCSkills}
+\newpage
+\section{Conics}
+Given a conic section defined by \(Ax^2+Bxy+Cy^2+Dx+Ey+F=0\), we may want to find its lines of symmetry, center, radii, etc. The core idea is simple: complete the square, to express \(Ax^2+Bxy+Cy^2\) in the form \(a(x')^2+b(y')^2\), for some linear combinations \(x'\) and \(y'\) of \(x\) and \(y\). Then, the initial equation becomes \(a(x')^2+b(y')^2+d(x')+e(y')+F=0\), which is easily reduced to the standard form for conics. Before that, we need to develop some machinery.
+\begin{definition}{}{}
+    Let \(V\) be a vector space over a field \(\mathbb{F}\) not of characteristic two. A function \(K\colon V\to \mathbb{F}\) is called a \emph{quadratic form on \(\mathbb{F}^n\)} if there exists a symmetric matrix \(A\in \operatorname{M}_{n \times n}(\mathbb{F})\), such that \(K(\mathbf{x})=\mathbf{x}^{\top} \mathbf{A}\mathbf{x}\) for all \(\mathbf{x}\in V\).
+\end{definition}
+\begin{note}
+    Let \(\mathbb{F}\) be a field not of characteristic two and scalars \(a_i\in \mathbb{F}\). The polynomial \(f\colon \mathbb{F}^n\to \mathbb{F}\) given by \(f(t_1,t_2,\dots,t_n)=\sum_{i\leq j}{a_{ij}t_it_j}\) is a quadratic form. In fact, the matrix \(\mathbf{A}\) with 
+    \[\mathbf{A}_{ij}=
+    \begin{cases}
+        a_{ii} &\text{if }i=j\\
+        a_{ij}/2 &\text{if }i\neq j
+    \end{cases}\]
+    gives us our desired quadratic form \(K(\mathbf{x})=\mathbf{x}^{\top}\mathbf{A}\mathbf{x}\).
+\end{note}
+\begin{theorem}{}{}
+    \hypertarget{thm:quadratic-forms-real}{}
+    Let \(K(\mathbf{x})=\mathbf{x}^{\top} \mathbf{A}\mathbf{x}\) be a quadratic form on a finite-dimensional real inner product space \(V\). There exists an orthonormal eigenbasis \(\beta\coloneq\{\mathbf{v}_1,\mathbf{v}_2,\dots,\mathbf{v}_n\}\) for \(\mathbf{A}\) and eigenvalues \(\lambda_i\), such that \(K\left( \sum_{i=1}^{n}{t_i \mathbf{v}_i} \right)=\sum_{i=1}^{n}{\lambda_it_i^2}\) for all \(t_i\in \mathbb{R}\).
+\end{theorem}
+We now return to our initial problem on conics. We first diagonalise the matrix 
+\[\begin{pmatrix}
+    A & B/2\\
+    B/2 & C
+\end{pmatrix}\]
+to find it's eigenvalues \(\lambda\) and \(\mu\), then the corresponding unit eigenvectors \(\mathbf{u}=
+\begin{pmatrix}
+    \alpha & \beta
+\end{pmatrix}^\top\) and \(\mathbf{v}=
+\begin{pmatrix}
+    \gamma & \delta
+\end{pmatrix}^\top\). Then,
+\[\begin{pmatrix}
+    x\\
+    y
+\end{pmatrix}=
+\begin{pmatrix}
+    \mathbf{u} & \mathbf{v}
+\end{pmatrix}
+\begin{pmatrix}
+    t_1\\
+    t_2
+\end{pmatrix}=
+\begin{pmatrix}
+    \alpha t_1+\gamma t_2\\
+    \beta t_1+\delta t_2
+\end{pmatrix}.\]
+Furthermore, \(Ax^2+Bxy+Cy^2=\lambda t_1^2+\mu t_2^2\) by \hyperlink{thm:quadratic-forms-real}{1.28}. Therefore, 
+\begin{align*}
+    \lambda t_1^2+\mu t_2^2+D(\alpha t_1+\gamma t_2)+E(\beta t_1+\delta t_2)+F&=0\\
+    \lambda\left( t_1+\frac{D\alpha+E\beta}{2\lambda} \right)^2+\mu\left( t_2+\frac{D\gamma+E\delta}{2\mu} \right)^2-\frac{(D\alpha+E\beta)^2}{4\lambda}-\frac{(D\gamma+E\delta)^2}{4\mu}+F&=0\\
+\end{align*}
+gives an equivalent form for our conic section. 
+
+Since our basis \(\{\mathbf{u},\mathbf{v}\}\) is orthonormal, the above change of basis from the standard ordered basis to \(\{\mathbf{u},\mathbf{v}\}\) is an isometry (that maps \(\mathbf{0}\) to itself). It is obtained via a rotation and/or reflection. Hence, the radii are \(\sqrt{\lambda/k}\) and \(\sqrt{\mu/k}\), for \(4k=(D\alpha+E\beta)^2/\lambda+(D\gamma+E\delta)^2/\mu-F\); the center is \(\left(-\frac{D\alpha+E\beta}{2\lambda},-\frac{D\gamma+E\delta}{2\mu} \right)\). Notice that \(t_1=0\) and \(t_2=0\) are parallel to the axes of symmetry. i.e. \(\mathbf{u}\) and \(\mathbf{v}\) are parallel to the axes of symmetry of our conic. As such, the lines of symmetry are 
+\[y+\frac{D\gamma+E\delta}{2\mu}=\frac{\beta}{\alpha}\left( x+\frac{D\alpha+E\beta}{2\lambda} \right) \qquad\text{and}\qquad y+\frac{D\gamma+E\delta}{2\mu}=\frac{\delta}{\gamma}\left( x+\frac{D\alpha+E\beta}{2\lambda} \right).\]
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../Diagrams/rotated-conics.jpg}
+    \caption{Rotated and translated conic.}
+    \label{fig:rotated-conic}
+\end{figure}
     
 \chapter{Numerical Methods}
 \begin{stbox}{General Information}
