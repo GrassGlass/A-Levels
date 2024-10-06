@@ -321,7 +321,7 @@ Such that the following properties hold:
 \end{GCSkills}
 \newpage
 \section{Conics}
-Given a conic section defined by \(Ax^2+Bxy+Cy^2+Dx+Ey+F=0\), we may want to find its lines of symmetry, center, radii, etc. The core idea is simple: complete the square, to express \(Ax^2+Bxy+Cy^2\) in the form \(a(x')^2+b(y')^2\), for some linear combinations \(x'\) and \(y'\) of \(x\) and \(y\). Then, the initial equation becomes \(a(x')^2+b(y')^2+d(x')+e(y')+F=0\), which is easily reduced to the standard form for conics. Before that, we need to develop some machinery.
+Given a conic section defined by \(Ax^2+Bxy+Cy^2+Dx+Ey+F=0\), we may wish to find its lines of symmetry, center, radii, etc. The core idea is simple: complete the square, to express \(Ax^2+Bxy+Cy^2\) in the form \(a(x')^2+b(y')^2\), for some linear combinations \(x'\) and \(y'\) of \(x\) and \(y\). Then, the initial equation becomes \(a(x')^2+b(y')^2+d(x')+e(y')+F=0\), which is easily reduced to the standard form for conics. Before that, we need to develop some machinery.
 \begin{definition}{}{}
     Let \(\mathbb{F}\) be a field not of characteristic two. A function \(K\colon \mathbb{F}^n\to \mathbb{F}\) is called a \emph{quadratic form on \(\mathbb{F}^n\)} if there exists a symmetric matrix \(A\in \operatorname{M}_{n \times n}(\mathbb{F})\), such that \(K(\mathbf{x})=\mathbf{x}^{\top} \mathbf{A}\mathbf{x}\) for all \(\mathbf{x}\in \mathbb{F}^n\).
 \end{definition}
@@ -343,7 +343,7 @@ We now return to our initial problem on conics. We first diagonalise the matrix
     A & B/2\\
     B/2 & C
 \end{pmatrix}\]
-to find it's eigenvalues \(\lambda\) and \(\mu\), then the corresponding unit eigenvectors \(\mathbf{u}=
+to find its eigenvalues \(\lambda\) and \(\mu\), then the corresponding unit eigenvectors \(\mathbf{u}=
 \begin{pmatrix}
     \alpha & \beta
 \end{pmatrix}^\top\) and \(\mathbf{v}=
@@ -368,7 +368,7 @@ to find it's eigenvalues \(\lambda\) and \(\mu\), then the corresponding unit ei
 Furthermore, \(Ax^2+Bxy+Cy^2=\lambda t_1^2+\mu t_2^2\) by \hyperlink{thm:quadratic-forms-real}{1.28}. Therefore, 
 \begin{align*}
     \lambda t_1^2+\mu t_2^2+D(\alpha t_1+\gamma t_2)+E(\beta t_1+\delta t_2)+F&=0\\
-    \lambda\left( t_1+\frac{D\alpha+E\beta}{2\lambda} \right)^2+\mu\left( t_2+\frac{D\gamma+E\delta}{2\mu} \right)^2-\frac{(D\alpha+E\beta)^2}{4\lambda}-\frac{(D\gamma+E\delta)^2}{4\mu}+F&=0\\
+    \lambda\left( t_1+\frac{D\alpha+E\beta}{2\lambda} \right)^2+\mu\left( t_2+\frac{D\gamma+E\delta}{2\mu} \right)^2-\frac{(D\alpha+E\beta)^2}{4\lambda}-\frac{(D\gamma+E\delta)^2}{4\mu}+F&=0
 \end{align*}
 gives an equivalent form for our conic section. 
 
@@ -380,6 +380,9 @@ Since our basis \(\{\mathbf{u},\mathbf{v}\}\) is orthonormal, the above change o
     \caption{Rotated and translated conic.}
     \label{fig:rotated-conic}
 \end{figure}
+\begin{note}
+    Without orthonormality, i.e. an isometric change of coordinates, even if we were successful in reducing our conic to the form \(a(x')^2+b(y')^2=f\), it may not prove to be a useful form. Consider the ellipse \(2x^2+2xy+y^2=1\). Clearly, \(x^2+(x+y)^2=1\). But, this gives a circle in \((x,x+y)\) coordinates; we can't deduce much about our initial conic. So, little meaning is found in such a factorisation. 
+\end{note}
     
 \chapter{Numerical Methods}
 \begin{stbox}{General Information}
