@@ -19,9 +19,9 @@
 \contentsline {subsection}{\numberline {6.3.1}Trapezium Rule}{13}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Simpson's Rule}{15}{subsection.6.3.2}%
 \contentsline {section}{\numberline {6.4}Reduction formulas}{16}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Complex Numbers}{17}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Complex Number I}{17}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Complex Numbers II}{19}{section.7.2}%
+\contentsline {chapter}{\numberline {7}Complex Numbers}{18}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Complex Number I}{18}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Complex Numbers II}{20}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Linear Algebra}{27}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Conics}{33}{section.8.1}%
 \contentsline {chapter}{\numberline {9}Numerical Methods}{35}{chapter.9}%

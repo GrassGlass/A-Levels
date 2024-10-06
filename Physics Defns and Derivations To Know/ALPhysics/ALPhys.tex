@@ -392,6 +392,8 @@
         \caption{\ref{source:thermodynamic-processes} Some thermodynamic cyclic processes.}
         \label{fig:thermodynamic-cyclic-processes}
     \end{figure}
+    \item Words such as ``insulated'' implies that there is no heat supplied to the system. i.e. \(Q=0\).
+    \item (?) Work can be done on a system without a change in volume. For example, by stirring a fluid, net work is done against friction.  
 \end{itemize}
 
 \chapter{Circular Motion}
@@ -488,6 +490,13 @@
 \]
 \item \(U_G=m\phi\) \& \(\Delta U_G=m\Delta\phi\).
 \item \(U_G\) is negative because infinity is taken as the reference point for zero potential energy. The work done against gravitational force in bringing a mass from infinity to that point is negative.
+\item Gravitational force provides the centripetal force:
+\begin{align*}
+    F_G&=F_C\\
+    \frac{GMm}{r^2}&=\frac{mv^2}{r}\\
+    E_k&=\frac{GMm}{2r}
+\end{align*}
+Thus, \(E_T=U_G+E_K=-\frac{GMm}{2r}\).
 \item Gravitational force provides the centripetal force:
 \begin{align*}
     F_G&=F_c\\
@@ -710,6 +719,7 @@ So, rearranging, we have
         \label{fig:malus-law}
     \end{figure}
 \begin{itemize}[label=\(\square\)]
+    \item[\mbox{\FiveStarOpen}] When unpolarised light passes through a polariser, the average value of \(\cos^2(\theta)\) is \(\frac{1}{2}\) so \(I_\text{new}=\frac{1}{2}I_\text{max}\). 
     \item \begin{tabular}{|Sc|Sc|Sc|}
         \hline
         Phase Angle \(\phi\) & \(2\pi\cdot\dfrac{x}{\lambda}\) & \(2\pi\cdot\dfrac{t}{T}\)\\
@@ -733,7 +743,7 @@ So, rearranging, we have
             \end{minipage}\\
             \hline
         \end{tabular}
-        \item[\mbox{\FiveStarOpen}] When unpolarised light passes through a polariser, the average value of \(\cos^2(\theta)\) is \(\frac{1}{2}\) so \(I_\text{new}=\frac{1}{2}I_\text{max}\). 
+        \item When a wave travels from one medium to another, its frequency remains unchanged. The intuition: think of two ropes of different (linear) densities connected in series. It would snap if they oscillated at different frequencies.
 \end{itemize}
 \chapter{Superposition}
 \begin{itemize}
@@ -1339,9 +1349,10 @@ So, rearranging, we have
   \begin{center}
     \begin{tikzcd}[row sep=large, column sep=large]
         U=\frac{Qq}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} \arrow[swap]{d}{\frac{1}{q}} & F_E=\frac{Q_1Q_2}{4\pi\varepsilon_0r^2} \arrow[swap]{d}{\frac{1}{q}} \\
-        V=\frac{Q}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & E=\frac{Q}{4\pi\varepsilon_0r^2}\\
+        V=\frac{Q}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & E=\frac{Q}{4\pi\varepsilon_0r^2}
     \end{tikzcd}
   \end{center}
+  \item A ``singly charged'' object is one which has charge \(e=1.60\cdot 10^{-19}\). 
   \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential \(V_i\) due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
   \[V=\sum_{i}{V_i}=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
   \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies \(U_{ij}\) needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 

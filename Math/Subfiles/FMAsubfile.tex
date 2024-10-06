@@ -537,7 +537,7 @@ Since our basis \(\{\mathbf{u},\mathbf{v}\}\) is orthonormal, the above change o
     Therefore, \(\alpha=x_m\) (\(k\) d.p.), since \(f(x_m-0.0\cdots05)f(x_m+0.0\cdots05)=\rule{0.5cm}{0.01mm}<0\).
 \end{note}
 \begin{example}{}{}
-    By considering the stationary points of the curve \(y=f(x)\), explain whether \(x_0=\rule{0.5cm}{0.05mm}\) is a suitable starting value for using the Newton-Raphson method to find an approximation to \(\alpha\).
+    Explain whether \(x_0=\rule{0.5cm}{0.05mm}\) is a suitable starting value for using the Newton-Raphson method to find an approximation to \(\alpha\).
     
     \rule{20cm-137.0549pt-25pt}{0.05mm}
     \begin{figure}[H]
@@ -546,7 +546,11 @@ Since our basis \(\{\mathbf{u},\mathbf{v}\}\) is orthonormal, the above change o
         \caption{\href{https://www.desmos.com/calculator/mq2elll5k3}{(Desmos)}}
         \label{fig:newton's-method-prelims}
     \end{figure}
-    Since \(x_0=\rule{0.5cm}{0.05mm}\) is very close to the stationary point, the tangent to the curve \(y=f(x)\) is almost a horizontal line. Thus, it cuts the \(x\)-axis far away from the initial approximation. So, \(x_0=\rule{0.5cm}{0.05mm}\) is not a suitable starting value.
+    \begin{enumerate}
+        \item Since \(x_0=\rule{0.5cm}{0.05mm}\) is very close to the stationary point, the tangent to the curve \(y=f(x)\) has a very gentle gradient. Thus, it cuts the \(x\)-axis far away from the initial approximation. 
+        \item Furthermore, as \(x_0=\rule{0.5cm}{0.05mm}\) is to the left/right of the minimum/maximum point \(x=\rule{0.5cm}{0.05mm}\), the values of the gradient \(f'(x_n)\) will be negative/positive for all \(n\geq 0\). Hence, \(x_n\) converges to the root \(\beta\) instead \(\alpha\). 
+    \end{enumerate}
+    (The second point may be omitted if it is irrelevant.)
 \end{example}
 \begin{note}
     Suppose a question asks for the approximation of a root to \(k\) significant figures/\(k\) decimal places. Then: 
@@ -566,6 +570,9 @@ Since our basis \(\{\mathbf{u},\mathbf{v}\}\) is orthonormal, the above change o
             Since \(f(0.995)=\rule{0.5cm}{0.01mm}<0\) and \(f(1.005)=\rule{0.5cm}{0.01mm}>0\), we conclude that \(1.00\) is a sufficiently accurate approximation, at 2 d.p..
         }
     \end{center}
+\end{note}
+\begin{note}
+    The \emph{error obtained} when using an approximation should be the \emph{absolute} difference of the true value and the approximation. 
 \end{note}
 \begin{GCSkills}{}
     Linear interpolation: finding an approximation to a root in \([a,b]\) up to \(n\) decimal places.

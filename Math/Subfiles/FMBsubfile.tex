@@ -155,10 +155,17 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
 \begin{note}
   The \(\chi^2\) goodness-of-fit test showed that there is strong evidence for \(X\sim\Poisson(\lambda)\). Suggest a possible reason.
 
-  \rule{20cm-137.0549pt-25pt}{0.05mm}
+  % \rule{20cm-137.0549pt-25pt}{0.05mm}
   % \vspace{0.5\baselineskip}
   \[s^2=\rule{0.5cm}{0.05mm} \qquad \widebar{x}=\rule{0.5cm}{0.05mm}\]
   The mean and variance of the [\(X\) in context] are approximately equal. This contributed to making the data a good fit to the Poisson distribution.
+\end{note}
+\begin{note}
+  Explain why a test based on a normal distribution might still be valid, despite the \(\chi^2\) test-of-independence implying that \(X\not\sim\Normal(\mu,\sigma^2)\).
+  \begin{enumerate}
+    \item The sample size of \rule{0.5cm}{0.01mm} is small. Hence, the result of the test may not accurately represent the population.
+    \item{} [\(X\) in context] might still be normally distributed, but with \(\E(X)\neq\mu\) and/or \(\Var(X)\neq\sigma^2\).
+  \end{enumerate} 
 \end{note}
 \section{Tests of Independence}
 \begin{stbox}{General Information}

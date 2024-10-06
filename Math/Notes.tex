@@ -467,6 +467,7 @@
           \caption{Simpson's rule.}
           \label{fig:simpson's-rule}
         \end{figure}
+        \item Simpson's Rule is exact for all polynomials of degree three and below.
       \end{enumerate}
     \end{stbox}
     \begin{example}{}{}
@@ -645,6 +646,26 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
     \end{enumerate}
   \end{enumerate}
 \end{stbox}
+\begin{note}
+  To show that a \emph{half}-line \(\arg(z-a-bi)=\theta\) meets another loci \(L\), we need to show that 
+  \begin{enumerate}[label=(\alph*)]
+    \item The line \(y-b=\tan(\theta)(x-a)\) meets the loci \(L\) at some \((u,v)\).
+    \item 
+    \(\begin{cases}
+      u>a &\text{if }\theta\in(-\pi/2,\pi/2),\\
+      u=a &\text{if }\theta=\pm\pi/2,\\
+      u<a &\text{if }\theta\in(\pi/2,\pi)\cup(-\pi,-\pi/2).
+    \end{cases}\)
+    \item  
+    \(\begin{cases}
+      v>b &\text{if }\theta\in(0,\pi),\\
+      v=b &\text{if \(\theta=0\) or \(\theta=\pi\)},\\
+      v<b &\text{if }\theta\in(-\pi,0).
+    \end{cases}\)
+  \end{enumerate}
+  The latter two conditions must be shown to be clearly satisfied, to illustrate our understanding of \emph{half}-lines. For example, we may write
+  \[x=\frac{2-\sqrt{3}}{4}\highlight[yellow]{>-2} \qquad y=\frac{1+10\sqrt{3}}{4}\highlight[yellow]{>1}.\]
+\end{note}
 \begin{example}{TQ 10(b)}{}
   Show that \(\cot^2(2\pi/5)\) is a root of the equation \(px^2+qx+r=0\), where we are given 
   \[\cot(4\theta)=\frac{\cot^4(\theta)-6\cot^2(\theta)+1}{4\cot^3(\theta)-4\cot(\theta)}.\]
@@ -757,7 +778,7 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
 \begin{example}{}{}
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth,page=1]{../Diagrams/Complex-revision.pdf}
+    \includegraphics[width=0.6\textwidth,page=1]{../Diagrams/Complex-revision.pdf}
     \caption{\textcolor{green!85!black}{Annotations} that improve clarity.}
     \label{fig:complex-clarity-improvements}
   \end{figure}
