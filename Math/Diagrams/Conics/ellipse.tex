@@ -1,0 +1,53 @@
+%* Source: https://tex.stackexchange.com/a/305225 (ellipse)
+% https://tex.stackexchange.com/a/599565 (tangent)
+% https://tex.stackexchange.com/a/253010 (bisector command)
+\documentclass[tikz,border=1mm]{standalone}
+\usepackage{tkz-euclide, calc}
+\usetikzlibrary{decorations.pathreplacing, decorations.markings, angles}
+\NewDocumentCommand\bisector{O{}mmmO{10pt}}{
+  \path[#1] let
+    \p1 = ($(#3)!1cm!(#2)$),
+    \p2 = ($(#3)!1cm!(#4)$),
+    \p3 = ($(\p1) + (\p2) - (#3)$)
+    in    
+    ($(#3)!#5!($(#3)!1cm!(\p3)$)$) -- ($($(#3)!1cm!(\p3)$)!#5!(#3)$) ;
+}
+\begin{document}
+\tikzset{-<-/.style={decoration={
+  markings,
+  mark=at position #1 with {\arrow[scale=2]{Classical TikZ Rightarrow[reversed]}}},postaction={decorate}}}
+\begin{tikzpicture}[dot/.style={draw,fill,circle,inner sep=1pt}]
+  \def\a{4} % large half axis
+  \def\b{3} % small half axis
+  \def\angle{55} % angle at which X is placed
+  % Draw the ellipse
+  \draw (0,0) ellipse ({\a} and {\b});
+  % Draw the inner lines and labels
+  \draw[dashed] (-\a,0) coordinate (A)
+    -- (\a,0) coordinate (B);
+  \draw[dashed] (0,-\b) coordinate (D)
+    -- (0,\b) coordinate (C);
+  \coordinate[label={below left:\(O\)}] (O) at (0,0);
+  % Nodes at the focal points
+  \node[dot,label={below:$F_1$}] (F1) at ({-sqrt(\a*\a-\b*\b)},0) {};
+  \node[dot,label={below:$F_2$}] (F2) at ({+sqrt(\a*\a-\b*\b)},0) {};
+  % Node on the rim, connected to foci
+  \node[dot,label={\angle:\(P\)}] (X) at (\angle:{\a} and {\b}) {};
+  \draw[-<-=.5] (F1) -- (X);
+  \draw[-<-=.5] (X) -- (F2);
+  % Directrices
+  \draw (-16/5,-\b) -- (-16/5,\b);
+  \draw (16/5,-\b) -- (16/5,\b);
+  \coordinate (D1) at (-16/5,-\b);
+  \coordinate (D2) at (16/5,-\b);
+  % Tangent and angle
+  \tkzDefLine[bisector out](F1,X,F2) \tkzGetPoint{K}
+  \draw[blue] ($(X)!-0.5!(K)$) coordinate (U) --($(X)!+0.5!(K)$) coordinate (V)
+    pic [draw,blue,line width=0.25mm,double,angle radius=0.5cm] {angle = U--X--F1}
+    pic [draw,blue,line width=0.25mm,double,angle radius=0.5cm] {angle = F2--X--V};
+  % \bisector[draw,blue]{U}{X}{F1}
+  % \bisector[draw,blue]{F2}{X}{V}
+  % Brace
+%   \draw[decorate,decoration=brace,draw=red] (C) -- (O);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,68 @@
+%* Source: https://tex.stackexchange.com/a/158979
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots, calc, tkz-euclide}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{decorations.pathreplacing, decorations.markings, angles}
+
+% axis style, ticks, etc
+\pgfplotsset{every axis/.append style={
+                    axis x line=middle,    % put the x axis in the middle
+                    axis y line=middle,    % put the y axis in the middle
+                    axis line style={->}, % arrows on the axis
+                    }}
+
+% arrows as stealth fighters
+\tikzset{>=stealth,
+-<-/.style={decoration={
+  markings,
+  mark=at position #1 with {\arrow[scale=1.5]{Classical TikZ Rightarrow[reversed]}}},postaction={decorate}}}
+\NewDocumentCommand\bisector{O{}mmmO{10pt}}{
+\path[#1] let
+    \p1 = ($(#3)!10cm!(#2)$),
+    \p2 = ($(#3)!10cm!(#4)$),
+    \p3 = ($(\p1) + (\p2) - (#3)$)
+    in    
+    ($(#3)!#5!($(#3)!0.85cm!(\p3)$)$) -- ($($(#3)!0.85cm!(\p3)$)!#5!(#3)$) ;
+}
+\begin{document}
+
+\begin{tikzpicture}[dot/.style={draw,fill,circle,inner sep=1pt}]
+    \def\p{1}
+    \def\X{1.7}
+    \begin{axis}[
+        axis equal,
+        xmin=-1.25*\p,xmax=3,
+        ymin=-3.8,ymax=3.8,
+        axis line style={draw=none},
+        ticks=none]
+        % Origin
+        % \coordinate[label={below left:\(O\)}] (O) at (0,0);
+        % Line of symmetry
+        \draw[dashed] (-1.25*\p,0) -- (3,0);
+        % Parabola
+        \addplot [samples=100, domain=-{sqrt(4*\p*3)}:{sqrt(4*\p*3)}] ({x^2/(4*\p)},{x});
+        % Focus
+        \coordinate[dot,label={below:\(F\)}] (F) at (\p,0) {};
+        % Directrix
+        \draw (-\p,-{sqrt(4*\p*3)}) -- (-\p,{sqrt(4*\p*3)});
+        % Point P
+        \coordinate[dot,label={above:\(P\)}] (P) at (\X,{sqrt(4*\p*\X)});
+        % path of light ray
+        \coordinate (Q) at (3,{sqrt(4*\p*\X)});
+        \draw[-<-=.5] (P) -- (Q);
+        \draw[-<-=.5] (F) -- (P);
+        % \draw[dashed] (F1) -- (Y);
+        % \draw[dashed] (X) -- (F2);
+        % \draw[-<-=.5] (X) -- (Z);
+
+        % Tangent
+        % \addplot [blue, domain=0.3*\X:1.7*\X, samples=100] {(2*\p*(x+\X))/(sqrt(4*\p*\X))};
+        \coordinate (T1) at (0.3*\X,{(2*\p*(0.3*\X+\X))/(sqrt(4*\p*\X))});
+        \coordinate (T2) at (1.7*\X,{(2*\p*(1.7*\X+\X))/(sqrt(4*\p*\X))});
+        \draw[blue] (T1) -- (T2)
+        pic [draw,blue,double,angle radius=0.5cm] {angle = T1--P--F}
+        pic [draw,blue,double,angle radius=0.5cm] {angle = Q--P--T2};
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}
