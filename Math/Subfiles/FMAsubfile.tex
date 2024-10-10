@@ -368,7 +368,7 @@ to find its eigenvalues \(\lambda\) and \(\mu\), then the corresponding unit eig
 Furthermore, \(Ax^2+Bxy+Cy^2=\lambda t_1^2+\mu t_2^2\) by \hyperlink{thm:quadratic-forms-real}{1.28}. Therefore, 
 \begin{align*}
     \lambda t_1^2+\mu t_2^2+D(\alpha t_1+\gamma t_2)+E(\beta t_1+\delta t_2)+F&=0\\
-    \lambda\left( t_1+\frac{D\alpha+E\beta}{2\lambda} \right)^2+\mu\left( t_2+\frac{D\gamma+E\delta}{2\mu} \right)^2-\frac{(D\alpha+E\beta)^2}{4\lambda}-\frac{(D\gamma+E\delta)^2}{4\mu}+F&=0
+    \lambda\left( t_1+\frac{D\alpha+E\beta}{2\lambda} \right)^2+\mu\left( t_2+\frac{D\gamma+E\delta}{2\mu} \right)^2-\frac{(D\alpha+E\beta)^2}{4\lambda}-\frac{(D\gamma+E\delta)^2}{4\mu}+F&=0 \qquad\text{(if \(\lambda,\mu\neq 0\))}
 \end{align*}
 gives an equivalent form for our conic section. 
 
@@ -393,6 +393,14 @@ An asterisk denotes the conjugate transpose.
     \[\langle \mathbf{u},\mu\mathbf{v} \rangle=(\mathbf{M} \mathbf{v})^{*}\mathbf{u}=(\mathbf{v}^{*}\mathbf{M}^{*})\mathbf{u}=\mathbf{v}^{*}(\mathbf{M}^{*}\mathbf{u})=\mathbf{v}^{*}(\lambda \mathbf{u})=\langle \lambda \mathbf{u},\mathbf{v} \rangle.\]
     As such, \((\lambda-\mu^{*})\langle \mathbf{u},\mathbf{v} \rangle=0\). Hence, \(\langle \mathbf{u},\mathbf{v} \rangle=0\).
 \end{proof}
+% Let \(\mathbf{x}\) and \(\mathbf{y}\) be the eigenvectors of \(\mathbf{M}\) corresponding to \(\lambda\) and \(\mu\). Since \(\mathbf{M}\) is symmetric, i.e. \(\mathbf{M}^T=\mathbf{M}\),
+% \[\mathbf{x}\cdot\mu\mathbf{y}=(\mathbf{M}\mathbf{y})^{T}\mathbf{x}=(\mathbf{y}^T \mathbf{M}^T)\mathbf{x}=\mathbf{y}^T (\mathbf{M} \mathbf{x})=\mu \mathbf{x}\cdot \mathbf{y}.\]
+% As such, \((\lambda-\mu)\mathbf{x}\cdot \mathbf{y}=0\). Hence, \(\mathbf{x}\cdot \mathbf{y}=0\).
+Consider the equation \(x^2+y=0\) and the matrix
+\(\mathbf{M}=\begin{pmatrix}
+    1 & 0\\
+    1 & 1
+\end{pmatrix}\). Then, \(x'=x\) and \(y'=x+y\). However, even though \(1^2-1=0\), we have \(1^2+(1-1)=1\neq 0\).
     
 \chapter{Numerical Methods}
 \begin{stbox}{General Information}

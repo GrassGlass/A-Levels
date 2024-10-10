@@ -391,6 +391,13 @@
       \item Split \(px+q\), then complete the square:
       \[\int \frac{px+q}{\sqrt{ax^2+bx+c}}\,dx \quad\text{or}\quad \int \frac{px+q}{ax^2+bx+c}\,dx\] 
     \end{enumerate}
+    \item Partial fractions. First ensure the numerator has a smaller degree than that of the denominator, otherwise do long division first. Then,
+    \begin{flalign*}
+      \text{(i)}\quad &\frac{P(x)}{(ax+b)(cx+d)}=\frac{A}{ax+b}+\frac{B}{cx+d}\\
+      \text{(ii)}\quad &\frac{P(x)}{(ax+b)^2}=\frac{A}{ax+b}+\frac{B}{(ax+b)^2}\\
+      \text{(iii)}\quad &\frac{P(x)}{(ax+b)(cx^2+dx+e)}=\frac{A}{ax+b}+\frac{Bx+C}{cx^2+de+e}
+    \end{flalign*}
+    where \(cx^2+de+e\) is irreducible, i.e. has non-real roots.
     \item Integration by Substitution: 
     \[\int f(x) \, dx=\int f(x)\frac{dx}{du}\,du.\]
     \item Use Pythagoras' Theorem / draw a right-angled triangle to help with trig conversions, e.g.:
@@ -408,7 +415,6 @@
     \end{minipage}
   \end{enumerate}
 \end{stbox}
-\newpage
 \section{Areas \& Volumes}
 \begin{stbox}{General Information}
   \begin{enumerate}

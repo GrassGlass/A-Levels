@@ -472,6 +472,23 @@
     \caption{\ref{source:G-field-equipotential-lines} The gravitational field and equipotential lines produced by two masses.}
     \label{fig:G-field-equipotential-lines}
 \end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Two-body-gravity/Potential.jpg}
+        \caption{Potential}
+        \label{fig:gravitational-potential}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Two-body-gravity/Field strength.jpg}
+        \caption{Field strength}
+        \label{fig:gravitational-field-strength}
+    \end{subfigure}
+    \caption{The gravitational potential and gravitational field strength between two masses.}
+    \label{fig:two-body-gravity}
+\end{figure}
 \begin{itemize}
     \item \emph{Newton's Law of Gravitation} states that the force of attraction between any two point masses is directly proportional to the product of their masses and inversely proportional to the square of their separation.
     \item A \emph{gravitational field} is a region in space where mass experiences a gravitational force acting on it.
@@ -485,7 +502,7 @@
     \item \[
 \begin{tikzcd}[row sep=large, column sep=large]
      U_G=-\frac{GMm}{r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} \arrow[swap]{d}{\frac{1}{m}} & F_G=-\frac{GMm}{r^2} \arrow[swap]{d}{\frac{1}{m}} \\
-     \phi=-\frac{GM}{r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & g=-\frac{GM}{r^2}\\
+     \phi=-\frac{GM}{r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & g=-\frac{GM}{r^2}
 \end{tikzcd}
 \]
 \item \(U_G=m\phi\) \& \(\Delta U_G=m\Delta\phi\).
@@ -1320,6 +1337,23 @@ So, rearranging, we have
     \captionsetup{type=figure}
     \caption[figure]{\ref{Electric field plots} Electric field strength of a positive point charge}
   \end{center}
+  \begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Isolated Conductor/Potential.jpg}
+        \caption{Potential.}
+        \label{fig:isolated-conductor-potential}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Isolated Conductor/Electric field strength.jpg}
+        \caption{Field strength.}
+        \label{fig:isolated-conductor-field-strength}
+    \end{subfigure}
+    \caption{The electric potential and electric field strength around an isolated conductor.}
+    \label{fig:isolated-conductor}
+\end{figure}
   \item Charge distribution on a conducting sphere: 
   \begin{itemize}
     \item Excess charges are forced to the surface of the conductor until the electric field inside the conductor is zero. 
@@ -1332,6 +1366,29 @@ So, rearranging, we have
     \item Just outside the conductor, the e-field lines are \emph{perpendicular to its surface}, starting and ending on charges on the surface.
     \item \emph{Excess charges} resides exclusively on \emph{the surfaces} of a conductor.
   \end{itemize}
+  \begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Electric Conductor/Setup.jpg}
+        \caption{The setup.}
+        \label{fig:electric-conductor-plot-setup}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Electric Conductor/Potential.jpg}
+        \caption{Potential.}
+        \label{fig:electric-conductor-plot-potential}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../images/Electric Conductor/Field Strength.jpg}
+        \caption{Field strength.}
+        \label{fig:electric-conductor-plot-field-strength}
+    \end{subfigure}
+    \caption{The electric potential and electric field strength between two parallel plates containing a conductor.}
+    \label{fig:electric-conductor-plot}
+  \end{figure}
   \item Electric field strength between two charged parallel plates is uniform everywhere between the plates, except at both ends of the plates. 
   \item Also, \emph{charges} between the plates experience \emph{uniform acceleration}.
   \begin{center}
@@ -1674,6 +1731,15 @@ Some nice images:
         \end{figure} 
     \end{itemize}
 \end{itemize}
+\begin{example}{}{}
+    A power plant sends an average of \(\langle P \rangle\) watts of electrical power to a town by electrical cables, that have a total resistance of \(R\) ohms. What is the power lost in the cables when the power was transmitted at \(V\) volts? 
+
+    \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
+    \begin{enumerate}
+        \item[\textcolor{green!70!black}{\checkmark}] Power lost in the cables\({}=I^2R=\left(\highlight[green!70]{\dfrac{\langle P \rangle}{V}}\right)^2R\).
+        \item[\textcolor{red}{\(\times\)}] Power lost in the cables\({}=V^2/R\). This is \textcolor{red}{incorrect} because \(V\) is not the voltage across the cables. Rather, it is the rms voltage. 
+    \end{enumerate}
+\end{example}
 \begin{landscape}
     \chapter{Quantum Physics}
     \begin{itemize}
