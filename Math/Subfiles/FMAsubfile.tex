@@ -383,6 +383,16 @@ Since our basis \(\{\mathbf{u},\mathbf{v}\}\) is orthonormal, the above change o
 \begin{note}
     Without orthonormality, i.e. an isometric change of coordinates, even if we were successful in reducing our conic to the form \(a(x')^2+b(y')^2=f\), it may not prove to be a useful form. Consider the ellipse \(2x^2+2xy+y^2=1\). Clearly, \(x^2+(x+y)^2=1\). But, this gives a circle in \((x,x+y)\) coordinates; we can't deduce much about our initial conic. So, little meaning is found in such a factorisation. 
 \end{note}
+\section{Miscellaneous}
+An asterisk denotes the conjugate transpose.
+\begin{theorem}{}{}
+    Let \(\mathbf{M}\in \operatorname{M}_{n \times n}(\mathbb{K})\) be Hermitian (i.e. \(\mathbf{M}^{*}=\mathbf{M}\)), with eigenvectors \(\mathbf{u}\) and \(\mathbf{v}\) that correspond to the eigenvalues \(\lambda\) and \(\mu\). Then, \(\mathbf{u}\) and \(\mathbf{v}\) are orthogonal with respect to the standard inner product, if \(\lambda\neq\mu^{*}\). 
+\end{theorem}
+\begin{proof}
+    Let \(\mathbf{u}\) and \(\mathbf{v}\) be eigenvectors of \(\mathbf{M}\) . Then, 
+    \[\langle \mathbf{u},\mu\mathbf{v} \rangle=(\mathbf{M} \mathbf{v})^{*}\mathbf{u}=(\mathbf{v}^{*}\mathbf{M}^{*})\mathbf{u}=\mathbf{v}^{*}(\mathbf{M}^{*}\mathbf{u})=\mathbf{v}^{*}(\lambda \mathbf{u})=\langle \lambda \mathbf{u},\mathbf{v} \rangle.\]
+    As such, \((\lambda-\mu^{*})\langle \mathbf{u},\mathbf{v} \rangle=0\). Hence, \(\langle \mathbf{u},\mathbf{v} \rangle=0\).
+\end{proof}
     
 \chapter{Numerical Methods}
 \begin{stbox}{General Information}

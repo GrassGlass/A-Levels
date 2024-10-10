@@ -210,6 +210,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
     \vspace{-1em}
     \begin{minipage}{0.825\textwidth}
       \begin{remark}
+        \hypertarget{test-of-independence-expected-frequencies}{}
         The expected frequencies are given by \(e_{ij}=\dfrac{\text{row total}\cdot\text{column total}}{\text{total number of observations}}=\dfrac{t_{r_i}t_{c_j}}{S}\).
       \end{remark}
     \end{minipage}
@@ -314,6 +315,9 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
       The expeceted frequency for (\rule{0.5cm}{0.05mm},\ \rule{0.5cm}{0.05mm}) is \(\rule{0.5cm}{0.05mm}<5\). If we combine the columns, the degree of freedom \(\nu=1\cdot 0=0\). If we combine the rows, \(\nu=0\cdot 1=0\). Thus, we cannot apply a \(\chi^2\)-test for independence. 
     }
   \end{center}
+\end{note}
+\begin{note}
+  Don't be intimidated when a question gives unknown \(f_i\)'s for multiple cells. By using the \hyperlink{test-of-independence-expected-frequencies}{formula} for \(e_i\), we should be able to rewrite them in terms of one unknown --- the observed frequency for one cell. Additional information should be provided, if this is not possible.
 \end{note}
 
 \chapter{Correlation and Linear Regression}
@@ -761,6 +765,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \end{center}
 \end{note}
 \begin{note}
+  \hypertarget{wilcoxon>t}{}
   Why is it not appropriate to use a paired-sample \(t\)-test? 
   \begin{center}
     \parbox{0.9\textwidth}{
@@ -784,6 +789,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \end{center}
 \end{note}
 \begin{note}
+  \hypertarget{wilcoxson>sign}{}
   Explain why it is better to conduct a \textcolor{green!70!black}{Wilcoxon} test than a \textcolor{red}{sign} test.
   \begin{center}
     \parbox{0.9\textwidth}{
@@ -805,12 +811,19 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
 %   \end{center}
 % \end{note}
 \begin{note}
+  Explain why it is appropriate use a Wilcoxon test in this situation.
+  \begin{enumerate}
+    \item[\textcolor{green!70!black}{\checkmark}] Explain why a Wilcoxon test is better than other tests (\hyperlink{wilcoxon>t}{\(t\)-test}, \hyperlink{wilcoxson>sign}{sign test}).
+    \item[\textcolor{red}{\(\times\)}] Explain why the assumptions of the Wilcoxon test hold true, and hence, the test can be carried out to reach a reliable conclusion. 
+  \end{enumerate}
+\end{note}
+\begin{note}
   Explain why a sign test is more suitable/a \textcolor{red}{Wilcoxon} test is inappropriate.
   \begin{center}
     \parbox{0.9\textwidth}{
       Choose any approperiate ones
       \begin{enumerate}
-        \item The data here is non-numeric and is not meausred on an ordinal scale. Hence, it is inapproperiate to conduct a Wilcoxon test. A sign test is better, as the data can still be represented by positie and negative responses --- denoting \rule{1cm}{0.01mm} and \rule{1cm}{0.01mm}, respectively.
+        \item The data here is non-numeric and is not measured on an ordinal scale. Hence, it is inappropriate to conduct a Wilcoxon test. A sign test is better, as the data can still be represented by positive and negative responses --- denoting \rule{1cm}{0.01mm} and \rule{1cm}{0.01mm}, respectively.
         \item The magnitude of the differences is irrelevant because \rule{1cm}{0.01mm}. So, a sign test --- which only accounts for the sign of the differences --- is more appropriate.
         \item In this case, the data has too many \emph{tied ranks}. Thus, the conclusion obtained from a Wilcoxon test may not be reliable.
         \item An additional assumption that the distribution of the differences \(D=\rule{0.5cm}{0.01mm}-\rule{0.5cm}{0.01mm}\) must be continuous and symmetric about the median. 

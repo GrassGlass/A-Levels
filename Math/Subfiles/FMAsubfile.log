@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  6 OCT 2024 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  10 OCT 2024 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1181,7 +1181,7 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 13
 \l__nicematrix_local_start_int=\count406
 \l__nicematrix_local_end_int=\count407
  [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] [5] [6]
-<../Diagrams/rotated-conics.jpg, id=115, 1040.88875pt x 859.21pt>
+<../Diagrams/rotated-conics.jpg, id=119, 1040.88875pt x 859.21pt>
 File: ../Diagrams/rotated-conics.jpg Graphic file (type jpg)
 <use ../Diagrams/rotated-conics.jpg>
 Package pdftex.def Info: ../Diagrams/rotated-conics.jpg  used on input line 379.
@@ -1189,31 +1189,31 @@ Package pdftex.def Info: ../Diagrams/rotated-conics.jpg  used on input line 379.
  [7] [8 <../Diagrams/rotated-conics.jpg>]
 Chapter 2.
 
-Package hyperref Warning: Ignoring empty anchor on input line 417.
+Package hyperref Warning: Ignoring empty anchor on input line 427.
 
 [9
 
 ] [10]
-<../Diagrams/newton's-method-prelim.pdf, id=155, 602.25pt x 602.25pt>
+<../Diagrams/newton's-method-prelim.pdf, id=160, 602.25pt x 602.25pt>
 File: ../Diagrams/newton's-method-prelim.pdf Graphic file (type pdf)
 <use ../Diagrams/newton's-method-prelim.pdf>
-Package pdftex.def Info: ../Diagrams/newton's-method-prelim.pdf  used on input line 545.
+Package pdftex.def Info: ../Diagrams/newton's-method-prelim.pdf  used on input line 555.
 (pdftex.def)             Requested size: 216.0023pt x 216.00114pt.
  [11 <../Diagrams/newton's-method-prelim.pdf>] [12]
-<../Diagrams/linear-interpolation.pdf, id=203, 602.25pt x 602.25pt>
+<../Diagrams/linear-interpolation.pdf, id=208, 602.25pt x 602.25pt>
 File: ../Diagrams/linear-interpolation.pdf Graphic file (type pdf)
 <use ../Diagrams/linear-interpolation.pdf>
-Package pdftex.def Info: ../Diagrams/linear-interpolation.pdf  used on input line 592.
+Package pdftex.def Info: ../Diagrams/linear-interpolation.pdf  used on input line 602.
 (pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
-<../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf, id=206, 602.25pt x 602.25pt>
+<../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf, id=211, 602.25pt x 602.25pt>
 File: ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf Graphic file (type pdf)
 <use ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf>
-Package pdftex.def Info: ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf  used on input line 599.
+Package pdftex.def Info: ../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf  used on input line 609.
 (pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
-<../Diagrams/newton's-method.pdf, id=209, 602.25pt x 602.25pt>
+<../Diagrams/newton's-method.pdf, id=214, 602.25pt x 602.25pt>
 File: ../Diagrams/newton's-method.pdf Graphic file (type pdf)
 <use ../Diagrams/newton's-method.pdf>
-Package pdftex.def Info: ../Diagrams/newton's-method.pdf  used on input line 611.
+Package pdftex.def Info: ../Diagrams/newton's-method.pdf  used on input line 621.
 (pdftex.def)             Requested size: 296.70424pt x 296.71326pt.
  [13 <../Diagrams/linear-interpolation.pdf> <../Diagrams/fixed-point-iteration/fixed-point-iteration-desmos.pdf
 
@@ -1224,21 +1224,21 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `FMAsubfile.out' has not changed.
-(rerunfilecheck)             Checksum: BF7173089717E4B59C986CADD576B9B6;331.
+(rerunfilecheck)             Checksum: 1E15EB8D56E91DC325E672012597713B;450.
  ) 
 Here is how much of TeX's memory you used:
- 46382 strings out of 475237
- 1104309 string characters out of 5768555
+ 46394 strings out of 475237
+ 1104545 string characters out of 5768555
  1974238 words of memory out of 5000000
- 66674 multiletter control sequences out of 15000+600000
+ 66684 multiletter control sequences out of 15000+600000
  574725 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,16n,162p,802b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMAsubfile.pdf (14 pages, 496527 bytes).
+Output written on FMAsubfile.pdf (14 pages, 499588 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -216,3 +216,11 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \end{tabular}
   \end{center}
 \end{GCSkills}
+\begin{titlednote}{combining two samples into one.}
+  Let \(X\) be a random variable with population mean \(\mu\). We are given two independent random samples \(A\) and \(B\), of sizes \(m\) and \(n\), respectively. Find a \(100(1-\alpha)\%\) confidence interval for \(\mu\), based on the combined sample \(C\). 
+  \begin{align*}
+    \widebar{x}_C&=\frac{\sum{x_A}+\sum{x_B}}{m+n}=\frac{m\widebar{x}_A+n\widebar{x}_B}{m+n}\\
+    s_C^2&=\highlight[green!50]{\frac{1}{m+n-1}\left( \sum{x_A^2}+\sum{x_B^2}-\frac{(\sum{x_A}+\sum{x_B})^2}{m+n} \right)}\neq\highlight[red!30]{\frac{(m-1)s_A^2+(n-1)s_B^2}{m+n-2}}.
+  \end{align*}
+  Proceed with the usual calculations to find the \(100(1-\alpha)\%\) confidence interval based on \(C\).
+\end{titlednote}

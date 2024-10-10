@@ -49,6 +49,22 @@
   title=Note,
   fonttitle={\sffamily\bfseries},}
 
+  \newtcolorbox{titlednote}[1]{
+  colback=NavyBlue!5,
+  oversize=2pt,
+  coltitle=NavyBlue,
+  borderline west={2pt}{0pt}{NavyBlue},
+  enhanced,
+  breakable,
+  skin    = enhanced jigsaw,
+  boxsep  = 1pt,
+  boxrule = 0pt,
+  attach boxed title to top left={xshift=3mm,yshift=-3mm,yshifttext=-1mm},
+  colbacktitle=NavyBlue!5,
+  colframe=NavyBlue,
+  title={Note: #1},
+  fonttitle={\sffamily\bfseries},}
+
 \newtcolorbox{recall}{
     colback=ForestGreen!70!black,
     oversize=2pt,
