@@ -164,6 +164,7 @@
         \caption{\ref{source:torque} The free body diagram of a lever, which is in equilibrium iff \(m_1gr_1=m_2gr_2\).}
         \label{fig:torque-lever}
     \end{figure}
+    \item \emph{Note.} When using the Principle of Moments, always make clear which pivot/axis of rotation is being considered. E.g. ``Taking moments about \rule{0.5cm}{0.01mm}, by the principle of moments, \dots''
     \item \emph{Density} is defined as the mass per unit volume of a substance.
     \item \emph{Pressure} is defined as force per unit area, where the force is \emph{acting perpendicularly} to the area.
 \end{itemize}
@@ -704,6 +705,18 @@ So, rearranging, we have
         \label{fig:underdamped}
     \end{figure}
 \end{itemize}
+(Ideal) Isolated spring systems are in simple harmonic motion, but spring systems in general need not be in simple harmonic motion.
+\begin{example}{spring systems are not \emph{always} in simple harmonic motion.}{}
+    Consider when a mass \(m\) is dropped onto a massless spring, that is at its equilibrium position. Assume that the mass does not rebound; the spring-mass system moves as one body after the initial collision occurs.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.25\textwidth]{../images/mass-spring system.jpg}
+        \caption{An illustration of the spring-mass system aforementioned.}
+        \label{fig:spring-mass-system}
+    \end{figure}
+    Then, the net force on the spring-mass system is \(W-F_{\text{spring}}=mg-kx\). Hence, the acceleration of the spring-mass system is \((mg/x)-k\not\propto x\). i.e. the system does not move in simple harmonic motion.
+\end{example}
+(Regardless, the maximum speed occurs at the point where \(\text{net }F=0\).)
 
 \chapter{Wave Motion}
 \begin{figure}[H]
@@ -719,6 +732,11 @@ So, rearranging, we have
     \item A \emph{phase} is an angle which gives a measure of the \emph{fraction of a cycle} that has been \emph{completed} by an oscillating particle or by a wave.
     \item \emph{Intensity} of a wave is the wave energy incident per unit time per unit area \emph{normal} to the wave.
     \item \emph{Polarisation} of a wave refers to the \emph{confinement} of oscillations in \emph{only} one plane. The plane of oscillations is \emph{parallel} to the direction of energy transfer.  
+\begin{example}{}{}
+    Explain why two (coherent) sources of light that are polarised in planes perpendicular to each other will not product observable interference fringes.
+
+    \vspace{0.5\baselineskip} The displacements \(s_1\) and \(s_2\), due to each of the two waves, are in perpendicular axes. No component of \(s_1\) can ever be in the same or opposite direction as that \(s_2\). Hence, the vector sum \(s_1+s_2\) will not be able to produce distinct maxima and minima; no bright or dark fringes are formed.
+\end{example}
     \item A longitudinal wave \emph{cannot be polarised} because the direction of oscillation of particles in the wave is \emph{parallel} to the direction of energy transfer in the wave.
 \end{itemize}
 \begin{minipage}{3cm+15.2363pt}
@@ -1240,7 +1258,13 @@ So, rearranging, we have
         \hline
     \end{longtable}
     The images above come from \ref{RVHS}.
-    \newpage
+    \begin{example}{}{}
+        Explain, in \emph{microscopic terms}, why the resistance of a wire increases as the current through it increases. \hspace*{\fill} [2]
+        \begin{itemize}
+            \item As current increases, the rate at which electrons collide into the metal lattice increases; temperature increases. \hspace*{\fill} [1]
+            \item As temperature increases, lattice ions vibrate more vigorously, hindering the flow of electrons; resistance increases. \hspace*{\fill} [1]
+        \end{itemize}
+    \end{example}
     \item The \emph{electromotive force} (e.m.f) of a \emph{source} is defined as the amount of \emph{energy converted} from \emph{non-electrical} forms of energy to \emph{electrical} energy \emph{per unit charge} as the \emph{charge passes through a complete circuit}.
     \item Internal resistance: the p.d. across a component is given by \(V=E-Ir\).
     \item Power dissipated \(P=IV\).
@@ -1630,6 +1654,22 @@ Some nice images:
         \caption[figure]{\ref{Me} An illustration of Faraday's Paradox.}
     \end{center}
 \end{itemize}
+\begin{example}{}{}
+    Initially, the switch is open. The switch is then closed for a short time and then reopened. Use Faraday's law of electromagnetic induction to explain what happens to the reading on the voltmeter. \hspace*{\fill} [5]
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{../images/2022-transformer.jpg}
+        \caption{\ref{Me}}
+        \label{fig:2022-transformer}
+    \end{figure}
+    \begin{itemize}
+        \item When the switch is closed for a short time, the circuit is closed and current flows through the primary coil. This causes the magnetic flux density in the primary coil to increase. \hspace*{\fill} [1]
+        \item The magnetic field is directed through the secondary coil by the iron core. \hspace*{\fill} [1]
+        \item This causes the magnetic flux linkage through the secondary coil to increase. Hence, by Faraday's Law, e.m.f. is induced in the secondary coil; the the voltmeter registers a nonzero reading. \hspace*{\fill} [1]
+        \item When the current in the primary coil reaches a constant value, the magnetic flux linkage through the secondary coil is constant. Thus, no e.m.f. is induced in the secondary coil. Accordingly, the voltmeter reading goes back to zero after a short time. \hspace*{\fill} [1]
+        \item When the switch is re-opened, the decrease in current and magnetic flux density in the primary coil causes the magnetic flux linkage through the secondary coil to decrease; e.m.f. is again induced momentarily in the secondary coil, but in the opposite direction, before returning to zero \hspace*{\fill} [1].
+    \end{itemize}
+\end{example}
 \chapter{Alternating Current}
 \begin{itemize}
     \item An \emph{alternating current (a.c.) source} creates an electrical \emph{current} that varies in magnitude \emph{and} direction \emph{periodically with time}, as opposed to a \emph{direct current} (d.c.) source where the \emph{direction} of the current stays \emph{constant}. 
@@ -2048,10 +2088,10 @@ Some nice images:
     \midrule
     A broad continuous spectrum known as the \emph{Bremsstrahlung continuum}. (Bremsstrahlung is braking radiation in German.)&
     \begin{itemize}
-        \item When incident electrons pass by the charged nuclei of the high atomic mass lead atoms, the strong electric forces lead to a sudden acceleration of the electrons.
+        \item When incident electrons pass by the charged nuclei of the high atomic mass lead atoms, the strong electric forces lead to a sudden deceleration of the electrons.
         \item Their kinetic energies are lost through the emission of Bremsstrahlung.
         % , which are \(X\)-ray photons of a range of energies.
-        \item Since the magnitude of the acceleration, and hence the magnitude of change in kinetic energy, experienced by the incident electrons varies continuously and is not discrete, the wavelengths of the emitted photons have a continuous distribution.
+        \item Since the magnitude of the deceleration, and hence the magnitude of change in kinetic energy, experienced by the incident electrons varies continuously and is not discrete, the wavelengths of the emitted photons have a continuous distribution.
         \item Hence, the Bremsstrahlung produces a continuous spectrum of electromagnetic radiation. 
     \end{itemize}\\
     \midrule
@@ -2147,7 +2187,7 @@ Some nice images:
 \end{minipage}%
 \begin{minipage}{0.5\textwidth}
     \begin{itemize}
-        \item[\AsteriskThin] \emph{Nuclear fission} occurs when an atomic nucleus of greater mass splits into \emph{two} nuclei, each of \emph{smaller masses} and \emph{approximately} of the \emph{same nucleon number}.
+        \item[\AsteriskThin] \emph{Nuclear fission} occurs when an atomic nucleus of greater mass splits into \emph{two} nuclei, each of \emph{smaller masses} and \emph{approximately} of the \emph{same nucleon number} as each other.
         \item[\AsteriskThin] \emph{Nuclear fusion} occurs when two nuclei of \emph{smaller nucleon numbers} fuse to form a single nucleus of a \emph{larger nucleon number}.
         \item Useful equations for calculating the energy liberated in a nuclear reaction. 
         \begin{enumerate}
@@ -2169,6 +2209,18 @@ Some nice images:
         \item \emph{Spontaneous} means that the nucleus decays because it is \emph{unstable}, not because of \emph{external conditions}.
         \item \emph{Random} means that it is impossible to predict \emph{which} nucleus will delay or \emph{when} a particular nucleus will decay.
     \end{itemize}
+    \begin{example}{}{}
+        State \emph{experimental evidence} to suggest that the process of radioactive decay is
+        \begin{enumerate}
+            \item random
+            \item spontaneous.
+        \end{enumerate}
+        \begin{enumerate}
+            \item When using a Geiger-Muller tube connected to a ratemeter, the count rate shown on the ratemeter shows unpredictable fluctuations that vary significantly each time the experiment is conducted.
+            \item When using a Geiger-Muller tube connected to a ratemeter, the average count rate is not affected by external conditions such as temperature and pressure.
+            \item  
+        \end{enumerate}
+    \end{example}
     \item[\AsteriskThin] \emph{Background radiation} is the radiation detected by a \emph{radiation counter} when \emph{no radioactive source} is nearby.
     \item[\AsteriskThin] The \emph{activity} \(A\) of a radioactive isotope is defined as the number of \emph{nuclear disintegrations per unit time}.
     \item The count rate \(C\) is the rate at which counts are triggered on a ratemeter, by ionising radiation. 
@@ -2181,6 +2233,13 @@ Some nice images:
     \item The number \(N\) of undecayed nuclei is such that \(A=-\frac{dN}{dt}=\lambda N\).
     \item The number \(N\) of undecayed nuclei, mass \(m\) of radioactive sample, activity \(A\), and count rate \(C\) all follow the equation \(y=y_0e^{-\lambda t}\) (\(y=N,m,A,C\)).
     \item[\AsteriskThin] The \emph{half-life} \(t_{1/2}\) of a \emph{radioactive isotope} is the \emph{average time} taken for its \emph{activity to be halved}. \emph{Note.} \(\lambda t_{1/2}=ln(2)\).
+    \begin{example}{the importance of semantics.}{}
+        A student defines half-life of a radioactive isotope as the \emph{time taken} for its activity to be halved. Explain why this is inappropriate. \hspace*{\fill} [2]
+        \begin{itemize}
+            \item Radioactive decay is a random process. \hspace*{\fill} [1]
+            \item The time taken to decay by half will fluctuate; we should instead consider the \emph{average} time taken. \hspace*{\fill} [1]
+        \end{itemize}
+    \end{example}
     \begin{table}[H]
         \centering
         \begin{tabular}{ScScScScSc}
@@ -2364,6 +2423,44 @@ Some nice images:
         \item Indirect effects. When radiation interacts with and breaks the bonds in water molecules, it creates free radicals: molecules which are highly reactive due to the presence of unpaired electrons. These free radicals form compounds which initiates harmful chemical reactions within cells, causing them to be destroyed.
     \end{itemize}
 \end{itemize}
+\begin{example}{radioactive dating.}{}
+    To find the age of a relic, a recreation of it is made. Suppose that 
+    \begin{enumerate}
+        \item The recreation is perfect. i.e. it is identical to the relic when it was first made.
+        \item The background count rate has remained constant throughout time at \(C_B\).
+        \item The only radioactive process that has affected the relic in its entire lifetime is \(\ce{_Z^A\text{X}}\to\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}+\dots\)
+        \item The number of \(\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}\) nuclei only changes due to the reaction \(\ce{_Z^A\text{X}}\to\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}+\dots\)
+    \end{enumerate}
+    \begin{enumerate}[label=(\alph*)]
+        \item In the absence of other radioactive samples, the relic and its recreation are found to have count rate \(C'\) and \(C\) respectively. Find the age \(T\) of the relic, in terms of the half life \(t_{1/2}\) of \(\ce{_Z^A\text{X}}\). 
+        \begin{align*}
+            C&=C_0e^{-\lambda t}\\
+            C'&=Ce^{-\frac{T\ln(2)}{t_{1/2}}}\\
+            T&=\frac{\ln(C/C')}{\ln(2)}\cdot t_{1/2}.
+        \end{align*}
+        \item The ratio of \(\ce{_Z^A\text{X}}\) to \(\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}\) for the relic and its recreation are \(k'\) and \(k\), respectively. Find the age \(T\) of the relic.
+
+        \vspace{0.5\baselineskip} Let \(M\) denote the initial number of \(\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}\) nuclei. Since \(N_0/M=k\), we have \(M=N_0/k\). Therefore,
+        \begin{align*}
+            \frac{N}{M+(N_0+N)}&=k'\\
+            \frac{N}{(1/k+1)N_0-N}&=k'\\
+            (k'+1)N&=k'(1/k+1)N_0\\
+            N_0e^{-\frac{T\ln(2)}{t_{1/2}}}&=\frac{k'(1/k+1)}{k'+1}\cdot N_0\\
+            T&=\frac{t_{1/2}}{\ln(2)}\cdot\ln\left( \frac{k'+1}{k'(1/k+1)} \right).
+        \end{align*}
+        \item What are some limitations of radioactive dating?
+        \begin{itemize}
+            \item It cannot be used for very old samples, as the activity will be very low so the calculated age may not be accurate.
+            \item We are assuming that the recreation has the same number of \(\ce{_Z^A\text{X}}\) and \(\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}+\dots\) nuclei as the relic when it was first made.
+
+            (The exact assumption depends on the question. It might instead be the concentration of \(\ce{_Z^A\text{X}}\) to \(\ce{_Z^{\mathcal{A}}\text{X}}\), instead of the exact number.)
+            \item It cannot be used for living things, if \(\ce{_Z^A\text{X}}\) or \(\ce{_{\mathcal{Z}}^{\mathcal{A}}\text{Y}}+\dots\) is carbon-14.
+
+            (Living things will continue to absorb carbon-14 from their surroundings into their tissue. This process stops, allowing the number/concentration of carbon-14 to decrease, only after death.)
+            \item[\emph{Note.}] Chemical processes do not change the \emph{ratio} of two isotopes; both are used in equal proportions as the chemical behavior of isotopes are nearly identical. 
+        \end{itemize}
+    \end{enumerate}
+\end{example}
 
 \chapter{Practical}
 \section{A-Level Trend}
