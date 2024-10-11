@@ -747,6 +747,7 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
     \item Let \(n\in \mathbb{Z}^{+}\). Similarly, to find \(\sin(n\theta)\) in terms of powers of \(\sin(\theta)\), first apply De Moivre's theorem:
     \[\cos(n\theta)+i\sin(n\theta)=(c+is)^n=\sum_{k=0}^{n}{\binom{n}{k}c^{n-k}i^ks^k}.\]
     Then, we compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).)
+    \item Let \(z^n=1\). Then, \(\sum{z^i}=z^n\sum{z^i}=\sum{z^{n+i}}\).
   \end{enumerate}
 \end{note}
 \begin{example}{Algebraic tricks to know}{}
@@ -783,6 +784,12 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
       32i\sin^5(\theta) &= 2\sin(5\theta)-5(2)i\sin(3\theta)+10(2)i\sin(\theta)\\
       \sin^5(\theta) &= \frac{1}{16}\sin(5\theta)-\frac{5}{16}\sin(3\theta)+\frac{5}{8}\sin(\theta).
     \end{align*}
+    \setcounter{enumi}{6}
+    \item Let \(\omega=e^{2i\pi/11}\). We define
+    \[\alpha=\omega+\omega^3+\omega^4+\omega^5+\omega^9 \qquad\text{and}\qquad \beta=\omega^{-1}+\omega^{-3}+\omega^{-4}+\omega^{-5}+\omega^{-9}.\]
+    Find \((x-\alpha)(x-\beta)\) in its simplest form. Notice that \(\beta=\omega^{11}\beta=\omega^{10}+\omega^8+\omega^7+\omega^6+\omega^2\). As such,
+    \[\alpha+\beta=\sum_{k=1}^{10}{\omega^k}=-1 \qquad\text{and}\qquad \alpha\beta=\underbrace{5+2\left( \sum_{k=1}^{10}{\omega^k} \right)}_{\text{the usual expansion}}=5-2=3.\]
+    Now, \((x-\alpha)(x-\beta)=x^2-(\alpha+\beta)x+\alpha\beta=x^2+x+3\).
   \end{enumerate}
 \end{example}
 \begin{note}
@@ -2113,6 +2120,14 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \item[Euler's Method:] It is computationally simpler.
     \item[Improved Euler's Method:] It is More accurate as it takes the mean of the initial and next gradient. 
   \end{enumerate}
+\end{note}
+\begin{note}
+  Explain the large discrepancy between the approximations yielded by Euler's Method and the Improved Euler's Method.
+  \begin{itemize}
+    \item There is a large increase in the gradient of the curve from [the value of \(y'(a)\)] at \(x=a\) to [the value of \(y'(b)\)] at \(x=b\). 
+    \item So, the average of the two gradients used in the Improved Euler's Method is significantly larger than [the value of \(y'(a)\)] used in Euler's Method.
+    \item Hence, a large discrepancy between the results of the two methods is observed.
+  \end{itemize}
 \end{note}
 \begin{note}
   State the condition when the Improved Euler's Method is not an improvement over Euler's Method
