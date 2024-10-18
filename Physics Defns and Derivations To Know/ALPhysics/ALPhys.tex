@@ -333,6 +333,8 @@
     \item The \emph{specific latent heat} of a body is defined as the thermal energy required to change \emph{phase} of one unit mass of a substance, \emph{without a change in temperature}.
     \item For a substance of specific latent heat of fusion (vaporisation), we write \(Q=mL_f\) (\(Q=mL_v\)).
     \item \emph{Internal energy} of a system is a sum of \emph{random distribution} of kinetic and potential energies \emph{associated with the molecules} of the system. Microscopic potential energy is due to the intermolecular forces between the molecules. Microscopic kinetic energy is due to the random motion of the molecules. 
+    \item Words such as ``insulated'' implies that there is no heat supplied to the system. i.e. \(Q=0\).
+    \item \emph{Note.} Work done versus heat supplied. Work done is the transfer of energy by force/macroscopic changes, while heat supplied is the direct transfer of thermal energy through microscopic changes. E.g. consider a liquid that is isolated from all other sources of heat. When stirring leads to an increase in temperature (via frictional heating), it is considered work done, even though the liquid experiences an increase in thermal energy.
     \item An ideal monoatomic gas of \(N\) atoms only has translational motion and no intermolecular potential energy, \(U=E_k=N\cdot\text{translational \(E_k\) of one atom}=\frac{3}{2}NkT\).
     \item For non-monoatomic ideal gases, \(U\neq \frac{3}{2}NkT\). But we know that \(U_{\text{Total}}\propto NT\) and \(U_{\text{one molecule}}\propto T\).
     \item The \emph{First Law of Thermodynamics} states that the \emph{increase} in internal energy of a closed system is the \emph{sum} of heat \emph{supplied} to the system and the work done \emph{on} the system. i.e. \(\Delta U=Q+W\).
@@ -393,8 +395,6 @@
         \caption{\ref{source:thermodynamic-processes} Some thermodynamic cyclic processes.}
         \label{fig:thermodynamic-cyclic-processes}
     \end{figure}
-    \item Words such as ``insulated'' implies that there is no heat supplied to the system. i.e. \(Q=0\).
-    \item (?) Work can be done on a system without a change in volume. For example, by stirring a fluid, net work is done against friction.  
 \end{itemize}
 
 \chapter{Circular Motion}
@@ -731,7 +731,7 @@ So, rearranging, we have
     medium) in the wave is \emph{normal} to the \emph{direction of energy transfer} of the wave.
     \item A \emph{phase} is an angle which gives a measure of the \emph{fraction of a cycle} that has been \emph{completed} by an oscillating particle or by a wave.
     \item \emph{Intensity} of a wave is the wave energy incident per unit time per unit area \emph{normal} to the wave.
-    \item \emph{Polarisation} of a wave refers to the \emph{confinement} of oscillations in \emph{only} one plane. The plane of oscillations is \emph{parallel} to the direction of energy transfer.  
+    \item \emph{Polarisation} of a wave refers to the \emph{confinement} of oscillations in \emph{only} one plane. The plane of oscillations is \emph{parallel} to the direction of energy transfer, such that the direction of oscillation is normal to the direction of energy transfer.  
 \begin{example}{}{}
     Explain why two (coherent) sources of light that are polarised in planes perpendicular to each other will not product observable interference fringes.
 
@@ -2580,6 +2580,7 @@ Some nice images:
     \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct. See table \ref{table:dpsf}.
     \item \emph{Note.} Whenever a physical quantity is given --- even a resistor clearly labelled ``\(10\Omega\)'' --- we still must account for its dpsf. However, if it's the number of turns/number of oscillations/etc, do not account for its dpsf.
     \item \emph{Note.} Even for physical constants --- such as \(e=1.60\cdot 10^{-19}\) --- their dpsf should also be taken into account! However, mathematical constants, like \(\pi\), can be disregarded in dpsf considerations. 
+    \item In any given set of repeated readings for time, the total time taken (e.g. for \(n\) oscillations) should not usually differ by more than human reaction time (\(0.2-0.4\)s).
     \item Percentage uncertainty of stopwatch,
     \[\frac{\Delta t}{t}=\frac{0.2}{\langle t \rangle}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.).\]
     \item Be careful of which quantities you are calculating. For example, in determining the radius \(r\) of an object, we might first measure its diameter \(d\). Take caution to remember to calculate \(r=d/2\), and \emph{not} carelessly write \(r=d\).  
