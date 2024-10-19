@@ -964,7 +964,7 @@ So, rearranging, we have
     \item \emph{Circular} aperture: \(\theta \approx \frac{\lambda}{b}\).
     \item \emph{Rayleigh's Criterion} is the \emph{minimum separation} between two objects in order to be distinguished as two \emph{distinct} objects:
     \[\theta \approx \frac{\lambda}{b}.\]
-    \item \emph{Rayleigh's Criterion} states that the images of two point sources are considered \emph{just resolved} when the \emph{central maximum} of the diffraction pattern of one image \emph{coincides} with the \emph{first minimum} of the diffraction pattern of the other. 
+    \item \emph{Rayleigh's Criterion} states that the images of two point sources are considered \emph{just resolved} when the \emph{central maximum} of the diffraction pattern of one image \emph{coincides} with the \emph{first order minimum} of the diffraction pattern of the other. 
     \item Sources are \emph{coherent} if they have a \emph{constant phase difference} with respect to time.
     \item \emph{Interference} is the \emph{superposing} of two or more waves to produce \emph{regions of maxima and minima} in space, according to the \emph{Principle of Superposition}.
     \item Conditions for an \emph{observable} interference pattern: 
@@ -1019,11 +1019,12 @@ So, rearranging, we have
     \end{figure}
     \item Diffraction grating: For a slit-separation \(d\) and \(n \in \mathbb{Z}^{+}_{0}\), the angular positions for the \(n\)th order maxima satisfies
     \[d \sin(\theta_n)=n\lambda.\]
-    \begin{center}
-        \includegraphics[scale=0.1]{../images/Diffraction Grating.jpg}
-        \captionsetup{type=figure}
-        \captionof{figure}{\ref{RVHS} Diffraction grating.}
-    \end{center}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{../images/Diffraction-Grating/grating.pdf}
+        \caption{\ref{source:grating} Diffraction grating.}
+        \label{fig:grating}
+    \end{figure}
     \item Check answer: For visible light, \(400\text{nm} \leq \lambda \leq 700\text{nm}\).
     \item \(\text{Total number of bright regions/maximas}=2\mathsf{n}+1\), where \(\mathsf{n}\) is the highest order maxima possible.
     \item \(\text{Total number of dark regions/minimas}=2\mathsf{m}\), where \(\mathsf{m}\) is the highest order minima possible.
@@ -1042,8 +1043,7 @@ So, rearranging, we have
     \begin{example}{}{}
         A beam of white light is shone onto a diffraction grating with slit separation \(d\). The light source consists of wavelength between \(l\) m to \(u\) m. Determine whether the first and second spectra overlap.
 
-        \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
-        This means that we want to see whether the outer end of the first order diffracted light will touch the inner end of the second order diffracted light. So, we calculate\vspace{-1em}
+        \vspace{0.5\baselineskip} This means that we want to see whether the outer end of the first order diffracted light will touch the inner end of the second order diffracted light. So, we calculate\vspace{-1em}
         \begin{center}
             \begin{minipage}{0.25\textwidth}
                     \begin{align*}
@@ -1067,6 +1067,13 @@ So, rearranging, we have
             \caption{\ref{Me} Spectra overlap.}
             \label{fig:spectra-overlap}
         \end{figure}
+    \end{example}
+    \begin{example}{Rotating a diffraction grating.}{}
+        The diffraction grating is now rotated through a small angle so that the incident light is no longer normal to the grating. The resultant diffraction pattern is no longer symmetrical. Suggest qualitatively, any other effects on the appearance of the diffraction pattern.
+        \begin{itemize}
+            \item The zeroth order will not be along the normal to the plane of the grating.
+            \item The number of maxima observable will not be symmetrical about the zeroth order. There will be more orders, and hence more diffraction fringes, observed on the side of the zeroth order where the rotation is proceeding than on the other side.
+        \end{itemize}
     \end{example}
 \end{itemize}
 \begin{figure}[htbp]
@@ -1535,6 +1542,14 @@ So, rearranging, we have
         \captionsetup{type=figure}
         \caption[figure]{\ref{Left and right hand rules} Left and right hand rules.}
     \end{center}
+    \begin{example}{}{}
+        Mark with a letter \(X\) the position where the resultant magnetic flux density is zero. Explain your reasoning \hspace*{\fill} [2]
+        \begin{itemize}
+            \item (Explain) To obtain zero magnetic flux density, the direction of the magnetic flux density due to current must be opposite that of the Earth. 
+            \item (Direction) Using the right hand grip rule, this is to the east of the wire.
+            \item (Distance) To have the same magnitude as the Earth's magnetic flux density, the position should be \rule{1cm}{0.01mm} (e.g. nearer than 19cm).
+        \end{itemize} 
+    \end{example}
     \item At any point some perpendicular distance \(d\) from the center of an \emph{infinitely long straight} current-carrying conductor, the magnitude of the magnetic flux is given by
     \[B=\frac{\mu_0I}{2\pi d}.\]
     Here, \(\mu_0=4\pi\cdot 10^{-7}\) is the permeability of free space.
@@ -2974,6 +2989,7 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{source:single-slit-diffraction} Single slit diffraction and the combined effects of diffraction and interference (Figures \ref{fig:single-slit-diffraction} and \ref{fig:combined-single-double-diffraction}) \url{https://tikz.net/optics_diffraction/}
     \item\label{source:double-slit-diffraction(a)} Double slit diffraction (Figure \ref{fig:double-slit-diffraction(a)}) \url{https://tikz.net/optics_twoslit/}
     \item\label{source:double-slit-diffraction(b)} Double slit diffraction (Figure \ref{fig:double-slit-diffraction(b)}) \url{https://tex.stackexchange.com/a/469159}
+    \item\label{source:grating} Diffraction grating (Figure \ref{fig:grating}) \url{https://tex.stackexchange.com/a/599002}
     \item\label{source:pgf-interference} Interference patterns generated by pgf-interference (Figure \ref{fig:pgf-interference}) \url{https://ctan.org/pkg/pgf-interference?lang=en}
     \item\label{Electric field lines of a point charge} Electric field lines of a point charge \url{https://tikz.net/electric_fieldlines1/}
     \item\label{Electric field lines of two charges} Electric field lines of two charges \url{https://tikz.net/electric_fieldlines2/}
