@@ -117,7 +117,6 @@
     \label{fig:fbd-ladder}
 \end{figure}
 \begin{itemize}
-    \item State what is meant by a field of force. 
     \item A field of force due to a body's property (e.g. charge, mass) is a region in space in which a body carrying that property experiences a force when it is placed in the field.
     \item \emph{Hooke's Law} states that the magnitude of the force acting on a spring directly proportional to the extension in the spring, if the \emph{limit of proportionality} of the spring is not exceeded.
     \item The \emph{center of gravity} of an object is the point at which the entire weight of a body may be considered to act.
@@ -271,7 +270,8 @@
     \item \emph{Charles' Law}. When the pressure of an ideal gas remains constant, its volume \(V\) is directly proportional to its thermodynamic temperature \(T/K\). i.e. \(V_1/T_1=V_2/T_2\).
     \item \emph{Gay-Lussac's Law}. When the volume of an ideal gas remains constant, its pressure \(p\) is directly proportional to its thermodynamic temperature \(T/K\). i.e. \(p_1/T_1=p_2/T_2\).
     \item Let \(n\) be the amount of gas in moles and the integer \(N\) be the number of gas molecules. Then, for the molar gas constant \(R=8.31\) J K\(^{-1}\) mol\(^{-1}\) and Boltzmann's constant \(k=1.38\cdot 10^{-23}\) J K\(^{-1}\), the equation of state for an ideal gas is \(pV=nRT=NkT\).
-    \item Some useful conversions: \(n=\frac{\text{g}}{\text{g/mol}}=\frac{N}{N_A}\). E.g. \(^{12}_6\text{C}\) and \(^{16}_8\text{O}\) so the molecular mass of CO is \(12+16=28\) g/mol.
+    \item Some useful conversions. For \(\ce{_Z^A\text{X}}\), we have the ratio \(1\text{ mole}:Z\text{ grams}\) and \(n=\frac{N}{N_A}=\frac{m/g}{Z}\).
+    % E.g. \(\ce{^{12}_6\text{C}}\) and \(\ce{^{16}_8\text{O}}\) so the molecular mass of CO is \(12+16=28\) g/mol.
     \newpage
     \item ~\\[-3mm]
     \begin{tabular}{|Sc|Sl|}
@@ -331,6 +331,7 @@
     \item The \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise its temperature by one Kelvin / degree Celsius. 
     \item The specific \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise the temperature of one unit mass of the substance by one Kelvin / degree Celsius.
     \item For a substance of mass \(m\), heat capacity \(C\), and specific heat capacity \(c\), we write \(Q=C\Delta\theta=mc\Delta\theta\).
+    \item \emph{Note.} In the case that the mass of gas present is not explicitly given, check whether the question specified what the gas is. For example, there might have been a sneaky mention that the gas is neon-20, so \(m=20N\) unified atomic masses can be deduced 
     \item The \emph{specific latent heat} of a body is defined as the thermal energy required to change \emph{phase} of one unit mass of a substance, \emph{without a change in temperature}.
     \item For a substance of specific latent heat of fusion (vaporisation), we write \(Q=mL_f\) (\(Q=mL_v\)).
     \item \emph{Internal energy} of a system is a sum of \emph{random distribution} of kinetic and potential energies \emph{associated with the molecules} of the system. Microscopic potential energy is due to the intermolecular forces between the molecules. Microscopic kinetic energy is due to the random motion of the molecules. 
@@ -1632,7 +1633,7 @@ Some nice images:
     \item \emph{Magnetic flux linkage} through a coil is defined as the \emph{product} of the \emph{number of turns} of the coil and the magnetic flux through each turn of the coil.
     \item The magnetic flux linkage through a coil of \(N\) turns is hence
     \[N\Phi=NB_\perp A.\]
-    \item \emph{Faraday's Law of Electromagnetic Induction} states that the \emph{e.m.f. induced} in a \emph{conductor} is \emph{directly proportional} to the \emph{rate of change of magnetic flux linkage}.
+    \item \emph{Faraday's Law of Electromagnetic Induction} states that the \emph{e.m.f. induced} is \emph{directly proportional} to the \emph{rate of change of magnetic flux linkage}.
     \item \emph{Lenz's Law} states that the \emph{direction of the induced e.m.f.} is such that it may produce \emph{an effect} that \emph{opposes the change} causing it.
     \item Lenz's Law is a consequence of conservation of energy. Mechanical work done to enable the change in magnetic flux linkage is converted into electrical energy.
     \item Faraday's and Lenz's Laws imply that the e.m.f generated is
@@ -1676,23 +1677,26 @@ Some nice images:
         \captionsetup{type=figure}
         \caption[figure]{\ref{Me} An illustration of Faraday's Paradox.}
     \end{center}
+    \begin{example}{}{}
+        Initially, the switch is open. The switch is then closed for a short time and then reopened. Use Faraday's law of electromagnetic induction to explain what happens to the reading on the voltmeter. \hspace*{\fill} [5]
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{../images/2022-transformer.jpg}
+            \caption{\ref{Me}}
+            \label{fig:2022-transformer}
+        \end{figure}
+        \begin{itemize}
+            \item When the switch is closed for a short time, the circuit is closed and current flows through the primary coil. This causes the magnetic flux density in the primary coil (and hence the core) to increase. \hspace*{\fill} [1]
+            \item The magnetic field is directed through the secondary coil by the iron core. \hspace*{\fill} [1]
+            \item This causes the magnetic flux linkage through the secondary coil to increase. Hence, by Faraday's Law, e.m.f. is induced in the secondary coil; the the voltmeter registers a nonzero reading. \hspace*{\fill} [1]
+            \item When the current in the primary coil reaches a constant value, the magnetic flux linkage through the secondary coil is constant. Thus, no e.m.f. is induced in the secondary coil. Accordingly, the voltmeter reading goes back to zero after a short time. \hspace*{\fill} [1]
+            \item When the switch is re-opened, the decrease in current and magnetic flux density in the primary coil causes the magnetic flux linkage through the secondary coil to decrease; e.m.f. is again induced momentarily in the secondary coil, but in the opposite direction, before returning to zero \hspace*{\fill} [1].
+        \end{itemize}
+    \end{example}
+    \item If asked to explain why an alternating current/e.m.f. is produced in the secondary coil, consider writing what follows. 
+    
+    \vspace{0.5\baselineskip} Since the rate of change of magnetic flux linkage alternates due to the alternating (sinusoidal) primary current, the induced e.m.f. in the secondary coil also alternates with the same frequency as the primary current.
 \end{itemize}
-\begin{example}{}{}
-    Initially, the switch is open. The switch is then closed for a short time and then reopened. Use Faraday's law of electromagnetic induction to explain what happens to the reading on the voltmeter. \hspace*{\fill} [5]
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{../images/2022-transformer.jpg}
-        \caption{\ref{Me}}
-        \label{fig:2022-transformer}
-    \end{figure}
-    \begin{itemize}
-        \item When the switch is closed for a short time, the circuit is closed and current flows through the primary coil. This causes the magnetic flux density in the primary coil to increase. \hspace*{\fill} [1]
-        \item The magnetic field is directed through the secondary coil by the iron core. \hspace*{\fill} [1]
-        \item This causes the magnetic flux linkage through the secondary coil to increase. Hence, by Faraday's Law, e.m.f. is induced in the secondary coil; the the voltmeter registers a nonzero reading. \hspace*{\fill} [1]
-        \item When the current in the primary coil reaches a constant value, the magnetic flux linkage through the secondary coil is constant. Thus, no e.m.f. is induced in the secondary coil. Accordingly, the voltmeter reading goes back to zero after a short time. \hspace*{\fill} [1]
-        \item When the switch is re-opened, the decrease in current and magnetic flux density in the primary coil causes the magnetic flux linkage through the secondary coil to decrease; e.m.f. is again induced momentarily in the secondary coil, but in the opposite direction, before returning to zero \hspace*{\fill} [1].
-    \end{itemize}
-\end{example}
 \chapter{Alternating Current}
 \begin{itemize}
     \item An \emph{alternating current (a.c.) source} creates an electrical \emph{current} that varies in magnitude \emph{and} direction \emph{periodically with time}, as opposed to a \emph{direct current} (d.c.) source where the \emph{direction} of the current stays \emph{constant}. 
@@ -1719,8 +1723,9 @@ Some nice images:
         \item The fuse will only be blown if its rating is \emph{lower} than the \emph{r.m.s.} current. \hspace*{\fill} [1]
         \item The peak current only occurs for a very short time. Hence, the \emph{heat dissipated} by the peak current is \emph{insufficient} to blow the fuse. \hspace*{\fill} [1]
     \end{itemize}
-    \item Transformers. Let \(N_P\), \(V_P\), and \(I_P\) be the number of turns, rms voltage, and rms current, respectively, in the primary winding. (The peak voltage/current works too, for a sinusoidal wave form, by proportionality.) Similarly define \(N_S\), \(V_S\), and \(I_S\) for the secondary winding. Then,
-    \[\text{the turns ratio}\coloneq\frac{N_S}{N_P}=\frac{V_S}{V_P}=\frac{I_P}{I_S}.\]
+    \item An \emph{ideal transformer} is 100\% efficient with no power loss, such that the input and output power are equal.
+    \item Let \(N_P\), \(V_P\), and \(I_P\) be the number of turns, rms voltage, and rms current, respectively, in the primary winding. (The peak voltage/current works too, for a sinusoidal wave form, by proportionality.) Similarly define \(N_S\), \(V_S\), and \(I_S\) for the secondary winding. Then, the turns ratio is defined as
+    \[\frac{N_S}{N_P}=\frac{V_S}{V_P}=\frac{I_P}{I_S}.\]
     (To quickly determine which side carries a greater voltage, we can use the principle of `more turns, more voltage'.)
     \item A step up transformer is one that increases voltage, i.e. \(V_S>V_P\) (or \(N_S>N_P\)).
     \item A step down transformer is one that decreases voltage, i.e. \(V_P>V_S\) (or \(N_P>N_S\)).
@@ -1743,7 +1748,32 @@ Some nice images:
         \item Magnetostriction. Magnetic flux in a ferromagnetic fore causes it to physically expand and contract slightly with each cycle of the magnetic field. This produces a \emph{buzzing sound} and can cause losses due to \emph{frictional heating}.
         \item Mechanical losses. The alternating magnetic field causes fluctuating forces between the primary and secondary windings. These cause vibrations within nearby metalwork, adding to the \emph{buzzing noise} and \emph{consuming a small amount of power}.
     \end{enumerate}
-    \item Power is typically transmitted at high voltages to minimise the power lost during transmission.
+    \begin{example}{}{}
+        State two reasons why soft iron, which is easily magnetised and demagnetised, is used as the core.
+        \begin{itemize}
+            \item Soft iron has low hysteresis losses; energy dissipated each cycle of magnetisation is reduced.
+            \item Soft iron's quick magnetisation and demagnetisation allows for a high frequency alternating current.
+            \item Quick magnetisation means that there are no residual effects if the transformer is not in use.
+        \end{itemize}
+    \end{example}
+    \begin{example}{}{}
+        Explain how the lamination of the core reduces energy losses.
+        \begin{itemize}
+            \item The changing magnetic flux linkage induces eddy currents. 
+            \item The laminated sheets block the path of eddy currents, so smaller loops of eddy currents form within each laminate.
+            \item Hence, thermal energy losses are reduced.
+        \end{itemize}
+    \end{example}
+    \item Power is typically transmitted at high voltages to minimise the power lost during transmission, which is proportional to \(1/V^2\) (r.m.s.) as seen below.
+    \begin{example}{}{}
+        A power plant sends an average of \(\langle P \rangle\) watts of electrical power to a town by electrical cables, that have a total resistance of \(R\) ohms. What is the power lost in the cables when the power was transmitted at \(V\) volts? 
+    
+        \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
+        \begin{enumerate}
+            \item[\textcolor{green!70!black}{\checkmark}] Power lost in the cables\({}=I^2R=\left(\highlight[green!70]{\dfrac{\langle P \rangle}{V}}\right)^2R\).
+            \item[\textcolor{red}{\(\times\)}] Power lost in the cables\({}=V^2/R\). This is \textcolor{red}{incorrect} because \(V\) is not the voltage across the cables. Rather, it is the rms voltage. 
+        \end{enumerate}
+    \end{example}
     \item Rectification.
     \begin{itemize}
         \item A \emph{half-wave rectification} converts only \emph{half} of the a.c. into d.c. by allowing current flow in only one direction.
@@ -1794,15 +1824,6 @@ Some nice images:
         \end{figure} 
     \end{itemize}
 \end{itemize}
-\begin{example}{}{}
-    A power plant sends an average of \(\langle P \rangle\) watts of electrical power to a town by electrical cables, that have a total resistance of \(R\) ohms. What is the power lost in the cables when the power was transmitted at \(V\) volts? 
-
-    \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
-    \begin{enumerate}
-        \item[\textcolor{green!70!black}{\checkmark}] Power lost in the cables\({}=I^2R=\left(\highlight[green!70]{\dfrac{\langle P \rangle}{V}}\right)^2R\).
-        \item[\textcolor{red}{\(\times\)}] Power lost in the cables\({}=V^2/R\). This is \textcolor{red}{incorrect} because \(V\) is not the voltage across the cables. Rather, it is the rms voltage. 
-    \end{enumerate}
-\end{example}
 \begin{landscape}
     \chapter{Quantum Physics}
     \begin{itemize}
@@ -2111,11 +2132,11 @@ Some nice images:
     \midrule
     A broad continuous spectrum known as the \emph{Bremsstrahlung continuum}. (Bremsstrahlung is braking radiation in German.)&
     \begin{itemize}
-        \item When incident electrons pass by the charged nuclei of the high atomic mass lead atoms, the strong electric forces lead to a sudden deceleration of the electrons.
-        \item Their kinetic energies are lost through the emission of Bremsstrahlung.
+        \item When high speed incident electrons pass by the (positively) charged nuclei of the high atomic mass lead atoms, the strong (attractive) electric forces lead to a sudden, large deceleration of the electrons.
+        \item Their kinetic energies are lost through the emission of Bremsstrahlung X-ray photons.
         % , which are \(X\)-ray photons of a range of energies.
         \item Since the magnitude of the deceleration, and hence the magnitude of change in kinetic energy, experienced by the incident electrons varies continuously and is not discrete, the wavelengths of the emitted photons have a continuous distribution.
-        \item Hence, the Bremsstrahlung produces a continuous spectrum of electromagnetic radiation. 
+        \item Hence, Bremsstrahlung produces a continuous spectrum of electromagnetic radiation. 
     \end{itemize}\\
     \midrule
     \newpage
@@ -2165,24 +2186,31 @@ Some nice images:
             \toprule
             Observation & Explanation\\
             \midrule
-            \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{minipage}{0.35\textwidth}
                 Most \(\alpha\)-particles passed straight through the foil, \emph{undeflected}.
             \end{minipage}& 
-            \begin{minipage}{0.5\textwidth-25.2pt}
-                The nucleus is \emph{very small} in size \emph{compared} to the atom as a whole, which mostly comprises of \emph{empty space}.
+            \begin{minipage}{0.65\textwidth-50.4pt}
+                An atom comprises of mostly empty space, with \emph{most of its mass concentrated in its nucleus which is very small in size \hly{compared} to the atom}. Hence, most pass through the empty space in the metal foil's atoms with minimal deflection.
             \end{minipage}\\
             \midrule
-            \begin{minipage}{0.5\textwidth-25.2pt}
+            \begin{minipage}{0.35\textwidth}
                 Less than \hly{1\%} of the \(\alpha\)-particles were \emph{scattered backwards}, with an angle of \emph{deflection} exceeding \(90^\circ\).
             \end{minipage}& 
-            \begin{minipage}{0.5\textwidth-25.2pt}
-                Most of the mass of an atom is \emph{concentrated} in a \emph{very small positively charged} region.
+            \begin{minipage}{0.65\textwidth-50.4pt}
+                Only a very small proportion of \(\alpha\)-particles --- that pass sufficiently close to or are incident on the nucleus of a metal foil atom --- experience \emph{strong repulsive electric forces} by the nucleus and are hence deflected by large angles\({}>90^{\circ}\).
             \end{minipage}\\
             \bottomrule
         \end{tabular}
         \caption{The Rutherford-Geiger-Marsden experiment: observations and explanations.}
         \label{table:rutherford-geiger-marsden}
     \end{table}
+    \begin{example}{}{}
+        In the \(\alpha\)-particle scattering experiment, only a small proportion of the \(\alpha\)-particles incident on the metal foil are deflected through angles greater than \(90^{\circ}\). \hspace*{\fill} [3]
+        % \begin{itemize}
+        %     \item An atom comprises of mostly empty space, with \emph{most of its mass concentrated in its nucleus which is very small in size compared to the atom}. Hence, most pass through the empty space in the metal foil's atoms with minimal deflection.
+        %     \item Only a very small proportion of \(\alpha\)-particles --- that pass sufficiently close to or are incident on the nucleus of a metal foil atom --- experience \emph{strong repulsive electric forces} by the nucleus and are hence deflected by large angles\({}>90^{\circ}\).
+        % \end{itemize}
+    \end{example}
     \item[\AsteriskThin] A \emph{isotope} is one of two or more atoms with the \emph{same atomic number} but \emph{different number of neutrons}.
     \item[\AsteriskThin] The \emph{unified atomic mass unit} \(u\) is equivalent to \emph{one-twelfth} of the mass of a carbon-12 atom. i.e. 1 \(u=1.66\cdot 10^{-27}\) kg.
     \item[\AsteriskThin] The \emph{mass defect} is the amount by which the mass of an atomic \emph{nucleus} is less than the sum of the masses of its \emph{constituent particles}. i.e.
@@ -2238,10 +2266,10 @@ Some nice images:
             \item random
             \item spontaneous.
         \end{enumerate}
+        Answer:
         \begin{enumerate}
             \item When using a Geiger-Muller tube connected to a ratemeter, the count rate shown on the ratemeter shows unpredictable fluctuations that vary significantly each time the experiment is conducted.
             \item When using a Geiger-Muller tube connected to a ratemeter, the average count rate is not affected by external conditions such as temperature and pressure.
-            \item  
         \end{enumerate}
     \end{example}
     \item[\AsteriskThin] \emph{Background radiation} is the radiation detected by a \emph{radiation counter} when \emph{no radioactive source} is nearby.
@@ -2429,17 +2457,24 @@ Some nice images:
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{../images/Beta-minus_Decay.pdf}
-            \caption{\ref{source:beta-decay} Illustration of a beta decay.}
+            \caption{\ref{source:beta-decay} Beta decay.}
             \label{fig-beta-decay}
         \end{figure}
     \end{minipage}%
     \begin{minipage}{0.5\textwidth}
         \begin{itemize}
-            \item While a couple mm or cm of metal suffices to stop \(\beta\)-particles, X-rays (bremsstrahlung) may be produced outside the container. So, thicker layers of lower atomic mass materials --- plastic, wood, water, etc --- may be preferable.
             \item In a beta decay, a \emph{neutrino} is emitted along with the \(\beta\)-particle, carrying away some kinetic energy and momentum. Hence, the electron emission may not be collinear, in the opposite direction of, the recoil of the nucleus.
+            \item While a couple mm or cm of metal suffices to stop \(\beta\)-particles, X-rays (bremsstrahlung) may be produced outside the container: 
         \end{itemize}
     \end{minipage}
 \begin{itemize}
+    \item[]
+        \begin{itemize}
+            \item When \(\beta\)-particles --- electrons moving at \emph{high speeds} --- pass by the positively charged aluminum nuclei, they experience a sudden, \emph{large} deceleration. 
+            \item The kinetic energy of the \(\beta\)-particles are lost through the emission of Bremsstrahlung X-ray photons.  
+            \item X-ray photons have a higher penetrating power than \(\beta\)-particles. So, while \(\beta\) particles are absorbed, X-ray photons pass through the aluminum walls.
+        \end{itemize}
+        So, thicker layers of lower atomic mass materials --- plastic, wood, water, etc --- may be preferable.
     \item Biological effects of radiation.
     \begin{itemize}
         \item Direct effects. When radiation interacts with DNA, affecting (or even breaking) the bonds within, it impacts the ability of a cell to reproduce and survive. Mutations may also occur, eventually leading to cancer.
