@@ -2638,7 +2638,7 @@ Some nice images:
     \item After finishing calculations for a question, always check whether the number of s.f. or d.p. is correct. See table \ref{table:dpsf}.
     \item \emph{Note.} Whenever a physical quantity is given --- even a resistor clearly labelled ``\(10\Omega\)'' --- we still must account for its dpsf. However, if it's the number of turns/number of oscillations/etc, do not account for its dpsf.
     \item \emph{Note.} Even for physical constants --- such as \(e=1.60\cdot 10^{-19}\) --- their dpsf should also be taken into account! However, mathematical constants, like \(\pi\), can be disregarded in dpsf considerations. 
-    \item In any given set of repeated readings for time, the total time taken (e.g. for \(n\) oscillations) should not usually differ by more than human reaction time (\(0.2-0.4\)s).
+    \item In any set of repeated readings for time, the total time taken (e.g. for \(n\) oscillations) should not usually differ by more than human reaction time (\(0.2-0.4\)s).
     \item Percentage uncertainty of stopwatch,
     \[\frac{\Delta t}{t}=\frac{0.2}{\langle t \rangle}\cdot 100\%=\rule{0.5cm}{0.05mm}\,\%\ (1\ s.f.).\]
     \item Be careful of which quantities you are calculating. For example, in determining the radius \(r\) of an object, we might first measure its diameter \(d\). Take caution to remember to calculate \(r=d/2\), and \emph{not} carelessly write \(r=d\).  
@@ -2648,6 +2648,7 @@ Some nice images:
         \item It may be difficult to precisely measure the height \(h\) of a suspended object (with a metre rule). So, we use \(\Delta h=0.2\) cm, instead of the usual \(0.1\) cm. 
         \item It is difficult to maintain protraction when measuring an angle \(\theta\) (freehand) between, say, a metre rule and a string. Therefore, we account for this by taking \(\Delta\theta=3^\circ\), in place of the usual \(1^\circ\).
     \end{enumerate}
+    In general, when expecting such sources of error, a safe bet is to take the absolute uncertainty to be twice the precision of the instrument. 
     \item Make the retort stands face inwards to increase stability
 \end{itemize}
 \section{Tables \& Graphing}
@@ -2675,7 +2676,6 @@ Some nice images:
         \item Dpsf of calculated data
         \item Number of datasets (see Table \ref{table:practical-graph-points})
     \end{enumerate}
-    \item We should have at least six readings to plot.
     \item The dependent variable is always plotted as the horizontal axis.
     \item Always include axis labels for every big square / every 2.0 cm.
     \item When drawing a best fit line, take note of the following:
@@ -2738,7 +2738,7 @@ Some nice images:
     \item Linearisation statement: 
     \begin{itemize}
         \item The equation can be rewritten as \(y=mx+c\). E.g. \(\frac{1}{L}=A+Ar\cdot\frac{1}{R_2}\).
-        \item Plot \(y\) against \(x\). Then, if a straight line is obtained, the vertical intercept is \(c\) and the gradient is \(m\). 
+        \item Plot \(y\) against \(x\). Then, if a straight best-fit line is obtained, the vertical intercept is \(c\) and the gradient is \(m\). 
     \end{itemize}
     \item Draw a gradient triangle using dotted lines and label the selected points (do not mark these points out using a dot/cross/etc).
     \item Always check that the two points selected for calculating gradient are stated to the correct number of decimal places, corresponding to half the smallest square.
@@ -2769,8 +2769,8 @@ Some nice images:
     \item State/explain whether or not the results of your experiment supports the relationship that \rule{1cm}{0.05mm}\,.
     \[\text{Percentage difference}=\frac{k_{\text{larger}}-k_{\text{smaller}}}{k_{\text{larger}}}\cdot 100\%.\]
     \begin{itemize}
-        \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%>\rule{0.5cm}{0.05mm}\%=\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment does not support the suggested relationship.
-        \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%\leq\rule{0.5cm}{0.05mm}\%=\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment supports the suggested relationship.
+        \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%>\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment does not support the suggested relationship.
+        \item Since the percentage difference of \(k=\rule{0.5cm}{0.05mm}\%\leq\rule{0.5cm}{0.05mm}\%={}\)the percentage uncertainty of \(\rule{0.5cm}{0.05mm}\)\,, the results of the experiment supports the suggested relationship.
     \end{itemize}
     \item Use your values in (f)(ii) to plot another point \(Z\) on your graph. State whether this point agrees with the pattern of the other points on your graph, with reference to your values in (a)(v) --- where we obtained two values for \(y\) (e.g. current \(I\)).
     \begin{itemize}
