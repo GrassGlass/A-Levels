@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 OCT 2024 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 OCT 2024 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2737,92 +2737,92 @@ Underfull \hbox (badness 1117) in paragraph at lines 2988--2989
  []
 
 [82]
-Underfull \hbox (badness 10000) in paragraph at lines 3031--3032
+Underfull \hbox (badness 10000) in paragraph at lines 3030--3031
 \T1/zplTLF/m/n/10 (mercury-in-glass/temperature
  []
 
 <../images/thermocouple-planning-diagram.jpg, id=2596, 1084.05pt x 1586.92876pt>
 File: ../images/thermocouple-planning-diagram.jpg Graphic file (type jpg)
 <use ../images/thermocouple-planning-diagram.jpg>
-Package pdftex.def Info: ../images/thermocouple-planning-diagram.jpg  used on input line 3043.
+Package pdftex.def Info: ../images/thermocouple-planning-diagram.jpg  used on input line 3042.
 (pdftex.def)             Requested size: 171.99922pt x 251.78291pt.
 
-Overfull \hbox (3.91689pt too wide) in paragraph at lines 3068--3068
+Overfull \hbox (3.91689pt too wide) in paragraph at lines 3067--3067
  []|\T1/zplTLF/m/n/10 Mechanics| 
  []
 
 <../images/electronic-timer-light-gates.jpg, id=2597, 958.58125pt x 558.085pt>
 File: ../images/electronic-timer-light-gates.jpg Graphic file (type jpg)
 <use ../images/electronic-timer-light-gates.jpg>
-Package pdftex.def Info: ../images/electronic-timer-light-gates.jpg  used on input line 3076.
+Package pdftex.def Info: ../images/electronic-timer-light-gates.jpg  used on input line 3075.
 (pdftex.def)             Requested size: 149.99922pt x 87.3283pt.
 
-Underfull \hbox (badness 7649) in paragraph at lines 3075--3078
+Underfull \hbox (badness 7649) in paragraph at lines 3074--3077
 \T1/zplTLF/m/n/10 gates is small, the av-er-age
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 3083--3084
+Underfull \hbox (badness 4940) in paragraph at lines 3082--3083
 []\T1/zplTLF/m/n/10 Mop up any spillage of
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 3083--3084
+Underfull \hbox (badness 1694) in paragraph at lines 3082--3083
 \T1/zplTLF/m/n/10 oil/water to avoid in-juries
  []
 
 <../images/gaussmeter-Hall-probe.jpg, id=2598, 909.3975pt x 510.90875pt>
 File: ../images/gaussmeter-Hall-probe.jpg Graphic file (type jpg)
 <use ../images/gaussmeter-Hall-probe.jpg>
-Package pdftex.def Info: ../images/gaussmeter-Hall-probe.jpg  used on input line 3120.
+Package pdftex.def Info: ../images/gaussmeter-Hall-probe.jpg  used on input line 3119.
 (pdftex.def)             Requested size: 149.99922pt x 84.26512pt.
 <../images/signal-gen-loudspeaker.jpg, id=2599, 853.1875pt x 587.19376pt>
 File: ../images/signal-gen-loudspeaker.jpg Graphic file (type jpg)
 <use ../images/signal-gen-loudspeaker.jpg>
-Package pdftex.def Info: ../images/signal-gen-loudspeaker.jpg  used on input line 3129.
+Package pdftex.def Info: ../images/signal-gen-loudspeaker.jpg  used on input line 3128.
 (pdftex.def)             Requested size: 171.99922pt x 118.37744pt.
 <../images/cro-transformer.jpg, id=2600, 1084.05pt x 545.03625pt>
 File: ../images/cro-transformer.jpg Graphic file (type jpg)
 <use ../images/cro-transformer.jpg>
-Package pdftex.def Info: ../images/cro-transformer.jpg  used on input line 3132.
+Package pdftex.def Info: ../images/cro-transformer.jpg  used on input line 3131.
 (pdftex.def)             Requested size: 171.99922pt x 86.47572pt.
 <../images/signal-gen-voltmeter-transformer.jpg, id=2601, 1084.05pt x 560.0925pt>
 File: ../images/signal-gen-voltmeter-transformer.jpg Graphic file (type jpg)
 <use ../images/signal-gen-voltmeter-transformer.jpg>
-Package pdftex.def Info: ../images/signal-gen-voltmeter-transformer.jpg  used on input line 3133.
+Package pdftex.def Info: ../images/signal-gen-voltmeter-transformer.jpg  used on input line 3132.
 (pdftex.def)             Requested size: 171.99922pt x 88.86455pt.
 <../images/cro-mic.jpg, id=2602, 954.56625pt x 598.235pt>
 File: ../images/cro-mic.jpg Graphic file (type jpg)
 <use ../images/cro-mic.jpg>
-Package pdftex.def Info: ../images/cro-mic.jpg  used on input line 3134.
+Package pdftex.def Info: ../images/cro-mic.jpg  used on input line 3133.
 (pdftex.def)             Requested size: 171.99922pt x 107.78719pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3132--3135
+Underfull \hbox (badness 10000) in paragraph at lines 3131--3134
 
  []
 
 <../images/Helmholtz-coil.jpg, id=2603, 1084.05pt x 1165.35374pt>
 File: ../images/Helmholtz-coil.jpg Graphic file (type jpg)
 <use ../images/Helmholtz-coil.jpg>
-Package pdftex.def Info: ../images/Helmholtz-coil.jpg  used on input line 3142.
+Package pdftex.def Info: ../images/Helmholtz-coil.jpg  used on input line 3141.
 (pdftex.def)             Requested size: 171.99922pt x 184.8956pt.
-[83] [84] [85 <../images/thermocouple-planning-diagram.jpg>] [86 <../images/electronic-timer-light-gates.jpg>] [87 <../images/gaussmeter-Hall-probe.jpg>]
-<../images/Helmholtz-Coil/coil.pdf, id=2634, 194.95435pt x 210.925pt>
+[83] [84 <../images/thermocouple-planning-diagram.jpg>] [85 <../images/electronic-timer-light-gates.jpg>] [86 <../images/gaussmeter-Hall-probe.jpg>]
+<../images/Helmholtz-Coil/coil.pdf, id=2630, 194.95435pt x 210.925pt>
 File: ../images/Helmholtz-Coil/coil.pdf Graphic file (type pdf)
 <use ../images/Helmholtz-Coil/coil.pdf>
-Package pdftex.def Info: ../images/Helmholtz-Coil/coil.pdf  used on input line 3151.
+Package pdftex.def Info: ../images/Helmholtz-Coil/coil.pdf  used on input line 3150.
 (pdftex.def)             Requested size: 301.00192pt x 325.68483pt.
- [88 <../images/signal-gen-loudspeaker.jpg> <../images/cro-transformer.jpg> <../images/signal-gen-voltmeter-transformer.jpg> <../images/cro-mic.jpg> <../images/Helmholtz-coil.jpg>] [89 <../images/Helmholtz-Coil/coil.pdf>]
+ [87 <../images/signal-gen-loudspeaker.jpg> <../images/cro-transformer.jpg> <../images/signal-gen-voltmeter-transformer.jpg> <../images/cro-mic.jpg> <../images/Helmholtz-coil.jpg>] [88 <../images/Helmholtz-Coil/coil.pdf>]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 3161.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 3160.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3161.
- [90
+(Font)              scaled to size 10.0pt on input line 3160.
+ [89
 
-] [91] [92] (./ALPhys.aux)
+] [90] [91] (./ALPhys.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2832,12 +2832,15 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 29F807A271E056B804E6E1492D65A70E;3459.
  ) 
 Here is how much of TeX's memory you used:
- 42702 strings out of 475237
- 876752 string characters out of 5768555
+ 42701 strings out of 475237
+ 876745 string characters out of 5768555
  1969238 words of memory out of 5000000
  62646 multiletter control sequences out of 15000+600000
  736592 words of font info for 295 fonts, out of 8000000 for 9000
@@ -2856,10 +2859,10 @@ pdfTeX warning (dest): name{Fig\04012.3} has been referenced but does not exist,
 pdfTeX warning (dest): name{Fig\04012.2} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (93 pages, 31075292 bytes).
+Output written on ALPhys.pdf (92 pages, 31074689 bytes).
 PDF statistics:
- 2963 PDF objects out of 2984 (max. 8388607)
- 1947 compressed objects within 20 object streams
- 433 named destinations out of 1000 (max. 500000)
+ 2956 PDF objects out of 2984 (max. 8388607)
+ 1941 compressed objects within 20 object streams
+ 432 named destinations out of 1000 (max. 500000)
  1076 words of extra memory for PDF output out of 10000 (max. 10000000)
 

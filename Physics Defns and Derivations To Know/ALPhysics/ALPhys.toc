@@ -23,4 +23,4 @@
 \contentsline {section}{\numberline {20.3}Tables \& Graphing}{78}{section.20.3}%
 \contentsline {section}{\numberline {20.4}Questions post-graphing}{80}{section.20.4}%
 \contentsline {section}{\numberline {20.5}Planning questions}{83}{section.20.5}%
-\contentsline {chapter}{\numberline {21}Bibliography}{90}{chapter.21}%
+\contentsline {chapter}{\numberline {21}Bibliography}{89}{chapter.21}%
