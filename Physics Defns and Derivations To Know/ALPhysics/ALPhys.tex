@@ -3025,11 +3025,21 @@ Some nice images:
             \item[\textcolor{red}{\(\times\)}] Protective clothing, lead suits, lead gloves, goggles.   
         \end{itemize}
         \tabularnewline\midrule
-        Thermal & &
+        Thermal &
+        \begin{itemize}
+            \item[\textcolor{green!70!black}{\checkmark}] Check calibration of thermometer (mercury-in-glass/temperature sensor) against melting pure ice and pure steam.
+            \item[\textcolor{green!70!black}{\checkmark}] A constant temperature environment can be set up using a sand bath, water bath, or putting the object into an oven.
+            \item[\textcolor{green!70!black}{\checkmark}] Enclose the object to prevent convection currents from forming in the air.   
+            \item[\(\circ\)] Connect the thermocouple to a voltmeter. Calibrate The thermocouple by placing one junction of the thermocouple into water at ice point (pure ice-water mixture) and the other into steam point (boiling pure water). Allow the voltage to stabilise and record the voltage reading as \(V_0\). Remove the junction at steam point and place it on the \rule{1cm}{0.01mm}. Record the voltage reading as \(V\). Then,
+            \[T=\frac{V}{V_0}\cdot100\ {^{\circ}C}.\] 
+            \item[\(\circ\)] Place the temperature sensor in the \rule{1cm}{0.01mm}. Connect the temperature sensor to a datalogger and computer to generate a graph of temperature against time.
+        \end{itemize}
+        &
         \begin{itemize}
             \item[\textcolor{green!70!black}{\checkmark}] Wear heat insulating gloves.
             \item[\textcolor{green!70!black}{\checkmark}] Avoid touching the hot objects.
         \end{itemize}
+        \includegraphics[width=\linewidth]{../images/thermocouple-planning-diagram.jpg}
         \tabularnewline\midrule
         Waves &
         \begin{itemize}
@@ -3114,19 +3124,35 @@ Some nice images:
             \item[\(\circ\)] A c.r.o. can either be connected directly to an electrical circuit, or to a microphone. 
             \item[\(\circ\)] A signal generator is an a.c. source with variable frequency, amplitude, and waveform. It can be connected to a loudspeaker.
         \end{itemize}
-        \includegraphics[width=\linewidth]{../images/cro-mic.jpg}
+        \vspace{1.2cm}\includegraphics[width=\linewidth]{../images/signal-gen-loudspeaker.jpg}
         &
         \begin{minipage}{\linewidth}
             \includegraphics[width=\linewidth]{../images/cro-transformer.jpg}\\
             \includegraphics[width=\linewidth]{../images/signal-gen-voltmeter-transformer.jpg}\\
-            \includegraphics[width=\linewidth]{../images/signal-gen-loudspeaker.jpg}
-        \end{minipage}
+            \includegraphics[width=\linewidth]{../images/cro-mic.jpg}\\
+        \end{minipage}%
+        \tabularnewline%
+        &
+        \begin{itemize}
+            \item A uniform magnetic field can be produced using a Helmholtz coil. If necessary, a hall probe can be placed, perpendicular to the magnetic field/perpendicular to the plane of the paper.
+        \end{itemize}
+        &
+        \includegraphics[width=\linewidth]{../images/Helmholtz-coil.jpg}
         \tabularnewline\bottomrule
         \caption{Precautions and some miscellaneous notes.}
         \label{table:precautions}
     \end{longtable}
 \end{itemize}
 (All figures in table \ref{table:precautions} are attributed to \ref{Me}.)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../images/Helmholtz-Coil/coil.pdf}
+    \caption{\ref{source:Helmholtz-Coil} A Helmholtz coil.}
+    \label{fig:Helmholtz-Coil}
+\end{figure}
+\begin{itemize}
+    \item Other instruments to know: newton meter, flow rate meter (\(dV/dt\)), mass flow meter \((dm/dt)\), pressure gauge, light intensity meter, sound level meter.
+\end{itemize}
 \chapter{Bibliography}
 The copyrights belong solely to their respective owners. The images used mostly fall under the CC-BY-SA-3.0 or CC-BY-SA-4.0 licenses. Please contact me if you would like your work removed from these notes, or have you attribution reworked. 
 \begin{enumerate}[label={[\arabic*]}]
@@ -3197,6 +3223,7 @@ The copyrights belong solely to their respective owners. The images used mostly 
     \item\label{source:x-ray-spectrum} My tikz diagram for the X-ray spectrum (Figure \ref{fig:x-ray-spectrum})
     \item\label{source:x-ray-apparatus} Experimental set-up to produce X-rays (Figure \ref{fig:x-ray-apparatus})
     \item\label{source:X-ray-series} X-ray series (Diagram \ref{fig:X-ray-series}) \url{https://commons.wikimedia.org/wiki/File:CharacteristicRadiation.svg}
-    \item\label{source:spectral-emissions-of-the-hydrogen-atom} The spectral emissions of the hydrogen atom (Figure \ref{fig:spectral-emissions-of-the-hydrogen-atom}) \url{https://tikz.fr/serie-spectrale-de-latome-dhydrogene/} 
+    \item\label{source:spectral-emissions-of-the-hydrogen-atom} The spectral emissions of the hydrogen atom (Figure \ref{fig:spectral-emissions-of-the-hydrogen-atom}) \url{https://tikz.fr/serie-spectrale-de-latome-dhydrogene/}
+    \item\label{source:Helmholtz-Coil} A Helmholtz coil drawn in tikz (Figure \ref{fig:Helmholtz-Coil}) \url{https://tex.stackexchange.com/a/115014} 
 \end{enumerate}
 \end{document}
