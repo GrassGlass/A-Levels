@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  19 OCT 2024 23:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  20 OCT 2024 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2736,17 +2736,67 @@ Underfull \hbox (badness 1117) in paragraph at lines 2988--2989
 []\T1/zplTLF/m/n/10 Check for the ap-pro-pri-ate masses and
  []
 
-[82] [83]
+[82]
+Overfull \hbox (3.91689pt too wide) in paragraph at lines 3056--3056
+ []|\T1/zplTLF/m/n/10 Mechanics| 
+ []
+
+<../images/electronic-timer-light-gates.jpg, id=2596, 958.58125pt x 558.085pt>
+File: ../images/electronic-timer-light-gates.jpg Graphic file (type jpg)
+<use ../images/electronic-timer-light-gates.jpg>
+Package pdftex.def Info: ../images/electronic-timer-light-gates.jpg  used on input line 3064.
+(pdftex.def)             Requested size: 149.99922pt x 87.3283pt.
+
+Underfull \hbox (badness 7649) in paragraph at lines 3063--3066
+\T1/zplTLF/m/n/10 gates is small, the av-er-age
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 3071--3072
+[]\T1/zplTLF/m/n/10 Mop up any spillage of
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 3071--3072
+\T1/zplTLF/m/n/10 oil/water to avoid in-juries
+ []
+
+<../images/gaussmeter-Hall-probe.jpg, id=2597, 909.3975pt x 510.90875pt>
+File: ../images/gaussmeter-Hall-probe.jpg Graphic file (type jpg)
+<use ../images/gaussmeter-Hall-probe.jpg>
+Package pdftex.def Info: ../images/gaussmeter-Hall-probe.jpg  used on input line 3108.
+(pdftex.def)             Requested size: 149.99922pt x 84.26512pt.
+<../images/cro-mic.jpg, id=2598, 976.64874pt x 610.28pt>
+File: ../images/cro-mic.jpg Graphic file (type jpg)
+<use ../images/cro-mic.jpg>
+Package pdftex.def Info: ../images/cro-mic.jpg  used on input line 3117.
+(pdftex.def)             Requested size: 171.99922pt x 107.47107pt.
+<../images/cro-transformer.jpg, id=2599, 1084.05pt x 545.03625pt>
+File: ../images/cro-transformer.jpg Graphic file (type jpg)
+<use ../images/cro-transformer.jpg>
+Package pdftex.def Info: ../images/cro-transformer.jpg  used on input line 3120.
+(pdftex.def)             Requested size: 171.99922pt x 86.47572pt.
+<../images/signal-gen-voltmeter-transformer.jpg, id=2600, 1084.05pt x 560.0925pt>
+File: ../images/signal-gen-voltmeter-transformer.jpg Graphic file (type jpg)
+<use ../images/signal-gen-voltmeter-transformer.jpg>
+Package pdftex.def Info: ../images/signal-gen-voltmeter-transformer.jpg  used on input line 3121.
+(pdftex.def)             Requested size: 171.99922pt x 88.86455pt.
+<../images/signal-gen-loudspeaker.jpg, id=2601, 878.28125pt x 576.1525pt>
+File: ../images/signal-gen-loudspeaker.jpg Graphic file (type jpg)
+<use ../images/signal-gen-loudspeaker.jpg>
+Package pdftex.def Info: ../images/signal-gen-loudspeaker.jpg  used on input line 3122.
+(pdftex.def)             Requested size: 171.99922pt x 112.8284pt.
+[83] [84] [85 <../images/electronic-timer-light-gates.jpg>] [86 <../images/gaussmeter-Hall-probe.jpg>] [87 <../images/cro-mic.jpg> <../images/cro-transformer.jpg> <../images/signal-gen-voltmeter-transformer.jpg> <../images/signal-gen-loudspeaker.jpg>]
 Chapter 21.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 3002.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 3133.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3002.
- [84
+(Font)              scaled to size 10.0pt on input line 3133.
+ [88
 
-] [85] [86] (./ALPhys.aux)
+] [89] [90] (./ALPhys.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -2760,10 +2810,10 @@ Package rerunfilecheck Info: File `ALPhys.out' has not changed.
 (rerunfilecheck)             Checksum: 29F807A271E056B804E6E1492D65A70E;3459.
  ) 
 Here is how much of TeX's memory you used:
- 42620 strings out of 475237
- 873799 string characters out of 5768555
+ 42673 strings out of 475237
+ 875720 string characters out of 5768555
  1966238 words of memory out of 5000000
- 62576 multiletter control sequences out of 15000+600000
+ 62621 multiletter control sequences out of 15000+600000
  736592 words of font info for 295 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,32n,131p,7693b,1593s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2780,10 +2830,10 @@ pdfTeX warning (dest): name{Fig\04012.3} has been referenced but does not exist,
 pdfTeX warning (dest): name{Fig\04012.2} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/niceframe-type1/bbding10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on ALPhys.pdf (87 pages, 30675172 bytes).
+Output written on ALPhys.pdf (91 pages, 30885588 bytes).
 PDF statistics:
- 2905 PDF objects out of 2984 (max. 8388607)
- 1906 compressed objects within 20 object streams
- 421 named destinations out of 1000 (max. 500000)
- 1031 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2938 PDF objects out of 2984 (max. 8388607)
+ 1929 compressed objects within 20 object streams
+ 429 named destinations out of 1000 (max. 500000)
+ 1061 words of extra memory for PDF output out of 10000 (max. 10000000)
 
