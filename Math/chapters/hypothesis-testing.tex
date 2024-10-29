@@ -409,7 +409,7 @@
   Explain why a paired sample \(t\)-test would be better than a two sample \(t\)-test.
   \begin{center}
     \parbox{0.9\textwidth}{
-      Pairing eliminates the \emph{variability} between different [the contextual indexing, e.g. ages]. Statistically, there is also no need to assume that [\(X\) in context] and [\(Y\) in context] have exactly the \emph{same population variance}, which is a necessary assumption for a two sample \(t\)-test. 
+      Pairing eliminates the \emph{factor of variability} between different [the contextual indexing, e.g. ages]. Statistically, there is also no need to assume that [\(X\) in context] and [\(Y\) in context] have exactly the \emph{same population variance}, which is a necessary assumption for a two sample \(t\)-test. 
     }
   \end{center}
 \end{note}
@@ -468,7 +468,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \toprule
         \begin{minipage}{418.6pt}
           \begin{enumerate}[align=parleft]
-            \item[{[ii]}]\ The variance \(\sigma^2\) is known.
+            \item[{[ii]}]\ The population variance \(\sigma^2\) is known.
             \item[{[ii]}(1)]\ Sample size \(n\) is large (so CLT applies).
             \item[{[ii]}(2)]\ Sample size \(n\) is small, but we assume \(X\) is normally distributed.
           \end{enumerate}
@@ -483,7 +483,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \midrule
         \begin{minipage}{418.6pt}
           \begin{enumerate}[align=parleft]
-            \item[{[i]}]\ The variance \(\sigma^2\) is unknown.
+            \item[{[i]}]\ The population variance \(\sigma^2\) is unknown.
             \item[{[ii]}]\ Sample size \(n\) is large.
             \item[{[iii]}(1)]\ \(X\) is known to be normally distributed.
           \end{enumerate}
@@ -508,7 +508,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \midrule
         \begin{minipage}{418.6pt}
           \begin{enumerate}[label={[\roman*]},align=parleft]
-            \item The variance \(\sigma^2\) is unknown.
+            \item The population variance \(\sigma^2\) is unknown.
             \item Sample size \(n\) is small.
             \item Assume \(X\) is normally distributed.
           \end{enumerate}
@@ -532,7 +532,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
       \toprule
       \begin{minipage}{418.6pt}
         \begin{enumerate}[align=parleft]
-          \item[{[i]}]\ Both variances \(\sigma_1\) and \(\sigma_2\) are known.
+          \item[{[i]}]\ Both population variances \(\sigma_1\) and \(\sigma_2\) are known.
           \item[{[ii](1)}]\ Sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
           \item[{[ii](2)}]\ At least one sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
@@ -549,7 +549,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
           \item Sample sizes \(n_1\) and \(n_2\) are large.
-          \item The variances \(\sigma_1^2\) and \(\sigma_2^2\) do not coincide.
+          \item The population variances \(\sigma_1^2\) and \(\sigma_2^2\) do not coincide.
           \item Assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
         So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
@@ -566,7 +566,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
           \item Sample sizes \(n_1\) and \(n_2\) are large.
-          \item Both variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
+          \item Both population variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
           \item Assume \(X_1\) and \(X_2\) are normally distributed.
         \end{enumerate}
         So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
@@ -583,7 +583,7 @@ Throughout the two tables, we \emph{always} assume that the (both) sample(s) are
         \begin{enumerate}[label={[\roman*]},align=parleft]
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
           \item At least one sample size \(n_1\) or \(n_2\) is small.
-          \item Both variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
+          \item Both population variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
           \item Assume \(X_1\) and \(X_2\) are normally distributed. 
           
           (Or: Both samples come from normal populations.)

@@ -2278,15 +2278,13 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \item Expectation / Mean, 
     \[\operatorname{E}(X)\coloneq \sum_{\text{all } x}{x\Prob(X=x)}.\]
     \item Variance 
-    \[\operatorname{Var}(X)\coloneq E\hspace{-0.7mm}\left(X^2\right)-[E(X)]^2.\]
+    \[\operatorname{Var}(X)\coloneq E\hspace{-0.7mm}\left(X^2\right)-[E(X)]^2=\E{\left( (X-\mu)^2 \right)}.\]
     \item Standard Deviation
     \[\sigma\coloneq \sqrt{\operatorname{Var}(X)}.\]
     \item Properties for two \emph{independent} random \emph{variables} \(X\) and \(Y\); two \emph{independent observations} \(X_1\) and \(X_2\) of \(X\):
     \begin{enumerate}
       \item \(\operatorname{E}(aX+bY+c)=a\operatorname{E}(X)+b\operatorname{E}(Y)+c\),
-      \item \(\operatorname{E}(X_1+X_2)=\operatorname{E}(X_1)+\operatorname{E}(X_2)=2\operatorname{E}(X)\).
-      \item \(\operatorname{Var}(aX+bY+c)=a^2\operatorname{Var}(X)+b^2\operatorname{Var}(Y)\),
-      \item \(\operatorname{Var}(X_1+X_2)=\operatorname{Var}(X_1)+\operatorname{Var}(X_2)=2\operatorname{Var}(X)\).
+      \item \(\operatorname{Var}(aX+bY+c)=a^2\operatorname{Var}(X)+b^2\operatorname{Var}(Y)\).
     \end{enumerate}
     \item Probability Distribution Table:
     \begin{table}[H]
@@ -2364,7 +2362,7 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
   \begin{center}
     \parbox{0.9\textwidth}{
       \[\widebar{x}=\rule{0.5cm}{0.01mm} \qquad\qquad s^2=\rule{0.5cm}{0.01mm}\]
-      If \(X\sim\Poisson(\lambda)\) is an appropriate model for some \(\lambda\), then the mean and variance of \(X\) should coincide. But this may not be true, because the sample mean differs significantly from the unbiased estimate for sample variance. Hence, a Poisson distribution may be an inappropriate model for \(X\).
+      If \(X\sim\Poisson(\lambda)\) is an appropriate model for some \(\lambda\), then the population mean and population variance of \(X\) should coincide. But this may not be true, because the sample mean differs significantly from the unbiased estimate for sample variance. Hence, a Poisson distribution may be an inappropriate model for \(X\).
     }
   \end{center}
 \end{note}

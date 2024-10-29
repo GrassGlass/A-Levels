@@ -49,10 +49,24 @@
     \item Mean/Expectation: 
     \[\mu=\E(X)\coloneq \int_{-\infty}^{\infty}xf(x)\,dx \qquad\text{and}\qquad \E(g(X))=\int_{-\infty}^{\infty}g(x)f(x)\,dx.\]
     \item Important property: 
-    \[\E(ag(X)\pm bh(x))=a\E(g(X))\pm\E(h(X)).\]
+    \[\E(aX+bY+c)=a\E(X)+b\E(Y)+c.\]
     \item Variance: 
-    \[\Var(X)\coloneq \E(X^2)-[\E(X)]^2.\]
+    \[\Var(X)\coloneq \E(X^2)-[\E(X)]^2=E{\left((X-\mu)^2\right)}.\]
     \item Important property:
-    \[\Var(aX\pm b)=a^2\Var(X).\]
+    \[\Var(aX+bY+c)=a^2\Var(X)+b^2\Var(Y).\]
   \end{itemize}
 \end{stbox}
+\begin{example}{Contextual meaning of a pdf's shape.}{}
+  Consider the proportion \(X\) of cloud cover (i.e. the proportion of the sky that is obscured by the cloud) in one randomly chosen evening. It has the following pdf
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../Diagrams/Parabolic-probability-density-function/parabolic-pdf.pdf}
+    \caption{Parabolic pdf.}
+    \label{fig:parabolic-pdf}
+  \end{figure}
+  Explain what the shape of the pdf indicates about the cloud cover at noon at the weather station. \hspace*{\fill} [2]
+  \begin{itemize}
+    \item Extremes of cloud cover (i.e. proportion of cloud cover close to 0 or 1) are more common than intermediate values, with \hspace*{\fill} [1]
+    \item a high proportion of cloud cover being more common than a low proportion of cloud cover. \hspace*{\fill} [1]
+  \end{itemize}
+\end{example}

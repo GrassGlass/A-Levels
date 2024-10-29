@@ -1,0 +1,52 @@
+%* Source: https://tex.stackexchange.com/a/158979
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots, calc, tkz-euclide}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{decorations.pathreplacing, decorations.markings, angles}
+
+% axis style, ticks, etc
+\pgfplotsset{every axis/.append style={
+                    axis x line=middle,    % put the x axis in the middle
+                    axis y line=middle,    % put the y axis in the middle
+                    axis line style={->}, % arrows on the axis
+                    xlabel={\(x\)},          % default put x on x-axis
+                    ylabel={\(f(x)\)},          % default put y on y-axis
+                    axis line style = thick,
+                    }}
+
+% arrows as stealth fighters
+\tikzset{>=stealth,
+-<-/.style={decoration={
+  markings,
+  mark=at position #1 with {\arrow[scale=1.5]{Classical TikZ Rightarrow[reversed]}}},postaction={decorate}}}
+\NewDocumentCommand\bisector{O{}mmmO{10pt}}{
+\path[#1] let
+    \p1 = ($(#3)!10cm!(#2)$),
+    \p2 = ($(#3)!10cm!(#4)$),
+    \p3 = ($(\p1) + (\p2) - (#3)$)
+    in    
+    ($(#3)!#5!($(#3)!0.85cm!(\p3)$)$) -- ($($(#3)!0.85cm!(\p3)$)!#5!(#3)$) ;
+}
+\begin{document}
+
+\begin{tikzpicture}[
+    dot/.style={draw,fill,circle,inner sep=2pt,thick},
+    odot/.style={draw,circle,inner sep=2.5pt,thick}]
+    \begin{axis}[
+        xmin=-1,xmax=2.1,
+        ymin=-0.2,ymax=2.3,
+        ticks=none]
+        % Parabolic pdf
+        \addplot [blue,thick,domain=0:1] {30/7*(x^2-0.8*x+0.3)};
+        \addplot [blue,thick,domain=-1:0] {0};
+        \addplot [blue,thick,domain=1:2] {0};
+        % Points
+        \coordinate[label={below left:\(O\)}] (O) at (axis cs:0,0) {};
+        \coordinate[dot,blue] (R1) at (axis cs:1,2.14) {};
+        \coordinate[dot,blue] (L1) at (axis cs:0,1.29) {};
+        \coordinate[odot,blue] (R2) at (axis cs:1,0) {};
+        \coordinate[odot,blue] (L2) at (axis cs:0,0) {};
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}
