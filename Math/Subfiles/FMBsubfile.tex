@@ -441,6 +441,46 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
     \texttt{stat} \(\Longrightarrow\) \texttt{CALC} \(\Longrightarrow\) \texttt{4:LinReg(ax+b)}\quad or\quad \texttt{8:LinReg(a+bx)}
   \end{center}
 \end{GCSkills}
+\begin{note}
+  With the aid of diagrams, explain the difference between the least square regression lines of \(y\) on \(x\) and that of \(x\) on \(y\).
+  
+  \rule{20cm-137.0549pt}{0.05mm}
+
+  \begin{minipage}{0.475\textwidth}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=\textwidth,page=1]{../Diagrams/least-square-regression-line/regression-line.pdf}
+      \caption{Regression line of \(y\) on \(x\).}
+      \label{fig:y-on-x}
+    \end{figure}
+    The regression line of \(y\) on \(x\) assumes that the values of \(x\) are known exactly and to perfect accuracy. As such, it minimises the sum of squared \textcolor{red}{distances}, \(\sum{\textcolor{red}{e_i}^2}\) in the \(y\)-direction, as shown above.
+  \end{minipage}\hfill
+  \begin{minipage}{0.475\textwidth}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=\textwidth,page=2]{../Diagrams/least-square-regression-line/regression-line.pdf}
+      \caption{Regression line of \(x\) on \(y\).}
+      \label{fig:x-on-y}
+    \end{figure}
+    The regression line of \(x\) on \(y\) assumes that the values of \(y\) are known exactly and to perfect accuracy. As such, it minimises the sum of squared \textcolor{red}{distances}, \(\sum{\textcolor{red}{e_i}^2}\) in the \(x\)-direction, as shown above.
+  \end{minipage}
+\end{note}
+\begin{example}{}{}
+  Show on the scatter diagram in part (d) the distances which are used in drawing the least squares regression line of \(y\) on \(x\). Explain why these distances are squared, and why this is referred to as the `method of least squares'.
+
+  \rule{20cm-137.0549pt}{0.05mm}
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.475\textwidth,page=3]{../Diagrams/least-square-regression-line/regression-line.pdf}
+      \caption{Regression line of \(y\) on \(x\).}
+      \label{fig:least-squares}
+  \end{figure}
+  \begin{itemize}
+    \item The \textcolor{red}{distances} are signed, i.e. can be positive or negative. 
+    \item So, squaring the \textcolor{red}{distances} ensures the sum will not become zero (unless the plotted points are collinear) or negative.
+    \item The least squares regression line is the line for which the sum of squared \textcolor{red}{distances} is minimised. Hence, this is referred to as the `method of least squares'
+  \end{itemize} 
+\end{example}
 \begin{example}{}{}
   % N2003/II/11
   Suppose that we are given pairs of data for \(x\) and \(y\), as shown below:

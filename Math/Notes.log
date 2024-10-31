@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  29 OCT 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  31 OCT 2024 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1712,83 +1712,83 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [87]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 179.
 
 <./images/../Diagrams/t-distribution/t-distributon.pdf, id=1640, 247.79776pt x 206.2867pt>
 File: ./images/../Diagrams/t-distribution/t-distributon.pdf Graphic file (type pdf)
 <use ./images/../Diagrams/t-distribution/t-distributon.pdf>
-Package pdftex.def Info: ./images/../Diagrams/t-distribution/t-distributon.pdf  used on input line 181.
+Package pdftex.def Info: ./images/../Diagrams/t-distribution/t-distributon.pdf  used on input line 187.
 (pdftex.def)             Requested size: 215.0023pt x 178.98322pt.
 [88 <./images/../Diagrams/t-distribution/t-distributon.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 214.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 262.
-
-
-Overfull \hbox (9.11119pt too wide) in paragraph at lines 293--293
-[]\OT1/cmr/m/n/10 (ii)(1)  
- []
-
-
-Overfull \hbox (9.11119pt too wide) in paragraph at lines 295--295
-[]\OT1/cmr/m/n/10 (ii)(2)  
- []
+(hyperref)                removing `math shift' on input line 220.
 
 [89]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 305.
+(hyperref)                removing `math shift' on input line 268.
+
+
+Overfull \hbox (9.11119pt too wide) in paragraph at lines 299--299
+[]\OT1/cmr/m/n/10 (ii)(1)  
+ []
+
+
+Overfull \hbox (9.11119pt too wide) in paragraph at lines 301--301
+[]\OT1/cmr/m/n/10 (ii)(2)  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 311.
 
 [90]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 339.
+(hyperref)                removing `math shift' on input line 345.
 
-[91] [92]
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 472--472
+[91] [92] [93]
+Overfull \hbox (3.88893pt too wide) in paragraph at lines 478--478
 []\OT1/cmr/m/n/10 [ii](1)  
  []
 
 
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 473--473
+Overfull \hbox (3.88893pt too wide) in paragraph at lines 479--479
 []\OT1/cmr/m/n/10 [ii](2)  
  []
 
 
-Overfull \hbox (6.66672pt too wide) in paragraph at lines 488--488
+Overfull \hbox (6.66672pt too wide) in paragraph at lines 494--494
 []\OT1/cmr/m/n/10 [iii](1)  
  []
 
 
-Overfull \hbox (6.66672pt too wide) in paragraph at lines 495--495
+Overfull \hbox (6.66672pt too wide) in paragraph at lines 501--501
 []\OT1/cmr/m/n/10 [iii](2)  
  []
 
-[93
+[94
 
 ]
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 536--536
+Overfull \hbox (3.88893pt too wide) in paragraph at lines 542--542
 []\OT1/cmr/m/n/10 [ii](1)  
  []
 
 
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 537--537
+Overfull \hbox (3.88893pt too wide) in paragraph at lines 543--543
 []\OT1/cmr/m/n/10 [ii](2)  
  []
 
 
-Overfull \hbox (2.39914pt too wide) detected at line 596
+Overfull \hbox (2.39914pt too wide) detected at line 602
 \OML/cmm/m/it/10 T \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^X \OML/cmm/m/it/10 t\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2)
  []
 
 
-LaTeX Warning: Float too large for page by 58.57625pt on input line 616.
+LaTeX Warning: Float too large for page by 58.57625pt on input line 622.
 
-[94]) (./Subfiles/FMBsubfile.tex
+[95]) (./Subfiles/FMBsubfile.tex
 Chapter 24.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1814,82 +1814,98 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 12.
 
-<Subfiles/../Diagrams/Chi-square.pdf, id=1757, 451.6875pt x 301.125pt>
+<Subfiles/../Diagrams/Chi-square.pdf, id=1761, 451.6875pt x 301.125pt>
 File: Subfiles/../Diagrams/Chi-square.pdf Graphic file (type pdf)
 <use Subfiles/../Diagrams/Chi-square.pdf>
 Package pdftex.def Info: Subfiles/../Diagrams/Chi-square.pdf  used on input line 22.
 (pdftex.def)             Requested size: 301.00192pt x 200.6775pt.
-[95
+[96
 
 
 
 
- <./Subfiles/../Diagrams/Chi-square.pdf>] [96]
+ <./Subfiles/../Diagrams/Chi-square.pdf>] [97]
 Underfull \hbox (badness 10000) in paragraph at lines 147--150
 [][]
  []
 
-[97] [98] [99] [100]
+[98] [99] [100] [101]
 Chapter 25.
-<Subfiles/../images/scatter-plot-example.jpg, id=1834, 1456.44125pt x 1004.75375pt>
+<Subfiles/../images/scatter-plot-example.jpg, id=1838, 1456.44125pt x 1004.75375pt>
 File: Subfiles/../images/scatter-plot-example.jpg Graphic file (type jpg)
 <use Subfiles/../images/scatter-plot-example.jpg>
 Package pdftex.def Info: Subfiles/../images/scatter-plot-example.jpg  used on input line 334.
 (pdftex.def)             Requested size: 172.79921pt x 119.20076pt.
-[101
+[102
 
  <./Subfiles/../images/scatter-plot-example.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 356.
 
-<Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg, id=1842, 1264.725pt x 971.63pt>
+<Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg, id=1846, 1264.725pt x 971.63pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg  used on input line 368.
 (pdftex.def)             Requested size: 171.99922pt x 132.12807pt.
-<Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg, id=1843, 1279.78125pt x 971.63pt>
+<Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg, id=1847, 1279.78125pt x 971.63pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg  used on input line 374.
 (pdftex.def)             Requested size: 171.99922pt x 130.57135pt.
-<Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg, id=1844, 1288.815pt x 968.61874pt>
+<Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg, id=1848, 1288.815pt x 968.61874pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg  used on input line 379.
 (pdftex.def)             Requested size: 171.99922pt x 129.2651pt.
-<Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg, id=1845, 1301.86375pt x 966.61125pt>
+<Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg, id=1849, 1301.86375pt x 966.61125pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg  used on input line 385.
 (pdftex.def)             Requested size: 171.99922pt x 127.69926pt.
-<Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg, id=1846, 1327.96124pt x 964.60374pt>
+<Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg, id=1850, 1327.96124pt x 964.60374pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg  used on input line 390.
 (pdftex.def)             Requested size: 171.99922pt x 124.93188pt.
-<Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg, id=1847, 1309.89375pt x 971.63pt>
+<Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg, id=1851, 1309.89375pt x 971.63pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg  used on input line 396.
 (pdftex.def)             Requested size: 171.99922pt x 127.57652pt.
-<Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg, id=1848, 1289.81876pt x 970.62625pt>
+<Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg, id=1852, 1289.81876pt x 970.62625pt>
 File: Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg Graphic file (type jpg)
 <use Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg>
 Package pdftex.def Info: Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg  used on input line 401.
 (pdftex.def)             Requested size: 171.99922pt x 129.42935pt.
-[102] [103 <./Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg>] [104] [105]
+[103] [104 <./Subfiles/../images/product-moment-correlation-coefficient/r-is-0.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is--neg-1.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/small-negative-r.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is-1.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/small-positive-r.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg> <./Subfiles/../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg>]
+<Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf, id=1864, page=1, 195.7995pt x 162.7952pt>
+File: Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf Graphic file (type pdf)
+<use Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf, page 1>
+Package pdftex.def Info: Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf , page1 used on input line 452.
+(pdftex.def)             Requested size: 205.20482pt x 170.61456pt.
+<Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf, id=1865, page=2, 195.79851pt x 162.7952pt>
+File: Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf Graphic file (type pdf)
+<use Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf, page 2>
+Package pdftex.def Info: Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf , page2 used on input line 461.
+(pdftex.def)             Requested size: 205.20482pt x 170.61456pt.
+<Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf, id=1866, page=3, 195.7995pt x 162.7952pt>
+File: Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf Graphic file (type pdf)
+<use Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf, page 3>
+Package pdftex.def Info: Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf , page3 used on input line 474.
+(pdftex.def)             Requested size: 205.20482pt x 170.61456pt.
+ [105 <./Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf> <./Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf>] [106 <./Subfiles/../Diagrams/least-square-regression-line/regression-line.pdf>] [107]
 Chapter 26.
-[106
+[108
 
-] [107] [108] [109]
-Underfull \hbox (badness 10000) in paragraph at lines 849--864
+] [109] [110] [111]
+Underfull \hbox (badness 10000) in paragraph at lines 889--904
 [][]
  []
 
-) [110]
+) [112]
 Chapter 27.
-[111
+[113
 
 ] (./Notes.aux)
  ***********
@@ -1900,18 +1916,18 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: 8F2B0A834E44659882CEA905983F49DC;11974.
  ) 
 Here is how much of TeX's memory you used:
- 49996 strings out of 475237
- 1185521 string characters out of 5768555
+ 50031 strings out of 475237
+ 1187167 string characters out of 5768555
  1982238 words of memory out of 5000000
- 69486 multiletter control sequences out of 15000+600000
+ 69511 multiletter control sequences out of 15000+600000
  591855 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,30n,145p,743b,3175s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Notes.pdf (114 pages, 4106462 bytes).
+Output written on Notes.pdf (116 pages, 4117658 bytes).
 PDF statistics:
- 2326 PDF objects out of 2487 (max. 8388607)
- 1983 compressed objects within 20 object streams
- 829 named destinations out of 1000 (max. 500000)
- 840 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2353 PDF objects out of 2487 (max. 8388607)
+ 2002 compressed objects within 21 object streams
+ 835 named destinations out of 1000 (max. 500000)
+ 855 words of extra memory for PDF output out of 10000 (max. 10000000)
 
