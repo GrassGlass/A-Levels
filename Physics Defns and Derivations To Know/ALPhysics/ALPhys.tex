@@ -214,6 +214,22 @@
     \item Remember to account for atmospheric pressure, where necessary.
     \item Suppose a body is subjected to forces acting at three points. Then, for it to be in equilibrium, the lines of action must be \emph{concurrent} (intersection at a common point) or \emph{parallel}. 
 \end{itemize}
+\begin{example}{}{}
+    A uniform strip of steel is clamped at one end. A metal block of mass \(M\) is fixed to the strip, a distance \(L\) from the clamp. The mass causes the end of the steel strip to be depressed.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\textwidth]{../images/strip-compession-extension.jpg}
+        \caption{\ref{Me}}
+        \label{fig:strip-compression-extension}
+    \end{figure}
+    Explain why the part of the strip is compressed and part of the strip is extended. \hspace*{\fill} [3]
+    \begin{itemize}[label={--}]
+        \item For the bent strip, the upper and lower surfaces form two arcs subtended by the same angle. 
+        \item Since the upper surface has a larger radius of curvature, it is bent longer than \(L\); it is extended.
+        \item Since the lower surface has a shorter radius of curvature, it is bent shorter than \(L\); it is compressed.  
+    \end{itemize}
+    \footnotetext{Each school's solution has a different answer to this question. So, its hard to know what exactly is required. I just picked the one that seems the most value-adding --- i.e. does not just subtly paraphrase the question.}
+\end{example}
 \chapter{Work, Energy, and Power}
 \begin{itemize}
     \item \emph{Work done} is defined as the product of a force and the displacement in the direction of the force.
@@ -328,6 +344,20 @@
 \end{itemize}
 \chapter{First Law of Thermodynamics}
 \begin{itemize}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{M{0.2\textwidth}M{0.4\textwidth}M{0.4\textwidth}}
+            \toprule
+            Difference & Evaporation & Boiling\\
+            \midrule
+            Temperature & Occurs at all temperatures & At each pressure, there is exactly one fixed temperature at which boiling occurs.\\
+            \midrule
+            Location & Occurs only at the surface of a liquid & Occurs throughout the liquid\\
+            \bottomrule
+        \end{tabular}
+        \caption{Differences between evaporation and boiling.}
+        \label{table:evaporation-vs-boiling}
+    \end{table}
     \item The \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise its temperature by one Kelvin / degree Celsius. 
     \item The specific \emph{heat capacity} of a body is defined as the amount of thermal energy required to raise the temperature of one unit mass of the substance by one Kelvin / degree Celsius.
     \item For a substance of mass \(m\), heat capacity \(C\), and specific heat capacity \(c\), we write \(Q=C\Delta\theta=mc\Delta\theta\).
@@ -452,13 +482,11 @@
     \item We need to write ``Centripetal force is provided by \underline{\hspace{1cm}}'' 
     \item Why are teardrop designs preferred over full circles for roller coaster tracks? It increases the radius of the circular path (decreases the curvature) when entering the loop, reducing the acceleration experienced by the passengers.
     \begin{example}{}{}
-        Explain why the path of a particle in the [magnetic field] is circular. \hspace*{\fill} [2]
-    
-        \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
+        Explain why the path of a charged particle in the uniform magnetic field is circular. \hspace*{\fill} [2-3]
         \begin{itemize}
-            \item The [magnetic] force acting on the [charged] particle is always \emph{perpendicular} to the direction of its motion, throughout its time [in the field]. \hspace*{\fill} [1]
-            \item The \emph{magnitude} of this [magnetic] force is \emph{constant} because [the speed of the particle is constant]. \hspace*{\fill} [1]
-            \item This force provides the centripetal force for the circular motion of the particle within the region of the magnetic field. 
+            \item The magnetic force \(F_B\) acting on the charged particle is always \emph{perpendicular} to the direction of its motion, throughout its time in the field. \hspace*{\fill} [1]
+            \item No displacement occurs in the direction of \(F_B\). It does no work on the particle. So, the particle has constant kinetic energy, i.e. constant speed. Hence, the \emph{magnitude} of the magnetic force is \emph{constant}. \hspace*{\fill} [1]
+            \item This force provides the centripetal force for the circular motion of the particle within the region of the magnetic field. \hspace*{\fill} [0-1]
         \end{itemize}
     \end{example}
 \end{itemize}
@@ -541,6 +569,14 @@ such that both stars have the same angular velocity \(\omega\).
 \end{align*}
 So, rearranging, we have
 \[\omega^2=\frac{G(m_A+m_B)}{(r_A+r_B)^3}=\frac{Gm_A}{r_B(r_A+r_B)^2} \qquad\text{and}\qquad T^2=\frac{4\pi^2}{G(m_A+m_B)}(r_A+r_B)^3.\]
+\begin{example}{}{}
+    A binary star system has the plane of its orbits parallel to the line of sight from Earth. This binary star system is so far from Earth that the individual stars cannot be distinguished. Suggest and explain what observation can be made to determine the period of the orbit of the stars.
+    \begin{itemize}
+        \item Observe the light intensity of the binary star system across time.
+        \item The minimum intensity occurs when the line joining both stars is parallel to the line of sight from Earth --- one star is directly in front or behind the other so the maximum amount of light from the star behind is blocked by the star in front. 
+        \item Determine the time \(t\) between two minimum intensities, which is half a period. The orbital period is \(T=2t\). 
+    \end{itemize}
+\end{example}
 \item Geostationary orbit facts:
 \begin{enumerate}
     \item Only one such orbit at a \emph{fixed} distance of \(4.2\times10^7\text{m}\) from Earth's center,
@@ -556,6 +592,13 @@ So, rearranging, we have
     \item The bodies have masses distributed symmetrically around their centers in uniform layers.
     \item In the absence of other masses.
 \end{enumerate}
+\begin{example}{}{}
+    State and explain the effect, if any, on the graph --- of gravitational field strength against the distance from the center of the sphere --- you have sketched on Fig 9.2 when mass is lost uniformly from the surface of the sphere. \hspace*{\fill} [2]
+    \begin{itemize}
+        \item The gravitational field strength \(g\) still obeys the inverse square law. But since \(g\) is directly proportional to the mass of the sphere, \(g\) decreases. \hspace*{\fill} [1]
+        \item Hence, the new graph will be shifted down and entirely below the original graph. \hspace*{\fill} [1]
+    \end{itemize}
+\end{example}
 \end{itemize}
 \begin{center}
     \includegraphics[width=\textwidth]{../images/2024-Eclipse-Map-(cit\_).png}
@@ -575,6 +618,20 @@ So, rearranging, we have
 \end{center}
 \begin{itemize}
     \item \emph{Simple harmonic motion} is defined as the motion of a body whose acceleration is directly proportional to its displacement from a fixed point (equilibrium position) and is always directed towards that fixed point.
+    \begin{example}{}{}
+        Describe the restoring force that gives rise to oscillations in a simple pendulum.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.2\textwidth]{../images/simple-pendulum-restoring-force.jpg}
+            \caption{A simple pendulum.}
+            \label{fig:simple-pendulum-restoring-force}
+        \end{figure}
+        \rule{20cm-137.0549pt-25pt}{0.05mm}
+
+        \vspace{0.5\baselineskip} The restoring force is the \textcolor{green!70!black}{tangential component of the weight} of the bob, which is normal to the string and points towards the equilibrium position --- where the pendulum is hanging vertically. 
+
+        \vspace{0.5\baselineskip} \emph{Note.} the \textcolor{red}{tension} in the string does not provide the restoring force, since there is no component of tension along the tangential direction of motion.
+    \end{example}
     \item A \emph{freely oscillating} system oscillates at its own \emph{natural frequency} without \emph{external} influences other than the \emph{initial impulse when displaced} from its equilibrium position, with \emph{no dissipation} of energy.
     \item \emph{Damped oscillations} are oscillations in which the amplitude diminishes with time as a result of \emph{dissipative forces} that reduce the total energy of the oscillations.
     \item A system is in \emph{forced oscillations} when it is forced to oscillate at a frequency other than the natural frequency by a \emph{periodic external} force.
@@ -716,7 +773,7 @@ So, rearranging, we have
         \caption{An illustration of the spring-mass system aforementioned.}
         \label{fig:spring-mass-system}
     \end{figure}
-    Then, the net force on the spring-mass system is \(W-F_{\text{spring}}=mg-kx\). Hence, the acceleration of the spring-mass system is \((mg/x)-k\not\propto x\). i.e. the system does not move in simple harmonic motion.
+    Then, the net force on the spring-mass system is \(W-F_{\text{spring}}=mg-kx\). Hence, the acceleration of the spring-mass system is \(g-(kx/m)\not\propto x\). i.e. the system does not move in simple harmonic motion.
 \end{example}
 (Regardless, the maximum speed occurs at the point where \(\text{net }F=0\).)
 
@@ -728,6 +785,7 @@ So, rearranging, we have
     \label{fig:em-spectrum}
 \end{figure}
 \begin{itemize}
+    \item \emph{Note.} When deducing the period \(T\) of a waveform based off a graph, try to take the total time taken \(nT\) for the largest number of oscillations \(n\) possible, and then, calculate \(T=nT/n\). (Avoid directly calculating the period with \(n=1\).) This is especially important if the period is small relative to the time scale given/varies slightly with time.
     \item A \emph{progressive} wave is a wave in which \emph{energy is carried} from one point to another by means of \emph{vibrations or oscillations} within the wave. Particles within the wave are \emph{not transported along} the wave.
     \item A \emph{transverse} wave is a wave in which the direction of \emph{oscillation} of the particles (or wave
     medium) in the wave is \emph{normal} to the \emph{direction of energy transfer} of the wave.
@@ -921,7 +979,7 @@ So, rearranging, we have
             \label{fig:stat-wave-representation-example}
         \end{figure}
         Describe how the representation in Figure \ref{fig:stat-wave-representation-example} illustrates a longitudinal wave. \hspace*{\fill} [2]
-        \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
+        \rule{20cm-137.0549pt-25pt}{0.05mm}
         \begin{itemize}
             \item The representation shows the maximum and minimum displacements of the particles' oscillations along the length of the tube. \hspace*{\fill} [1]
             \item It does not show the actual positions of the particles' oscillations, as the oscillations are parallel to the length of the tube and hence parallel to the direction of travel of waves, making it a longitudinal wave. \hspace*{\fill} [1]
@@ -1687,7 +1745,7 @@ Some nice images:
         \end{figure}
         \begin{itemize}
             \item When the switch is closed for a short time, the circuit is closed and current flows through the primary coil. This causes the magnetic flux density in the primary coil (and hence the core) to increase. \hspace*{\fill} [1]
-            \item The magnetic field is directed through the secondary coil by the iron core. \hspace*{\fill} [1]
+            \item The magnetic field is directed to the secondary coil by the iron core. \hspace*{\fill} [1]
             \item This causes the magnetic flux linkage through the secondary coil to increase. Hence, by Faraday's Law, e.m.f. is induced in the secondary coil; the the voltmeter registers a nonzero reading. \hspace*{\fill} [1]
             \item When the current in the primary coil reaches a constant value, the magnetic flux linkage through the secondary coil is constant. Thus, no e.m.f. is induced in the secondary coil. Accordingly, the voltmeter reading goes back to zero after a short time. \hspace*{\fill} [1]
             \item When the switch is re-opened, the decrease in current and magnetic flux density in the primary coil causes the magnetic flux linkage through the secondary coil to decrease; e.m.f. is again induced momentarily in the secondary coil, but in the opposite direction, before returning to zero \hspace*{\fill} [1].
@@ -1696,6 +1754,22 @@ Some nice images:
     \item If asked to explain why an alternating current/e.m.f. is produced in the secondary coil, consider writing what follows. 
     
     \vspace{0.5\baselineskip} Since the rate of change of magnetic flux linkage alternates due to the alternating (sinusoidal) primary current, the induced e.m.f. in the secondary coil also alternates with the same frequency as the primary current.
+    \begin{example}{}{}
+        Assume that the transformer in the setup below is ideal.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{../images/transformer-turns.jpg}
+            \caption{\ref{Me}}
+            \label{fig:transformer-step-down-emf-explanation}
+        \end{figure}
+        Use Faraday's law of electromagnetic induction to explain why the e.m.f. is less than the potential difference across the primary coil. 
+        \begin{itemize}
+            \item The soft-iron core provides a closed magnetic circuit which ensures that both the primary and secondary coils experience the same changing magnetic flux \(\Phi\).
+            \item Since the secondary coil has a lower number of turns \(N\), by Faraday's Law, induced e.m.f 
+            \[E=\frac{d(N\Phi)}{dt}=N \frac{d\Phi}{dt}\]
+            is smaller for the secondary coil.
+        \end{itemize}
+    \end{example}
 \end{itemize}
 \chapter{Alternating Current}
 \begin{itemize}
@@ -1771,7 +1845,7 @@ Some nice images:
         \rule{20cm-137.0549pt-25pt}{0.05mm}\vspace{0.5\baselineskip}
         \begin{enumerate}
             \item[\textcolor{green!70!black}{\checkmark}] Power lost in the cables\({}=I^2R=\left(\highlight[green!70]{\dfrac{\langle P \rangle}{V}}\right)^2R\).
-            \item[\textcolor{red}{\(\times\)}] Power lost in the cables\({}=V^2/R\). This is \textcolor{red}{incorrect} because \(V\) is not the voltage across the cables. Rather, it is the rms voltage. 
+            \item[\textcolor{red}{\(\times\)}] Power lost in the cables\({}=V^2/R\). This is \textcolor{red}{incorrect} because \(V\) is not the voltage across the cables. Rather, it is the rms voltage of the power plant (a.c. source). 
         \end{enumerate}
     \end{example}
     \item Rectification.
@@ -1827,8 +1901,8 @@ Some nice images:
 \begin{landscape}
     \chapter{Quantum Physics}
     \begin{itemize}
-        \item[\AsteriskThin] \emph{A photon} is defined as \emph{a quantum} of electromagnetic energy. 
-        \item The energy of a photon is given by \(E=hf=hc/\lambda\), where Planck's constant \(h=6.63\cdot 10^{-34}\) Js. A useful conversion: 1 eV\({}=1.60\cdot 10^{-19}\) J 
+        \item[\AsteriskThin] \emph{A photon} is defined as \emph{a quantum} of electromagnetic energy. A photon of frequency \(f\) has energy \(E=hf\), where \(h\) is Planck's constant. 
+        \item Planck's constant \(h=6.63\cdot 10^{-34}\) Js. A useful conversion: 1 eV\({}=1.60\cdot 10^{-19}\) J 
         \item[\AsteriskThin] \emph{The photoelectric effect} refers to the emission of \emph{electrons from a metal surface} when the surface is \emph{irradiated} with electromagnetic radiation of a \emph{high enough frequency}.
     \end{itemize}
     \begin{longtable}{
@@ -2036,6 +2110,13 @@ Some nice images:
         \item Gaseous atoms \emph{absorb} photons with (exactly) the energies they need to transit to a higher energy state, \emph{from the ground state}. (We do not consider further excitations from above a higher energy level.)
         \item Given \(n\) energy states, there will be \(n-1\) absorption lines. 
     \end{itemize}
+    \begin{example}{}{}
+        State how line spectra, together with the concept of a photon, provide evidence for discrete energy levels in isolated atoms. \hspace*{\fill} [2]
+        \begin{itemize}
+            \item Since the emission line spectrum of an atom comprises of discrete lines, where each line corresponds to a specific wavelength \(\lambda\), the energies of photons \(E\propto 1/\lambda\) emitted are discrete. \hspace*{\fill} [1]
+            \item Each photon is emitted when one electron transits from a higher energy level to a lower energy level. Since the energy level difference is equal to the energy of the emitted photon, the energy levels must be discrete. \hspace*{\fill} [1]
+        \end{itemize}
+    \end{example} 
     \item All the light absorbed by atoms is re-emitted. Suggest why dark spectral lines are still seen: Incident light is directional, but light is re-emitted in all directions.  
     \item If an element \(_Z^AX\) lies on the \(m\)th row and in the \(n\)th group of the periodic table, then an atom of \(X\) at ground state has \(m\) electron shells and \(n\) valence electrons.
     \item The maximum number of electrons that can occupy the \(n\)th shell of an atom is \(2n^2\). 
@@ -2283,6 +2364,16 @@ Some nice images:
     \item[\AsteriskThin] The \emph{decay constant} \(\lambda\) of a \emph{sample of a radioactive nuclide} is the \emph{probability} that a nucleus will \emph{decay per unit time}. 
     \item The number \(N\) of undecayed nuclei is such that \(A=-\frac{dN}{dt}=\lambda N\).
     \item The number \(N\) of undecayed nuclei, mass \(m\) of radioactive sample, activity \(A\), and count rate \(C\) all follow the equation \(y=y_0e^{-\lambda t}\) (\(y=N,m,A,C\)).
+    \item When we are given a set of plotted points and asked to determine a value for half-life, do the following.
+    \begin{itemize}
+        \item Draw the curve of best-fit.
+        \item Calculate two values for half-life and take their mean:
+        \begin{itemize}
+            \item[] Time to half count rate from \rule{0.5cm}{0.01mm} to \rule{0.5cm}{0.01mm}\({}=x\).
+            \item[] Time to half count rate from \rule{0.5cm}{0.01mm} to \rule{0.5cm}{0.01mm}\({}=y\).
+            \item[] Average half-life\({}=\frac{x+y}{2}=\rule{0.5cm}{0.01mm}\).
+        \end{itemize}
+    \end{itemize}
     \item[\AsteriskThin] The \emph{half-life} \(t_{1/2}\) of a \emph{radioactive isotope} is the \emph{average time} taken for its \emph{activity to be halved}. \emph{Note.} \(\lambda t_{1/2}=ln(2)\).
     \begin{example}{the importance of semantics.}{}
         A student defines half-life of a radioactive isotope as the \emph{time taken} for its activity to be halved. Explain why this is inappropriate. \hspace*{\fill} [2]
@@ -2481,6 +2572,13 @@ Some nice images:
         \item Indirect effects. When radiation interacts with and breaks the bonds in water molecules, it creates free radicals: molecules which are highly reactive due to the presence of unpaired electrons. These free radicals form compounds which initiates harmful chemical reactions within cells, causing them to be destroyed.
     \end{itemize}
 \end{itemize}
+\begin{example}{}{}
+    Explain why, although the count rates are too low for the radiation to cause immediate symptoms in the student, careful shielding of the source is still necessary.
+    \begin{itemize}
+        \item Ionising radiation damages DNA and causes biological harm to the body. Even though no immediate symptoms may arise, biological damage can build up with \emph{prolonged close-proximity} exposure. In the long run, the student might experience increased risk of cancer, among other health impacts.
+        \item It also prevents radioactive contamination due to accidental inhalation or ingestion of the residues of the radioactive source --- especially if especially if the source is powdery --- which may lead to irreversible long run exposure to radioactive material.
+    \end{itemize} 
+\end{example}
 \begin{example}{radioactive dating.}{}
     To find the age of a relic, a recreation of it is made. Suppose that 
     \begin{enumerate}
@@ -2542,6 +2640,8 @@ Some nice images:
         \caption{\ref{Me} How to connect a rheostat to obtain a variable resistor or a fixed resistor.}
         \label{fig:rheostat-config}
     \end{figure}
+        \item \emph{Accuracy} refers to \emph{how closely} a measured value \emph{agrees with its true value}.
+        \item \emph{Precision} refers to \emph{how closely} individual measurements \emph{agree with each other}, without reference to a true value.
     \begin{table}[H]
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
