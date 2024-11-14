@@ -486,7 +486,7 @@
       State and explain whether the trapezium rule gives an underestimate or an overestimate of the area of under the curve \(y=f(x)\) from \(x=x_0\) to \(x=x_1\).
       \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{../Diagrams/trapzium-estimate.pdf}
+        \includegraphics[width=0.4\textwidth]{../Diagrams/trapzium-estimate.pdf}
         \caption{The trapezium rule results in an overestimate for the area under a curve that is concave upwards.}
         \label{fig:trapezium-overestimate}
       \end{figure}
@@ -543,12 +543,13 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
     \dfrac{du}{dx} &=\dfrac{2nx}{(4-x^2)^{n+1}} & \dfrac{dv}{dx}&=x
    \end{alignat*}
    we evaluate \(A_n\coloneq\int_{0}^{1/2}\frac{1}{(4-x^2)^n}\,dx\):
-   \begin{align*}
+{\allowdisplaybreaks
+     \begin{align*}
     A_n&=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n\int_{0}^{1/2}\frac{x^2}{(4-x^2)^{n+1}}\,dx\\
-    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n\int_{0}^{1/2}\frac{\highlight[yellow]{(4-x^2)-4}}{(4-x^2)^{n+1}}\,dx\\
-    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n\int_{0}^{1/2}\frac{4-x^2}{(4-x^2)^n}-4\cdot\frac{1}{(4-x^2)^{n+1}}\,dx\\
-    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}-2n(A_n-4A_{n+1}).\\
-   \end{align*}
+    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}+2n\int_{0}^{1/2}\frac{\highlight[yellow]{(4-x^2)-4}}{(4-x^2)^{n+1}}\,dx\\
+    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}+2n\int_{0}^{1/2}\frac{4-x^2}{(4-x^2)^n}-4\cdot\frac{1}{(4-x^2)^{n+1}}\,dx\\
+    &=\frac{1}{2}{\left( \frac{4}{15} \right)^n}+2n(A_n-4A_{n+1}).\\
+   \end{align*}}
    Therefore, \((2n-1)A_n+1/2(4/15)^n=8nA_{n+1}\).
 \end{example}
   \chapter{Complex Numbers}
