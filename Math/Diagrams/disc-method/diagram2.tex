@@ -1,0 +1,89 @@
+%* Source: https://tex.stackexchange.com/a/391013
+\documentclass[multi=my,]{standalone}
+\usepackage{pst-func}
+\begin{document}
+\psset{algebraic}
+\def\func{2*Euler^(-1/2*x)}
+\noindent
+
+% sqrt(x)
+\begin{my}
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+        \psaxes{->}(0,0)(0,-2)(3,2.5)
+        \psVolume[fillstyle=solid,fillcolor=magenta!30](0,4){1}{sqrt(x)}
+        \psline{->}(4,0)(5,0)
+        \end{pspicture}
+        %
+        \begin{pspicture}(-0.5,-2.5)(5,2.5)
+        \psaxes{->}(0,0)(0,-2)(3,2.5)
+        \psVolume[fillstyle=solid,fillcolor=red!40](0,4){2}{sqrt(x)}
+        \psline{->}(4,0)(5,0)
+        \end{pspicture}
+        %
+        \begin{pspicture}(-0.5,-2.5)(5,2.5)
+        \psaxes{->}(0,0)(0,-2)(3,2.5)
+        \psVolume[fillstyle=solid,fillcolor=blue!40](0,4){4}{sqrt(x)}
+        \psline{->}(4,0)(5,0)
+    \end{pspicture}
+\end{my}
+\begin{my}
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=green!40](0,4){8}{sqrt(x)}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+    %
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=yellow!40](0,4){16}{sqrt(x)}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+    %
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=cyan!40](0,4){32}{sqrt(x)}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+\end{my}
+
+% func
+\begin{my}
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=magenta!30](0,4){1}{\func}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+    %
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=red!40](0,4){2}{\func}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+    %
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=blue!40](0,4){4}{\func}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+\end{my}
+\begin{my}
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=green!40](0,4){8}{\func}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+    %
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=yellow!40](0,4){16}{\func}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+    %
+    \begin{pspicture}(-0.5,-2.5)(5,2.5)
+    \psaxes{->}(0,0)(0,-2)(3,2.5)
+    \psVolume[fillstyle=solid,fillcolor=cyan!40](0,4){32}{\func}
+    \psline{->}(4,0)(5,0)
+    \end{pspicture}
+\end{my}
+
+\end{document}

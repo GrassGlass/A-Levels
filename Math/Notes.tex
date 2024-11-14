@@ -253,8 +253,8 @@
       \item The characteristic equation is \(\lambda^2-a\lambda-b=0\), which has roots \(\lambda_1\) and \(\lambda_2\).
       \item The general solution is
       \[u_n=\begin{cases}
-        (An+B)m_1^n &\text{if \(\lambda_1=\lambda_2\) are real},\\
-        A\lambda_1^n+B\lambda_2^n &\text{if \(\lambda_1\) and \(\lambda_2\) are distinct},\\
+        (An+B)\lambda^n &\text{if \(\lambda=\lambda_1=\lambda_2\)},\\
+        A\lambda_1^n+B\lambda_2^n &\text{if \(\lambda_1\neq\lambda_2\)},\\
         r^n[A\cos(n\theta)+B\sin(n\theta)] &\text{if \(\lambda_1=re^{i\theta}\) and \(\lambda_2=re^{-i\theta}\) are not real},
       \end{cases}\]
       where \(A\) and \(B\) are real constants. \emph{Note.} Even if \(\lambda_1\) and \(\lambda_2\) are complex, \(u_n=A\lambda_1^n+B\lambda_2^n\) is valid.
@@ -275,7 +275,7 @@
   \end{center}
   Let \(f(x)=\sqrt{x^2-3x+4}+x-3\).
   \begin{enumerate}
-    \item Suppose \(x_1 \leq \frac{3+\sqrt{29}}{2}\). For \(x_1<\frac{3-\sqrt{29}}{2}\), we see that \(f(x)>x\). So \(x_n\) increases till \(\frac{3-\sqrt{29}}{2}\). While for \(\frac{3-\sqrt{29}}{2}<x_1<\frac{3+\sqrt{29}}{2}\), we have \(f(x)<x\). Thus \(x_n\) decreases till \(\frac{3-\sqrt{29}}{2}\). Notice the graphs intersects at \(x=\frac{3-\sqrt{29}}{2}\). So, when \(x_n=\frac{3-\sqrt{29}}{2}\), if ever, then \(x_{n+1}=x_n\). That is, \(L=\frac{3-\sqrt{29}}{2}\).
+    \item Suppose \(x_1 \leq \frac{3+\sqrt{29}}{2}\). For \(x_1<\frac{3-\sqrt{29}}{2}\), we see that \(f(x)>x\). So \(x_n\) increases till \(\frac{3-\sqrt{29}}{2}\). In contrast, for \(\frac{3-\sqrt{29}}{2}<x_1<\frac{3+\sqrt{29}}{2}\), we have \(f(x)<x\). Thus \(x_n\) decreases till \(\frac{3-\sqrt{29}}{2}\). Notice the graphs intersects at \(x=\frac{3-\sqrt{29}}{2}\). This suggests that \(L=\frac{3-\sqrt{29}}{2}\).
     \item Similarly, if \(x_1=\frac{3+\sqrt{29}}{2}\), then \(x_n=\frac{3+\sqrt{29}}{2}\) is a constant function; \(L=\frac{3+\sqrt{29}}{2}\).
     \item Presume that \(x_n>\frac{3+\sqrt{29}}{2}\). Then, \(f(x)>x\) tells us \(x_n\) is an increasing sequence that is unbounded. In other words, \(L\) does not exist.
   \end{enumerate}
@@ -284,7 +284,7 @@
   When we are asked to comment on the proposed model, it is usually about how suitable it is in modelling the actual situation.
 \end{note}
 \begin{example}{}{}
-  Investigate what the mode, with these values of \(a\) and \(b\), predict about the population when \(M_0=9679\) and \(M_0=9681\), respectively. 
+  Investigate what the model, with these values of \(a\) and \(b\), predict about the population when \(M_0=9679\) and \(M_0=9681\), respectively. 
   \begin{enumerate}
     \item[\textcolor{green!70!black}{\checkmark}] The model predicts that the population oscillates between  approximately 2420 and 9680 for the first few values of \(n\), but eventually becomes negative at \(n=9\) and \(n=10\). Hence the proposed model is valid only for the first few years and not in the long run. 
     \item[\textcolor{red}{\(\times\)}] The proposed model is very sensitive to small changes in the initial population of the mammal. 
@@ -409,13 +409,41 @@
   \end{enumerate}
 \end{stbox}
 \section{Areas \& Volumes}
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.9\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,page=1]{../Diagrams/disc-method/diagram2.pdf}
+
+    \includegraphics[width=\textwidth,page=2]{../Diagrams/disc-method/diagram2.pdf}
+    \caption{\(y=\sqrt{x}\)}
+    \label{fig:disc-quadratic}
+\end{subfigure}%
+
+\begin{subfigure}{0.9\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,page=3]{../Diagrams/disc-method/diagram2.pdf}
+
+    \includegraphics[width=\textwidth,page=4]{../Diagrams/disc-method/diagram2.pdf}
+    \caption{\(y=2e^{-x/2}\)}
+    \label{fig:disc-func}
+\end{subfigure}
+  \caption{The disc method.}
+  \label{fig:disc}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics{../Diagrams/shell-method/diagram1.pdf}
+  \caption{The shell method.}
+  \label{fig:shell}
+\end{figure}
 \begin{stbox}{General Information}
   \begin{enumerate}
     \item Volume of revolution when rotated about \(x\)-axis: 
   \begin{enumerate}
-    \item The disc method
+    \item The disc method (Figure \ref{fig:disc}):
     \[\int_{x_1}^{x_2}\pi y^2\,dx=\int_{x=x_1}^{x=x_2}\pi y^2\, \frac{dx}{dt}\,dt.\]
-    \item The shell method:
+    \item The shell method (Figure \ref{fig:shell}):
     \[\int_{y_1}^{y_2}2\pi yx \,dy.\]
   \end{enumerate}
   \item Arc length:
@@ -2533,10 +2561,12 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
 
 \chapter{Bibliography}
 \begin{enumerate}
+  \item Figure \ref{fig:disc} Disc method \href{https://tex.stackexchange.com/a/391013}{(Source)}
+  \item Figure \ref{fig:shell} Shell method \href{https://tex.stackexchange.com/a/404849}{(Source)}
   \item Fig 6.1 Trapezium rule \href{https://tex.stackexchange.com/a/110618}{(Source)}
   \item Fig 6.2 Simpson's rule \href{https://tex.stackexchange.com/a/439119}{(Source)}
   \item Fig 7.1 Argand Diagram \href{https://tex.stackexchange.com/a/466846}{(Source)}
-  \item Figure \ref{fig:euler's-methods} An illustration of Euler's Method and the Improved Euler's Method \url{https://tex.stackexchange.com/a/639280}
+  \item Figure \ref{fig:euler's-methods} An illustration of Euler's Method and the Improved Euler's Method \href{https://tex.stackexchange.com/a/639280}{(Source)}
   \item Oscillatory behavior of DEs modelling physical phenomena Fig 15.2 \href{https://tikz.net/dynamics_oscillator/}{(Source)}
   \item Figure \ref{fig:binomial-distribution} Mode of a binomial distribution \href{https://tex.stackexchange.com/a/209658}{(Source)}
   \item Used some inspiration from the beautiful preamble by tearfox and det.uwu from Discord, to make my environments look better.

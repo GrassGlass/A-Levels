@@ -14,69 +14,69 @@
 \contentsline {chapter}{\numberline {6}Integration Techniques}{12}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Basic Integration (IBS, IBP, etc)}{12}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Areas \& Volumes}{13}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Numerical Methods}{13}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Trapezium Rule}{13}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Simpson's Rule}{15}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Reduction formulas}{16}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Complex Numbers}{18}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Complex Number I}{18}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Complex Numbers II}{20}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Linear Algebra}{28}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Vector spaces, subspaces, linear combinations, bases, linear transformations}{28}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Matrices and systems of linear equations}{29}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Determinants}{31}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Diagonalisation}{32}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Miscellaneous}{33}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Conics}{34}{section.8.6}%
-\contentsline {chapter}{\numberline {9}Numerical Methods}{36}{chapter.9}%
-\contentsline {part}{2\hspace {1em}FMB}{43}{part.2}%
-\contentsline {chapter}{\numberline {10}Graphing Techniques}{44}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Graphing `Familiar' Functions and Asymptotic bois}{44}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Conics}{45}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Parametric Equations}{46}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Scaling, Translations, and Reflections}{47}{section.10.4}%
-\contentsline {section}{\numberline {10.5}\(\lvert f(x) \rvert \) and \(f( \lvert x \rvert )\)}{48}{section.10.5}%
-\contentsline {section}{\numberline {10.6}\(y=\frac {1}{f(x)}\)}{48}{section.10.6}%
-\contentsline {chapter}{\numberline {11}Polar Curves}{49}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Conic Sections}{53}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Functions}{57}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Permutations and Combinations}{58}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Vectors}{60}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Probability}{63}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Differential Equations}{64}{chapter.17}%
-\contentsline {section}{\numberline {17.1}First Order D.E.s}{64}{section.17.1}%
-\contentsline {subsection}{\numberline {17.1.1}Elementary Solving Techniques}{64}{subsection.17.1.1}%
-\contentsline {subsection}{\numberline {17.1.2}Numerical Methods}{65}{subsection.17.1.2}%
-\contentsline {section}{\numberline {17.2}Second Order D.E.}{69}{section.17.2}%
-\contentsline {section}{\numberline {17.3}Applications}{69}{section.17.3}%
-\contentsline {subsection}{\numberline {17.3.1}Exponential Growth}{69}{subsection.17.3.1}%
-\contentsline {subsection}{\numberline {17.3.2}Logistics Growth}{70}{subsection.17.3.2}%
-\contentsline {subsection}{\numberline {17.3.3}Harvesting}{71}{subsection.17.3.3}%
-\contentsline {subsection}{\numberline {17.3.4}Physics}{71}{subsection.17.3.4}%
-\contentsline {chapter}{\numberline {18}Discrete Random Variables}{73}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Special Discrete Random Variables}{74}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Continuous Random Variables}{78}{chapter.20}%
-\contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{81}{chapter.21}%
-\contentsline {chapter}{\numberline {22}Sampling and Estimation}{84}{chapter.22}%
-\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{89}{chapter.23}%
-\contentsline {section}{\numberline {23.1}Preliminary Definitions}{89}{section.23.1}%
-\contentsline {section}{\numberline {23.2}One Sample \(z\)-Test}{90}{section.23.2}%
-\contentsline {section}{\numberline {23.3}Student's \(t\)-Distribution}{91}{section.23.3}%
-\contentsline {section}{\numberline {23.4}One Sample \(t\)-Test}{92}{section.23.4}%
-\contentsline {section}{\numberline {23.5}Two Sample \(z\)-Test}{93}{section.23.5}%
-\contentsline {section}{\numberline {23.6}Two Sample \(t\)-Test}{94}{section.23.6}%
-\contentsline {section}{\numberline {23.7}Paired Sample \(t\)-Test}{94}{section.23.7}%
-\contentsline {section}{\numberline {23.8}Summary}{97}{section.23.8}%
-\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{99}{chapter.24}%
-\contentsline {section}{\numberline {24.1}The \(\chi ^2\)-Distribution}{99}{section.24.1}%
-\contentsline {section}{\numberline {24.2}A Goodness-of-Fit Test}{100}{section.24.2}%
-\contentsline {section}{\numberline {24.3}Tests of Independence}{102}{section.24.3}%
-\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{105}{chapter.25}%
-\contentsline {section}{\numberline {25.1}Scatter Diagrams}{105}{section.25.1}%
-\contentsline {section}{\numberline {25.2}Product Moment Correlation Coefficient \(r\)}{106}{section.25.2}%
-\contentsline {section}{\numberline {25.3}Regression Lines}{106}{section.25.3}%
-\contentsline {section}{\numberline {25.4}Other Notes}{110}{section.25.4}%
-\contentsline {chapter}{\numberline {26}Non-Parametric Tests}{111}{chapter.26}%
-\contentsline {section}{\numberline {26.1}Sign Test}{111}{section.26.1}%
-\contentsline {section}{\numberline {26.2}Wilcoxon Matched-Pairs Signed Rank Test}{112}{section.26.2}%
-\contentsline {chapter}{\numberline {27}Bibliography}{116}{chapter.27}%
+\contentsline {section}{\numberline {6.3}Numerical Methods}{15}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Trapezium Rule}{15}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Simpson's Rule}{16}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Reduction formulas}{17}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Complex Numbers}{19}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Complex Number I}{19}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Complex Numbers II}{21}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Linear Algebra}{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Vector spaces, subspaces, linear combinations, bases, linear transformations}{29}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Matrices and systems of linear equations}{30}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Determinants}{32}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Diagonalisation}{33}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Miscellaneous}{34}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Conics}{35}{section.8.6}%
+\contentsline {chapter}{\numberline {9}Numerical Methods}{37}{chapter.9}%
+\contentsline {part}{2\hspace {1em}FMB}{44}{part.2}%
+\contentsline {chapter}{\numberline {10}Graphing Techniques}{45}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Graphing `Familiar' Functions and Asymptotic bois}{45}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Conics}{46}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Parametric Equations}{47}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Scaling, Translations, and Reflections}{48}{section.10.4}%
+\contentsline {section}{\numberline {10.5}\(\lvert f(x) \rvert \) and \(f( \lvert x \rvert )\)}{49}{section.10.5}%
+\contentsline {section}{\numberline {10.6}\(y=\frac {1}{f(x)}\)}{49}{section.10.6}%
+\contentsline {chapter}{\numberline {11}Polar Curves}{50}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Conic Sections}{54}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Functions}{58}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Permutations and Combinations}{59}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Vectors}{61}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Probability}{64}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Differential Equations}{65}{chapter.17}%
+\contentsline {section}{\numberline {17.1}First Order D.E.s}{65}{section.17.1}%
+\contentsline {subsection}{\numberline {17.1.1}Elementary Solving Techniques}{65}{subsection.17.1.1}%
+\contentsline {subsection}{\numberline {17.1.2}Numerical Methods}{66}{subsection.17.1.2}%
+\contentsline {section}{\numberline {17.2}Second Order D.E.}{70}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Applications}{70}{section.17.3}%
+\contentsline {subsection}{\numberline {17.3.1}Exponential Growth}{70}{subsection.17.3.1}%
+\contentsline {subsection}{\numberline {17.3.2}Logistics Growth}{71}{subsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.3.3}Harvesting}{72}{subsection.17.3.3}%
+\contentsline {subsection}{\numberline {17.3.4}Physics}{72}{subsection.17.3.4}%
+\contentsline {chapter}{\numberline {18}Discrete Random Variables}{74}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Special Discrete Random Variables}{75}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Continuous Random Variables}{79}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Special Continuous Random Variables}{82}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Sampling and Estimation}{85}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Statistics: Hypothesis Testing}{90}{chapter.23}%
+\contentsline {section}{\numberline {23.1}Preliminary Definitions}{90}{section.23.1}%
+\contentsline {section}{\numberline {23.2}One Sample \(z\)-Test}{91}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Student's \(t\)-Distribution}{92}{section.23.3}%
+\contentsline {section}{\numberline {23.4}One Sample \(t\)-Test}{93}{section.23.4}%
+\contentsline {section}{\numberline {23.5}Two Sample \(z\)-Test}{94}{section.23.5}%
+\contentsline {section}{\numberline {23.6}Two Sample \(t\)-Test}{95}{section.23.6}%
+\contentsline {section}{\numberline {23.7}Paired Sample \(t\)-Test}{95}{section.23.7}%
+\contentsline {section}{\numberline {23.8}Summary}{98}{section.23.8}%
+\contentsline {chapter}{\numberline {24}Chi-Squared \(\chi ^2\) Tests}{100}{chapter.24}%
+\contentsline {section}{\numberline {24.1}The \(\chi ^2\)-Distribution}{100}{section.24.1}%
+\contentsline {section}{\numberline {24.2}A Goodness-of-Fit Test}{101}{section.24.2}%
+\contentsline {section}{\numberline {24.3}Tests of Independence}{103}{section.24.3}%
+\contentsline {chapter}{\numberline {25}Correlation and Linear Regression}{106}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Scatter Diagrams}{106}{section.25.1}%
+\contentsline {section}{\numberline {25.2}Product Moment Correlation Coefficient \(r\)}{107}{section.25.2}%
+\contentsline {section}{\numberline {25.3}Regression Lines}{107}{section.25.3}%
+\contentsline {section}{\numberline {25.4}Other Notes}{111}{section.25.4}%
+\contentsline {chapter}{\numberline {26}Non-Parametric Tests}{112}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Sign Test}{112}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Wilcoxon Matched-Pairs Signed Rank Test}{113}{section.26.2}%
+\contentsline {chapter}{\numberline {27}Bibliography}{117}{chapter.27}%
