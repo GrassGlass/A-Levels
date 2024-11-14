@@ -2133,6 +2133,16 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \item[Improved Euler's Method:] It is More accurate as it takes the mean of the initial and next gradient. 
   \end{enumerate}
 \end{note}
+\begin{figure}[H]
+  \centering
+  \includegraphics{../Diagrams/Euler's-Methods/euler's-method.pdf}
+  \caption{An illustration of \textcolor{green!50!blue}{Euler's Method} and the \textcolor{green!85!black}{Improved Euler's Method}.}
+  \label{fig:euler's-methods}
+\end{figure}
+\begin{note}
+  To find the percentage difference of the true value and the estimated value, we calculate
+  \[\frac{\text{true value}-\text{estimated value}}{\text{true value}}\cdot 100\%.\]
+\end{note}
 \begin{note}
   Explain the large discrepancy between the approximations yielded by Euler's Method and the Improved Euler's Method.
   \begin{itemize}
@@ -2175,16 +2185,47 @@ The Relationship Between Two Lines & The Relationship Between Two Planes\\
     \end{itemize}
   \end{enumerate}
 \end{example}
-\begin{figure}[H]
-  \centering
-  \includegraphics{../Diagrams/Euler's-Methods/euler's-method.pdf}
-  \caption{An illustration of \textcolor{green!50!blue}{Euler's Method} and the \textcolor{green!85!black}{Improved Euler's Method}.}
-  \label{fig:euler's-methods}
-\end{figure}
-\begin{note}
-  To find the percentage difference of the true value and the estimated value, we calculate
-  \[\frac{\text{true value}-\text{estimated value}}{\text{true value}}\cdot 100\%.\]
-\end{note}
+\begin{example}{}{}
+  The function \(y=y(x)\) satisfies \(\frac{dy}{dx}=\frac{1}{10}(\sin(x)-xy)\). 
+  \begin{enumerate}[label=(\roman*)]
+    \item The value of \(y(h)\) is to be found, where \(h\) is a small positive number, and \(y(0)=0\).
+    \begin{enumerate}
+      \item Use two steps of Euler's method to determine an approximation to \(y(h)\) in terms of \(h\).
+      \item Use one step of the improved Euler formula to find alternative solutions to \(y(h)\) in terms of \(h\).
+    \end{enumerate}
+    \item \textcolor{yellow}{\(\bigstar\)} Show that \(y=y(x)\) satisfies \(e^{0.05h^2}y(h)=\int_{0}^{h}0.1e^{0.05x^2}\sin(x)\,dx\).
+    % \begin{align*}
+    %   \frac{dy}{dx}&=\frac{1}{10}[\sin(x)-xy]\\
+    %   \frac{dy}{dx}+\left( \frac{1}{10}x \right)&=\frac{1}{10}\sin(x)\\
+    %   \text{Let I.F. be }e^{\int\frac{1}{10}x\,dx}&=e^{0.05x^2}:\\
+    %   e^{0.05x^2}y&=\int\frac{1}{10}e^{0.05x^2}\sin(x)\,dx\\
+    %   \left[e^{0.05x^2}y\right]_{0}^{h}&=\int_{0}^{h}\frac{1}{10}e^{0.05x^2}\sin(x)\,dx\\
+    %   e^{0.05h^2}y(h)-e^0y(0)&=\int_{0}^{h}\frac{1}{10}e^{0.05x^2}\sin(x)\,dx\\
+    %   \text{Since y(0)=0},\\
+    %   e^{0.05h^2}y(h)&=\int_{0}^{h}\frac{1}{10}e^{0.05x^2}\sin(x)\,dx.
+    % \end{align*}
+    \begin{proof}
+      We see that
+      \begin{align*}
+        \frac{dy}{dx}&=\frac{1}{10}[\sin(x)-xy]\\
+        \frac{dy}{dx}+\left( \frac{1}{10}x \right)&=\frac{1}{10}\sin(x)\\
+        \intertext{Let I.F. be \(e^{\int\frac{1}{10}x\,dx}=e^{0.05x^2}\):}
+        e^{0.05x^2}y&=\int\frac{1}{10}e^{0.05x^2}\sin(x)\,dx\\
+        \left[e^{0.05x^2}y\right]_{0}^{h}&=\int_{0}^{h}\frac{1}{10}e^{0.05x^2}\sin(x)\,dx\\
+        e^{0.05h^2}y(h)-e^0y(0)&=\int_{0}^{h}\frac{1}{10}e^{0.05x^2}\sin(x)\,dx\\
+        \shortintertext{Since \(y(0)=0\),}
+        e^{0.05h^2}y(h)&=\int_{0}^{h}\frac{1}{10}e^{0.05x^2}\sin(x)\,dx.
+      \end{align*}
+    \end{proof}
+    \item Use the fact that \(h\) is small to estimate \(\int_{0}^{h}0.1e^{0.05x^2}\sin(x)\,dx\). Hence find another approximation to \(y(h)\) in terms of \(h\).
+    \item \textcolor{yellow}{\(\bigstar\)} Discuss the relative merits of the three methods employed to obtain these approximations.
+  \end{enumerate}
+  \begin{itemize}
+    \item Two step of Euler's method might be lead to a more accurate approximation than one step of the improved Euler method, because of the larger number of steps.
+    \item The improved Euler method might lead to a more accurate approximation, as it takes the mean of the gradients \(y'(0)\) and \(y'(h)\), rather than the simplistic tangent line approximation used by Euler's method.
+    \item The method in (iii) might be more accurate than Euler's method and the improved Euler method, because it uses quadratic polynomials/an exponential curve\footnote{It depends on how you calculated the approximation to \(y(h)\) in (iii).} instead of straight line segments.
+  \end{itemize}
+\end{example}
 \section{Second Order D.E.}
 \begin{center}
   \begin{tabular}{|Sc|Sc|}
