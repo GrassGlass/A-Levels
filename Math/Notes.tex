@@ -716,13 +716,13 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
   Thus, \(x=\cot^2(2\pi/5)\) is a root of the equation \(5x^2-10x+1=0\). 
 \end{example}
 \begin{example}{RV FM 2023 J2 CT}{}
-  Show, by using De Moivre's theorem, that provided \(\cos(\theta)=0\), 
+  Show, by using De Moivre's theorem, that provided \(\cos(\theta)\neq 0\), 
   \[\sum_{k=1}^{12}{(-1)^{k-1}\cos((2k-1)\theta)}=\frac{\sin^2(P\theta)}{\cos(\theta)}\]
   where \(P\) is a constant to be determined.
 
   \rule{20cm-137.0549pt}{0.05mm}
 
-  Let \(C=\sum_{k=1}^{12}{(-1)^{k-1}\cos((2k-1)\theta)}\) and \(S=\sum_{k=1}^{12}{(-1)^{k-1}\sin((2k-1)\theta)}\). Then, for \(z=i\theta\),
+  Let \(C=\sum_{k=1}^{12}{(-1)^{k-1}\cos((2k-1)\theta)}\) and \(S=\sum_{k=1}^{12}{(-1)^{k-1}\sin((2k-1)\theta)}\). Then, for \(z=e^{i\theta}\),
   \begin{align*}
     C+iS &=\sum_{k=1}^{12}{(-1)^{k-1}[\cos((2k-1)\theta)+i\sin((2k-1)\theta)]}\\
     &=\sum_{k=1}^{12}{z(-z^2)^{k-1}}\\
@@ -750,25 +750,58 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
       % \binom{n}{n}\left( z^n-\frac{1}{z^n} \right)+\binom{n}{n-1}\left( z^{n-2}-\frac{1}{z^{n-2}} \right)+\dots+\binom{n}{\lfloor n/2 \rfloor}\left( z-\frac{1}{z} \right)\\
     \end{align*}
     Comparing imaginary parts, we get \(\sin^n(\theta)\) in the desired form:
-    \[\sin^n(\theta)=\frac{1}{i^{n-1}2^{n-1}}
+    \[\sin^n(\theta)=\frac{1}{2^{n-1}}
     % \left[ \sin(n\theta)+\binom{n}{n-2}\sin((n-2)\theta)+\dots+\binom{n}{\lfloor n/2 \rfloor}\sin(\theta) \right]
     \sum_{k=0}^{\lfloor n/2 \rfloor}{\binom{n}{n-2k}\sin((n-2k)\theta)}.\]
     (Similarly, we can express \(\cos^n(\theta)\) as a linear combination of \(\cos(m\theta)\).)
     \item Now, consider even \(n\), instead. Then, recall that \(z^k+\frac{1}{z^k}=2\cos(k\theta)\). As such,
     \begin{align*}
-      [2i\sin(\theta)]^n &= \sum_{k=0}^{n/2}{\binom{n}{n-2k}\left( z^{n-2k}+\frac{1}{z^{n-2k}} \right)}\\
-      \sin^n(\theta) &= \frac{1}{i^n2^{n-1}}\sum_{k=0}^{n/2}{\binom{n}{n-2k}\sin((n-2k)\theta)}.
+      [2i\sin(\theta)]^n &= \sum_{k=0}^{n/2}{\binom{n}{n-2k}\left( z^{n-2k}-\frac{1}{z^{n-2k}} \right)}\\
+      \sin^n(\theta) &= \frac{1}{2^{n-1}}\sum_{k=0}^{n/2}{\binom{n}{n-2k}\cos((n-2k)\theta)}.
     \end{align*}
     (The case for \(\cos^n(\theta)\) is again similar.)
-    \item Alternatively, we may be asked to express \(\sin(n\theta)\) as a linear combination of \(\sin(m\theta)\), using just De Moivre's theorem. Letting \(c\coloneq\cos(\theta)\) and \(s\coloneq\sin(\theta)\), we first expand
-    \begin{align*}
-      \cos(n\theta)+i\sin(n\theta) &= [\cos(\theta)+i\sin(\theta)]^n\\
-      &= \sum_{k=0}^{n}{\binom{n}{k}c^{n-k}i^{k}s^{k}}.
-    \end{align*}
-    Then, compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).)
+    % \item Alternatively, we may be asked to express \(\sin(n\theta)\) as a linear combination of \(\sin(m\theta)\), using just De Moivre's theorem. Letting \(c\coloneq\cos(\theta)\) and \(s\coloneq\sin(\theta)\), we first expand
+    % \begin{align*}
+    %   \cos(n\theta)+i\sin(n\theta) &= [\cos(\theta)+i\sin(\theta)]^n\\
+    %   &= \sum_{k=0}^{n}{\binom{n}{k}c^{n-k}i^{k}s^{k}}.
+    % \end{align*}
+    % Then, compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).)
     \item Let \(n\in \mathbb{Z}^{+}\). Similarly, to find \(\sin(n\theta)\) in terms of powers of \(\sin(\theta)\), first apply De Moivre's theorem:
     \[\cos(n\theta)+i\sin(n\theta)=(c+is)^n=\sum_{k=0}^{n}{\binom{n}{k}c^{n-k}i^ks^k}.\]
     Then, we compare imaginary parts. (Or real parts, for \(\cos(n\theta)\).)
+    \item Trigonometric identities:
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{M{0.3\textwidth}M{0.3\textwidth}}
+        \toprule
+        \(\pi-\theta\) & \(\pi/2-\theta\)\\
+        \midrule 
+        \(\begin{aligned}
+          \sin(\pi-\theta)&=\sin(\theta)\\
+          \cos(\pi-\theta)&=-\cos(\theta)\\
+          \tan(\pi-\theta)&=-\tan(\theta)
+        \end{aligned}\)
+        % \begin{itemize}
+        %   \item \(\sin(\pi-\theta)=\sin(\theta)\)
+        %   \item \(\cos(\pi-\theta)=-\cos(\theta)\) 
+        %   \item \(\tan(\pi-\theta)=-\tan(\theta)\)
+        % \end{itemize}
+        &
+        \(\begin{aligned}
+          \sin(\pi/2-\theta)&=\cos(\theta)\\
+          \cos(\pi/2-\theta)&=\sin(\theta)\\
+          \tan(\pi/2-\theta)&=\cot(\theta)
+        \end{aligned}\)\\
+        % \begin{itemize}
+        %   \item \(\sin(\pi/2-\theta)=\cos(\theta)\)
+        %   \item \(\cos(\pi/2-\theta)=\sin(\theta)\)
+        %   \item \(\tan(\pi/2-\theta)=\cot(\theta)\)
+        % \end{itemize}\\
+        \bottomrule
+      \end{tabular}
+      \caption{}
+      \label{table:trigonometric-identities}
+    \end{table}
     \item Let \(z^n=1\). Then, \(\sum{z^i}=z^n\sum{z^i}=\sum{z^{n+i}}\).
   \end{enumerate}
 \end{note}
@@ -776,15 +809,15 @@ Sometimes, some algebraic tricks are needed to reduce an integral into the desir
   \begin{enumerate}
     \item[1(a).] Simplifying a complex number \(w\) to a given form. 
     \begin{align*}
-      w&=\frac{-ie^{\frac{2k}{5}(i\pi)}}{1-e^{\frac{2k}{5}(i\pi)}}=\frac{-ie^{\frac{2k}{5}(i\pi)}}{e^{\frac{k}{5}(i\pi)}\left[ e^{-\frac{k}{5}(i\pi)}-e^{\frac{k}{5}(i\pi)} \right]}=\frac{-ie^{\frac{k}{5}(i\pi)}}{-2i\sin(k\pi/5)}\\
+      w&=\frac{-ie^{2ki\pi/5}}{1-e^{2ki\pi/5}}=\frac{-ie^{2ki\pi/5}}{e^{ki\pi/5}\left[ e^{-ki\pi/5}-e^{ki\pi/5} \right]}=\frac{-ie^{ki\pi/5}}{-2i\sin(k\pi/5)}\\
       &=\frac{\cos(k\pi/5)+i\sin(k\pi/5)}{2\sin(k\pi/5)}=\frac{1}{2}[\cot(k\pi/5)+i]
     \end{align*}
     \item[1(b).]
-    \[z=2\left( 1+e^{\frac{2k}{3}(i\pi)} \right)=2e^{\frac{k}{3}(i\pi)}\left( e^{-\frac{k}{3}(i\pi)}+e^{\frac{k}{3}(i\pi)} \right)=4\cos(k\pi/3)e^{\frac{k}{3}(i\pi)}.\]
+    \[z=2\left( 1+e^{2ki\pi/3} \right)=2e^{ki\pi/3}\left( e^{-ki\pi/3}+e^{ki\pi/3} \right)=4\cos(k\pi/3)e^{ki\pi/3}.\]
     \item[1(c).] Let \(z_k=e^{2ki\pi/n}\) for all \(1\leq k\leq n\). In the case where \(n\) is odd, i.e. \(n=2m+1\), evaluate the series \(\sum_{k=1}^{n}{2(1+z_k)^{-1}}\).
     \begin{align*}
       \sum_{k=1}^{n}{\frac{2}{1+z_k}}&=\sum_{k=1}^{n}{\frac{2}{1+e^{2ki\pi/n}}}=\sum_{k=1}^{n}{\frac{2}{e^{ki\pi/n}\left( e^{-ki\pi/n}+e^{ki\pi/n} \right)}}=\sum_{k=1}^{n}{\frac{2e^{-ki\pi/n}}{2\cos(k\pi/n)}}\\
-      &=\frac{k=1}{n}\frac{\cos(k\pi/n-i\sin(k\pi/n))}{\cos(k\pi/n)}=\sum_{k=1}^{n}{1-i\tan(k\pi/n)}\\
+      &=\sum{k=1}^{n}\frac{\cos(k\pi/n)-i\sin(k\pi/n)}{\cos(k\pi/n)}=\sum_{k=1}^{n}{1-i\tan(k\pi/n)}\\
       &=n-i\Bigl[\bigl[\tan(\pi/n)+\tan((n-1)\pi/n)\bigr]+\bigl[\tan(2\pi/n)+\tan((n-2)\pi/n)\bigr]+...\\
       &\hphantom{={}}+\bigl[\tan(m\pi/n)+\tan((n-m)\pi/n)\bigr]+\tan(\pi)\Bigr]\\
       &=n+i(0+0+\dots+0)=n

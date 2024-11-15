@@ -40,19 +40,19 @@ Such that the following properties hold:
     A subset \(S\) of a vector space \(V\) \emph{generates} (or \emph{spans}) \(V\) iff \(\Span(S)=V\). In this case, we also say that the vectors of \(S\) generate (or span) \(V\).
 \end{definition}
 \begin{definition}{}{}
-    Let \(V\) be a vector space and \(S\) a nonempty subset of \(V\). A vector \(v \in V\) is called a \emph{linear combination} of vectors of \(S\) iff there exists a finite number of vectors \(u_1,u_2,\dots,u_n\) in \(S\) and scalars \(a_1,a_2,\dots,a_n\) in \(\mathbb{F}\) such that
-            \[v=\sum_{i=1}^{n}{a_iu_i}.\]
-            In this case we also say that \(v\) is a linear combination of \(u_1,u_2,\dots,u_n\) and call \(a_1,a_2,\dots,a_n\) the \emph{coefficients} of the linear combination
+    Let \(V\) be a vector space and \(S\) a nonempty subset of \(V\). A vector \(v \in V\) is called a \emph{linear combination} of vectors of \(S\) iff there exists a finite number of vectors \(\mathbf{u}_1,\mathbf{u}_2,\dots,\mathbf{u}_n\) in \(S\) and scalars \(a_1,a_2,\dots,a_n\) in \(\mathbb{F}\) such that
+            \[v=\sum_{i=1}^{n}{a_i\mathbf{u}_i}.\]
+            In this case we also say that \(v\) is a linear combination of \(\mathbf{u}_1,\mathbf{u}_2,\dots,\mathbf{u}_n\) and call \(a_1,a_2,\dots,a_n\) the \emph{coefficients} of the linear combination
 \end{definition}
 \begin{definition}{}{}
-    A set subset \(S\) of a vector space \(V\) is called \emph{linearly dependent} iff there exists a finite number of distinct vectors \(u_1,u_2,\dots,u_n\)in \(S\) and scalars \(a_1,a_2,\dots,a_n\) not all zero, such that
-            \[a_1u_1+a_2u_2+a_nu_n=\mathbf{0}.\]
+    A set subset \(S\) of a vector space \(V\) is called \emph{linearly dependent} iff there exists a finite number of distinct vectors \(\mathbf{u}_1,\mathbf{u}_2,\dots,\mathbf{u}_n\)in \(S\) and scalars \(a_1,a_2,\dots,a_n\) not all zero, such that
+            \[a_1\mathbf{u}_1+a_2\mathbf{u}_2+a_n\mathbf{u}_n=\mathbf{0}.\]
 \end{definition}
 \begin{definition}{}{}
     A \emph{basis} \(\beta\) for a vector space \(V\) is a linearly independent subset of \(V\) that generates \(V\). If \(\beta\) is a basis for \(V\), we also say that the vectors of \(\beta\) form a basis for \(V\).
 \end{definition}
 \begin{definition}{}{}
-    Let \(V\) and \(W\) be vector spaces. We call a function \(T\colon V\to W\) a \emph{linear transformation from \(V\) to \(W\)} iff \(T(cx+y)=cT(x)+T(y)\) for all \(x,y\in V\) and \(c\in \mathbb{F}\).
+    Let \(V\) and \(W\) be vector spaces. We call a function \(T\colon V\to W\) a \emph{linear transformation from \(V\) to \(W\)} iff \(T(c\mathbf{x}+\mathbf{y})=cT(\mathbf{x})+T(\mathbf{y})\) for all \(\mathbf{x},\mathbf{y}\in V\) and \(c\in \mathbb{F}\).
 \end{definition}
 \begin{theorem}{The Rank-Nullity Theorem.}{}
     For any vector spaces \(V\) and \(W\), and a linear transformation \(T \colon V \to W\), it holds that
@@ -323,7 +323,7 @@ Such that the following properties hold:
     \end{itemize}    
 \end{stbox}
 \begin{note}
-    Let \(\mathbf{A}\) be a \(3\times 3\) real matrix with the eigenvalue \(\lambda\). Then, the cross product of two nonzero rows/columns of \(\mathbf{A}-\lambda \mathbf{I}\) is an eigenvector of \(\mathbf{A}\).
+    Let \(\mathbf{A}\) be a \(3\times 3\) real matrix, with the eigenvalue \(\lambda\). Then, the cross product of two linearly independent rows of \(\mathbf{A}-\lambda \mathbf{I}\) is an eigenvector of \(\mathbf{A}\).
 \end{note}
 \begin{theorem}{The Cayley-Hamiliton Theorem.}{}
     Let \(T\) be a linear operator on a finite dimensional vector space \(V\), and let \(f(t)\) be the characteristic polynomial of \(T\). Then \(f(T)=T_0\), the zero transformation. That is, \(T\) ``satisfies'' its characteristic equation.
