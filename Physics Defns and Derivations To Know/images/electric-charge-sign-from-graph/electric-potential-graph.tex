@@ -1,0 +1,44 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots, calc, tkz-euclide}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{decorations.pathreplacing, decorations.markings, angles}
+\usepackage{newpxtext, eulerpx}
+\pgfplotsset{every axis legend/.append style={
+at={(0,0)},
+anchor=north west}} 
+
+\begin{document}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        axis x line*=top,
+        xlabel = \(t/\mathrm{s}\),
+        ylabel = {\(V_X/\mathrm{V}\)},
+        xmin=1, xmax=12,
+        ymin=-200, ymax=300,
+        xtick={1,3,...,13},
+        extra x ticks={2,4,...,12},
+        extra x tick style={grid=none},
+        ytick={-200,-100,...,300},
+        grid=both,
+        minor tick num=9,
+        % x=3.3333333cm,
+        % y=2.6666667cm,
+        grid style={line width=.1pt, draw=gray},
+        major grid style={line width=0.75pt,draw=gray},
+        % width=14cm,
+        % height=6cm,
+    ]
+    %Below the red parabola is defined
+    \addplot [
+        domain=2:11, 
+        samples=200, 
+        color=black,
+        thick,
+    ]
+    {407.25/x-135.75/(12-x)};
+    \addlegendentry{\(V_X=\frac{407.25}{x}-\frac{135.75}{12-x}\)}
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}

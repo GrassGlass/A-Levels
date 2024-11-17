@@ -1,0 +1,19 @@
+\documentclass[tikz]{standalone}
+\usepackage{calc}
+\usetikzlibrary {arrows.meta}
+\usepackage{newpxtext, eulerpx}
+\begin{document}
+\begin{tikzpicture}[dot/.style={draw,fill,circle,inner sep=1.5pt}]
+    \coordinate[dot,label={above left:\(A\)}] (A) at (0,0) {};
+    \coordinate[dot,label={above right:\(B\)}] (B) at (8,0) {};
+    \coordinate[dot,label={above:\(P\)}] (P) at (4.4,0) {};
+    \draw[dashed] (0,-1) -- (0,1); 
+    \draw[dashed] (8,-1) -- (8,1); 
+    \draw[dashed] (4.4,-1) -- (4.4,0); 
+    \draw[dashed] (A) -- (B); 
+    \begin{scope}[>=Latex=[scale=1.25]]
+        \draw[<->] (0,-0.7) -- (4.4,-0.7) node[midway,below] {\(x\)};
+        \draw[<->] (0,0.7) -- (8,0.7) node[midway,above] {\(12\) cm};
+      \end{scope}
+\end{tikzpicture}
+\end{document}

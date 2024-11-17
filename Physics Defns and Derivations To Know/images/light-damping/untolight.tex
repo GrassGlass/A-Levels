@@ -1,0 +1,68 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots, calc, tkz-euclide}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{decorations.pathreplacing, decorations.markings, angles}
+\usepackage{newpxtext, eulerpx}
+\pgfplotsset{every axis legend/.append style={
+at={(0,0)},
+anchor=north west}} 
+
+\begin{document}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        axis x line*=top,
+        xlabel = \(x/\mathrm{cm}\),
+        ylabel = {\(V_X/\mathrm{V}\)},
+        xmin=0, xmax=2.8,
+        ymin=-1.5, ymax=0,
+        xtick={0,0.4,...,2.8},
+        ytick={0,-0.5,...,-1.5},
+        grid=both,
+        minor tick num=9,
+        x=3.3333333cm,
+        y=2.6666667cm,
+        grid style={line width=.1pt, draw=gray},
+        major grid style={line width=0.75pt,draw=gray},
+        % width=14cm,
+        % height=6cm,
+    ]
+    %Below the red parabola is defined
+    \addplot [
+        domain=0:2.66, 
+        samples=200, 
+        color=black,
+        thick,
+    ]
+    {-0.75-0.5*cos(2.5*pi*deg(x))};
+    \addlegendentry{undamped}
+    %Here the blue parabola is defined
+    \addplot [
+        domain=0:2.4, 
+        samples=200, 
+        color=blue,
+        thick,
+        ]
+        {-0.75-0.5*cos(2.5*pi*deg(x))*exp(-1.2*x)};
+    \addlegendentry{light damping}
+    \addplot [
+        domain=0:2.4, 
+        samples=200, 
+        color=blue,
+        dashed,
+        thick,
+        ]
+        {-0.75-0.5*exp(-1.2*x)};
+        \addplot [
+        domain=0:2.4, 
+        samples=200, 
+        color=blue,
+        dashed,
+        thick,
+        ]
+        {-0.75+0.5*exp(-1.2*x)};
+    
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}

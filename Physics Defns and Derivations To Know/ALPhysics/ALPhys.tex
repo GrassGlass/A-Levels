@@ -365,6 +365,9 @@
     \item The \emph{specific latent heat} of a body is defined as the thermal energy required to change \emph{phase} of one unit mass of a substance, \emph{without a change in temperature}.
     \item For a substance of specific latent heat of fusion (vaporisation), we write \(Q=mL_f\) (\(Q=mL_v\)).
     \item \emph{Internal energy} of a system is a sum of \emph{random distribution} of kinetic and potential energies \emph{associated with the molecules} of the system. Microscopic potential energy is due to the intermolecular forces between the molecules. Microscopic kinetic energy is due to the random motion of the molecules. 
+    \item The \emph{internal energy of an ideal gas} is the sum of microscopic kinetic energies due to the random motion of the ideal gas molecules. 
+
+    \emph{Note.} The inclusion of microscopic potential energy is forbidden, since ideal gases have zero microscopic potential energy.
     \item Words such as ``insulated'' implies that there is no heat supplied to the system. i.e. \(Q=0\).
     \item \emph{Note.} Work done versus heat supplied. Work done is the transfer of energy by force/macroscopic changes, while heat supplied is the direct transfer of thermal energy through microscopic changes. E.g. consider a liquid that is isolated from all other sources of heat. When stirring leads to an increase in temperature (via frictional heating), it is considered work done, even though the liquid experiences an increase in thermal energy.
     \item An ideal monoatomic gas of \(N\) atoms only has translational motion and no intermolecular potential energy, \(U=E_k=N\cdot\text{translational \(E_k\) of one atom}=\frac{3}{2}NkT\).
@@ -526,6 +529,16 @@
     \item Gravitational field strength at a point is defined as the gravitational force per unit mass acting on a small mass placed at that point
     \item The \emph{gravitational potential energy} of a mass at a point is defined as the work done by an \emph{external agent} in bringing the mass \emph{from infinity} to that point (without any net change in kinetic energy).
     \item \emph{Gravitational potential} at a point is defined as the work done per unit mass by an \emph{external agent} in bringing a mass \emph{from infinity} to that point (without a net change in kinetic energy).
+    \begin{example}{}{}
+        The gravitational potential \(\phi\) at a distance \(x\) from a point mass \(M\) is given by the expression
+        \[\phi=-\frac{GM}{x}\]
+        where \(G\) is the gravitational constant. Explain why gravitational potential is a negative quantity \hspace*{\fill} [3]
+        \begin{itemize}
+            \item Since gravitational potential energy is \emph{attractive}, \hspace*{\fill} [1]
+            \item an external force that brings a (small test) mass from infinity to a finite distance \(x\) from \(M\) is \emph{opposite in direction} to the displacement of the mass. So, \emph{negative work} is done by the external force. \hspace*{\fill} [1]   
+            \item As \emph{gravitational potential at infinity is zero}, the gravitational potential at distance \(x\) from \(M\) is negative. \hspace*{\fill} [1]
+        \end{itemize}
+    \end{example}
     \item Escape velocity is the \emph{minimum} velocity a mass needs to be projected from the \emph{surface} of the Earth in order to have sufficient kinetic energy to overcome the gravitational field it experiences and \emph{move to infinity}.
     \item Escape velocity \(v_\text{min}=\sqrt{\frac{2GM}{r}}\) (where Min \(E_k\) needed is the gain in \(E_p\) to reach infinity).
 \end{itemize}
@@ -537,7 +550,7 @@
 \end{tikzcd}
 \]
 \item \(U_G=m\phi\) \& \(\Delta U_G=m\Delta\phi\).
-\item \(U_G\) is negative because infinity is taken as the reference point for zero potential energy. The work done against gravitational force in bringing a mass from infinity to that point is negative.
+% \item \(U_G\) is negative because infinity is taken as the reference point for zero potential energy. The work done against gravitational force in bringing a mass from infinity to that point is negative.
 \item Gravitational force provides the centripetal force:
 \begin{align*}
     F_G&=F_C\\
@@ -764,6 +777,20 @@ So, rearranging, we have
         \label{fig:underdamped}
     \end{figure}
 \end{itemize}
+\begin{example}{}{}
+    The variation with time \(t\) of the total vertical displacement \(y\) of the mass \(M\) is shown in Figure \ref{fig:no-damping-to-light-damping}, when the oscillations are undamped. On Figure \ref{fig:no-damping-to-light-damping}, sketch the variation of time \(t\) of the total vertical displacement \(y\) of mass \(M\) for \textbf{three} complete, lightly damped oscillations of the mass.
+    \begin{itemize}[label={--}]
+        \item Same constant period \hspace*{\fill} [1]
+        \item Gradual/continuous decrease in amplitude \hspace*{\fill} [1]
+        \item Three complete cycles
+    \end{itemize}
+    \begin{figure}[H]
+        \centering
+        \includegraphics{../images/light-damping/untolight.pdf}
+        \caption{\ref{Me} Changes to the displacement-time graph going from no damping to \textcolor{blue}{light damping}.}
+        \label{fig:no-damping-to-light-damping}
+    \end{figure}
+\end{example}
 (Ideal) Isolated spring systems are in simple harmonic motion, but spring systems in general need not be in simple harmonic motion.
 \begin{example}{spring systems are not \emph{always} in simple harmonic motion.}{}
     Consider when a mass \(m\) is dropped onto a massless spring, that is at its equilibrium position. Assume that the mass does not rebound; the spring-mass system moves as one body after the initial collision occurs.
@@ -1337,6 +1364,7 @@ So, rearranging, we have
     \item Power dissipated \(P=IV\).
     \item Power delivered is \emph{maximum } when \(R=r\), such that 
     \[P_{\text{max}}=\frac{E^2}{4r}.\]
+    \emph{Note.} Unless specified by the question, try to avoid assuming that the internal resistance \(r\) of the internal resistance of a cell is constant, if possible.
     \item Efficiency of the source
     \begin{itemize}
         \item \emph{Increases} when external load/\emph{resistance increases}.
@@ -1428,6 +1456,21 @@ So, rearranging, we have
     \captionsetup{type=figure}
     \caption[figure]{\ref{Electric field plots} Electric field strength of a positive point charge}
   \end{center}
+  \item The \emph{electric potential energy} of a point charge in an electric field is defined as the \emph{work done by an external agent} in bringing the point charge from infinity to that point (without any net change in kinetic energy). 
+  \item The \emph{electric potential} at a point in an electric field is defined as the \emph{work done} per unit \emph{positive} charge, by an external agent, in bringing a \emph{small} test charge from infinity to that point (without any net change in kinetic energy). 
+  \item Let \(U\) be the electric potential energy, and \(V\) the electric potential. Then,
+  \[U=qV \qquad\text{and}\qquad \Delta U=q\Delta V.\]
+  \begin{center}
+    \begin{tikzcd}[row sep=large, column sep=large]
+        U=\frac{Qq}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} \arrow[swap]{d}{\frac{1}{q}} & F_E=\frac{Q_1Q_2}{4\pi\varepsilon_0r^2} \arrow[swap]{d}{\frac{1}{q}} \\
+        V=\frac{Q}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & E=\frac{Q}{4\pi\varepsilon_0r^2}
+    \end{tikzcd}
+  \end{center}
+  \item A ``singly charged'' object is one which has charge \(e=1.60\cdot 10^{-19}\). 
+  \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential \(V_i\) due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
+  \[V=\sum_{i}{V_i}=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
+  \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies \(U_{ij}\) needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 
+  \[U=\sum_{i>j}{U_{ij}}=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
   \begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
@@ -1457,7 +1500,17 @@ So, rearranging, we have
     \item Just outside the conductor, the e-field lines are \emph{perpendicular to its surface}, starting and ending on charges on the surface.
     \item \emph{Excess charges} resides exclusively on \emph{the surfaces} of a conductor.
   \end{itemize}
-  \begin{figure}[H]
+  \item Electric field strength between two charged parallel plates is uniform everywhere between the plates, except at both ends of the plates. 
+  \item Also, \emph{charges} between the plates experience \emph{uniform acceleration}.
+  \begin{center}
+    \includegraphics[scale=1]{../images/ParallelPlates/testing.pdf}
+    \captionsetup{type=figure}
+    \caption[figure]{\ref{Electric field lines between parallel plates} Electric field lines between parallel plates.}
+  \end{center}
+  \item Magnitude of electric field strength between the plates:
+  \[E=\frac{dV}{dr}=\frac{\Delta V}{d}.\]
+\end{itemize}
+\begin{figure}[H]
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
@@ -1480,32 +1533,26 @@ So, rearranging, we have
     \caption{The electric potential and electric field strength between two parallel plates containing a conductor.}
     \label{fig:electric-conductor-plot}
   \end{figure}
-  \item Electric field strength between two charged parallel plates is uniform everywhere between the plates, except at both ends of the plates. 
-  \item Also, \emph{charges} between the plates experience \emph{uniform acceleration}.
-  \begin{center}
-    \includegraphics[scale=1]{../images/ParallelPlates/testing.pdf}
-    \captionsetup{type=figure}
-    \caption[figure]{\ref{Electric field lines between parallel plates} Electric field lines between parallel plates.}
-  \end{center}
-  \item Magnitude of electric field strength between the plates:
-  \[E=\frac{dV}{dr}=\frac{\Delta V}{d}.\]
-  \item The \emph{electric potential energy} of a point charge in an electric field is defined as the \emph{work done by an external agent} in bringing the point charge from infinity to that point (without any net change in kinetic energy). 
-  \item The \emph{electric potential} at a point in an electric field is defined as the \emph{work done} per unit \emph{positive} charge, by an external agent, in bringing a \emph{small} test charge from infinity to that point (without any net change in kinetic energy). 
-  \item Let \(U\) be the electric potential energy, and \(V\) the electric potential. Then,
-  \[U=qV \qquad\text{and}\qquad \Delta U=q\Delta V.\]
-  \item ~
-  \begin{center}
-    \begin{tikzcd}[row sep=large, column sep=large]
-        U=\frac{Qq}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} \arrow[swap]{d}{\frac{1}{q}} & F_E=\frac{Q_1Q_2}{4\pi\varepsilon_0r^2} \arrow[swap]{d}{\frac{1}{q}} \\
-        V=\frac{Q}{4\pi\varepsilon_0r} \arrow{r}{-\frac{\text{d}}{\text{d}r}} & E=\frac{Q}{4\pi\varepsilon_0r^2}
-    \end{tikzcd}
-  \end{center}
-  \item A ``singly charged'' object is one which has charge \(e=1.60\cdot 10^{-19}\). 
-  \item The \emph{electric potential} at a point \(X\) due to a \emph{system} of point charges \(q_i\) is the algebraic sum of the electric potential \(V_i\) due to each individual charge \(q_i\) which is distance \(r_i\) away from \(X\). That is, 
-  \[V=\sum_{i}{V_i}=\sum_{i}^{}{\frac{q_i}{4\pi\varepsilon_0r_i}}.\]
-  \item The \emph{potential energy} of a \emph{system} of charges \(q_i\) is the work done to assemble it. This is the sum of energies \(U_{ij}\) needed to bring each charge \(q_i\) to the charges \(q_j\) (for \(i>j\)) already present. In other words letting \(r_{ij}\) be the distance of \(q_i\) from \(q_j\), we have 
-  \[U=\sum_{i>j}{U_{ij}}=\sum_{i>j}^{}{\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}}.\] 
-\end{itemize}
+  \begin{example}{}{}
+    \begin{figure}[H]
+        \centering
+        \includegraphics{../images/electric-charge-sign-from-graph/setup.pdf}
+        \caption{\ref{Me} Two point charges, \(A\) and \(B\), are separated in a vacuum by a distance of 12cm.}
+        \label{fig:two-point-charges-setup}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics{../images/electric-charge-sign-from-graph/electric-potential-graph.pdf}
+        \caption{\ref{Me} The variation with distance \(x\) of the electric potential \(V_X\) at point \(P\).}
+        \label{fig:net-electric-potential-due-to-two-point-charges}
+    \end{figure}
+    Explain whether the charges have the same, or opposite, signs.
+    \begin{itemize}
+        \item The potential due to two charges at a point is the scalar sum of the potentials due to each charge at the same point.\footnote{This point can be skipped, if the question is one mark and time is running short.}
+        \item Since potential is positive near to \(A\) and negative close near to \(B\), charges \(A\) and \(B\) are positive and negative, respectively.
+        \item i.e. the charges have opposite signs.
+    \end{itemize}
+  \end{example}
 \begin{center}
     \includegraphics[width=\textwidth]{../images/Electron-Deflection/Bahn-Kondensator (1).pdf}
     \captionsetup{type=figure}
@@ -1973,6 +2020,15 @@ Some nice images:
         \label{table:the-photoelectric-effect}
     \end{longtable}
 \end{landscape}
+\begin{example}{}{}
+    State \textbf{two} pieces of evidence provided by the photoelectric effect for the particulate nature of electromagnetic radiation.
+    \begin{itemize}[label={--}]
+        \item The emission of electrons from the metal surface is instantaneous, regardless of how low the intensity of incident light is, as long as frequency of incident light is sufficiently high (above the threshold frequency). \hspace*{\fill} [1]
+        \item There exists a threshold frequency, which is the minimum frequency at which light must be incident for electrons to be freed from the metal surface. It is independent of intensity of incident light. \hspace*{\fill} [1]
+        \item The maximum kinetic energy of an emitted electron is dependent on the frequency of the incident light. \hspace*{\fill} [1]
+        \item The maximum kinetic energy of an emitted electron is independent on the intensity of incident light. \hspace*{\fill} [1]
+    \end{itemize}  
+\end{example}
 \begin{minipage}{0.5\textwidth}
     \begin{figure}[H]
         \centering
@@ -2010,9 +2066,7 @@ Some nice images:
         \end{itemize}
     \end{itemize}
 \end{minipage}
-\null
-\vfill
-\footnotetext{Totally didn't take me 5-7 hours to tex out the next page\dots Tikz is pain, suffering, but beautiful.}
+% \footnotetext{Totally didn't take me 5-7 hours to tex out the next page\dots Tikz is pain, suffering, but beautiful.}
 \begin{figure}[H]
     \centering
     \begin{subfigure}[c]{0.49\textwidth}
@@ -2113,10 +2167,24 @@ Some nice images:
     \begin{example}{}{}
         State how line spectra, together with the concept of a photon, provide evidence for discrete energy levels in isolated atoms. \hspace*{\fill} [2]
         \begin{itemize}
-            \item Since the emission line spectrum of an atom comprises of discrete lines, where each line corresponds to a specific wavelength \(\lambda\), the energies of photons \(E\propto 1/\lambda\) emitted are discrete. \hspace*{\fill} [1]
+            \item Since the emission line spectrum of an atom comprises of discrete lines, where each line corresponds to one specific wavelength \(\lambda\), the energies of photons \(E\propto 1/\lambda\) emitted are discrete. \hspace*{\fill} [1]
             \item Each photon is emitted when one electron transits from a higher energy level to a lower energy level. Since the energy level difference is equal to the energy of the emitted photon, the energy levels must be discrete. \hspace*{\fill} [1]
         \end{itemize}
     \end{example} 
+    \begin{example}{}{}
+        In the visible section of the spectrum of electromagnetic radiation, purple light has the shortest wavelength.
+        \begin{enumerate}
+            \item Calculate the energy, in eV, of a photon of purple light of wavelength \(340\cdot 10^{-9}\)m.
+            \[E=hc/\lambda=\dots=3.66\mathrm{eV}.\]
+            \item By reference to your answer in (i), explain why a visible line spectrum does \textbf{not} result from electrons de-exciting to the -13.6 eV energy level. \hspace*{\fill} [2]
+            \begin{itemize}
+                % \item The energy level difference \(E\) from the de-excitation of an electron to the -13.6 eV energy level is \emph{at least} \(13.6-\highlight[grey]{3.4}=\highlight[grey]{10.2}>3.66\mathrm{eV}\). 
+                % \item An emitted photon has energy \(E\geq 3.66\mathrm{eV}>3.\)
+                \item The de-excitation of an electron to the \(-13.6\) eV energy level produces a photon of minimum energy \(13.6-\rule{0.5cm}{0.01mm}=\rule{0.5cm}{0.01mm}>3.66eV={}\)energy of one purple photon. \hspace*{\fill} [1]
+                \item So, an emitted photon has shorter wavelength than purple light. Since purple light has the shortest wavelength in the visible light spectrum, an emitted photon will not be in the visible light spectrum. \hspace*{\fill} [1] 
+            \end{itemize}
+        \end{enumerate}
+    \end{example}
     \item All the light absorbed by atoms is re-emitted. Suggest why dark spectral lines are still seen: Incident light is directional, but light is re-emitted in all directions.  
     \item If an element \(_Z^AX\) lies on the \(m\)th row and in the \(n\)th group of the periodic table, then an atom of \(X\) at ground state has \(m\) electron shells and \(n\) valence electrons.
     \item The maximum number of electrons that can occupy the \(n\)th shell of an atom is \(2n^2\). 
@@ -2543,6 +2611,13 @@ Some nice images:
     %     \caption{Types of radioactive decay.}
     %     \label{table:types-of-radioactive-decay}
     % \end{table}
+    \begin{example}{}{}
+        The isotope beryllium-7 is radioactive with a half-life of 53 days. A beryllium-7 nucleus decays by the emission of a \(\gamma\)-ray photon. State why, although the beryllium-7 is radioactive, the number of beryllium-7 nuclei in the sample does not change. \hspace*{\fill} [2]
+        \begin{itemize}
+            \item  The \(\gamma\)-ray photon emitted in the decay of a beryllium-7 nucleus is a quantum of energy that contains no protons or neutrons. \hspace*{\fill} [1]
+            \item So the daughter nucleus is still a beryllium-7 nucleus. Hence, the number of beryllium-7 nuclei is constant. \hspace*{\fill} [1]
+        \end{itemize}
+    \end{example}
 \end{itemize}
     \begin{minipage}{0.5\textwidth}
         \begin{figure}[H]

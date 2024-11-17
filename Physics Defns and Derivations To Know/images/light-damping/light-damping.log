@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  4 AUG 2024 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  17 NOV 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,50 +690,50 @@ LaTeX Font Info:    Redeclaring math symbol \imath on input line 275.
 LaTeX Font Info:    Redeclaring math symbol \jmath on input line 276.
 LaTeX Font Info:    Redeclaring math symbol \wp on input line 277.
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 35.
-LaTeX Font Info:    Trying to load font information for T1+zplTLF on input line 35.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 36.
+LaTeX Font Info:    Trying to load font information for T1+zplTLF on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/t1zpltlf.fd
 File: t1zpltlf.fd 2021/05/25 v1.0 font definition file for T1/zpl/TLF
 )
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 35.
+(Font)              scaled to size 10.0pt on input line 36.
  (./light-damping.aux)
 \openout1 = `light-damping.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 35.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 35.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 36.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 35.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 35.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 35.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count323
@@ -765,8 +765,8 @@ Package grfext Info: Graphics extension search list:
  (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 35.
-LaTeX Info: Command `\ddddot' is already robust on input line 35.
+LaTeX Info: Command `\dddot' is already robust on input line 36.
+LaTeX Info: Command `\ddddot' is already robust on input line 36.
 
 
 Package siunitx Warning: Detected the "physics" package:
@@ -782,88 +782,88 @@ Package siunitx Warning: Detected the "physics" package:
 (c:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 35.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 36.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 35.
+ on input line 36.
 
 \c@mv@tabular=\count329
 \c@mv@boldtabular=\count330
-LaTeX Font Info:    Trying to load font information for OT1+zplTLF on input line 173.
+LaTeX Font Info:    Trying to load font information for OT1+zplTLF on input line 46.
 (c:/texlive/2023/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2021/05/25 v1.0 font definition file for OT1/zpl/TLF
 )
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 46.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 173.
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 46.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 46.
  (c:/texlive/2023/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 46.
  (c:/texlive/2023/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 46.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.3pt on input line 173.
+(Font)              scaled to size 7.3pt on input line 46.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.5pt on input line 173.
+(Font)              scaled to size 5.5pt on input line 46.
  [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] (./light-damping.aux)
@@ -881,7 +881,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  117i,7n,121p,753b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on light-damping.pdf (1 page, 41260 bytes).
+Output written on light-damping.pdf (1 page, 41256 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

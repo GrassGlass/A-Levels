@@ -9,8 +9,6 @@
                     axis x line=middle,    % put the x axis in the middle
                     axis y line=middle,    % put the y axis in the middle
                     axis line style={->}, % arrows on the axis
-                    xlabel={$x$},          % default put x on x-axis
-                    ylabel={$y$},          % default put y on y-axis
                     }}
 
 % arrows as stealth fighters
@@ -32,6 +30,7 @@
     \begin{axis}[
         xmin=-35,xmax=35,
         ymin=-35,ymax=35,
+        axis line style={draw=none},
         ticks=none]
         % Hyperbola
         \addplot [domain=-1.8:1.8] ({10*cosh(x)}, {10*sinh(x)});
