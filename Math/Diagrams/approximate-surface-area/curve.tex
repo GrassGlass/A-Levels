@@ -1,0 +1,49 @@
+%* Source: https://tex.stackexchange.com/a/158979
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots, calc, tkz-euclide}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{decorations.pathreplacing, decorations.markings, angles}
+
+% axis style, ticks, etc
+\pgfplotsset{every axis/.append style={
+                    axis x line=middle,    % put the x axis in the middle
+                    axis y line=middle,    % put the y axis in the middle
+                    axis line style={->}, % arrows on the axis
+                    xlabel={$x$},          % default put x on x-axis
+                    ylabel={$y$},          % default put y on y-axis
+                    }}
+
+% arrows as stealth fighters
+\tikzset{>=stealth,
+-<-/.style={decoration={
+  markings,
+  mark=at position #1 with {\arrow[scale=1.5]{Classical TikZ Rightarrow[reversed]}}},postaction={decorate}}}
+\NewDocumentCommand\bisector{O{}mmmO{10pt}}{
+\path[#1] let
+    \p1 = ($(#3)!10cm!(#2)$),
+    \p2 = ($(#3)!10cm!(#4)$),
+    \p3 = ($(\p1) + (\p2) - (#3)$)
+    in    
+    ($(#3)!#5!($(#3)!0.85cm!(\p3)$)$) -- ($($(#3)!0.85cm!(\p3)$)!#5!(#3)$) ;
+}
+\begin{document}
+
+\begin{tikzpicture}[dot/.style={draw,fill,circle,inner sep=1.5pt}]
+    \def\a{5}
+    \def\p{0.1}
+    \begin{axis}[
+        xmin=-0.1*\a*\p^2,xmax=1.2*\a*\p^2,
+        ymin=-0.6*\a*\p,ymax=6*\a*\p,
+        % axis line style={draw=none},
+        ticks=none]
+        \addplot [domain=0:\p] ({\a*x^2},{2\a*x});
+        \coordinate[dot,label={below left:\(O\)}] (O) at (0,0) {};
+        \coordinate[dot,label={above right:\(P\)}] (P) at ({\a*\p^2},{2\a*\p}) {};
+        \coordinate (Q) at ({\a*\p^2},0) {};
+        \draw[blue] (O) -- (P) node[midway,below right] {\textcolor{blue}{\(\ell\)}};
+        \draw[blue,dashed] (Q) -- (P) node[midway,right] {\textcolor{blue}{\(r\)}};
+        % \draw[blue] (O) -- (P) node[midway,below,sloped] {\textcolor{blue}{\(\ell=ap\sqrt{a^2p^2+4}\approx 2ap^2\)}};
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}

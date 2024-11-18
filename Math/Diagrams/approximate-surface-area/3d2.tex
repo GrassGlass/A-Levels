@@ -1,0 +1,35 @@
+% used PGFPlots v1.14
+\documentclass[border=5pt]{standalone}
+\usepackage{pgfplots}
+    \pgfplotsset{
+        % use `compat' level 1.8 or higher
+        compat=1.8,
+        % just put all the options in here and it will work as expected
+        every axis/.append style={
+            axis lines=center,
+            tick align=outside,
+        },
+    }
+\begin{document}
+    \begin{tikzpicture}
+        \begin{axis} [
+            anchor=north,
+            yshift=-1cm,
+            xlabel={$x$},
+            ylabel={$y$},
+            zlabel={$z$},
+%            % -----------------------------------
+%            % putting the options directly here
+%            % would (also) lead to the expected
+%            % result
+%            axis lines=center,
+%            xlabel style={anchor=south west},
+%            ylabel style={anchor=south west},
+%            zlabel style={anchor=south west},
+%            tick align=outside,
+%            % -----------------------------------
+        ]
+            \addplot3+ coordinates { (1,1,1) (2,2,2) };
+        \end{axis}
+    \end{tikzpicture}
+\end{document}
