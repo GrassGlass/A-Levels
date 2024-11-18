@@ -7,20 +7,20 @@
 \contentsline {chapter}{\numberline {7}Circular Motion}{13}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Gravitational Fields}{15}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Oscillations}{20}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Wave Motion}{24}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Superposition}{26}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Currents of Electricity}{36}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Electric Fields}{40}{chapter.13}%
-\contentsline {chapter}{\numberline {14}D.C. Circuits}{45}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Electromagnetism}{47}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Electromagnetic Induction}{53}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Alternating Current}{57}{chapter.17}%
-\contentsline {chapter}{\numberline {18}Quantum Physics}{62}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Nuclear Physics}{74}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Practical}{80}{chapter.20}%
-\contentsline {section}{\numberline {20.1}A-Level Trend}{80}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Measurements \& Calculations}{80}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Tables \& Graphing}{82}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Questions post-graphing}{84}{section.20.4}%
-\contentsline {section}{\numberline {20.5}Planning questions}{87}{section.20.5}%
-\contentsline {chapter}{\numberline {21}Bibliography}{93}{chapter.21}%
+\contentsline {chapter}{\numberline {10}Wave Motion}{25}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Superposition}{27}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Currents of Electricity}{37}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Electric Fields}{41}{chapter.13}%
+\contentsline {chapter}{\numberline {14}D.C. Circuits}{46}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Electromagnetism}{48}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Electromagnetic Induction}{54}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Alternating Current}{58}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Quantum Physics}{63}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Nuclear Physics}{75}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Practical}{81}{chapter.20}%
+\contentsline {section}{\numberline {20.1}A-Level Trend}{81}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Measurements \& Calculations}{81}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Tables \& Graphing}{83}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Questions post-graphing}{85}{section.20.4}%
+\contentsline {section}{\numberline {20.5}Planning questions}{88}{section.20.5}%
+\contentsline {chapter}{\numberline {21}Bibliography}{94}{chapter.21}%
