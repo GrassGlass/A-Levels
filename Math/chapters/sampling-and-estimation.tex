@@ -179,22 +179,25 @@ and \href{https://www.amazon.com/Probability-Statistical-Inference-Statistics-Mo
   \end{center}
 \end{note}
 \begin{note}
-  Standard phrasing for whether mean/proportion in context has likely increased/decreased, when given suitable confidence intervals.
+  Standard phrasing for whether a population parameter \(\theta\) has likely increased/decreased, when given suitable confidence intervals.
   \begin{enumerate}
     \item There is no conclusive result.
 
-    Since the old and new \((1-\alpha)\%\) confidence intervals overlap, we are unable to conclude whether the [mean/proportion in context] has decreased or not. Hence, it is inconclusive from these figures as to whether the [context (e.g. an awareness campaign)] has been effective.
+    As the old \((1-\alpha)100\%\) confidence interval has a lower/higher central value of \(\widehat{\theta}_1<\widehat{\theta}_2\) than the new \((1-\alpha)100\%\) confidence interval, there is some evidence to suggest that [\(\theta\) in context] has increased/decreased. However, this evidence is weak: Since the old and new \((1-\alpha)100\%\) confidence intervals overlap, we are unable to conclude whether the [\(\theta\) in context] has decreased or not. Hence, it is inconclusive from these figures as to whether the [context (e.g. an awareness campaign)] has been effective.
     \item It has likely increased/decreased.
     
-    The old \((1-\alpha)\%\) confidence interval is to the left/right of the new \((1-\alpha)\%\) confidence interval, such that they do not overlap. So, can conclude that the [mean/proportion in context] likely increased/decreased. Hence, these figures suggests that the [context (e.g. an awareness campaign)] has been effective.
+    The old \((1-\alpha)100\%\) confidence interval is to the left/right of the new \((1-\alpha)100\%\) confidence interval, such that they do not overlap. So, can conclude that the [\(\theta\) in context] likely increased/decreased. Hence, these figures suggests that the [context (e.g. an awareness campaign)] has been effective.
   \end{enumerate}
 \end{note}
 \begin{note}
-  Advantage and disadvantage of a \((1-\beta)\%\) confidence interval compared to a \((1-\alpha)\%\) confidence interval, where \(\beta<\alpha\).
+  Advantage and disadvantage of a \((1-\beta)100\%\) confidence interval compared to a \((1-\alpha)100\%\) confidence interval, where \(\beta<\alpha\).
   \begin{center}
-    \begin{tabular}{ll}
-      Advantage:& A \((1-\beta)\%\) CI is more likely to contain the true mean.\\
-      Disadvantage:& A \((1-\beta)\%\) CI is less precise (or wider).
+    \begin{tabular}{m{0.15\textwidth}m{0.8\textwidth}}
+      \toprule
+      Advantage:& A \((1-\beta)100\%\) CI is more likely to contain the true mean. So, any result made on the assumption that the true mean is contained in the \((1-\beta)100\%\) CI is more likely to hold true, than results made assuming the true mean is contained in the \((1-\alpha)100\%\) CI.\\
+      \midrule
+      Disadvantage:& A \((1-\beta)100\%\) CI is wider. Thus, using the \((1-\beta)100\%\) CI gives us less accuracy about the location of the true value of the mean. Accordingly, stronger results can be concluded by assuming that the true mean is contained in the \((1-\alpha)100\%\) CI, than can be concluded by assuming the true mean is contained in the \((1-\beta)100\%\) CI.\\
+      \bottomrule
     \end{tabular}
   \end{center}
   \emph{Note.} Clearly state which is the advantage and disadvantage, as illustrated above.
