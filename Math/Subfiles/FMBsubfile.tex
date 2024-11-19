@@ -53,7 +53,7 @@
         \centering
         \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
           \hline
-          \(x\) & \(x_1\) & \(x_2\) & \(\cdots\) & \(x_n\)\\
+          \(x\) & \(\leq x_1<\) & \(\leq x_2<\) & \(\cdots\) & \(\leq x_n<\)\\
           \hline
           \(f_i\) & \(f_1\) & \(f_2\) & \(\cdots\) & \(f_n\)\\
           \hline
@@ -109,7 +109,7 @@ So, we want to fill up the values of \(e_i\) below.
   \centering
   \begin{tabular}{|Sc|Sc|Sc|Sc|Sc|}
     \hline
-    \(x\) & \(a_1\leq x_1\leq a_2\) & \(a_2\leq x_2\leq a_3\) & \(\cdots\) & \(a_n\leq x_n\leq a_{n+1}\)\\
+    \(x\) & \(a_1\leq x< a_2\) & \(a_2\leq x< a_3\) & \(\cdots\) & \(a_n\leq x\leq a_{n+1}\)\\
     \hline
     \(f_i\) & \(f_1\) & \(f_2\) & \(\cdots\) & \(f_n\)\\
     \hline
@@ -119,7 +119,7 @@ So, we want to fill up the values of \(e_i\) below.
   \caption{Observed and expected frequencies when testing goodness-of-fit with a normal distribution.}
   \label{table:gof-normal} 
 \end{table}
-Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Prob(\highlight[green!50]{-\infty}<X\leq a_2)\) and \(e_n=m\Prob(a_n\leq X<\highlight[green!50]{\infty})\), instead of \(e_1=m\Prob(\highlight[red!30]{a_1}\leq X\leq a_2)\) or \(e_n=m\Prob(a_n\leq X\leq\highlight[red!30]{a_{n+1}})\). Similarly, for goodness-of-fit tests with Poisson and Geometric distributions, we must also be careful in ensuring that we account for \emph{all} possible values which \(X\) can take on, in calculating \(e_i\).
+Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Prob(\highlight[green!50]{-\infty}<X< a_2)\) and \(e_n=m\Prob(a_n\leq X\leq \highlight[green!50]{\infty})\), instead of \(e_1=m\Prob(\highlight[red!30]{a_1}\leq X< a_2)\) or \(e_n=m\Prob(a_n\leq X\leq \highlight[red!30]{a_{n+1}})\). Similarly, for goodness-of-fit tests with Poisson and Geometric distributions, we must also be careful in ensuring that we account for \emph{all} possible values which \(X\) can take on, in calculating \(e_i\).
 \end{note}
 \begin{note}
   Suppose we are given a question of the following form.
@@ -222,7 +222,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
   \end{enumerate}
 \end{stbox}
 \begin{GCSkills}{}
-  Key in the matrix of \emph{\textcolor{green!70!black}{observed} frequencies} (not Table \hyperlink{table:tests-of-indepedence}{\textcolor{red}{1.2}} of \emph{\textcolor{red}{expected}} frequencies): 
+  Key in the matrix of observed frequencies: 
   \begin{center}
     \texttt{2nd} \(\Longrightarrow\) \(\texttt{x}^{-1}\) \(\Longrightarrow\) \texttt{EDIT} \(\Longrightarrow\) \texttt{[A]}.
   \end{center}
@@ -587,10 +587,10 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
           Sign & \(+\) & \(0\) & \(-\) & \(\cdots\) & \(+\)\\
           \hline
         \end{tabular}
-        \caption{The signs of \(d_1,d_2,\dots,d_N\), for a sigm test. Instead of \(1,2,\dots,N\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
+        \caption{The signs of \(d_1,d_2,\dots,d_N\), for a sign test. Instead of \(1,2,\dots,N\) the labeling/column headers can differ in the given context. E.g. \(A,B,\dots,K\). Similarly, the signs here are mere examples; the \(i\)th sign cell should be filled with \(+\) (\(-\)) [0] if \(\operatorname{sgn}(d_i)=1\) (\(=-1\)) [\(=0\)].}
         \label{table:sign-test-working-table}
       \end{table}
-      \item Let \(X_{+}\) be the number of \(`+'\). Under \(H_0\), \(X_{+}\sim\Binom(\hyperlink{non-parametric-tests-n-value}{n},1/2)\), \(x_{+}=11\). (Alternatively, \(X_{-}\) can also be used.)
+      \item Let \(X_{+}\) be the number of \(`+'\). Under \(H_0\), \(X_{+}\sim\Binom(\hyperlink{non-parametric-tests-n-value}{n},1/2)\), \(x_{+}=\rule{0.5cm}{0.01mm}\). (Alternatively, \(X_{-}\) can also be used.)
       \item Since \(p\text{-value}=\rule{1cm}{0.01mm}<100\alpha\%\) (\(\geq 100\alpha\%\)), there is sufficient (insufficient) evidence, at the \(100\alpha\%\) significance level, to conclude that [\(H_1\) in context].
     \end{enumerate}
     \item \emph{Note.} The \(p\)-value for a sign test is given by
@@ -715,7 +715,7 @@ Let the sample size \(\sum f_i\) be \(m\). Then, we should calculate \(e_1=m\Pro
         \setlength{\tabcolsep}{12pt}
         \begin{tabular}{ScScScSc}
           \toprule
-          \(H_1\) & \(m<m_0\) & \(m>m_0\) & \(m\neq m_0\)\\
+          \(H_1\) & \(m<0\) & \(m>0\) & \(m\neq 0\)\\
           \midrule
           \(T_{+}\) & \(T_{+}\leq c\) & \(T_{+}\geq \dfrac{n(n+1)}{2}-c\) & \(T_{+}\leq c\)\quad or\quad\(T_{+}\geq \dfrac{n(n+1)}{2}-c\)\\
           \midrule

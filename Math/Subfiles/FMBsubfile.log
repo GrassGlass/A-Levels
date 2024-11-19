@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  7 NOV 2024 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  19 NOV 2024 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1190,7 +1190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--150
 
 [3] [4] [5] [6]
 Chapter 2.
-<../images/scatter-plot-example.jpg, id=153, 1456.44125pt x 1004.75375pt>
+<../images/scatter-plot-example.jpg, id=152, 1456.44125pt x 1004.75375pt>
 File: ../images/scatter-plot-example.jpg Graphic file (type jpg)
 <use ../images/scatter-plot-example.jpg>
 Package pdftex.def Info: ../images/scatter-plot-example.jpg  used on input line 334.
@@ -1202,53 +1202,53 @@ Package pdftex.def Info: ../images/scatter-plot-example.jpg  used on input line 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 356.
 
-<../images/product-moment-correlation-coefficient/r-is-0.jpg, id=163, 1264.725pt x 971.63pt>
+<../images/product-moment-correlation-coefficient/r-is-0.jpg, id=161, 1264.725pt x 971.63pt>
 File: ../images/product-moment-correlation-coefficient/r-is-0.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/r-is-0.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/r-is-0.jpg  used on input line 368.
 (pdftex.def)             Requested size: 171.99922pt x 132.12807pt.
-<../images/product-moment-correlation-coefficient/r-is--neg-1.jpg, id=164, 1279.78125pt x 971.63pt>
+<../images/product-moment-correlation-coefficient/r-is--neg-1.jpg, id=162, 1279.78125pt x 971.63pt>
 File: ../images/product-moment-correlation-coefficient/r-is--neg-1.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/r-is--neg-1.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/r-is--neg-1.jpg  used on input line 374.
 (pdftex.def)             Requested size: 171.99922pt x 130.57135pt.
-<../images/product-moment-correlation-coefficient/small-negative-r.jpg, id=165, 1288.815pt x 968.61874pt>
+<../images/product-moment-correlation-coefficient/small-negative-r.jpg, id=163, 1288.815pt x 968.61874pt>
 File: ../images/product-moment-correlation-coefficient/small-negative-r.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/small-negative-r.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/small-negative-r.jpg  used on input line 379.
 (pdftex.def)             Requested size: 171.99922pt x 129.2651pt.
-<../images/product-moment-correlation-coefficient/r-is-1.jpg, id=166, 1301.86375pt x 966.61125pt>
+<../images/product-moment-correlation-coefficient/r-is-1.jpg, id=164, 1301.86375pt x 966.61125pt>
 File: ../images/product-moment-correlation-coefficient/r-is-1.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/r-is-1.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/r-is-1.jpg  used on input line 385.
 (pdftex.def)             Requested size: 171.99922pt x 127.69926pt.
-<../images/product-moment-correlation-coefficient/small-positive-r.jpg, id=167, 1327.96124pt x 964.60374pt>
+<../images/product-moment-correlation-coefficient/small-positive-r.jpg, id=165, 1327.96124pt x 964.60374pt>
 File: ../images/product-moment-correlation-coefficient/small-positive-r.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/small-positive-r.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/small-positive-r.jpg  used on input line 390.
 (pdftex.def)             Requested size: 171.99922pt x 124.93188pt.
-<../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg, id=168, 1309.89375pt x 971.63pt>
+<../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg, id=166, 1309.89375pt x 971.63pt>
 File: ../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg  used on input line 396.
 (pdftex.def)             Requested size: 171.99922pt x 127.57652pt.
-<../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg, id=169, 1289.81876pt x 970.62625pt>
+<../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg, id=167, 1289.81876pt x 970.62625pt>
 File: ../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg Graphic file (type jpg)
 <use ../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg>
 Package pdftex.def Info: ../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg  used on input line 401.
 (pdftex.def)             Requested size: 171.99922pt x 129.42935pt.
 [8] [9 <../images/product-moment-correlation-coefficient/r-is-0.jpg> <../images/product-moment-correlation-coefficient/r-is--neg-1.jpg> <../images/product-moment-correlation-coefficient/small-negative-r.jpg> <../images/product-moment-correlation-coefficient/r-is-1.jpg> <../images/product-moment-correlation-coefficient/small-positive-r.jpg> <../images/product-moment-correlation-coefficient/r-is-undefined-horizontal-points.jpg> <../images/product-moment-correlation-coefficient/r-is-undefined-vertical-points.jpg>]
-<../Diagrams/least-square-regression-line/regression-line.pdf, id=186, page=1, 195.7995pt x 162.7952pt>
+<../Diagrams/least-square-regression-line/regression-line.pdf, id=185, page=1, 195.7995pt x 162.7952pt>
 File: ../Diagrams/least-square-regression-line/regression-line.pdf Graphic file (type pdf)
 <use ../Diagrams/least-square-regression-line/regression-line.pdf, page 1>
 Package pdftex.def Info: ../Diagrams/least-square-regression-line/regression-line.pdf , page1 used on input line 452.
 (pdftex.def)             Requested size: 205.20482pt x 170.61456pt.
-<../Diagrams/least-square-regression-line/regression-line.pdf, id=187, page=2, 195.79851pt x 162.7952pt>
+<../Diagrams/least-square-regression-line/regression-line.pdf, id=186, page=2, 195.79851pt x 162.7952pt>
 File: ../Diagrams/least-square-regression-line/regression-line.pdf Graphic file (type pdf)
 <use ../Diagrams/least-square-regression-line/regression-line.pdf, page 2>
 Package pdftex.def Info: ../Diagrams/least-square-regression-line/regression-line.pdf , page2 used on input line 461.
 (pdftex.def)             Requested size: 205.20482pt x 170.61456pt.
-<../Diagrams/least-square-regression-line/regression-line.pdf, id=188, page=3, 195.7995pt x 162.7952pt>
+<../Diagrams/least-square-regression-line/regression-line.pdf, id=187, page=3, 195.7995pt x 162.7952pt>
 File: ../Diagrams/least-square-regression-line/regression-line.pdf Graphic file (type pdf)
 <use ../Diagrams/least-square-regression-line/regression-line.pdf, page 3>
 Package pdftex.def Info: ../Diagrams/least-square-regression-line/regression-line.pdf , page3 used on input line 474.
@@ -1273,16 +1273,16 @@ Package rerunfilecheck Info: File `FMBsubfile.out' has not changed.
 Here is how much of TeX's memory you used:
  46318 strings out of 475237
  1104556 string characters out of 5768555
- 1956238 words of memory out of 5000000
+ 1957238 words of memory out of 5000000
  66576 multiletter control sequences out of 15000+600000
  587710 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,17n,162p,802b,2173s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on FMBsubfile.pdf (17 pages, 736650 bytes).
+Output written on FMBsubfile.pdf (17 pages, 736096 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
+ 471 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
  121 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
