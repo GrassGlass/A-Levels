@@ -540,7 +540,7 @@ Throughout table \ref{Table:Summary table for one-sample hypothesis testing.}, a
         \begin{enumerate}[align=parleft]
           \item[{[i]}]\ Both population variances \(\sigma_1\) and \(\sigma_2\) are known.
           \item[{[ii](1)}]\ Sample sizes \(n_1\) and \(n_2\) are large (so CLT applies).
-          \item[{[ii](2)}]\ At least one sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are normally distributed.
+          \item[{[ii](2)}]\ At least one sample size \(n_1\) or \(n_2\) is small, but we assume \(X_1\) and \(X_2\) are independent and normally distributed.
         \end{enumerate}
       \end{minipage}&
       \begin{minipage}{179.4pt}
@@ -556,7 +556,7 @@ Throughout table \ref{Table:Summary table for one-sample hypothesis testing.}, a
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
           \item Sample sizes \(n_1\) and \(n_2\) are large.
           \item The population variances \(\sigma_1^2\) and \(\sigma_2^2\) do not coincide.
-          \item Assume \(X_1\) and \(X_2\) are normally distributed.
+          \item Assume \(X_1\) and \(X_2\) are independent and normally distributed.
         \end{enumerate}
         So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
       \end{minipage}&
@@ -573,7 +573,7 @@ Throughout table \ref{Table:Summary table for one-sample hypothesis testing.}, a
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
           \item Sample sizes \(n_1\) and \(n_2\) are large.
           \item Both population variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
-          \item Assume \(X_1\) and \(X_2\) are normally distributed.
+          \item Assume \(X_1\) and \(X_2\) are independent and normally distributed.
         \end{enumerate}
         So \(t(n_1+n_2-2)\) approximates to \(\Normal(0,1)\).
       \end{minipage}&
@@ -590,7 +590,7 @@ Throughout table \ref{Table:Summary table for one-sample hypothesis testing.}, a
           \item Either \(\sigma_1^2\) or \(\sigma_2^2\) is unknown.
           \item At least one sample size \(n_1\) or \(n_2\) is small.
           \item Both population variances \(\sigma_1^2\) and \(\sigma_2^2\) coincide.
-          \item Assume \(X_1\) and \(X_2\) are normally distributed. 
+          \item Assume \(X_1\) and \(X_2\) are independent and normally distributed. 
           
           (Or: Both samples come from normal populations.)
         \end{enumerate}
