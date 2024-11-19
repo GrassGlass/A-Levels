@@ -1,0 +1,129 @@
+\chapter{Series and Sequences}
+\section{Binomial Theorem and Series}
+\begin{theorem}{The Binomial Theorem}{}
+  \[(a+b)^n=\sum_{r=0}^{n}{\binom{n}{r}a^{n-r}b^r},\]
+  where \(n \in \mathbb{Z}^{+}\).
+\end{theorem}
+\begin{theorem}{The Binomial Series}{}
+  \[(1+x)^{p}=\sum_{r=0}^{\infty}{\binom{p}{r}x^r},\]
+  where \(p \in \mathbb{Q}\), \(\lvert x \rvert<1\), and
+  \[\binom{p}{r}\coloneq \frac{p(p-1)\cdots(p-r+1)}{r!}.\]
+\end{theorem}
+\begin{corollary}{}{}
+  Clearly,
+  \[(a+x)^p=a^p\left(1+\frac{x}{a}\right)^p=a^p \sum_{r=0}^{\infty}{\binom{p}{r}\frac{x^r}{a^r}},\]
+  under the same conditions.
+\end{corollary}
+\begin{fact}
+  We can expand \((a+x)^p\) in descending powers of \(x\) by using \((a+x)^p=x^p\left(1+\frac{a}{x}\right)^p\).
+\end{fact}
+\begin{note}
+  Sometimes computing a couple terms can be useful in finding a pattern. For example, to get the coefficient of \(x^k\) explicitly.
+\end{note}
+\newpage
+\section{APGP}
+\begin{stbox}{Basics}{}
+    \begin{center}
+    \begin{tabular}{|Sc|Sc|Sc|}
+    \hline
+    & AP & GP\\
+    \hline
+    \multirow{2}{*}{\(u_n\)} & \multicolumn{2}{Sc|}{\(u_n=S_n-S_{n-1}\)}\\
+    \cline{2-3}
+    & \(u_n=a+(n-1)d\) & \(u_n=ar^{n-1}\)\\
+    \hline
+    \(S_n\) & 
+    \begin{tabular}{@{}Sc@{}} 
+      \(S_n=\dfrac{n}{2}[2a+(n-1)d]\)\\
+      \(=\dfrac{n}{2}(a+\ell)\hspace{0.7cm}\)
+    \end{tabular} & 
+    \begin{tabular}{@{}Sc@{}}
+      \(S_n=\dfrac{a\left(1-r^n\right)}{1-r}\)\\
+      \(\hphantom{S_n}=\dfrac{a\left(r^n-1\right)}{r-1}\)
+    \end{tabular}\\
+    \hline
+    \(S_\infty\) & Diverges to \(\pm\infty\) iff \(a\neq 0\) or \(d\neq 0\) & \(S_\infty=\dfrac{a}{1-r}\) when \(\lvert r \rvert<1\)\\
+    \hline
+    Prove AP/GP & 
+    \begin{minipage}{5.5cm}
+      \begin{enumerate}[label=\Roman*]
+        \item Show \(u_n-u_{n-1}\) is a constant.
+        \item Show \(u_n=a+(n-1)d\) explicitly.
+      \end{enumerate}
+    \end{minipage} &
+    \begin{minipage}{5.5cm}
+      \begin{enumerate}[label=\Roman*]
+        \item Show \(\dfrac{u_n}{u_{n-1}}\) is constant.
+        \item Show \(u_n=ar^{n-1}\) explicitly
+      \end{enumerate}
+    \end{minipage}\\
+    \hline 
+    Mean & 
+    \begin{tabular}{@{}Sc@{}}
+      \(u_{n+1}=\dfrac{u_n+u_{n+2}}{2}\).\\
+      (Arithmetic Mean)
+    \end{tabular} &
+    \begin{tabular}{@{}Sc@{}}
+      \(\dfrac{u_{n+1}}{u_n}=\dfrac{u_{n+2}}{u_{n+1}}\)\\
+      \(\hspace{0.7cm}u_{n+1}^2=u_{n} \cdot u_{n+2}\)\\
+      (Geometric Mean)
+    \end{tabular}\\
+    \hline
+  \end{tabular}
+  \end{center}
+\end{stbox}
+\begin{IN}
+  Applications: Write out a few terms in a table and observe the trend. (You can literally say ``By observing a trend, \ldots'')
+\end{IN}
+\begin{GCSkills}{}
+  Table function
+  \begin{enumerate}
+    \item Enter eqn into GC.
+    \item 2nd graph to show table
+    \item 2nd tblset for setup options
+  \end{enumerate}
+\end{GCSkills}
+\section{Summation}
+\begin{fact}
+  \begin{alignat*}{3}
+    &\sum_{i=m}^{n}{f(i)+g(i)}\quad& &=\quad \sum_{i=m}^{n}{f(i)}+\sum_{i=m}^{n}{g(i)}\\
+    &\sum_{i=m}^{n}{af(i)}& &=\quad a\sum_{i=m}^{n}{f(i)}\\
+    &\sum_{i=m}^{n}{a}& &=\quad (n-m+1)a\text{, for any constant a}\\
+    &\sum_{i=m}^{n}{f(i)}& &=\quad \sum_{i=1}^{n}{f(i)}-\sum_{i=1}^{m-1}{f(i)} 
+  \end{alignat*}
+\end{fact}
+\begin{note}
+  \begin{itemize}
+    \item Look out for sums being AP and GPs.
+    \item Results to be provided:
+    \begin{align*}
+      \sum_{i=1}^{n}{i^2}&=\frac{n}{6}(n+1)(2n+1)\\
+      \sum_{i=1}^{n}{i^3}&=\frac{1}{4}n^2(n+1)^2
+    \end{align*}
+  \end{itemize}
+\end{note}
+\section{Method of Differences}
+\begin{stbox}{General Information}{}
+  \[\sum_{i=1}^{n}{u_i}=\sum_{r=1}^{n}{f(r)-f(r-1)}=f(n)-f(0).\]
+  \begin{itemize}
+    \item Explain convergence of a function \(h(x)=f(x)+g(x)\): As \(n \to \infty\), \(f(x) \to 0\) and \(g(x) \to 0\). Hence, \(h(x)\) converges to...
+  \end{itemize}
+\end{stbox}
+\begin{GCSkills}{}
+  Know how to generate sequences using the two methods:
+  \begin{enumerate}
+    \item Table method --- Present by showing two consecutive values of \(n\) so that the values of the sequence are of opposite signs. E.g.:
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        \(n\) & \(S_n\)\\
+        \hline
+        182 & \(561.28<0\)\\
+        \hline
+        183 & \(-1935.91<0\)\\
+        \hline
+      \end{tabular}
+    \end{center}
+    \item 2nd stat seq (\& we can use operations on seq, e.g. sum)
+  \end{enumerate}
+\end{GCSkills}

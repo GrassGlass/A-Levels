@@ -1,0 +1,32 @@
+\chapter{Probability}
+\begin{stbox}{General Information}
+  \begin{enumerate}
+    \item Principle of Inclusion and Exclusion for
+    \begin{enumerate}
+      \item Two events:
+      \[\Prob(A \cup B)=\Prob(A)+\Prob(B)-\Prob(A \cap B),\]
+      \item Three events:
+      \[\Prob(A \cup B \cup C)=\Prob(A)+\Prob(B)+\Prob(C)-\Prob(A\cap B)-\Prob(A \cap C)-\Prob(B \cap C)+\Prob(A \cap B \cap C).\]
+    \end{enumerate}
+    \item Mutually Exclusive Events:
+    \begin{align*}
+      \Prob(A \cap B)&=0,\\
+      \Prob(A \cup B)&=\Prob(A)+\Prob(B).
+    \end{align*}
+    \item Independent Events:
+    \begin{align*}
+      \Prob(A \,\vert\, B)&=\Prob(A),\\
+      \Prob(A \cap B)&=\Prob(A)\Prob(B).
+    \end{align*}
+    \item Conditional Probability:
+    \[\Prob(A \,\vert\, B)=\frac{\Prob(A \cap B)}{\Prob(B)}.\]
+    \item Use PnC to help compute stuff faster.
+    \item When we want to find the greatest and least possible probability (e.g. of \(\Prob(A^\complement\cap B^\complement\cap C^\complement)\)), it is advisable to draw a Venn diagram and fill in all relevant probabilities. 
+  \end{enumerate}
+\end{stbox}
+\begin{example}{}{}
+  There are 6 white balls and 5 black balls. Two are randomly drawn. What is the probability that one is white and the other black?
+  \begin{align*}
+    \left(\frac{5}{11}\right)\left(\frac{6}{10}\right)+\left(\frac{6}{11}\right)\left(\frac{5}{10}\right)=\frac{6}{11} \qquad&\text{vs}\qquad \frac{\binom{6}{1}\binom{5}{1}}{\binom{11}{2}}=\frac{6}{11}.
+  \end{align*}
+\end{example}

@@ -1,0 +1,63 @@
+\chapter{Inequalities and Equations}
+\section{Solving Inequalities}
+\begin{stbox}{General Methods}
+  \begin{enumerate}
+    \item Quadratic formula for factorisation / finding roots (of polynomial).
+    \item Completing the square.
+    \item Discriminant/Completing the square to eliminate factors which are \emph{always} positive or negative (e.g. removing \(x^2-3x+4\)). \emph{Note to include coefficient of \(x^2\) in the argument.}
+    \item GC (include sketch).
+    \item \emph{Rational Functions}: Move everything to one side by adding or subtracting, then use a number line.
+\end{enumerate}
+\end{stbox}
+\section{Modulus Inequalities}
+\begin{fact}
+    Given \(x \in \mathbb{R}\), we have that 
+    \begin{itemize}
+        \item \(\lvert x \rvert \geq 0\),
+        \item \(\lvert x^2 \rvert=\lvert x \rvert^2=x^2\),
+        \item \(\sqrt{x^2}=\lvert x \rvert\).
+    \end{itemize}
+    And as long as \(x \in \mathbb{R}^+\),
+    \begin{itemize}
+        \item \(\sqrt{x}^2=\lvert x \rvert\).
+    \end{itemize}
+\end{fact}
+\begin{stbox}{Useful Properties}
+  For every \(x,k \in \mathbb{R}\):
+  \begin{enumerate}[label=(\alph*)]
+      \item \(\lvert x \rvert < k\) iff \(-k<x<k\).
+      \item \(\lvert x \rvert > k\) iff \(x<-k\) or \(x>k\).
+  \end{enumerate}
+\end{stbox}
+\section{Summary}
+
+\begin{GCSkills}{}
+  \begin{enumerate}
+    \item Plotting curves \(y=f(x)\) in G.C.
+    \item How to use simultaneous equation solver.
+  \end{enumerate}
+\end{GCSkills}
+\begin{IN}
+  \begin{itemize}
+    \item Eliminating Factors --- \emph{only} works for \(c=0\) in \(f(x) \geq c\) or \(f(x) \leq c\).
+
+    Counterexample: It is false that \(P(x)=x(3x^2-9x+10) \leq 2\) iff \(x \leq 2\). Notice that \(P(1.8)=6.336 \not\leq 2\). 
+    \item Discriminant --- include coefficient of \(x^2\) in argument.
+    \item When using factor elimination to remove some \(f(x)\), we only need to say that ``\(f(x)\) is negative''.
+    \item Rational functions --- exclude the values that causes division by zero to occur.
+    \item With inequalities, be really careful about multiplication! If \(x>y\) \emph{and} \hly{\(z>0\)}, then \(xz>yz\). 
+    \item Cross multiplication preserves order for \(\frac{x}{y}<\frac{x'}{y'}\) iff \(y\) and \(y'\) are \emph{both} positive or negative.
+    
+    Note the counterexample \(\frac{1}{2}<\frac{1}{-3}\).
+    \item Squaring preserves/reverses order for \(x<y\) iff \(x\) and \(y\) are \emph{both} positive or negative.
+    \item Can't necessarily use differentiation to solve if qns asks for algebraic method.
+    \item Safer to graph out the two functions separately!
+    \item Be careful about whether to include equality! Don't forget to account for it!
+    \item  Note that when solving for \(\lvert x \rvert=y\), \(\lvert x \rvert < y\), etc, \(y\) must be greater than or equal to 0. In other words, there may be solutions we will need to reject.
+    \item Carelessness: Look at the question carefully! If they ask for a \emph{set} of values, then rmb to give it as a \emph{set}!
+    \item Exponentiation and Logarithms: Simply use \(\ln\) and avoid \(\log_c\) for \(c<1\).
+    
+    Order is \emph{Preserved} under exponentiation/logarithms if the base is \emph{larger than} one. Otherwise, when it is \emph{less than} one, the order is \emph{reversed}. \url{https://www.desmos.com/calculator/gd8z5fa0bg}
+    \item  For more complicated real-world-context qns, try playing around with the values (e.g. use simultaneous equations) first. It may work out nicer than expected.
+\end{itemize}
+\end{IN}

@@ -1,0 +1,266 @@
+\chapter{Vectors}
+\begin{note}
+  A useful fact about cross products. For any \(a_i,b_i\in \mathbb{R}\):
+  \[\left\lVert 
+    \begin{pmatrix}
+      a_1\\
+      a_2\\
+      a_3
+    \end{pmatrix}\times
+    \begin{pmatrix}
+      b_1\\
+      b_2\\
+      b_3
+    \end{pmatrix}
+   \right\rVert=
+  \begin{vmatrix}
+    1 & a_1 & b_1\\
+    1 & a_2 & b_2\\
+    1 & a_3 & b_3\\
+  \end{vmatrix}.\]
+\end{note}
+\begin{longtable}{|Sc|Sc|}
+  \hline
+  Lines & Planes\\
+  \hline
+  \multicolumn{2}{|Sc|}{Equivalent Forms}\\
+  \hline
+  \begin{minipage}{0.4\linewidth}
+    \begin{enumerate}
+      \item Vector Equation: \[\ell \colon \mathbf{r}=\mathbf{a}+\lambda \mathbf{m}\text{, }\lambda \in \mathbb{R},\]
+      \item Cartesian Equation: 
+      \[\frac{x-a_1}{m_1}=\frac{y-a_2}{m_2}=\frac{z-a_3}{m_3.}\]
+    \end{enumerate}
+\end{minipage} & 
+\begin{minipage}{0.4\linewidth}
+\begin{enumerate}
+  \item Vector Equation: 
+  \[\Pi \colon \mathbf{r}=\mathbf{a}+\lambda
+  \mathbf{m_1}+\mu \mathbf{m_2},\ \lambda,\mu\in\mathbb{R}.\]
+  \item Scalar Product Form: 
+  \[\Pi \colon \mathbf{r} \cdot \mathbf{n}=p\]
+  where the scalar \(p\coloneq  \mathbf{a}\cdot \mathbf{n}\),
+  \item Cartesian Equation:
+  \[n_1x+n_2x+n_3z=p\]
+  where the normal vector\\
+  \(\mathbf{n}\coloneq \begin{pmatrix}
+    n_1 & n_2 & n_3
+  \end{pmatrix}^\top\).
+\end{enumerate}
+\end{minipage}\\
+\hline
+\multicolumn{2}{|Sc|}{Foot of Perpendicular}\\
+\hline
+\begin{minipage}{0.4\linewidth}
+  \begin{enumerate}
+    \item[M1:] 
+    \begin{enumerate}
+      \item \(\overrightarrow{ON}=\mathbf{a}+\lambda \mathbf{m}\),
+      \item \(\overrightarrow{QN} \cdot \mathbf{m}=0\), solve for \(\lambda\),
+      \item Substitute \(\lambda\) into (a).
+    \end{enumerate}
+    \item[M2:] 
+    \begin{enumerate}
+      \item \(\overrightarrow{AN}=\left(\overrightarrow{AQ} \cdot \mathbf{\widehat{m}}\right)\mathbf{\widehat{m}}\),
+      \item \(\overrightarrow{ON}=\overrightarrow{OA}+\overrightarrow{AN}\).
+    \end{enumerate}
+  \end{enumerate}
+\end{minipage} & 
+\begin{minipage}{0.4\linewidth}
+  \begin{enumerate}
+    \item[M1:]
+    \begin{enumerate}[label=(\alph*)]
+      \item \(\overrightarrow{ON}=\overrightarrow{OQ}+\lambda\mathbf{n}\),
+      \item \(\overrightarrow{ON}\cdot\mathbf{n}=p\), solve for \(\lambda\),
+      \item  Substitute \(\lambda\) into (a).
+    \end{enumerate}
+    \item[M2:]
+    \begin{enumerate}[label=(\alph*)]
+      \item \(\overrightarrow{QN}=\left( \overrightarrow{QA}\cdot\widehat{\mathbf{n}} \right)\widehat{\mathbf{n}}\),
+      \item \(\overrightarrow{ON}=\overrightarrow{OQ}+\overrightarrow{QN}\).
+    \end{enumerate}
+  \end{enumerate}
+\end{minipage}\\
+\hline
+\newpage
+\hline
+\multicolumn{2}{|Sc|}{Shortest Distance of Point To Line, \(QN\)}\\
+\hline
+\begin{minipage}{0.4\linewidth}
+  \begin{enumerate}
+    \item[M1:] \(\norm{\overrightarrow{AQ} \times \mathbf{\widehat{m}}}\).
+    \item[M2:]
+    \begin{enumerate}
+      \item \(AN= \norm{\overrightarrow{AQ}\cdot \mathbf{\widehat{m}}} \),
+      \item Pythagoras' Theorem.
+    \end{enumerate}
+    \item[M3:] Using the foot of perpendicular, find distance \(QN\).
+  \end{enumerate}
+\end{minipage} &
+\begin{minipage}{0.4\linewidth}
+  \begin{enumerate}
+    \item[M1:] \(\norm{\overrightarrow{AQ}\cdot \mathbf{\widehat{n}}} \).
+    \item[M2:] Distance of plane to \emph{origin}: 
+    
+    If \(\Pi \colon \mathbf{r}\cdot \mathbf{n}=p\), then \(\dfrac{p}{\norm{\mathbf{n}}}\) is the shortest distance from the origin to the plane \(\Pi\). 
+    
+    \emph{Note:}
+    \begin{itemize}
+      \item If \(\dfrac{p}{\norm{\mathbf{n}}}>0\), then \(\Pi\) is `above' the origin.
+      \item If \(\dfrac{p}{\norm{\mathbf{n}}}<0\), then \(\Pi\) is `below' the origin.
+    \end{itemize}
+    \item[M3:] Using the foot of perpendicular, then find distance \(QN\).
+  \end{enumerate}
+\end{minipage}\\
+\hline
+The Relationship Between Two Lines & The Relationship Between Two Planes\\
+\hline
+\begin{minipage}{0.4\linewidth}
+  \begin{enumerate}
+    \item Parallel, Non-Intersecting
+    \begin{enumerate}
+      \item \(\mathbf{m_1}\newparallel \mathbf{m_2}\),
+      \item Solving \(\mathbf{r_1}=\mathbf{r_2}\) gives no real solution. Or, show that \(\mathbf{a_1}\) does not lie in \(\ell_2\).
+    \end{enumerate}
+    \item Parallel, Coinciding
+    \begin{enumerate}
+      \item \(\mathbf{m_1}\newparallel \mathbf{m_2}\),
+      \item \(\mathbf{a}\) lies in \(\ell_1\) and \(\ell_2\).
+    \end{enumerate}
+    \item Non-Parallel, Intersecting
+    \begin{enumerate}
+      \item \(\mathbf{m_1}\) not \(\newparallel \mathbf{m_2}\),
+      \item Solve \(\mathbf{r_1}=\mathbf{r_2}\) to find intersection.
+    \end{enumerate} 
+    \item Skew Lines\\
+    (Non-Parallel, Non-Intersecting)
+    \begin{enumerate}
+      \item \(\mathbf{m_1}\) not \(\newparallel \mathbf{m_2}\),
+      \item Solving \(\mathbf{r_1}=\mathbf{r_2}\) gives no real solution. 
+    \end{enumerate}
+  \end{enumerate}
+\end{minipage} &
+\begin{minipage}{0.4\linewidth}
+  \begin{enumerate}
+    \item Distinct Parallel Planes: 
+    \begin{enumerate}
+      \item Show that \(\mathbf{n_1}\newparallel\mathbf{n_2}\),
+      \item Find a vector \(\mathbf{b}\) for which
+      \begin{enumerate}[label=(\roman*)]
+        \item \(\mathbf{b}\cdot \mathbf{n_1}= p_1\),
+        \item \(\mathbf{b}\cdot \mathbf{n_2}\neq p_2\).
+      \end{enumerate}
+    \end{enumerate}
+    \item Same Plane:
+    \begin{enumerate}
+      \item Show that \(\mathbf{n_1}\newparallel\mathbf{n_2}\),
+      \item Find a vector \(\mathbf{b}\) for which
+      \begin{enumerate}[label=(\roman*)]
+        \item \(\mathbf{b}\cdot \mathbf{n_1}= p_1\),
+        \item \(\mathbf{b}\cdot \mathbf{n_2}= p_2\).
+      \end{enumerate}
+    \end{enumerate}
+    \item Intersect in a line \(\ell\); To find this line:
+    \begin{enumerate}[label=M\arabic*:]
+      \item \(\mathbf{n_1}\times \mathbf{n_2}\) gives the direction vector. So find a common point with simultaneous equations.
+      \item Solving system of linear equations, from the \emph{cartesian} form of the planes, using G.C.
+    \end{enumerate}
+  \end{enumerate}
+\end{minipage}\\
+\hline
+\newpage
+\hline
+\multicolumn{2}{|Sc|}{The Relationship Between A Line and A Plane}\\
+\hline 
+\multicolumn{2}{|Sc|}{
+\begin{minipage}{0.8\linewidth}
+  \begin{enumerate}
+    \item \(\ell\) lies in \(\Pi\)
+    \begin{enumerate}[label=M\arabic*:]
+      \item
+      \begin{enumerate}
+        \item Show \(\mathbf{m}\cdot \mathbf{n}=0\) so \(\ell \newparallel \Pi\).
+        \item Then \(\mathbf{a}_\ell\cdot \mathbf{n}=p\) tells us \(\ell\) lies in \(\Pi\).
+      \end{enumerate}
+      \item Substitute \(\ell\) into \(\Pi\) and show the system (of lin eqns) is consistent for all \(\lambda\).
+    \end{enumerate}
+    \item \(\ell \newparallel \Pi\) but nonintersecting
+    \begin{enumerate}[label=M\arabic*:]
+      \item 
+      \begin{enumerate}
+        \item Show \(\mathbf{m}\cdot \mathbf{n}=0\) so \(\ell \newparallel \Pi\).
+        \item Then \(\mathbf{a}_\ell\cdot \mathbf{n} \neq p\) tells us \(\ell\) and \(\Pi\) are nonintersecting.
+      \end{enumerate}
+      \item Substitute \(\ell\) into \(\Pi\), and show the system (of lin eqns) is inconsistent.
+    \end{enumerate} 
+    \item Intersect at one point
+    \begin{enumerate}
+      \item Check that \(\mathbf{m}\cdot \mathbf{n} \neq 0\).
+      \item Then, to find the point of intersection of the plane \(\Pi\colon \mathbf{r}\cdot \mathbf{n}=p\) with the line \(\ell\colon \mathbf{r}=\mathbf{a}+\lambda \mathbf{m}\),
+      we solve for \(\lambda\) using simultaneous equations or G.C.
+    \end{enumerate}
+  \end{enumerate}
+\end{minipage}}\\
+\hline
+\multicolumn{2}{|Sc|}{The Point of Reflection}\\
+\hline
+\multicolumn{2}{|Sc|}{  
+\begin{minipage}{0.8\linewidth}
+\begin{center}
+  \begin{enumerate}
+    \item Find foot of perpendicular \(\overrightarrow{ON}\)
+    \item Notice \(\overrightarrow{OA'}=\overrightarrow{OA}+2\overrightarrow{AN}=2\overrightarrow{ON}-\overrightarrow{OA}\).
+  \end{enumerate}
+\end{center}
+\end{minipage}}\\
+\hline
+  \multicolumn{2}{|Sc|}{Angle Between}\\
+  \hline
+  \multicolumn{2}{|Sc|}{
+    \begin{tabular}{Sc|Sc|Sc}
+      \begin{minipage}{0.267\linewidth}
+        \centering
+        Two Lines
+      \end{minipage} &
+      \begin{minipage}{0.267\linewidth}
+        \centering
+        Line and Plane
+      \end{minipage} &
+      \begin{minipage}{0.267\linewidth}
+        \centering
+        Two Planes
+      \end{minipage}\\
+    \end{tabular}}\\
+    \hline
+    \multicolumn{2}{|Sc|}{
+    \begin{tabular}{Sc|Sc|Sc}
+      \begin{minipage}{0.267\linewidth}\vspace{-0.5cm}
+        \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{m}_1}\cdot {\mathbf{\widehat{m}_2}}\right\rvert.\]
+      \end{minipage} &
+      \begin{minipage}{0.267\linewidth}\vspace{-0.5cm}
+        \[\theta=\sin^{-1}\left\lvert \mathbf{\widehat{m}}\cdot \mathbf{\widehat{n}} \right\rvert .\]
+      \end{minipage} &
+      \begin{minipage}{0.267\linewidth}\vspace{-0.5cm}
+        \[\theta=\cos^{-1}\left\lvert \mathbf{\widehat{n}_1}\cdot \mathbf{\widehat{n}_2} \right\rvert.\]
+      \end{minipage}\\
+    \end{tabular}}\\
+    \hline
+\end{longtable}
+\begin{note}
+  Describe the line \(\ell\colon\mathbf{r}=\mathbf{a}+\lambda\mathbf{m},\lambda\in \mathbb{R}\) geometrically.
+  \begin{center}
+    \parbox{0.9\textwidth}{
+      It is the line \emph{passing through the fixed point} with position vector \(\mathbf{a}\) and is \emph{parallel to} \(\mathbf{m}\). 
+    }
+  \end{center}
+\end{note}
+\begin{note}
+  Let \(\pi\) be a plane containing the line \(\ell\) and \(P\) be a point. The foot of perpendicular of \(P\) on \(\pi\) is not necessarily the same as the foot of perpendicular of \(P\) on \(\ell\). 
+\end{note}
+\begin{note}
+  When finding the plane \(\pi\) that is `above' another plane \(\Pi\colon \mathbf{r}\cdot \mathbf{n}=p\) by a constant \(q\) units, take note of the direction of \(\mathbf{n}=
+  \begin{pmatrix}
+    n_1 & n_2 & n_3
+  \end{pmatrix}^{\top}\). If \(n_3>0\), then \(\mathbf{n}\) is pointing `upwards'. So, \(\pi\colon \mathbf{r}\cdot\widehat{\mathbf{n}}=\highlight[green!50]{+}q\). Otherwise \(n_3<0\), meaning \(\mathbf{n}\) is pointing `downwards'. Hence, \(\pi\colon \mathbf{r}\cdot\widehat{\mathbf{n}}=\highlight[green!50]{-}q\).
+  \footnotetext[0]{I'm slightly skeptical that Cambridge will not make clear which side is considered `upwards/downwards'. But, just in case, this is a good point to note.}
+\end{note}

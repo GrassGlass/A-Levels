@@ -1,0 +1,29 @@
+\chapter{Discrete Random Variables}
+\begin{stbox}{General Information}
+  \begin{enumerate}
+    \item Expectation / Mean, 
+    \[\operatorname{E}(X)\coloneq \sum_{\text{all } x}{x\Prob(X=x)}.\]
+    \item Variance 
+    \[\operatorname{Var}(X)\coloneq E\hspace{-0.7mm}\left(X^2\right)-[E(X)]^2=\E{\left( (X-\mu)^2 \right)}.\]
+    \item Standard Deviation
+    \[\sigma\coloneq \sqrt{\operatorname{Var}(X)}.\]
+    \item Properties for two \emph{independent} random \emph{variables} \(X\) and \(Y\); two \emph{independent observations} \(X_1\) and \(X_2\) of \(X\):
+    \begin{enumerate}
+      \item \(\operatorname{E}(aX+bY+c)=a\operatorname{E}(X)+b\operatorname{E}(Y)+c\),
+      \item \(\operatorname{Var}(aX+bY+c)=a^2\operatorname{Var}(X)+b^2\operatorname{Var}(Y)\).
+    \end{enumerate}
+    \item Probability Distribution Table:
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{|Sc|Sc|Sc|Sc|}
+        \hline
+        \(x\) & 1 & \(\cdots\) & \(n\)\\
+        \hline
+        \(\Prob(X=x)\) & \(\Prob(X=1)\) & \(\cdots\) & \(\Prob(X=n)\)\\
+        \hline
+      \end{tabular}
+      \caption{A probability distribution table.}
+      \label{table:a-probability-distribution-table}
+    \end{table}
+  \end{enumerate}
+\end{stbox}

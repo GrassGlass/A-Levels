@@ -1,0 +1,64 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+%Tikz Library
+\usetikzlibrary{angles, quotes, intersections}
+
+%Notation
+\usepackage{physics}
+\usepackage{bm}
+
+\begin{document}
+\begin{tikzpicture}
+%		%Grid
+%		\draw[thin, dotted] (0,0) grid (8,8);
+%		\foreach \i in {1,...,8}
+%		{
+%			\node at (\i,-2ex) {\i};	
+%		}
+%		\foreach \i in {1,...,8}
+%		{
+%			\node at (-2ex,\i) {\i};	
+%		}
+%		\node at (-2ex,-2ex) {0};
+    
+    %Coordinates		
+    \coordinate (A) at (6,0);
+    \coordinate (B) at (0,0);
+    \coordinate (C) at (2.5,2.5);
+    \coordinate (B') at (2.5,3.5);
+    \coordinate (A') at (1.8,3.2);
+    \coordinate (T) at (2.5,-2.5);
+    \coordinate (G) at (-6,0);
+    
+    %Axis
+    \draw[thick] (-2.5ex,0) -- (5,0) node [below] {\(\theta=0\)};
+    \draw[thick] (0,-5) 
+    node [left] {\(\theta=-\pi/2\)} 
+    -- (0,5) 
+    node [left] {\(\theta=\pi/2\)};
+    
+    %Vectors
+    \draw[thick,blue] (0,0) -- (2.5,2.5) node[pos=0.6, above left] {\(r\)};
+    \draw[thick,red] (0,0) -- (2.5,-2.5) node[pos=0.6, below left] {\(r\)};
+    % \draw[thick, red, -latex] (2.5,2.5) -- (3.2,3.2) node[pos=1.2] {$\vu*{\varpi}$};
+    % \draw[thick, red, -latex] (2.5,2.5) -- (1.8,3.2) node[pos=1.3] {$\vu*{\phi}$};
+    
+    % %Help Lines
+    % \draw[dashed] (0,2.5) -- (2.5,2.5) -- (2.5,0);
+    % \draw[blue, thick] (2.5,3.5) -- (2.5,1.5);
+    \draw[dashed] (3.53,0) arc (0:90:3.53);
+    \draw[dashed] (3.53,0) arc (0:-90:3.53);
+    
+    %Angle
+    \pic[draw, ->, blue, thick, "\(\theta\)", angle eccentricity=1.7] {angle = A--B--C};
+    \pic[draw, <-, red, thick, "\(-\theta\)", angle eccentricity=1.7] {angle = T--B--A};
+    % \pic[draw, thick, angle radius=4mm, angle eccentricity=1.7] {angle = B'--C--A'};
+
+    \filldraw[blue] (2.5,2.5) circle (2pt) node[anchor=south west]{\color{blue}{\((r,\theta)\)}};
+    \filldraw[red] (2.5,-2.5) circle (2pt) node[anchor=north west]{\color{red}{\((r,-\theta)\)}};
+    \node[anchor=north east] (Origin) at (0,0) {\(0\)};
+    
+\end{tikzpicture}
+\end{document}

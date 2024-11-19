@@ -1,0 +1,65 @@
+\chapter{Differentiation}
+\begin{definition*}{}{}
+  \begin{enumerate}
+    \item A function \(f\) is called (strictly) increasing on an interval \(I\) iff \(f'(x)>0\) for all \(x \in I\).
+    \item A function \(f\) is called monotonically increasing on an interval \(I\) iff \(f'(x) \geq 0\) for any \(x \in I\).
+  \end{enumerate}
+\end{definition*}
+\begin{stbox}{General Information}
+  \begin{enumerate}
+    \item How to sketch the graph of the integral or derivative of a function \(f\).
+    \item Relationship btw. a function \(f\) and its derivative, \(f'\):\\
+    \begin{center}
+      \begin{tabular}{|c|c|}
+        \hline
+        \(y=f(x)\) & \(y=f'(x)\)\\
+        \hline
+        Vertical asymptote at \(x=a\) & Vertical asymptote at \(x=a\).\\
+        \hline
+        Horizontal asymptote at \(y=a\) & Horizontal asymptote \(y=0\).\\
+        \hline
+      \end{tabular}
+    \end{center}
+    \item Recap:\\
+    \begin{center}
+      \begin{tabular}{|Sc|Sc|}
+        \hline
+        \(f(x)\) & \(f'(x)\)\\
+        \hline
+        \(\sin^{-1}\left(\dfrac{x}{a}\right)\) & \(\dfrac{1}{\sqrt{a^2-x^2}}\), \(\lvert x \rvert<a\)\\
+        \hline
+        \(\cos^{-1}\left(\dfrac{x}{a}\right)\) & \(-\dfrac{1}{\sqrt{a^2-x^2}}\), \(\lvert x \rvert<a\)\\
+        \hline
+        \(\tan^{-1}\left(\dfrac{x}{a}\right)\) & \(\dfrac{a}{a+x^2}\), \(x \in \mathbb{R}\)\\
+        \hline
+        \(\log_a(f(x))\) &  \(\dfrac{1}{x \ln(a)}\)\\
+        \hline
+        \(a^x\) & \(a^x \ln(a)\)\\
+        \hline
+      \end{tabular}
+    \end{center}
+    \item Implicit differentiation: \(\dfrac{dz}{dx}=\dfrac{dz}{dy}\cdot \dfrac{dy}{dx}\).
+  \end{enumerate}
+\end{stbox}
+\begin{note}
+  Be careful when differentiating implicitly/using the chain rule. Namely, note the power \hly{two} in the following:
+  \[\left( f(y)\frac{dy}{dx} \right)'=f'(y)\left( \frac{dy}{dx} \right)^{\highlight[yellow]{2}}+f(y)\frac{d^2y}{dx^2}.\]
+  More generally, remember to increase the exponent of \(dy/dx\) by one with each differentiation.
+\end{note}
+\begin{stbox}{}
+  \begin{enumerate}
+    \item Small angle approximation: 
+    \begin{enumerate}
+      \item \(\sin(x) \approx x\),
+      \item \(\cos(x) \approx 1-\dfrac{x^2}{2}\),
+      \item \(\tan(x) \approx x\).
+    \end{enumerate}
+    \item Maclaurin Series: 
+    \[f(x)=\sum_{n=0}^{\infty}\dfrac{f^{(n)}(0)}{n!}x.\]
+    \item When possible, use the series --- of \(e^{x}\), \(\sin(x)\), \(\cos(x)\), et cetera --- provided in MF26 to find the required series expansion, instead of manually differentiating and applying the Maclaurin series. (Unless otherwise stated, of course.)  
+  \end{enumerate}
+  \begin{example*}{}{}
+    Find the series expansion of \(e^{x+bx^2}\). Then, simply write
+    \[e^{x+bx^2}\approx 1+(x+bx^2)+\frac{(x+bx^2)^2}{2}\approx 1+x+\left( b+\frac{1}{2} \right)x^2.\]
+  \end{example*}
+\end{stbox}

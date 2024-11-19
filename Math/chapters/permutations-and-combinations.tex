@@ -1,0 +1,58 @@
+\chapter{Permutations and Combinations}
+\begin{definition}{}{}
+  The terms \(n\) \emph{pick} \(r\) and \(n\) \emph{choose} \(r\) respectively denote 
+  \[{^n}P_r \coloneq  \frac{n!}{(n-r)!} \qquad\text{and}\qquad \binom{n}{r}\coloneq{^n}C_r\coloneq \frac{n!}{(n-r)!r!}.\]
+\end{definition}
+\begin{stbox}{General Information}
+  \begin{itemize}
+    \item Addition and multiplication principles
+    \item Know how to `bundle' objects together so as to calculate the total no. of permutations.
+    \item There are 
+    \[\frac{n!}{n_1!n_2!\cdots n_r!}\]
+    number of ways to arrange \(n\) objects, of which \(n_i\) are similar, for each \(i\).
+  \end{itemize}
+\end{stbox}
+    \begin{fact}
+      Intuition: If there are \(n_1\) objects are non-distinct out of \(n\) objects, then there are \(n_1!\) ways to arrange these objects that results in `the same' permutation.
+    \end{fact}
+  \begin{stbox}{}
+  \begin{itemize}
+    \item Case-wise considerations/calculations (then summing together the total number of permutations)
+    \item Unordered circular permutations:\\
+    There are \(n!/n=(n-1)!\) number of ways of arranging \(n\) distinct objects in a circle.
+  \end{itemize}
+\end{stbox}
+    \begin{fact}
+      For unordered circular permutations, we do not care if you rotate the seating arrangement, as long as neighbours are preserved for each object. i.e. \((A,B,C,D) \sim (B,C,D,A)\). As a result, each such collection of \(n\) permutations reduces down to one. Thus, explaining the division by \(n\).
+    \end{fact}
+\begin{stbox}{}
+\begin{itemize}
+    \item Complementary Method, i.e. taking number of arrangements without restriction - number of arrangements with the opposite of that restriction.
+\end{itemize}
+\end{stbox}
+    \begin{example}{}{}
+      Number of ways two girls \emph{cannot} sit next to each other = number of arrangements \emph{without restriction} \(-\) number of arrangements with girls sitting \emph{together}.
+    \end{example}
+\begin{stbox}{}
+\begin{itemize}
+    \item Insertion Method, place down some of your objects and then insert the rest in the gaps.
+  \end{itemize}
+\end{stbox}
+    \begin{example}{}{}
+      \begin{enumerate}[label={}]
+        \item Boys sit at table first: \(2!\) ways.
+        \item \vspace{-1mm} From the 3 gaps, choose 2 for the 2 girls to sit at: 3 ways.
+        \item \vspace{-1mm} The girls can arrange themselves in \(2!\) ways.
+        \item \vspace{-1mm} So, total no. of ways is \(2! \cdot 3 \cdot 2!=12\).
+      \end{enumerate}
+    \end{example}
+\begin{stbox}{}
+\begin{itemize}
+    \item Ordered circular permutations: First calculate the number of unordered permutations, then add the ordering at the end.
+  \end{itemize}
+\end{stbox}
+    \begin{note}
+      Circular arrangements are not the same as row arrangements.
+      
+      We know that \(A\) and \(B\) are not considered to be seating together in the row arrangement of \((A,C,D,E,B)\). But, they are seating together in a corresponding row arrangement. The number of row arrangements can be less than, equal to, or more than the number of circular arrangements.
+    \end{note}
