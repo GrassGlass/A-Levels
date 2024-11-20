@@ -14,6 +14,8 @@ Hello there (insert Obi-Wan voice). This is my repository for my highschool note
 - The code (all .tex, .sty, etc files) written by me are released under [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 - All images (pdf, png, svg, jpg, etc files) written by me are release under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - All files/images that are not written by me belong solely to their respective authors. These works are each licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+- If I forgot to credit any authors for their works, please let me know so that I can add that to my bibliography.
+- If you are an author whose work I used in my repository and would like your accreditation to be modified, please let me know.
 
 ## Requests to users
 - If you think that this repository will be helpful for you, please feel free to edit it to suit your needs.
