@@ -8,12 +8,6 @@
 \usepackage{Style/QnsProof}
 \usepackage{Style/Thms}
 \usepackage{Style/Env}
-% *Black and white boxes
-% \usepackage{Style-copy-BnW/boxes}
-% \usepackage{Style-copy-BnW/DefNoteFact}
-% \usepackage{Style-copy-BnW/QnsProof}
-% \usepackage{Style-copy-BnW/Thms}
-% \usepackage{Style-copy-BnW/Env}
 % *Commands
 \usepackage{Style/NewCommands}
 
@@ -33,6 +27,8 @@
 \begin{document}
 
 \input{Titlepage.tex}
+\setcounter{chapter}{-1}
+\input{./chapters/foreword-and-copyright.tex}
 \part{FMA}
 \input{./chapters/inequalities-and-equations.tex}
 \input{./chapters/recurrence-relations.tex}
@@ -60,76 +56,6 @@
 \input{./chapters/chi-squared-tests.tex}
 \input{./chapters/correlation-and-linear-regression.tex}
 \input{./chapters/non-parametric-tests.tex}
-
-\chapter{Bibliography}
-\begin{enumerate}[label={[\arabic*]}]
-  \item\label{Me} Made by me, by hand, in my iPad, phone, Desmos, or tikz/pgfplots. Figures 
-  \ref{fig:RR-identiy-function-comparison}, 
-  \ref{fig:surface-area}, 
-  \ref{fig:simpson's-rule-overestimate-prelims}, 
-  \ref{fig:roots-of-unity}, 
-  \ref{fig:circle-locus}, 
-  \ref{fig:locus-max-distance-and-angle-circle}, 
-  \ref{fig:perpendicular-bisector-locus}, 
-  \ref{fig:half-line-locus}, 
-  \ref{fig:complex-clarity-improvements}, 
-  \ref{fig:RVFM-CT-2024-Complex}, 
-  \ref{fig:rotated-conic}, 
-  \ref{fig:newton's-method-prelims}, 
-  \ref{fig:linear-interpolation}, 
-  \ref{fig:fixed-point-iteration}, 
-  \ref{fig:newton's-method}, 
-  \ref{fig:conics2},
-  \ref{fig:logistics-curve},
-  \ref{fig:CRV-cosine},
-  \ref{fig:inverse-norm},
-  \ref{fig:exp-bounds-note-example}.
-  \item\label{source:disc} The disc method (Figure \ref{fig:disc}) 
-  
-  \url{https://tex.stackexchange.com/a/391013}
-  \item\label{source:shell} The shell method (Figure \ref{fig:shell}) 
-  
-  \url{https://tex.stackexchange.com/a/404849}
-  \item\label{source:trapzium-rule} Trapezium Rule (Figures \ref{fig:trapzium-rule} and \ref{fig:trapezium-overestimate}) 
-
-  \url{https://tex.stackexchange.com/a/110618}
-  \item\label{source:simpson's-rule} Simpson's rule (Figure \ref{fig:simpson's-rule}) 
-  
-  \url{https://tex.stackexchange.com/a/439119}
-  \item\label{source:complex-polar} The polar representation of a complex number (Figure \ref{fig:complex-polar}) 
-  
-  \url{https://tex.stackexchange.com/a/466846}
-  \item\label{source:polar-coordinates} Polar coordinates (Figure \ref{fig:polar-coordinates})
-  
-  \url{https://tikz.net/polar_1/}
-  \item\label{source:conics2} The reflective property of conics, their directrices, and foci (Figure \ref{fig:conics2}). 
-  
-  A parabolic pdf (Figure \ref{fig:parabolic-pdf}). 
-  
-  Regression lines (Figures \ref{fig:y-on-x}, \ref{fig:x-on-y} and \ref{fig:least-squares}).
-
-  \begin{tabular}{lSc}
-    (ellipse) & \url{https://tex.stackexchange.com/a/305225}\\
-    (tangent) & \url{https://tex.stackexchange.com/a/599565}\\
-    (bisector command) & \url{https://tex.stackexchange.com/a/253010}\\
-    (hyperbola) & \url{https://tex.stackexchange.com/a/158979}
-  \end{tabular}
-  \item\label{source:euler's-methods} The Euler's Method and the Improved Euler's Method (Figure \ref{fig:euler's-methods})
-  
-  \url{https://tex.stackexchange.com/a/639280}
-  \item\label{source:oscillatory-behavior} Oscillatory behavior of DEs modelling physical phenomena (Figure \ref{fig:oscillatory-behavior})
-  
-  \url{https://tikz.net/dynamics_oscillator/}
-  \item\label{source:binomial-distribution} Mode of a binomial distribution (Figure \ref{fig:binomial-distribution})
-
-  \url{https://tex.stackexchange.com/a/209658}
-  \item\label{source:Student} Student's \(t\)-distribution (Figure \ref{fig:Student})
-
-  \url{https://tex.stackexchange.com/a/120455}
-  \item\label{source:chi-squared} Chi-squared \(\chi^2\) distribution (Figure \ref{fig:chi-square})
-
-  \url{https://commons.wikimedia.org/wiki/File:Chi-square_pdf.svg}
-  \item I Used some inspiration from the beautiful preamble by tearfox and det.uwu from Discord, to make my environments look better (still a mess of preamble but I'm too lazy to fix it :3).
-\end{enumerate}
+\input{./chapters/bibliography.tex}
 
 \end{document}
