@@ -87,5 +87,5 @@ The following links bring you to the respective PDFs for each subject, for ease 
     5. ⭐ NRIC ⭐  
     6. ⭐ Entry proof ⭐  
     7. Calculator 
-        8. Water bottle 
-        9. Attire: Full uniform
+    8. Water bottle 
+    9. Attire: Full uniform
