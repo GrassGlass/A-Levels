@@ -11,6 +11,7 @@ Hello there (insert Obi-Wan voice). This is my repository for my highschool note
 - Also, there are bound to be many typos I have not found. So, don't use my notes blindly: my notes do not form a bible of absolute truth and accuracy.
 
 ## Copyright
+- Highschool notes &copy; 2024 Shao Hong Yu. 
 - The code (all .tex, .sty, etc files) written by me are released under [The GNU General Public License v3.0](https://github.com/GrassGlass/A-Levels/blob/main/LICENSE)
 - All images (pdf, png, svg, jpg, etc files) written by me are release under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - All files/images that are not written by me belong solely to their respective authors. These works are each licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
