@@ -16,6 +16,6 @@ Hello there (insert Obi-Wan voice). This is my repository for my highschool note
 
 ## Requests to users
 - If you think that this repository will be helpful for you, please feel free to edit it to suit your needs.
-- Following the terms of [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), please release any modified file open-source under the same license(s). Preferably, do it on GitHub.
+- Following the terms of [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), please release any modified file open-source under the same license(s). Preferably, do it on GitHub.
 
 ## Contents
