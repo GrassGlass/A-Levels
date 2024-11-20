@@ -10,12 +10,12 @@ Hello there (insert Obi-Wan voice). This is my repository for my highschool note
 - The above illustrates my point: my notes, for me. Everyone has different needs their notes should fulfil. That is why I have decided to make the underlying latex code open-source, instead of simply releasing the PDF. Furthermore, I hope that someone from each batch of students will update the code for their syllabus, for their own benefit and so that this repository will remain up-to-date for future generations of students.
 
 ## Copyright
-- The code (all .tex, .sty, etc files) written by me are released under [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- All images (pdf, png, svg, jpg, etc files) written by me are release under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- All files/images that are not written by me belong solely to their respective authors. These works are each licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+- The code (all .tex, .sty, etc files) written by me are released under [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html){:target="_blank"}
+- All images (pdf, png, svg, jpg, etc files) written by me are release under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="_blank"}
+- All files/images that are not written by me belong solely to their respective authors. These works are each licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="_blank"} or [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/){:target="_blank"}.
 
 ## Requests to users
 - If you think that this repository will be helpful for you, please feel free to edit it to suit your needs.
-- Following the terms of [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), please release any modified file open-source under the same license(s). Preferably, do it on GitHub.
+- Following the terms of [The GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html){:target="_blank"} and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="_blank"}, please release any modified file open-source under the same license(s). Preferably, do it on GitHub.
 
 ## Contents
