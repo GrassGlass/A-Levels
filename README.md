@@ -21,7 +21,7 @@ Hello there (insert Obi-Wan voice). This is my repository for my highschool note
 ## Contents
 The following links bring you to the respective PDFs for each subject, for ease of navigation. Simply click the download button if you want a download a copy. The source code is within the same folder.
 - A-Levels
-    - [H1 General Paper 8881](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)<space><space>
+    - [H1 General Paper 8881](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)  
 My GP notes contains a collection of environmental examples, and some notes on vocabulary. That's about it. I supplement mine with 
     - [H2 Physics 9749](https://github.com/GrassGlass/A-Levels/blob/main/Physics%20Defns%20and%20Derivations%20To%20Know/ALPhysics/ALPhys.pdf)
     - [H2 Math 9758 and H2 Further Math 9649](https://github.com/GrassGlass/A-Levels/blob/main/Math/Notes.pdf)
