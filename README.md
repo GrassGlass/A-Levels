@@ -21,12 +21,12 @@ Hello there (insert Obi-Wan voice). This is my repository for my highschool note
 ## Contents
 The following links bring you to the respective PDFs for each subject, for ease of navigation. Simply click the download button if you want a download a copy. The source code is within the same folder.
 - A-Levels
- - [H1 General Paper 8881](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)
- - [H2 Physics 9749](https://github.com/GrassGlass/A-Levels/blob/main/Physics%20Defns%20and%20Derivations%20To%20Know/ALPhysics/ALPhys.pdf)
- - [https://github.com/GrassGlass/A-Levels/blob/main/Math/Notes.pdf](H2 Math 9758 and H2 Further Math 9649)
+    - [H1 General Paper 8881](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)
+    - [H2 Physics 9749](https://github.com/GrassGlass/A-Levels/blob/main/Physics%20Defns%20and%20Derivations%20To%20Know/ALPhysics/ALPhys.pdf)
+    - [H2 Math 9758 and H2 Further Math 9649](https://github.com/GrassGlass/A-Levels/blob/main/Math/Notes.pdf)
 - O-Levels
- - [English 1128](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)
- - [Geography (Combined Humanities) 2272](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/SummaryOE/SummaryExamples.pdf)
- - [Pure Chemistry 6092 (Learning Points)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Chemistry%20Learning%20Points/Chemistry.pdf) (My handwritten content summary has been thrown away rip.)
- - [Pure Chemistry 6092 (Paper 3 Practical)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Chemistry%20Paper%203%20Notes%2022%20July%202022/Chemistry%20Paper%203%20Notes.pdf)
- - [Pure Physics 6091 (Paper 3 Practical)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Physics%20Paper%203%20Practical/Physics%20Paper%203%20Practical.pdf)
+    - [English 1128](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)
+    - [Geography (Combined Humanities) 2272](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/SummaryOE/SummaryExamples.pdf)
+    - [Pure Chemistry 6092 (Learning Points)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Chemistry%20Learning%20Points/Chemistry.pdf) (My handwritten content summary has been thrown away rip.)
+    - [Pure Chemistry 6092 (Paper 3 Practical)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Chemistry%20Paper%203%20Notes%2022%20July%202022/Chemistry%20Paper%203%20Notes.pdf)
+    - [Pure Physics 6091 (Paper 3 Practical)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Physics%20Paper%203%20Practical/Physics%20Paper%203%20Practical.pdf)
