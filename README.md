@@ -45,3 +45,37 @@ The following links bring you to the respective PDFs for each subject, for ease 
         - My school's resources, but I can't share those.
     - [Khan Academy](https://www.khanacademy.org/)
     - [Pauls' Online Math Notes](https://tutorial.math.lamar.edu/)
+- Pre-exam checklist
+    - GP
+        1. Pen 
+        2. Pencil 
+        3. Eraser 
+        4. ⭐ NRIC ⭐
+        5. ⭐ Entry proof ⭐
+        6. Water bottle
+        7. Attire: Full uniform
+    - Math 
+        1. Pen
+        2. Pencil
+        3. Eraser
+        4. Long ruler
+        5. Protractor
+        6. Compass
+        7. ⭐ NRIC ⭐
+        8. ⭐ Entry proof⭐
+        9. Calculator
+        10. Water bottle
+        11. Attire: Full uniform
+    - Physics
+        1. Pen 
+        2. Pencil 
+        3. Eraser 
+        4. Long ruler
+        5. Curved ruler 
+        6. Protractor 
+        7. Compass 
+        8. ⭐ NRIC ⭐ 
+        9. ⭐ Entry proof ⭐ 
+        10. Calculator 
+        11. Water bottle 
+        12. Attire: Full uniform
