@@ -30,7 +30,8 @@ The following links bring you to the respective PDFs for each subject, for ease 
     - [H1 General Paper 8881](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)  
     - [H2 Physics 9749](https://github.com/GrassGlass/A-Levels/blob/main/Physics%20Defns%20and%20Derivations%20To%20Know/ALPhysics/ALPhys.pdf)
     - [H2 Math 9758 and H2 Further Math 9649](https://github.com/GrassGlass/A-Levels/blob/main/Math/Notes.pdf)
-    - [H1 Economics 8843](https://github.com/GrassGlass/A-Levels/blob/main/H1%20Economics.pdf)
+    - [H1 Economics 8843](https://github.com/GrassGlass/A-Levels/blob/main/H1%20Economics.pdf)  
+*Note.* I removed my school's handouts which I used for my H1 Economics 8843 notes, since I don't have permission to upload them. So, it might not be fully complete.
 - O-Levels
     - [English 1128](https://github.com/GrassGlass/A-Levels/blob/main/English-GP/English.pdf)
     - [Geography (Combined Humanities) 2272](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/SummaryOE/SummaryExamples.pdf)
