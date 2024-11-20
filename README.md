@@ -38,14 +38,14 @@ The following links bring you to the respective PDFs for each subject, for ease 
     - [Pure Chemistry 6092 (Learning Points)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Chemistry%20Learning%20Points/Chemistry.pdf) (My handwritten content summary has been thrown away rip.)
     - [Pure Chemistry 6092 (Paper 3 Practical)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Chemistry%20Paper%203%20Notes%2022%20July%202022/Chemistry%20Paper%203%20Notes.pdf)
     - [Pure Physics 6091 (Paper 3 Practical)](https://github.com/GrassGlass/A-Levels/blob/main/OLs%20(Archive)/Physics%20Paper%203%20Practical/Physics%20Paper%203%20Practical.pdf)
-- Other resources
+## Other resources
     - My GP notes contains a collection of environmental examples, and some notes on vocabulary. That's about it. I supplement mine with 
         - [https://www.gpstudynotes.com/](https://www.gpstudynotes.com/)
         - [GP.sg](https://gp.sg/)
         - My school's resources, but I can't share those.
     - [Khan Academy](https://www.khanacademy.org/)
     - [Pauls' Online Math Notes](https://tutorial.math.lamar.edu/)
-- Pre-exam checklist
+## Pre-exam checklist
     - GP
         1. Pen 
         2. Pencil 
@@ -79,3 +79,13 @@ The following links bring you to the respective PDFs for each subject, for ease 
         10. Calculator 
         11. Water bottle 
         12. Attire: Full uniform
+    - H1 Economics 
+        1. Pen 
+        2. Pencil 
+        3. Eraser 
+        4. Long ruler 
+        5. ⭐ NRIC ⭐  
+        6. ⭐ Entry proof ⭐  
+        7. Calculator 
+        8. Water bottle 
+        9. Attire: Full uniform
