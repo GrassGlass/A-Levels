@@ -54,18 +54,6 @@ The following links bring you to the respective PDFs for each subject, for ease 
     5. ⭐ Entry proof ⭐
     6. Water bottle
     7. Attire: Full uniform
-- Math 
-    1. Pen
-    2. Pencil
-    3. Eraser
-    4. Long ruler
-    5. Protractor
-    6. Compass
-    7. ⭐ NRIC ⭐
-    8. ⭐ Entry proof⭐
-    9. Calculator
-    10. Water bottle
-    11. Attire: Full uniform
 - Physics
     1. Pen 
     2. Pencil 
@@ -79,6 +67,18 @@ The following links bring you to the respective PDFs for each subject, for ease 
     10. Calculator 
     11. Water bottle 
     12. Attire: Full uniform
+- Math 
+    1. Pen
+    2. Pencil
+    3. Eraser
+    4. Long ruler
+    5. Protractor
+    6. Compass
+    7. ⭐ NRIC ⭐
+    8. ⭐ Entry proof⭐
+    9. Calculator
+    10. Water bottle
+    11. Attire: Full uniform
 - H1 Economics 
     1. Pen 
     2. Pencil 
