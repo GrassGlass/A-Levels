@@ -1,2 +1,33 @@
-My open source A-Levels notes. Feel free to make a copy of my code and edit it to suit your needs. But please read the licensing terms and conditions to do so.
-Note that I sometimes write things in ways that are not in line with the syllabus requirements, but which satisfy me. Don't use my notes blindly.
+# Foobar
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
