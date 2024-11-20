@@ -46,7 +46,7 @@ The following links bring you to the respective PDFs for each subject, for ease 
     - [Khan Academy](https://www.khanacademy.org/)
     - [Pauls' Online Math Notes](https://tutorial.math.lamar.edu/)
 - Pre-exam checklist
-    --- GP
+    - GP
         1. Pen 
         2. Pencil 
         3. Eraser 
@@ -54,7 +54,7 @@ The following links bring you to the respective PDFs for each subject, for ease 
         5. ⭐ Entry proof ⭐
         6. Water bottle
         7. Attire: Full uniform
-    --- Math 
+    - Math 
         1. Pen
         2. Pencil
         3. Eraser
@@ -66,7 +66,7 @@ The following links bring you to the respective PDFs for each subject, for ease 
         9. Calculator
         10. Water bottle
         11. Attire: Full uniform
-    --- Physics
+    - Physics
         1. Pen 
         2. Pencil 
         3. Eraser 
