@@ -33,5 +33,7 @@ The following links bring you to the respective PDFs for each subject, for ease 
 - Other resources
     - My GP notes contains a collection of environmental examples, and some notes on vocabulary. That's about it. I supplement mine with 
         - [https://www.gpstudynotes.com/](https://www.gpstudynotes.com/)
-        - [https://gp.sg/](https://gp.sg/)
+        - [GP.sg](https://gp.sg/)
         - My school's resources, but I can't share those.
+    - [Khan Academy](https://www.khanacademy.org/)
+    - [Pauls' Online Math Notes](https://tutorial.math.lamar.edu/)
